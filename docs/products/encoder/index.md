@@ -1,80 +1,28 @@
 ---
 title: "编码器芯片"
+description: "霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片"
+aside: false
+pageClass: "c-page"
 ---
+
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><span>编码器芯片</span></nav>
+
+<p class="c-kicker">产品中心</p>
+
 # 编码器芯片
 
-## 21 位高分辨率、高精度在轴磁性角度编码器 IC — 52系列
+<p class="c-lead">霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p>
 
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1779877949476.png" alt=""></div><div class="ct-row-body">
+<div class="c-stats"><div class="c-stat"><b>7</b><span>产品系列</span></div><div class="c-stat"><b>25</b><span>份技术文档</span></div><div class="c-stat"><b>2</b><span>个产品视频</span></div></div>
 
-KTM5200 提供 4 线 SPI 接口，供上位机或 MCU 读取芯片内部 21 位绝对角度数据，并支持通过单线 PWM 输出绝对角度数据。其核心优势是用户侧一键自校准，可补偿磁铁不理想和安装偏差引入的非线性误差，显著改善 INL 特性。
+## 产品系列
 
-[了解产品详情 →](/products/encoder/ktm52)
+<p class="c-sec-lead">覆盖霍尔（KTH78、KTH71）、AMR（KTM52、KTM53）、TMR（KTM59）磁编码器，KTM58 细分器与 KTO95 光学编码器，分辨率 16 ~ 30 bit。</p>
 
-</div></div>
+<div class="c-rows"><a class="c-row" href="/msite/products/encoder/ktm52"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm52.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM52 系列</span><h3>21 位高精度 AMR 角度编码器</h3><p>21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm</p><div class="c-minispecs"><span><b>21 bit</b>分辨率</span><span><b>±0.015°（校准后典型值）</b>精度</span><span><b>60000 rpm</b>转速</span><span><b>3 ~ 5.5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/ktm53"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm53.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM53 系列</span><h3>离轴 AMR 角度编码器</h3><p>AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）</p><div class="c-minispecs"><span><b>21 bit</b>分辨率</span><span><b>±0.03°（离轴校准后典型值）</b>精度</span><span><b>60000 rpm</b>转速</span><span><b>3 ~ 5.5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/ktm58"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm58.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM58 系列</span><h3>30 bit 绝对角度细分器</h3><p>最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅</p><div class="c-minispecs"><span><b>30 bit</b>分辨率</span><span><b>±0.02°（非线性误差）</b>精度</span><span><b>180,000 rpm</b>转速</span><span><b>3 ~ 5.5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/ktm59"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm59.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM59 系列</span><h3>高速 TMR 磁编码器</h3><p>双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p><div class="c-minispecs"><span><b>24 bit</b>分辨率</span><span><b>±0.02°（在轴）</b>精度</span><span><b>180,000 rpm</b>转速</span><span><b>3 ~ 5.5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/kth78"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><div class="c-minispecs"><span><b>16 bit</b>分辨率</span><span><b>±0.35°（在轴）</b>精度</span><span><b>120,000 rpm</b>转速</span><span><b>3.3 V / 5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/kth71"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth71.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH71 系列</span><h3>自校准霍尔磁编码器</h3><p>内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°</p><div class="c-minispecs"><span><b>16 bit</b>分辨率</span><span><b>±0.1°（在轴校准后）</b>精度</span><span><b>120,000 rpm</b>转速</span><span><b>3.3 V / 5 V</b>电压</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/encoder/kto95"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kto95.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTO95 系列</span><h3>游标绝对值光学编码器</h3><p>集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率</p><div class="c-minispecs"><span><b>24 bit</b>分辨率</span><span><b>6 对模拟差分输出</b>接口</span><span><b>32-pin optoQFN</b>封装</span><span><b>4.1 ~ 5.5 V（模拟）</b>电压</span></div><span class="c-card__more">查看详情</span></div></a></div>
 
-## 高速高精度离轴AMR磁编码器芯片 —— 53系列
+## 其他产品线
 
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1779878216107.png" alt=""></div><div class="ct-row-body">
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/3d-hall/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-3d-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2 个系列</span><h3>3D霍尔芯片</h3><p>感知 X、Y、Z 三轴磁场，用于角度与位移检测</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/switch/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-switch.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">8 个系列</span><h3>开关芯片</h3><p>霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/other/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-other.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>其他芯片</h3><p>面向传感器信号放大的零温漂高精度运放</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/knob/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
 
-KTM5300 提供 4 线 SPI 接口，供上位机或 MCU读取芯片内部 21 位绝对角度数据，并支持通过单线 PWM 输出绝对角度数据。其核心优势是用户侧一键自校准，可补偿磁铁不理想和安装偏差引入的非线性误差，显著改善 INL 特性。
-
-[了解产品详情 →](/products/encoder/ktm53)
-
-</div></div>
-
-## 30bit 绝对角度细分器 - KTM58 系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760693879963.png" alt=""></div><div class="ct-row-body">
-
-KTM5800 是一款 30bit 绝对角度细分 4096 对极编码细分器，可以与磁电阻传感器（AMR/TMR）搭配，构成一个高速高精度的非接触磁性编码器模块。它具有以非常高的采样速率读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算， 并输出位置信息。此外，KTM5800 还可以搭配其他传感器如光编/光栅/磁栅等，一圈或一个绝对机械周期允许最大 12bit（4096 线）多极对输入。
-
-[了解产品详情 →](/products/encoder/ktm58)
-
-</div></div>
-
-## 高速高分辨率TMR磁编码器芯片- KTM59系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1754979409718.png" alt=""></div><div class="ct-row-body">
-
-KTM5900 是一款 24bit 绝对角度 TMR 磁性编码器，构成一个高速高精度的非接触磁性编码器模块。它具有最高 2M 采样速率的 16bit SAR ADC 读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算，并输出位置信息。
-
-[了解产品详情 →](/products/encoder/ktm59)
-
-</div></div>
-
-## 高速高分辨率磁编码角度传感器 - KTH78系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1692955826595.jpg" alt=""></div><div class="ct-row-body">
-
-昆泰芯KTH78xx系列是一种16位分辨率高精度低延时霍尔绝对角度编码器，可以测量XY两个方向的平面磁场分量。该传感器支持四线制SPI绝对角度输出（CRC输出校验可选），两线制SSI绝对角度输出，可编程4-4096步/圈ABZ增量输出，可编程1-8对极UVW增量输出，PWM占空比角度输出。芯片集成报警功能，用户可根据需求编辑磁场过低、过高的报警阈值。
-
-[了解产品详情 →](/products/encoder/kth78)
-
-</div></div>
-
-## 16 位高速高精度磁编码器 - KTH71系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760937016155.png" alt=""></div><div class="ct-row-body">
-
-KTH7101 是一款高速高精度的磁编码器，内置了先进的自动非线性校准（ANLC）功能。
-
-用户可通过写入寄存器或引脚触发校准流程，芯片能够自动完成传感器非线性误差的测
-
-量与补偿参数计算，并将校准结果存入内部 MTP（多次可编程存储器）。此功能无需复
-
-杂外部干预，可显著提升角度测量的线性度， 实现优于 ±0.1° 的绝对精度。
-
-[了解产品详情 →](/products/encoder/kth71)
-
-</div></div>
-
-## 游标绝对值光学旋转编码器芯片 - KTO95系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760936805032.jpg" alt=""></div><div class="ct-row-body">
-
-KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电传感器，提供了优秀的信号保真度，并具有较宽松的对准容差。该系列设备输出精确的正弦/余弦信号，允许后续设备进高分辨率插值，具体型号可以通过三通道 Nonius 插值实现高达 24 位的单圈位置分辨率。
-
-[了解产品详情 →](/products/encoder/kto95)
-
-</div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

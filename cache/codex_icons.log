@@ -1,0 +1,620 @@
+Reading additional input from stdin...
+OpenAI Codex v0.144.3
+--------
+workdir: D:\VerySync\VerySync_works\conntek-vitepress
+model: gpt-5.6-luna
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: medium
+reasoning summaries: none
+session id: 01a0a4b5-bb4a-7fa1-9df3-c7968fcd51cc
+--------
+user
+为一个磁传感器芯片公司的产品官网生成一整套风格完全统一的产品图标（共 28 张 PNG）。
+
+## 统一风格（每张都必须严格一致）
+
+- 等轴测（isometric，30°）扁平插画风，干净、精致、现代，类似高端半导体公司官网的产品图标
+- 配色只用：品牌红 #C30D23、深石板灰 #2B3440、中灰 #8A94A3、浅灰 #E6E9EE、白色；磁场/信号线可用淡红 #F2A7AF
+- 主体居中，占画面约 70%，四周留白一致；同一视角、同一光照方向（左上方柔光）、同样的细描边粗细
+- **背景完全透明**（PNG 带 alpha 通道）；如果做不到透明，就用纯白 #FFFFFF 背景，不要任何阴影地面、渐变、边框
+- **画面里不要出现任何文字、字母、数字、logo、型号丝印**
+- 尺寸 1024×1024，正方形
+
+## 每张的主体内容与文件名
+
+保存到目录 D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ ，文件名如下：
+
+产品（芯片都画成小型黑灰色 QFN/SOP 封装，配一个说明用途的元素）：
+1. kth57.png — 小芯片上方悬浮一个游戏摇杆帽，周围三根互相垂直的 X/Y/Z 坐标箭头（不写字母）
+2. kth55.png — 小芯片上方一块圆柱形磁铁，磁铁一半红一半灰，外圈一道 360° 圆弧箭头
+3. ktm52.png — 电机转轴末端的圆柱磁铁正对下方芯片（在轴），细红色磁力线
+4. ktm53.png — 圆环形磁铁，芯片放在磁环侧边外侧（离轴），细红色磁力线
+5. ktm58.png — 芯片连接一条多对极磁栅条（红灰交替的条纹），旁边一条细正弦波信号线
+6. ktm59.png — 芯片上方一个高速旋转的圆盘，带运动速度线，芯片表面一道高亮扫描线
+7. kth78.png — 芯片与一个无刷电机转子，转子旁一道弧形快速箭头，体现高速低延时
+8. kth71.png — 芯片与一个圆形刻度盘，刻度盘上一个红色对勾/校准指针，体现自动校准
+9. kto95.png — 透明光栅码盘（同心圆刻线），下方芯片，一束浅红色光线穿过码盘
+10. kth16.png — 极小的三脚 SOT 芯片，上方一个小磁铁，旁边一个开/关拨动开关符号
+11. kth25.png — 小芯片与一个汽车门把手或汽车轮廓局部，一道闪电形状表示高压
+12. ktm13.png — 芯片与一台半开合的笔记本电脑（盖开关），细磁力线
+13. ktm28.png — 工业气缸（圆柱活塞杆），侧面贴着一个小长条形传感器
+14. kth31.png — 芯片上方一条从左到右线性上升的直线折线图，代表线性输出
+15. kth460.png — 芯片被三根 X/Y/Z 方向的短磁场箭头包围，外面一圈淡红色球形磁场
+16. kth462.png — 芯片在一个平面内，两根互相垂直的双向箭头（二维）
+17. ktax33.png — 运算放大器的三角形符号（立体扁平化），输入端小波形、输出端放大后的波形
+18. knob.png — 一个金属质感的圆形旋钮，底座上一圈红色刻度光环
+19. linear-hall.png — 芯片与一个条形磁铁，磁铁在滑轨上左右平移，旁边线性刻度
+
+类目（比产品图标更概括，同样风格）：
+20. cat-3d-hall.png — 一个立方体坐标系三轴箭头环绕一颗芯片
+21. cat-encoder.png — 一个圆形编码器码盘与转轴，外圈刻度
+22. cat-switch.png — 一个磁铁靠近芯片，旁边一个拨动开关
+23. cat-other.png — 运算放大器三角形符号与信号波形
+24. cat-knob.png — 圆形旋钮与刻度光环
+
+应用领域：
+25. app-consumer-electronics.png — 一副无线耳机与一部折叠屏手机
+26. app-intelligent-life.png — 一扇智能门锁与一台咖啡机
+27. app-industry4.png — 一台工业机械臂
+28. app-intelligent-transportation.png — 一辆现代电动汽车侧前方
+
+## 要求
+
+- 28 张必须看起来像同一位设计师一次性画出的同一套图标
+- 全部生成完再结束；每张保存后确认文件存在且是 1024×1024 PNG
+- 最后列出所有生成的文件路径
+codex
+我会先读取图像生成规范，并检查知识库里与该官网图标项目相关的约定；随后按统一母版风格批量生成 28 张，并逐张核验尺寸、PNG 格式与透明通道。
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-Content -Raw 'D:\\VerySync\\CODEX\\skills\\.system\\imagegen\\SKILL.md'; Write-Output '---MEMORY---'; rg -n -i \"conntek-vitepress|产品图标|icon|磁传感器\" 'D:\\VerySync\\CODEX\\memories\\MEMORY.md'; Write-Output '---NOTES AGENTS---'; Get-Content -Raw 'D:\\VerySync\\VerySync_notes\\AGENTS.md'" in D:\VerySync\VerySync_works\conntek-vitepress
+ succeeded in 1448ms:
+---
+name: "imagegen"
+description: "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas."
+---
+
+# Image Generation Skill
+
+Generates or edits images for the current project (for example website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, or infographics).
+
+## Top-level modes and rules
+
+This skill has exactly two top-level modes:
+
+- **Default built-in tool mode (preferred):** built-in `image_gen` tool for normal image generation, editing, and simple transparent-image requests. Does not require `OPENAI_API_KEY`.
+- **Fallback CLI mode:** `scripts/image_gen.py` CLI. Use when the user explicitly asks for the CLI/API/model path, or after the user explicitly confirms a true model-native transparency fallback with `gpt-image-1.5`. Requires `OPENAI_API_KEY`.
+
+Within CLI fallback, the CLI exposes three subcommands:
+
+- `generate`
+- `edit`
+- `generate-batch`
+
+Rules:
+- Use the built-in `image_gen` tool by default for normal image generation and editing requests.
+- Do not switch to CLI fallback for ordinary quality, size, or file-path control.
+- If the user explicitly asks for a transparent image/background, stay on built-in `image_gen` first: prompt for a flat removable chroma-key background, then remove it locally with the installed helper at `$CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py`.
+- Never silently switch from built-in `image_gen` or CLI `gpt-image-2` to CLI `gpt-image-1.5`. Treat this as a model/path downgrade and ask the user before doing it, unless the user has already explicitly requested `gpt-image-1.5`, `scripts/image_gen.py`, or CLI fallback.
+- If a transparent request appears too complex for clean chroma-key removal, asks for true/native transparency, or local removal fails validation, explain that true transparency requires CLI `gpt-image-1.5 --background transparent --output-format png` because `gpt-image-2` does not support `background=transparent`, then ask whether to proceed. Run the CLI fallback only after the user confirms.
+- The word `batch` by itself does not mean CLI fallback. If the user asks for many assets or says to batch-generate assets without explicitly asking for CLI/API/model controls, stay on the built-in path and issue one built-in call per requested asset or variant.
+- If the built-in tool fails or is unavailable, tell the user the CLI fallback exists and that it requires `OPENAI_API_KEY`. Proceed only if the user explicitly asks for that fallback.
+- If the user explicitly asks for CLI mode, use the bundled `scripts/image_gen.py` workflow. Do not create one-off SDK runners.
+- Never modify `scripts/image_gen.py`. If something is missing, ask the user before doing anything else.
+
+Built-in save-path policy:
+- In built-in tool mode, Codex saves generated images under `$CODEX_HOME/*` by default.
+- Do not describe or rely on OS temp as the default built-in destination.
+- Do not describe or rely on a destination-path argument (if any) on the built-in `image_gen` tool. If a specific location is needed, generate first and then move or copy the selected output from `$CODEX_HOME/generated_images/...`.
+- Save-path precedence in built-in mode:
+  1. If the user names a destination, move or copy the selected output there.
+  2. If the image is meant for the current project, move or copy the final selected image into the workspace before finishing.
+  3. If the image is only for preview or brainstorming, render it inline; the underlying file can remain at the default `$CODEX_HOME/*` path.
+- Never leave a project-referenced asset only at the default `$CODEX_HOME/*` path.
+- Do not overwrite an existing asset unless the user explicitly asked for replacement; otherwise create a sibling versioned filename such as `hero-v2.png` or `item-icon-edited.png`.
+
+Shared prompt guidance for both modes lives in `references/prompting.md` and `references/sample-prompts.md`.
+
+Fallback-only docs/resources for CLI mode:
+- `references/cli.md`
+- `references/image-api.md`
+- `references/codex-network.md`
+- `scripts/image_gen.py`
+
+Local post-processing helper:
+- `$CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py`: removes a flat chroma-key background from a generated image and writes a PNG/WebP with alpha. Prefer auto-key sampling, soft matte, and despill for antialiased edges.
+
+## When to use
+- Generate a new image (concept art, product shot, cover, website hero)
+- Generate a new image using one or more reference images for style, composition, or mood
+- Edit an existing image (inpainting, lighting or weather transformations, background replacement, object removal, compositing, transparent background)
+- Produce many assets or variants for one task
+
+## When not to use
+- Extending or matching an existing SVG/vector icon set, logo system, or illustration library inside the repo
+- Creating simple shapes, diagrams, wireframes, or icons that are better produced directly in SVG, HTML/CSS, or canvas
+- Making a small project-local asset edit when the source file already exists in an editable native format
+- Any task where the user clearly wants deterministic code-native output instead of a generated bitmap
+
+## Decision tree
+
+Think about two separate questions:
+
+1. **Intent:** is this a new image or an edit of an existing image?
+2. **Execution strategy:** is this one asset or many assets/variants?
+
+Intent:
+- If the user wants to modify an existing image while preserving parts of it, treat the request as **edit**.
+- If the user provides images only as references for style, composition, mood, or subject guidance, treat the request as **generate**.
+- If the user provides no images, treat the request as **generate**.
+
+Built-in edit semantics:
+- Built-in edit mode is for images already visible in the conversation context, such as attached images or images generated earlier in the thread.
+- If the user wants to edit a local image file with the built-in tool, first load it with built-in `view_image` tool so the image is visible in the conversation context, then proceed with the built-in edit flow.
+- Do not promise arbitrary filesystem-path editing through the built-in tool.
+- If a local file still needs direct file-path control, masks, or other explicit CLI-only parameters, use the explicit CLI fallback only when the user asks for it.
+- For edits, preserve invariants aggressively and save non-destructively by default.
+
+Execution strategy:
+- In the built-in default path, produce many assets or variants by issuing one `image_gen` call per requested asset or variant.
+- In the CLI fallback path, use the CLI `generate-batch` subcommand only when the user explicitly chose CLI mode and needs many prompts/assets.
+- For many distinct assets, do not use `n` as a substitute for separate prompts. `n` is for variants of one prompt; distinct assets need distinct built-in calls or distinct CLI `generate-batch` jobs.
+
+Assume the user wants a new image unless they clearly ask to change an existing one.
+
+## Workflow
+1. Decide the top-level mode: built-in by default, including simple transparent-output requests; fallback CLI only if explicitly requested or after the user explicitly confirms a transparent-output fallback.
+2. Decide the intent: `generate` or `edit`.
+3. Decide whether the output is preview-only or meant to be consumed by the current project.
+4. Decide the execution strategy: single asset vs repeated built-in calls vs CLI `generate-batch`.
+5. Collect inputs up front: prompt(s), exact text (verbatim), constraints/avoid list, and any input images.
+6. For every input image, label its role explicitly:
+   - reference image
+   - edit target
+   - supporting insert/style/compositing input
+7. If the edit target is only on the local filesystem and you are staying on the built-in path, inspect it with `view_image` first so the image is available in conversation context.
+8. If the user asked for a photo, illustration, sprite, product image, banner, or other explicitly raster-style asset, use `image_gen` rather than substituting SVG/HTML/CSS placeholders. If the request is for an icon, logo, or UI graphic that should match existing repo-native SVG/vector/code assets, prefer editing those directly instead.
+9. Augment the prompt based on specificity:
+   - If the user's prompt is already specific and detailed, normalize it into a clear spec without adding creative requirements.
+   - If the user's prompt is generic, add tasteful augmentation only when it materially improves output quality.
+10. Use the built-in `image_gen` tool by default.
+11. For transparent-output requests, follow the transparent image guidance below: generate with built-in `image_gen` on a flat chroma-key background, copy the selected output into the workspace or `tmp/imagegen/`, run the installed `$CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py` helper, and validate the alpha result before using it. If this path looks unsuitable or fails, ask before switching to CLI `gpt-image-1.5`.
+12. Inspect outputs and validate: subject, style, composition, text accuracy, and invariants/avoid items.
+13. Iterate with a single targeted change, then re-check.
+14. For preview-only work, render the image inline; the underlying file may remain at the default `$CODEX_HOME/generated_images/...` path.
+15. For project-bound work, move or copy the selected artifact into the workspace and update any consuming code or references. Never leave a project-referenced asset only at the default `$CODEX_HOME/generated_images/...` path.
+16. For batches or multi-asset requests, persist every requested deliverable final in the workspace unless the user explicitly asked to keep outputs preview-only. Discarded variants do not need to be kept unless requested.
+17. If the user explicitly chooses or confirms the CLI fallback, then use the fallback-only docs for model, quality, size, `input_fidelity`, masks, output format, output paths, and network setup.
+18. Always report the final saved path(s) for any workspace-bound asset(s), plus the final prompt or prompt set and whether the built-in tool or fallback CLI mode was used.
+
+## Transparent image requests
+
+Transparent-image requests still use built-in `image_gen` first. Because the built-in tool does not expose a true transparent-background control, create a removable chroma-key source image and then convert the key color to alpha locally.
+
+Default sequence:
+1. Use built-in `image_gen` to generate the requested subject on a perfectly flat solid chroma-key background.
+2. Choose a key color that is unlikely to appear in the subject: default `#00ff00`, use `#ff00ff` for green subjects, and avoid `#0000ff` for blue subjects.
+3. After generation, move or copy the selected source image from `$CODEX_HOME/generated_images/...` into the workspace or `tmp/imagegen/`.
+4. Run the installed helper path, not a project-relative script path:
+   ```bash
+   python "${CODEX_HOME:-$HOME/.codex}/skills/.system/imagegen/scripts/remove_chroma_key.py" \
+     --input <source> \
+     --out <final.png> \
+     --auto-key border \
+     --soft-matte \
+     --transparent-threshold 12 \
+     --opaque-threshold 220 \
+     --despill
+   ```
+5. Validate that the output has an alpha channel, transparent corners, plausible subject coverage, and no obvious key-color fringe. If a thin fringe remains, retry once with `--edge-contract 1`; use `--edge-feather 0.25` only when the edge is visibly stair-stepped and the subject is not shiny or reflective.
+6. Save the final alpha PNG/WebP in the project if the asset is project-bound. Never leave a project-referenced transparent asset only under `$CODEX_HOME/*`.
+
+Prompt transparent requests like this:
+
+```text
+Create the requested subject on a perfectly flat solid #00ff00 chroma-key background for background removal.
+The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation.
+Keep the subject fully separated from the background with crisp edges and generous padding.
+Do not use #00ff00 anywhere in the subject.
+No cast shadow, no contact shadow, no reflection, no watermark, and no text unless explicitly requested.
+```
+
+Do not automatically use CLI `gpt-image-1.5 --background transparent --output-format png` instead of chroma keying. Ask the user first when the user asks for true/native transparency, when local removal fails validation, or when the requested image is complex: hair, fur, feathers, smoke, glass, liquids, translucent materials, reflective objects, soft shadows, realistic product grounding, or subject colors that conflict with all practical key colors.
+
+Use a concise confirmation like:
+
+```text
+This likely needs true native transparency. The default built-in path uses a chroma-key background plus local removal, but true transparency requires the CLI fallback with gpt-image-1.5 because gpt-image-2 does not support background=transparent. It also requires OPENAI_API_KEY. Should I proceed with that CLI fallback?
+```
+
+## Prompt augmentation
+
+Reformat user prompts into a structured, production-oriented spec. Make the user's goal clearer and more actionable, but do not blindly add detail.
+
+Treat this as prompt-shaping guidance, not a closed schema. Use only the lines that help, and add a short extra labeled line when it materially improves clarity.
+
+### Specificity policy
+
+Use the user's prompt specificity to decide how much augmentation is appropriate:
+
+- If the prompt is already specific and detailed, preserve that specificity and only normalize/structure it.
+- If the prompt is generic, you may add tasteful augmentation when it will materially improve the result.
+
+Allowed augmentations:
+- composition or framing hints
+- polish level or intended-use hints
+- practical layout guidance
+- reasonable scene concreteness that supports the stated request
+
+Not allowed augmentations:
+- extra characters or objects that are not implied by the request
+- brand names, slogans, palettes, or narrative beats that are not implied
+- arbitrary side-specific placement unless the surrounding layout supports it
+
+## Use-case taxonomy (exact slugs)
+
+Classify each request into one of these buckets and keep the slug consistent across prompts and references.
+
+Generate:
+- photorealistic-natural 鈥?candid/editorial lifestyle scenes with real texture and natural lighting.
+- product-mockup 鈥?product/packaging shots, catalog imagery, merch concepts.
+- ui-mockup 鈥?app/web interface mockups and wireframes; specify the desired fidelity.
+- infographic-diagram 鈥?diagrams/infographics with structured layout and text.
+- scientific-educational 鈥?classroom explainers, scientific diagrams, and learning visuals with required labels and accuracy constraints.
+- ads-marketing 鈥?campaign concepts and ad creatives with audience, brand position, scene, and exact tagline/copy.
+- productivity-visual 鈥?slide, chart, workflow, and data-heavy business visuals.
+- logo-brand 鈥?logo/mark exploration, vector-friendly.
+- illustration-story 鈥?comics, children鈥檚 book art, narrative scenes.
+- stylized-concept 鈥?style-driven concept art, 3D/stylized renders.
+- historical-scene 鈥?period-accurate/world-knowledge scenes.
+
+Edit:
+- text-localization 鈥?translate/replace in-image text, preserve layout.
+- identity-preserve 鈥?try-on, person-in-scene; lock face/body/pose.
+- precise-object-edit 鈥?remove/replace a specific element (including interior swaps).
+- lighting-weather 鈥?time-of-day/season/atmosphere changes only.
+- background-extraction 鈥?transparent background / clean cutout. Use built-in `image_gen` with chroma-key removal first for simple opaque subjects; ask before using CLI true transparency for complex subjects.
+- style-transfer 鈥?apply reference style while changing subject/scene.
+- compositing 鈥?multi-image insert/merge with matched lighting/perspective.
+- sketch-to-render 鈥?drawing/line art to photoreal render.
+
+## Shared prompt schema
+
+Use the following labeled spec as shared prompt scaffolding for both top-level modes:
+
+```text
+Use case: <taxonomy slug>
+Asset type: <where the asset will be used>
+Primary request: <user's main prompt>
+Input images: <Image 1: role; Image 2: role> (optional)
+Scene/backdrop: <environment>
+Subject: <main subject>
+Style/medium: <photo/illustration/3D/etc>
+Composition/framing: <wide/close/top-down; placement>
+Lighting/mood: <lighting + mood>
+Color palette: <palette notes>
+Materials/textures: <surface details>
+Text (verbatim): "<exact text>"
+Constraints: <must keep/must avoid>
+Avoid: <negative constraints>
+```
+
+Notes:
+- `Asset type` and `Input images` are prompt scaffolding, not dedicated CLI flags.
+- `Scene/backdrop` refers to the visual setting. It is not the same as the fallback CLI `background` parameter, which controls output transparency behavior.
+- Fallback-only execution notes such as `Quality:`, `Input fidelity:`, masks, output format, and output paths belong in the CLI path only. Do not treat them as built-in `image_gen` tool arguments.
+
+Augmentation rules:
+- Keep it short.
+- Add only the details needed to improve the prompt materially.
+- For edits, explicitly list invariants (`change only X; keep Y unchanged`).
+- If any critical detail is missing and blocks success, ask a question; otherwise proceed.
+
+## Examples
+
+### Generation example (hero image)
+```text
+Use case: product-mockup
+Asset type: landing page hero
+Primary request: a minimal hero image of a ceramic coffee mug
+Style/medium: clean product photography
+Composition/framing: wide composition with usable negative space for page copy if needed
+Lighting/mood: soft studio lighting
+Constraints: no logos, no text, no watermark
+```
+
+### Edit example (invariants)
+```text
+Use case: precise-object-edit
+Asset type: product photo background replacement
+Primary request: replace only the background with a warm sunset gradient
+Constraints: change only the background; keep the product and its edges unchanged; no text; no watermark
+```
+
+## Prompting best practices
+- Structure prompt as scene/backdrop -> subject -> details -> constraints.
+- Include intended use (ad, UI mock, infographic) to set the mode and polish level.
+- Use camera/composition language for photorealism.
+- Only use SVG/vector stand-ins when the user explicitly asked for vector output or a non-image placeholder.
+- Quote exact text and specify typography + placement.
+- For tricky words, spell them letter-by-letter and require verbatim rendering.
+- For multi-image inputs, reference images by index and describe how they should be used.
+- For edits, repeat invariants every iteration to reduce drift.
+- Iterate with single-change follow-ups.
+- If the prompt is generic, add only the extra detail that will materially help.
+- If the prompt is already detailed, normalize it instead of expanding it.
+- For CLI fallback only, see `references/cli.md` and `references/image-api.md` for model, `quality`, `input_fidelity`, masks, output format, and output-path guidance.
+- For transparent images, use the built-in-first chroma-key workflow unless the request is complex enough to need true CLI transparency; ask before switching to CLI `gpt-image-1.5`.
+
+More principles shared by both modes: `references/prompting.md`.
+Copy/paste specs shared by both modes: `references/sample-prompts.md`.
+
+## Guidance by asset type
+Asset-type templates (website assets, game assets, wireframes, logo) are consolidated in `references/sample-prompts.md`.
+
+## gpt-image-2 guidance for CLI fallback
+
+The fallback CLI defaults to `gpt-image-2`.
+
+- Use `gpt-image-2` for new CLI/API workflows unless the request needs true model-native transparent output.
+- If a transparent request may need CLI fallback, ask before using `gpt-image-1.5` unless the user already explicitly requested `gpt-image-1.5`, `scripts/image_gen.py`, or CLI fallback. Explain that the built-in chroma-key path is the default, but true transparency requires `gpt-image-1.5` because `gpt-image-2` does not support `background=transparent`.
+- `gpt-image-2` always uses high fidelity for image inputs; do not set `input_fidelity` with this model.
+- `gpt-image-2` supports `quality` values `low`, `medium`, `high`, and `auto`.
+- Use `quality low` for fast drafts, thumbnails, and quick iterations. Use `medium`, `high`, or `auto` for final assets, dense text, diagrams, identity-sensitive edits, or high-resolution outputs.
+- Square images are typically fastest to generate. Use `1024x1024` for fast square drafts.
+- If the user asks for 4K-style output, use `3840x2160` for landscape or `2160x3840` for portrait.
+- `gpt-image-2` size may be `auto` or `WIDTHxHEIGHT` if all constraints hold: max edge `<= 3840px`, both edges multiples of `16px`, long-to-short ratio `<= 3:1`, total pixels between `655,360` and `8,294,400`.
+
+Popular `gpt-image-2` sizes:
+- `1024x1024` square
+- `1536x1024` landscape
+- `1024x1536` portrait
+- `2048x2048` 2K square
+- `2048x1152` 2K landscape
+- `3840x2160` 4K landscape
+- `2160x3840` 4K portrait
+- `auto`
+
+## Fallback CLI mode only
+
+### Temp and output conventions
+These conventions apply only to the CLI fallback. They do not describe built-in `image_gen` output behavior.
+- Use `tmp/imagegen/` for intermediate files (for example JSONL batches); delete them when done.
+- Write final artifacts under `output/imagegen/`.
+- Use `--out` or `--out-dir` to control output paths; keep filenames stable and descriptive.
+
+### Dependencies
+Prefer `uv` for dependency management in this repo.
+
+Required Python package:
+```bash
+uv pip install openai
+```
+
+Required for local chroma-key removal and optional downscaling:
+```bash
+uv pip install pillow
+```
+
+Portability note:
+- If you are using the installed skill outside this repo, install dependencies into that environment with its package manager.
+- In uv-managed environments, `uv pip install ...` remains the preferred path.
+
+### Environment
+- `OPENAI_API_KEY` must be set for live API calls.
+- Do not ask the user for `OPENAI_API_KEY` when using the built-in `image_gen` tool.
+- Never ask the user to paste the full key in chat. Ask them to set it locally and confirm when ready.
+
+If the key is missing, give the user these steps:
+1. Create an API key in the OpenAI platform UI: https://platform.openai.com/api-keys
+2. Set `OPENAI_API_KEY` as an environment variable in their system.
+3. Offer to guide them through setting the environment variable for their OS/shell if needed.
+
+If installation is not possible in this environment, tell the user which dependency is missing and how to install it into their active environment.
+
+### Script-mode notes
+- CLI commands + examples: `references/cli.md`
+- API parameter quick reference: `references/image-api.md`
+- Network approvals / sandbox settings for CLI mode: `references/codex-network.md`
+
+## Reference map
+- `references/prompting.md`: shared prompting principles for both modes.
+- `references/sample-prompts.md`: shared copy/paste prompt recipes for both modes.
+- `references/cli.md`: fallback-only CLI usage via `scripts/image_gen.py`.
+- `references/image-api.md`: fallback-only API/CLI parameter reference.
+- `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
+- `scripts/image_gen.py`: fallback-only CLI implementation. Do not load or use it unless the user explicitly chooses CLI mode or explicitly confirms a transparent request's true CLI transparency fallback.
+- `$CODEX_HOME/skills/.system/imagegen/scripts/remove_chroma_key.py`: local post-processing helper for built-in transparent-image requests.
+
+---MEMORY---
+---NOTES AGENTS---
+# AGENTS.md
+
+鏈枃浠朵緵 Codex 绛夎鍙?`AGENTS.md` 绾﹀畾鐨勫伐鍏蜂娇鐢ㄣ€傛湰浠撳簱瀹屾暣鐨勫伐浣滅害瀹氳鏍圭洰褰?`CLAUDE.md`锛圕laude 绯诲伐鍏烽粯璁よ鍙栵級锛屼袱鑰呭唴瀹瑰敖閲忎笉閲嶅鈥斺€擿AGENTS.md` 鍙斁"闈?Claude 宸ュ叿涔熷繀椤荤煡閬?鐨勯儴鍒嗐€?
+## 杩欐槸浠€涔堜粨搴?
+缂栫爜鍣?浼犳劅鍣ㄩ鍩熶釜浜虹煡璇嗗簱锛?*鍥涘眰娴佹按绾?*锛歚0-System`锛堣鍒欎笌杩愯鐣欑棔锛岀娴佽浆鏈韩锛夈€乣1-Inbox`锛堜汉宸ュ叆鍙ｏ紝鐢ㄥ畬鍗冲叆搴擄級銆乣2-Resources`锛堣瘉鎹湰浣擄紝涓嶄笅鍒ゆ柇锛屽師浠跺湪 `_source/`銆丱CR 绱㈠紩鍦?`_source.ocr/`锛夈€乣3-wiki`锛堢嫭鍒涘垽鏂眰锛?1 涓満鏅洰褰曟寜銆屾垜浠€涔堟椂鍊欎細鏌ュ畠銆嶅垎锛屼竴绾ф墎骞筹紱2026-09-05 璁㈡锛氬師鍐欍€屾寜鐭ヨ瘑绫诲瀷鍒嗙淮搴︾洰褰曘€嶏紝閭ｅ 3A~3Z 缁撴瀯 08-25 宸叉媶锛夈€?*宸ョ▼鏂囦欢涓庡澶栦氦浠樹笉鍦ㄦ湰搴?*锛屽湪搴撳 `D:\VerySync\VerySync_works\`銆傜敤鎴凤細Ban锛坆an.wang@grosso.link锛夈€傚畬鏁磋鍒欒 [[CLAUDE|`CLAUDE.md`]] 鍜?[[README|`README.md`]]銆?
+> 鈿狅笍 **2026-08-16~18 鏋舵瀯鏀舵暃**锛氬師椤跺眰 `4-Projects`銆乣5-Publish`銆乣6-Archives` 宸插垹闄ゃ€傛棫鏂囨。閲岃嫢鎻愬埌杩欎笁涓洰褰曪紝涓€寰嬩互鏈妭涓哄噯銆?
+## 蹇呴』閬靛畧锛氱粺涓€ AI 浠诲姟闃熷垪
+
+鏈粨搴撶殑鏂颁换鍔°€佸欢鏈熶换鍔°€侀樆濉為棶棰樺拰璺?AI 浜ゆ帴缁熶竴鍐欏叆 [[taskList|`0-System/taskList.md`]]锛屼笉鍐嶄负鏃ュ父浠诲姟鏂板 agent-bus 娑堟伅銆備换浣曢渶瑕佸疄闄呮墽琛岀殑浠诲姟锛堝寘鎷綋鍓嶅璇濈洿鎺ヤ氦鍔烇級閮藉厛鐧昏涓?`- [ ]` 骞舵彁浜?taskList锛涗富鎵ц鍣ㄤ粠涓婂埌涓嬪鐞嗭紝瀹屾垚鎻愪氦蹇呴』鍖呭惈 taskList 涓浠诲姟鐨勫垹闄ゅ拰鍏ㄩ儴浠诲姟鏂囦欢銆傚叿浣撹鍒欎互 taskList 鏂囦欢涓哄噯銆?
+`0-System/agent-bus/` 宸插垹闄わ紱鍘嗗彶鍐呭鍙€氳繃 Git 鍘嗗彶鏌ヨ銆備笉瑕侀噸寤鸿鐩綍锛屼篃涓嶈鍐嶆柊澧?agent-bus 娑堟伅銆?
+## 蹇呴』閬靛畧锛氬疄闄呭啓搴撲换鍔″仛灞€閮?Git 鎻愪氦
+
+**瀹為檯鏂板缓銆佷慨鏀广€佺Щ鍔ㄦ垨鍒犻櫎鏈粨搴撴枃浠讹紝浠ュ強鎵ц taskList 浠诲姟鏃讹紝缁撴潫鍓嶅繀椤诲畬鎴愪竴娆℃湰鍦般€佸師瀛愩€佸眬閮ㄧ殑 Git commit锛涙彁浜ゆ垚鍔熸墠绠楀畬鎴愩€?* 绾彁闂€佽璁恒€佹柟妗堣瘎浼板拰鏈骇鐢熸枃浠舵敼鍔ㄧ殑鍙鏌ヨ涓嶆彁浜ゃ€倀askList 鐨勬柊澧炰换鍔″彲鐢卞啓鍏ヨ€呭敖閲忕珛鍗虫彁浜わ紱褰撴椂鍋氫笉鍒版椂锛岀敱瀹氭湡鎵ц鍣ㄥ厛琛モ€滅櫥璁颁换鍔￠槦鍒椻€濇彁浜ゃ€?
+- 鍙€愪釜鏆傚瓨鏈换鍔＄洿鎺ョ浉鍏崇殑绗旇銆佺储寮曞拰闄勪欢锛涘厛妫€鏌ュ伐浣滃尯骞舵帓闄ゆ墍鏈夋棦鏈夋垨浠栦汉鐨勬敼鍔紝绂佹鐢?`git add .`銆乣git add -A` 鎵归噺澶瑰甫銆?- 涓嶄负绾彁闂垨鏃犳敼鍔ㄦ壂鎻忓垱寤虹┖鎻愪氦锛涚┖闃熷垪鐩存帴閫€鍑恒€?- 榛樿鍙彁浜ゅ埌褰撳墠鏈湴鍒嗘敮锛屼笉 push銆佷笉寤?PR銆佷笉鏀瑰啓鍘嗗彶锛岄櫎闈炵敤鎴锋槑纭姹傘€?- **鈿狅笍 鎻愪氦鍓嶅繀椤诲厛璇?`0-System/skills/鏀跺熬鎻愪氦/SKILL.md`锛坈ommit message 涓冭妭妯℃澘锛夛紝绂佹鍑兂璞￠€犳牸寮忋€?* 瑕佺偣锛氶琛?= 鍔ㄨ瘝 + 涓€鍙ヨ瘽浜嬪疄鎽樿锛?*绂佹浠?`## 鑳屾櫙/鐩殑` 绛夌珷鑺傛爣棰樺紑澶?*锛夛紱姝ｆ枃**鍘熸牱淇濈暀**涓冨浐瀹氭爣棰樸€岃儗鏅?鐩殑銆佸彉鏇村唴瀹广€佽鍚﹀喅鐨勬柟妗堝強鐞嗙敱銆佸奖鍝嶈寖鍥淬€佷粨搴撳浜х墿銆佹牎楠屻€侀仐鐣欎簨椤?椋庨櫓銆嶏紙鏌愯妭鏃犲唴瀹瑰啓"鏃?锛屼笉鍒犺妭锛夛紱鏈鍥哄畾涓夊瓧娈?`Agent | Machine | Task`锛坄Machine:` 鍐?`骞冲彴(hostname)`锛夛紱message 鐢?Write 鍐欏叆 `0-System/tmp/commit-msg-<鍞竴id>.txt` 鍚?`git commit -F 0-System/tmp/commit-msg-<鍞竴id>.txt -- <鍏蜂綋鏂囦欢>`锛?*绂佹 `-m` 鍐呰仈鎷煎琛屼腑鏂囥€佺姝㈣８ `commit-msg.txt`銆佺姝?`-A`/`.`/`-am`**銆傛彁浜ゅ墠璺?`kb_doctor.py` 骞跺仛銆屾殏瀛樺尯闆嗗悎姣斿銆嶃€傦紙閿欒璁板綍锛?026-08-28/09-01 鏇惧洜鏈厛璇昏 skill锛? 鏉?commit message 鏍煎紡閿欒銆傦級
+- commit 鏍囬姒傛嫭缁撴灉锛屾鏂囧繀椤荤嫭绔嬪啓娓呰儗鏅?鐩殑銆侀€愭枃浠舵垨閫愰€昏緫鍗曞厓鐨勫彉鏇淬€佸奖鍝嶈寖鍥淬€佸疄闄呮牎楠岀粨鏋溿€侀仐鐣欎簨椤?椋庨櫓锛屼娇鍚庣画 AI 浠呭嚟 commit message銆乨iff 鍜屽巻鍙插嵆鍙簡瑙ｅ叏閮ㄥ伐浣溿€?- commit 澶辫触鎴栨棤娉曞畨鍏ㄩ殧绂绘敼鍔ㄦ椂锛屼笉寰楀绉颁换鍔″畬鎴愶紝涔熶笉寰楄鐩栥€佷涪寮冩垨澶瑰甫鏃犲叧鍐呭锛涘簲淇濈暀鐜板満骞舵姤鍛婇樆濉炲師鍥犮€?
+## 蹇呴』閬靛畧锛氬叏搴撴悳绱㈠彂鐜版柊缁村害蹇呴』鍐欑储寮曟姤鍛?
+**鍑℃槸鍥犳煇涓€滄柊缁村害鈥濊€屽鍏ㄥ簱鍋氭绱紙Grep/鏂囦欢鍚?璺ㄧ洰褰曟壂鎻忥級鍚庯紝蹇呴』鎶婃绱㈢粨鏋滄矇娣€鎴愪竴浠解€滅淮搴︾储寮曟姤鍛娾€濆啓鍥炲簱鍐咃紝涓嶅彲鍙湪瀵硅瘽閲屽彛澶存眹鎶ャ€?* 杩欐槸鐭ヨ瘑搴撴牳蹇冭姹傦紙2026-08-19 Ban 寮鸿皟鍔犲己锛屼紭鍏堢骇绛夊悓鍓嶈堪纭鍒欙級銆?
+- 钀戒綅锛歚3-wiki/_绱㈠紩/鎵弿琛?`锛?026-09-05 璁㈡锛氬師鍐?`3Z-鎼滀竴鎼?`锛岃鐩綍 08-25 宸叉媶锛夛紝鏂囦欢鍚?`銆堢淮搴﹀悕銆夌淮搴︾储寮?鍏ㄥ簱鎵弿YYYYMMDD.md`锛宖rontmatter 鐢?`type: 鎼滀竴鎼渀銆乣updated` 鍐欏綋澶┿€?- 鎶ュ憡鍥涘潡蹇呭锛?*鈶?妫€绱㈣寖鍥翠笌鍒ゆ嵁**锛堟壂浜嗗摢浜涚洰褰?鍏抽敭璇嶃€佹敹浜嗕粈涔堝純浜嗕粈涔堬級锛?*鈶?璇ョ淮搴︿笅宸插瓨鍦ㄧ殑璇嶆潯/绗旇娓呭崟**锛堟寜瀛愪富棰樺垎缁勶紝姣忔潯缁?`[[鍙岄摼]]`锛夛紱**鈶?璺ㄩ」鐩?璺ㄧ瑪璁扮殑杩炴帴鐐逛笌缂哄彛**锛堝摢浜涢」鐩叡鐢ㄥ悓涓€鏈虹悊銆佸摢浜涘彧鏈夊彛澶存帹鏂棤瀹炴祴銆佸摢浜涜瘉鎹摼鏂簡锛夛紱**鈶?寰呭姙/寰呰ˉ璇佹嵁娓呭崟**銆?- 渚嬪锛氱函鈥滄煡涓€鍙ュ嚭澶勨€濈殑涓€娆℃€ф绱€佸凡鍦ㄦ棦鏈夌储寮曢〉瑕嗙洊鐨勭淮搴︼紝涓嶅己鍒舵柊寤烘姤鍛婏紝浣嗗簲琛ラ摼鍒版棦鏈夌储寮曢〉銆?- 鐩殑锛氳鈥滃彂鐜颁竴涓淮搴?鈫?鍏ㄥ簱鐩樼偣 鈫?鐣欎竴浠戒笅娆′笉鐢ㄩ噸鎵殑绱㈠紩鈥濇垚涓洪棴鐜紝閬垮厤鍚屼竴缁村害姣忔閲嶆悳銆佹暎钀界粨璁烘棤浜轰覆鎺ャ€?
+## 鍏朵粬绾﹀畾
+
+- 缂栫爜鍣ㄨ搴﹁绠楃粺涓€鐢?褰掍竴鍖栬搴?妯″瀷锛岀粏鑺傝 `CLAUDE.md` 鐨勩€屽唴閮ㄦ牳蹇冩柟娉曘€嶄竴鑺傘€?- 涓存椂鏂囦欢鏀?`0-System/tmp/`锛岃繍琛屾棩蹇楁斁 `0-System/log/`锛?*绂佹鍦?log 涓嬪缓瀛愮洰褰?*锛夛紱姝ｅ紡浜у嚭鍒嗗眰钀戒綅锛氳瘉鎹湰浣撹繘 `2-Resources`锛屽垽鏂笌璇嶆潯杩?`3-wiki`锛屽伐绋嬫枃浠朵笌瀵瑰浜や粯鏀?*搴撳** `D:\VerySync\VerySync_works\`銆?- 搴撳唴閾炬帴**涓€寰嬬敤 `[[鍙岄摼]]`**锛屽簱澶栨枃浠跺彧鍐欑函鏂囨湰璺緞銆?- wiki 鍐欎綔鐨勬潈濞佽鑼冩槸 `3-wiki/_鍐欎綔瑙勮寖.md`锛?*姣忔潯璇嶆潯閮芥槸涓€涓储寮?*锛屼竴鏉″彧璁蹭竴涓淮搴︼紝鍐欐椂蹇呴』鍙岄摼涓叉帴鐩稿叧绗旇銆?
+
+codex
+我将采用同一套“母版提示词”逐张生成：固定等轴测视角、固定五色体系、固定留白与描边，只替换主体内容。由于内置生成器不直接输出原生透明，我会先用纯色抠图背景生成，再在本地去背景并校验 alpha。
+codex
+首张生成已返回，内置工具会把源图保存到本机生成目录；我会统一复制到项目临时目录，去除色键背景后再写入目标目录。生成器可能返回非 1024 的原始边长，因此最终会统一缩放并验证为 1024×1024。
+codex
+前 4 张产品图标已经生成并落到本机生成目录，风格约束保持一致；当前正在继续生成剩余产品、类目和应用图标。生成完成后我会集中做抠图、尺寸统一和完整性检查。
+codex
+28 张源图已全部生成。现在进入交付处理阶段：按文件名映射源图、去除纯色背景、统一到 1024×1024 RGBA，并检查目标目录中是否正好有 28 个 PNG。
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "Get-ChildItem 'D:\\VerySync\\CODEX\\generated_images\\01a0a4b5-bb4a-7fa1-9df3-c7968fcd51cc' -Filter '*.png' | Select-Object Name,Length" in D:\VerySync\VerySync_works\conntek-vitepress
+ succeeded in 1169ms:
+
+Name                                           Length
+----                                           ------
+exec-0614d8e8-fcbf-4d53-9b6a-3fbc7c83cfb3.png  846888
+exec-06a47878-92a2-4392-86f2-f93c74ea930c.png  537399
+exec-207177eb-8d87-4de1-a1ac-917ef947dcf6.png 1178124
+exec-235c4585-e655-40ac-b602-d00c8ce1f2be.png  634003
+exec-2adb07dd-1931-4781-ba78-09f41950173c.png  466106
+exec-4ad26830-980a-4ea7-8a97-90ab97040f0d.png  882217
+exec-5ed77246-2751-4189-88c2-3e316ec5a599.png  445594
+exec-5f26a16e-003e-495b-bbd9-9d809f69f137.png  821668
+exec-6507bad6-c462-4b59-bebc-ca83220b011d.png  733342
+exec-687a6dc7-da83-41be-8792-7b8226f7085b.png  898515
+exec-7200aa43-7f72-4eb2-81d6-8992ba7c273e.png  645847
+exec-734408f1-9dc6-4ccb-b65b-553f76094476.png  410225
+exec-7458de79-d16a-4ad1-b311-cc6d643a0dfa.png  808083
+exec-770abe63-95ad-40d5-a263-1a37a7c763fd.png  629117
+exec-7dc7dcc7-a9ec-4b3a-9e57-fe7d0cb982aa.png  786618
+exec-90cf3837-ced9-4214-80f9-25c4eefbb35a.png  713641
+exec-90fd959d-d476-419b-8d64-2e3992356119.png  970776
+exec-940725f0-fd09-44c8-9391-a43b385b90b4.png  686250
+exec-b711fde8-07de-480a-9dd4-373c873a6789.png  532084
+exec-bc0fd335-d7ad-42d1-8035-3665a06b7fba.png  774688
+exec-c5f29a4e-6a5c-4c3a-aab9-ffbd2e55beb7.png  775570
+exec-cafa5513-24d8-4b4c-9b86-294285e67b5e.png  784641
+exec-d75dc44a-256e-44d7-9206-3d4b093896bd.png 1101161
+exec-d9cd3520-f773-4322-8cbe-364b91038e1e.png  818592
+exec-e735142b-3be4-485f-8cb4-56362d91041c.png  423413
+exec-eba0edc5-8d9c-4325-931e-cf333fb6a233.png  809226
+exec-f1c7323b-1cd5-421d-99c2-97d6e00ef46f.png  402385
+exec-f8cf9f15-507c-4c79-91df-936c7242d312.png  484955
+
+
+
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command '$src='"'D:\\VerySync\\CODEX\\generated_images\\01a0a4b5-bb4a-7fa1-9df3-c7968fcd51cc'; "'$tmp='"'D:\\VerySync\\VerySync_works\\conntek-vitepress\\tmp\\icon_sources'; "'$out='"'D:\\VerySync\\VerySync_works\\conntek-vitepress\\docs\\public\\img\\icons'; New-Item -ItemType Directory -Force -Path "'$tmp,$out | Out-Null; $map=@{
+'"'kth57.png'='exec-b711fde8-07de-480a-9dd4-373c873a6789.png'; 'kth55.png'='exec-f8cf9f15-507c-4c79-91df-936c7242d312.png'; 'ktm52.png'='exec-7200aa43-7f72-4eb2-81d6-8992ba7c273e.png'; 'ktm53.png'='exec-2adb07dd-1931-4781-ba78-09f41950173c.png'; 'ktm58.png'='exec-235c4585-e655-40ac-b602-d00c8ce1f2be.png'; 'ktm59.png'='exec-90fd959d-d476-419b-8d64-2e3992356119.png'; 'kth78.png'='exec-7458de79-d16a-4ad1-b311-cc6d643a0dfa.png'; 'kth71.png'='exec-90cf3837-ced9-4214-80f9-25c4eefbb35a.png'; 'kto95.png'='exec-d75dc44a-256e-44d7-9206-3d4b093896bd.png'; 'kth16.png'='exec-e735142b-3be4-485f-8cb4-56362d91041c.png'; 'kth25.png'='exec-0614d8e8-fcbf-4d53-9b6a-3fbc7c83cfb3.png'; 'ktm13.png'='exec-940725f0-fd09-44c8-9391-a43b385b90b4.png'; 'ktm28.png'='exec-7dc7dcc7-a9ec-4b3a-9e57-fe7d0cb982aa.png'; 'kth31.png'='exec-06a47878-92a2-4392-86f2-f93c74ea930c.png'; 'kth460.png'='exec-687a6dc7-da83-41be-8792-7b8226f7085b.png'; 'kth462.png'='exec-c5f29a4e-6a5c-4c3a-aab9-ffbd2e55beb7.png'; 'ktax33.png'='exec-734408f1-9dc6-4ccb-b65b-553f76094476.png'; 'knob.png'='exec-5f26a16e-003e-495b-bbd9-9d809f69f137.png'; 'linear-hall.png'='exec-6507bad6-c462-4b59-bebc-ca83220b011d.png'; 'cat-3d-hall.png'='exec-f1c7323b-1cd5-421d-99c2-97d6e00ef46f.png'; 'cat-encoder.png'='exec-d9cd3520-f773-4322-8cbe-364b91038e1e.png'; 'cat-switch.png'='exec-4ad26830-980a-4ea7-8a97-90ab97040f0d.png'; 'cat-other.png'='exec-5ed77246-2751-4189-88c2-3e316ec5a599.png'; 'cat-knob.png'='exec-207177eb-8d87-4de1-a1ac-917ef947dcf6.png'; 'app-consumer-electronics.png'='exec-bc0fd335-d7ad-42d1-8035-3665a06b7fba.png'; 'app-intelligent-life.png'='exec-cafa5513-24d8-4b4c-9b86-294285e67b5e.png'; 'app-industry4.png'='exec-770abe63-95ad-40d5-a263-1a37a7c763fd.png'; 'app-intelligent-transportation.png'='exec-eba0edc5-8d9c-4325-931e-cf333fb6a233.png'}; foreach("'$k in $map.Keys){ Copy-Item (Join-Path $src $map[$k]) (Join-Path $tmp $k) -Force }; $helper='"'D:\\VerySync\\CODEX\\skills\\.system\\imagegen\\scripts\\remove_chroma_key.py'; foreach("'$k in $map.Keys){ python $helper --input (Join-Path $tmp $k) --out (Join-Path $out $k) --auto-key border --soft-matte --transparent-threshold 12 --opaque-threshold 220 --despill | Out-Null }; python -c "from PIL import Image; from pathlib import Path; p=Path(r'"'D:\\VerySync\\VerySync_works\\conntek-vitepress\\docs\\public\\img\\icons'); [((lambda im: im.resize((1024,1024),Image.Resampling.LANCZOS).convert('RGBA').save(f, optimize=True))(Image.open(f))) for f in p.glob('*.png')]\"" in D:\VerySync\VerySync_works\conntek-vitepress
+ succeeded in 84246ms:
+codex
+全部已完成抠图与尺寸统一。接下来做最终验收：检查 28 个指定文件是否齐全、每个是否为 1024×1024 RGBA PNG、四角是否透明，并抽查代表性产品/应用图标的视觉结果。
+exec
+"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -Command "python -c \"from PIL import Image; from pathlib import Path; p=Path(r'D:\\VerySync\\VerySync_works\\conntek-vitepress\\docs\\public\\img\\icons'); fs=sorted(p.glob('*.png')); bad=[]; trans=[]; [bad.append((f.name,Image.open(f).size,Image.open(f).mode)) or None for f in fs if Image.open(f).size"'!=(1024,1024) or Image.open(f).mode!='"'RGBA']; [trans.append(f.name) for f in fs if Image.open(f).getpixel((0,0))[3] < 255]; print('count',len(fs)); print('bad',bad); print('transparent_corners',len(trans),'of',len(fs)); print('\\n'.join(f.name for f in fs))\"" in D:\VerySync\VerySync_works\conntek-vitepress
+ succeeded in 1392ms:
+count 28
+bad []
+transparent_corners 28 of 28
+app-consumer-electronics.png
+app-industry4.png
+app-intelligent-life.png
+app-intelligent-transportation.png
+cat-3d-hall.png
+cat-encoder.png
+cat-knob.png
+cat-other.png
+cat-switch.png
+knob.png
+ktax33.png
+kth16.png
+kth25.png
+kth31.png
+kth460.png
+kth462.png
+kth55.png
+kth57.png
+kth71.png
+kth78.png
+ktm13.png
+ktm28.png
+ktm52.png
+ktm53.png
+ktm58.png
+ktm59.png
+kto95.png
+linear-hall.png
+
+codex
+已生成并保存 28 张图标，全部通过核验：
+
+- 尺寸：1024×1024
+- 格式：PNG RGBA
+- 背景：透明 alpha
+- 数量：28 张
+
+目录：[docs/public/img/icons](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons)
+
+文件路径：
+
+- [kth57.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth57.png)
+- [kth55.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth55.png)
+- [ktm52.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm52.png)
+- [ktm53.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm53.png)
+- [ktm58.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm58.png)
+- [ktm59.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm59.png)
+- [kth78.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth78.png)
+- [kth71.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth71.png)
+- [kto95.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kto95.png)
+- [kth16.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth16.png)
+- [kth25.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth25.png)
+- [ktm13.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm13.png)
+- [ktm28.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm28.png)
+- [kth31.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth31.png)
+- [kth460.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth460.png)
+- [kth462.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth462.png)
+- [ktax33.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktax33.png)
+- [knob.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\knob.png)
+- [linear-hall.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\linear-hall.png)
+- [cat-3d-hall.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-3d-hall.png)
+- [cat-encoder.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-encoder.png)
+- [cat-switch.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-switch.png)
+- [cat-other.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-other.png)
+- [cat-knob.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-knob.png)
+- [app-consumer-electronics.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-consumer-electronics.png)
+- [app-intelligent-life.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-intelligent-life.png)
+- [app-industry4.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-industry4.png)
+- [app-intelligent-transportation.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-intelligent-transportation.png)
+tokens used
+128,837
+已生成并保存 28 张图标，全部通过核验：
+
+- 尺寸：1024×1024
+- 格式：PNG RGBA
+- 背景：透明 alpha
+- 数量：28 张
+
+目录：[docs/public/img/icons](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons)
+
+文件路径：
+
+- [kth57.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth57.png)
+- [kth55.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth55.png)
+- [ktm52.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm52.png)
+- [ktm53.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm53.png)
+- [ktm58.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm58.png)
+- [ktm59.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm59.png)
+- [kth78.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth78.png)
+- [kth71.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth71.png)
+- [kto95.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kto95.png)
+- [kth16.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth16.png)
+- [kth25.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth25.png)
+- [ktm13.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm13.png)
+- [ktm28.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktm28.png)
+- [kth31.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth31.png)
+- [kth460.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth460.png)
+- [kth462.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\kth462.png)
+- [ktax33.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\ktax33.png)
+- [knob.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\knob.png)
+- [linear-hall.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\linear-hall.png)
+- [cat-3d-hall.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-3d-hall.png)
+- [cat-encoder.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-encoder.png)
+- [cat-switch.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-switch.png)
+- [cat-other.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-other.png)
+- [cat-knob.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\cat-knob.png)
+- [app-consumer-electronics.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-consumer-electronics.png)
+- [app-intelligent-life.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-intelligent-life.png)
+- [app-industry4.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-industry4.png)
+- [app-intelligent-transportation.png](D:\VerySync\VerySync_works\conntek-vitepress\docs\public\img\icons\app-intelligent-transportation.png)

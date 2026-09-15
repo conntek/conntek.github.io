@@ -1,78 +1,34 @@
 ---
 title: "开关芯片"
+description: "霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压"
+aside: false
+pageClass: "c-page"
 ---
+
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><span>开关芯片</span></nav>
+
+<p class="c-kicker">产品中心</p>
+
 # 开关芯片
 
-## 1D霍尔开关-微功耗系列产品
+<p class="c-lead">霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p>
 
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1692259182956.png" alt=""></div><div class="ct-row-body">
+<div class="c-stats"><div class="c-stat"><b>8</b><span>产品系列</span></div><div class="c-stat"><b>35</b><span>份技术文档</span></div><div class="c-stat"><b>0</b><span>个产品视频</span></div></div>
 
-KTH16XX系列产品使用CMOS工艺，芯片内集成了霍尔感应元件。1.7~5.5V工作电压，1uA超低功耗，并且具有优良的温度补偿，使得芯片能在-40~125℃的环境中工作，并保持良好的性能和一致性。
+## 产品系列
 
-微功耗系列产品-包含136系列，15系列，16系列，17系列
+<p class="c-sec-lead">包括 1D/2D/3D 霍尔开关、车规级高压霍尔开关、TMR 磁阻开关、AMR 高压气缸开关及线性霍尔传感器，功耗低至 160 nA，适用于消费、工业与汽车领域。</p>
 
-[了解产品详情 →](/products/switch/kth16)
+<div class="c-rows"><a class="c-row" href="/msite/products/switch/kth16"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH16 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><div class="c-minispecs"><span><b>1.7 ~ 5.5 V</b>电压</span><span><b>1 μA</b>功耗</span><span><b>2.5 Hz ~ 40 kHz</b>频率</span><span><b>-40 ~ 85 / 125 ℃</b>温度（视型号）</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/kth25"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><div class="c-minispecs"><span><b>2.7 ~ 32 V</b>电压</span><span><b>2.7 mA</b>功耗</span><span><b>30 kHz</b>频率</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/ktm13"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><div class="c-minispecs"><span><b>1.8 ~ 5.5 V</b>电压</span><span><b>160 nA @ 3 V</b>功耗</span><span><b>最高 5000 Hz</b>频率</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/ktm28"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><div class="c-minispecs"><span><b>3 ~ 30 V</b>电压</span><span><b>70 μA</b>功耗</span><span><b>4 kHz</b>频率</span><span><b>-40 ~ 105 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/kth31"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><div class="c-minispecs"><span><b>3.0 ~ 5.5 V</b>电压</span><span><b>4.5 mA @ 3.3 V</b>功耗</span><span><b>1.00 ~ 8.90 mV/Gs（@ 3.3 V）</b>灵敏度</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/kth460"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth460.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH460 系列</span><h3>微功耗 3D 霍尔开关</h3><p>X、Y、Z 三维全极检测，SPIN 与数字滤波技术保证稳定的工作点与开关频率</p><div class="c-minispecs"><span><b>2.5 ~ 5.5 V</b>电压</span><span><b>4.5 μA @ 2.5 V</b>功耗</span><span><b>BOP 25 Gs</b>灵敏度</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/kth462"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/kth462.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH462 系列</span><h3>超灵敏 2D 霍尔开关</h3><p>检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号</p><div class="c-minispecs"><span><b>2.5 ~ 5.5 V</b>电压</span><span><b>32.3 μA @ 2.5 V</b>功耗</span><span><b>BOP 25 Gs</b>灵敏度</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a><a class="c-row" href="/msite/products/switch/linear-hall"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/linear-hall.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTH564 系列</span><h3>线性霍尔芯片</h3><p>零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p><div class="c-minispecs"><span><b>2.8 ~ 6.0 V</b>电压</span><span><b>3.3 mA @ 5 V</b>功耗</span><span><b>1.5 ~ 13 mV/Gs</b>灵敏度</span><span><b>-40 ~ 125 ℃</b>温度</span></div><span class="c-card__more">查看详情</span></div></a></div>
 
-</div></div>
+## 应用案例
 
-## 车规级高压霍尔开关芯片-25、26系列
+<p class="c-sec-lead">采用开关芯片的终端产品。</p>
 
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1692951041792.png" alt=""></div><div class="ct-row-body">
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH1604</span><h3>电子棋盘</h3></div></a><a class="c-card" href="/msite/applications/industry4"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16xx</span><h3>断路器</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>触控笔</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>扫地机-水位监测</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-10.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>智能马桶-水位监测</h3></div></a><a class="c-card" href="/msite/applications/industry4"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3></div></a><a class="c-card" href="/msite/applications/industry4"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>机械电表</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH564X</span><h3>游戏手柄</h3></div></a></div>
 
-KTH25XX采用先进的斩波技术（内置零漂移放大器），集成了温度补偿电路,具有小于10µV的失调电压和极低的失调漂移特性，在工作温度范围内有着卓越灵敏度和温度稳定性。其开漏输出级具有高达30mA的灌电流驱动能力，具有抛负载能力和输出短路过流保护功能。2.7~32 V的宽工作电压范围，采用SOT-23-3L和TO-92S封装，反接保护电压高达-32 V，广泛适用于众多的汽车及工业领域。
+## 其他产品线
 
-[了解产品详情 →](/products/switch/kth25)
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/3d-hall/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-3d-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2 个系列</span><h3>3D霍尔芯片</h3><p>感知 X、Y、Z 三轴磁场，用于角度与位移检测</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/encoder/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-encoder.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">7 个系列</span><h3>编码器芯片</h3><p>霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/other/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-other.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>其他芯片</h3><p>面向传感器信号放大的零温漂高精度运放</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/knob/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
 
-</div></div>
-
-## TMR磁传感器芯片-13系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1692259295168.png" alt=""></div><div class="ct-row-body">
-
-KTM13XX系列产品根据平行穿过磁场的强度和角度不同，阻抗值发生变化的TMR阻桥与ASIC集成在单芯片中。通过与磁铁配合，进行非接触式位置检测。相比于霍尔传感器具有更高精度（回差可以小于3高斯），对磁场平行感应，和不同方向的TMR桥阻配合实现360度两维感应特点。主要应用于不同感应角度与低功耗高频感应的应用场合。
-
-[了解产品详情 →](/products/switch/ktm13)
-
-</div></div>
-
-## AMR高压气缸开关-28
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1719797572499.png" alt=""></div><div class="ct-row-body">
-
-KTM2802采用SIP（系统级封装）生产技术，将ASIC传感器和AMR集成在一个IC中。KTM2802支持用于气缸位置检测的两线和三线应用，是一款基于AMR（各向异性磁阻）的磁传感器，与磁铁结合使用时，它成为一款低功耗、高灵敏度和高可靠性的非接触式开关器件。可以通过任意极性检测与封装电极平行的水平磁场。KTM2802可用于上拉负载和下拉负载应用。
-
-[了解产品详情 →](/products/switch/ktm28)
-
-</div></div>
-
-## 比例式线性霍尔效应传感器 - 31系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760693703163.png" alt=""></div><div class="ct-row-body">
-
-KTH31XX是一款线性霍尔效应传感器，可按比例响应磁通量密度。KTH31XX内部电路包含霍尔传感器、线性放大器和推挽输出级电路。具有高速、低噪声输出特性，在-40℃至125℃ 的宽温度范围内实现线性性能。可用于消费类、工业类各种磁场检测。
-
-[了解产品详情 →](/products/switch/kth31)
-
-</div></div>
-
-## 微功耗超灵敏的 3D 霍尔开关 - KTH460系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760325627829.png" alt=""></div><div class="ct-row-body">
-
-KTH4603系列是一款具有X、Y、Z三维全极检测的低功耗霍尔效应开关传感器。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。
-
-芯片内置X,Y,Z三个超灵敏低失调的霍尔盘、多路模拟开关、差分放大器、施密特触发器和NMOS开漏输出电路，采用了先进SPIN及数字滤波技术、优化时钟控制技术从而保证芯片稳定的工作点和开关频率。
-
-[了解产品详情 →](/products/switch/kth460)
-
-</div></div>
-
-## 高性能、低功耗、超灵敏的 2D 霍尔开关 - KTH462系列
-
-<div class="ct-row"><div class="ct-row-img"><img src="/msite/images/1760325669001.png" alt=""></div><div class="ct-row-body">
-
-KTH462N系列是一款检测二维磁场的低功耗锁存型霍尔效应开关传感器。芯片提供了两个独立的数字输出，提供速度和方向计算(KTH4622系列)输出或直接提供每轴独立的锁存型开关输出(KTH4621系列)。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。
-
-[了解产品详情 →](/products/switch/kth462)
-
-</div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

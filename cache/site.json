@@ -1,0 +1,1891 @@
+{
+ "categories": [
+  {
+   "key": "3d-hall",
+   "name": "3D霍尔芯片",
+   "dir": "magneticAngleDetectionChip",
+   "items": [
+    {
+     "prod": "57xilie",
+     "slug": "kth57",
+     "route": "/products/3d-hall/kth57",
+     "title": "3D磁角度传感器芯片—57系列",
+     "summary": "CONNTEK的磁线性角度编码IC集成了HALL感应元件和专用的解码处理芯片，能实现+/-1°以内的角度检测精度；最小3mm*3mm的封装，能适应大多数应用场合的小尺寸需求。同时非接触磁感应控制具有很高的可靠性，适用的最大温度范围为-40~+125℃，具有I2C，SPI等多种输出接口。",
+     "image": "/images/1692259161746.png"
+    },
+    {
+     "prod": "kth5502",
+     "slug": "kth55",
+     "route": "/products/3d-hall/kth55",
+     "title": "高精度 3D 霍尔磁性角度传感器—— 55系列",
+     "summary": "KTH5502 是一款基于垂直霍尔技术的高精度绝对角度传感器芯片，支持全角度（0–360°）测量。 芯片内部集成 X、Y 轴的垂直霍尔元件和 Z 轴的水平霍尔元件，能够同时感知磁场在 X、Y、Z 三个方 向的变化。",
+     "image": "/images/1779873277244.png"
+    }
+   ],
+   "cover": "/images/1627297417418.png"
+  },
+  {
+   "key": "encoder",
+   "name": "编码器芯片",
+   "dir": "magneticCurrentLinearSensingChip",
+   "items": [
+    {
+     "prod": "KTM52XX",
+     "slug": "ktm52",
+     "route": "/products/encoder/ktm52",
+     "title": "21 位高分辨率、高精度在轴磁性角度编码器 IC — 52系列",
+     "summary": "KTM5200 提供 4 线 SPI 接口，供上位机或 MCU 读取芯片内部 21 位绝对角度数据，并支持通过单线 PWM 输出绝对角度数据。其核心优势是用户侧一键自校准，可补偿磁铁不理想和安装偏差引入的非线性误差，显著改善 INL 特性。",
+     "image": "/images/1779877949476.png"
+    },
+    {
+     "prod": "KTM53XX",
+     "slug": "ktm53",
+     "route": "/products/encoder/ktm53",
+     "title": "高速高精度离轴AMR磁编码器芯片 —— 53系列",
+     "summary": "KTM5300 提供 4 线 SPI 接口，供上位机或 MCU读取芯片内部 21 位绝对角度数据，并支持通过单线 PWM 输出绝对角度数据。其核心优势是用户侧一键自校准，可补偿磁铁不理想和安装偏差引入的非线性误差，显著改善 INL 特性。",
+     "image": "/images/1779878216107.png"
+    },
+    {
+     "prod": "absoluteangledivider",
+     "slug": "ktm58",
+     "route": "/products/encoder/ktm58",
+     "title": "30bit 绝对角度细分器 - KTM58 系列",
+     "summary": "KTM5800 是一款 30bit 绝对角度细分 4096 对极编码细分器，可以与磁电阻传感器（AMR/TMR）搭配，构成一个高速高精度的非接触磁性编码器模块。它具有以非常高的采样速率读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算， 并输出位置信息。此外，KTM5800 还可以搭配其他传感器如光编/光栅/磁栅等，一圈或一个绝对机械周期允许最大 12bit（4096 线）多极对输入。",
+     "image": "/images/1760693879963.png"
+    },
+    {
+     "prod": "hshrTMPMagnrticEncoderChip",
+     "slug": "ktm59",
+     "route": "/products/encoder/ktm59",
+     "title": "高速高分辨率TMR磁编码器芯片- KTM59系列",
+     "summary": "KTM5900 是一款 24bit 绝对角度 TMR 磁性编码器，构成一个高速高精度的非接触磁性编码器模块。它具有最高 2M 采样速率的 16bit SAR ADC 读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算，并输出位置信息。",
+     "image": "/images/1754979409718.png"
+    },
+    {
+     "prod": "hshrMagneticCodedAngleSensor",
+     "slug": "kth78",
+     "route": "/products/encoder/kth78",
+     "title": "高速高分辨率磁编码角度传感器 - KTH78系列",
+     "summary": "昆泰芯KTH78xx系列是一种16位分辨率高精度低延时霍尔绝对角度编码器，可以测量XY两个方向的平面磁场分量。该传感器支持四线制SPI绝对角度输出（CRC输出校验可选），两线制SSI绝对角度输出，可编程4-4096步/圈ABZ增量输出，可编程1-8对极UVW增量输出，PWM占空比角度输出。芯片集成报警功能，用户可根据需求编辑磁场过低、过高的报警阈值。",
+     "image": "/images/1692955826595.jpg"
+    },
+    {
+     "prod": "magneticencoder",
+     "slug": "kth71",
+     "route": "/products/encoder/kth71",
+     "title": "16 位高速高精度磁编码器 - KTH71系列",
+     "summary": "KTH7101 是一款高速高精度的磁编码器，内置了先进的自动非线性校准（ANLC）功能。 用户可通过写入寄存器或引脚触发校准流程，芯片能够自动完成传感器非线性误差的测 量与补偿参数计算，并将校准结果存入内部 MTP（多次可编程存储器）。此功能无需复 杂外部干预，可显著提升角度测量的线性度， 实现优于 ±0.1° 的绝对精度。",
+     "image": "/images/1760937016155.png"
+    },
+    {
+     "prod": "cursorabsoluteencoder",
+     "slug": "kto95",
+     "route": "/products/encoder/kto95",
+     "title": "游标绝对值光学旋转编码器芯片 - KTO95系列",
+     "summary": "KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电传感器，提供了优秀的信号保真度，并具有较宽松的对准容差。该系列设备输出精确的正弦/余弦信号，允许后续设备进高分辨率插值，具体型号可以通过三通道 Nonius 插值实现高达 24 位的单圈位置分辨率。",
+     "image": "/images/1760936805032.jpg"
+    }
+   ],
+   "cover": "/images/1627297426879.png"
+  },
+  {
+   "key": "switch",
+   "name": "开关芯片",
+   "dir": "switchPositionDetectionChip",
+   "items": [
+    {
+     "prod": "microPowerSeries",
+     "slug": "kth16",
+     "route": "/products/switch/kth16",
+     "title": "1D霍尔开关-微功耗系列产品",
+     "summary": "KTH16XX系列产品使用CMOS工艺，芯片内集成了霍尔感应元件。1.7~5.5V工作电压，1uA超低功耗，并且具有优良的温度补偿，使得芯片能在-40~125℃的环境中工作，并保持良好的性能和一致性。 微功耗系列产品-包含136系列，15系列，16系列，17系列",
+     "image": "/images/1692259182956.png"
+    },
+    {
+     "prod": "automotiveHvdlHallEffectSensor",
+     "slug": "kth25",
+     "route": "/products/switch/kth25",
+     "title": "车规级高压霍尔开关芯片-25、26系列",
+     "summary": "KTH25XX采用先进的斩波技术（内置零漂移放大器），集成了温度补偿电路,具有小于10µV的失调电压和极低的失调漂移特性，在工作温度范围内有着卓越灵敏度和温度稳定性。其开漏输出级具有高达30mA的灌电流驱动能力，具有抛负载能力和输出短路过流保护功能。2.7~32 V的宽工作电压范围，采用SOT-23-3L和TO-92S封装，反接保护电压高达-32 V，广泛适用于众多的汽车及工业领域。",
+     "image": "/images/1692951041792.png"
+    },
+    {
+     "prod": "magnetoresistiveSwitchSeries",
+     "slug": "ktm13",
+     "route": "/products/switch/ktm13",
+     "title": "TMR磁传感器芯片-13系列",
+     "summary": "KTM13XX系列产品根据平行穿过磁场的强度和角度不同，阻抗值发生变化的TMR阻桥与ASIC集成在单芯片中。通过与磁铁配合，进行非接触式位置检测。相比于霍尔传感器具有更高精度（回差可以小于3高斯），对磁场平行感应，和不同方向的TMR桥阻配合实现360度两维感应特点。主要应用于不同感应角度与低功耗高频感应的应用场合。",
+     "image": "/images/1692259295168.png"
+    },
+    {
+     "prod": "hvcpDetectionSensor",
+     "slug": "ktm28",
+     "route": "/products/switch/ktm28",
+     "title": "AMR高压气缸开关-28",
+     "summary": "KTM2802采用SIP（系统级封装）生产技术，将ASIC传感器和AMR集成在一个IC中。KTM2802支持用于气缸位置检测的两线和三线应用，是一款基于AMR（各向异性磁阻）的磁传感器，与磁铁结合使用时，它成为一款低功耗、高灵敏度和高可靠性的非接触式开关器件。可以通过任意极性检测与封装电极平行的水平磁场。KTM2802可用于上拉负载和下拉负载应用。",
+     "image": "/images/1719797572499.png"
+    },
+    {
+     "prod": "proportionallinerhalleffectsensor",
+     "slug": "kth31",
+     "route": "/products/switch/kth31",
+     "title": "比例式线性霍尔效应传感器 - 31系列",
+     "summary": "KTH31XX是一款线性霍尔效应传感器，可按比例响应磁通量密度。KTH31XX内部电路包含霍尔传感器、线性放大器和推挽输出级电路。具有高速、低噪声输出特性，在-40℃至125℃ 的宽温度范围内实现线性性能。可用于消费类、工业类各种磁场检测。",
+     "image": "/images/1760693703163.png"
+    },
+    {
+     "prod": "highlysensitive3dhallswitch",
+     "slug": "kth460",
+     "route": "/products/switch/kth460",
+     "title": "微功耗超灵敏的 3D 霍尔开关 - KTH460系列",
+     "summary": "KTH4603系列是一款具有X、Y、Z三维全极检测的低功耗霍尔效应开关传感器。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。 芯片内置X,Y,Z三个超灵敏低失调的霍尔盘、多路模拟开关、差分放大器、施密特触发器和NMOS开漏输出电路，采用了先进SPIN及数字滤波技术、优化时钟控制技术从而保证芯片稳定的工作点和开关频率。",
+     "image": "/images/1760325627829.png"
+    },
+    {
+     "prod": "highsensitive2Dhallswitch",
+     "slug": "kth462",
+     "route": "/products/switch/kth462",
+     "title": "高性能、低功耗、超灵敏的 2D 霍尔开关 - KTH462系列",
+     "summary": "KTH462N系列是一款检测二维磁场的低功耗锁存型霍尔效应开关传感器。芯片提供了两个独立的数字输出，提供速度和方向计算(KTH4622系列)输出或直接提供每轴独立的锁存型开关输出(KTH4621系列)。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。",
+     "image": "/images/1760325669001.png"
+    }
+   ],
+   "cover": "/images/1627297436154.png"
+  },
+  {
+   "key": "other",
+   "name": "其他芯片",
+   "dir": "signalConditioningChip",
+   "items": [
+    {
+     "prod": "zeroDriftAmplifierChip",
+     "slug": "ktax33",
+     "route": "/products/other/ktax33",
+     "title": "零温漂高精度运放芯片—KTAX33系列",
+     "summary": "KTAx333是一款低失调，微功耗，可以实现轨到轨输入/输出的CMOS运算放大器。其使用自校准技术以提供极低的失调电压（2μV，典型值），KTAx333系列提供出色的CMRR性能，而不存在与传统互补输入级关联的交叉。该设计可在驱动模数转换器（ADC）的过程中实现优异的性能，而不会降低微分线性。这些特性使KTAx333非常适合用于各类传感器的信号的放大级。",
+     "image": "/images/1692259225098.png"
+    }
+   ],
+   "cover": "/images/1627297446765.png"
+  },
+  {
+   "key": "knob",
+   "name": "旋钮系列",
+   "dir": "kuntaixuanniuserise",
+   "items": [
+    {
+     "prod": "kuntaixuanniu",
+     "slug": "knob",
+     "route": "/products/knob/knob",
+     "title": "旋钮系列",
+     "summary": "昆泰芯磁旋钮系列磁-电分离设计，产品形态千钮千态可厚或可薄，可大或可小；模块化设计，安装灵活可磁吸、可隐藏、可折叠、即插即用；隔空角度检测、防水(IP67)、防尘(IP67)、防油(IP67F)；防静电(8KV)、防高温(125°C)、防震动（Fdb）稳定可靠。磁感应技术极简结构设计，开发成本低，开模成本小,产品上市快，生产组装效率高，售后问题少，售后费用低。",
+     "image": "/images/1760665827625.png"
+    }
+   ],
+   "cover": "/images/1760509314627.png"
+  }
+ ],
+ "products": {
+  "kth57": {
+   "source": "/html/web/product/magneticAngleDetectionChip/57xilie/index.html",
+   "kind": "3D线性/角度传感器芯片",
+   "intro": [
+    "昆泰芯KTH5701是一款数字输出型三轴线性霍尔传感器芯片，可以测量XYZ三个方向的磁场分量。该传感器可作为I2C和SPI从机与外部主控进行数据交互，支持不同的工作模式和配置，从而让用户在磁场测量性能和芯片功耗上取得最佳平衡。集成温度传感器配合内部温度补偿算法可有效减小磁场测量的灵敏度温漂。",
+    "用户可以根据实际应用场景，开启一轴或多轴组合的磁场测量，获取磁场原始数据后结合软件算法，可以提取待测物体（磁铁）的运动信息，适用于摇杆、旋钮、位移测量等应用场景。该传感器面向工业和消费类应用，可为用户提供卓越的使用体验。"
+   ],
+   "image": "/images/magneticAngleEncoderChip.jpg",
+   "highlights": [
+    "小型QFN封装3X3mm",
+    "灵活的工作模式和参数在线配置，实现性能和功耗的最佳平衡",
+    "I2C与SPI通信方式可选"
+   ],
+   "highlights_title": "主要优势",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>精度</th>\n<th>待机功耗</th>\n<th colspan=\"2\">平均功耗</th>\n<th colspan=\"4\">测量模式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"3\">KTH57XX</td>\n<td>在轴、离轴</td>\n<td>360°</td>\n<td>2.8V~5.5V</td>\n<td>16Bit</td>\n<td>1.4µA</td>\n<td colspan=\"2\">25.2µA@5Hz/<br/>113.7µA@25Hz</td>\n<td colspan=\"4\">持续感应模式、唤醒睡眠模式、单次测量模式</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th colspan=\"2\">磁感</th>\n<th colspan=\"2\">磁场检测范围</th>\n<th colspan=\"2\">工作频率</th>\n<th colspan=\"2\">工作温度</th>\n<th colspan=\"2\">封装</th>\n</tr>\n<tr>\n<td>I2C/SPI数字输出</td>\n<td colspan=\"2\">X, Y, Z轴</td>\n<td colspan=\"2\">XY 轴典型工作范围±130mT<br/>Z 轴典型工作范围±80mT</td>\n<td colspan=\"2\">1000Hz</td>\n<td colspan=\"2\">-40 ~ +125 ℃</td>\n<td colspan=\"2\">QFN3x3-16L<br/>DFN2*2.5-8L</td>\n</tr>\n<tr>\n<th>感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"11\">\n\n<img alt=\"感应方向\" src=\"/images/1660815953147.png\"/><br/>\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/magneticAngleEncoderChipAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH57XX",
+     "type": "安装程序",
+     "cn": "KTH57系列EVM上位机安装包.exe",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH5701",
+     "type": "评估套件",
+     "cn": "KTH5701评估套件介绍.pdf",
+     "en": ""
+    },
+    {
+     "scene": "汽车类",
+     "series": "KTH5701",
+     "type": "产品手册",
+     "cn": "KTH5701AQ1_DS_CN.pdf",
+     "en": "KTH5701AQ1_DS_EN.pdf"
+    },
+    {
+     "scene": "汽车类",
+     "series": "KTH5702",
+     "type": "产品手册",
+     "cn": "KTH5702AQ1_DS_CN.pdf",
+     "en": "KTH5702AQ1_DS_EN.pdf"
+    },
+    {
+     "scene": "消费&工业类",
+     "series": "KTH5701",
+     "type": "产品手册",
+     "cn": "KTH5701AQ2AQ3_DS_CN.pdf",
+     "en": "KTH5701AQ2AQ3_DS_EN.pdf"
+    },
+    {
+     "scene": "消费&工业类",
+     "series": "KTH5702",
+     "type": "产品手册",
+     "cn": "KTH5702AQ2AQ3_DS_CN.pdf",
+     "en": "KTH5702AQ2AQ3_DS_EN.pdf"
+    },
+    {
+     "scene": "消费&工业类",
+     "series": "KTH5772",
+     "type": "产品说明书",
+     "cn": "KTH5772 产品说明书.pdf",
+     "en": ""
+    },
+    {
+     "scene": "消费&工业类",
+     "series": "KTH5774",
+     "type": "产品说明书",
+     "cn": "KTH5774 产品说明书.pdf",
+     "en": ""
+    },
+    {
+     "scene": "消费&工业类",
+     "series": "KTH5791",
+     "type": "产品说明书",
+     "cn": "KTH5791AQ3QNS 产品说明书.pdf",
+     "en": ""
+    },
+    {
+     "scene": "手表",
+     "series": "KTH5762",
+     "type": "产品手册",
+     "cn": "KTH5762AQ3_DS_CN.pdf",
+     "en": "KTH5762AQ3_DS_EN.pdf"
+    },
+    {
+     "scene": "手表",
+     "series": "KTH5763",
+     "type": "产品手册",
+     "cn": "KTH5763AQ3_DS_CN.pdf",
+     "en": "KTH5763AQ3_DS_EN.pdf"
+    }
+   ],
+   "videos": [
+    {
+     "title": "KTH57系列摇杆方案介绍",
+     "src": "/videos/KTH57-Joystick.mp4",
+     "poster": "/images/video_cover3.jpg"
+    },
+    {
+     "title": "KTH57系列芯片介绍",
+     "src": "/videos/KTH57Series.mp4",
+     "poster": "/images/video_cover1.png"
+    },
+    {
+     "title": "EVM评估套件",
+     "src": "/videos/EVM-Evaluation-Kit.mp4",
+     "poster": "/images/video_cover2.png"
+    }
+   ],
+   "extra": [],
+   "route": "/products/3d-hall/kth57",
+   "slug": "kth57",
+   "category": "3d-hall",
+   "title": "3D磁角度传感器芯片—57系列",
+   "legacy": false
+  },
+  "kth55": {
+   "source": "/html/web/product/magneticAngleDetectionChip/kth5502/index.html",
+   "kind": "高精度垂直霍尔绝对角度传感器 - KTH5502",
+   "intro": [
+    "KTH5502 是一款基于垂直霍尔技术的高精度绝对角度传感器芯片，支持全角度（0–360°）测量。芯片内部集成 X、Y 轴的垂直霍尔元件和 Z 轴的水平霍尔元件，能够同时感知磁场在 X、Y、Z 三个方向的变化。得益于垂直霍尔技术先进的工艺匹配特性、低失调设计和高性能信号链，KTH5502 内部通过高精度放大电路和 16 位 ADC 将磁场信号转换为数字信号，并结合专用的算法处理，实现 XY 平面内的高分辨率绝对角度输出。"
+   ],
+   "image": "/images/KTH55XX.png",
+   "highlights": [
+    "高精度垂直霍尔技术，支持全角度（0–360°）测量",
+    "16-bit 分辨率绝对角度输出",
+    "宽工作电压：1.7V ~ 3.6V",
+    "宽温度范围：-40℃ ~ +125℃",
+    "低功耗：典型工作电流 4–6mA",
+    "丰富接口：I²C、SPI、AB 正交编码、PWM、模拟电压",
+    "最高支持转速 5000RPM",
+    "AB 正交编码输出最高 1024 线/圈",
+    "支持 SOP-8L 和 DFN2×2-8L 封装",
+    "符合 AEC-Q100 车规标准"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品型号</th>\n<th>特点</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>工作温度</th>\n<th>角度 INL</th>\n<th>平均功耗</th>\n<th>测量模式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTH5502</td>\n<td>高性价比，最小尺寸磁编码器</td>\n<td>在轴</td>\n<td>360°</td>\n<td>1.7~3.6V</td>\n<td>-40 ~ +125 ℃</td>\n<td>±1°</td>\n<td>5mA</td>\n<td>持续感应模式</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th colspan=\"2\">磁感</th>\n<th>分辨率</th>\n<th colspan=\"2\">磁场检测范围</th>\n<th>工作频率</th>\n<th>最高转速</th>\n<th>封装</th>\n</tr>\n<tr>\n<td>I2C/SPI 数字输出，ABZ，PWM，模拟</td>\n<td colspan=\"2\">X, Y, Z 轴</td>\n<td>16Bit</td>\n<td colspan=\"2\">XYZ 轴典型工作范围 ±100mT</td>\n<td>10KSPS</td>\n<td>5000RPM</td>\n<td>SOP-8L<br/>DFN2×2-8L</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/KTH55XX.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH5502",
+     "type": "产品手册",
+     "cn": "KTH5502 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/3d-hall/kth55",
+   "slug": "kth55",
+   "category": "3d-hall",
+   "title": "高精度 3D 霍尔磁性角度传感器—— 55系列",
+   "legacy": false
+  },
+  "ktm52": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/KTM52XX/index.html",
+   "kind": "高速高精度在轴 AMR 角度编码器 - KTM5200",
+   "intro": [
+    "KTM5200 是基于各向异性磁阻（AMR）技术的高速高精度角度编码器芯片。芯片内集成两对互成 45° 的 AMR 惠斯通电桥及专用信号处理电路。AMR 器件在角度测量中工作于饱和区（饱和磁场约 300 高斯），芯片主要响应平行于芯片表面的磁场方向变化，对磁场强度变化不敏感，因此对磁铁加工误差及磁铁与芯片安装距离误差的容忍度较高。",
+    "KTM5200 采用轴向安装方式，校准后 INL 精度可达 ±0.015°（典型值）。KTM5200 提供增量 ABZ 输出接口，可替代传统光电编码器；分辨率最高 65,536 脉冲/圈（262,144 步/圈）。同时提供增量 UVW 输出，支持 1～64 对极/圈。"
+   ],
+   "image": "/images/KTM52XX.png",
+   "highlights": [
+    "基于先进的 AMR 各向异性磁阻技术，0～360° 绝对角度位置检测",
+    "21 位核心角度分辨率，支持最高 60,000 转/分钟的转速",
+    "角度输出延时 2 µs～10 µs",
+    "提供闭环一键自校准：在轴安装方式下校准后 INL 可达 ±0.01°",
+    "支持非匀速自校准：优化非匀速工况下的自校准性能",
+    "40～125°C 温度范围内均可工作",
+    "可同时支持增量 ABZ、增量 UVW、PWM 绝对值和 4 线 SPI 总线输出",
+    "增量 ABZ 输出支持 1～65,536 脉冲/圈，任意整数分辨率客户可编程",
+    "增量 UVW 输出支持 1 对极～64 对极，任意整数对极客户可编程",
+    "内置 EEPROM，支持在 3.3 V～5.0 V 供电条件下完成参数烧录与保存"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品型号</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>噪声</th>\n<th>角度 INL</th>\n<th>工作电流</th>\n<th>转速</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTM5200</td>\n<td>在轴、离轴</td>\n<td>360°</td>\n<td>3~5.5V</td>\n<td>0.005°</td>\n<td>±0.015°</td>\n<td>25mA</td>\n<td>60000rpm</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th>SPI 分辨率</th>\n<th>ABZ 分辨率</th>\n<th>磁场检测范围</th>\n<th>启动时间</th>\n<th>工作温度</th>\n<th colspan=\"2\">封装</th>\n</tr>\n<tr>\n<td>SPI/ABZ/UVW/PWM</td>\n<td>21bit</td>\n<td>1-65536 线可调</td>\n<td>20-150mT</td>\n<td>1-260ms 可调</td>\n<td>-40~125°C</td>\n<td colspan=\"2\">TSSOP16</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/magneticAngleEncoderChipAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM5200",
+     "type": "产品手册",
+     "cn": "KTM5200 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTM5220",
+     "type": "产品手册",
+     "cn": "KTM5220 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/ktm52",
+   "slug": "ktm52",
+   "category": "encoder",
+   "title": "21 位高分辨率、高精度在轴磁性角度编码器 IC — 52系列",
+   "legacy": false
+  },
+  "kth78": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/hshrMagneticCodedAngleSensor/index.html",
+   "kind": "高速高分辨率磁编码角度传感器",
+   "intro": [
+    "昆泰芯KTH78xx系列是一种16位分辨率高精度低延时霍尔绝对角度编码器，可以测量XY两个方向的平面磁场分量。该传感器支持四线制SPI绝对角度输出（CRC输出校验可选），两线制SSI绝对角度输出，可编程4-4096步/圈ABZ增量输出，可编程1-8对极UVW增量输出，PWM占空比角度输出。芯片集成报警功能，用户可根据需求编辑磁场过低、过高的报警阈值。",
+    "KTH78xx系列全系支持在轴或离轴应用，我司可为客户提供磁仿真服务，帮助客户在各种应用场景获得更好的精度。该系列芯片INL误差低至±0.35°，噪声低至0.007°，系统延时为1us且系统内部做了延时补偿，温度范围最高支持-40至125℃，适用于汽车角度控制、绝对角度位置传感器、无刷直流电机、步进闭环、电梯、 屏蔽门、AGV搬运机器人等多种场合。"
+   ],
+   "image": "/images/hshrMagneticCodedAngleSensor.jpg",
+   "highlights": [
+    "超低延时，每 1μs 更新一次数据",
+    "支持离轴应用",
+    "支持多对极磁铁",
+    "符合 AEC-Q100 标准",
+    "CRC校验输出可选",
+    "磁场强度诊断/报警",
+    "3.3V/5V供电可选",
+    "超小QFN16_3x3mm封装和SOP8封装可选"
+   ],
+   "highlights_title": "主要优势",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>等级</th>\n<th>系列</th>\n<th>校准</th>\n<th>完整型号</th>\n<th>封装</th>\n<th>供电</th>\n<th>功耗</th>\n<th>精度</th>\n<th>分辨率</th>\n<th>噪声（1sigma）</th>\n<th>是否离轴感应</th>\n<th>接口</th>\n<th>CRC校验</th>\n<th>ABZ分辨率bit</th>\n<th>PWM分辨率Hz</th>\n<th>极限加减速延时</th>\n<th>系统延时(匀速)</th>\n<th>启动时间</th>\n<th>角度刷新频率</th>\n<th>磁场检测</th>\n<th>温度范围</th>\n<th>最高转速</th>\n<th>工作磁场</th>\n<th>应用领域</th>\n</tr>\n</thead>\n<tbody>\n\n<tr>\n<th rowspan=\"6\">车规</th>\n<td rowspan=\"4\">\nKTH7801<br/>\n（符合Q100）<br/>\n</td>\n<td rowspan=\"5\">离轴线性幅值校准</td>\n<td>KTH7801-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td rowspan=\"5\">±0.35度（在轴）<br/>±1度左右（离轴）</td>\n<td>16</td>\n<td rowspan=\"4\">0.015°</td>\n<td rowspan=\"4\">是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>否</td>\n<td rowspan=\"4\">12</td>\n<td rowspan=\"4\">910</td>\n<td rowspan=\"4\">/</td>\n<td rowspan=\"4\">0us</td>\n<td rowspan=\"4\">1ms</td>\n<td rowspan=\"4\">1MHz</td>\n<td rowspan=\"4\">有</td>\n<td rowspan=\"4\">﹣40至150℃</td>\n<td rowspan=\"6\">120,000转</td>\n<td rowspan=\"6\">30-150mT</td>\n<td rowspan=\"6\">水泵,油泵,智能车灯,排气,进气,转向传感器,里程计传感器,涡轮增压,雨刮,门把手</td>\n</tr>\n<tr>\n<td>KTH7801-X-N-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V</td>\n<td>11.6mA</td>\n<td>16</td>\n<td>PWM，SPI</td>\n<td>否</td>\n</tr>\n<tr>\n<td>KTH7801-X-C-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V</td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>是</td>\n</tr>\n<tr>\n<td>KTH7801-X-C-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V</td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>PWM，SPI</td>\n<td>是</td>\n</tr>\n<tr>\n<td>\nKTH7803<br/>\n</td>\n<td>KTH7803-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>16</td>\n<td>0.004°</td>\n<td>是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>否</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至150℃</td>\n</tr>\n<tr>\n<td>\nKTH7101<br/>\n（符合Q100）<br/>\n</td>\n<td>在、离轴自校准</td>\n<td>KTH7101-SOP8</td>\n<td>SOP-8</td>\n<td>3.3~5V </td>\n<td>16mA</td>\n<td>±0.07度（在轴）<br/> ±0.2度（离轴）</td>\n<td>16(+8CRC)</td>\n<td>0.015°</td>\n<td>是</td>\n<td>SSI，ABZ</td>\n<td>是</td>\n<td>14</td>\n<td>NC</td>\n<td>/</td>\n<td>0us</td>\n<td>20ms（默认）</td>\n<td>1MHz</td>\n<td>无</td>\n<td>﹣40至125℃</td>\n</tr>\n\n<tr>\n<th rowspan=\"8\">工业</th>\n<td>\nKTH7812<br/>\n</td>\n<td rowspan=\"8\">离轴线性幅值校准</td>\n<td>KTH7812-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td rowspan=\"8\">±0.35度（在轴）<br/>±1度左右（离轴）</td>\n<td>16</td>\n<td>0.015°</td>\n<td>是</td>\n<td>SPI,ABZ,UVW</td>\n<td>否</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至125℃</td>\n<td rowspan=\"8\">120,000转</td>\n<td rowspan=\"8\">30-150mT</td>\n<td rowspan=\"8\">电梯门角度检测,自动扶梯,阀门,水泵,制冷系统,业风扇,手术机器人,电动踏板,力矩中置电机,中空编码器,空心杯电机,闭环步进电机系统,无人机旋翼</td>\n</tr>\n<tr>\n<td>\nKTH7813<br/>\n</td>\n<td>KTH7813-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>16</td>\n<td>0.004°</td>\n<td>是</td>\n<td>SPI,ABZ,UVW</td>\n<td>否</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至125℃</td>\n</tr>\n<tr>\n<td>\nKTH7814<br/>\n</td>\n<td>KTH7814-X-C-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>0.015°</td>\n<td>是</td>\n<td>SPI,ABZ,-ABZ</td>\n<td>是</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至125℃</td>\n</tr>\n<tr>\n<td rowspan=\"2\">\nKTH7815<br/>\n</td>\n<td>KTH7815-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td rowspan=\"2\">16</td>\n<td rowspan=\"2\">0.059°</td>\n<td rowspan=\"2\">是</td>\n<td>PWM，SPI</td>\n<td>否</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至125℃</td>\n</tr>\n<tr>\n<td>KTH7815-X-N-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>PWM，SPI</td>\n<td>否</td>\n<td>12</td>\n<td>910</td>\n<td>/</td>\n<td>0us</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>有</td>\n<td>﹣40至125℃</td>\n</tr>\n<tr>\n<td rowspan=\"3\">\nKTH7816<br/>\n</td>\n<td>KTH7816-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>16</td>\n<td rowspan=\"3\">0.015°</td>\n<td rowspan=\"3\">是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>否</td>\n<td rowspan=\"3\">12</td>\n<td rowspan=\"3\">910</td>\n<td rowspan=\"3\">/</td>\n<td rowspan=\"3\">0us</td>\n<td rowspan=\"3\">1ms</td>\n<td rowspan=\"3\">1MHz</td>\n<td rowspan=\"3\">有</td>\n<td rowspan=\"3\">﹣40至125℃</td>\n</tr>\n<tr>\n<td>KTH7816-X-N-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>16</td>\n<td>PWM，SPI</td>\n<td>否</td>\n</tr>\n<tr>\n<td>KTH7816-X-C-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>PWM，SPI</td>\n<td>是</td>\n</tr>\n\n<tr>\n<th rowspan=\"4\">消费</th>\n<td rowspan=\"3\">\nKTH7823<br/>\n</td>\n<td rowspan=\"4\">离轴线性幅值校准</td>\n<td>KTH7823-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td rowspan=\"4\">±0.35度（在轴）<br/>±1度左右（离轴）</td>\n<td>16</td>\n<td rowspan=\"3\">0.015°</td>\n<td rowspan=\"3\">是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>否</td>\n<td rowspan=\"4\">12</td>\n<td rowspan=\"4\">910</td>\n<td rowspan=\"4\">/</td>\n<td rowspan=\"4\">0us</td>\n<td rowspan=\"4\">1ms</td>\n<td rowspan=\"4\">1MHz</td>\n<td rowspan=\"4\">有</td>\n<td rowspan=\"4\">﹣40至105℃</td>\n<td rowspan=\"4\">120,000转</td>\n<td rowspan=\"4\">30-150mT</td>\n<td rowspan=\"4\">玩具方向盘,舵机,编码器,无刷电机,空心杯电机,云台,球机,机器人,3D打印机</td>\n</tr>\n<tr>\n<td>KTH7823-X-C-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>是</td>\n</tr>\n<tr>\n<td>KTH7823-X-C-SOP8</td>\n<td>SOP-8</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>12bit+4CRC</td>\n<td>PWM，SPI</td>\n<td>是</td>\n</tr>\n<tr>\n<td>\nKTH7824 <br/>\n</td>\n<td>KTH7824-X-N-QN16</td>\n<td>QFN16-L</td>\n<td>3.0~5.5V </td>\n<td>11.6mA</td>\n<td>16</td>\n<td>0.004°</td>\n<td>是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>否</td>\n</tr>\n\n<tr>\n<th rowspan=\"2\">工业</th>\n<td>\nKTH7111<br/>\n</td>\n<td>在、离轴自校准</td>\n<td>KTH7111-QN16</td>\n<td>QFN3*3-16L</td>\n<td>3.3~5V </td>\n<td>16mA</td>\n<td>±0.2度</td>\n<td>16(+8CRC)</td>\n<td>0.015°</td>\n<td>是</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>是</td>\n<td>14</td>\n<td>120-3.8K</td>\n<td>/</td>\n<td>0us</td>\n<td>20ms（默认）</td>\n<td>1MHz</td>\n<td>无</td>\n<td>﹣40至125℃</td>\n<td rowspan=\"2\">120,000转</td>\n<td rowspan=\"2\">30-150mT</td>\n<td rowspan=\"2\">功率电动工具无刷直流电机,工业机械臂控制系统,夹爪,齿轮箱,缝纫机</td>\n</tr>\n<tr>\n<td>\nKTH7112<br/>\n</td>\n<td>在轴自校准</td>\n<td>KTH7112-QN16</td>\n<td>QFN3*3-16L</td>\n<td>3.3~5V </td>\n<td>16mA</td>\n<td>±0.07度（在轴）</td>\n<td>16(+8CRC)</td>\n<td>0.015°</td>\n<td>否</td>\n<td>SSI，PWM，SPI，ABZ</td>\n<td>是</td>\n<td>14</td>\n<td>120-3.8K</td>\n<td>/</td>\n<td>0us</td>\n<td>20ms（默认）</td>\n<td>1MHz</td>\n<td>无</td>\n<td>﹣40至125℃</td>\n</tr>\n<tr>\n<th>感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"23\">\n\n<img alt=\"感应方向\" src=\"/images/ext/KTH87-replace.png\"/>\n\n</td>\n</tr>\n</tbody>\n</table>",
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品型号</th>\n<th>供电</th>\n<th>功耗</th>\n<th>分辨率</th>\n<th>噪声</th>\n<th>离轴应用</th>\n<th>接口</th>\n<th>CRC<br/>校验</th>\n<th>ABZ分辨率</th>\n<th>PWM频率</th>\n<th>极限加减速延时</th>\n<th>系统延时（匀速）</th>\n<th>启动时间</th>\n<th>角度刷新速率</th>\n<th>截止频率</th>\n<th>磁场检测</th>\n<th>温度范围</th>\n<th>工作磁场</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTH7801</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>SSI<br/>PWM<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>3μs</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7802</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>UVW<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>3μs</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7811</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>UVW<br/>~UVW</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7812</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>UVW<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7813</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>UVW<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>15~150mT</td>\n</tr>\n<tr>\n<td>KTH7815</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.24°</td>\n<td>支持</td>\n<td>SPI<br/>ABZ<br/>~ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>3μs</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>235kHz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>15~150mT</td>\n</tr>\n<tr>\n<td>KTH7816</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>SSI<br/>PWM<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 125 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7821</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.24°</td>\n<td>支持</td>\n<td>SPI<br/>SSI<br/>PWM<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>3μs</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>235kHz</td>\n<td>有</td>\n<td>-40 ~ 105 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7822</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.059°</td>\n<td>支持</td>\n<td>SPI<br/>SSI</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>4.9kHz</td>\n<td>有</td>\n<td>-40 ~ 105 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7823</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.015°</td>\n<td>支持</td>\n<td>SPI<br/>SSI<br/>PWM<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>313Hz</td>\n<td>有</td>\n<td>-40 ~ 105 ℃</td>\n<td>30~150mT</td>\n</tr>\n<tr>\n<td>KTH7824</td>\n<td>3.3V/5V</td>\n<td>11.6mA</td>\n<td>16bit</td>\n<td>0.007°</td>\n<td>支持</td>\n<td>SPI<br/>SSI<br/>PWM<br/>ABZ</td>\n<td>可选</td>\n<td>12bit</td>\n<td>910Hz</td>\n<td>/</td>\n<td>~0μs</td>\n<td>1ms</td>\n<td>1MHz</td>\n<td>20Hz</td>\n<td>有</td>\n<td>-40 ~ 105 ℃</td>\n<td>40~150mT</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/hshrMagneticCodedAngleSensorAlter1.png",
+    "/images/hshrMagneticCodedAngleSensorAlter2.png"
+   ],
+   "docs": [
+    {
+     "scene": "上位机",
+     "series": "KTH78XX",
+     "type": "安装程序",
+     "cn": "KTH78评估板上位机安装包.exe",
+     "en": ""
+    },
+    {
+     "scene": "上位机",
+     "series": "KTH78XX",
+     "type": "使用说明",
+     "cn": "KTH78上位机安装使用说明.pdf",
+     "en": ""
+    },
+    {
+     "scene": "汽车类",
+     "series": "KTH7801",
+     "type": "产品手册",
+     "cn": "KTH7801 产品手册.pdf",
+     "en": "KTH7801 Datasheet EN.pdf"
+    },
+    {
+     "scene": "工业类",
+     "series": "KTH7812",
+     "type": "产品手册",
+     "cn": "KTH7812 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "工业类",
+     "series": "KTH7813",
+     "type": "产品手册",
+     "cn": "KTH7813 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "工业类",
+     "series": "KTH7814",
+     "type": "产品手册",
+     "cn": "KTH7814 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "工业类",
+     "series": "KTH7815",
+     "type": "产品手册",
+     "cn": "KTH7815 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "工业类",
+     "series": "KTH7816",
+     "type": "产品手册",
+     "cn": "KTH7816 产品手册.pdf",
+     "en": "KTH7816 Datasheet EN.pdf"
+    },
+    {
+     "scene": "消费类",
+     "series": "KTH7823",
+     "type": "产品手册",
+     "cn": "KTH7823 产品手册.pdf",
+     "en": "KTH7823 Datasheet EN.pdf"
+    },
+    {
+     "scene": "消费类",
+     "series": "KTH7824",
+     "type": "产品手册",
+     "cn": "KTH7824 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [
+    {
+     "title": "KTH78系列芯片介绍",
+     "src": "/videos/KTH78Series.mp4",
+     "poster": "/images/video_cover4.jpg"
+    },
+    {
+     "title": "KTH78系列多极对应用对拖校准大幅提高绝对精度",
+     "src": "/videos/KTH78-Improvement.mp4",
+     "poster": "/images/video_cover5.jpg"
+    }
+   ],
+   "extra": [],
+   "route": "/products/encoder/kth78",
+   "slug": "kth78",
+   "category": "encoder",
+   "title": "高速高分辨率磁编码角度传感器 - KTH78系列",
+   "legacy": false
+  },
+  "ktm59": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/hshrTMPMagnrticEncoderChip/index.html",
+   "kind": "高速高分辨率TMR磁编码器",
+   "intro": [
+    "昆泰芯KTH5900是一款 24bit 绝对角度 TMR 磁性编码器，构成一个高速高精度的非接触磁性编码器模块。它具有最高 2M 采样速率的 16bit SAR ADC 读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算，并输出位置信息。"
+   ],
+   "image": "/images/ext/hshrTMPA.png",
+   "highlights": [
+    "超高带宽输入，80M 内部主频，超低延时",
+    "单对极细分角度最高可达 24bit",
+    "最大支持 36M SPI 角度输出及寄存器读写",
+    "独立 PWM 绝对角度输出",
+    "内部集成超高性能双 16bit 2M SAR ADC"
+   ],
+   "highlights_title": "主要优势",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>校准</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>噪声（6sigma）</th>\n<th>有效位</th>\n<th>单极对非线性误差精度</th>\n<th>工作电流</th>\n<th>转速</th>\n<th>输出方式</th>\n<th>特色</th>\n<th>磁场检测范围</th>\n<th>启动时间</th>\n<th>工作温度</th>\n<th>封装</th>\n<th>应用领域</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"4\">24Bit<br/>高速<br/>高分辨率<br/>TMR<br/>磁编码器</td>\n<td>\nKTM5900<br/>\n</td>\n<td>自校准、光编对拖</td>\n<td>在轴、离轴</td>\n<td>360°</td>\n<td>3~5.5V</td>\n<td>0.01</td>\n<td>16Bit</td>\n<td>在轴±0.02°<br/>离轴±0.05°</td>\n<td>40mA</td>\n<td>180,000 rpm</td>\n<td>±ABZ<br/>±UVW<br/>PWM/SPI</td>\n<td>双16Bit 2M SAR ADC<br/>24bit角度分辨率</td>\n<td>30-150mT</td>\n<td>23ms</td>\n<td>-40 ~ +125 ℃</td>\n<td>QFN32- 5*5</td>\n<td>伺服电机<br/>机器人关节<br/>直线电机以及需要角度<br/>检测精度超高领域</td>\n</tr>\n<tr>\n<th>感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"16\">\n\n<img alt=\"感应方向\" src=\"/images/ext/KTM5900.png\"/>\n\n</td>\n</tr>\n<tr>\n<td>\nKTM5910<br/>\n</td>\n<td>自校准、光编对拖</td>\n<td>在轴</td>\n<td>360°</td>\n<td>3~5.5V</td>\n<td>0.01</td>\n<td>16Bit</td>\n<td>±0.02°</td>\n<td>40mA</td>\n<td>180,000 rpm</td>\n<td>±ABZ<br/>±UVW<br/>PWM/SPI</td>\n<td>双16Bit 2M SAR ADC<br/>24bit角度分辨率</td>\n<td>30-150mT</td>\n<td>23ms</td>\n<td>-40 ~ +125 ℃</td>\n<td>QFN32- 5*5</td>\n<td>伺服电机<br/>机器人关节<br/>直线电机以及需要角度<br/>检测精度超高领域</td>\n</tr>\n<tr>\n<th>感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"16\">\n\n<img alt=\"感应方向\" src=\"/images/ext/KTM5910.png\"/>\n\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/hshrMagneticCodedAngleSensorAlter1.png",
+    "/images/hshrMagneticCodedAngleSensorAlter2.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM5900",
+     "type": "产品手册",
+     "cn": "KTM5900 24bit绝对角度磁性编码器.pdf",
+     "en": "KTM5900 Datasheet EN.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTM5910",
+     "type": "产品手册",
+     "cn": "KTM5910 24bit绝对角度磁性编码器.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/ktm59",
+   "slug": "ktm59",
+   "category": "encoder",
+   "title": "高速高分辨率TMR磁编码器芯片- KTM59系列",
+   "legacy": false
+  },
+  "ktm58": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/absoluteangledivider/index.html",
+   "kind": "30bit 绝对角度细分器——KTM5800 系列",
+   "intro": [
+    "KTM5800 是一款 30bit 绝对角度细分 4096 对极编码细分器，可以与磁电阻传感器（AMR/TMR）搭配，构成一个高速高精度的非接触磁性编码器模块。它具有以非常高的采样速率读取传感器上的差分模拟正弦和余弦信号的能力，可以通过其高速数字电路进行角度计算， 并输出位置信息。此外，KTM5800 还可以搭配其他传感器如光编/光栅/磁栅等，一圈或一个绝对机械周期允许最大 12bit（4096 线）多极对输入。"
+   ],
+   "image": "/images/1760693879963.png",
+   "highlights": [
+    "单对极细分角度最高可达 18bit",
+    "最大支持 4096 对极输入",
+    "内部集成超高性能双 16bit 2M SAR ADC",
+    "最大支持 36M SPI 角度输出及寄存器读写",
+    "1-65536 线可编程 ABZ 增量输出",
+    "1-256 对极可编程 UVW 增量输出",
+    "独立 PWM 绝对角度输出",
+    "集成自动线性校准与自动非线性校准",
+    "单对极校准后 INL≤±0.025°",
+    "集成可编程增益运放",
+    "超高带宽输入，80M 内部主频，超低延时",
+    "适配光编/光栅/磁编/磁栅各种信号输入细分",
+    "工作温度范围-40°C 至 125°C",
+    "封装为 QFN32-5*5mm"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\"><thead><tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>噪声</th>\n<th>非线性误差</th>\n<th>工作电流</th>\n<th>转速</th>\n</tr></thead>\n<tbody>\n\n<tr>\n<td rowspan=\"3\">XMR磁阻<br/>高速<br/>高分辨率(30bit)<br/>角度细分器</td>\n<td rowspan=\"3\">KTM5800</td>\n<td>在轴, 离轴</td>\n<td>360°</td>\n<td>3~5.5V（MTPVDD引脚必须5V供电）</td>\n<td>0.01</td>\n<td>±0.02°</td>\n<td>40mA</td>\n<td>180,000 rpm</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th>特色</th>\n<th>模拟电平输入范围</th>\n<th>启动时间</th>\n<th>工作温度</th>\n<th>封装</th>\n<th>应用领域</th>\n</tr>\n<tr>\n<td>±ABZ/±UVW/PWM/SPI</td>\n<td>双16Bit 2M SAR ADC<br/>支持多对极数，<br/>1-4096对极支持一键自校准<br/>单级对细分角度最高可达18bit</td>\n<td>20mV~2V（推荐最大1V）</td>\n<td>23ms</td>\n<td>-40~+125°C</td>\n<td>HFBP5*5-32L</td>\n<td>伺服电机，机器人关节，直线电机以及需要角度检测精度超高领域</td>\n</tr>\n<tr>\n<th colspan=\"2\">感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"7\">\n<img src=\"/images/Absolute-angle-divider-.png\"/></td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM5800",
+     "type": "产品手册",
+     "cn": "KTM5800 产品手册.pdf",
+     "en": "KTM5800_EN.pdf"
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/ktm58",
+   "slug": "ktm58",
+   "category": "encoder",
+   "title": "30bit 绝对角度细分器 - KTM58 系列",
+   "legacy": false
+  },
+  "kth71": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/magneticencoder/index.html",
+   "kind": "16 位高速高精度磁编码器 —— KTH71系列",
+   "intro": [
+    "KTH7101 是一款高速高精度的磁编码器，内置了先进的自动非线性校准（ANLC）功能。",
+    "用户可通过写入寄存器或引脚触发校准流程，芯片能够自动完成传感器非线性误差的测",
+    "量与补偿参数计算，并将校准结果存入内部 MTP（多次可编程存储器）。此功能无需复",
+    "杂外部干预，可显著提升角度测量的线性度， 实现优于 ±0.1° 的绝对精度。"
+   ],
+   "image": "/images/1760937016155.png",
+   "highlights": [
+    "16 位高精度绝对角度输出",
+    "在轴应用，校准后 INL 精度 < ±0.1°",
+    "离轴应用，校准后 INL 精度 < ±0.2°",
+    "支持单对极和多对极磁铁应用",
+    "超低延时：1μs 数据更新率",
+    "SPI 通信：至高 10Mbps 数据交互",
+    "工作电压：3.3V 至 5V",
+    "工作温度：-40°C 至 125°C",
+    "工作温度范围：-40℃~125℃",
+    "封装：SOP-8 4.9mmx6mm",
+    "符合 AEC-Q100 车规标准"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\"><thead><tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>磁铁播放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>噪声</th>\n<th>非线性误差</th>\n<th>工作电流</th>\n<th>转速</th>\n<th>分辨率</th>\n</tr></thead>\n<tbody>\n\n<tr>\n<td rowspan=\"3\">高速<br/>高精度<br/>自校准<br/>霍尔磁铁编码<br/>传感器</td>\n<td rowspan=\"3\">KTH71XX</td>\n<td>在轴, 离轴</td>\n<td>360°</td>\n<td>3.3V/5V</td>\n<td>0.004°-0.015°</td>\n<td>在轴±0.1°  <br/>离轴 ±0.2°</td>\n<td>15mA-20mA</td>\n<td>120,000 rpm</td>\n<td>16bit</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th>启动时间</th>\n<th>ABZ线数</th>\n<th>磁场检测范围</th>\n<th>PWM</th>\n<th>SPI</th>\n<th colspan=\"2\">SSI速率</th>\n</tr>\n<tr>\n<td>SPI/ABZ/UVW/SSI/PWM</td>\n<td>1ms-100ms可调</td>\n<td>1-4096线</td>\n<td>30-150mT</td>\n<td>120-3.8KHz可调</td>\n<td>16bit角度<br/>+8bit CRC</td>\n<td colspan=\"2\">最大5M</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH7101",
+     "type": "产品手册",
+     "cn": "KTH7101 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH7111",
+     "type": "产品手册",
+     "cn": "KTH7111 产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH7112",
+     "type": "产品手册",
+     "cn": "KTH7112 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/kth71",
+   "slug": "kth71",
+   "category": "encoder",
+   "title": "16 位高速高精度磁编码器 - KTH71系列",
+   "legacy": false
+  },
+  "kto95": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/cursorabsoluteencoder/index.html",
+   "kind": "游标绝对值光学旋转编码器芯片 - KTO95系列",
+   "intro": [
+    "KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电传感器，提供了优秀的信号保真度，并具",
+    "有较宽松的对准容差。该系列设备输出精确的正弦/余弦信号，允",
+    "许后续设备进高分辨率插值，具体型号可以通过三通道 Nonius 插值实现高达 24 位的单圈位置分辨率。"
+   ],
+   "image": "/images/1760936805032.jpg",
+   "highlights": [
+    "紧凑型高分辨率绝对位置编码器",
+    "适用于直径 26mm 光栅码盘",
+    "单片 3 通道相位阵列，信号匹配优秀",
+    "2 位格雷码扫描，嵌入式扇区检测",
+    "适中码道间距，减少串扰",
+    "超低暗电流，高温操作适用",
+    "低噪声光电流放大器，1 MΩ 互阻增益",
+    "差分电压输出，短路保护",
+    "低输出阻抗，增强 EMI 抗干扰",
+    "模拟工作电压 4.1V 及以上",
+    "数字工作电压 1.8V 及以上",
+    "工作温度范围 -40°C 至 +125°C",
+    "optoQFN 封装，符合 RoHS 标准",
+    "支持评估板和码盘采样"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\"><thead><tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>分辨率</th>\n<th>码盘直径</th>\n<th>格雷码道</th>\n<th>检测范围</th>\n<th>供电电流</th>\n<th>光电流范围</th>\n<th colspan=\"2\">封装</th>\n<th>工作温度</th>\n</tr></thead>\n<tbody>\n\n<tr>\n<td rowspan=\"3\">相位阵<br/>游标<br/>光编码器<br/>芯片</td>\n<td rowspan=\"3\">KTO9512</td>\n<td>24bit</td>\n<td>26mm</td>\n<td>2bit</td>\n<td>360°</td>\n<td>9.5-15mA</td>\n<td>0-1120nA</td>\n<td colspan=\"2\">32-pin optoQFN<br/>5mmx5mmx0.9mm</td>\n<td>-40~+125°C</td>\n</tr>\n<tr>\n<th>码盘原理</th>\n<th>码盘刻线</th>\n<th>模拟电压</th>\n<th>数字电压</th>\n<th>光谱应用范围</th>\n<th>上电稳定时间</th>\n<th colspan=\"2\">输出方式</th>\n<th>应用领域</th>\n</tr>\n<tr>\n<td>3码道游标原理</td>\n<td>512CPR/510CPR/480CPR</td>\n<td>4.1-5.5V</td>\n<td>1.6-5.5V</td>\n<td>400-950nm</td>\n<td>100us</td>\n<td colspan=\"2\">6对模拟差分对输出</td>\n<td>绝对位置编码器<br/>交流伺服反馈</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTO9512",
+     "type": "产品手册",
+     "cn": "KTO9512-D26-QN32产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/kto95",
+   "slug": "kto95",
+   "category": "encoder",
+   "title": "游标绝对值光学旋转编码器芯片 - KTO95系列",
+   "legacy": false
+  },
+  "ktm53": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/KTM53XX/index.html",
+   "kind": "高速高精度离轴 AMR 角度编码器 - KTM5300",
+   "intro": [
+    "KTM5300 是基于各向异性磁阻（AMR）技术的高速高精度角度编码器芯片。芯片内集成两对互成 45° 的 AMR 惠斯通电桥及专用信号处理电路。AMR 器件在角度测量中工作于饱和区（饱和磁场约 300 高斯），芯片主要响应平行于芯片表面的磁场方向变化，对磁场强度变化不敏感，因此对磁铁加工误差及磁铁与芯片安装距离误差的容忍度较高。",
+    "KTM5300 采用离轴安装方式，封装为 QFN3×3，配合垂直霍尔和数字算法实现高精度离轴测量，校准后 INL 精度可达 ±0.03°（典型值）。KTM5300 提供增量 ABZ 输出接口，可替代传统光电编码器；分辨率最高 65,536 脉冲/圈（262,144 步/圈）。同时提供增量 UVW 输出，支持 1～64 对极/圈。"
+   ],
+   "image": "/images/KTM53XX.png",
+   "highlights": [
+    "基于 AMR 各向异性磁阻技术，0～360° 绝对角度位置检测",
+    "21 位核心角度分辨率，最高 60,000 转/分钟",
+    "角度输出延时 2 µs～10 µs",
+    "闭环一键自校准：离轴校准后 INL 可达 ±0.03°",
+    "支持离轴安装：配合垂直霍尔和数字算法，实现高精度离轴测量",
+    "支持非匀速自校准：优化非匀速工况下的自校准性能",
+    "40～125°C 温度范围内均可工作",
+    "可同时支持增量 ABZ、增量 UVW、PWM 绝对值和 4 线 SPI 总线输出",
+    "ABZ：1～65,536 脉冲/圈，任意整数分辨率可编程",
+    "UVW：1～64 对极/圈，任意整数对极可编程",
+    "内置 EEPROM，支持 3.3V～5.0V 供电下参数烧录与保存"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品型号</th>\n<th>系列</th>\n<th>磁铁摆放方式</th>\n<th>检测范围</th>\n<th>电压</th>\n<th>噪声</th>\n<th>角度 INL</th>\n<th>工作电流</th>\n<th>转速</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTM5300</td>\n<td>KTM53XX</td>\n<td>离轴</td>\n<td>360°</td>\n<td>3~5.5V</td>\n<td>0.005°</td>\n<td>±0.03°</td>\n<td>25mA</td>\n<td>60000rpm</td>\n</tr>\n<tr>\n<th>输出方式</th>\n<th>SPI 分辨率</th>\n<th>ABZ 分辨率</th>\n<th>磁场检测范围</th>\n<th>启动时间</th>\n<th colspan=\"2\">工作温度</th>\n<th colspan=\"2\">封装</th>\n</tr>\n<tr>\n<td>SPI/ABZ/UVW/PWM</td>\n<td>21bit</td>\n<td>1-65536 线可调</td>\n<td>20-150mT</td>\n<td>1-260ms 可调</td>\n<td colspan=\"2\">-40~125°C</td>\n<td colspan=\"2\">QFN3*3_16L</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/magneticAngleEncoderChipAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM5300",
+     "type": "产品手册",
+     "cn": "KTM5300 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/encoder/ktm53",
+   "slug": "ktm53",
+   "category": "encoder",
+   "title": "高速高精度离轴AMR磁编码器芯片 —— 53系列",
+   "legacy": false
+  },
+  "kth16": {
+   "source": "/html/web/product/switchPositionDetectionChip/microPowerSeries/index.html",
+   "kind": "霍尔微功耗系列产品",
+   "intro": [
+    "该系列产品使用CMOS工艺，芯片内集成了霍尔感应元件。1.7~5.5V工作电压，以及1μA超低功耗，并且具有优良的温度补偿，使得芯片能在-40~125℃的环境中工作，并保持良好的性能和一致性。"
+   ],
+   "image": "/images/microPowerSeries.png",
+   "highlights": [],
+   "highlights_title": "",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列\n\n                                        <button>\n<img alt=\" \" src=\"/images/add.png\"/>\n</button>\n<button>\n<img alt=\" \" src=\"/images/sub.png\"/>\n</button>\n</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP</th>\n<th>BRP</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTH1604</td>\n<td>双脚输出<br/>单极型</td>\n<td>1.6~5.5V</td>\n<td>3.3μA@1.8V<br/>1.6μA@1.8V</td>\n<td>20Hz<br/>5Hz</td>\n<td>46/-46<br/>33/-33<br/>22/-22</td>\n<td>34/-34<br/>23/-23<br/>16/-16</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>DFN/FBP<br/>1*1-4L</td>\n</tr>\n<tr>\n<td>KTH1631</td>\n<td>锁存型</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>-20/20</td>\n<td>20/-20</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1701</td>\n<td>全极型</td>\n<td>1.8~5.5V</td>\n<td>10.4uA@1.8V<br/>2.4uA@1.8V<br/>0.9uA@1.8V</td>\n<td>500Hz<br/>100Hz<br/>25Hz</td>\n<td>48/-48<br/>36/-36<br/>26/-26</td>\n<td>28/-28<br/>20/-20<br/>14/-14</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1702</td>\n<td>全极型</td>\n<td>1.8~5.5V</td>\n<td>0.9uA@1.8V<br/>2.25mA@1.8V</td>\n<td>25Hz<br/>40KHz</td>\n<td>36/-36<br/>135/-135</td>\n<td>20/-20<br/>95/-95</td>\n<td>开漏输出</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1711</td>\n<td>单S极</td>\n<td>1.8~5.5V</td>\n<td>2.4uA@1.8V<br/>0.9uA@1.8V</td>\n<td>100Hz<br/>25Hz</td>\n<td>50</td>\n<td>35</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1721</td>\n<td>单N极</td>\n<td>1.8~5.5V</td>\n<td>2.4uA@1.8V<br/>0.9uA@1.8V</td>\n<td>100Hz<br/>25Hz</td>\n<td>-50</td>\n<td>-35</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1722</td>\n<td>单N极</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>-125</td>\n<td>-90</td>\n<td>开漏输出</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L</td>\n</tr>\n<tr>\n<td>KTH1731</td>\n<td>锁存型</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>26/-26</td>\n<td>-26/26</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>HFBP1010</td>\n</tr>\n<tr>\n<td rowspan=\"5\">KTH1604</td>\n<td>KTH1604TH</td>\n<td rowspan=\"5\">双脚输出<br/>单极型</td>\n<td rowspan=\"5\">1.6~5.5V</td>\n<td>3.3μA@1.8V</td>\n<td>20Hz</td>\n<td rowspan=\"2\">46/-46</td>\n<td rowspan=\"2\">34/-34</td>\n<td>CMOS</td>\n<td rowspan=\"5\">-40℃~85℃</td>\n<td rowspan=\"5\">DFN/FBP<br/>1*1-4L</td>\n</tr>\n<tr>\n<td>KTH1604SH</td>\n<td>1.6μA@1.8V</td>\n<td>5Hz</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<td>KTH1604TL</td>\n<td>3.3μA@1.8V</td>\n<td>20Hz</td>\n<td rowspan=\"2\">33/-33</td>\n<td rowspan=\"2\">23/-23</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<td>KTH1604SL</td>\n<td>1.6μA@1.8V</td>\n<td>5Hz</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<td>KTH1604SU</td>\n<td>1.6μA@1.8V</td>\n<td>5Hz</td>\n<td>22/-22</td>\n<td>16/-16</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<td>KTH1631</td>\n<td>KTH1631FU</td>\n<td>锁存型</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>-20/20</td>\n<td>20/-20</td>\n<td>CMOS</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td rowspan=\"9\">KTH1701</td>\n<td>KTH1701FH</td>\n<td rowspan=\"9\">全极型</td>\n<td rowspan=\"9\">1.8~5.5V</td>\n<td>10.4uA@1.8V</td>\n<td>500Hz</td>\n<td rowspan=\"3\">48/-48</td>\n<td rowspan=\"3\">28/-28</td>\n<td rowspan=\"3\">CMOS</td>\n<td rowspan=\"3\">-40℃~85℃</td>\n<td rowspan=\"9\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1701TH</td>\n<td>2.4uA@1.8V</td>\n<td>100Hz</td>\n</tr>\n<tr>\n<td>KTH1701SH</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n</tr>\n<tr>\n<td>KTH1701FL</td>\n<td>10.4uA@1.8V</td>\n<td>500Hz</td>\n<td rowspan=\"3\">36/-36</td>\n<td rowspan=\"3\">20/-20</td>\n<td rowspan=\"3\">CMOS</td>\n<td rowspan=\"3\">-40℃~85℃</td>\n</tr>\n<tr>\n<td>KTH1701TL</td>\n<td>2.4uA@1.8V</td>\n<td>100Hz</td>\n</tr>\n<tr>\n<td>KTH1701SL</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n</tr>\n<tr>\n<td>KTH1701FU</td>\n<td>10.4uA@1.8V</td>\n<td>500Hz</td>\n<td rowspan=\"3\">26/-26</td>\n<td rowspan=\"3\">14/-14</td>\n<td rowspan=\"3\">CMOS</td>\n<td rowspan=\"3\">-40℃~85℃</td>\n</tr>\n<tr>\n<td>KTH1701TU</td>\n<td>2.4uA@1.8V</td>\n<td>100Hz</td>\n</tr>\n<tr>\n<td>KTH1701SU</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n</tr>\n<tr>\n<td rowspan=\"2\">KTH1702</td>\n<td>KTH1702AE</td>\n<td rowspan=\"2\">全极型</td>\n<td>1.8~5.5V</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n<td>36/-36</td>\n<td>20/-20</td>\n<td>开漏输出</td>\n<td>-40℃~125℃</td>\n<td rowspan=\"2\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1702CC</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>135/-135</td>\n<td>95/-95</td>\n<td>开漏输出</td>\n<td>-40℃~125℃</td>\n</tr>\n<tr>\n<td rowspan=\"2\">KTH1711</td>\n<td>KTH1711TH</td>\n<td rowspan=\"2\">单S极</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>2.4uA@1.8V</td>\n<td>100Hz</td>\n<td rowspan=\"2\">50</td>\n<td rowspan=\"2\">35</td>\n<td rowspan=\"2\">CMOS</td>\n<td rowspan=\"2\">-40℃~85℃</td>\n<td rowspan=\"2\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1711SH</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n</tr>\n<tr>\n<td rowspan=\"2\">KTH1721</td>\n<td>KTH1721TH</td>\n<td rowspan=\"2\">单N极</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>2.4uA@1.8V</td>\n<td>100Hz</td>\n<td rowspan=\"2\">-50</td>\n<td rowspan=\"2\">-35</td>\n<td rowspan=\"2\">CMOS</td>\n<td rowspan=\"2\">-40℃~85℃</td>\n<td rowspan=\"2\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH1721SH</td>\n<td>0.9uA@1.8V</td>\n<td>25Hz</td>\n</tr>\n<tr>\n<td>KTH1722</td>\n<td>KTH1722CC</td>\n<td>单N极</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>-125</td>\n<td>-90</td>\n<td>开漏输出</td>\n<td>-40℃~85℃</td>\n<td>SOT-23-3L</td>\n</tr>\n<tr>\n<td>KTH1731</td>\n<td>KTH1731PU</td>\n<td>锁存型</td>\n<td>1.8~5.5V</td>\n<td>2.25mA@1.8V</td>\n<td>40KHz</td>\n<td>26/-26</td>\n<td>-26/26</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>HFBP1010</td>\n</tr>\n<tr>\n<th>霍尔感应<br/>方向</th>\n<td class=\"ct-cell-img\" colspan=\"9\">\n\n\n<img alt=\"霍尔感应方向\" src=\"/images/1689734204100.png\"/><br/>\n\n</td>\n</tr>\n<tr>\n<td rowspan=\"2\">KTH1362</td>\n<td>KTH1362TA</td>\n<td rowspan=\"2\">全极型</td>\n<td>2.5~5.5V</td>\n<td>1.9mA@3.3V</td>\n<td>1.7kHz</td>\n<td>45/-45</td>\n<td>20/-20</td>\n<td>NMOS开漏输出</td>\n<td>-40℃~125℃</td>\n<td rowspan=\"2\">SOT-23-3L</td>\n</tr>\n<tr>\n<td>KTH1362SA</td>\n<td>2.5~5.5V</td>\n<td>5.1μA@3.3V</td>\n<td>2.5Hz</td>\n<td>45/-45</td>\n<td>20/-20</td>\n<td>NMOS开漏输出</td>\n<td>-40℃~125℃</td>\n</tr>\n<tr>\n<th>霍尔感应<br/>方向</th>\n<td class=\"ct-cell-img\" colspan=\"9\">\n\n<img alt=\"霍尔感应方向\" src=\"/images/1689734585101.png\"/><br/>\n\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/microPowerSeriesAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH1604",
+     "type": "产品手册",
+     "cn": "KTH1604 Series产品手册.pdf",
+     "en": "KTH1604 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1631",
+     "type": "产品手册",
+     "cn": "KTH1631 Series产品手册.pdf",
+     "en": "KTH1631 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1701",
+     "type": "产品手册",
+     "cn": "KTH1701 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1702",
+     "type": "产品手册",
+     "cn": "KTH1702 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1711",
+     "type": "产品手册",
+     "cn": "KTH1711 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1721",
+     "type": "产品手册",
+     "cn": "KTH1721 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1722",
+     "type": "产品手册",
+     "cn": "KTH1722 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH1362",
+     "type": "产品手册",
+     "cn": "KTH1362 Series产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/kth16",
+   "slug": "kth16",
+   "category": "switch",
+   "title": "1D霍尔开关-微功耗系列产品",
+   "legacy": false
+  },
+  "ktm13": {
+   "source": "/html/web/product/switchPositionDetectionChip/magnetoresistiveSwitchSeries/index.html",
+   "kind": "磁阻开关系列产品",
+   "intro": [
+    "根据平行穿过磁场的强度和角度不同，阻抗值发生变化的TMR阻桥与ASIC集成在单芯片中。通过与磁铁配合，进行非接触式位置检测。相比于霍尔传感器具有更高精度（回差可以小于3高斯），对磁场平行感应，和不同方向的TMR桥阻配合实现360度两维感应特点。主要应用于不同感应角度与低功耗高频感应的应用场合。",
+    "推荐应用：笔记本电脑/平板电脑中的盖开关，位置检测，位移检测，速度检测，流量计：包括水表、煤气表和热量表",
+    "产品功能：全极型 电源电压：1.8~5.5V 高磁灵敏度 高频性能 工作温度：-40℃~125℃"
+   ],
+   "image": "/images/magnetoresistiveSwitchSeries.png",
+   "highlights": [],
+   "highlights_title": "",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列\n\n                                        <button>\n<img alt=\" \" src=\"/images/add.png\"/>\n</button>\n<button>\n<img alt=\" \" src=\"/images/sub.png\"/>\n</button>\n</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP</th>\n<th>BRP</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTM1301</td>\n<td>全极型</td>\n<td>1.8~5.5V</td>\n<td>1.9uA@3.0V<br/>600nA@3V<br/>160nA@3V</td>\n<td>5000Hz<br/>1600Hz<br/>50Hz</td>\n<td>±45<br/>±30<br/>±18<br/>±9<br/>±7</td>\n<td>±36<br/>±21<br/>±12<br/>±6<br/>±4</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1311</td>\n<td>单S极</td>\n<td>1.8~5.5V</td>\n<td>1.9uA@3.0V<br/>160nA@3V</td>\n<td>5000Hz<br/>50Hz</td>\n<td>45<br/>30<br/>18<br/>9</td>\n<td>36<br/>21<br/>12<br/>6</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1321</td>\n<td>单N极</td>\n<td>1.8~5.5V</td>\n<td>1.9uA@3.0V<br/>160nA@3V</td>\n<td>5000Hz<br/>50Hz</td>\n<td>-45<br/>-30<br/>-18<br/>-9</td>\n<td>-36<br/>-21<br/>-12<br/>-6</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1331</td>\n<td>锁存型</td>\n<td>1.8~5.5V</td>\n<td>1.9uA@3.0V<br/>600nA@3V<br/>160nA@3V</td>\n<td>5000Hz<br/>1600Hz<br/>50Hz</td>\n<td>45<br/>30<br/>17<br/>9<br/>5</td>\n<td>-45<br/>-30<br/>-17<br/>-9<br/>-5</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1302</td>\n<td>全极型</td>\n<td>1.8~5.5V</td>\n<td>1.9uA@3.0V<br/>160nA@3V</td>\n<td>5000Hz<br/>50Hz</td>\n<td>±45<br/>±30<br/>±18<br/>±9<br/>±7</td>\n<td>±36<br/>±21<br/>±12<br/>±6<br/>±4</td>\n<td>开漏输出</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1304</td>\n<td>全极型</td>\n<td>1.8~5.5V</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n<td>±30<br/>±9<br/>±7</td>\n<td>±21<br/>±6<br/>±4</td>\n<td>CMOS</td>\n<td>-40℃~125℃</td>\n<td>DFN2*2-3L</td>\n</tr>\n<tr>\n<td rowspan=\"15\">KTM1301</td>\n<td>KTM1301TA</td>\n<td rowspan=\"15\">全极型</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">±45</td>\n<td rowspan=\"3\">±36</td>\n<td rowspan=\"3\">CMOS</td>\n<td rowspan=\"15\">-40℃~125℃</td>\n<td rowspan=\"15\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1301MA</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1301SA</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1301TB</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">±30</td>\n<td rowspan=\"3\">±21</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1301MB</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1301SB</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1301TC</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">±18</td>\n<td rowspan=\"3\">±12</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1301MC</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1301SC</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1301TD</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">±9</td>\n<td rowspan=\"3\">±6</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1301MD</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1301SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1301TE</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">±7</td>\n<td rowspan=\"3\">±4</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1301ME</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1301SE</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td rowspan=\"8\">KTM1311</td>\n<td>KTM1311TA</td>\n<td rowspan=\"8\">单S极</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">45</td>\n<td rowspan=\"2\">36</td>\n<td rowspan=\"2\">CMOS</td>\n<td rowspan=\"8\">-40℃~125℃</td>\n<td rowspan=\"8\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1311SA</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1311TB</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">30</td>\n<td rowspan=\"2\">21</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1311SB</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1311TC</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">18</td>\n<td rowspan=\"2\">12</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1311SC</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1311TD</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">9</td>\n<td rowspan=\"2\">6</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1311SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td rowspan=\"8\">KTM1321</td>\n<td>KTM1321TA</td>\n<td rowspan=\"8\">单N极</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">-45</td>\n<td rowspan=\"2\">-36</td>\n<td rowspan=\"2\">CMOS</td>\n<td rowspan=\"8\">-40℃~125℃</td>\n<td rowspan=\"8\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1321SA</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1321TB</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">-30</td>\n<td rowspan=\"2\">-21</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1321SB</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1321TC</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">-18</td>\n<td rowspan=\"2\">-12</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1321SC</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1321TD</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">-9</td>\n<td rowspan=\"2\">-6</td>\n<td rowspan=\"2\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1321SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td rowspan=\"15\">KTM1331</td>\n<td>KTM1331TA</td>\n<td rowspan=\"15\">锁存型</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">45</td>\n<td rowspan=\"3\">-45</td>\n<td rowspan=\"3\">CMOS</td>\n<td rowspan=\"15\">-40℃~125℃</td>\n<td rowspan=\"15\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1331MA</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1331SA</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1331TB</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">30</td>\n<td rowspan=\"3\">-30</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1331MB</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1331SB</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1331TC</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">17</td>\n<td rowspan=\"3\">-17</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1331MC</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1331SC</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1331TD</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">9</td>\n<td rowspan=\"3\">-9</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1331MD</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1331SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1331TE</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"3\">5</td>\n<td rowspan=\"3\">-5</td>\n<td rowspan=\"3\">CMOS</td>\n</tr>\n<tr>\n<td>KTM1331ME</td>\n<td>600nA@3V</td>\n<td>1600Hz</td>\n</tr>\n<tr>\n<td>KTM1331SE</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td rowspan=\"10\">KTM1302</td>\n<td>KTM1302TA</td>\n<td rowspan=\"10\">全极型</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">±45</td>\n<td rowspan=\"2\">±36</td>\n<td rowspan=\"2\">开漏输出</td>\n<td rowspan=\"10\">-40℃~125℃</td>\n<td rowspan=\"10\">SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTM1302SA</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1302TB</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">±30</td>\n<td rowspan=\"2\">±21</td>\n<td rowspan=\"2\">开漏输出</td>\n</tr>\n<tr>\n<td>KTM1302SB</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1302TC</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">±18</td>\n<td rowspan=\"2\">±12</td>\n<td rowspan=\"2\">开漏输出</td>\n</tr>\n<tr>\n<td>KTM1302SC</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1302TD</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">±9</td>\n<td rowspan=\"2\">±6</td>\n<td rowspan=\"2\">开漏输出</td>\n</tr>\n<tr>\n<td>KTM1302SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td>KTM1302TE</td>\n<td rowspan=\"2\">1.8~5.5V</td>\n<td>1.9uA@3.0V</td>\n<td>5000Hz</td>\n<td rowspan=\"2\">±7</td>\n<td rowspan=\"2\">±4</td>\n<td rowspan=\"2\">开漏输出</td>\n</tr>\n<tr>\n<td>KTM1302SE</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n</tr>\n<tr>\n<td rowspan=\"3\">KTM1304</td>\n<td>KTM1304SB</td>\n<td rowspan=\"3\">全极型</td>\n<td rowspan=\"3\">1.8~5.5V</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n<td>±30</td>\n<td>±21</td>\n<td>CMOS</td>\n<td rowspan=\"3\">-40℃~125℃</td>\n<td rowspan=\"3\">DFN2*2-3L</td>\n</tr>\n<tr>\n<td>KTM1304SD</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n<td>±9</td>\n<td>±6</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<td>KTM1304SE</td>\n<td>160nA@3V</td>\n<td>50Hz</td>\n<td>±7</td>\n<td>±4</td>\n<td>CMOS</td>\n</tr>\n<tr>\n<th>TMR感应<br/>方向</th>\n<td class=\"ct-cell-img\" colspan=\"9\">\n\n<img alt=\"霍尔感应方向\" src=\"/images/1690161657102.png\"/><br/>\n\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/magnetoresistiveSwitchSeriesAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM1301",
+     "type": "产品手册",
+     "cn": "KTM1301 Series产品手册.pdf",
+     "en": "KTM1301 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1311",
+     "type": "产品手册",
+     "cn": "KTM1311 Series产品手册.pdf",
+     "en": "KTM1311 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1321",
+     "type": "产品手册",
+     "cn": "KTM1321 Series产品手册.pdf",
+     "en": "KTM1321 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1331",
+     "type": "产品手册",
+     "cn": "KTM1331 Series产品手册.pdf",
+     "en": "KTM1331 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1331R",
+     "type": "产品手册",
+     "cn": "KTM1331R Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1302",
+     "type": "产品手册",
+     "cn": "KTM1302 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1302LTC",
+     "type": "产品手册",
+     "cn": "KTM1302LTC产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1302R",
+     "type": "产品手册",
+     "cn": "KTM1302R Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTM1304",
+     "type": "产品手册",
+     "cn": "",
+     "en": "KTM1304 Series Datasheet.pdf"
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/ktm13",
+   "slug": "ktm13",
+   "category": "switch",
+   "title": "TMR磁传感器芯片-13系列",
+   "legacy": false
+  },
+  "kth25": {
+   "source": "/html/web/product/switchPositionDetectionChip/automotiveHvdlHallEffectSensor/index.html",
+   "kind": "车规级高压霍尔开关",
+   "intro": [
+    "KTH25XX采用先进的斩波技术（内置零漂移放大器），集成了温度补偿电路,具有小于10µV的失调电压和极低的失调漂移特性，在工作温度范围内有着卓越灵敏度和温度稳定性。其开漏输出级具有高达30mA的灌电流驱动能力，具有抛负载能力和输出短路过流保护功能。2.7~32 V的宽工作电压范围，采用SOT-23-3L和TO-92S封装，反接保护电压高达-32 V，广泛适用于众多的汽车及工业领域。"
+   ],
+   "image": "/images/automotiveHvdlHallEffectSensor.png",
+   "highlights": [
+    "KTH25XX 适用于汽车应用",
+    "数字双极锁存霍尔传感器",
+    "卓越的温度稳定性 – 全温度范围",
+    "多灵敏度可选",
+    "宽工作电压范围",
+    "开漏输出 (30-mA 灌电流)"
+   ],
+   "highlights_title": "主要优势",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP</th>\n<th>BRP</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"3\">KTH25XX</td>\n<td>KTH250XQA</td>\n<td rowspan=\"3\">锁存型</td>\n<td rowspan=\"3\">2.7~36V</td>\n<td rowspan=\"3\">2.7mA</td>\n<td rowspan=\"3\">30KHz</td>\n<td>15</td>\n<td>-15</td>\n<td rowspan=\"3\">开漏输出</td>\n<td rowspan=\"3\">-40~125℃</td>\n<td rowspan=\"3\">\n\n                                        SOT-23-3L<br/>\n\n                                        TO-92S\n\n                                    </td>\n</tr>\n<tr>\n<td>KTH250XQB</td>\n<td>30</td>\n<td>-30</td>\n</tr>\n<tr>\n<td>KTH250XQC</td>\n<td>60</td>\n<td>-60</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH2502",
+     "type": "产品手册",
+     "cn": "KTH2502 产品手册.pdf",
+     "en": "KTH2502 Datasheet.pdf"
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/kth25",
+   "slug": "kth25",
+   "category": "switch",
+   "title": "车规级高压霍尔开关芯片-25、26系列",
+   "legacy": false
+  },
+  "ktm28": {
+   "source": "/html/web/product/switchPositionDetectionChip/hvcpDetectionSensor/index.html",
+   "kind": "AMR高压气缸开关",
+   "intro": [
+    "KTM2802采用SIP（系统级封装）生产技术，将ASIC传感器和AMR集成在一个IC中。KTM2802支持用于气缸位置检测的两线和三线应用，是一款基于AMR（各向异性磁阻）的磁传感器，与磁铁结合使用时，它成为一款低功耗、高灵敏度和高可靠性的非接触式开关器件。可以通过任意极性检测与封装电极平行的水平磁场。KTM2802可用于上拉负载和下拉负载应用。"
+   ],
+   "image": "/images/hvcpDetectionSensor.png",
+   "highlights": [
+    "全极模式，阈值温度特性",
+    "SIP（系统级封装）技术",
+    "工作电压范围：3~30V",
+    "工作频率: 4KHz",
+    "反向电源保护：-30V",
+    "反向输出保护：-30V",
+    "输出过流保护（220mA）",
+    "开漏输出，具有上拉或下拉负载的自适应功能（等效负载≤50KΩ@3线）",
+    "工作温度范围：-40℃~105℃",
+    "封装形式：HFBP2*3-6L"
+   ],
+   "highlights_title": "主要优势",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP(Gs)</th>\n<th>BRP(Gs)</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTM280X</td>\n<td>KTM2801<br/>KTM2802</td>\n<td>全极型</td>\n<td>3~32V</td>\n<td>70μA</td>\n<td>4KHz</td>\n<td>±18</td>\n<td>±16</td>\n<td>开漏输出</td>\n<td>-40~105℃</td>\n<td>HFBP2*3-6L</td>\n</tr>\n<tr>\n<th>—</th>\n<td class=\"ct-cell-img\" colspan=\"10\">\n\n<img alt=\"\" src=\"/images/1690171757104.png\"/><br/>\n\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/hvcpDetectionSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTM2802",
+     "type": "产品手册",
+     "cn": "KTM2802 产品手册.pdf",
+     "en": "KTM2802 Datasheet.pdf"
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/ktm28",
+   "slug": "ktm28",
+   "category": "switch",
+   "title": "AMR高压气缸开关-28",
+   "legacy": false
+  },
+  "kth462": {
+   "source": "/html/web/product/switchPositionDetectionChip/highsensitive2Dhallswitch/index.html",
+   "kind": "高性能、低功耗、超灵敏的 2D 霍尔开关 - KTH462系列",
+   "intro": [
+    "KTH462N系列是一款检测二维磁场的低功耗锁存型霍尔效应开关传感器。芯片提供了两个独立的数字输出，提供速度和方向计算(KTH4622系列)输出或直接提供每轴独立的锁存型开关输出(KTH4621系列)。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。"
+   ],
+   "image": "/images/1760325669001.png",
+   "highlights": [
+    "低功耗：30Hz版本：32.3uA@2.5V",
+    "连续工作版本(1.7KHz)：1.9mA@2.5V",
+    "宽工作电压范围：2.5V~5.5V",
+    "磁场阈值(Bop) 25Gs 阈值",
+    "锁存型工作模式",
+    "NMOS开漏输出",
+    "封装：SOT-23-6L",
+    "工作温度范围：-40℃~125℃",
+    "卓越的ESD性能：HBM 4KV",
+    "符合RoHS标准"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP(GS)</th>\n<th>BRP(GS)</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"4\">2D霍尔开关</td>\n<td rowspan=\"4\">KTH46系列</td>\n<td>KTH4621X <br/>AT-ST6</td>\n<td>双路输出<br/>锁存型</td>\n<td>2.5~5.5V</td>\n<td>1.9mA@2.5V</td>\n<td>1.7KHz</td>\n<td>25</td>\n<td>-25</td>\n<td>NMOS<br/>开漏输出</td>\n<td>-40~125℃</td>\n<td>SOT-23-6L</td>\n</tr>\n<tr>\n<td>KTH4621X <br/> AM-ST6</td>\n<td>双路输出<br/>锁存型</td>\n<td>2.5~5.5V</td>\n<td>33uA@2.5V</td>\n<td>30Hz</td>\n<td>25</td>\n<td>-25</td>\n<td>NMOS<br/>开漏输出</td>\n<td>-40~125℃</td>\n<td>SOT-23-6L</td>\n</tr>\n<tr>\n<td>KTH4622X <br/>AT-ST6</td>\n<td>速度和方向<br/>双路输出</td>\n<td>2.5~5.5V</td>\n<td>1.9mA@2.5V</td>\n<td>1.7KHz</td>\n<td>25</td>\n<td>-25</td>\n<td>NMOS<br/>开漏输出</td>\n<td>-40~125℃</td>\n<td>SOT-23-6L</td>\n</tr>\n<tr>\n<td>KTH4622X <br/>AM-ST6</td>\n<td>速度和方向<br/>双路输出</td>\n<td>2.5~5.5V</td>\n<td>33uA@2.5V</td>\n<td>30Hz</td>\n<td>25</td>\n<td>-25</td>\n<td>NMOS<br/>开漏输出</td>\n<td>-40~125℃</td>\n<td>SOT-23-6L</td>\n</tr>\n<tr>\n<th colspan=\"2\">霍尔感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"10\">\n<img src=\"/images/High-performance-low-power consumption-and-ultra-sensitive-2D-Hall-switch-direct.png\"/>\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH462N系列",
+     "type": "产品手册",
+     "cn": "KTH462N Series 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/kth462",
+   "slug": "kth462",
+   "category": "switch",
+   "title": "高性能、低功耗、超灵敏的 2D 霍尔开关 - KTH462系列",
+   "legacy": false
+  },
+  "kth460": {
+   "source": "/html/web/product/switchPositionDetectionChip/highlysensitive3dhallswitch/index.html",
+   "kind": "微功耗超灵敏的 3D 霍尔开关",
+   "intro": [
+    "KTH4603系列是一款具有X、Y、Z三维全极检测的低功耗霍尔效应开关传感器。该芯片可以提供多种开关工作频率和封装形式以适配各种应用。",
+    "芯片内置X,Y,Z三个超灵敏低失调的霍尔盘、多路模拟开关、差分放大器、施密特触发器和NMOS开漏输出电路，采用了先进SPIN及数字滤波技术、",
+    "优化时钟控制技术从而保证芯片稳定的工作点和开关频率。"
+   ],
+   "image": "/images/1760325627829.png",
+   "highlights": [
+    "低功耗：2.5Hz版本：4.5uA@2.5V",
+    "5.0Hz版本：7.1uA@2.5V",
+    "宽工作电压范围：2.5V~5.5V",
+    "磁场阈值（Bop）25Gs 阈值",
+    "全极磁场检测",
+    "NMOS开漏输出",
+    "封装：SOT-23-3L，SOT-23-6L",
+    "工作温度范围：-40℃~125℃",
+    "工作温度范围：-40℃~125℃",
+    "符合RoHS标准"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>工作频率</th>\n<th>BOP(GS)</th>\n<th>BRP(GS)</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装形式</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">3D霍尔开关</td>\n<td rowspan=\"2\">KTH46系列</td>\n<td>KTH4603AA-STx</td>\n<td rowspan=\"2\">全极型</td>\n<td rowspan=\"2\">2.25-5.5V</td>\n<td>5.5uA@3.3V</td>\n<td>2.5Hz</td>\n<td rowspan=\"2\">25/-25</td>\n<td rowspan=\"2\">15GS/-15GS</td>\n<td rowspan=\"2\">开漏输出</td>\n<td rowspan=\"2\">-40~125°C</td>\n<td rowspan=\"2\">SOT-23-3L<br/>SOT-23-6L</td>\n</tr>\n<tr>\n<td>KTH4603AB-STx</td>\n<td>8.0uA@3.3V</td>\n<td>5.0Hz</td>\n</tr>\n<tr>\n<th>霍尔感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"11\"><img src=\"/images/Ultra-low power consumption and highly sensitive 3D Hall switch.png\"/></td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH4603",
+     "type": "产品手册",
+     "cn": "KTH4603 Series产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/kth460",
+   "slug": "kth460",
+   "category": "switch",
+   "title": "微功耗超灵敏的 3D 霍尔开关 - KTH460系列",
+   "legacy": false
+  },
+  "kth31": {
+   "source": "/html/web/product/switchPositionDetectionChip/proportionallinerhalleffectsensor/index.html",
+   "kind": "比例式线性霍尔效应传感器",
+   "intro": [
+    "KTH31XX是一款线性霍尔效应传感器，可按比例响应磁通量密度。KTH31XX内部电路包含霍尔传感器、线性放大器和推挽输出级电路。具有高速、低噪声输出特性，在-40℃至125℃ 的宽温度范围内实现线性性能。可用于消费类、工业类各种磁场检测。"
+   ],
+   "image": "/images/1760693703163.png",
+   "highlights": [
+    "比例式线性霍尔效应磁传感器",
+    "轨到轨模拟输出",
+    "低噪声输出电压",
+    "宽工作电压范围：3.0V~5.5V",
+    "低功耗：4.5mA@3.3V VDD",
+    "5:4mA@5.0V VDD",
+    "高速30KHz带宽",
+    "VDD/2 静态输出，可检测N极和S极磁场",
+    "多灵敏度可选",
+    "封装类型：SOT-23 TO-92S DFN1616",
+    "工作温度范围：-40℃~125℃",
+    "符合RoHS标准"
+   ],
+   "highlights_title": "产品特点",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>产品名称</th>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>灵敏度</th>\n<th>磁场范围</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"6\">高速高带宽线性霍尔</td>\n<td rowspan=\"6\">KTH31XX</td>\n<td>KTH3101</td>\n<td rowspan=\"6\">线性</td>\n<td rowspan=\"6\">3.0-5.5V</td>\n<td rowspan=\"6\">4.5mA@3.3V<br/>5.4mA@5.0V</td>\n<td>1.00mV/GS (@3.3V)<br/>1.5mV/GS (@5V)</td>\n<td>±1400GS <br/> ±1500GS</td>\n<td rowspan=\"6\">模拟电压输出</td>\n<td rowspan=\"6\">-40~125°C</td>\n<td rowspan=\"6\">SOT-23<br/>TO-92S<br/>DFN1616</td>\n</tr>\n<tr>\n<td>KTH3102</td>\n<td>1.65mV/GS (@3.3V)<br/>2.5mV/GS (@5V)</td>\n<td>±840GS<br/>  ±900GS</td>\n</tr>\n<tr>\n<td>KTH3103</td>\n<td>2.25mV/GS (@3.3V)<br/>3.4mV/GS (@5V)</td>\n<td>±620GS <br/>  ±660GS</td>\n</tr>\n<tr>\n<td>KTH3105</td>\n<td>3.30mV/GS (@3.3V)<br/>5.0mV/GS (@5V)</td>\n<td>±420GS <br/>  ±450GS</td>\n</tr>\n<tr>\n<td>KTH3110</td>\n<td>6.60mV/GS (@3.3V)<br/>10mV/GS (@5V)</td>\n<td>±210GS <br/> ±225GS</td>\n</tr>\n<tr>\n<td>KTH3113</td>\n<td>8.90mV/GS (@3.3V)<br/>13.5mV/GS (@5V)</td>\n<td>±150GS  <br/> ±165GS</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH31xx",
+     "type": "产品手册",
+     "cn": "KTH31 Series 产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/kth31",
+   "slug": "kth31",
+   "category": "switch",
+   "title": "比例式线性霍尔效应传感器 - 31系列",
+   "legacy": false
+  },
+  "ktax33": {
+   "source": "/html/web/product/signalConditioningChip/zeroDriftAmplifierChip/index.html",
+   "kind": "KTAx333",
+   "intro": [
+    "KTAx333是一款低失调，微功耗，可以实现轨到轨输入/输出的CMOS运算放大器。其使用自校准技术以提供极低的失调电压（2μV，典型值），KTAx333系列提供出色的CMRR性能，而不存在与传统互补输入级关联的交叉。该设计可在驱动模数转换器（ADC）的过程中实现优异的性能，而不会降低微分线性。这些特性使KTAx333非常适合用于各类传感器的信号的放大级。"
+   ],
+   "image": "/images/zeroDriftAmplifierChip.png",
+   "highlights": [],
+   "highlights_title": "",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列</th>\n<th>产品型号</th>\n<th>通道</th>\n<th>供电电压<br/>(VCC)</th>\n<th>输入失调<br/>电压(VOS)</th>\n<th>增益带宽积<br/>(GBW)</th>\n<th>失调电压温漂(dVos/dT)</th>\n<th>电压噪声<br/>(f = 0.1Hz ~ <br/>10Hz)</th>\n<th>压摆率<br/>(SR)</th>\n<th>输入偏置电<br/>流(IB)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"3\">KTAx333</td>\n<td>KTA2333-MP8<br/>KTA2333-SP8<br/>KTA333-ST5</td>\n<td>单或双</td>\n<td>1.8V-5.5V</td>\n<td>2µV(TYP)<br/>10µV(MAX)</td>\n<td>350KHz</td>\n<td>0.02μV/℃</td>\n<td>1.1μVPP</td>\n<td>0.16V/μs</td>\n<td>±100pA</td>\n</tr>\n<tr>\n<th>输入失调<br/>电流(IOS)</th>\n<th>静态功耗<br/>(IQ)</th>\n<th>共模抑制<br/>比(CMRR)</th>\n<th>电源电压<br/>抑制比<br/>(PSRR)</th>\n<th>开环<br/>增益(AOL)</th>\n<th>轨到轨I/O<br/>(Rail-toRail I/O)</th>\n<th>温度范围</th>\n<th colspan=\"2\">封装</th>\n</tr>\n<tr>\n<td>±120pA</td>\n<td>30μA</td>\n<td>120dB</td>\n<td>1μV/V</td>\n<td>120dB</td>\n<td>IN,OUT</td>\n<td>-40℃~+125℃</td>\n<td colspan=\"2\">MSOP-8（双通道）<br/>SOP-8（双通道）<br/>SOT23-5（单通道）</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/zeroDriftAmplifierChipAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTAx333",
+     "type": "产品手册",
+     "cn": "KTAx333产品手册.pdf",
+     "en": "KTAx333-datasheet.pdf"
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/other/ktax33",
+   "slug": "ktax33",
+   "category": "other",
+   "title": "零温漂高精度运放芯片—KTAX33系列",
+   "legacy": false
+  },
+  "knob": {
+   "source": "/html/web/product/kuntaixuanniuserise/kuntaixuanniu/index.html",
+   "kind": "昆泰旋钮",
+   "intro": [
+    "昆泰芯磁旋钮系列磁-电分离设计，产品形态千钮千态可厚或可薄，可大或可小；模块化设计，安装灵活可磁吸、可隐藏、可折叠、即插即用；隔空角度检测、防水(IP67)、防尘(IP67)、防油(IP67F)；防静电(8KV)、防高温(125°C)、防震动",
+    "（Fdb）稳定可靠。磁感应技术极简结构设计，开发成本低，开模成本小,产品上市快，生产组装效率高，售后问题少，售后费用低。"
+   ],
+   "image": "/images/kuntaiknob.png",
+   "highlights": [],
+   "highlights_title": "",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n</table>"
+   ],
+   "figures": [
+    "/images/automotiveHvdlHallEffectSensorAlter.png"
+   ],
+   "docs": [],
+   "videos": [],
+   "extra": [
+    {
+     "title": "",
+     "lines": [],
+     "images": [
+      "/images/kuntaikonb1.png",
+      "/images/kuntaikonb2.png",
+      "/images/kuntaikonb3.png",
+      "/images/kuntaikonb4.png",
+      "/images/kuntaikonb5.png",
+      "/images/kuntaikonb6.png",
+      "/images/kuntaikonb7.png",
+      "/images/kuntaikonb8.png",
+      "/images/kuntaikonb9.png",
+      "/images/kuntaikonb10.png"
+     ]
+    }
+   ],
+   "route": "/products/knob/knob",
+   "slug": "knob",
+   "category": "knob",
+   "title": "旋钮系列",
+   "legacy": false
+  },
+  "linear-hall": {
+   "source": "/html/web/product/magneticCurrentLinearSensingChip/linearHallChip/index.html",
+   "kind": "线性霍尔芯片",
+   "intro": [
+    "线性霍尔效应传感器可按比例响应磁通量密度。内部电路包含霍尔传感器、线性放大器和CMOS输出级电路。具有高速、低噪声输出特性，在-40℃至125℃的宽温度范围内实现线性性能。可用于消费类工业类各种磁场检测。 具有宽工作电压范围，当不存在磁场时，模拟输出 1/2VCC。输出会随施加的磁通量密度呈线性变化，四个灵敏度选项可根据所需的检测范围提供最大的输出电压摆幅。"
+   ],
+   "image": "/images/linearHallChip.jpg",
+   "highlights": [],
+   "highlights_title": "",
+   "specs": [
+    "<table class=\"product-parameter-table\">\n<thead>\n<tr>\n<th>系列</th>\n<th>产品型号</th>\n<th>类型</th>\n<th>工作电压</th>\n<th>平均功耗</th>\n<th>灵敏度</th>\n<th>磁场范围</th>\n<th>输出接口</th>\n<th>工作温度</th>\n<th>封装</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>KTH5641</td>\n<td>KTH5641A1<br/>KTH5641A2<br/>KTH5641A3<br/>KTH5641A4</td>\n<td>线性</td>\n<td>2.8-6.0V</td>\n<td>3.3mA@5V</td>\n<td>A1: 1.5mV<br/>A2: 2.0mV<br/>A3: 2.5mV<br/>A4: 3.0mV</td>\n<td>A1:±1600GS<br/>A2:±1200GS<br/>A3:±960GS<br/>A4:±800GS</td>\n<td>线性模拟输出</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH564A1</td>\n<td>KTH564A1</td>\n<td>线性</td>\n<td>2.8-6.0V</td>\n<td>3.3mA@5V</td>\n<td colspan=\"2\">1.5mV/Gs<br/>2.0mV/Gs<br/>2.5mV/Gs<br/>3.0mV/Gs</td>\n<td>线性模拟输出</td>\n<td>-40℃~125℃</td>\n<td>DFN1616-6L</td>\n</tr>\n<tr>\n<td>KTH5642</td>\n<td>KTH5642A1<br/>KTH5642A2</td>\n<td>线性</td>\n<td>2.8-6.0V</td>\n<td>3.3mA@5V</td>\n<td>A1: 5.0mV<br/>A2: 9.0mV</td>\n<td>A1:±480GS<br/>A2:±266GS</td>\n<td>线性模拟输出</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<td>KTH5643</td>\n<td>KTH5643A1<br/>KTH5643A2<br/>KTH5643A3<br/>KTH5643A4</td>\n<td>线性</td>\n<td>2.8-6.0V</td>\n<td>3.3mA@5V</td>\n<td>A1: 4.0mV<br/>A2: 7.0mV<br/>A3: 10mV<br/>A4: 13mV</td>\n<td>A1:±600GS<br/>A2:±343GS<br/>A3:±240GS<br/>A4:±185GS</td>\n<td>线性模拟输出</td>\n<td>-40℃~125℃</td>\n<td>SOT-23-3L<br/>TO-92S</td>\n</tr>\n<tr>\n<th>线性霍尔<br/>感应方向</th>\n<td class=\"ct-cell-img\" colspan=\"9\">\n\n<img alt=\"线性霍尔感应方向\" src=\"/images/1689734204100.png\"/><br/>\n\n</td>\n</tr>\n</tbody>\n</table>"
+   ],
+   "figures": [
+    "/images/linearHallChipAlter.png"
+   ],
+   "docs": [
+    {
+     "scene": "通用",
+     "series": "KTH5641",
+     "type": "产品手册",
+     "cn": "KTH5641 Series产品手册.pdf",
+     "en": "KTH5641 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTH564A1",
+     "type": "产品手册",
+     "cn": "KTH564A1 Series产品手册.pdf",
+     "en": "KTH564A1 Series Datasheet.pdf"
+    },
+    {
+     "scene": "通用",
+     "series": "KTH5642",
+     "type": "产品手册",
+     "cn": "KTH5642 Series产品手册.pdf",
+     "en": ""
+    },
+    {
+     "scene": "通用",
+     "series": "KTH5643",
+     "type": "产品手册",
+     "cn": "KTH5643 Series产品手册.pdf",
+     "en": ""
+    }
+   ],
+   "videos": [],
+   "extra": [],
+   "route": "/products/switch/linear-hall",
+   "slug": "linear-hall",
+   "category": "switch",
+   "title": "线性霍尔芯片",
+   "legacy": true
+  }
+ },
+ "applications": [
+  {
+   "key": "consumer-electronics",
+   "name": "消费类电子",
+   "en": "Consumer Electronics",
+   "cover": "/images/1622188841956.png",
+   "typical": [
+    "TWS耳机",
+    "笔记本电脑开盖唤醒",
+    "升降摄像头位置检测",
+    "智能皮套",
+    "折叠屏手机"
+   ],
+   "cases": [
+    {
+     "title": "触控笔",
+     "chip": "KTM13xx",
+     "image": "/images/1690860744053.png",
+     "route": "/products/switch/ktm13"
+    },
+    {
+     "title": "电子棋盘",
+     "chip": "KTH1604",
+     "image": "/images/1690860757870.png",
+     "route": "/products/switch/kth16"
+    },
+    {
+     "title": "轮椅摇杆",
+     "chip": "KTH57xx",
+     "image": "/images/1690860776310.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "洗衣机",
+     "chip": "KTH57xx",
+     "image": "/images/1690860789545.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "游戏手柄",
+     "chip": "KTH564X",
+     "image": "/images/1690860801529.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "掌机摇杆",
+     "chip": "KTH57xx",
+     "image": "/images/1690860812653.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "智能手表",
+     "chip": "KTH57xx",
+     "image": "/images/1690860823537.png",
+     "route": "/products/3d-hall/kth57"
+    }
+   ]
+  },
+  {
+   "key": "intelligent-life",
+   "name": "智能生活",
+   "en": "Intelligent Life",
+   "cover": "/images/1622188802319.png",
+   "typical": [
+    "智能门磁",
+    "智能门锁",
+    "智能水表、气表",
+    "智能马桶水位计",
+    "智能家电咖啡机"
+   ],
+   "cases": [
+    {
+     "title": "咖啡机",
+     "chip": "KTH57xx",
+     "image": "/images/1690861593549.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "陪伴机器人",
+     "chip": "KTH57xx",
+     "image": "/images/1690861604723.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "燃气灶-旋钮",
+     "chip": "KTH57xx",
+     "image": "/images/1690861615290.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "扫地机器人-真空吸尘器",
+     "chip": "KTH57xx",
+     "image": "/images/1690861625525.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "扫地机-水位监测",
+     "chip": "KTM13xx",
+     "image": "/images/1690861635325.png",
+     "route": "/products/switch/ktm13"
+    },
+    {
+     "title": "太阳能光电转换器",
+     "chip": "KTAx333",
+     "image": "/images/1690861646766.png",
+     "route": "/products/other/ktax33"
+    },
+    {
+     "title": "智能马桶-枢轴检测",
+     "chip": "KTH57xx",
+     "image": "/images/1690861656539.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "燃气灶-温度检测",
+     "chip": "KTAx333",
+     "image": "/images/1690970011719.png",
+     "route": "/products/other/ktax33"
+    },
+    {
+     "title": "扫地机器人-尘盒检测",
+     "chip": "KTH564X",
+     "image": "/images/1690970302940.png",
+     "route": "/products/switch/linear-hall"
+    },
+    {
+     "title": "智能马桶-旋钮",
+     "chip": "KTH57xx",
+     "image": "/images/1690970992928.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "智能马桶-水位监测",
+     "chip": "KTM13xx",
+     "image": "/images/1690971205558.png",
+     "route": "/products/switch/ktm13"
+    }
+   ]
+  },
+  {
+   "key": "industry4",
+   "name": "工业4.0",
+   "en": "Industrial 4.0",
+   "cover": "/images/1622188789021.png",
+   "typical": [
+    "工业用液位检测",
+    "电流传感器",
+    "割草机",
+    "机械控制",
+    "无刷电机转子位置",
+    "转子角度传感"
+   ],
+   "cases": [
+    {
+     "title": "电表",
+     "chip": "KTH57xx",
+     "image": "/images/1690857503146.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "断路器",
+     "chip": "KTH16xx",
+     "image": "/images/1690857911258.png",
+     "route": "/products/switch/kth16"
+    },
+    {
+     "title": "燃气表",
+     "chip": "KTM13xx",
+     "image": "/images/1690858069967.png",
+     "route": "/products/switch/ktm13"
+    },
+    {
+     "title": "旋钮操控",
+     "chip": "KTH57xx",
+     "image": "/images/1690858513818.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "闸机",
+     "chip": "KTH57xx",
+     "image": "/images/1690858540877.png",
+     "route": "/products/3d-hall/kth57"
+    },
+    {
+     "title": "机械电表",
+     "chip": "KTM13xx",
+     "image": "/images/1690959433569.png",
+     "route": "/products/switch/ktm13"
+    }
+   ]
+  },
+  {
+   "key": "intelligent-transportation",
+   "name": "智能交通",
+   "en": "Intelligent Transportation",
+   "cover": "/images/1686563051249.png",
+   "typical": [],
+   "cases": [
+    {
+     "title": "电子节气门",
+     "chip": "KTH57xx",
+     "image": "/images/1690861581161.png",
+     "route": "/products/3d-hall/kth57"
+    }
+   ]
+  }
+ ],
+ "services": {
+  "strengths": [
+   {
+    "title": "电路设计",
+    "icon": "/images/dianlusheji.png"
+   },
+   {
+    "title": "磁路设计",
+    "icon": "/images/cilusheji2.png"
+   },
+   {
+    "title": "结构设计",
+    "icon": "/images/jiegousheji.png"
+   }
+  ],
+  "cases": [
+   "/images/anli1.png",
+   "/images/anli2.png",
+   "/images/anli3.png"
+  ],
+  "services": [
+   {
+    "title": "可行性分析",
+    "icon": "/images/fenxib.png",
+    "points": [
+     "想要实现什么功能？",
+     "方案是否存在先天性缺陷？",
+     "如何克服缺陷并实现想要的功能？"
+    ]
+   },
+   {
+    "title": "最优传感器选型",
+    "icon": "/images/zuiyouchuanganqib.png",
+    "points": [
+     "是使用南极磁场触发产品、北极磁场触发产品还是南北极磁场均可触发的产品？",
+     "传感器所处位置适合什么类型封装？"
+    ]
+   },
+   {
+    "title": "与结构正相关的磁路设计",
+    "icon": "/images/cilushejib.png",
+    "points": [
+     "磁路结构设计是否合理？",
+     "磁场强度是否满足传感器需求？是否存在左右耳机磁场相互干扰？吸附磁铁是否影响传感器工作？"
+    ]
+   },
+   {
+    "title": "量产磁路良率优化",
+    "icon": "/images/cilub.png",
+    "points": [
+     "磁路不良品问题分析，定位问题位置，是磁铁工差较大还是组装工差较大，指导整改方向。"
+    ]
+   }
+  ]
+ },
+ "techtalks": [
+  {
+   "title": "昆泰芯KTH78系列编码器芯片：在多极对磁铁应用中的校准与精度提升",
+   "summary": "精准无误的角度和位置检测，在自动化和精密工程领域无疑是决定性因素。昆泰芯推出的KTH78系列编码器芯片，以领先的技术优势，为这一行业需求提供了极具竞争力的解决方案……",
+   "date": "2024-01-18",
+   "href": "https://mp.weixin.qq.com/s/N59RRLjGzsKt40dq8EHsIw",
+   "image": "/images/tech-talk/16-cover.jpg"
+  },
+  {
+   "title": "昆泰芯KTH78编码器在大扭矩电机中的应用",
+   "summary": "今天，我们将介绍一种备受欢迎的健康工具——筋膜枪，并深入了解其背后的技术。在这个过程中，我们将探讨无感FOC控制电机、低速大扭矩设备以及它们的局限性……",
+   "date": "2023-12-29",
+   "href": "https://mp.weixin.qq.com/s/H6NSyKLNsdWkOwrssMLnqw",
+   "image": "/images/tech-talk/15-cover.png"
+  },
+  {
+   "title": "昆泰芯KTH7812在电摩应用中的优势",
+   "summary": "在电摩的心脏——电机系统中，位置传感器，尤其是编码器的作用不可小觑。编码器通过精确监测电机转子的位置，不仅优化了电机的扭矩输出，提高了效率，还提升了电摩的整体性能和行驶稳定性……",
+   "date": "2023-12-04",
+   "href": "https://mp.weixin.qq.com/s/ur0JRfT9-Aba91NfrWprQg",
+   "image": "/images/tech-talk/14-cover.png"
+  },
+  {
+   "title": "解密KTH78黑科技：为什么它精度高还能延迟低",
+   "summary": "KTH78系列芯片不仅展现了卓越的刚性，在各种外界影响下保持性能稳定；其快速的响应时间几乎消除了延迟的问题，在感知到动作的瞬间能够迅速调整响应，精准及时地完成后续动作，无论是在游戏中还是在工业、医疗、自动化等多个现实领域，都极大提高了操作的精度和效率……",
+   "date": "2023-11-10",
+   "href": "https://mp.weixin.qq.com/s/aGmmkS5Exd9QCc9Sz7Vf1Q",
+   "image": "/images/tech-talk/13-cover.png"
+  },
+  {
+   "title": "KTH7811简化电钻(BLDC)设计",
+   "summary": "传统的电钻设计多使用三个霍尔开关来检测和控制其无刷直流电机的转动。然而，使用多个霍尔开关不仅使得设计复杂，也带来了更多的维护难题，如对准问题、机械摩擦、开关损耗等……",
+   "date": "2023-11-10",
+   "href": "https://mp.weixin.qq.com/s/hW4Ha0DYa5d_N0WyQAGlkQ",
+   "image": "/images/tech-talk/12-cover.png"
+  },
+  {
+   "title": "如何评价磁编的准确性？以昆泰芯KTH78为例",
+   "summary": "昆泰芯KTH78系列的磁编传感器具备卓越的噪声性能，保证传感器在多次旋转经过同一位置时，每次输出之间的差异仅为约0.086度，这代表同时具备卓越的可重复性和精度……",
+   "date": "2023-10-31",
+   "href": "https://mp.weixin.qq.com/s/-QCo2PJWMIT76UJGo8eAkg",
+   "image": "/images/tech-talk/11-cover.png"
+  },
+  {
+   "title": "科技赋能生活：KTH1601让垃圾桶“懂”你的需求",
+   "summary": "在现代社会，科技的快速发展不仅仅改变了我们的生活方式，甚至连日常生活中的垃圾桶也变得“智能”起来。KTH1601通过感知磁场的变化，在正确的时机自动压缩垃圾 和密封盖子，避免垃圾溢出和异味的产生。……",
+   "date": "2023-10-25",
+   "href": "https://mp.weixin.qq.com/s/gDHX0n3m3Ttqe7hx92c0MQ",
+   "image": "/images/tech-talk/10-cover.png"
+  },
+  {
+   "title": "智能门磁开关KTH1601：守护家园的静默守卫",
+   "summary": "在现代社会，安全成为了每个家庭的基本需求。而智能门磁开关，作为家庭安全的一道静默守卫，可以实时监测门窗的开闭状态，为家庭安全提供了一层额外的保障……",
+   "date": "2023-10-25",
+   "href": "https://mp.weixin.qq.com/s/gzA4tDNwtpWMsVz3U5bj6Q",
+   "image": "/images/tech-talk/9-cover.png"
+  },
+  {
+   "title": "KTH1601与无线蓝牙耳机：让音乐与科技无缝连接",
+   "summary": "在数字时代，无线蓝牙耳机因其便捷和高质的音质成为了音乐爱好者的首选。而随着技术的不断进步，现在的无线蓝牙耳机不仅仅是一个简单的音频播放设备，它还能通 过智能感应技术，实现更为人性化的操作体验…………",
+   "date": "2023-10-25",
+   "href": "https://mp.weixin.qq.com/s/GWma3tXnnNU_VMCjHpkRIg",
+   "image": "/images/tech-talk/8-cover.png"
+  },
+  {
+   "title": "数据的安全守护者：CRC校验在KTH78系列中的应用",
+   "summary": "KTH78系列产品以其先进的CRC校验功能著称。这一系列具有卓越的数据传输准确性和可靠性。它的12bit位置数据提供了足够的精度，满足了大多数应用的需求，而4bit的CRC校验确保了数据的完整性和真实性……",
+   "date": "2023-10-13",
+   "href": "https://mp.weixin.qq.com/s/tQmrBJUceExCsu5WR-ZCwA",
+   "image": "/images/tech-talk/7-cover.png"
+  },
+  {
+   "title": "如何借助霍尔效应传感器打造车规级智能“开-关”监测系统",
+   "summary": "通过测量霍尔电压，我们可以非常准确地得知磁场的强度，进而推断出相应的状态（“开”或“关”）。霍尔效应传感器能准确地检测设备的工作状态，并向控制系统发送相应信号，以调整系统的工作状态……",
+   "date": "2023-10-10",
+   "href": "https://mp.weixin.qq.com/s/zL5YasWYBP7GkNPRjnr5bw",
+   "image": "/images/tech-talk/6-cover.png"
+  },
+  {
+   "title": "离轴安装：昆泰芯KTH5701/3D霍尔芯片，让你的创意自由驰骋！",
+   "summary": "KTH5701是一款先进的磁编码器芯片，它采用了独家研发的三轴霍尔技术，提供了更灵活的安装方式。这款芯片不仅可以测量X轴、Y轴和Z轴三维信号，还可以根据需要选择不同的安装方式……",
+   "date": "2023-09-15",
+   "href": "https://mp.weixin.qq.com/s/7d-49D_M0AQSW8eDaDzZtA",
+   "image": "/images/tech-talk/5-cover.png"
+  },
+  {
+   "title": "什么是ABZ？KTH7816做的很不错!",
+   "summary": "在工业自动化和电子控制领域中，传感器和编码器的接口标准至关重要。ABZ接口是编码器输出的一种常见格式，经常被应用在多种工业设备中。在这篇文章中，我们将以KTH7816编码器为实例详细介绍ABZ接口的定义，并使用时钟为例来形象解释其工作原理……",
+   "date": "2023-09-08",
+   "href": "https://mp.weixin.qq.com/s/k3txrAS7LG1YgwCXCLtQWw",
+   "image": "/images/tech-talk/4-cover.png"
+  },
+  {
+   "title": "昆泰芯KTH78系列在空心杯领域的创新应用",
+   "summary": "与传统电机不同，空心杯电机不再依赖传统的铁芯转子结构，取而代之的是一种崭新的线圈构造，看起来仿佛是一个空心的杯子。这种独特的结构设计为电机带来了轻量化、高效率、精准、高转速还有小体积等特点，使得很多创新的电机应用成为可能……",
+   "date": "2023-09-01",
+   "href": "https://mp.weixin.qq.com/s/ljOBERN4UJHS0ugtF_VprA",
+   "image": "/images/tech-talk/3-cover.png"
+  },
+  {
+   "title": "神奇的霍尔效应",
+   "summary": "当谈及传感技术的广泛应用领域，霍尔传感器毫无疑问是其中的佼佼者。它们基于霍尔效应的工作原理，在各个领域发挥着重要作用。现在，我们将详细介绍四种霍尔传感器，以及昆泰芯微电子所推出的相关产品……",
+   "date": "2023-08-25",
+   "href": "https://mp.weixin.qq.com/s/Ycf_nah8lKqyqcVjS5Qq5g",
+   "image": "/images/tech-talk/2-cover.png"
+  },
+  {
+   "title": "新品发布 | KTH78系列高精度绝对角度霍尔编码器实现机翼伺服系统",
+   "summary": "KTH78系列高精度绝对角度霍尔传感器为无人机机翼伺服系统提供了可靠的角度测量解决方案。其高精度、无接触式测量、超低延时和多种输出模式等优势，使其成为传统光电编码器的优秀替代品。对于无人机机翼伺服系统的特殊需求，KTH78系列传感器通过稳定性和抗干扰能力，高精度、高分辨率和高响应速度，多种输出模式等方面，为无人机提供了高效、可靠、经济的角度测量方案……",
+   "date": "2023-08-16",
+   "href": "https://mp.weixin.qq.com/s/cSHnFGLgO3_ZGnOa24_Vyw",
+   "image": "/images/tech-talk/1-cover.png"
+  }
+ ],
+ "about": {
+  "about": "昆泰芯微电子科技有限公司是一家专注于以面向物联网应用的传感器芯片研发、生产和销售的高新技术企业.于2016年由多位业界资深传感器信号链芯片专家创立，致力于成为传感器信号链及物联网芯片的行业领导者和领先的工业级/汽车级芯片提供商。公司拥有核心专利10余项，产品性能达到国际一流水平，并成功打入一线知名品牌厂商。核心技术团队毕业于清华大学，荷兰代尔夫特理工大学等海内外知名大学，拥有恩智浦，美满电子及高通等半导体名企工作履历。",
+  "what": "昆泰芯微电子服务于消费电子、智能制造、智能交通、智能家居以及新能源汽车等多个领域。公司在MEMS、霍尔磁传感器、磁阻传感器、高精密混合信号链处理、高精度传感器校准、物联网超低功耗射频芯片等领域拥有丰富IP积累和独特专利技术组合。产品可以满足霍尔磁性传感器、AMR/GM R/TMR磁传感器、芯片级温度传感器、MEMS压力传感器、气流传感器、热电堆温度传感器、磁性电流传感器、电容类传感器、零漂移运算放大器、高速高精度AD/DA以及面向物联网应用的传感器信号SoC等一系列需求。",
+  "values": [
+   {
+    "name": "正直",
+    "en": "UPRIGHT",
+    "desc": "坚持真理，刚正不阿"
+   },
+   {
+    "name": "求实",
+    "en": "Be realistic",
+    "desc": "从实际出发、实事求是"
+   },
+   {
+    "name": "进取",
+    "en": "be enterprising",
+    "desc": "突破现状，积极向上"
+   },
+   {
+    "name": "创新",
+    "en": "innovate",
+    "desc": "敢为人先，勇于实践"
+   },
+   {
+    "name": "协同",
+    "en": "teamwork",
+    "desc": "齐心协力，同舟共济"
+   },
+   {
+    "name": "分享",
+    "en": "share",
+    "desc": "分享知识，创造价值"
+   }
+  ],
+  "advantage": "公司拥有一支精诚团结的国内顶尖高水平研发团队，核心研发人员均毕业于清华大学，荷兰代尔夫特理工等海内外IC行业知名高校，并曾在NXP、MARVELL、QUALCOMM等顶尖企业任职多年。",
+  "quality": [
+   "昆泰芯通过ISO 26262功能安全管理体系认证，成功建立符合ISO 26262国际标准的功能安全管理体系，为设计符合功能安全要求的车规级芯片奠定坚实基础。",
+   "昆泰芯严格贯彻ISO质量管理体系标准要求，获ISO 9001认证；推行有害物质管理体系，材料/产品完全符合 RoHS 指令（(EU)2015/863）REACH（第1907/2006号）等法律法规以及相关客户要求。"
+  ],
+  "quality_image": "/images/ktpz.png",
+  "jobs": [
+   {
+    "title": "高级数字电路工程师",
+    "count": "2",
+    "edu": "微电子相关专业硕士及以上学历",
+    "city": "上海/苏州",
+    "date": "2021-05-24",
+    "body": [
+     "工作内容具体描述：",
+     "岗位职责：",
+     "1.完成模块/SoC结构设计，RTL实现以及相关验证工作；",
+     "2.负责项目中数字电路部分的设计，仿真和验证；",
+     "3.参与FPGA系统调试工作；",
+     "4.参与芯片综合，时序分析，DFT，测试工作；",
+     "5.参与基于MCU芯片产品开发；",
+     "6.参与SOC芯片验证环境的搭建、仿真、调试；",
+     "7.参与测试向量的编写。",
+     "联系电话：0512-62982283",
+     "简历可发送至：hr@conntek.com.cn（主题格式：姓名+职位）",
+     "注：请在投递简历时，注意看清要求"
+    ]
+   },
+   {
+    "title": "高级数字电路后端与DFT工程师",
+    "count": "2",
+    "edu": "微电子相关专业硕士及以上学历",
+    "city": "上海/苏州",
+    "date": "2021-05-24",
+    "body": [
+     "工作内容具体描述：",
+     "岗位职责：",
+     "1.完成芯片模块层的物理实现与验证；",
+     "2.完成芯片DFT的设计及实现；",
+     "3.分析与检查设计相关的时序约束，建立相应的物理实现流程；",
+     "4.分析设计中的时钟结构，并规划相应的时钟树综合流程；",
+     "5.完成STA时序检查与收敛，配合进行时序sign-off；",
+     "6.完成IR-drop分析和电源网格规划与设计；",
+     "7.有DRC/LVS/ANTENNA/ESD等物理验证经验并独立完成系统层物理验证；",
+     "能独立使用工具产生testpattern，并有相关流片经验。",
+     "联系电话：0512-62982283",
+     "简历可发送至：hr@conntek.com.cn（主题格式：姓名+职位）",
+     "注：请在投递简历时，注意看清要求"
+    ]
+   },
+   {
+    "title": "IC测试工程师",
+    "count": "5",
+    "edu": "微电子相关专业本科以上学历",
+    "city": "苏州",
+    "date": "2021-06-02",
+    "body": [
+     "工作内容具体描述：",
+     "岗位职责：",
+     "1.与研发工程师一起去完成集成电路产品测试计划，设计测试原理图；协助研发工程师一起完成芯片测试环境的初始化；",
+     "2. 具有C语言和嵌入式基础，负责开发与维护SOC芯片的CP/FT测试程序，解决量产测试过程中出现的异常情况，保证产品量产顺利进行；",
+     "3.负责测试数据的搜集和整理，管理产品各批次量产测试日志文件，监控量产良率；",
+     "4.负责设备管理，维护相关文档，包括测试报告、质量管控流程、客户导入资料等等。",
+     "5、可协助研发工程师做失效分析，参与芯片产品客户样板的设计等。",
+     "联系电话：0512-62982283",
+     "简历可发送至：hr@conntek.com.cn（主题格式：姓名+职位）",
+     "注：请在投递简历时，注意看清要求"
+    ]
+   },
+   {
+    "title": "IC产品工程师",
+    "count": "2",
+    "edu": "微电子相关专业本科以上学历",
+    "city": "苏州",
+    "date": "2021-06-01",
+    "body": [
+     "工作内容具体描述：",
+     "岗位职责：",
+     "1.负责芯片产品封装导入，封测品质把控，产品可靠性验证。",
+     "2.负责新产品的封装选型，封装材料评估，跟进产品封装工艺流程。",
+     "3.负责新产品的CP、FT测试导入，跟踪测试良率，作为研发和生产的接口，与代工厂（流片/中测/封测）密切沟通，分析处理生产异常及低良问题。",
+     "4.负责产品可靠性验证，包括可靠性测试方案制定，失效分析。",
+     "5.生产线良率提升，从技术角度提供改善和可行性建议。",
+     "6.跟踪产线良率，寻求良率提升方案，降低生产成本。",
+     "7.客户端失效芯片分析，与相关部门合作，找出产根本原因，建议有效的解决办法和改善措施，提供8D报告。",
+     "联系电话：0512-62982283",
+     "简历可发送至：hr@conntek.com.cn（主题格式：姓名+职位）",
+     "注：请在投递简历时，注意看清要求"
+    ]
+   },
+   {
+    "title": "嵌入式系统工程师",
+    "count": "2",
+    "edu": "电子、自动化、精仪、计算机等相关专业毕业",
+    "city": "苏州/泉州",
+    "date": "2021-06-01",
+    "body": [
+     "工作内容具体描述：",
+     "岗位职责：",
+     "1、负责基于公司芯片产品的嵌入式系统的设计/开发/调试等工作，编写相关技术文档及维护；",
+     "2、持续研究、发展芯片产品的应用开发，为客户提供参考设计；",
+     "3、负责客户的技术支持工作，根据客户的使用场景和具体问题，提供解决方法；",
+     "联系电话：0512-62982283",
+     "简历可发送至：hr@conntek.com.cn（主题格式：姓名+职位）",
+     "注：请在投递简历时，注意看清要求"
+    ]
+   }
+  ],
+  "photos": [
+   "/images/suzhou.png",
+   "/images/1621989445518.jpg",
+   "/images/company.png"
+  ]
+ },
+ "contact": {
+  "blocks": [
+   {
+    "name": "总部",
+    "en": "HEADQUARTERS",
+    "items": [
+     "泉州公司：福建省泉州市丰泽区华大街道体育街华创园D410室"
+    ]
+   },
+   {
+    "name": "研发中心",
+    "en": "R & D CENTER",
+    "items": [
+     "苏州：苏州工业园区唯新路63号 联东U谷阳澄半岛科技园3号楼五楼",
+     "上海：上海市浦东新区盛夏路608号3幢201室",
+     "南京：南京市雨花台区雨花客厅2栋12楼",
+     "杭州：浙江省杭州市滨江区江虹路459号英飞特大厦E座407室"
+    ]
+   },
+   {
+    "name": "运营中心",
+    "en": "OPERATION CENTER",
+    "items": [
+     "深圳市南山区留仙大道4168号众冠时代广场A座3108~3111室"
+    ]
+   },
+   {
+    "name": "招聘邮箱",
+    "en": "RECRUITMENT MAILBOX",
+    "items": [
+     "hr@conntek.com.cn",
+     "0512-62982283"
+    ]
+   },
+   {
+    "name": "技术支持",
+    "en": "TECHNICAL SUPPORT",
+    "items": [
+     "support@conntek.com.cn",
+     "0755-86006609"
+    ]
+   },
+   {
+    "name": "销售",
+    "en": "SALES",
+    "items": [
+     "sales@conntek.com.cn",
+     "0755-86186696",
+     "changhao.huang@conntek.com.cn",
+     "18620321032"
+    ]
+   }
+  ],
+  "cities": [
+   {
+    "name": "苏州",
+    "en": "SU ZHOU",
+    "image": "/images/1622083825035.png"
+   },
+   {
+    "name": "上海",
+    "en": "SHANG HAI",
+    "image": "/images/1622083750090.png"
+   },
+   {
+    "name": "泉州",
+    "en": "QUAN ZHOU",
+    "image": "/images/1622083863476.png"
+   },
+   {
+    "name": "深圳",
+    "en": "SHEN ZHEN",
+    "image": "/images/1622083739661.png"
+   }
+  ]
+ },
+ "home": {
+  "video": {
+   "src": "/videos/conntek-publicity.mp4",
+   "poster": "/images/video_cover6.png"
+  }
+ }
+}

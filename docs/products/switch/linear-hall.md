@@ -1,30 +1,110 @@
 ---
-title: "线性霍尔芯片（旧版页面）"
-description: "线性霍尔芯片"
-outline: 2
+title: "KTH564 系列 线性霍尔芯片"
+description: "零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围"
+aside: false
+pageClass: "c-page c-page--product"
 ---
-# 线性霍尔芯片（旧版页面）
 
-<p class="ct-subtitle">线性霍尔芯片</p>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><a href="/msite/products/switch/">开关芯片</a><i>/</i><span>KTH564 系列</span></nav>
 
-<div class="ct-hero"><div class="ct-hero-img"><img src="/msite/images/linearHallChip.jpg" alt="线性霍尔芯片（旧版页面）"></div><div class="ct-hero-body">
+<div class="c-product-hero"><div class="c-product-hero__text">
 
-线性霍尔效应传感器可按比例响应磁通量密度。内部电路包含霍尔传感器、线性放大器和CMOS输出级电路。具有高速、低噪声输出特性，在-40℃至125℃的宽温度范围内实现线性性能。可用于消费类工业类各种磁场检测。 具有宽工作电压范围，当不存在磁场时，模拟输出 1/2VCC。输出会随施加的磁通量密度呈线性变化，四个灵敏度选项可根据所需的检测范围提供最大的输出电压摆幅。
+<p class="c-kicker">KTH564 系列</p>
 
-<a class="ct-btn" href="/msite/contact">联系我们</a>
+# 线性霍尔芯片
 
-</div></div>
+<p class="c-lead">零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p>
+
+<div class="c-specs"><div class="c-spec"><b>2.8 ~ 6.0 V</b><span>电压</span></div><div class="c-spec"><b>3.3 mA @ 5 V</b><span>功耗</span></div><div class="c-spec"><b>1.5 ~ 13 mV/Gs</b><span>灵敏度</span></div><div class="c-spec"><b>-40 ~ 125 ℃</b><span>温度</span></div></div>
+
+<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>6</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
+
+</div><div class="c-product-hero__media"><img src="/msite/img/icons-web/linear-hall.webp" alt="KTH564 系列"></div></div>
+
+## 产品概述
+
+<div class="c-split c-split--overview"><div class="c-split__text">
+
+线性霍尔效应传感器可按比例响应磁通量密度，内部电路包含霍尔传感器、线性放大器与 CMOS 输出级，输出高速、低噪声，在 -40 ~ 125 ℃ 的宽温度范围内保持线性性能，可用于消费类、工业类各种磁场检测。
+
+芯片工作电压范围宽，无磁场时模拟输出 1/2 VCC，输出随施加的磁通量密度线性变化，四个灵敏度选项可根据所需检测范围提供最大的输出电压摆幅。系列包括 KTH5641、KTH564A1、KTH5642、KTH5643，工作电压 2.8 ~ 6.0 V，平均功耗 3.3 mA @ 5 V，封装 SOT-23-3L、TO-92S 与 DFN1616-6L。
+
+<div class="c-tags c-tags--lg"><b>典型应用</b><span>扫地机器人尘盒检测</span><span>游戏手柄</span><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
+
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/linear-hall.webp" alt="KTH564 系列 产品图" loading="lazy"></div></div>
+
+## 核心特点
+
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>线性响应</h3><p>输出随磁通量密度线性变化</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>零磁场中点输出</h3><p>无磁场时模拟输出 1/2 VCC</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>高速低噪声</h3><p>输出高速、低噪声</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档灵敏度</h3><p>按检测范围选择灵敏度，获得最大输出摆幅</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>宽工作电压</h3><p>工作电压 2.8 ~ 6.0 V</p></div></div><div class="c-feature"><span class="c-feature__no">06</span><div><h3>宽温度范围</h3><p>工作温度 -40 ~ 125 ℃</p></div></div><div class="c-feature"><span class="c-feature__no">07</span><div><h3>多种封装</h3><p>SOT-23-3L、TO-92S、DFN1616-6L</p></div></div></div>
 
 ## 规格参数
 
-<div class="ct-table"><table><thead><tr><th>系列</th><th>产品型号</th><th>类型</th><th>工作电压</th><th>平均功耗</th><th>灵敏度</th><th>磁场范围</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH5641</td><td>KTH5641A1<br/>KTH5641A2<br/>KTH5641A3<br/>KTH5641A4</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 1.5mV<br/>A2: 2.0mV<br/>A3: 2.5mV<br/>A4: 3.0mV</td><td>A1:±1600GS<br/>A2:±1200GS<br/>A3:±960GS<br/>A4:±800GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L<br/>TO-92S</td></tr><tr><td>KTH564A1</td><td>KTH564A1</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td colspan="2">1.5mV/Gs<br/>2.0mV/Gs<br/>2.5mV/Gs<br/>3.0mV/Gs</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>DFN1616-6L</td></tr><tr><td>KTH5642</td><td>KTH5642A1<br/>KTH5642A2</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 5.0mV<br/>A2: 9.0mV</td><td>A1:±480GS<br/>A2:±266GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L<br/>TO-92S</td></tr><tr><td>KTH5643</td><td>KTH5643A1<br/>KTH5643A2<br/>KTH5643A3<br/>KTH5643A4</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 4.0mV<br/>A2: 7.0mV<br/>A3: 10mV<br/>A4: 13mV</td><td>A1:±600GS<br/>A2:±343GS<br/>A3:±240GS<br/>A4:±185GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L<br/>TO-92S</td></tr><tr><th>线性霍尔<br/>感应方向</th><td colspan="9"><p><img alt="线性霍尔感应方向" src="/msite/images/1689734204100.png"/><br/></p></td></tr></tbody></table></div>
+<p class="c-sec-lead">KTH5641 提供 1.5 ~ 3.0 mV（±1600 ~ ±800 Gs）四档，KTH5643 提供 4.0 ~ 13 mV（±600 ~ ±185 Gs）四档，KTH5642 提供 5.0 / 9.0 mV（±480 / ±266 Gs）两档；需 DFN1616-6L 封装选 KTH564A1。</p>
 
-<p class="ct-figure"><img src="/msite/images/linearHallChipAlter.png" alt=""></p>
+<p class="c-table-title">型号选型表</p>
+
+<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>
+
+<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>灵敏度</th><th>磁场范围</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH5641</td><td class="c-mono">KTH5641A1<br>KTH5641A2<br>KTH5641A3<br>KTH5641A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 1.5 mV<br>A2: 2.0 mV<br>A3: 2.5 mV<br>A4: 3.0 mV</td><td>A1: ±1600 Gs<br>A2: ±1200 Gs<br>A3: ±960 Gs<br>A4: ±800 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH564A1</td><td class="c-mono">KTH564A1</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>1.5 mV/Gs<br>2.0 mV/Gs<br>2.5 mV/Gs<br>3.0 mV/Gs</td><td>—</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>DFN1616-6L</td></tr><tr><td>KTH5642</td><td class="c-mono">KTH5642A1<br>KTH5642A2</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 5.0 mV<br>A2: 9.0 mV</td><td>A1: ±480 Gs<br>A2: ±266 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH5643</td><td class="c-mono">KTH5643A1<br>KTH5643A2<br>KTH5643A3<br>KTH5643A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 4.0 mV<br>A2: 7.0 mV<br>A3: 10 mV<br>A4: 13 mV</td><td>A1: ±600 Gs<br>A2: ±343 Gs<br>A3: ±240 Gs<br>A4: ±185 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr></tbody></table></div>
+
+<p class="c-note">KTH564A1 原表灵敏度一栏横跨「灵敏度 / 磁场范围」两列，只给出灵敏度，磁场范围未标注。</p>
+
+<details class="c-more"><summary>原站参数图（文字版）</summary>
+
+<p class="c-table-title">线性霍尔芯片选型表</p>
+
+<div class="c-table"><table><thead><tr><th>系列</th><th>产品型号</th><th>类型</th><th>工作电压</th><th>平均功耗</th><th>灵敏度</th><th>磁场范围</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH5641</td><td>KTH5641A1
+KTH5641A2
+KTH5641A3
+KTH5641A4</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 1.5mV
+A2: 2.0mV
+A3: 2.5mV
+A4: 3.0mV</td><td>A1:±1600GS
+A2:±1200GS
+A3:±960GS
+A4:±800GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L
+TO-92S</td></tr><tr><td>KTH564A1</td><td>KTH564A1</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>1.5mV/Gs
+2.0mV/Gs
+2.5mV/Gs
+3.0mV/Gs</td><td>1.5mV/Gs
+2.0mV/Gs
+2.5mV/Gs
+3.0mV/Gs</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>DFN1616-6L</td></tr><tr><td>KTH5642</td><td>KTH5642A1
+KTH5642A2</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 5.0mV
+A2: 9.0mV</td><td>A1:±480GS
+A2:±266GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L
+TO-92S</td></tr><tr><td>KTH5643</td><td>KTH5643A1
+KTH5643A2
+KTH5643A3
+KTH5643A4</td><td>线性</td><td>2.8-6.0V</td><td>3.3mA@5V</td><td>A1: 4.0mV
+A2: 7.0mV
+A3: 10mV
+A4: 13mV</td><td>A1:±600GS
+A2:±343GS
+A3:±240GS
+A4:±185GS</td><td>线性模拟输出</td><td>-40℃~125℃</td><td>SOT-23-3L
+TO-92S</td></tr></tbody></table></div>
+
+</details>
+
+<div class="c-figs"><figure class="c-fig"><img src="/msite/images/1689734204100.png" alt="线性霍尔感应方向" loading="lazy"><figcaption>线性霍尔感应方向</figcaption></figure></div>
 
 ## 技术文档
 
-::: tip 下载说明
-点击文件名直接打开（文件已随本站本地保存）；`.exe` 为上位机安装包。
-:::
+<p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTH5641</td><td>产品手册</td><td><a class="doc-link" href="/msite/files/KTH5641%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH5641 Series产品手册.pdf</a></td><td><a class="doc-link" href="/msite/files/KTH5641%20Series%20Datasheet.pdf" target="_blank">KTH5641 Series Datasheet.pdf</a></td></tr><tr><td>KTH564A1</td><td>产品手册</td><td><a class="doc-link" href="/msite/files/KTH564A1%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH564A1 Series产品手册.pdf</a></td><td><a class="doc-link" href="/msite/files/KTH564A1%20Series%20Datasheet.pdf" target="_blank">KTH564A1 Series Datasheet.pdf</a></td></tr><tr><td>KTH5642</td><td>产品手册</td><td><a class="doc-link" href="/msite/files/KTH5642%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH5642 Series产品手册.pdf</a></td><td><div>-</div></td></tr><tr><td>KTH5643</td><td>产品手册</td><td><a class="doc-link" href="/msite/files/KTH5643%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH5643 Series产品手册.pdf</a></td><td><div>-</div></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTH5641</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTH5641%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH5641 Series产品手册.pdf</a></td><td><a class="c-file" href="/msite/files/KTH5641%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH5641 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono">KTH564A1</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTH564A1%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH564A1 Series产品手册.pdf</a></td><td><a class="c-file" href="/msite/files/KTH564A1%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH564A1 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono">KTH5642</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTH5642%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH5642 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono">KTH5643</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTH5643%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH5643 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+
+## 应用案例
+
+<p class="c-sec-lead">以下场景推荐使用 KTH564 系列。</p>
+
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">消费类电子</span><h3>游戏手柄</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-8.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>扫地机器人-尘盒检测</h3></div></a></div>
+
+## 同类产品
+
+<p class="c-sec-lead">开关芯片产品线的其他系列。</p>
+
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/ktm28"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><span class="c-card__more">查看详情</span></div></a></div>
+
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

@@ -3,8 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "gen": "python scripts/build.py",
-    "fetch": "python scripts/crawl.py && python scripts/build.py --download",
+    "crawl": "python scripts/crawl.py",
+    "extract": "python scripts/extract.py",
+    "download": "python scripts/download.py && python scripts/compress_images.py",
+    "images": "python scripts/images.py",
+    "render": "python scripts/render.py",
+    "gen": "python scripts/extract.py && python scripts/images.py && python scripts/render.py",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

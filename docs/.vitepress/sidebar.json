@@ -1,7 +1,186 @@
 {
+  "nav": [
+    {
+      "text": "产品中心",
+      "activeMatch": "^/products/",
+      "items": [
+        {
+          "text": "产品中心总览",
+          "link": "/products/"
+        },
+        {
+          "text": "3D霍尔芯片",
+          "items": [
+            {
+              "text": "KTH57 系列 · 三轴线性霍尔传感器",
+              "link": "/products/3d-hall/kth57"
+            },
+            {
+              "text": "KTH55 系列 · 垂直霍尔绝对角度传感器",
+              "link": "/products/3d-hall/kth55"
+            }
+          ]
+        },
+        {
+          "text": "编码器芯片",
+          "items": [
+            {
+              "text": "KTM52 系列 · 21 位高精度 AMR 角度编码器",
+              "link": "/products/encoder/ktm52"
+            },
+            {
+              "text": "KTM53 系列 · 离轴 AMR 角度编码器",
+              "link": "/products/encoder/ktm53"
+            },
+            {
+              "text": "KTM58 系列 · 30 bit 绝对角度细分器",
+              "link": "/products/encoder/ktm58"
+            },
+            {
+              "text": "KTM59 系列 · 高速 TMR 磁编码器",
+              "link": "/products/encoder/ktm59"
+            },
+            {
+              "text": "KTH78 系列 · 低延时霍尔绝对角度编码器",
+              "link": "/products/encoder/kth78"
+            },
+            {
+              "text": "KTH71 系列 · 自校准霍尔磁编码器",
+              "link": "/products/encoder/kth71"
+            },
+            {
+              "text": "KTO95 系列 · 游标绝对值光学编码器",
+              "link": "/products/encoder/kto95"
+            }
+          ]
+        },
+        {
+          "text": "开关芯片",
+          "items": [
+            {
+              "text": "KTH16 系列 · 微功耗 1D 霍尔开关",
+              "link": "/products/switch/kth16"
+            },
+            {
+              "text": "KTH25 系列 · 车规级高压霍尔开关",
+              "link": "/products/switch/kth25"
+            },
+            {
+              "text": "KTM13 系列 · TMR 磁阻开关",
+              "link": "/products/switch/ktm13"
+            },
+            {
+              "text": "KTM28 系列 · AMR 高压气缸开关",
+              "link": "/products/switch/ktm28"
+            },
+            {
+              "text": "KTH31 系列 · 比例式线性霍尔传感器",
+              "link": "/products/switch/kth31"
+            },
+            {
+              "text": "KTH460 系列 · 微功耗 3D 霍尔开关",
+              "link": "/products/switch/kth460"
+            },
+            {
+              "text": "KTH462 系列 · 超灵敏 2D 霍尔开关",
+              "link": "/products/switch/kth462"
+            },
+            {
+              "text": "KTH564 系列 · 线性霍尔芯片",
+              "link": "/products/switch/linear-hall"
+            }
+          ]
+        },
+        {
+          "text": "其他芯片",
+          "items": [
+            {
+              "text": "KTAx333 系列 · 零温漂高精度运放",
+              "link": "/products/other/ktax33"
+            }
+          ]
+        },
+        {
+          "text": "旋钮系列",
+          "items": [
+            {
+              "text": "磁旋钮系列 · 隔空角度检测磁旋钮",
+              "link": "/products/knob/knob"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "市场应用",
+      "activeMatch": "^/applications/",
+      "items": [
+        {
+          "text": "市场应用总览",
+          "link": "/applications/"
+        },
+        {
+          "text": "消费类电子",
+          "link": "/applications/consumer-electronics"
+        },
+        {
+          "text": "智能生活",
+          "link": "/applications/intelligent-life"
+        },
+        {
+          "text": "工业4.0",
+          "link": "/applications/industry4"
+        },
+        {
+          "text": "智能交通",
+          "link": "/applications/intelligent-transportation"
+        }
+      ]
+    },
+    {
+      "text": "服务与洞见",
+      "activeMatch": "^/(services|tech-talks)",
+      "items": [
+        {
+          "text": "磁仿真&技术服务",
+          "link": "/services"
+        },
+        {
+          "text": "技术洞见",
+          "link": "/tech-talks"
+        }
+      ]
+    },
+    {
+      "text": "关于昆泰",
+      "activeMatch": "^/(about|contact)",
+      "items": [
+        {
+          "text": "公司简介",
+          "link": "/about/#公司简介"
+        },
+        {
+          "text": "核心价值观",
+          "link": "/about/#核心价值观"
+        },
+        {
+          "text": "品质认证",
+          "link": "/about/#品质认证"
+        },
+        {
+          "text": "加入我们",
+          "link": "/about/#加入我们"
+        },
+        {
+          "text": "联系我们",
+          "link": "/contact"
+        }
+      ]
+    }
+  ],
   "products": [
     {
-      "text": "产品总览",
+      "text": "产品中心总览",
       "link": "/products/"
     },
     {
@@ -9,15 +188,15 @@
       "collapsed": false,
       "items": [
         {
-          "text": "3D霍尔芯片 · 总览",
+          "text": "3D霍尔芯片总览",
           "link": "/products/3d-hall/"
         },
         {
-          "text": "3D磁角度传感器芯片—57系列",
+          "text": "KTH57 系列 三轴线性霍尔传感器",
           "link": "/products/3d-hall/kth57"
         },
         {
-          "text": "高精度 3D 霍尔磁性角度传感器—— 55系列",
+          "text": "KTH55 系列 垂直霍尔绝对角度传感器",
           "link": "/products/3d-hall/kth55"
         }
       ]
@@ -27,35 +206,35 @@
       "collapsed": false,
       "items": [
         {
-          "text": "编码器芯片 · 总览",
+          "text": "编码器芯片总览",
           "link": "/products/encoder/"
         },
         {
-          "text": "21 位高分辨率、高精度在轴磁性角度编码器 IC — 52系列",
+          "text": "KTM52 系列 21 位高精度 AMR 角度编码器",
           "link": "/products/encoder/ktm52"
         },
         {
-          "text": "高速高精度离轴AMR磁编码器芯片 —— 53系列",
+          "text": "KTM53 系列 离轴 AMR 角度编码器",
           "link": "/products/encoder/ktm53"
         },
         {
-          "text": "30bit 绝对角度细分器 - KTM58 系列",
+          "text": "KTM58 系列 30 bit 绝对角度细分器",
           "link": "/products/encoder/ktm58"
         },
         {
-          "text": "高速高分辨率TMR磁编码器芯片- KTM59系列",
+          "text": "KTM59 系列 高速 TMR 磁编码器",
           "link": "/products/encoder/ktm59"
         },
         {
-          "text": "高速高分辨率磁编码角度传感器 - KTH78系列",
+          "text": "KTH78 系列 低延时霍尔绝对角度编码器",
           "link": "/products/encoder/kth78"
         },
         {
-          "text": "16 位高速高精度磁编码器 - KTH71系列",
+          "text": "KTH71 系列 自校准霍尔磁编码器",
           "link": "/products/encoder/kth71"
         },
         {
-          "text": "游标绝对值光学旋转编码器芯片 - KTO95系列",
+          "text": "KTO95 系列 游标绝对值光学编码器",
           "link": "/products/encoder/kto95"
         }
       ]
@@ -65,39 +244,39 @@
       "collapsed": false,
       "items": [
         {
-          "text": "开关芯片 · 总览",
+          "text": "开关芯片总览",
           "link": "/products/switch/"
         },
         {
-          "text": "1D霍尔开关-微功耗系列产品",
+          "text": "KTH16 系列 微功耗 1D 霍尔开关",
           "link": "/products/switch/kth16"
         },
         {
-          "text": "车规级高压霍尔开关芯片-25、26系列",
+          "text": "KTH25 系列 车规级高压霍尔开关",
           "link": "/products/switch/kth25"
         },
         {
-          "text": "TMR磁传感器芯片-13系列",
+          "text": "KTM13 系列 TMR 磁阻开关",
           "link": "/products/switch/ktm13"
         },
         {
-          "text": "AMR高压气缸开关-28",
+          "text": "KTM28 系列 AMR 高压气缸开关",
           "link": "/products/switch/ktm28"
         },
         {
-          "text": "比例式线性霍尔效应传感器 - 31系列",
+          "text": "KTH31 系列 比例式线性霍尔传感器",
           "link": "/products/switch/kth31"
         },
         {
-          "text": "微功耗超灵敏的 3D 霍尔开关 - KTH460系列",
+          "text": "KTH460 系列 微功耗 3D 霍尔开关",
           "link": "/products/switch/kth460"
         },
         {
-          "text": "高性能、低功耗、超灵敏的 2D 霍尔开关 - KTH462系列",
+          "text": "KTH462 系列 超灵敏 2D 霍尔开关",
           "link": "/products/switch/kth462"
         },
         {
-          "text": "线性霍尔芯片（旧版页面）",
+          "text": "KTH564 系列 线性霍尔芯片",
           "link": "/products/switch/linear-hall"
         }
       ]
@@ -107,11 +286,11 @@
       "collapsed": false,
       "items": [
         {
-          "text": "其他芯片 · 总览",
+          "text": "其他芯片总览",
           "link": "/products/other/"
         },
         {
-          "text": "零温漂高精度运放芯片—KTAX33系列",
+          "text": "KTAx333 系列 零温漂高精度运放",
           "link": "/products/other/ktax33"
         }
       ]
@@ -121,11 +300,11 @@
       "collapsed": false,
       "items": [
         {
-          "text": "旋钮系列 · 总览",
+          "text": "旋钮系列总览",
           "link": "/products/knob/"
         },
         {
-          "text": "旋钮系列",
+          "text": "磁旋钮系列 隔空角度检测磁旋钮",
           "link": "/products/knob/knob"
         }
       ]
@@ -133,7 +312,7 @@
   ],
   "applications": [
     {
-      "text": "应用总览",
+      "text": "市场应用总览",
       "link": "/applications/"
     },
     {

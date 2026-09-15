@@ -171,7 +171,3 @@ outline: 2
 注：请在投递简历时，注意看清要求
 
 :::
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/joinUs/index.html" target="_blank">https://www.conntek.com.cn/html/web/joinUs/index.html</a></p>

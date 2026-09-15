@@ -28,7 +28,3 @@ KTAx333是一款低失调，微功耗，可以实现轨到轨输入/输出的CMO
 :::
 
 <div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTAx333</td><td>产品手册</td><td><a class="doc-link" href="/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTAx333产品手册.pdf</a></td><td><a class="doc-link" href="/files/KTAx333-datasheet.pdf" target="_blank">KTAx333-datasheet.pdf</a></td></tr></tbody></table></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/signalConditioningChip/zeroDriftAmplifierChip/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/signalConditioningChip/zeroDriftAmplifierChip/index.html</a></p>

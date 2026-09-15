@@ -41,7 +41,3 @@ KTH5502 是一款基于垂直霍尔技术的高精度绝对角度传感器芯片
 :::
 
 <div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTH5502</td><td>产品手册</td><td><a class="doc-link" href="/files/KTH5502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH5502 产品手册.pdf</a></td><td>—</td></tr></tbody></table></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html</a></p>

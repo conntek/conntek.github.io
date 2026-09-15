@@ -45,7 +45,3 @@ KTH7101 是一款高速高精度的磁编码器，内置了先进的自动非线
 :::
 
 <div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTH7101</td><td>产品手册</td><td><a class="doc-link" href="/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH7101 产品手册.pdf</a></td><td>—</td></tr><tr><td>KTH7111</td><td>产品手册</td><td><a class="doc-link" href="/files/KTH7111%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH7111 产品手册.pdf</a></td><td>—</td></tr><tr><td>KTH7112</td><td>产品手册</td><td><a class="doc-link" href="/files/KTH7112%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTH7112 产品手册.pdf</a></td><td>—</td></tr></tbody></table></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/magneticencoder/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/magneticencoder/index.html</a></p>

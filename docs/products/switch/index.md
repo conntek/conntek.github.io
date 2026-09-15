@@ -76,7 +76,3 @@ KTH462N系列是一款检测二维磁场的低功耗锁存型霍尔效应开关�
 [了解产品详情 →](/products/switch/kth462)
 
 </div></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/index.html</a></p>

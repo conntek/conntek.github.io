@@ -41,7 +41,3 @@ KTM2802采用SIP（系统级封装）生产技术，将ASIC传感器和AMR集成
 :::
 
 <div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTM2802</td><td>产品手册</td><td><a class="doc-link" href="/files/KTM2802%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTM2802 产品手册.pdf</a></td><td><a class="doc-link" href="/files/KTM2802%20Datasheet.pdf" target="_blank">KTM2802 Datasheet.pdf</a></td></tr></tbody></table></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/hvcpDetectionSensor/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/hvcpDetectionSensor/index.html</a></p>

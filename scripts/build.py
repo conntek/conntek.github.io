@@ -136,8 +136,14 @@ def tidy(node):
             t.name = 'span'
             t.attrs = {}
             continue
+        href = doc_file(name)
+        if os.path.isdir(os.path.join(PUBLIC, 'files')) and not os.path.exists(os.path.join(PUBLIC, 'files', name)):
+            t.name = 'span'
+            t.attrs = {'class': 'doc-missing'}
+            t.string = f'{name}（官网暂不可下载）'
+            continue
         t.name = 'a'
-        t.attrs = {'href': doc_file(name), 'target': '_blank', 'class': 'doc-link'}
+        t.attrs = {'href': href, 'target': '_blank', 'class': 'doc-link'}
     for t in node.select('.product-internal-table-head'):
         if t.name == 'tr':
             for td in t.find_all('td'):
@@ -212,7 +218,8 @@ def fm(**kw):
 
 
 def origin(path):
-    return f'\n\n<p class="origin">原网页：<a href="{BASE}{path}" target="_blank">{BASE}{path}</a></p>\n'
+    # 不在页面上展示原网页链接
+    return '\n'
 
 
 # ---------- 产品总览 ----------

@@ -40,7 +40,3 @@ title: "磁仿真&技术服务"
 ### 量产磁路良率优化
 
 1. 磁路不良品问题分析，定位问题位置，是磁铁工差较大还是组装工差较大，指导整改方向。
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/magneticSimulationService/index.html" target="_blank">https://www.conntek.com.cn/html/web/magneticSimulationService/index.html</a></p>

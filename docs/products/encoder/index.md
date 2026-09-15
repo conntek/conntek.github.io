@@ -78,7 +78,3 @@ KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电
 [了解产品详情 →](/products/encoder/kto95)
 
 </div></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/index.html</a></p>

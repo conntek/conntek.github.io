@@ -51,7 +51,3 @@ outline: 2
 ### EVM评估套件
 
 <video class="ct-video" controls preload="none" poster="/images/video_cover2.png" src="/videos/EVM-Evaluation-Kit.mp4"></video>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/57xilie/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/57xilie/index.html</a></p>

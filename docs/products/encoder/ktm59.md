@@ -38,7 +38,3 @@ outline: 2
 :::
 
 <div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTM5900</td><td>产品手册</td><td><a class="doc-link" href="/files/KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank">KTM5900 24bit绝对角度磁性编码器.pdf</a></td><td><a class="doc-link" href="/files/KTM5900%20Datasheet%20EN.pdf" target="_blank">KTM5900 Datasheet EN.pdf</a></td></tr><tr><td>KTM5910</td><td>产品手册</td><td><a class="doc-link" href="/files/KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank">KTM5910 24bit绝对角度磁性编码器.pdf</a></td><td>—</td></tr></tbody></table></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrTMPMagnrticEncoderChip/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrTMPMagnrticEncoderChip/index.html</a></p>

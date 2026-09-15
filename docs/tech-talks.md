@@ -41,7 +41,3 @@ outline: 2
 <a class="ct-article" href="https://mp.weixin.qq.com/s/Ycf_nah8lKqyqcVjS5Qq5g" target="_blank"><img src="/images/tech-talk/2-cover.png" alt=""><div><h3>神奇的霍尔效应</h3><p>当谈及传感技术的广泛应用领域，霍尔传感器毫无疑问是其中的佼佼者。它们基于霍尔效应的工作原理，在各个领域发挥着重要作用。现在，我们将详细介绍四种霍尔传感器，以及昆泰芯微电子所推出的相关产品……</p><time>2023-08-25</time></div></a>
 
 <a class="ct-article" href="https://mp.weixin.qq.com/s/cSHnFGLgO3_ZGnOa24_Vyw" target="_blank"><img src="/images/tech-talk/1-cover.png" alt=""><div><h3>新品发布 | KTH78系列高精度绝对角度霍尔编码器实现机翼伺服系统</h3><p>KTH78系列高精度绝对角度霍尔传感器为无人机机翼伺服系统提供了可靠的角度测量解决方案。其高精度、无接触式测量、超低延时和多种输出模式等优势，使其成为传统光电编码器的优秀替代品。对于无人机机翼伺服系统的特殊需求，KTH78系列传感器通过稳定性和抗干扰能力，高精度、高分辨率和高响应速度，多种输出模式等方面，为无人机提供了高效、可靠、经济的角度测量方案……</p><time>2023-08-16</time></div></a>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/techTalk/index.html" target="_blank">https://www.conntek.com.cn/html/web/techTalk/index.html</a></p>

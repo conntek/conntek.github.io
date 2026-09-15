@@ -41,7 +41,7 @@ export default defineConfig({
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '外观',
     footer: {
-      message: '内容来自 www.conntek.com.cn，本地整理排版 · 闽ICP备18009754号',
+      message: '闽ICP备18009754号',
       copyright: '© 昆泰芯微电子',
     },
   },

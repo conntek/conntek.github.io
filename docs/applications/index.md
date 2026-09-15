@@ -12,7 +12,3 @@ title: "市场应用"
 - **消费类电子**：TWS耳机、笔记本电脑开盖唤醒、升降摄像头位置检测、智能皮套、折叠屏手机
 - **智能生活**：智能门磁、智能门锁、智能水表、气表、智能马桶水位计、智能家电咖啡机
 - **工业4.0**：工业用液位检测、电流传感器、割草机、机械控制、无刷电机转子位置、转子角度传感
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/application/index.html" target="_blank">https://www.conntek.com.cn/html/web/application/index.html</a></p>

@@ -27,7 +27,3 @@ outline: 2
 ## 旋钮系列
 
 <div class="ct-grid"><a class="ct-card" href="/products/knob/knob"><div class="ct-card-img"><img src="/images/1760665827625.png" alt="旋钮系列"></div><div class="ct-card-body"><span class="ct-badge">01</span><h3>旋钮系列</h3></div></a></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/index.html</a></p>

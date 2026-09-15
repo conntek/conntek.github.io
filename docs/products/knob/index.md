@@ -12,7 +12,3 @@ title: "旋钮系列"
 [了解产品详情 →](/products/knob/knob)
 
 </div></div>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/kuntaixuanniuserise/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/kuntaixuanniuserise/index.html</a></p>

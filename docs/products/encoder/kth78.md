@@ -57,7 +57,3 @@ KTH78xx系列全系支持在轴或离轴应用，我司可为客户提供磁仿�
 ### KTH78系列多极对应用对拖校准大幅提高绝对精度
 
 <video class="ct-video" controls preload="none" poster="/images/video_cover5.jpg" src="/videos/KTH78-Improvement.mp4"></video>
-
-
-
-<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrMagneticCodedAngleSensor/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrMagneticCodedAngleSensor/index.html</a></p>

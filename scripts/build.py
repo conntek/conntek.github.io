@@ -104,7 +104,7 @@ def asset(src, kind):
         name = '/ext/' + os.path.basename(name)
     name = re.sub(r'^/(template/1/conntekCompany/(Picture|Images|videos)|upload/1/cms/(content/editor|content|category))/', '', name)
     local = f'/{kind}/' + name.lstrip('/')
-    ASSETS[local] = u
+    ASSETS[local] = urllib.parse.urlunsplit(urllib.parse.urlsplit(u)._replace(path=urllib.parse.quote(urllib.parse.unquote(p.path))))
     return local
 
 

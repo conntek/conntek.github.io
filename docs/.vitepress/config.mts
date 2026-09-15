@@ -8,6 +8,8 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: false,
   head: [['link', { rel: 'icon', href: '/images/logo.jpg' }]],
+  // 图片/视频/PDF 都在 public/ 下，按根路径直接引用，不走 Vite 的资源 import（缺文件也不会整页报错）
+  vue: { template: { transformAssetUrls: false } },
   themeConfig: {
     logo: '/images/logo.jpg',
     siteTitle: '昆泰芯 CONNTEK',

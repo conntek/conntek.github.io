@@ -1,13 +1,17 @@
 import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.json'
 
+// GitHub Pages 地址为 https://conntek.github.io/msite/；改部署路径时同时设置 SITE_BASE 重新跑 scripts/build.py
+const base = process.env.SITE_BASE ?? '/msite/'
+
 export default defineConfig({
+  base,
   lang: 'zh-CN',
   title: '昆泰芯微电子',
   description: 'CONNTEK 官网内容本地镜像 · 智能感知世界 传递美好生活',
   cleanUrls: true,
   lastUpdated: false,
-  head: [['link', { rel: 'icon', href: '/images/logo.jpg' }]],
+  head: [['link', { rel: 'icon', href: `${base}images/logo.jpg` }]],
   // 图片/视频/PDF 都在 public/ 下，按根路径直接引用，不走 Vite 的资源 import（缺文件也不会整页报错）
   vue: { template: { transformAssetUrls: false } },
   themeConfig: {

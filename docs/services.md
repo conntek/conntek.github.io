@@ -9,7 +9,7 @@ title: "磁仿真&技术服务"
 
 懂结构、懂设计、懂磁路、懂电路。
 
-<div class="ct-grid ct-grid-3 ct-icons"><div class="ct-icon-card"><img src="/images/dianlusheji.png" alt=""><h3>电路设计</h3></div><div class="ct-icon-card"><img src="/images/cilusheji2.png" alt=""><h3>磁路设计</h3></div><div class="ct-icon-card"><img src="/images/jiegousheji.png" alt=""><h3>结构设计</h3></div></div>
+<div class="ct-grid ct-grid-3 ct-icons"><div class="ct-icon-card"><img src="/msite/images/dianlusheji.png" alt=""><h3>电路设计</h3></div><div class="ct-icon-card"><img src="/msite/images/cilusheji2.png" alt=""><h3>磁路设计</h3></div><div class="ct-icon-card"><img src="/msite/images/jiegousheji.png" alt=""><h3>结构设计</h3></div></div>
 
 ## 解决方案
 
@@ -17,7 +17,7 @@ title: "磁仿真&技术服务"
 
 <div class="ct-steps"><span>磁路设计</span><span>电路设计</span><span>结构设计</span><span>低成本快速迭代</span></div>
 
-<div class="ct-grid ct-grid-3"><p class="ct-figure"><img src="/images/anli1.png" alt="仿真案例"></p><p class="ct-figure"><img src="/images/anli2.png" alt="仿真案例"></p><p class="ct-figure"><img src="/images/anli3.png" alt="仿真案例"></p></div>
+<div class="ct-grid ct-grid-3"><p class="ct-figure"><img src="/msite/images/anli1.png" alt="仿真案例"></p><p class="ct-figure"><img src="/msite/images/anli2.png" alt="仿真案例"></p><p class="ct-figure"><img src="/msite/images/anli3.png" alt="仿真案例"></p></div>
 
 ## 服务内容
 

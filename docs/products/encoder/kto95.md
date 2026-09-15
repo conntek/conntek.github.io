@@ -7,13 +7,13 @@ outline: 2
 
 <p class="ct-subtitle">游标绝对值光学旋转编码器芯片 - KTO95系列</p>
 
-<div class="ct-hero"><div class="ct-hero-img"><img src="/images/1760936805032.jpg" alt="游标绝对值光学旋转编码器芯片 - KTO95系列"></div><div class="ct-hero-body">
+<div class="ct-hero"><div class="ct-hero-img"><img src="/msite/images/1760936805032.jpg" alt="游标绝对值光学旋转编码器芯片 - KTO95系列"></div><div class="ct-hero-body">
 
 KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电传感器，提供了优秀的信号保真度，并具
 有较宽松的对准容差。该系列设备输出精确的正弦/余弦信号，允
 许后续设备进高分辨率插值，具体型号可以通过三通道 Nonius 插值实现高达 24 位的单圈位置分辨率。
 
-<a class="ct-btn" href="/contact">联系我们</a>
+<a class="ct-btn" href="/msite/contact">联系我们</a>
 
 </div></div>
 
@@ -44,4 +44,4 @@ KTO9512 是先进的光学编码器 IC，具有集成的高清相位阵列光电
 点击文件名直接打开（文件已随本站本地保存）；`.exe` 为上位机安装包。
 :::
 
-<div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTO9512</td><td>产品手册</td><td><a class="doc-link" href="/files/KTO9512-D26-QN32%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTO9512-D26-QN32产品手册.pdf</a></td><td>—</td></tr></tbody></table></div>
+<div class="ct-table"><table><thead><tr><th>产品系列</th><th>文档类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td>KTO9512</td><td>产品手册</td><td><a class="doc-link" href="/msite/files/KTO9512-D26-QN32%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank">KTO9512-D26-QN32产品手册.pdf</a></td><td>—</td></tr></tbody></table></div>

@@ -201,10 +201,21 @@ def md_escape(s):
     return s.replace('*', '\\*').replace('<', '&lt;')
 
 
+# 站点部署子路径（GitHub Pages 为 /msite/）。markdown 链接 VitePress 会自动加 base，
+# 但 md 里直接写的 HTML 属性（href/src/poster）不会，所以生成时统一补上。
+SITE_BASE = os.environ.get('SITE_BASE', '/msite/')
+
+
+def with_base(content):
+    if SITE_BASE in ('', '/'):
+        return content
+    return re.sub(r'\b(href|src|poster)="/(?!/)', lambda m: f'{m.group(1)}="{SITE_BASE}', content)
+
+
 def write(rel, content):
     fn = os.path.join(DOCS, rel)
     os.makedirs(os.path.dirname(fn), exist_ok=True)
-    open(fn, 'w', encoding='utf-8', newline='\n').write(content.rstrip() + '\n')
+    open(fn, 'w', encoding='utf-8', newline='\n').write(with_base(content).rstrip() + '\n')
 
 
 def fm(**kw):

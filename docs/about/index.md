@@ -16,7 +16,7 @@ outline: 2
 
 昆泰芯微电子服务于消费电子、智能制造、智能交通、智能家居以及新能源汽车等多个领域。公司在MEMS、霍尔磁传感器、磁阻传感器、高精密混合信号链处理、高精度传感器校准、物联网超低功耗射频芯片等领域拥有丰富IP积累和独特专利技术组合。产品可以满足霍尔磁性传感器、AMR/GM R/TMR磁传感器、芯片级温度传感器、MEMS压力传感器、气流传感器、热电堆温度传感器、磁性电流传感器、电容类传感器、零漂移运算放大器、高速高精度AD/DA以及面向物联网应用的传感器信号SoC等一系列需求。
 
-<div class="ct-grid ct-grid-3"><p class="ct-figure"><img src="/images/suzhou.png" alt="公司环境"></p><p class="ct-figure"><img src="/images/1621989445518.jpg" alt="公司环境"></p><p class="ct-figure"><img src="/images/company.png" alt="公司环境"></p></div>
+<div class="ct-grid ct-grid-3"><p class="ct-figure"><img src="/msite/images/suzhou.png" alt="公司环境"></p><p class="ct-figure"><img src="/msite/images/1621989445518.jpg" alt="公司环境"></p><p class="ct-figure"><img src="/msite/images/company.png" alt="公司环境"></p></div>
 
 ## 核心价值观
 
@@ -38,7 +38,7 @@ outline: 2
 - 昆泰芯通过ISO 26262功能安全管理体系认证，成功建立符合ISO 26262国际标准的功能安全管理体系，为设计符合功能安全要求的车规级芯片奠定坚实基础。
 - 昆泰芯严格贯彻ISO质量管理体系标准要求，获ISO 9001认证；推行有害物质管理体系，材料/产品完全符合 RoHS 指令（(EU)2015/863）REACH（第1907/2006号）等法律法规以及相关客户要求。
 
-<p class="ct-figure"><img src="/images/ktpz.png" alt="品质认证"></p>
+<p class="ct-figure"><img src="/msite/images/ktpz.png" alt="品质认证"></p>
 
 ## 加入我们
 

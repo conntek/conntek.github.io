@@ -1,0 +1,18 @@
+---
+title: "旋钮系列"
+---
+# 旋钮系列
+
+## 旋钮系列
+
+<div class="ct-row"><div class="ct-row-img"><img src="/images/1760665827625.png" alt=""></div><div class="ct-row-body">
+
+昆泰芯磁旋钮系列磁-电分离设计，产品形态千钮千态可厚或可薄，可大或可小；模块化设计，安装灵活可磁吸、可隐藏、可折叠、即插即用；隔空角度检测、防水(IP67)、防尘(IP67)、防油(IP67F)；防静电(8KV)、防高温(125°C)、防震动（Fdb）稳定可靠。磁感应技术极简结构设计，开发成本低，开模成本小,产品上市快，生产组装效率高，售后问题少，售后费用低。
+
+[了解产品详情 →](/products/knob/knob)
+
+</div></div>
+
+
+
+<p class="origin">原网页：<a href="https://www.conntek.com.cn/html/web/product/kuntaixuanniuserise/index.html" target="_blank">https://www.conntek.com.cn/html/web/product/kuntaixuanniuserise/index.html</a></p>

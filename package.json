@@ -1,0 +1,15 @@
+{
+  "name": "conntek-vitepress",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "python scripts/build.py",
+    "fetch": "python scripts/crawl.py && python scripts/build.py --download",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

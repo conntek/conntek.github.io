@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="keywords" content="昆泰芯微电子,conntek" />
+        <meta name="description" content="昆泰芯微电子" />
+        <link rel="shortcut icon" href="/template/1/conntekCompany/favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>昆泰芯微电子</title>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="renderer" content="webkit" />
+        <link href="/template/1/conntekCompany/Css/animate.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/bootstrap.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/global.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/product.css" rel="stylesheet" type="text/css">
+        <link href="/template/1/conntekCompany/Css/slick.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/slick-theme.css" rel="stylesheet">
+        <script type="text/javascript" src="/template/1/conntekCompany/Scripts/jquery-1.11.2.min.js"></script>
+    </head>
+<!--
+<html>
+    <head>
+        ...
+    </head> -->
+    <body>
+<!-- 
+    <body> -->
+        <!-- 顶部导航栏 -->
+        <div class="conntek_top">
+            <div class="topnav">
+                <div class="floatLeft">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/template/1/conntekCompany/Images/logo.jpg" alt="HOME">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <!-- HOME的li -->
+                            <li class="nli" id="nav_1">
+                                <span>
+                                    <a href="/" target="_self">首页</a>
+                                </span>
+                            </li>
+                            <!-- 循环 -->
+
+                            <li class="nli" id="nav_2">
+                                <span>
+                                    <a href="/html/web/product/index.html">产品中心</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html">其他芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_2">
+                                <span>
+                                    <a href="/html/web/product/index.html">产品中心</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html#">3D霍尔芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html#">编码器芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html#">开关芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html#">其他芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html#">旋钮系列</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_3">
+                                <span>
+                                    <a href="/html/web/application/index.html">市场应用</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html">消费类电子</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html">智能生活</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/industry4/index.html">工业4.0</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html">智能交通</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_3">
+                                <span>
+                                    <a href="/html/web/application/index.html">市场应用</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html#">消费类电子</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html#">智能生活</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/industry4/index.html#">工业4.0</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html#">智能交通</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_4">
+                                <span>
+                                    <a href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_4">
+                                <span>
+                                    <a href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/magneticSimulationService/magneticSimulationServiceHead/index.html#">磁仿真&技术服务</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_5">
+                                <span>
+                                    <a href="/html/web/techTalk/index.html">技术洞见</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/techTalk/index.html">技术洞见</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_5">
+                                <span>
+                                    <a href="/html/web/techTalk/index.html">技术洞见</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/techTalk/jishudongjian/index.html#">技术洞见</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_6">
+                                <span>
+                                    <a href="/html/web/joinUs/index.html">关于我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#1">公司介绍</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#2">公司文化</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#3">加入我们</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_6">
+                                <span>
+                                    <a href="/html/web/joinUs/index.html">关于我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav1/index.html#1">公司介绍</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav2/index.html#2">公司文化</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav3/index.html#3">加入我们</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_7">
+                                <span>
+                                    <a href="/html/web/contactUs/index.html">联系我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/contactUs/index.html">联系我们</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_7">
+                                <span>
+                                    <a href="/html/web/contactUs/index.html">联系我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/contactUs/contactUsNav1/index.html#">联系我们</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="menuph" id="menuph">
+                        <div class="point" id="mbtn">
+                            <span class="navbtn"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-search hidden-xs hidden-sm">
+                    <div class="searchIcon">
+                        <a href="https://en.conntek.com.cn" class='version';>EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .nav-search {
+                float: right;
+                transform: translateY(-52px);
+            }
+        
+            .ytop {
+                transform: translateY(-42px) !important;
+            }
+
+            .searchIcon {
+                margin-right: 5px;
+                padding-right: 6vw;
+            }
+
+            .version {
+                margin-right:5px;
+                font-size:14px;
+                transform: translateY(3px);
+            }
+            
+            @media screen and (max-width:1940px) {
+                .searchIcon {
+                    transform: translateX(48px) !important;
+                }
+            }
+        
+            @media screen and (max-width:1400px) {
+                .searchIcon {
+                    transform: translateX(77px) !important;
+                }
+            }
+        </style>        <script>
+            $('#nav_2').addClass('on');
+        </script>
+        <div class="banner productBanner">
+            <img src="/template/1/conntekCompany/Images/product.jpg" alt=" ">
+            <div class="productTitle hidden-xs">
+                <h1>昆泰产品</h1>
+                <h4>CONNTEK PRODUCT</h4>
+            </div>
+            <!-- 手机端 -->
+            <div class="tabTotal">
+                <ul class="tabButton">
+                    <li class="normalBg">
+                        <a href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片</a>
+                    </li>
+                    <li class="normalBg">
+                        <a href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片</a>
+                    </li>
+                    <li class="normalBg">
+                        <a href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片</a>
+                    </li>
+                    <li class="normalBg">
+                        <a href="/html/web/product/signalConditioningChip/index.html">其他芯片</a>
+                    </li>
+                    <li class="normalBg">
+                        <a href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- PC端 -->
+        <div class="navItem">
+            <div class="navTotal">
+                <div class="navLeft">
+                    <ul>
+                        <li>
+                            <img src="/template/1/conntekCompany/Picture/home.png" alt=" ">
+                        </li>
+                        <li>
+                            <span>当前位置：</span>
+                        </li>
+                        <li>
+                            <a href="/">首页</a>
+                            <span>></span>
+                        </li>
+                        <li>
+                            <a href="/html/web/product/index.html">产品中心</a>
+                            <span>></span>
+                        </li>
+                        <li>
+                            <a href="/html/web/product/magneticAngleDetectionChip/index.html">磁位置传感器芯片</a>
+                            <span>></span>
+                        </li>
+                        <li>
+                            <a href="">高速高分辨率磁编码角度传感器</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navRight">
+                    <div class="navRightItem">
+                        <a href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片</a>
+                    </div>
+                    <div class="navRightItem">
+                        <a href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片</a>
+                    </div>
+                    <div class="navRightItem">
+                        <a href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片</a>
+                    </div>
+                    <div class="navRightItem">
+                        <a href="/html/web/product/signalConditioningChip/index.html">其他芯片</a>
+                    </div>
+                    <div class="navRightItem">
+                        <a href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.conntek_SideLayer .l1 a.hover').parent().addClass('on');
+        </script>
+        <div class="conntek-main">
+            <div class="product-base">
+                <div class="product-content">
+                    <div class="product-title">高速高分辨率磁编码角度传感器</div>
+                    <div class="product-below-title">
+                        <div class="product-redline"></div>
+                    </div>
+                    <div class="product-introduction">
+                        <div class="product-image">
+                            <img src="/template/1/conntekCompany/Picture/hshrMagneticCodedAngleSensor.jpg" alt="高速高分辨率磁编码角度传感器">
+                        </div>
+                        <div class="product-beside-image">
+                            <div class="product-article">
+                                <p>昆泰芯KTH78xx系列是一种16位分辨率高精度低延时霍尔绝对角度编码器，可以测量XY两个方向的平面磁场分量。该传感器支持四线制SPI绝对角度输出（CRC输出校验可选），两线制SSI绝对角度输出，可编程4-4096步/圈ABZ增量输出，可编程1-8对极UVW增量输出，PWM占空比角度输出。芯片集成报警功能，用户可根据需求编辑磁场过低、过高的报警阈值。</p>
+                                <p>KTH78xx系列全系支持在轴或离轴应用，我司可为客户提供磁仿真服务，帮助客户在各种应用场景获得更好的精度。该系列芯片INL误差低至±0.35°，噪声低至0.007°，系统延时为1us且系统内部做了延时补偿，温度范围最高支持-40至125℃，适用于汽车角度控制、绝对角度位置传感器、无刷直流电机、步进闭环、电梯、 屏蔽门、AGV搬运机器人等多种场合。</p>
+                            </div>
+                            <div class="contact-us">
+                                <a href="/html/web/contactUs/index.html">联系我们</a>
+                            </div>
+                        </div>
+                        <div class="product-article-md">
+                            <p>昆泰芯KTH78xx系列是一种16位分辨率高精度低延时霍尔绝对角度编码器，可以测量XY两个方向的平面磁场分量。该传感器支持四线制SPI绝对角度输出（CRC输出校验可选），两线制SSI绝对角度输出，可编程4-4096步/圈ABZ增量输出，可编程1-8对极UVW增量输出，PWM占空比角度输出。芯片集成报警功能，用户可根据需求编辑磁场过低、过高的报警阈值。<br />KTH78xx系列全系支持在轴或离轴应用，我司可为客户提供磁仿真服务，帮助客户在各种应用场景获得更好的精度。该系列芯片INL误差低至±0.35°，噪声低至0.007°，系统延时为1us且系统内部做了延时补偿，温度范围最高支持-40至125℃，适用于汽车角度控制、绝对角度位置传感器、无刷直流电机、步进闭环、电梯、 屏蔽门、AGV搬运机器人等多种场合。</p>
+                        </div>
+                        <div class="contact-us-md">
+                            <a href="/html/web/contactUs/index.html">联系我们</a>
+                        </div>
+                    </div>
+
+                    <div class="product-advantage">
+                        <div class="product-subtitle">主要优势</div>
+                        <div class="product-advantage-detail">ㆍ超低延时，每 1μs 更新一次数据</div>
+                        <div class="product-advantage-detail">ㆍ支持离轴应用</div>
+                        <div class="product-advantage-detail">ㆍ支持多对极磁铁</div>
+                        <div class="product-advantage-detail">ㆍ符合 AEC-Q100 标准</div>
+                        <div class="product-advantage-detail">ㆍCRC校验输出可选</div>
+                        <div class="product-advantage-detail">ㆍ磁场强度诊断/报警</div>
+                        <div class="product-advantage-detail">ㆍ3.3V/5V供电可选</div>
+                        <div class="product-advantage-detail">ㆍ超小QFN16_3x3mm封装和SOP8封装可选</div>
+                    </div>
+
+                    <div class="product-parameter">
+                        <div class="product-subtitle">规格参数</div>
+                        <table class="product-parameter-table">
+                            <thead>
+                                <tr>
+                                    <th>等级</th>
+                                    <th>系列</th>
+                                    <th>校准</th>
+                                    <th>完整型号</th>
+                                    <th>封装</th>
+                                    <th>供电</th>
+                                    <th>功耗</th>
+                                    <th>精度</th>
+                                    <th>分辨率</th>
+                                    <th>噪声（1sigma）</th>
+                                    <th>是否离轴感应</th>
+                                    <th>接口</th>
+                                    <th>CRC校验</th>
+                                    <th >ABZ分辨率bit</th>
+                                    <th >PWM分辨率Hz</th>
+                                    <th >极限加减速延时</th>
+                                    <th >系统延时(匀速)</th>
+                                    <th >启动时间</th>
+                                    <th >角度刷新频率</th>
+                                    <th >磁场检测</th>
+                                    <th >温度范围</th>
+                                    <th >最高转速</th>
+                                    <th >工作磁场</th>
+                                    <th >应用领域</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--  车规-6 -->
+                                <tr height="28" style="height:28px">
+                                    <th rowspan="6" >车规</th>
+                                    <td rowspan="4">
+                                        <p style="font-size: 15px;font-weight: bold">KTH7801</p>
+                                        <p style="font-size: 10px;color: #808080;font-style: italic;">（符合Q100）</p>
+                                    </td>
+                                    <td rowspan="5">离轴线性幅值校准</td>
+                                    <td>KTH7801-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td rowspan="5" >±0.35度（在轴）<br>±1度左右（离轴）</td>
+                                    <td >16</td>
+                                    <td rowspan="4">0.015°</td>
+                                    <td rowspan="4">是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >否</td>
+                                    <td rowspan="4">12</td>
+                                    <td rowspan="4">910</td>
+                                    <td rowspan="4">/</td>
+                                    <td rowspan="4">0us</td>
+                                    <td rowspan="4">1ms</td>
+                                    <td rowspan="4">1MHz</td>
+                                    <td rowspan="4">有</td>
+                                    <td rowspan="4">﹣40至150℃</td>
+                                    <td rowspan="6">120,000转</td>
+                                    <td rowspan="6">30-150mT</td>
+                                    <td rowspan="6">水泵,油泵,智能车灯,排气,进气,转向传感器,里程计传感器,涡轮增压,雨刮,门把手</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7801-X-N-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V</td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td >PWM，SPI</td>
+                                    <td >否</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7801-X-C-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V</td>
+                                    <td>11.6mA</td>
+                                    <td >12bit+4CRC</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >是</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7801-X-C-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V</td>
+                                    <td>11.6mA</td>
+                                    <td >12bit+4CRC</td>
+                                    <td >PWM，SPI</td>
+                                    <td >是</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td >
+                                        <p style="font-size: 15px;font-weight: bold">KTH7803</p>
+                                    </td>
+                                    <td>KTH7803-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td >0.004°</td>
+                                    <td >是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >否</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td>/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至150℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td >
+                                        <p style="font-size: 15px;font-weight: bold">KTH7101</p>
+                                        <p style="font-size: 10px;color: #808080;font-style: italic;">（符合Q100）</p>
+                                    </td>
+                                    <td >在、离轴自校准</td>
+                                    <td>KTH7101-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.3~5V </td>
+                                    <td>16mA</td>
+                                    <td>±0.07度（在轴）<br> ±0.2度（离轴）</td>
+                                    <td >16(+8CRC)</td>
+                                    <td >0.015°</td>
+                                    <td >是</td>
+                                    <td >SSI，ABZ</td>
+                                    <td >是</td>
+                                    <td >14</td>
+                                    <td >NC</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >20ms（默认）</td>
+                                    <td >1MHz</td>
+                                    <td >无</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <!--    工业-8-->
+                                <tr height="28" style="height:28px">
+                                    <th rowspan="8" >工业</th>
+                                    <td>
+                                        <p style="font-size: 15px;font-weight: bold">KTH7812</p>
+                                    </td>
+                                    <td rowspan="8">离轴线性幅值校准</td>
+                                    <td>KTH7812-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td rowspan="8" >±0.35度（在轴）<br>±1度左右（离轴）</td>
+                                    <td >16</td>
+                                    <td>0.015°</td>
+                                    <td >是</td>
+                                    <td >SPI,ABZ,UVW</td>
+                                    <td >否</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至125℃</td>
+                                    <td rowspan="8">120,000转</td>
+                                    <td rowspan="8">30-150mT</td>
+                                    <td rowspan="8">电梯门角度检测,自动扶梯,阀门,水泵,制冷系统,业风扇,手术机器人,电动踏板,力矩中置电机,中空编码器,空心杯电机,闭环步进电机系统,无人机旋翼</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>
+                                        <p style="font-size: 15px;font-weight: bold">KTH7813</p>
+                                    </td>
+                                    <td>KTH7813-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td>0.004°</td>
+                                    <td >是</td>
+                                    <td >SPI,ABZ,UVW</td>
+                                    <td >否</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>
+                                        <p style="font-size: 15px;font-weight: bold">KTH7814</p>
+                                    </td>
+                                    <td>KTH7814-X-C-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td>12bit+4CRC</td>
+                                    <td>0.015°</td>
+                                    <td >是</td>
+                                    <td >SPI,ABZ,-ABZ</td>
+                                    <td >是</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td rowspan="2">
+                                        <p style="font-size: 15px;font-weight: bold">KTH7815</p>
+                                    </td>
+                                    <td>KTH7815-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td rowspan="2">16</td>
+                                    <td rowspan="2">0.059°</td>
+                                    <td rowspan="2">是</td>
+                                    <td >PWM，SPI</td>
+                                    <td >否</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7815-X-N-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >PWM，SPI</td>
+                                    <td >否</td>
+                                    <td >12</td>
+                                    <td >910</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >1ms</td>
+                                    <td >1MHz</td>
+                                    <td >有</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td rowspan="3">
+                                        <p style="font-size: 15px;font-weight: bold">KTH7816</p>
+                                    </td>
+                                    <td>KTH7816-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td rowspan="3">0.015°</td>
+                                    <td rowspan="3">是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >否</td>
+                                    <td rowspan="3">12</td>
+                                    <td rowspan="3">910</td>
+                                    <td rowspan="3">/</td>
+                                    <td rowspan="3">0us</td>
+                                    <td rowspan="3">1ms</td>
+                                    <td rowspan="3">1MHz</td>
+                                    <td rowspan="3">有</td>
+                                    <td rowspan="3">﹣40至125℃</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7816-X-N-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td >PWM，SPI</td>
+                                    <td >否</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7816-X-C-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >12bit+4CRC</td>
+                                    <td >PWM，SPI</td>
+                                    <td >是</td>
+                                </tr>
+                                <!--消费 4-->
+                                <tr height="28" style="height:28px">
+                                    <th rowspan="4" >消费</th>
+                                    <td rowspan="3">
+                                        <p style="font-size: 15px;font-weight: bold">KTH7823</p>
+                                    </td>
+                                    <td rowspan="4">离轴线性幅值校准</td>
+                                    <td>KTH7823-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td rowspan="4" >±0.35度（在轴）<br>±1度左右（离轴）</td>
+                                    <td >16</td>
+                                    <td rowspan="3">0.015°</td>
+                                    <td rowspan="3">是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >否</td>
+                                    <td rowspan="4">12</td>
+                                    <td rowspan="4">910</td>
+                                    <td rowspan="4">/</td>
+                                    <td rowspan="4">0us</td>
+                                    <td rowspan="4">1ms</td>
+                                    <td rowspan="4">1MHz</td>
+                                    <td rowspan="4">有</td>
+                                    <td rowspan="4">﹣40至105℃</td>
+                                    <td rowspan="4">120,000转</td>
+                                    <td rowspan="4">30-150mT</td>
+                                    <td rowspan="4">玩具方向盘,舵机,编码器,无刷电机,空心杯电机,云台,球机,机器人,3D打印机</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7823-X-C-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >12bit+4CRC</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >是</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>KTH7823-X-C-SOP8</td>
+                                    <td>SOP-8</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >12bit+4CRC</td>
+                                    <td >PWM，SPI</td>
+                                    <td >是</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td >
+                                        <p style="font-size: 15px;font-weight: bold">KTH7824 </p>
+                                    </td>
+                                    <td>KTH7824-X-N-QN16</td>
+                                    <td>QFN16-L</td>
+                                    <td>3.0~5.5V </td>
+                                    <td>11.6mA</td>
+                                    <td >16</td>
+                                    <td>0.004°</td>
+                                    <td>是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >否</td>
+                                </tr>
+                                <!--工业 2-->
+                                <tr height="28" style="height:28px">
+                                    <th rowspan="2" >工业</th>
+                                    <td>
+                                        <p style="font-size: 15px;font-weight: bold">KTH7111</p>
+                                    </td>
+                                    <td>在、离轴自校准</td>
+                                    <td>KTH7111-QN16</td>
+                                    <td>QFN3*3-16L</td>
+                                    <td>3.3~5V </td>
+                                    <td>16mA</td>
+                                    <td >±0.2度</td>
+                                    <td >16(+8CRC)</td>
+                                    <td >0.015°</td>
+                                    <td >是</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >是</td>
+                                    <td >14</td>
+                                    <td >120-3.8K</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >20ms（默认）</td>
+                                    <td >1MHz</td>
+                                    <td >无</td>
+                                    <td >﹣40至125℃</td>
+                                    <td rowspan="2">120,000转</td>
+                                    <td rowspan="2">30-150mT</td>
+                                    <td rowspan="2">功率电动工具无刷直流电机,工业机械臂控制系统,夹爪,齿轮箱,缝纫机</td>
+                                </tr>
+                                <tr height="28" style="height:28px">
+                                    <td>
+                                        <p style="font-size: 15px;font-weight: bold">KTH7112</p>
+                                    </td>
+                                    <td>在轴自校准</td>
+                                    <td>KTH7112-QN16</td>
+                                    <td>QFN3*3-16L</td>
+                                    <td>3.3~5V </td>
+                                    <td>16mA</td>
+                                    <td >±0.07度（在轴）</td>
+                                    <td >16(+8CRC)</td>
+                                    <td >0.015°</td>
+                                    <td >否</td>
+                                    <td >SSI，PWM，SPI，ABZ</td>
+                                    <td >是</td>
+                                    <td >14</td>
+                                    <td >120-3.8K</td>
+                                    <td >/</td>
+                                    <td >0us</td>
+                                    <td >20ms（默认）</td>
+                                    <td >1MHz</td>
+                                    <td >无</td>
+                                    <td >﹣40至125℃</td>
+                                </tr>
+                                <tr height="49" style="height:49px">
+                                    <td class="product-internal-table-head">感应方向</td>
+                                    <td colspan="23">
+                                        <p style="text-align:center">
+                                            <img src="https://website.obs.icheer.cn/eiker-web/www.conntek.com.cn/KTH87-replace.png" title=" " alt="感应方向" style="width:550px;height:100px;"/>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="product-parameter-table">
+                            <thead>
+                                <tr height="45" style="height:45px">
+                                    <th>产品型号</th>
+                                    <th>供电</th>
+                                    <th>功耗</th>
+                                    <th>分辨率</th>
+                                    <th>噪声</th>
+                                    <th>离轴应用</th>
+                                    <th>接口</th>
+                                    <th>CRC<br />校验</th>
+                                    <th>ABZ分辨率</th>
+                                    <th>PWM频率</th>
+                                    <th>极限加减速延时</th>
+                                    <th>系统延时（匀速）</th>
+                                    <th>启动时间</th>
+                                    <th>角度刷新速率</th>
+                                    <th>截止频率</th>
+                                    <th>磁场检测</th>
+                                    <th>温度范围</th>
+                                    <th>工作磁场</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="dark-table-row">
+                                    <td>KTH7801</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI<br />PWM<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>3μs</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7802</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />UVW<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>3μs</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr class="dark-table-row">
+                                    <td>KTH7811</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />UVW<br />~UVW</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7812</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />UVW<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr class="dark-table-row">
+                                    <td>KTH7813</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />UVW<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>15~150mT</td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7815</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.24°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />ABZ<br />~ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>3μs</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>235kHz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>15~150mT</td>
+                                </tr>
+                                <tr class="dark-table-row">
+                                    <td>KTH7816</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI<br />PWM<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 125 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7821</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.24°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI<br />PWM<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>3μs</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>235kHz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 105 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr class="dark-table-row">
+                                    <td>KTH7822</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.059°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>4.9kHz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 105 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7823</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.015°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI<br />PWM<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>313Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 105 ℃</td>
+                                    <td>30~150mT</td>
+                                </tr>
+                                <tr class="dark-table-row">
+                                    <td>KTH7824</td>
+                                    <td>3.3V/5V</td>
+                                    <td>11.6mA</td>
+                                    <td>16bit</td>
+                                    <td>0.007°</td>
+                                    <td>支持</td>
+                                    <td>SPI<br />SSI<br />PWM<br />ABZ</td>
+                                    <td>可选</td>
+                                    <td>12bit</td>
+                                    <td>910Hz</td>
+                                    <td>/</td>
+                                    <td>~0μs</td>
+                                    <td>1ms</td>
+                                    <td>1MHz</td>
+                                    <td>20Hz</td>
+                                    <td>有</td>
+                                    <td>-40 ~ 105 ℃</td>
+                                    <td>40~150mT</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="product-alternative">
+                        <img src="/template/1/conntekCompany/Picture/hshrMagneticCodedAngleSensorAlter1.png" alt=" ">
+                    </div>
+                    <div class="product-alternative">
+                        <img src="/template/1/conntekCompany/Picture/hshrMagneticCodedAngleSensorAlter2.png" alt=" ">
+                    </div>
+                    <div class="product-technology">
+                        <div class="product-subtitle">技术文档</div>
+                        <div class="product-technology-content">
+                            <table class="product-technology-table">
+                                <thead>
+                                <tr>
+                                    <th class="application-scenario-th">应用场景</th>
+                                    <th class="product-series-th">产品系列</th>
+                                    <th class="document-type-th">文档类型</th>
+                                    <th class="cn-version-th">中文版</th>
+                                    <th class="en-version-th">英文版</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="2">上位机</td>
+                                    <td>KTH78XX</td>
+                                    <td>安装程序</td>
+                                    <td class="product-technology-file-exe-td">
+                                        <div class="free-product-technical-document">KTH78评估板上位机安装包.exe</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH78XX</td>
+                                    <td>使用说明</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH78上位机安装使用说明.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="product-technology-table-md">
+                                <thead>
+                                <tr>
+                                    <th class="application-scenario-th">应用场景</th>
+                                    <th class="short-th">产品系列</th>
+                                    <th class="short-th">文档类型</th>
+                                    <th class="document-th">产品文档</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td>KTH78XX</td>
+                                    <td>安装程序</td>
+                                    <td class="product-technology-file-exe-td">
+                                        <div class="free-product-technical-document">KTH78评估板上位机安装包.exe</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH78XX</td>
+                                    <td>使用说明</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH78上位机安装使用说明.pdf</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="product-technology-table">
+                                <thead>
+                                <tr>
+                                    <th class="application-scenario-th">应用场景</th>
+                                    <th class="product-series-th">产品系列</th>
+                                    <th class="document-type-th">文档类型</th>
+                                    <th class="cn-version-th">中文版</th>
+                                    <th class="en-version-th">英文版</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--汽车类-1 -->
+                                <tr>
+                                    <td class="application-scenario-td">汽车类</td>
+                                    <td>KTH7801</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7801 产品手册.pdf</div>
+                                    </td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7801 Datasheet EN.pdf</div>
+                                    </td>
+                                </tr>
+                                <!--工业类-6 -->
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="5">工业类</td>
+                                    <td>KTH7812</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7812 产品手册.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7813</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7813 产品手册.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7814</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7814 产品手册.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7815</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7815 产品手册.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7816</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7816 产品手册.pdf</div>
+                                    </td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7816 Datasheet EN.pdf</div>
+                                    </td>
+                                </tr>
+                                <!--消费类-2 -->
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="2">消费类</td>
+                                    <td>KTH7823</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7823 产品手册.pdf</div>
+                                    </td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7823 Datasheet EN.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7824</td>
+                                    <td>产品手册</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7824 产品手册.pdf</div>
+                                    </td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="product-technology-table-md">
+                                <thead>
+                                <tr>
+                                    <th class="short-th">应用场景</th>
+                                    <th class="short-th">产品系列</th>
+                                    <th class="document">产品文档</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="2">汽车类</td>
+                                    <td rowspan="2">KTH7801</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7801 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7801 Datasheet.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="3">消费类</td>
+                                    <td rowspan="2">KTH7823</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7823 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7823 Datasheet.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7824</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7824 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="application-scenario-td" rowspan="4">工业类</td>
+                                    <td>KTH7812</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7812 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7813</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7814 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7814</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7814 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>KTH7816</td>
+                                    <td class="product-technology-file-td">
+                                        <div class="free-product-technical-document">KTH7816 产品手册.pdf</div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="product-video">
+                        <div class="product-subtitle">KTH78系列芯片介绍</div>
+                        <video class="video_item" src="/template/1/conntekCompany/videos/KTH78Series.mp4" controls style="object-fit: contain;" poster="/template/1/conntekCompany/videos/video_cover4.jpg"></video>
+                    </div>
+                    <div class="product-video">
+                        <div class="product-subtitle">KTH78系列多极对应用对拖校准大幅提高绝对精度</div>
+                        <video class="video_item" src="/template/1/conntekCompany/videos/KTH78-Improvement.mp4" controls style="object-fit: contain;" poster="/template/1/conntekCompany/videos/video_cover5.jpg"></video>
+                    </div>
+                    <div style="padding-top: 70px;"></div>
+                </div>
+            </div>
+
+            <!-- 文件下载-->
+            <script src="/template/1/conntekCompany/Scripts/request-file.js"></script>
+            <script>
+                let freeDoc = document.getElementsByClassName('free-product-technical-document')
+                for(let i=0;i<freeDoc.length;i++) {
+                    freeDoc[i].addEventListener('click',function () {
+                        const fileName = freeDoc[i].innerText
+                        toDownloadFreeFile(fileName)
+                    })
+                }
+            </script>
+        </div>
+        <!-- 底部 -->
+<div class="conntek_down">
+    <div class="floatLeft">
+        <div class="footer">
+
+
+
+            <div class="footer_head">
+                <ul>
+                                                <li>
+                                <div class="dt"> 泉州总部地址</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  福建省泉州市丰泽区华大街道体育街华创园D410室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 研发中心地址</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  苏州：苏州工业园区唯新路63号 联东U谷阳澄半岛科技园3号楼五楼</a>
+                                            <a class="lin" href="javascript:void(0);">  上海：上海市浦东新区盛夏路608号3幢201室</a>
+                                            <a class="lin" href="javascript:void(0);">  南京：南京市雨花台区雨花客厅2栋12楼</a>
+                                            <a class="lin" href="javascript:void(0);">  杭州：杭州市滨江区江虹路459号英飞特大厦E座407室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 运营中心</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  深圳市南山区留仙大道4168号众冠时代广场A座3108~3111室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 招聘邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  hr@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0512-62982283</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 技术支持邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  support@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0755-86006609</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 销售邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  sales@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0755-86186696</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 展会活动联系人</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  changhao.huang@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  18620321032</a>
+                                </div>
+                            </li>
+                               
+                
+                </ul>
+            </div>
+            <div class="gongzonghao "><img src="/template/1/conntekCompany/Images/ewm.png" alt=""></div>
+            <div class="qqweixinweibo "> <div class="bbimg"><a href="http://wpa.qq.com/msgrd?v=3&uin=QQ号码&site=qq&menu=yes"><img src="/template/1/conntekCompany/Images/cpxq4.png" alt=""></a></div>
+            <div class="bbimg"><img src="/template/1/conntekCompany/Images/cpxq2.png" alt=""></div>
+            <div class="bbimg"> <img src="/template/1/conntekCompany/Images/cpxq7.png" alt=""></div>
+            
+                
+               
+            </div>
+            <div class="footer_down">
+                <div class="footer_down_left">
+                    <div class="p"><p><a href="https://beian.miit.gov.cn/" target="_blank"> ©昆泰芯微电子                              闽ICP备18009754号   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35050302000720" style="display:inline-block;text-decoration:none;"> 闽公网安备 35050302000720号</a></a></p>
+                  
+                       
+                       <script>
+        var _hmt = _hmt || [];
+        (function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?9fb61d209451e886a1b2f23a60f24358";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+                </div>
+                <div class="footer_down_right">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.footer_down_left .p a{
+  	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+  }
+.bbimg:hover{
+background-color: #c30d23;
+}
+    .footer_head ul li{
+        margin-bottom: 20px;
+    }
+    .gongzonghao{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .qqweixinweibo{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bbimg{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+     margin:  25px 7px;
+        align-items: center;
+        justify-content: center;
+        background-color: #3e3f42;
+
+    }
+  
+    .bbimg a{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+   
+    }
+.footer {
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .footer .footer_head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .footer .footer_head ul {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+.footer .footer_head ul li {
+    height: auto;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer_head .dt {
+	width: 100%;
+	float: left;
+	font-size: 18px;
+	color: white;
+	line-height: 36px;
+}
+
+.footer .footer_head .dd {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.footer .footer_head .dd a {
+	width: 100%;
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: white;
+	line-height: 16px;
+	letter-spacing: 1px;
+	opacity: 0.7;
+	padding: 10px 0 10px 0;
+}
+
+.footer .footer_head .dd a:hover {
+	opacity: 1;
+}
+  .footer .footer_down {
+	width: 100%;
+	float: left;
+	padding: 19px 0 29px 0;
+	border-top: solid 1px #3e3f42;
+}
+
+.footer .footer_down_left {
+	float: left;
+	width: 75%;
+}
+
+
+.footer .footer_down_left .p {
+	float: left;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	opacity: 0.6;
+	width: 100%;
+}
+
+.footer_down_left .p a {
+  	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+
+.footer .footer_down_right {
+	float: right;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+
+@media screen and (max-width:768px) {
+    .footerHead {
+        display: none !important;
+    }
+}
+</style>
+        <!-- 移动端适配 -->
+<div class="conntek_menu">
+	<div id="navSlide" class="ph_menu">
+		<div class='nav_box'>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="">首页</a>
+                        <svg></svg>
+                    </span>
+                </p>
+            </li>
+                        <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/product/index.html" >产品中心</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html">其他芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/application/index.html" >市场应用</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html">消费类电子<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html">智能生活<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/industry4/index.html">工业4.0<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html">智能交通<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/magneticSimulationService/index.html" >磁仿真&技术服务</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/techTalk/index.html" >技术洞见</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/techTalk/index.html">技术洞见<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/joinUs/index.html" >关于我们</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#1">公司介绍<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#2">公司文化<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#3">加入我们<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/contactUs/index.html" >联系我们</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/contactUs/index.html">联系我们<i></i></a>
+                    </li>
+                </ul>
+            </li>
+        </div>
+    </div>
+</div>
+        <style>
+            .product-image {
+                padding: 30px;
+                transform: translate(0%, 0%);
+                width: 43%;
+            }
+
+            .product-beside-image {
+                width: 57%;
+            }
+
+            .video_item {
+                max-width: 80%;
+                object-fit: contain;
+                margin-bottom: 44px;
+            }
+
+            @media screen and (max-width:1484px) {
+                .product-parameter-table td {
+                    font-size: 12px;
+                }
+            }
+
+            @media screen and (max-width:1440px) {
+
+                .product-image {
+                    transform: translate(-10%, -10%);
+                }
+            }
+
+            @media screen and (max-width:1224px) {
+                .product-parameter {
+                    display: none;
+                }
+
+                .product-alternative {
+                    display: block;
+                }
+            }
+
+            @media screen and (max-width:1024px) {
+                .product-introduction {
+                    height: 810px;
+                }
+
+                .product-image {
+                    width: auto;
+                    height: 50%;
+                    transform: translate(0, 0);
+                }
+
+                .product-article-md {
+                    font-size: 16px;
+                    height: 45%;
+                }
+            }
+
+            @media screen and (max-width:600px) {
+                .product-introduction {
+                    height: 950px;
+                }
+
+                .product-image {
+                    transform: translate(0, 0);
+                }
+
+                .product-article-md {
+                    font-size: 17px;
+                    height: 50%;
+                }
+            }
+
+            @media screen and (max-width:520px) {
+                .product-introduction {
+                    height: 950px;
+                }
+
+                .product-image {
+                    height: 40%;
+                }
+
+                .product-article-md {
+                    font-size: 17px;
+                    height: 60%;
+                }
+            }
+
+            @media screen and (max-width:430px) {
+                .product-article-md {
+                    line-height: 32px;
+                }
+            }
+
+        </style>
+
+        <script>
+            $(".totalPart").eq(0).show();
+            $(".navRight>div a").eq(0).addClass("navBgc");
+            $(".navRight>div").click(function () {
+                let num = $(".navRight>div").index(this);
+                $(".totalPart").hide();
+                $(".totalPart").eq(num).show();
+                $(this).attr("class", "navBgc navRightItem");
+                $(this).siblings().attr("class", "navRightItem");
+            })
+        </script>
+        <script>
+            $(".tabButton li").eq(0).addClass("currentBg");
+            $(".tabButton li").eq(0).siblings().addClass("border");
+            $(".tabButton li").click(function () {
+                let num = $(".tabButton li").index(this);
+                $(this).attr("class", "currentBg normalBg");
+                $(this).siblings().attr("class", "normalBg border");
+            })
+        </script>
+        <script>
+            $('.nav_box .nli').each(function () {
+                if ($(this).find('.l2_ul').length < 1) {
+                    $(this).find('p span svg').remove();
+                } else {
+                    $(this).find('p span a').attr('href', 'javascript:;');
+                }
+            })
+            $('.nav_box .l2').each(function () {
+                if ($(this).find('.l3_ul').length < 1) {
+                    $(this).find('.l2_a i').remove();
+                } else {
+                    $(this).find('.l2_a').attr('href', 'javascript:;');
+                }
+            })
+        </script>
+        <script type="text/javascript"
+            src="/template/1/conntekCompany/Scripts/jquery.superslide.2.1.1.js"></script>
+        <script type="text/javascript"
+            src="/template/1/conntekCompany/Scripts/bootstrap.min.js"></script>
+        <script type="text/javascript"
+            src="/template/1/conntekCompany/Scripts/respond.src.js"></script>
+        <script type="text/javascript" src="/template/1/conntekCompany/Scripts/slick.min.js">
+        </script>
+        <script type="text/javascript" src="/template/1/conntekCompany/Scripts/wow.min.js">
+        </script>
+        <script type="text/javascript" src="/template/1/conntekCompany/Scripts/global.js">
+        </script>
+
+
+    </body>
+</html>

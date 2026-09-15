@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="keywords" content="昆泰芯微电子,conntek" />
+        <meta name="description" content="昆泰芯微电子" />
+        <link rel="shortcut icon" href="/template/1/conntekCompany/favicon.ico" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>昆泰芯微电子</title>
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="renderer" content="webkit" />
+        <link href="/template/1/conntekCompany/Css/animate.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/bootstrap.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/global.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/slick.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/slick-theme.css" rel="stylesheet">
+        <link href="/template/1/conntekCompany/Css/summary-list.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="/template/1/conntekCompany/Scripts/jquery-1.11.2.min.js"></script>
+    </head>
+<body>
+   
+<!-- 
+    <body> -->
+        <!-- 顶部导航栏 -->
+        <div class="conntek_top">
+            <div class="topnav">
+                <div class="floatLeft">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/template/1/conntekCompany/Images/logo.jpg" alt="HOME">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <!-- HOME的li -->
+                            <li class="nli" id="nav_1">
+                                <span>
+                                    <a href="/" target="_self">首页</a>
+                                </span>
+                            </li>
+                            <!-- 循环 -->
+
+                            <li class="nli" id="nav_2">
+                                <span>
+                                    <a href="/html/web/product/index.html">产品中心</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html">其他芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_2">
+                                <span>
+                                    <a href="/html/web/product/index.html">产品中心</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html#">3D霍尔芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html#">编码器芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html#">开关芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html#">其他芯片</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html#">旋钮系列</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_3">
+                                <span>
+                                    <a href="/html/web/application/index.html">市场应用</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html">消费类电子</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html">智能生活</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/industry4/index.html">工业4.0</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html">智能交通</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_3">
+                                <span>
+                                    <a href="/html/web/application/index.html">市场应用</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html#">消费类电子</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html#">智能生活</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/industry4/index.html#">工业4.0</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html#">智能交通</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_4">
+                                <span>
+                                    <a href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_4">
+                                <span>
+                                    <a href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/magneticSimulationService/magneticSimulationServiceHead/index.html#">磁仿真&技术服务</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_5">
+                                <span>
+                                    <a href="/html/web/techTalk/index.html">技术洞见</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/techTalk/index.html">技术洞见</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_5">
+                                <span>
+                                    <a href="/html/web/techTalk/index.html">技术洞见</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/techTalk/jishudongjian/index.html#">技术洞见</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_6">
+                                <span>
+                                    <a href="/html/web/joinUs/index.html">关于我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#1">公司介绍</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#2">公司文化</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/index.html#3">加入我们</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_6">
+                                <span>
+                                    <a href="/html/web/joinUs/index.html">关于我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav1/index.html#1">公司介绍</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav2/index.html#2">公司文化</a>
+                                    </li>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/joinUs/joinUsNav3/index.html#3">加入我们</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nli" id="nav_7">
+                                <span>
+                                    <a href="/html/web/contactUs/index.html">联系我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/contactUs/index.html">联系我们</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- <li class="nli" id="nav_7">
+                                <span>
+                                    <a href="/html/web/contactUs/index.html">联系我们</a>
+                                </span>
+                                <ul class="sub" style>
+                                    <li class="l2">
+                                        <a class="l2_a" href="/html/web/contactUs/contactUsNav1/index.html#">联系我们</a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="menuph" id="menuph">
+                        <div class="point" id="mbtn">
+                            <span class="navbtn"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-search hidden-xs hidden-sm">
+                    <div class="searchIcon">
+                        <a href="https://en.conntek.com.cn" class='version';>EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .nav-search {
+                float: right;
+                transform: translateY(-52px);
+            }
+        
+            .ytop {
+                transform: translateY(-42px) !important;
+            }
+
+            .searchIcon {
+                margin-right: 5px;
+                padding-right: 6vw;
+            }
+
+            .version {
+                margin-right:5px;
+                font-size:14px;
+                transform: translateY(3px);
+            }
+            
+            @media screen and (max-width:1940px) {
+                .searchIcon {
+                    transform: translateX(48px) !important;
+                }
+            }
+        
+            @media screen and (max-width:1400px) {
+                .searchIcon {
+                    transform: translateX(77px) !important;
+                }
+            }
+        </style>
+<script>
+    $('#nav_3').addClass('on');
+</script>
+<div class="banner productBanner">
+	<img src="/template/1/conntekCompany/Picture/application.png" alt=" ">
+    <div class="productTitle hidden-xs">
+        <h1>市场应用</h1>
+        <h4>CONNTEK APPLICATION</h4>
+    </div>
+<!-- 手机端 -->
+<div class="tabTotal hidden">
+
+    <ul class="tabButton">
+        <li class="normalBg">
+            <a href="/html/web/application/consumerElectronics/index.html">
+                消费类电子
+            </a>
+        </li>
+        <li class="normalBg">
+            <a href="/html/web/application/intelligentLife/index.html">
+                智能生活
+            </a>
+        </li>
+        <li class="normalBg">
+            <a href="/html/web/application/industry4/index.html">
+                工业4.0
+            </a>
+        </li>
+        <li class="normalBg">
+            <a href="/html/web/application/intelligentTransportation/index.html">
+                智能交通
+            </a>
+        </li>
+    </ul>
+
+
+</div>
+</div>
+<!-- PC端 -->
+<div class="navItem">
+ <div class="navTotal"><div class="navLeft"><img src="/template/1/conntekCompany/Picture/home.png" alt="">当前位置：<a href="/">首页</a> > <a href="/html/web/application/index.html">市场应用</a></div>
+ <div class="navRight">
+     <div class="navRightItem">
+       <a href="/html/web/application/consumerElectronics/index.html">消费类电子</a> 
+     </div>
+     <div class="navRightItem">
+       <a href="/html/web/application/intelligentLife/index.html">智能生活</a> 
+     </div>
+     <div class="navRightItem">
+       <a href="/html/web/application/industry4/index.html">工业4.0</a> 
+     </div>
+     <div class="navRightItem">
+       <a href="/html/web/application/intelligentTransportation/index.html">智能交通</a> 
+     </div>
+ </div>
+</div>
+</div>
+
+
+<script>
+    $('.conntek_SideLayer .l1 a.hover').parent().addClass('on');
+</script>
+<div class="conntek-main">
+    <div class="list-overview">
+        <div class="section-box" onclick="window.open('https\:\/\/www.conntek.com.cn/html/web/application/consumerElectronics/index.html','_self')">
+            <div class="section-box-picture">
+                <img src="/upload/1/cms/category/1627297507850.png" alt=" ">
+            </div>
+            <div class="section-box-title">消费类电子</div>
+        </div>
+        <div class="section-box" onclick="window.open('https\:\/\/www.conntek.com.cn/html/web/application/intelligentLife/index.html','_self')">
+            <div class="section-box-picture">
+                <img src="/upload/1/cms/category/1627297541107.png" alt=" ">
+            </div>
+            <div class="section-box-title">智能生活</div>
+        </div>
+        <div class="section-box" onclick="window.open('https\:\/\/www.conntek.com.cn/html/web/application/industry4/index.html','_self')">
+            <div class="section-box-picture">
+                <img src="/upload/1/cms/category/1627297464369.png" alt=" ">
+            </div>
+            <div class="section-box-title">工业4.0</div>
+        </div>
+        <div class="section-box" onclick="window.open('https\:\/\/www.conntek.com.cn/html/web/application/intelligentTransportation/index.html','_self')">
+            <div class="section-box-picture">
+                <img src="/upload/1/cms/category/1627297481820.png" alt=" ">
+            </div>
+            <div class="section-box-title">智能交通</div>
+        </div>
+    </div>
+
+  
+</div>
+<script>
+    $(".tabButton li").eq(0).addClass("currentBg");
+    $(".tabButton li").eq(0).siblings().addClass("border");
+   $(".totalPart").eq(0).show();
+   
+       $(".tabButton li").click(function(){
+           let num =$(".tabButton li").index(this);
+         
+           $(".totalPart").hide();
+           $(".totalPart").eq(num).show();
+           $(this).attr("class","currentBg normalBg");
+           $(this).siblings().attr("class","normalBg border");
+       })
+       </script>
+<script>
+        $(".totalPart").eq(0).show();
+        $(".navRight>div").click(function(){
+           let num =$(".navRight>div").index(this);
+           console.log(num);
+           $(".totalPart").hide();
+           $(".totalPart").eq(num).show();
+           $(this).attr("class","navBgc navRightItem");
+           $(this).siblings().attr("class","navRightItem");
+       })
+       </script>
+<!-- 底部 -->
+<div class="conntek_down">
+    <div class="floatLeft">
+        <div class="footer">
+
+
+
+            <div class="footer_head">
+                <ul>
+                                                <li>
+                                <div class="dt"> 泉州总部地址</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  福建省泉州市丰泽区华大街道体育街华创园D410室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 研发中心地址</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  苏州：苏州工业园区唯新路63号 联东U谷阳澄半岛科技园3号楼五楼</a>
+                                            <a class="lin" href="javascript:void(0);">  上海：上海市浦东新区盛夏路608号3幢201室</a>
+                                            <a class="lin" href="javascript:void(0);">  南京：南京市雨花台区雨花客厅2栋12楼</a>
+                                            <a class="lin" href="javascript:void(0);">  杭州：杭州市滨江区江虹路459号英飞特大厦E座407室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 运营中心</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  深圳市南山区留仙大道4168号众冠时代广场A座3108~3111室</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 招聘邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  hr@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0512-62982283</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 技术支持邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  support@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0755-86006609</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 销售邮箱及电话</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  sales@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  0755-86186696</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dt"> 展会活动联系人</div>
+                                <div class="dd">
+                                            <a class="lin" href="javascript:void(0);">  changhao.huang@conntek.com.cn</a>
+                                            <a class="lin" href="javascript:void(0);">  18620321032</a>
+                                </div>
+                            </li>
+                               
+                
+                </ul>
+            </div>
+            <div class="gongzonghao "><img src="/template/1/conntekCompany/Images/ewm.png" alt=""></div>
+            <div class="qqweixinweibo "> <div class="bbimg"><a href="http://wpa.qq.com/msgrd?v=3&uin=QQ号码&site=qq&menu=yes"><img src="/template/1/conntekCompany/Images/cpxq4.png" alt=""></a></div>
+            <div class="bbimg"><img src="/template/1/conntekCompany/Images/cpxq2.png" alt=""></div>
+            <div class="bbimg"> <img src="/template/1/conntekCompany/Images/cpxq7.png" alt=""></div>
+            
+                
+               
+            </div>
+            <div class="footer_down">
+                <div class="footer_down_left">
+                    <div class="p"><p><a href="https://beian.miit.gov.cn/" target="_blank"> ©昆泰芯微电子                              闽ICP备18009754号   <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35050302000720" style="display:inline-block;text-decoration:none;"> 闽公网安备 35050302000720号</a></a></p>
+                  
+                       
+                       <script>
+        var _hmt = _hmt || [];
+        (function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?9fb61d209451e886a1b2f23a60f24358";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+                </div>
+                <div class="footer_down_right">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.footer_down_left .p a{
+  	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+  }
+.bbimg:hover{
+background-color: #c30d23;
+}
+    .footer_head ul li{
+        margin-bottom: 20px;
+    }
+    .gongzonghao{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .qqweixinweibo{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bbimg{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+     margin:  25px 7px;
+        align-items: center;
+        justify-content: center;
+        background-color: #3e3f42;
+
+    }
+  
+    .bbimg a{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+   
+    }
+.footer {
+        width: 100%;
+        float: left;
+        padding-top: 40px;
+    }
+
+    .footer .footer_head{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .footer .footer_head ul {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+    }
+
+.footer .footer_head ul li {
+    height: auto;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer_head .dt {
+	width: 100%;
+	float: left;
+	font-size: 18px;
+	color: white;
+	line-height: 36px;
+}
+
+.footer .footer_head .dd {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+.footer .footer_head .dd a {
+	width: 100%;
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: white;
+	line-height: 16px;
+	letter-spacing: 1px;
+	opacity: 0.7;
+	padding: 10px 0 10px 0;
+}
+
+.footer .footer_head .dd a:hover {
+	opacity: 1;
+}
+  .footer .footer_down {
+	width: 100%;
+	float: left;
+	padding: 19px 0 29px 0;
+	border-top: solid 1px #3e3f42;
+}
+
+.footer .footer_down_left {
+	float: left;
+	width: 75%;
+}
+
+
+.footer .footer_down_left .p {
+	float: left;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+	opacity: 0.6;
+	width: 100%;
+}
+
+.footer_down_left .p a {
+  	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+
+.footer .footer_down_right {
+	float: right;
+	font-size: 14px;
+	line-height: 24px;
+	color: white;
+}
+
+@media screen and (max-width:768px) {
+    .footerHead {
+        display: none !important;
+    }
+}
+</style>
+<!-- 移动端适配 -->
+<div class="conntek_menu">
+	<div id="navSlide" class="ph_menu">
+		<div class='nav_box'>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="">首页</a>
+                        <svg></svg>
+                    </span>
+                </p>
+            </li>
+                        <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/product/index.html" >产品中心</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/magneticAngleDetectionChip/index.html">3D霍尔芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/magneticCurrentLinearSensingChip/index.html">编码器芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/switchPositionDetectionChip/index.html">开关芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/signalConditioningChip/index.html">其他芯片<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/product/kuntaixuanniuserise/index.html">旋钮系列<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/application/index.html" >市场应用</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/consumerElectronics/index.html">消费类电子<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/intelligentLife/index.html">智能生活<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/industry4/index.html">工业4.0<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/application/intelligentTransportation/index.html">智能交通<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/magneticSimulationService/index.html" >磁仿真&技术服务</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/magneticSimulationService/index.html">磁仿真&技术服务<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/techTalk/index.html" >技术洞见</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/techTalk/index.html">技术洞见<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/joinUs/index.html" >关于我们</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#1">公司介绍<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#2">公司文化<i></i></a>
+                    </li>
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/joinUs/index.html#3">加入我们<i></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nli">
+                <p>
+                    <span>
+                        <a class="l1_a" href="/html/web/contactUs/index.html" >联系我们</a>
+                        <svg></svg>
+                    </span>
+                </p>
+                <ul class="l2_ul">
+                    <li class="l2">
+                        <a class="l2_a" href="/html/web/contactUs/index.html">联系我们<i></i></a>
+                    </li>
+                </ul>
+            </li>
+        </div>
+    </div>
+</div>
+   
+<style>
+
+
+    @media screen and (max-width:1760px) {
+        .navTotal{
+          width: 1500px;
+    }
+    }
+    @media screen and (max-width:1560px) {
+        .navTotal{
+        width: 1300px;
+    }
+    .navRightItem {
+      width: 200px;
+    }
+}
+    @media screen and (max-width:1320px) {
+     .tabTotal{
+       display: block;
+     }
+     .navItem{
+       display: none;
+     }
+}
+
+@media screen and (max-width:766px) {
+        .product_inner_content{
+            height: 80px;
+            position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+        .product_btn{
+
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+        .product_pic{
+            height: 200px;
+        }
+        .product_pic img{
+            height: 200px;
+        }
+    }
+</style>
+
+
+<script>
+    $('.nav_box .nli').each(function () {
+        if ($(this).find('.l2_ul').length < 1) {
+            $(this).find('p span svg').remove();
+        } else {
+            $(this).find('p span a').attr('href','javascript:;');
+        }
+    })
+    $('.nav_box .l2').each(function () {
+        if ($(this).find('.l3_ul').length < 1) {
+            $(this).find('.l2_a i').remove();
+        } else {
+            $(this).find('.l2_a').attr('href', 'javascript:;');
+        }
+    })
+</script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/jquery.superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/respond.src.js"></script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/slick.min.js"></script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/wow.min.js"></script>
+    <script type="text/javascript" src="/template/1/conntekCompany/Scripts/global.js"></script>
+    
+</body>
+</html>

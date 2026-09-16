@@ -29,7 +29,7 @@ pageClass: "c-page c-page--product"
 
 系列包含 136、15、16、17 系列，类型覆盖双脚输出单极型（KTH1604）、锁存型（KTH1631、KTH1731）、全极型（KTH1701、KTH1702、KTH1362）、单 S 极（KTH1711）与单 N 极（KTH1721、KTH1722）；工作频率从 2.5 Hz 到 40 kHz，输出为 CMOS 或开漏，封装包括 SOT-23-3L、TO-92S、DFN/FBP 1*1-4L 与 HFBP1010。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>电子棋盘</span><span>断路器</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/consumer-electronics/e-chessboard">电子棋盘</a><a href="/msite/applications/industry4/circuit-breaker">断路器</a></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth16.webp" alt="微功耗系列 产品图" loading="lazy"></div></div>
 

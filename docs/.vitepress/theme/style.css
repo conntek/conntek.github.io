@@ -52,6 +52,31 @@
 }
 
 /* ---------- 顶栏：只保留 logo（参考站 48px） ---------- */
+/* 顶栏必须不透明。VitePress 默认在 has-sidebar + 未滚动时把 .VPNavBar 背景设成透明，
+   而侧栏是从 y=0 起滚动的，于是侧栏条目会从 logo 和右侧导航链接的背后透出来
+   （实测：.VPNavBar 计算值 rgba(0,0,0,0)，logo 块 208x64 同样透明）。
+   这里对整条顶栏与 logo 块都显式铺底色，两个主题各自取 --vp-nav-bg-color。 */
+.VPNavBar,
+.VPNavBar.has-sidebar,
+.VPNavBar.top,
+.VPNavBar.has-sidebar.top {
+  background-color: var(--vp-nav-bg-color) !important;
+}
+.VPNavBar .VPNavBarTitle,
+.VPNavBar .VPNavBarTitle .title {
+  background-color: var(--vp-nav-bg-color) !important;
+}
+/* 有侧栏时，logo 块正好压在侧栏那一列的正上方；取侧栏底色而不是顶栏底色，
+   否则两者色值不同（深色下 27,27,31 对 22,22,24），logo 下沿会出现一道断层。 */
+.VPNavBar.has-sidebar .VPNavBarTitle,
+.VPNavBar.has-sidebar .VPNavBarTitle .title {
+  background-color: var(--vp-sidebar-bg-color) !important;
+}
+/* 顶栏下沿给一条细线，去掉透明后需要它来区分顶栏与内容（沿用全站细边框、无阴影的风格） */
+.VPNavBar:not(.home) {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
 .VPNavBarTitle .logo {
   height: 48px !important;
   width: auto !important;
@@ -322,7 +347,8 @@
   gap: 6px;
   margin-top: 12px;
 }
-.c-tags span {
+.c-tags span,
+.c-tags a {
   padding: 2px 10px;
   border-radius: 999px;
   font-size: 12.5px;
@@ -330,6 +356,18 @@
   color: var(--vp-c-text-2);
   background: var(--vp-c-bg-soft);
   border: 1px solid var(--c-border);
+}
+/* 可点的标签要一眼看出来跟不可点的不一样，否则用户会把纯文字标签也当按钮点。
+   这里只改文字色与边框，不加下划线——胶囊里加下划线会把行高撑乱。 */
+.c-tags a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: color .15s, border-color .15s, background-color .15s;
+}
+.c-tags a:hover {
+  color: var(--vp-c-brand-1);
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
 }
 .c-tags--lg {
   align-items: center;
@@ -1517,7 +1555,8 @@
 .c-model .c-tags {
   margin-top: 8px;
 }
-.c-model .c-tags span {
+.c-model .c-tags span,
+.c-model .c-tags a {
   background: var(--vp-c-bg);
 }
 .vp-doc .c-model dl {

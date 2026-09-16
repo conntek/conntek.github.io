@@ -29,7 +29,9 @@ pageClass: "c-page c-page--product"
 
 芯片工作电压范围宽，无磁场时模拟输出 1/2 VCC，输出随施加的磁通量密度线性变化，四个灵敏度选项可根据所需检测范围提供最大的输出电压摆幅。系列包括 KTH5641、KTH564A1、KTH5642、KTH5643，工作电压 2.8 ~ 6.0 V，平均功耗 3.3 mA @ 5 V，封装 SOT-23-3L、TO-92S 与 DFN1616-6L。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>扫地机器人尘盒检测</span><span>游戏手柄</span><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/intelligent-life/robot-vacuum-dustbin">扫地机器人-尘盒检测</a><a href="/msite/applications/consumer-electronics/game-controller">游戏手柄</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/linear-hall.webp" alt="KTH564 系列 产品图" loading="lazy"></div></div>
 

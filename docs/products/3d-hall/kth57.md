@@ -29,7 +29,9 @@ pageClass: "c-page c-page--product"
 
 用户可根据实际应用开启一轴或多轴组合的磁场测量，获取磁场原始数据后结合软件算法提取磁铁的运动信息，适用于摇杆、旋钮、位移测量等场景。KTH57 系列支持在轴、离轴两种磁铁摆放方式，检测范围 360°，工作频率 1000 Hz，工作温度 -40 ~ 125 ℃，面向工业与消费类应用。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>摇杆</span><span>旋钮</span><span>位移测量</span><span>轮椅摇杆</span><span>掌机摇杆</span><span>智能手表</span><span>洗衣机</span><span>咖啡机</span><span>陪伴机器人</span><span>燃气灶旋钮</span><span>扫地机器人</span><span>智能马桶</span><span>电表</span><span>旋钮操控</span><span>闸机</span><span>电子节气门</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><span>摇杆</span><a href="/msite/applications/industry4/knob-control">旋钮操控</a><a href="/msite/applications/consumer-electronics/wheelchair-joystick">轮椅摇杆</a><a href="/msite/applications/consumer-electronics/handheld-joystick">掌机摇杆</a><a href="/msite/applications/consumer-electronics/smart-watch">智能手表</a><a href="/msite/applications/consumer-electronics/washing-machine">洗衣机</a><a href="/msite/applications/intelligent-life/coffee-machine">咖啡机</a><a href="/msite/applications/intelligent-life/companion-robot">陪伴机器人</a><a href="/msite/applications/intelligent-life/gas-stove-knob">燃气灶-旋钮</a><a href="/msite/applications/intelligent-life/robot-vacuum">扫地机器人-真空吸尘器</a><span>智能马桶</span><a href="/msite/applications/industry4/electricity-meter">电表</a><a href="/msite/applications/industry4/turnstile">闸机</a><a href="/msite/applications/intelligent-transportation/e-throttle">电子节气门</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>位移检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth57.webp" alt="KTH57 系列 产品图" loading="lazy"></div></div>
 

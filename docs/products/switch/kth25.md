@@ -29,7 +29,7 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 
 芯片为数字双极锁存霍尔传感器，开漏输出级具备高达 30 mA 的灌电流驱动能力，并具有抛负载能力与输出短路过流保护功能。工作电压 2.7 ~ 32 V，反接保护电压高达 -32 V，平均功耗 2.7 mA，采用 SOT-23-3L 与 TO-92S 封装，广泛适用于汽车及工业领域。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>汽车</span><span>工业</span></div>
+<div class="c-tags c-tags--lg"><b>面向市场</b><span>汽车</span><span>工业</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth25.webp" alt="KTH25 系列 产品图" loading="lazy"></div></div>
 

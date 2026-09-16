@@ -29,7 +29,9 @@ KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行
 
 系列类型覆盖全极型（KTM1301、KTM1302、KTM1304）、单 S 极（KTM1311）、单 N 极（KTM1321）与锁存型（KTM1331），电源电压 1.8 ~ 5.5 V，平均功耗 160 nA @ 3 V 至 1.9 μA @ 3.0 V，工作频率 50 Hz / 1600 Hz / 5000 Hz，工作温度 -40 ~ 125 ℃。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>笔记本电脑 / 平板电脑盖开关</span><span>位置检测</span><span>位移检测</span><span>速度检测</span><span>水表、煤气表和热量表等流量计</span><span>触控笔</span><span>扫地机水位监测</span><span>智能马桶水位监测</span><span>燃气表</span><span>机械电表</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><span>笔记本电脑 / 平板电脑盖开关</span><span>水表</span><a href="/msite/applications/industry4/gas-meter">燃气表</a><span>热量表</span><a href="/msite/applications/consumer-electronics/stylus">触控笔</a><a href="/msite/applications/intelligent-life/robot-vacuum-water-level">扫地机-水位监测</a><a href="/msite/applications/intelligent-life/smart-toilet-water-level">智能马桶-水位监测</a><a href="/msite/applications/industry4/mechanical-meter">机械电表</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>位置检测</span><span>位移检测</span><span>速度检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm13.webp" alt="KTM13 系列 产品图" loading="lazy"></div></div>
 

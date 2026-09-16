@@ -29,7 +29,9 @@ KTO9512 是先进的光学编码器 IC，集成高清相位阵列光电传感器
 
 KTO9512 基于 3 码道游标原理，适用于直径 26 mm 光栅码盘，码盘刻线 512 / 510 / 480 CPR，2 bit 格雷码道。模拟电压 4.1 ~ 5.5 V，数字电压 1.6 ~ 5.5 V，供电电流 9.5 ~ 15 mA，光电流范围 0 ~ 1120 nA，光谱应用范围 400 ~ 950 nm，上电稳定时间 100 μs，封装 32-pin optoQFN 5 mm × 5 mm × 0.9 mm。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>绝对位置编码器</span><span>交流伺服反馈</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><span>交流伺服反馈</span></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>绝对位置编码器</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kto95.webp" alt="KTO95 系列 产品图" loading="lazy"></div></div>
 

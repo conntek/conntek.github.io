@@ -29,7 +29,7 @@ KTH31 系列是一款可按比例响应磁通量密度的线性霍尔效应传�
 
 无磁场时输出 VDD/2 静态电压，可同时检测 N 极与 S 极磁场。系列提供 KTH3101、KTH3102、KTH3103、KTH3105、KTH3110、KTH3113 六个灵敏度型号，@ 3.3 V 时灵敏度 1.00 ~ 8.90 mV/Gs，对应磁场范围 ±1400 ~ ±150 Gs；功耗 4.5 mA @ 3.3 V、5.4 mA @ 5.0 V。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth31.webp" alt="KTH31 系列 产品图" loading="lazy"></div></div>
 

@@ -25,6 +25,7 @@ def load(rel, default):
 S = load('cache/site.json', {})
 COPY = load('content/copy.json', {})
 FIGS = load('content/figures.json', {})
+APP_TAGS = load('content/app_tags.json', {})
 IMG = load('cache/img_manifest.json', {})
 CATS = S['categories']
 PRODUCTS = S['products']
@@ -251,7 +252,7 @@ def transposed_table(cols, rows, merge, skip=(), link=False, prod=None):
     def head_cell(h):
         inner = cell_html(h)
         if link and prod:
-            inner = f'<a href="{model_route(prod, h)}">{inner}</a>'
+            inner = f'<a href="{model_link(prod, h)}">{inner}</a>'
         return f'<th scope="col" class="c-mono">{inner}</th>'
     out = '<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th>' + ''.join(head_cell(h) for h in heads) + '</tr></thead><tbody>'
     body = ''
@@ -616,7 +617,7 @@ def render_product(slug):
     photo = IMG.get(f'photo/{slug}') or IMG.get(f'hero/{slug}')
     body = '\n\n'.join(c['overview'])
     if c['applications']:
-        body += '\n\n<div class="c-tags c-tags--lg"><b>典型应用</b>' + ''.join(f'<span>{E(a)}</span>' for a in c['applications']) + '</div>'
+        body += app_tag_rows(c['applications'])
     if photo:
         out += f'<div class="c-split c-split--overview"><div class="c-split__text">\n\n{body}\n\n</div><div class="c-split__media c-split__media--frame"><img src="{photo}" alt="{E(c["model"])} 产品图" loading="lazy"></div></div>\n\n'
     else:
@@ -704,6 +705,40 @@ def app_card(a, more='查看案例'):
 
 
 MODEL_INDEX = {}
+
+
+def series_prefix(model_text):
+    m = re.search(r'(KT[A-Z]\d{2})', str(model_text).upper())
+    return m.group(1) if m else ''
+
+
+def _family_map():
+    out = {}
+    for sl in PRODUCTS:
+        pre = series_prefix(pc(sl)['model'])
+        if pre:
+            out.setdefault(pre, sl)
+    return out
+
+
+FAMILY_OWNER = None
+
+
+def owner_of(mid):
+    """这个型号属于哪个产品页；映射不到就返回空。"""
+    global FAMILY_OWNER
+    if FAMILY_OWNER is None:
+        FAMILY_OWNER = _family_map()
+    pre = series_prefix(mid)
+    return FAMILY_OWNER.get(pre, '')
+
+
+def model_link(slug, mid):
+    """本系列的型号进型号页；表里混进来的别系列型号，链到它自己的系列页。"""
+    own = owner_of(mid)
+    if own and own != slug and series_prefix(pc(slug)['model']):
+        return PRODUCTS[own]['route']
+    return model_route(slug, mid)
 EMPTY_VALS = ('', '-', '—', '/', '／', 'n/a', 'na')
 
 
@@ -881,9 +916,15 @@ def render_model_pages(slug, matrix):
         key = re.split(r'[「]', c_txt)[0].strip()
         conflicts_by_model.setdefault(key, []).append(c_txt)
     expanded = []
+    own_prefix = series_prefix(c['model'])
     for row in rows:
         for one in split_models(row[0]):
+            other_owner = owner_of(one)
+            if own_prefix and other_owner and other_owner != slug:
+                continue      # 该型号属于别的系列页，这里不重复出页面
             expanded.append((one, row))
+    if not expanded:
+        return []
     fields_of, grade_of = {}, {}
     for one, orow in expanded:
         f = {cols[i]: value_for(v, one) for i, v in enumerate(orow) if i not in (0, gi) and not is_empty(v)}
@@ -1101,6 +1142,54 @@ def case_entry(area_key, title):
 def case_page_route(area_key, title):
     slug, _ = case_entry(area_key, title)
     return f'/applications/{area_key}/{slug}' if slug else None
+
+
+def normalize_app_tags(tags):
+    """把产品页的应用标签过一遍受控词表：先拆、再归并、再按坐标轴分组。
+
+    见 content/app_tags.json 的 _doc。词表里没有的标签原样保留、默认按 app 轴处理，
+    所以新加标签不会因为忘了登记而消失——只是拿不到链接。
+    """
+    split = APP_TAGS.get('split', {})
+    alias = APP_TAGS.get('alias', {})
+    axis = APP_TAGS.get('axis', {})
+    flat = []
+    for t in tags:
+        flat.extend(split.get(t, [t]))
+    rows = {'app': [], 'measure': [], 'market': []}
+    for t in flat:
+        t = alias.get(t, t)
+        k = axis.get(t, 'app')
+        if t not in rows[k]:          # 归并后会出现重复（拆出来的燃气表与原有的燃气表）
+            rows[k].append(t)
+    return rows
+
+
+def app_tag_rows(tags):
+    """产品页的标签排。app 轴能配上案例页的渲染成 <a>，其余保持纯文字。
+
+    分三排而不是一排：这三类词对应三种搜索意图——搜「位移检测传感器」的人要品类页，
+    搜「燃气表 霍尔」的人要方案页，搜「汽车级」的人在筛市场。混在一排，
+    点进去的人有一半会觉得走错地方。
+    """
+    rows = normalize_app_tags(tags)
+    out = ''
+    for key, label in (('app', '典型应用'), ('measure', '测量类型'), ('market', '面向市场')):
+        items = rows[key]
+        if not items:
+            continue
+        cells = ''
+        for t in items:
+            href = None
+            if key == 'app':
+                for a in APPS:
+                    href = case_page_route(a['key'], t)
+                    if href:
+                        break
+            # 没有案例页就不做链接：链到空壳页算 thin content，用户点一次也不会点第二次
+            cells += f'<a href="{href}">{E(t)}</a>' if href else f'<span>{E(t)}</span>'
+        out += chr(10) * 2 + f'<div class="c-tags c-tags--lg"><b>{label}</b>{cells}</div>'
+    return out
 
 
 def case_link(a, cse):

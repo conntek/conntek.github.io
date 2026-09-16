@@ -266,10 +266,6 @@
               "link": "/products/encoder/kth78/kth7803-x-n-qn16"
             },
             {
-              "text": "KTH7101-SOP8",
-              "link": "/products/encoder/kth78/kth7101-sop8"
-            },
-            {
               "text": "KTH7812-X-N-QN16",
               "link": "/products/encoder/kth78/kth7812-x-n-qn16"
             },
@@ -316,14 +312,6 @@
             {
               "text": "KTH7824-X-N-QN16",
               "link": "/products/encoder/kth78/kth7824-x-n-qn16"
-            },
-            {
-              "text": "KTH7111-QN16",
-              "link": "/products/encoder/kth78/kth7111-qn16"
-            },
-            {
-              "text": "KTH7112-QN16",
-              "link": "/products/encoder/kth78/kth7112-qn16"
             }
           ]
         },
@@ -754,18 +742,7 @@
         },
         {
           "text": "KTH460 系列 3D 霍尔开关",
-          "link": "/products/switch/kth460",
-          "collapsed": true,
-          "items": [
-            {
-              "text": "KTH4603AA-STx",
-              "link": "/products/switch/kth460/kth4603aa-stx"
-            },
-            {
-              "text": "KTH4603AB-STx",
-              "link": "/products/switch/kth460/kth4603ab-stx"
-            }
-          ]
+          "link": "/products/switch/kth460"
         },
         {
           "text": "KTH462 系列 2D 霍尔开关",

@@ -23,7 +23,7 @@ pageClass: "c-page"
 
 服务贯穿项目全周期：前期做可行性分析与最优传感器选型，设计阶段做与结构正相关的磁路设计，量产阶段做磁路良率优化。
 
-<div class="c-grid c-grid--3"><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/dianlusheji.png" alt=""></span><h3>电路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/cilusheji2.png" alt=""></span><h3>磁路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/jiegousheji.png" alt=""></span><h3>结构设计</h3></div></div>
+<div class="c-grid c-grid--3"><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/dianlusheji.png" alt="电路设计"></span><h3>电路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/cilusheji2.png" alt="磁路设计"></span><h3>磁路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/jiegousheji.png" alt="结构设计"></span><h3>结构设计</h3></div></div>
 
 ## 解决思路
 

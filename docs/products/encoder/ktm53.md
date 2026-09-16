@@ -39,7 +39,7 @@ KTM5300 采用离轴安装，配合垂直霍尔与数字算法实现高精度离
 
 ## 规格参数
 
-<div class="c-table c-kv"><table><tbody><tr><th>型号</th><td>KTM5300</td><th>系列</th><td>KTM53XX</td></tr><tr><th>磁铁摆放方式</th><td>离轴</td><th>检测范围</th><td>360°</td></tr><tr><th>供电电压</th><td>3 ~ 5.5 V</td><th>噪声</th><td>0.005°</td></tr><tr><th>角度 INL</th><td>±0.03°</td><th>工作电流</th><td>25 mA</td></tr><tr><th>转速</th><td>60000 rpm</td><th>输出方式</th><td>SPI / ABZ / UVW / PWM</td></tr><tr><th>SPI 分辨率</th><td>21 bit</td><th>ABZ 分辨率</th><td>1 ~ 65536 线可调</td></tr><tr><th>磁场检测范围</th><td>20 ~ 150 mT</td><th>启动时间</th><td>1 ~ 260 ms 可调</td></tr><tr><th>工作温度</th><td>-40 ~ 125 ℃</td><th>封装</th><td>QFN3*3_16L</td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">型号</th><td>KTM5300</td><th scope="row">系列</th><td>KTM53XX</td></tr><tr><th scope="row">磁铁摆放方式</th><td>离轴</td><th scope="row">检测范围</th><td>360°</td></tr><tr><th scope="row">供电电压</th><td>3 ~ 5.5 V</td><th scope="row">噪声</th><td>0.005°</td></tr><tr><th scope="row">角度 INL</th><td>±0.03°</td><th scope="row">工作电流</th><td>25 mA</td></tr><tr><th scope="row">转速</th><td>60000 rpm</td><th scope="row">输出方式</th><td>SPI / ABZ / UVW / PWM</td></tr><tr><th scope="row">SPI 分辨率</th><td>21 bit</td><th scope="row">ABZ 分辨率</th><td>1 ~ 65536 线可调</td></tr><tr><th scope="row">磁场检测范围</th><td>20 ~ 150 mT</td><th scope="row">启动时间</th><td>1 ~ 260 ms 可调</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td><th scope="row">封装</th><td>QFN3*3_16L</td></tr></tbody></table></div>
 
 ## 技术文档
 

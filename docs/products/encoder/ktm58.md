@@ -39,9 +39,9 @@ KTM5800 也可搭配光编、光栅、磁栅等传感器，一圈或一个绝对
 
 ## 规格参数
 
-<div class="c-table c-kv"><table><tbody><tr><th>产品名称</th><td>XMR 磁阻高速高分辨率（30 bit）角度细分器</td><th>型号</th><td>KTM5800</td></tr><tr><th>磁铁摆放方式</th><td>在轴、离轴</td><th>检测范围</th><td>360°</td></tr><tr><th>供电电压</th><td>3 ~ 5.5 V（MTPVDD 引脚必须 5 V 供电）</td><th>噪声</th><td>0.01</td></tr><tr><th>非线性误差</th><td>±0.02°</td><th>工作电流</th><td>40 mA</td></tr><tr><th>转速</th><td>180,000 rpm</td><th>输出方式</th><td>±ABZ / ±UVW / PWM / SPI</td></tr><tr><th>特色</th><td>双 16 bit 2M SAR ADC<br>支持多对极数，1 ~ 4096 对极支持一键自校准<br>单级对细分角度最高可达 18 bit</td><th>模拟电平输入范围</th><td>20 mV ~ 2 V（推荐最大 1 V）</td></tr><tr><th>启动时间</th><td>23 ms</td><th>工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th>封装</th><td>HFBP5*5-32L</td><th>应用领域</th><td>伺服电机，机器人关节，直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">产品名称</th><td>XMR 磁阻高速高分辨率（30 bit）角度细分器</td><th scope="row">型号</th><td>KTM5800</td></tr><tr><th scope="row">磁铁摆放方式</th><td>在轴、离轴</td><th scope="row">检测范围</th><td>360°</td></tr><tr><th scope="row">供电电压</th><td>3 ~ 5.5 V（MTPVDD 引脚必须 5 V 供电）</td><th scope="row">噪声</th><td>0.01</td></tr><tr><th scope="row">非线性误差</th><td>±0.02°</td><th scope="row">工作电流</th><td>40 mA</td></tr><tr><th scope="row">转速</th><td>180,000 rpm</td><th scope="row">输出方式</th><td>±ABZ / ±UVW / PWM / SPI</td></tr><tr><th scope="row">特色</th><td>双 16 bit 2M SAR ADC<br>支持多对极数，1 ~ 4096 对极支持一键自校准<br>单级对细分角度最高可达 18 bit</td><th scope="row">模拟电平输入范围</th><td>20 mV ~ 2 V（推荐最大 1 V）</td></tr><tr><th scope="row">启动时间</th><td>23 ms</td><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td>HFBP5*5-32L</td><th scope="row">应用领域</th><td>伺服电机，机器人关节，直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
 
-<div class="c-figs"><figure class="c-fig"><img src="/msite/images/Absolute-angle-divider-.png" alt="感应方向" loading="lazy"><figcaption>感应方向</figcaption></figure></div>
+<div class="c-figs"><figure class="c-fig"><img src="/msite/images/ktm5800-magnet-placement.png" alt="感应方向" loading="lazy"><figcaption>感应方向</figcaption></figure></div>
 
 ## 技术文档
 

@@ -39,7 +39,7 @@ KTM5200 采用轴向安装，校准后 INL 精度可达 ±0.015°（典型值）
 
 ## 规格参数
 
-<div class="c-table c-kv"><table><tbody><tr><th>型号</th><td>KTM5200</td><th>磁铁摆放方式</th><td>在轴、离轴</td></tr><tr><th>检测范围</th><td>360°</td><th>供电电压</th><td>3 ~ 5.5 V</td></tr><tr><th>噪声</th><td>0.005°</td><th>角度 INL</th><td>±0.015°</td></tr><tr><th>工作电流</th><td>25 mA</td><th>转速</th><td>60000 rpm</td></tr><tr><th>输出方式</th><td>SPI / ABZ / UVW / PWM</td><th>SPI 分辨率</th><td>21 bit</td></tr><tr><th>ABZ 分辨率</th><td>1 ~ 65536 线可调</td><th>磁场检测范围</th><td>20 ~ 150 mT</td></tr><tr><th>启动时间</th><td>1 ~ 260 ms 可调</td><th>工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th>封装</th><td>TSSOP16</td><th></th><td></td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">型号</th><td>KTM5200</td><th scope="row">磁铁摆放方式</th><td>在轴、离轴</td></tr><tr><th scope="row">检测范围</th><td>360°</td><th scope="row">供电电压</th><td>3 ~ 5.5 V</td></tr><tr><th scope="row">噪声</th><td>0.005°</td><th scope="row">角度 INL</th><td>±0.015°</td></tr><tr><th scope="row">工作电流</th><td>25 mA</td><th scope="row">转速</th><td>60000 rpm</td></tr><tr><th scope="row">输出方式</th><td>SPI / ABZ / UVW / PWM</td><th scope="row">SPI 分辨率</th><td>21 bit</td></tr><tr><th scope="row">ABZ 分辨率</th><td>1 ~ 65536 线可调</td><th scope="row">磁场检测范围</th><td>20 ~ 150 mT</td></tr><tr><th scope="row">启动时间</th><td>1 ~ 260 ms 可调</td><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td>TSSOP16</td><th></th><td></td></tr></tbody></table></div>
 
 ## 技术文档
 

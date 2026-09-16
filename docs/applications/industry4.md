@@ -15,15 +15,35 @@ pageClass: "c-page"
 
 <div class="c-stats"><div class="c-stat"><b>6</b><span>应用案例</span></div><div class="c-stat"><b>3</b><span>款推荐芯片</span></div></div>
 
+工业场景里的磁传感基本分两条线：一条是状态量，断路器合闸分闸、闸机闸杆到位、计量表的转盘翻转与防拆开合，要的是可靠的开关信号；另一条是连续量，旋钮操控与电机转子的角度，要的是分辨率和刷新率。共同点是设备寿命按年计算，机械触点与电位器的磨损在这里是主要故障源，非接触方案换来的是免维护。
+
+工业环境的额外约束是干扰与温度：柜内有大电流母排和接触器动作产生的杂散磁场，现场温度跨度大，安装公差也比消费产品松。因此选型时留给磁路的裕量、器件的温度范围和阈值一致性，往往比标称精度更早决定成败。
+
+## 领域需求
+
+<p class="c-sec-lead">工业4.0对磁传感器的共性要求。</p>
+
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>宽温工作</h3><p>配电柜、表计箱体内温升明显，器件需要覆盖 -40 ~ 125 ℃ 且在全温区保持阈值与灵敏度稳定。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>免维护寿命</h3><p>设备按年连续运行，非接触检测避免触点氧化与机械磨损，减少现场维护次数。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>抗杂散磁场</h3><p>母排电流与接触器动作会引入外磁场，阈值与回差需要留足裕量，防止误翻转。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>连续角度精度</h3><p>旋钮、闸机、转子位置需要连续角度而不是开关量，分辨率与刷新率决定控制环的表现。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>低功耗计量</h3><p>电表、燃气表大量采用电池供电，计量翻转检测必须做到微安以下才能满足使用年限。</p></div></div></div>
+
 ## 应用案例
 
 <p class="c-sec-lead">典型应用包括工业液位检测、电流传感器、割草机、机械控制、无刷电机转子位置与转子角度传感。应用案例：电表、旋钮操控与闸机采用 KTH57 系列，断路器采用 KTH16 系列，燃气表与机械电表采用 KTM13 系列。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电表</h3><span class="c-card__more">推荐芯片</span></div></a><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16xx</span><h3>断路器</h3><span class="c-card__more">推荐芯片</span></div></a><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3><span class="c-card__more">推荐芯片</span></div></a><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>旋钮操控</h3><span class="c-card__more">推荐芯片</span></div></a><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>闸机</h3><span class="c-card__more">推荐芯片</span></div></a><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--photo"><img src="/msite/img/case/industry4-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>机械电表</h3><span class="c-card__more">推荐芯片</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/electricity-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电表</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/circuit-breaker"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16xx</span><h3>断路器</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/gas-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/knob-control"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>旋钮操控</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/turnstile"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>闸机</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/mechanical-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>机械电表</h3><span class="c-card__more">查看案例</span></div></a></div>
 
 ## 推荐芯片一览
 
-<div class="c-table c-table--links"><table><thead><tr><th>推荐芯片</th><th>对应产品</th><th>应用场景</th></tr></thead><tbody><tr><td class="c-mono">KTH57xx</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列 三轴线性霍尔传感器</a></td><td>电表、旋钮操控、闸机</td></tr><tr><td class="c-mono">KTH16xx</td><td><a href="/msite/products/switch/kth16">KTH16 系列 微功耗 1D 霍尔开关</a></td><td>断路器</td></tr><tr><td class="c-mono">KTM13xx</td><td><a href="/msite/products/switch/ktm13">KTM13 系列 TMR 磁阻开关</a></td><td>燃气表、机械电表</td></tr></tbody></table></div>
+<div class="c-table c-table--links"><table><thead><tr><th>推荐芯片</th><th>对应产品</th><th>应用场景</th></tr></thead><tbody><tr><td class="c-mono">KTH57xx</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列 三轴线性霍尔传感器</a></td><td>电表、旋钮操控、闸机</td></tr><tr><td class="c-mono">KTH16xx</td><td><a href="/msite/products/switch/kth16">微功耗系列 1D 霍尔开关</a></td><td>断路器</td></tr><tr><td class="c-mono">KTM13xx</td><td><a href="/msite/products/switch/ktm13">KTM13 系列 TMR 磁阻开关</a></td><td>燃气表、机械电表</td></tr></tbody></table></div>
+
+## 需求与芯片对照
+
+<div class="c-table c-table--links"><table><thead><tr><th>需求</th><th>推荐系列</th><th>依据</th></tr></thead><tbody><tr><td>计量翻转与防拆</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>160 nA @ 3 V、-40 ~ 125 ℃，适合电池供电表计翻转计数。</td></tr><tr><td>合分闸位置检测</td><td>KTH16 系列</td><td>KTH1702 为 -40 ~ 125 ℃、开漏输出，可选 ±135 Gs 高阈值档。</td></tr><tr><td>旋钮与闸机角度</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>三轴测量、16 bit、1000 Hz，检测范围 360°，在轴离轴均可。</td></tr><tr><td>高速角度采样</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>持续感应、唤醒睡眠、单次测量三种模式可在线配置。</td></tr><tr><td>低阈值弱磁检测</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>BOP 提供 ±45 / ±30 / ±18 / ±9 / ±7 Gs 多档，弱磁档可用。</td></tr></tbody></table></div>
+
+## 设计自检
+
+<p class="c-sec-lead">方案定型前先回答这几个问题。</p>
+
+<ul class="c-checklist"><li>最大气隙出现在什么工况？把装配公差、导轨磨损与热胀冷缩叠加到一起，按最差气隙核算磁场，而不是按名义值。</li><li>附近有多大的电流回路？估算它在传感器位置的磁场强度，确认所选 BOP / BRP 档位有足够裕量。</li><li>要的是角度还是仅仅到位？只需两三个离散位置时开关型更省电省成本，闭环控制才需要连续角度。</li><li>控制环的采样周期是多少？先定刷新率需求，再倒推工作频率档和工作模式，避免为用不上的带宽付功耗。</li><li>现场维护条件如何？器件能否在不拆机构的情况下更换与标定，会直接影响封装与安装方式的选择。</li></ul>
 
 ## 其他应用领域
 

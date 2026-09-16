@@ -23,7 +23,7 @@ hero:
 
 <div class="c-home">
 
-<div class="c-stats"><div class="c-stat"><b>2016</b><span>成立年份</span></div><div class="c-stat"><b>10余项</b><span>核心专利</span></div><div class="c-stat"><b>5</b><span>大产品线</span></div><div class="c-stat"><b>ISO 26262</b><span>功能安全管理体系认证</span></div></div>
+<div class="c-stats"><div class="c-stat"><b>2016</b><span>成立年份</span></div><div class="c-stat"><b>100 余项</b><span>核心专利</span></div><div class="c-stat"><b>5</b><span>大产品线</span></div><div class="c-stat"><b>ISO 26262</b><span>功能安全管理体系认证</span></div></div>
 
 <div class="c-home__head"><div><h2>产品中心</h2><p>3D 霍尔、编码器、开关、运放与旋钮五大产品线，覆盖角度、位置与磁场检测。</p></div><a class="c-link" href="/msite/products/">全部产品</a></div>
 
@@ -45,7 +45,7 @@ hero:
 
 <div class="c-split"><div class="c-split__media c-split__media--video"><video controls preload="none" poster="/msite/img/poster/home.webp" src="/msite/videos/conntek-publicity.mp4"></video></div><div class="c-split__text">
 
-昆泰芯微电子科技有限公司是一家专注于面向物联网应用的传感器芯片研发、生产和销售的高新技术企业，于 2016 年由多位业界资深传感器信号链芯片专家创立，致力于成为传感器信号链及物联网芯片的行业领导者和领先的工业级 / 汽车级芯片提供商。公司拥有核心专利 10 余项，产品性能达到国际一流水平，并成功打入一线知名品牌厂商。
+昆泰芯微电子科技有限公司是一家专注于面向物联网应用的传感器芯片研发、生产和销售的高新技术企业，于 2016 年由多位业界资深传感器信号链芯片专家创立，致力于成为传感器信号链及物联网芯片的行业领导者和领先的工业级 / 汽车级芯片提供商。公司拥有核心专利 100 余项，产品性能达到国际一流水平，并成功打入一线知名品牌厂商。
 
 <div class="c-tags"><span>ISO 26262</span><span>ISO 9001</span><span>RoHS</span><span>REACH</span></div>
 

@@ -41,20 +41,11 @@ KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CM
 
 <p class="c-sec-lead">单通道选 KTA333-ST5（SOT23-5），双通道选 KTA2333-MP8 / KTA2333-SP8（MSOP-8 / SOP-8）。</p>
 
-<div class="c-table c-kv"><table><tbody><tr><th>系列</th><td>KTAx333</td><th>型号</th><td>KTA2333-MP8<br>KTA2333-SP8<br>KTA333-ST5</td></tr><tr><th>通道</th><td>单或双</td><th>供电电压（VCC）</th><td>1.8 ~ 5.5 V</td></tr><tr><th>输入失调电压（VOS）</th><td>2 μV (TYP)<br>10 μV (MAX)</td><th>增益带宽积（GBW）</th><td>350 kHz</td></tr><tr><th>失调电压温漂（dVos/dT）</th><td>0.02 μV/℃</td><th>电压噪声（f = 0.1 ~ 10 Hz）</th><td>1.1 μVPP</td></tr><tr><th>压摆率（SR）</th><td>0.16 V/μs</td><th>输入偏置电流（IB）</th><td>±100 pA</td></tr><tr><th>输入失调电流（IOS）</th><td>±120 pA</td><th>静态功耗（IQ）</th><td>30 μA</td></tr><tr><th>共模抑制比（CMRR）</th><td>120 dB</td><th>电源电压抑制比（PSRR）</th><td>1 μV/V</td></tr><tr><th>开环增益（AOL）</th><td>120 dB</td><th>轨到轨 I/O（Rail-to-Rail I/O）</th><td>IN, OUT</td></tr><tr><th>工作温度</th><td>-40 ~ 125 ℃</td><th>封装</th><td>MSOP-8（双通道）<br>SOP-8（双通道）<br>SOT23-5（单通道）</td></tr></tbody></table></div>
-
-<details class="c-more"><summary>原站参数图（文字版）</summary>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">系列</th><td>KTAx333</td><th scope="row">型号</th><td>KTA2333-MP8<br>KTA2333-SP8<br>KTA333-ST5</td></tr><tr><th scope="row">通道</th><td>单或双</td><th scope="row">供电电压（VCC）</th><td>1.8 ~ 5.5 V</td></tr><tr><th scope="row">输入失调电压（VOS）</th><td>2 μV (TYP)<br>10 μV (MAX)</td><th scope="row">增益带宽积（GBW）</th><td>350 kHz</td></tr><tr><th scope="row">失调电压温漂（dVos/dT）</th><td>0.02 μV/℃</td><th scope="row">电压噪声（f = 0.1 ~ 10 Hz）</th><td>1.1 μVPP</td></tr><tr><th scope="row">压摆率（SR）</th><td>0.16 V/μs</td><th scope="row">输入偏置电流（IB）</th><td>±100 pA</td></tr><tr><th scope="row">输入失调电流（IOS）</th><td>±120 pA</td><th scope="row">静态功耗（IQ）</th><td>30 μA</td></tr><tr><th scope="row">共模抑制比（CMRR）</th><td>120 dB</td><th scope="row">电源电压抑制比（PSRR）</th><td>1 μV/V</td></tr><tr><th scope="row">开环增益（AOL）</th><td>120 dB</td><th scope="row">轨到轨 I/O（Rail-to-Rail I/O）</th><td>IN, OUT</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td><th scope="row">封装</th><td>MSOP-8（双通道）<br>SOP-8（双通道）<br>SOT23-5（单通道）</td></tr></tbody></table></div>
 
 <p class="c-table-title">KTAx333 零温漂高精度运放参数</p>
 
-<div class="c-table"><table><thead><tr><th>参数</th><th>数值</th></tr></thead><tbody><tr><td>系列</td><td>KTAx333</td></tr><tr><td>产品型号</td><td>KTA2333-MP8
-KTA2333-SP8
-KTA333-ST5</td></tr><tr><td>通道</td><td>单或双</td></tr><tr><td>供电电压 (VCC)</td><td>1.8V-5.5V</td></tr><tr><td>输入失调电压 (VOS)</td><td>2μV(TYP)
-10μV(MAX)</td></tr><tr><td>增益带宽积 (GBW)</td><td>350KHz</td></tr><tr><td>失调电压温漂 (dVos/dT)</td><td>0.02μV/℃</td></tr><tr><td>电压噪声 (f = 0.1Hz ~ 10Hz)</td><td>1.1μVPP</td></tr><tr><td>压摆率 (SR)</td><td>0.16V/μs</td></tr><tr><td>输入偏置电流 (IB)</td><td>±100pA</td></tr><tr><td>输入失调电流 (IOS)</td><td>±120pA</td></tr><tr><td>静态功耗 (IQ)</td><td>30μA</td></tr><tr><td>共模抑制比 (CMRR)</td><td>120dB</td></tr><tr><td>电源电压抑制比 (PSRR)</td><td>1μV/V</td></tr><tr><td>开环增益 (AOL)</td><td>120dB</td></tr><tr><td>轨到轨I/O (Rail-toRail I/O)</td><td>IN,OUT</td></tr><tr><td>温度范围</td><td>-40℃~+125℃</td></tr><tr><td>封装</td><td>MSOP-8（双通道）
-SOP-8（双通道）
-SOT23-5（单通道）</td></tr></tbody></table></div>
-
-</details>
+<div class="c-table"><table><thead><tr><th>参数</th><th>数值</th></tr></thead><tbody><tr><td>系列</td><td>KTAx333</td></tr><tr><td>产品型号</td><td>KTA2333-MP8<br>KTA2333-SP8<br>KTA333-ST5</td></tr><tr><td>通道</td><td>单或双</td></tr><tr><td>供电电压 (VCC)</td><td>1.8V-5.5V</td></tr><tr><td>输入失调电压 (VOS)</td><td>2μV(TYP)<br>10μV(MAX)</td></tr><tr><td>增益带宽积 (GBW)</td><td>350KHz</td></tr><tr><td>失调电压温漂 (dVos/dT)</td><td>0.02μV/℃</td></tr><tr><td>电压噪声 (f = 0.1Hz ~ 10Hz)</td><td>1.1μVPP</td></tr><tr><td>压摆率 (SR)</td><td>0.16V/μs</td></tr><tr><td>输入偏置电流 (IB)</td><td>±100pA</td></tr><tr><td>输入失调电流 (IOS)</td><td>±120pA</td></tr><tr><td>静态功耗 (IQ)</td><td>30μA</td></tr><tr><td>共模抑制比 (CMRR)</td><td>120dB</td></tr><tr><td>电源电压抑制比 (PSRR)</td><td>1μV/V</td></tr><tr><td>开环增益 (AOL)</td><td>120dB</td></tr><tr><td>轨到轨I/O (Rail-toRail I/O)</td><td>IN,OUT</td></tr><tr><td>温度范围</td><td>-40℃~+125℃</td></tr><tr><td>封装</td><td>MSOP-8（双通道）<br>SOP-8（双通道）<br>SOT23-5（单通道）</td></tr></tbody></table></div>
 
 ## 技术文档
 
@@ -66,7 +57,7 @@ SOT23-5（单通道）</td></tr></tbody></table></div>
 
 <p class="c-sec-lead">以下场景推荐使用 KTAx333 系列。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>太阳能光电转换器</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>燃气灶-温度检测</h3></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-life/solar-converter"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>太阳能光电转换器</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>燃气灶-温度检测</h3></div></a></div>
 
 ## 其他产品线
 

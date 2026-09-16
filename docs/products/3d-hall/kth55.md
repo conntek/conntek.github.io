@@ -37,7 +37,7 @@ KTH5502 是一款基于垂直霍尔技术的高精度绝对角度传感器芯片
 
 ## 规格参数
 
-<div class="c-table c-kv"><table><tbody><tr><th>型号</th><td>KTH5502</td><th>特色</th><td>高性价比，最小尺寸磁编码器</td></tr><tr><th>磁铁摆放方式</th><td>在轴</td><th>检测范围</th><td>360°</td></tr><tr><th>供电电压</th><td>1.7 ~ 3.6 V</td><th>工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th>角度 INL</th><td>±1°</td><th>平均功耗</th><td>5 mA</td></tr><tr><th>测量模式</th><td>持续感应模式</td><th>输出方式</th><td>I2C/SPI 数字输出，ABZ，PWM，模拟</td></tr><tr><th>磁感应轴</th><td>X, Y, Z 轴</td><th>分辨率</th><td>16 bit</td></tr><tr><th>磁场检测范围</th><td>XYZ 轴典型工作范围 ±100 mT</td><th>工作频率</th><td>10 kSPS</td></tr><tr><th>转速</th><td>5000 rpm</td><th>封装</th><td>SOP-8L / DFN2×2-8L</td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">型号</th><td>KTH5502</td><th scope="row">特色</th><td>高性价比，最小尺寸磁编码器</td></tr><tr><th scope="row">磁铁摆放方式</th><td>在轴</td><th scope="row">检测范围</th><td>360°</td></tr><tr><th scope="row">供电电压</th><td>1.7 ~ 3.6 V</td><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">角度 INL</th><td>±1°</td><th scope="row">平均功耗</th><td>5 mA</td></tr><tr><th scope="row">测量模式</th><td>持续感应模式</td><th scope="row">输出方式</th><td>I2C/SPI 数字输出，ABZ，PWM，模拟</td></tr><tr><th scope="row">磁感应轴</th><td>X, Y, Z 轴</td><th scope="row">分辨率</th><td>16 bit</td></tr><tr><th scope="row">磁场检测范围</th><td>XYZ 轴典型工作范围 ±100 mT</td><th scope="row">工作频率</th><td>10 kSPS</td></tr><tr><th scope="row">转速</th><td>5000 rpm</td><th scope="row">封装</th><td>SOP-8L / DFN2×2-8L</td></tr></tbody></table></div>
 
 <div class="c-figs"><figure class="c-fig"><img src="/msite/images/KTH55XX.png" alt="KTH5502 封装外观（SOP-8L、DFN-8L）与电机角度检测应用示意" loading="lazy"><figcaption>KTH5502 封装外观（SOP-8L、DFN-8L）与电机角度检测应用示意</figcaption></figure></div>
 

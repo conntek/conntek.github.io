@@ -13,13 +13,13 @@ pageClass: "c-page"
 
 <p class="c-lead">专注面向物联网应用的传感器芯片研发、生产和销售的高新技术企业。</p>
 
-<div class="c-stats"><div class="c-stat"><b>2016</b><span>成立年份</span></div><div class="c-stat"><b>10余项</b><span>核心专利</span></div><div class="c-stat"><b>5</b><span>大产品线</span></div><div class="c-stat"><b>ISO 26262</b><span>功能安全管理体系认证</span></div></div>
+<div class="c-stats"><div class="c-stat"><b>2016</b><span>成立年份</span></div><div class="c-stat"><b>100 余项</b><span>核心专利</span></div><div class="c-stat"><b>5</b><span>大产品线</span></div><div class="c-stat"><b>ISO 26262</b><span>功能安全管理体系认证</span></div></div>
 
 ## 公司简介
 
 <div class="c-split c-split--top"><div class="c-split__text">
 
-昆泰芯微电子科技有限公司是一家专注于面向物联网应用的传感器芯片研发、生产和销售的高新技术企业，于 2016 年由多位业界资深传感器信号链芯片专家创立，致力于成为传感器信号链及物联网芯片的行业领导者和领先的工业级 / 汽车级芯片提供商。公司拥有核心专利 10 余项，产品性能达到国际一流水平，并成功打入一线知名品牌厂商。
+昆泰芯微电子科技有限公司是一家专注于面向物联网应用的传感器芯片研发、生产和销售的高新技术企业，于 2016 年由多位业界资深传感器信号链芯片专家创立，致力于成为传感器信号链及物联网芯片的行业领导者和领先的工业级 / 汽车级芯片提供商。公司拥有核心专利 100 余项，产品性能达到国际一流水平，并成功打入一线知名品牌厂商。
 
 公司在 MEMS、霍尔磁传感器、磁阻传感器、高精密混合信号链处理、高精度传感器校准、物联网超低功耗射频芯片等领域拥有丰富的 IP 积累和独特的专利技术组合，服务于消费电子、智能制造、智能交通、智能家居以及新能源汽车等多个领域。
 

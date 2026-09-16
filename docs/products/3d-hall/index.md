@@ -15,6 +15,20 @@ pageClass: "c-page"
 
 <div class="c-stats"><div class="c-stat"><b>2</b><span>产品系列</span></div><div class="c-stat"><b>18</b><span>份技术文档</span></div><div class="c-stat"><b>3</b><span>个产品视频</span></div></div>
 
+3D 霍尔芯片同时感知磁场在 X、Y、Z 三个方向的分量。相比只测单方向磁场的开关或线性霍尔，它拿到的是磁场矢量，因此可以在一颗芯片上完成 0 ~ 360° 的绝对角度、摇杆的二维偏摆或直线位移的判读，而磁铁与芯片之间不需要任何机械接触。
+
+本类目有两条路线：KTH57 系列把 X、Y、Z 三轴磁场原始数据通过 I2C / SPI 交给主控，角度或位移由用户侧软件算法提取，适合摇杆、旋钮、位移测量这类运动形式各异的场合；KTH55 系列用垂直霍尔配合 16 位 ADC，直接输出 XY 平面内的绝对角度，供电 1.7 ~ 3.6 V，符合 AEC-Q100。两者工作温度均为 -40 ~ 125 ℃。
+
+## 怎么选
+
+<p class="c-sec-lead">按下面几步缩小范围。</p>
+
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>先定角度还是磁场</h3><p>要芯片直接给 0 ~ 360° 绝对角度，选 KTH55；要三轴磁场原始数据、由主控软件算运动量，选 KTH57。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>再定磁铁摆放</h3><p>KTH57 支持在轴、离轴两种摆放，检测范围 360°；KTH55 为在轴安装，最高转速 5000 rpm。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>核对供电与功耗</h3><p>KTH55 供电 1.7 ~ 3.6 V、电流 4 ~ 6 mA；KTH57 供电 2.8 ~ 5.5 V。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>对接口与后级</h3><p>需要 AB 正交编码（最高 1024 线/圈）、PWM 或模拟电压直接进后级，选 KTH55。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>确认封装与等级</h3><p>封装：KTH57 QFN3x3-16L / DFN2*2.5-8L，KTH55 SOP-8L / DFN2×2-8L。</p></div></div></div>
+
+## 系列对照
+
+<div class="c-table c-table--links"><table><thead><tr><th>型号</th><th>感磁方式与安装</th><th>输出接口</th><th>分辨率与精度</th><th>供电电压</th></tr></thead><tbody><tr><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>三轴线性霍尔（X、Y、Z），在轴、离轴</td><td>I2C / SPI 数字输出</td><td>16 bit（输出磁场原始数据）</td><td>2.8 ~ 5.5 V</td></tr><tr><td><a href="/msite/products/3d-hall/kth55">KTH55 系列</a></td><td>X、Y 垂直霍尔 + Z 水平霍尔，在轴</td><td>I²C、SPI、AB 正交编码、PWM、模拟电压</td><td>16 bit，角度 INL ±1°</td><td>1.7 ~ 3.6 V</td></tr></tbody></table></div>
+
 ## 产品系列
 
 <p class="c-sec-lead">包括 KTH57 三轴线性霍尔传感器与 KTH55 垂直霍尔绝对角度传感器，支持 I2C、SPI 等接口，工作温度 -40 ~ 125 ℃，适用于摇杆、旋钮与位移测量。</p>
@@ -25,7 +39,33 @@ pageClass: "c-page"
 
 <p class="c-sec-lead">采用3D霍尔芯片的终端产品。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>轮椅摇杆</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>洗衣机</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>掌机摇杆</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics"><div class="c-card__media c-media--photo"><img src="/msite/img/case/consumer-electronics-6.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>智能手表</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>咖啡机</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>陪伴机器人</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>燃气灶-旋钮</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life"><div class="c-card__media c-media--photo"><img src="/msite/img/case/intelligent-life-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>扫地机器人-真空吸尘器</h3></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics/wheelchair-joystick"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>轮椅摇杆</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/washing-machine"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>洗衣机</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/handheld-joystick"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>掌机摇杆</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/smart-watch"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-6.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>智能手表</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/coffee-machine"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>咖啡机</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/companion-robot"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>陪伴机器人</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/gas-stove-knob"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>燃气灶-旋钮</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/robot-vacuum"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>扫地机器人-真空吸尘器</h3></div></a></div>
+
+## 常见问题
+
+::: details KTH57 能直接读到角度吗
+
+不能。KTH57 输出 X、Y、Z 三轴磁场原始数据，运动信息由主控侧软件算法提取；要芯片直接给绝对角度请选 KTH55。
+
+:::
+
+::: details 两颗都支持离轴安装吗
+
+KTH57 支持在轴、离轴两种磁铁摆放方式，检测范围 360°；KTH55 规格为在轴安装。
+
+:::
+
+::: details 可测的磁场范围多大
+
+KTH57 的 XY 轴典型工作范围 ±130 mT、Z 轴 ±80 mT；KTH55 的 XYZ 轴典型工作范围 ±100 mT。
+
+:::
+
+::: details 工作温度与车规等级
+
+两者工作温度均为 -40 ~ 125 ℃。KTH55 符合 AEC-Q100；KTH57 产品手册按汽车（AQ1）、消费与工业（AQ2 / AQ3）分册。
+
+:::
 
 ## 其他产品线
 

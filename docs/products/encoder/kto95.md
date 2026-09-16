@@ -39,7 +39,7 @@ KTO9512 基于 3 码道游标原理，适用于直径 26 mm 光栅码盘，码�
 
 ## 规格参数
 
-<div class="c-table c-kv"><table><tbody><tr><th>产品名称</th><td>相位阵游标光编码器芯片</td><th>型号</th><td>KTO9512</td></tr><tr><th>分辨率</th><td>24 bit</td><th>码盘直径</th><td>26 mm</td></tr><tr><th>格雷码道</th><td>2 bit</td><th>检测范围</th><td>360°</td></tr><tr><th>供电电流</th><td>9.5 ~ 15 mA</td><th>光电流范围</th><td>0 ~ 1120 nA</td></tr><tr><th>封装</th><td>32-pin optoQFN<br>5mmx5mmx0.9mm</td><th>工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th>码盘原理</th><td>3 码道游标原理</td><th>码盘刻线</th><td>512 CPR / 510 CPR / 480 CPR</td></tr><tr><th>模拟电压</th><td>4.1 ~ 5.5 V</td><th>数字电压</th><td>1.6 ~ 5.5 V</td></tr><tr><th>光谱应用范围</th><td>400 ~ 950 nm</td><th>上电稳定时间</th><td>100 μs</td></tr><tr><th>输出方式</th><td>6 对模拟差分对输出</td><th>应用领域</th><td>绝对位置编码器<br>交流伺服反馈</td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th scope="row">产品名称</th><td>相位阵游标光编码器芯片</td><th scope="row">型号</th><td>KTO9512</td></tr><tr><th scope="row">分辨率</th><td>24 bit</td><th scope="row">码盘直径</th><td>26 mm</td></tr><tr><th scope="row">格雷码道</th><td>2 bit</td><th scope="row">检测范围</th><td>360°</td></tr><tr><th scope="row">供电电流</th><td>9.5 ~ 15 mA</td><th scope="row">光电流范围</th><td>0 ~ 1120 nA</td></tr><tr><th scope="row">封装</th><td>32-pin optoQFN<br>5mmx5mmx0.9mm</td><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">码盘原理</th><td>3 码道游标原理</td><th scope="row">码盘刻线</th><td>512 CPR / 510 CPR / 480 CPR</td></tr><tr><th scope="row">模拟电压</th><td>4.1 ~ 5.5 V</td><th scope="row">数字电压</th><td>1.6 ~ 5.5 V</td></tr><tr><th scope="row">光谱应用范围</th><td>400 ~ 950 nm</td><th scope="row">上电稳定时间</th><td>100 μs</td></tr><tr><th scope="row">输出方式</th><td>6 对模拟差分对输出</td><th scope="row">应用领域</th><td>绝对位置编码器<br>交流伺服反馈</td></tr></tbody></table></div>
 
 ## 技术文档
 

@@ -39,22 +39,7 @@ KTM2802 支持用于气缸位置检测的两线与三线应用，可用于上拉
 
 ## 规格参数
 
-<div class="c-table c-table--t"><table><thead><tr><th>参数</th><th class="c-mono">KTM2801 / KTM2802</th></tr></thead><tbody><tr><th>系列</th><td>KTM280X</td></tr><tr><th>类型</th><td>全极型</td></tr><tr><th>供电电压</th><td>3 ~ 32 V</td></tr><tr><th>平均功耗</th><td>70 μA</td></tr><tr><th>工作频率</th><td>4 kHz</td></tr><tr><th>BOP（Gs）</th><td>±18</td></tr><tr><th>BRP（Gs）</th><td>±16</td></tr><tr><th>输出接口</th><td>开漏输出</td></tr><tr><th>工作温度</th><td>-40 ~ 105 ℃</td></tr><tr><th>封装</th><td>HFBP2*3-6L</td></tr></tbody></table></div>
-
-<details class="c-more"><summary>完整参数表（全部 11 列）</summary>
-
-<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>工作频率</th><th>BOP（Gs）</th><th>BRP（Gs）</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTM280X</td><td class='c-mono'>KTM2801 / KTM2802</td><td>全极型</td><td>3 ~ 32 V</td><td>70 μA</td><td>4 kHz</td><td>±18</td><td>±16</td><td>开漏输出</td><td>-40 ~ 105 ℃</td><td>HFBP2*3-6L</td></tr></tbody></table></div>
-
-</details>
-
-<details class="c-more"><summary>原站参数图（文字版）</summary>
-
-<p class="c-table-title">KTM280X AMR 高压气缸开关选型表</p>
-
-<div class="c-table"><table><thead><tr><th>系列</th><th>产品型号</th><th>类型</th><th>工作电压</th><th>平均功耗</th><th>工作频率</th><th>BOP(Gs)</th><th>BRP(Gs)</th><th>输出接口</th><th>工作温度</th><th>封装形式</th></tr></thead><tbody><tr><td>KTM280X</td><td>KTM2801
-KTM2802</td><td>全极型</td><td>3~32V</td><td>70μA</td><td>4KHz</td><td>±18</td><td>±16</td><td>开漏输出</td><td>-40~105℃</td><td>HFBP2*3-6L</td></tr></tbody></table></div>
-
-</details>
+<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/ktm28/ktm2801-ktm2802">KTM2801 / KTM2802</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td>全极型</td></tr><tr><th scope="row">系列</th><td>KTM280X</td></tr><tr><th scope="row">供电电压</th><td>3 ~ 32 V</td></tr><tr><th scope="row">平均功耗</th><td>70 μA</td></tr><tr><th scope="row">工作频率</th><td>4 kHz</td></tr><tr><th scope="row">BOP（Gs）</th><td>±18</td></tr><tr><th scope="row">BRP（Gs）</th><td>±16</td></tr><tr><th scope="row">输出接口</th><td>开漏输出</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 105 ℃</td></tr><tr><th scope="row">封装</th><td>HFBP2*3-6L</td></tr><tr><th scope="row">工作电压</th><td>3~32V</td></tr><tr><th scope="row">BOP(Gs)</th><td>±18</td></tr><tr><th scope="row">BRP(Gs)</th><td>±16</td></tr><tr><th scope="row">封装形式</th><td>HFBP2*3-6L</td></tr></tbody></table></div>
 
 <div class="c-figs"><figure class="c-fig"><img src="/msite/images/1690171757104.png" alt="感应方向" loading="lazy"><figcaption>感应方向</figcaption></figure></div>
 
@@ -68,6 +53,6 @@ KTM2802</td><td>全极型</td><td>3~32V</td><td>70μA</td><td>4KHz</td><td>±18<
 
 <p class="c-sec-lead">开关芯片产品线的其他系列。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/kth31"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><span class="c-card__more">查看详情</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">微功耗系列</span><h3>1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/switch/kth31"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><span class="c-card__more">查看详情</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

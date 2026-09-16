@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">垂直霍尔配合 16 位 ADC，0 ~ 360° 绝对角度输出，符合 AEC-Q100</p>
 
-<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±1°（INL）</b><span>精度</span></div><div class="c-spec"><b>5000 rpm</b><span>转速</span></div><div class="c-spec"><b>1.7 ~ 3.6 V</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±1°</b><span>精度 · INL</span></div><div class="c-spec"><b>5000 rpm</b><span>转速</span></div><div class="c-spec"><b>1.7 ~ 3.6 V</b><span>电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

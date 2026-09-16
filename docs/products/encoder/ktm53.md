@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）</p>
 
-<div class="c-specs"><div class="c-spec"><b>21 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.03°（离轴校准后典型值）</b><span>精度</span></div><div class="c-spec"><b>60000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>21 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.03°</b><span>精度 · 离轴校准后典型值</span></div><div class="c-spec"><b>60000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

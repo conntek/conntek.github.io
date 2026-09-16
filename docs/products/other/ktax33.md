@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p>
 
-<div class="c-specs"><div class="c-spec"><b>2 μV（典型值）</b><span>失调电压</span></div><div class="c-spec"><b>1.8 ~ 5.5 V</b><span>电压</span></div><div class="c-spec"><b>30 μA</b><span>功耗</span></div><div class="c-spec"><b>轨到轨输入 / 输出</b><span>接口</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>2 μV</b><span>失调电压 · 典型值</span></div><div class="c-spec"><b>1.8 ~ 5.5 V</b><span>电压</span></div><div class="c-spec"><b>30 μA</b><span>功耗</span></div><div class="c-spec"><b>轨到轨输入 / 输出</b><span>接口</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

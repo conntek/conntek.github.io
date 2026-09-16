@@ -21,7 +21,7 @@ pageClass: "c-page"
 
 <p class="c-term-short">磁铁装在轴端，芯片正对磁铁端面、与转轴同心</p>
 
-在轴安装指径向充磁的磁铁装在轴端，其旋转中心与芯片的感磁中心同轴。芯片读到的是磁铁端面正下方的旋转磁场矢量，在芯片平面内近似为两路幅值相等、相位差 90° 的正弦分量，角度由这两路分量的反正切得到。
+在轴安装指对径充磁（diametric，沿直径方向一半 N、一半 S）的磁铁装在轴端，其旋转中心与芯片的感磁中心同轴。芯片读到的是磁铁端面正下方的旋转磁场矢量，在芯片平面内近似为两路幅值相等、相位差 90° 的正弦分量，角度由这两路分量的反正切得到。
 
 在轴是角度测量中误差来源最少的装配方式：同轴度与气隙控制住之后，单对极磁铁转一圈对应一个信号周期，不需要拼接即可给出 0 ~ 360° 绝对角度。
 
@@ -45,7 +45,7 @@ pageClass: "c-page"
 
 <p class="c-term-short">磁环沿圆周的 N-S 磁极对数，一对极为一个信号周期</p>
 
-多对极磁环一圈有 p 对 N-S 极，传感器读到的是电角度：机械转一圈出现 p 个完全相同的信号周期。相同的细分位数下，多对极把机械角误差按 p 分摊，分辨率与重复性随之改善。
+多对极磁环一圈有 p 对 N-S 极，传感器读到的是电角度：机械转一圈出现 p 个完全相同的信号周期。相同的细分位数下，极内的细分误差折算到机械角要除以 p，分辨率与重复性随之改善。但磁环自身的分度误差（各极宽度不一致、充磁不均）不会被 p 分摊，它以机械一圈为周期直接叠加在结果上。
 
 代价是电角度不唯一。仅凭一个多对极读头无法判断当前处在第几个周期，整圈绝对位置要靠索引信号、单对极通道或上电后的换向流程另行确定。
 
@@ -69,7 +69,7 @@ pageClass: "c-page"
 
 常用材料：钕铁硼剩磁高、温度系数约 -0.1 %/℃；钐钴剩磁略低但温漂小、耐高温；铁氧体剩磁低、成本低、耐蚀性好。
 
-充磁方式决定用法：径向（diametric）充磁的圆片或圆柱用于在轴单对极测角；多极充磁磁环用于离轴或多对极场合；轴向充磁的块状磁体多用于开关与到位检测。
+充磁方式决定用法：对径（diametric）充磁的圆片或圆柱，一圈只有一对极，用于在轴单对极测角；沿圆周交替充磁的多极磁环用于离轴或多对极场合；轴向充磁的块状磁体多用于开关与到位检测。注意「径向（radial）」指沿半径方向充磁，与对径充磁不是一回事，下料时容易搞错。
 
 <p class="c-note">磁体的温度系数会直接进入按幅值工作的器件（线性霍尔、开关阈值）的误差预算；只用磁场方向的角度器件受其影响很小。选型顺序是先看芯片规格给出的磁场检测范围，再反推磁体牌号与尺寸。</p>
 
@@ -117,13 +117,13 @@ pageClass: "c-page"
 
 <p class="c-term-short">绝对值上电即知当前角度，增量只给出位移量</p>
 
-绝对值输出（SPI、SSI、PWM）任何时刻读到的都是当前角度本身，断电再上电不必回零。增量输出（ABZ、UVW）给的是脉冲，位置由接收端累加，上电时位置未知，需要回零或找到索引脉冲。
+绝对值输出（SPI、SSI、PWM）任何时刻读到的都是当前角度本身，断电再上电不必回零。ABZ 给的是脉冲，位置由接收端累加，上电时位置未知，需要回零或找到索引脉冲；UVW 给的不是累加脉冲而是换向扇区状态，它同样不含整圈绝对位置。
 
 多数角度编码器芯片两类输出同时具备，可以一边接驱动器的增量口、一边接主控的串行口。
 
 <p class="c-note">增量口的位置是接收端算出来的，一旦丢脉冲，误差会一直累积下去直到下一次索引；绝对值口不存在累积误差。</p>
 
-<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/3d-hall/kth55">KTH55 系列</a>、<a href="/msite/products/encoder/ktm52">KTM52 系列</a>、<a href="/msite/products/encoder/ktm53">KTM53 系列</a>、<a href="/msite/products/encoder/ktm58">KTM58 系列</a>、<a href="/msite/products/encoder/ktm59">KTM59 系列</a>、<a href="/msite/products/encoder/kth78">KTH78 系列</a>、<a href="/msite/products/encoder/kth71">KTH71 系列</a>、<a href="/msite/products/encoder/kto95">KTO95 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/3d-hall/kth55">KTH55 系列</a>、<a href="/msite/products/encoder/ktm52">KTM52 系列</a>、<a href="/msite/products/encoder/ktm53">KTM53 系列</a>、<a href="/msite/products/encoder/ktm58">KTM58 系列</a>、<a href="/msite/products/encoder/ktm59">KTM59 系列</a>、<a href="/msite/products/encoder/kth78">KTH78 系列</a>、<a href="/msite/products/encoder/kth71">KTH71 系列</a></p>
 
 <h3 id="abz">ABZ 增量输出</h3>
 
@@ -181,7 +181,7 @@ SSI 是两线单向同步串行（CLK、DATA），从机只在时钟驱动下移
 
 <p class="c-note">霍尔按磁场幅值工作，输出受温度与气隙影响较大，因此规格里普遍带有温度补偿以及失调抵消（如斩波、自旋电流）相关指标。</p>
 
-<p class="c-term-rel"><b>相关系列</b>KTH16 系列、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/kth31">KTH31 系列</a>、<a href="/msite/products/switch/linear-hall">KTH564 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a>、<a href="/msite/products/3d-hall/kth57">KTH57 系列</a>、<a href="/msite/products/encoder/kth78">KTH78 系列</a>、<a href="/msite/products/encoder/kth71">KTH71 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/switch/kth16">KTH13/16/17 系列</a>、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/kth31">KTH31 系列</a>、<a href="/msite/products/switch/linear-hall">KTH564 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a>、<a href="/msite/products/3d-hall/kth57">KTH57 系列</a>、<a href="/msite/products/encoder/kth78">KTH78 系列</a>、<a href="/msite/products/encoder/kth71">KTH71 系列</a></p>
 
 <h3 id="vertical-hall">垂直霍尔 / Vertical Hall</h3>
 
@@ -205,7 +205,7 @@ SSI 是两线单向同步串行（CLK、DATA），从机只在时钟驱动下移
 
 <p class="c-note">AMR 的角度依赖周期是 180°，单靠磁阻桥只能唯一确定半圈；要覆盖 0 ~ 360°，需要另一路信息来区分是哪半圈。</p>
 
-<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/encoder/ktm52">KTM52 系列</a>、<a href="/msite/products/encoder/ktm53">KTM53 系列</a>、<a href="/msite/products/encoder/ktm58">KTM58 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/encoder/ktm52">KTM52 系列</a>、<a href="/msite/products/encoder/ktm53">KTM53 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a></p>
 
 <h3 id="tmr">TMR / 隧道磁电阻</h3>
 
@@ -217,7 +217,7 @@ SSI 是两线单向同步串行（CLK、DATA），从机只在时钟驱动下移
 
 <p class="c-note">TMR 的阻值与温度系数需要补偿，强场下存在饱和与磁滞。用作开关时回差（BOP 与 BRP 之差）可以做得比霍尔更小。</p>
 
-<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/encoder/ktm59">KTM59 系列</a>、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/encoder/ktm58">KTM58 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/encoder/ktm59">KTM59 系列</a>、<a href="/msite/products/switch/ktm13">KTM13 系列</a></p>
 
 ## 开关型器件
 
@@ -231,7 +231,7 @@ SSI 是两线单向同步串行（CLK、DATA），从机只在时钟驱动下移
 
 <p class="c-note">单极与全极都是「来磁动作、去磁复位」，与锁存型的状态保持行为完全不同。互换时不能只比对阈值数值，要先确认动作逻辑一致。</p>
 
-<p class="c-term-rel"><b>相关系列</b>KTH16 系列、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/switch/kth16">KTH13/16/17 系列</a>、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a></p>
 
 <h3 id="latching">锁存型 / Latch</h3>
 
@@ -243,7 +243,7 @@ SSI 是两线单向同步串行（CLK、DATA），从机只在时钟驱动下移
 
 <p class="c-note">锁存型不能用来判断「有没有磁体」——磁体移走后输出不回位。现场只有单一极性可用时，应改选单极型或全极型。</p>
 
-<p class="c-term-rel"><b>相关系列</b>KTH16 系列、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/switch/kth16">KTH13/16/17 系列</a>、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a></p>
 
 <h3 id="bop-brp">BOP / BRP 与回差</h3>
 
@@ -255,6 +255,6 @@ BOP（operate point）是输出翻转到动作状态所需的磁通密度，BRP�
 
 <p class="c-note">单位常混用，换算关系是 1 mT = 10 Gs（高斯）。选型要按最坏情况核算：用 BOP 的最大值校核能否可靠动作，用 BRP 的最小值校核能否可靠复位，不要拿典型值算裕量。</p>
 
-<p class="c-term-rel"><b>相关系列</b>KTH16 系列、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a></p>
+<p class="c-term-rel"><b>相关系列</b><a href="/msite/products/switch/kth16">KTH13/16/17 系列</a>、<a href="/msite/products/switch/ktm13">KTM13 系列</a>、<a href="/msite/products/switch/kth25">KTH25 系列</a>、<a href="/msite/products/switch/ktm28">KTM28 系列</a>、<a href="/msite/products/switch/kth462">KTH462 系列</a>、<a href="/msite/products/switch/kth460">KTH460 系列</a></p>
 
 <div class="c-cta"><div><h2 class="c-cta__title">还有拿不准的参数？</h2><p>选型、磁路与接口对接上的问题，欢迎直接找我们的技术团队确认。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

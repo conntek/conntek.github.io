@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm</p>
 
-<div class="c-specs"><div class="c-spec"><b>21 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.015°（校准后典型值）</b><span>精度</span></div><div class="c-spec"><b>60000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>21 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.015°</b><span>精度 · 校准后典型值</span></div><div class="c-spec"><b>60000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

@@ -37,7 +37,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>微功耗</h3><p>KTH1604 平均功耗 1.6 μA @ 1.8 V（5 Hz 版本），适合大规模阵列。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>1 毫米级封装</h3><p>DFN/FBP 1*1-4L 封装，密排格子时占板面积小。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低压工作</h3><p>供电 1.6 ~ 5.5 V，可直接跟随电池电压工作。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>BOP 提供 46 / 33 / 22 Gs 三档，按面板厚度选灵敏度。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">微功耗系列</span><h3>1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 

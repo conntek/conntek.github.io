@@ -29,13 +29,13 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">智能马桶-旋钮对传感器的主要要求。</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>面板不开孔</h3><p>侧面板直接受水，机械贯穿是渗漏路径。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>耐清洁剂</h3><p>清洁剂会腐蚀触点与机械编码器。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>多档可分</h3><p>水温水压分若干档，角度读数要能稳定区分。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>体积小</h3><p>侧面板厚度有限，旋钮模组不能太厚。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>面板不开孔</h3><p>侧面板天天被水冲，任何贯穿孔都是渗漏起点。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>耐清洁剂</h3><p>洁厕剂与水垢会让机械编码器卡滞失效。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>多档可分</h3><p>水温水压分若干档，角度读数要能稳定区分。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>体积小</h3><p>侧面板厚度有限，旋钮模组不能太厚。</p></div></div></div>
 
 ## 为什么选 KTH57xx
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁与芯片分居面板两侧，面板可做成无孔。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，可自由划分档位数量。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>小尺寸封装</h3><p>DFN2*2.5-8L 封装，便于放进较薄的侧面板。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字接口</h3><p>I2C / SPI 直接接主控，省去模拟信号长线。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>磁电分离</h3><p>电路腔与外部完全不连通，旋钮可整体取下冲洗。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，水温水压的档位数量可自由定。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>小尺寸封装</h3><p>可选 DFN2*2.5-8L，较薄的侧面板也放得下。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字接口</h3><p>I2C / SPI 直接读角度，面板到主控不走模拟长线。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>旋钮可拆卸时要有机械定位特征，保证每次装回的角度基准一致。</li><li>档位边界加软件迟滞，避免停在边界时读数在两档之间来回跳。</li><li>面板厚度与旋钮背面到芯片的距离共同决定气隙，选磁铁时按最大距离算。</li><li>喷杆电机与水阀属于机身内的磁与电磁干扰源，旋钮检测点应与之拉开距离。</li></ul>
+<ul class="c-checklist"><li>旋钮取下清洗再装回时角度基准必须复现，结构上要有防呆特征。</li><li>相邻水温档之间留出容差带，读数落在带内时保持上一次判定。</li><li>面板厚度与旋钮背面到芯片的距离共同决定气隙，选磁铁时按最大距离算。</li><li>喷杆电机与水阀属于机身内的磁与电磁干扰源，旋钮检测点应与之拉开距离。</li></ul>
 
 ## 相关案例
 

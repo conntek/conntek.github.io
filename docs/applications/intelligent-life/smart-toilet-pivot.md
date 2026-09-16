@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随枢轴转动，芯片留在机身侧，转动件无需引线。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>在轴离轴均可</h3><p>在轴与离轴摆放都支持，便于迁就枢轴机械结构。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>360° 范围</h3><p>检测范围 360°，覆盖盖板从全关到全开的行程。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>温度补偿</h3><p>内部温度补偿减小灵敏度温漂，角度读数更稳。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随枢轴转动，芯片留在机身侧，转动件无需引线。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>在轴离轴均可</h3><p>枢轴放不下在轴磁铁时可改离轴，机械上更好排。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>360° 范围</h3><p>检测范围 360°，盖板全关到全开只用其中一段。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>16 bit 输出</h3><p>16 bit 分辨率，九十多度行程也分得出缓降位置。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>盖板行程通常只有九十多度，应把这一段放在角度解算误差较小的区间里。</li><li>盖板与坐圈两路检测的磁铁如果靠得近，要核对互相串扰并适当错开轴向位置。</li><li>枢轴的机械间隙会让磁铁位置在转动中轻微摆动，选磁铁与气隙时要留出这部分余量。</li><li>缓降阻尼件老化后角速度会变，软件判定不要依赖固定的角度变化速率。</li></ul>
+<ul class="c-checklist"><li>盖板只转九十多度，磁铁装配角度应让这一段落在同一个解算分支内。</li><li>盖板与坐圈两路检测的磁铁如果靠得近，要核对互相串扰并适当错开轴向位置。</li><li>枢轴的机械间隙会让磁铁位置在转动中轻微摆动，选磁铁与气隙时要留出这部分余量。</li><li>缓降阻尼件老化后角速度会变，软件判定不要依赖固定的角度变化速率。</li></ul>
 
 ## 相关案例
 

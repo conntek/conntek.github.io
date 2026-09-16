@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>在轴离轴均可</h3><p>磁铁支持在轴与离轴两种摆放，适配不同关节结构。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小尺寸封装</h3><p>DFN2*2.5-8L 封装便于塞进关节内部。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>工作模式可配</h3><p>持续感应与唤醒睡眠模式在线切换，动静两态分别取舍。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字输出</h3><p>I2C / SPI 从机接口，多关节时便于统一挂总线。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>在轴离轴均可</h3><p>磁铁在轴、离轴都能用，关节结构不用迁就芯片。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小尺寸封装</h3><p>DFN2*2.5-8L 封装，塞得进关节转轴旁的空隙。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>工作模式可配</h3><p>单次测量与持续感应按动静切换，静止时少采样。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字输出</h3><p>I2C / SPI 从机，多个关节可挂在同一条总线上。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>离轴摆放时磁场分量随位置变化更快，装配公差对角度误差的放大更明显，应优先保证同心度。</li><li>关节走线会随转动改变位置，信号线应固定走向，避免动态引入干扰。</li><li>扬声器、电机的磁体属于固定背景场，可在上电时采一次基准并在软件中扣除。</li><li>多关节共用一条 I2C 总线时要规划好地址与采样节奏，避免采样周期互相拖慢。</li></ul>
+<ul class="c-checklist"><li>离轴摆放时磁场分量随位置变化更快，装配公差对角度误差的放大更明显，应优先保证同心度。</li><li>关节走线会随转动改变位置，信号线应固定走向，避免动态引入干扰。</li><li>关节靠角度判限位时，判定点要与机械硬限位错开，避免顶死堵转。</li><li>多关节共用一条 I2C 总线时要规划好地址与采样节奏，避免采样周期互相拖慢。</li></ul>
 
 ## 相关案例
 

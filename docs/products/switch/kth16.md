@@ -1,17 +1,17 @@
 ---
-title: "微功耗系列 1D 霍尔开关"
+title: "KTH13/16/17 系列 微功耗 1D 霍尔开关"
 description: "CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型"
 aside: false
 pageClass: "c-page c-page--product"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><a href="/msite/products/switch/">开关芯片</a><i>/</i><span>微功耗系列</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><a href="/msite/products/switch/">开关芯片</a><i>/</i><span>KTH13/16/17 系列</span></nav>
 
 <div class="c-product-hero"><div class="c-product-hero__text">
 
-<p class="c-kicker">微功耗系列</p>
+<p class="c-kicker">KTH13/16/17 系列</p>
 
-# 1D 霍尔开关
+# 微功耗 1D 霍尔开关
 
 <p class="c-lead">CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p>
 
@@ -19,7 +19,7 @@ pageClass: "c-page c-page--product"
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>9</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 
-</div><div class="c-product-hero__media"><img src="/msite/img/icons-web/kth16.webp" alt="微功耗系列"></div></div>
+</div><div class="c-product-hero__media"><img src="/msite/img/icons-web/kth16.webp" alt="KTH13/16/17 系列"></div></div>
 
 ## 产品概述
 
@@ -31,7 +31,7 @@ pageClass: "c-page c-page--product"
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/consumer-electronics/e-chessboard">电子棋盘</a><a href="/msite/applications/industry4/circuit-breaker">断路器</a></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth16.webp" alt="微功耗系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth16.webp" alt="KTH13/16/17 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -107,7 +107,7 @@ pageClass: "c-page c-page--product"
 
 ## 应用案例
 
-<p class="c-sec-lead">以下场景推荐使用 微功耗系列。</p>
+<p class="c-sec-lead">以下场景推荐使用 KTH13/16/17 系列。</p>
 
 <div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics/e-chessboard"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">消费类电子</span><h3>电子棋盘</h3></div></a><a class="c-card" href="/msite/applications/industry4/circuit-breaker"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">工业4.0</span><h3>断路器</h3></div></a></div>
 

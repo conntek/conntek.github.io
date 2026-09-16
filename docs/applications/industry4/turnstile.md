@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随转轴转动，芯片固定在机箱内，无机械连接。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，覆盖门翼全部开合行程。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>千赫兹刷新</h3><p>工作频率 1000 Hz，可跟上门翼的快速开合过程。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>工作温度 -40 ~ 125 ℃，适应室内外安装环境。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随转轴转动，芯片固定在机箱内，无机械连接。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>角度量程 360°，门翼往复的全部行程都能读到。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>千赫兹刷新</h3><p>工作频率 1000 Hz，快速开合过程能连续采到。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽磁场范围</h3><p>磁场量程 XY ±130 mT、Z ±80 mT，电机杂散场挤不满。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>驱动电机的定子磁场会叠加到检测点上，磁铁与芯片应尽量远离电机或加导磁隔离。</li><li>防夹判断依赖角速度与角加速度，采样率要能分辨出被挡住时的减速过程。</li><li>门翼行程通常不到一圈，应把这段行程放在解算误差较小的角度区间。</li><li>断电情况下门翼需可手动推开，机械结构变化后要复核磁铁位置是否仍在可测范围。</li></ul>
+<ul class="c-checklist"><li>驱动电机的定子磁场会叠加到检测点上，磁铁与芯片应尽量远离电机或加导磁隔离。</li><li>防夹判断依赖角速度与角加速度，采样率要能分辨出被挡住时的减速过程。</li><li>门翼行程不到一圈，机械零位与角度原点应在装配时对齐一次。</li><li>断电情况下门翼需可手动推开，机械结构变化后要复核磁铁位置是否仍在可测范围。</li></ul>
 
 ## 相关案例
 

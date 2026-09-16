@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁与芯片可分居面板两侧，缝隙无需开孔。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 检测范围</h3><p>检测范围 360°，可覆盖旋钮整圈档位。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温工作</h3><p>工作温度 -40 ~ 125 ℃，适应机体内的温升。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多轴可选开</h3><p>可按需只开一轴或多轴组合，兼顾性能与功耗。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>可拆件上的磁铁隔着塑料被读到，缝隙处不进水。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 检测范围</h3><p>检测范围 360°，浓度、杯量、模式各占一段。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温工作</h3><p>工作温度 -40 ~ 125 ℃，锅炉与蒸汽管路旁也够用。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多轴可选开</h3><p>可只开一轴或多轴组合，到位检测那路能省电。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

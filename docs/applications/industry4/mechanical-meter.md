@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，适合电池供电的加装模块。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，慢速转动下仍能给出确定翻转。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>平行磁场感应</h3><p>对平行磁场敏感，便于迁就字轮侧向安装的磁铁。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>提供多档 BOP / BRP，按磁铁尺寸与安装距离选档。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>160 nA @ 3 V，加装采集模块的电池负担很小。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>低频档位</h3><p>50 Hz 档对应最低功耗，字轮转速低用不上高频。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>平行磁场感应</h3><p>TMR 阻桥对平行磁场敏感，磁铁可侧贴字轮。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>BOP / BRP 多档，按加装磁铁尺寸与安装距离选。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

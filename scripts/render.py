@@ -252,7 +252,8 @@ def transposed_table(cols, rows, merge, skip=(), link=False, prod=None):
     def head_cell(h):
         inner = cell_html(h)
         if link and prod:
-            inner = f'<a href="{model_link(prod, h)}">{inner}</a>'
+            first = split_models(h)[0]
+            inner = f'<a href="{model_link(prod, first)}">{inner}</a>'
         return f'<th scope="col" class="c-mono">{inner}</th>'
     out = '<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th>' + ''.join(head_cell(h) for h in heads) + '</tr></thead><tbody>'
     body = ''
@@ -562,10 +563,17 @@ def video_grid(slug, videos):
 
 
 def chips_block(chips):
+    """关键参数卡：数值留在大字，括号里的限定条件挪到下面的小标签，避免数值折行。"""
     if not chips:
         return ''
-    return '<div class="c-specs">' + ''.join(
-        f'<div class="c-spec"><b>{E(c["value"])}</b><span>{E(c["label"])}</span></div>' for c in chips) + '</div>\n\n'
+    out = '<div class="c-specs">'
+    for c in chips:
+        v, label = str(c['value']).strip(), str(c['label']).strip()
+        m = re.match(r'^(.*?)[（(]([^）)]*)[）)]\s*$', v)
+        if m and len(m.group(1).strip()) >= 2:
+            v, label = m.group(1).strip(), f'{label} · {m.group(2).strip()}'
+        out += f'<div class="c-spec"><b>{E(v)}</b><span>{E(label)}</span></div>'
+    return out + '</div>\n\n'
 
 
 # 原站个别案例的「了解详情」链接挂错产品：按推荐芯片型号纠正（见 content/conflicts.md）
@@ -707,16 +715,25 @@ def app_card(a, more='查看案例'):
 MODEL_INDEX = {}
 
 
+def series_prefixes(model_text):
+    """系列名里的型号前缀，可能不止一个（如「KTH13/16/17 系列」），位数也可能是 2 位或 3 位。"""
+    t = str(model_text).upper()
+    out = re.findall(r'KT[A-Z]\d{2,3}(?=\D|$)', t)
+    head = re.match(r'.*?(KT[A-Z])(\d{2,3})((?:\s*/\s*\d{2,3})+)', t)
+    if head:
+        out += [head.group(1) + x.strip() for x in head.group(3).replace('/', ' ').split()]
+    return list(dict.fromkeys(out))
+
+
 def series_prefix(model_text):
-    m = re.search(r'(KT[A-Z]\d{2})', str(model_text).upper())
-    return m.group(1) if m else ''
+    pre = series_prefixes(model_text)
+    return pre[0] if pre else ''
 
 
 def _family_map():
     out = {}
     for sl in PRODUCTS:
-        pre = series_prefix(pc(sl)['model'])
-        if pre:
+        for pre in series_prefixes(pc(sl)['model']):
             out.setdefault(pre, sl)
     return out
 
@@ -725,12 +742,16 @@ FAMILY_OWNER = None
 
 
 def owner_of(mid):
-    """这个型号属于哪个产品页；映射不到就返回空。"""
+    """这个型号属于哪个产品页：先按更长（更具体）的前缀找，再退回短前缀。"""
     global FAMILY_OWNER
     if FAMILY_OWNER is None:
         FAMILY_OWNER = _family_map()
-    pre = series_prefix(mid)
-    return FAMILY_OWNER.get(pre, '')
+    t = str(mid).upper()
+    for n in (3, 2):
+        m = re.match(r'(KT[A-Z]\d{%d})' % n, t)
+        if m and m.group(1) in FAMILY_OWNER:
+            return FAMILY_OWNER[m.group(1)]
+    return ''
 
 
 def model_link(slug, mid):
@@ -917,10 +938,11 @@ def render_model_pages(slug, matrix):
         conflicts_by_model.setdefault(key, []).append(c_txt)
     expanded = []
     own_prefix = series_prefix(c['model'])
+    own_all = set(series_prefixes(c['model']))
     for row in rows:
         for one in split_models(row[0]):
             other_owner = owner_of(one)
-            if own_prefix and other_owner and other_owner != slug:
+            if own_prefix and other_owner and other_owner != slug and owner_of(one) != slug:
                 continue      # 该型号属于别的系列页，这里不重复出页面
             expanded.append((one, row))
     if not expanded:
@@ -1039,7 +1061,7 @@ def render_model_pages(slug, matrix):
         out += cta()
         write(route.lstrip('/') + '.md', out)
         pages.append((mid, route, grade))
-    MODEL_INDEX[slug] = pages
+    MODEL_INDEX.setdefault(slug, []).extend(pages)
     return pages
 
 
@@ -1635,11 +1657,29 @@ def prune_stale():
 
 def main():
     n_models = 0
+    matrices, foreign = {}, {}
+    for slug in ORDER:
+        m = merged_matrix(slug, SPECS.get(slug) or [], figures_for(slug, PRODUCTS[slug]['figures'])[0])
+        matrices[slug] = m
+        if not m:
+            continue
+        own_prefix = series_prefix(pc(slug)['model'])
+        for row in m['rows']:
+            for one in split_models(row[0]):
+                own = owner_of(one)
+                if own and own != slug and own_prefix:
+                    # 这一行是别的系列的型号，挂到它自己的系列下出页面
+                    foreign.setdefault(own, {'cols': m['cols'], 'rows': [], 'grade': m['grade'], 'conflicts': m['conflicts']})
+                    if row not in foreign[own]['rows']:
+                        foreign[own]['rows'].append(row)
     for slug in ORDER:
         render_product(slug)
-        m = merged_matrix(slug, SPECS.get(slug) or [], figures_for(slug, PRODUCTS[slug]['figures'])[0])
-        if m:
-            n_models += len(render_model_pages(slug, m))
+        if matrices.get(slug):
+            n_models += len(render_model_pages(slug, matrices[slug]))
+        if slug in foreign and not matrices.get(slug):
+            n_models += len(render_model_pages(slug, foreign[slug]))
+        elif slug in foreign and matrices.get(slug):
+            n_models += len(render_model_pages(slug, foreign[slug]))
     render_products()
     render_applications()
     n_cases = render_case_pages()

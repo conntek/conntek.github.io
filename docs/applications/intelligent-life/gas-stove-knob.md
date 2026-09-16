@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁与芯片分居面板两侧，面板可做成完整无孔。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，覆盖旋钮全部行程与档位划分。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，适应灶面附近温升。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>温度补偿</h3><p>内部温度补偿算法减小灵敏度温漂，档位随温度更稳。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>面板可做成整块玻璃，旋钮整体取下也不破坏密封。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，火力档位怎么分都在量程内。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>灶面附近温升高，芯片工作温度上限到 125 ℃。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>温度补偿</h3><p>集成温度传感器与内部补偿算法，档位不随灶温跑。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>旋钮可拆卸时，重新装回的角度与位置都会变，需要有机械定位特征保证可重复安装。</li><li>面板玻璃厚度决定了最小气隙，磁铁强度应按最厚面板加最大公差来选。</li><li>灶具的点火高压与电磁阀会产生瞬时干扰，信号线应远离点火针走线。</li><li>长期高温会削弱磁铁剩磁，选磁铁材料时要看其允许工作温度而不只看初始磁力。</li></ul>
+<ul class="c-checklist"><li>旋钮可拆卸时，重新装回的角度与位置都会变，需要有机械定位特征保证可重复安装。</li><li>面板玻璃厚度决定了最小气隙，磁铁强度应按最厚面板加最大公差来选。</li><li>灶具的点火高压与电磁阀会产生瞬时干扰，信号线应远离点火针走线。</li><li>旋钮位置定稿后，应在灶具满负荷加热的热态下复测一次角度读数。</li></ul>
 
 ## 相关案例
 

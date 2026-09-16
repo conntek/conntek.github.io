@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>360° 角度检测</h3><p>检测范围 360°，可覆盖旋钮整圈的多档位划分。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔空工作</h3><p>磁铁与芯片可分居面板两侧，面板无需开孔。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，覆盖带烘干机型的面板温升。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字接口</h3><p>I2C / SPI 直接接面板主控，省去模拟信号布线。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>360° 角度检测</h3><p>检测范围 360°，一圈十几个洗涤模式都能划开。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔面板工作</h3><p>磁铁随旋钮在面板外转动，面板上不必留轴孔。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>面板温升可达几十度，工作温度上限 125 ℃ 有余量。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>16 bit 输出</h3><p>16 bit 分辨率，相邻档位之间留得出判定余量。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

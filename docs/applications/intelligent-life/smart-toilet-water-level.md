@@ -29,13 +29,13 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">智能马桶-水位监测对传感器的主要要求。</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>电路不接触水</h3><p>长期泡水与结垢会让电极式方案失效。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔壁感应</h3><p>隔着水箱壁工作，气隙由壁厚与浮子位置决定。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>上下限两点</h3><p>通常需要上下两个阈值点，各自要判定明确。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>长期可靠</h3><p>与加热干烧保护相关，误判后果比较严重。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>电路不接触水</h3><p>长期泡水与结垢会让电极式方案失效。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔壁感应</h3><p>隔着水箱壁检测，壁上结垢还会再加一段距离。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>上下限两点</h3><p>通常需要上下两个阈值点，各自要判定明确。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>长期可靠</h3><p>与加热干烧保护相关，误判后果比较严重。</p></div></div></div>
 
 ## 为什么选 KTM13xx
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，可长期常驻检测。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，阈值点的判定更明确。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>多档阈值</h3><p>提供多档 BOP / BRP，按壁厚与浮子磁力选档位。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>工作温度 -40 ~ 125 ℃，适应水箱附近的温升。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗 160 nA @ 3 V，上下限两点都能常年守候。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，液面晃动时不容易来回翻。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>锁存型可选</h3><p>锁存型 KTM1331 翻转后保持状态，适合上下限逻辑。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>储热水箱附近偏热，125 ℃ 上限仍留有裕量。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

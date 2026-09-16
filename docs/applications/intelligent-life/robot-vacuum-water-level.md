@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，可长期常驻监测。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，浮子到位与离开的判定更明确。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>平行磁场感应</h3><p>对平行磁场敏感，适合浮子沿箱壁上下滑动的结构。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>每个型号提供多档 BOP / BRP，按浮子磁力与壁厚选档。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>50 Hz 档平均功耗 160 nA @ 3 V，可挂在电池上常驻。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，浮子到位与离开的判定更明确。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>平行磁场感应</h3><p>对平行磁场敏感，适合浮子沿箱壁上下滑动的结构。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>磁极类型可选</h3><p>全极、单 S 极、单 N 极与锁存型，按浮子装向选。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

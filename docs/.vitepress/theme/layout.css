@@ -1,0 +1,26 @@
+/* 布局微调（与 style.css 分开，便于并行改动）：侧边栏加宽，条目尽量不折行 */
+:root {
+  --vp-sidebar-width: 320px;
+}
+
+@media (min-width: 960px) {
+  .VPSidebarItem.level-1 > .item > .text,
+  .VPSidebarItem.level-2 > .item > .text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .VPSidebarItem.level-0 > .item > .text {
+    white-space: nowrap;
+  }
+}
+
+/* 关键参数卡：数值不折行，过长时自动缩字号 */
+.c-spec b {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.c-spec span {
+  display: block;
+  overflow-wrap: anywhere;
+}

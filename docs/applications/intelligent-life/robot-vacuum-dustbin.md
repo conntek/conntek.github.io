@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>线性模拟输出</h3><p>输出随磁通密度线性变化，可反映磁铁距离的连续变化。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>零磁场中点</h3><p>无磁场时输出 1/2 VCC，便于识别磁铁完全移开的状态。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>多档灵敏度</h3><p>1.5 ~ 13 mV/Gs 多档，按装配行程选最大输出摆幅。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，覆盖机体内温升。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>按比例输出</h3><p>输出与磁通密度成比例，能看出磁铁推进了多少。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>空仓有基准</h3><p>无磁场时输出 1/2 VCC，尘盒取走时读数有定点。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>四档灵敏度</h3><p>四档灵敏度覆盖 ±1600 ~ ±185 Gs，按行程选档。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温范围</h3><p>机体内风机发热，125 ℃ 上限对底盘环境有富余。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/linear-hall"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/linear-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH564 系列</span><h3>线性霍尔芯片</h3><p>零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>先量出尘盒完全到位与完全取出两个状态的磁场值，按这段差值挑灵敏度档位。</li><li>模拟输出会随温度与电源变化，判定门限宜用相对量（如与空盒基准的差值）而非绝对电压。</li><li>尘盒仓附近的风机电机磁场是固定背景场，可在出厂标定时采基准并扣除。</li><li>尘盒是用户反复操作的部件，磁铁应埋入结构件内，避免脱落或吸附金属杂物。</li></ul>
+<ul class="c-checklist"><li>先量出尘盒完全到位与完全取出两个状态的磁场值，按这段差值挑灵敏度档位。</li><li>模拟输出会随温度与电源变化，判定门限宜用相对量（如与空盒基准的差值）而非绝对电压。</li><li>尘盒与水箱等检测点若装得近，要逐一核对磁铁之间的互相干扰。</li><li>尘盒是用户反复操作的部件，磁铁应埋入结构件内，避免脱落或吸附金属杂物。</li></ul>
 
 ## 相关案例
 

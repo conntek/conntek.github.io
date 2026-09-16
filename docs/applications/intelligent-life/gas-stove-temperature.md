@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>2 μV 失调</h3><p>失调电压典型值 2 μV、最大值 10 μV，折算温度误差小。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>温漂极小</h3><p>失调电压温漂 0.02 μV/℃，冷热态之间的基线偏移小。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低频低噪声</h3><p>0.1 ~ 10 Hz 电压噪声 1.1 μVpp，适合缓变的温度信号。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>微功耗宽温</h3><p>静态功耗 30 μA，工作温度 -40 ~ 125 ℃。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>微伏级失调</h3><p>失调 2 μV 典型值，折算成热电偶温度误差很小。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>温漂极小</h3><p>0.02 μV/℃ 的失调温漂，板温升高时基线不跟着走。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低频低噪声</h3><p>0.1 ~ 10 Hz 噪声 1.1 μVpp，决定温度分辨的下限。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>微功耗宽温</h3><p>静态功耗 30 μA，工作温度 -40 ~ 125 ℃。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/other/ktax33"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktax33.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTAx333 系列</span><h3>零温漂高精度运放</h3><p>自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p><span class="c-card__more">查看产品</span></div></a></div>
 

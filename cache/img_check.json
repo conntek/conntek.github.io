@@ -1,0 +1,872 @@
+[
+ {
+  "out": "icons-web/app-consumer-electronics.webp",
+  "src": "content/icons-src/app-consumer-electronics.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/app-industry4.webp",
+  "src": "content/icons-src/app-industry4.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/app-intelligent-life.webp",
+  "src": "content/icons-src/app-intelligent-life.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/app-intelligent-transportation.webp",
+  "src": "content/icons-src/app-intelligent-transportation.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/cat-3d-hall.webp",
+  "src": "content/icons-src/cat-3d-hall.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/cat-encoder.webp",
+  "src": "content/icons-src/cat-encoder.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/cat-knob.webp",
+  "src": "content/icons-src/cat-knob.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/cat-other.webp",
+  "src": "content/icons-src/cat-other.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/cat-switch.webp",
+  "src": "content/icons-src/cat-switch.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/knob.webp",
+  "src": "content/icons-src/knob.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktax33.webp",
+  "src": "content/icons-src/ktax33.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth16.webp",
+  "src": "content/icons-src/kth16.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth25.webp",
+  "src": "content/icons-src/kth25.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth31.webp",
+  "src": "content/icons-src/kth31.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth460.webp",
+  "src": "content/icons-src/kth460.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth462.webp",
+  "src": "content/icons-src/kth462.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth55.webp",
+  "src": "content/icons-src/kth55.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth57.webp",
+  "src": "content/icons-src/kth57.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth71.webp",
+  "src": "content/icons-src/kth71.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kth78.webp",
+  "src": "content/icons-src/kth78.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm13.webp",
+  "src": "content/icons-src/ktm13.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm28.webp",
+  "src": "content/icons-src/ktm28.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm52.webp",
+  "src": "content/icons-src/ktm52.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm53.webp",
+  "src": "content/icons-src/ktm53.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm58.webp",
+  "src": "content/icons-src/ktm58.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/ktm59.webp",
+  "src": "content/icons-src/ktm59.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/kto95.webp",
+  "src": "content/icons-src/kto95.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "icons-web/linear-hall.webp",
+  "src": "content/icons-src/linear-hall.png",
+  "cropped": false,
+  "keyed": true
+ },
+ {
+  "out": "cat/3d-hall.webp",
+  "src": "/images/1627297417418.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "cat/encoder.webp",
+  "src": "/images/1627297426879.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "cat/switch.webp",
+  "src": "/images/1627297436154.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "cat/other.webp",
+  "src": "/images/1627297446765.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "cat/knob.webp",
+  "src": "/images/1760509314627.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth57.webp",
+  "src": "/images/1692259161746.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth55.webp",
+  "src": "/images/1779873277244.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm52.webp",
+  "src": "/images/1779877949476.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm53.webp",
+  "src": "/images/1779878216107.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm58.webp",
+  "src": "/images/1760693879963.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm59.webp",
+  "src": "/images/1754979409718.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth78.webp",
+  "src": "/images/1692955826595.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth71.webp",
+  "src": "/images/1760937016155.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "prod/kto95.webp",
+  "src": "/images/1760936805032.jpg",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth16.webp",
+  "src": "/images/1692259182956.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth25.webp",
+  "src": "/images/1692951041792.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm13.webp",
+  "src": "/images/1692259295168.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktm28.webp",
+  "src": "/images/1719797572499.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth31.webp",
+  "src": "/images/1760693703163.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth460.webp",
+  "src": "/images/1760325627829.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/kth462.webp",
+  "src": "/images/1760325669001.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/ktax33.webp",
+  "src": "/images/1692259225098.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "prod/knob.webp",
+  "src": "/images/1760665827625.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth57.webp",
+  "src": "/images/magneticAngleEncoderChip.jpg",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth55.webp",
+  "src": "/images/KTH55XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm52.webp",
+  "src": "/images/KTM52XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth78.webp",
+  "src": "/images/hshrMagneticCodedAngleSensor.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm59.webp",
+  "src": "/images/ext/hshrTMPA.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm58.webp",
+  "src": "/images/1760693879963.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth71.webp",
+  "src": "/images/1760937016155.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/kto95.webp",
+  "src": "/images/1760936805032.jpg",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm53.webp",
+  "src": "/images/KTM53XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth16.webp",
+  "src": "/images/microPowerSeries.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm13.webp",
+  "src": "/images/magnetoresistiveSwitchSeries.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth25.webp",
+  "src": "/images/automotiveHvdlHallEffectSensor.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktm28.webp",
+  "src": "/images/hvcpDetectionSensor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth462.webp",
+  "src": "/images/1760325669001.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth460.webp",
+  "src": "/images/1760325627829.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/kth31.webp",
+  "src": "/images/1760693703163.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/ktax33.webp",
+  "src": "/images/zeroDriftAmplifierChip.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "hero/knob.webp",
+  "src": "/images/kuntaiknob.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "hero/linear-hall.webp",
+  "src": "/images/linearHallChip.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth57.webp",
+  "src": "/images/magneticAngleEncoderChip.jpg",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth55.webp",
+  "src": "/images/KTH55XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm52.webp",
+  "src": "/images/KTM52XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth78.webp",
+  "src": "/images/hshrMagneticCodedAngleSensor.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm59.webp",
+  "src": "/images/ext/hshrTMPA.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm58.webp",
+  "src": "/images/1760693879963.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth71.webp",
+  "src": "/images/1760937016155.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/kto95.webp",
+  "src": "/images/1760936805032.jpg",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm53.webp",
+  "src": "/images/KTM53XX.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth16.webp",
+  "src": "/images/microPowerSeries.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm13.webp",
+  "src": "/images/magnetoresistiveSwitchSeries.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth25.webp",
+  "src": "/images/automotiveHvdlHallEffectSensor.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktm28.webp",
+  "src": "/images/hvcpDetectionSensor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth462.webp",
+  "src": "/images/1760325669001.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth460.webp",
+  "src": "/images/1760325627829.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/kth31.webp",
+  "src": "/images/1760693703163.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/ktax33.webp",
+  "src": "/images/zeroDriftAmplifierChip.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "photo/knob.webp",
+  "src": "/images/kuntaiknob.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "photo/linear-hall.webp",
+  "src": "/images/linearHallChip.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-0.webp",
+  "src": "/images/1690860744053.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-1.webp",
+  "src": "/images/1690860757870.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-2.webp",
+  "src": "/images/1690860776310.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-3.webp",
+  "src": "/images/1690860789545.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-4.webp",
+  "src": "/images/1690860801529.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-5.webp",
+  "src": "/images/1690860812653.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-6.webp",
+  "src": "/images/1690860823537.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-0.webp",
+  "src": "/images/1690861593549.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-1.webp",
+  "src": "/images/1690861604723.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-2.webp",
+  "src": "/images/1690861615290.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-3.webp",
+  "src": "/images/1690861625525.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-4.webp",
+  "src": "/images/1690861635325.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-5.webp",
+  "src": "/images/1690861646766.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-6.webp",
+  "src": "/images/1690861656539.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-7.webp",
+  "src": "/images/1690970011719.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-8.webp",
+  "src": "/images/1690970302940.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-9.webp",
+  "src": "/images/1690970992928.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-life-10.webp",
+  "src": "/images/1690971205558.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-0.webp",
+  "src": "/images/1690857503146.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-1.webp",
+  "src": "/images/1690857911258.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-2.webp",
+  "src": "/images/1690858069967.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-3.webp",
+  "src": "/images/1690858513818.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-4.webp",
+  "src": "/images/1690858540877.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-5.webp",
+  "src": "/images/1690959433569.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-transportation-0.webp",
+  "src": "/images/1690861581161.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/0.webp",
+  "src": "/images/tech-talk/16-cover.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/1.webp",
+  "src": "/images/tech-talk/15-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/2.webp",
+  "src": "/images/tech-talk/14-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/3.webp",
+  "src": "/images/tech-talk/13-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/4.webp",
+  "src": "/images/tech-talk/12-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/5.webp",
+  "src": "/images/tech-talk/11-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/6.webp",
+  "src": "/images/tech-talk/10-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/7.webp",
+  "src": "/images/tech-talk/9-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/8.webp",
+  "src": "/images/tech-talk/8-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/9.webp",
+  "src": "/images/tech-talk/7-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/10.webp",
+  "src": "/images/tech-talk/6-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/11.webp",
+  "src": "/images/tech-talk/5-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/12.webp",
+  "src": "/images/tech-talk/4-cover.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "tt/13.webp",
+  "src": "/images/tech-talk/3-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/14.webp",
+  "src": "/images/tech-talk/2-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "tt/15.webp",
+  "src": "/images/tech-talk/1-cover.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "city/0.webp",
+  "src": "/images/1622083825035.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "city/1.webp",
+  "src": "/images/1622083750090.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "city/2.webp",
+  "src": "/images/1622083863476.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "city/3.webp",
+  "src": "/images/1622083739661.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "about/0.webp",
+  "src": "/images/suzhou.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "about/1.webp",
+  "src": "/images/1621989445518.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "svc/0.webp",
+  "src": "/images/anli1.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "svc/1.webp",
+  "src": "/images/anli2.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "svc/2.webp",
+  "src": "/images/anli3.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "poster/home.webp",
+  "src": "/images/video_cover6.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "poster/kth57-0.webp",
+  "src": "/images/video_cover3.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "poster/kth57-1.webp",
+  "src": "/images/video_cover1.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "poster/kth57-2.webp",
+  "src": "/images/video_cover2.png",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "poster/kth78-0.webp",
+  "src": "/images/video_cover4.jpg",
+  "cropped": true,
+  "keyed": false
+ },
+ {
+  "out": "poster/kth78-1.webp",
+  "src": "/images/video_cover5.jpg",
+  "cropped": true,
+  "keyed": false
+ }
+]

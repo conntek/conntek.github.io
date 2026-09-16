@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率</p>
 
-<div class="c-specs"><div class="c-spec"><b>24 bit</b><span>分辨率</span></div><div class="c-spec"><b>6 对模拟差分输出</b><span>接口</span></div><div class="c-spec"><b>32-pin optoQFN</b><span>封装</span></div><div class="c-spec"><b>4.1 ~ 5.5 V（模拟）</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>24 bit</b><span>分辨率</span></div><div class="c-spec"><b>6 对模拟差分输出</b><span>接口</span></div><div class="c-spec"><b>32-pin optoQFN</b><span>封装</span></div><div class="c-spec"><b>4.1 ~ 5.5 V</b><span>电压 · 模拟</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

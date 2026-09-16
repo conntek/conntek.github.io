@@ -13,7 +13,7 @@ pageClass: "c-page c-page--model"
 
 <p class="c-lead">KTH78 系列低延时霍尔绝对角度编码器的车规级型号，SOP-8 封装、PWM / SPI 输出、不带 CRC 校验、16 bit 分辨率、0.015° 噪声（1σ）；±0.35°（在轴） / ±1° 左右（离轴） 精度。该等级面向水泵、油泵、智能车灯、排气、进气、转向传感器等。</p>
 
-<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.35°（在轴） / ±1° 左右（离轴）</b><span>精度</span></div><div class="c-spec"><b>120,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3.0 ~ 5.5 V</b><span>供电电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.35°（在轴） / ±1° 左右</b><span>精度 · 离轴</span></div><div class="c-spec"><b>120,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3.0 ~ 5.5 V</b><span>供电电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>4</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a><a class="c-btn" href="/msite/products/encoder/kth78">查看 KTH78 系列</a></div>
 

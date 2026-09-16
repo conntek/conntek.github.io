@@ -19,7 +19,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-split c-split--overview"><div class="c-split__text">
 
-电子式电能表的电流互感器与部分器件在强磁场下会饱和或失准，因此计量类标准普遍要求电表具备抗外磁场干扰与开盖、强磁等事件的记录能力。在表内放一颗三轴磁场传感器，可以持续监测背景磁场是否出现异常。
+电子式电能表的电流互感器在强磁场下会饱和，计量随之偏低，用强磁体贴着表壳干扰计量是已知的窃电手法。表内放一颗三轴磁场传感器，可以持续监测背景磁场是否出现异常。
 
 与单阈值磁开关相比，三轴测量能同时给出磁场的大小和方向，便于区分是环境中缓慢变化的背景场，还是某个方向上突然出现的强磁体，从而减少误报。
 
@@ -29,13 +29,13 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">电表对传感器的主要要求。</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>要测幅值方向</h3><p>只有有无信号不够，需要知道强度与方向才能判事件。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>长期在线</h3><p>电表安装后长年不停机，监测必须一直有效。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温稳定</h3><p>户外表箱冬夏温差大，零点与灵敏度不能漂。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字上报</h3><p>事件需记录并上报，模拟量不便直接入账。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>要测幅值方向</h3><p>只有有无信号不够，需要知道强度与方向才能判事件。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>长期在线</h3><p>电表安装后长年不停机，监测必须一直有效。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温稳定</h3><p>户外表箱全年温差大，判定门限不能跟着温度走。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字上报</h3><p>事件需记录并上报，模拟量不便直接入账。</p></div></div></div>
 
 ## 为什么选 KTH57xx
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴矢量测量</h3><p>同时测 X、Y、Z 三轴，可给出磁场强度与方向。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>宽磁场范围</h3><p>XY 轴典型 ±130 mT、Z 轴典型 ±80 mT，强磁下不易饱和。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>温度补偿</h3><p>集成温度传感器与补偿算法，减小灵敏度温漂。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字接口</h3><p>I2C / SPI 输出，计量主控可直接读数并记录事件。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴矢量测量</h3><p>三轴分量一起读，能给出磁场的大小和方向。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>宽磁场范围</h3><p>XY 轴 ±130 mT、Z 轴 ±80 mT，贴表强磁也不饱和。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>温度补偿</h3><p>集成温度传感器与内部补偿，季节温差下零点更稳。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字接口</h3><p>I2C / SPI 读数，事件可直接进计量主控记录。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 
@@ -43,7 +43,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>判据应建立在磁场的变化量上而不是绝对值上，表计安装位置的背景场差异很大。</li><li>上电时采一次基准背景场，可以吸收安装环境带来的固定偏置。</li><li>传感器位置要避开表内互感器、继电器线圈等自身磁源，或把它们的影响做成已知量扣除。</li><li>采样率决定了能否捕捉短时磁场事件，需要与记录逻辑的时间分辨率匹配。</li></ul>
+<ul class="c-checklist"><li>判据应建立在磁场的变化量上而不是绝对值上，表计安装位置的背景场差异很大。</li><li>表箱内相邻表计的磁场会互相影响，密集安装时按最坏排布评估一次。</li><li>传感器位置要避开表内互感器、继电器线圈等自身磁源，或把它们的影响做成已知量扣除。</li><li>采样率决定了能否捕捉短时磁场事件，需要与记录逻辑的时间分辨率匹配。</li></ul>
 
 ## 相关案例
 

@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅</p>
 
-<div class="c-specs"><div class="c-spec"><b>30 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.02°（非线性误差）</b><span>精度</span></div><div class="c-spec"><b>180,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>30 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.02°</b><span>精度 · 非线性误差</span></div><div class="c-spec"><b>180,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

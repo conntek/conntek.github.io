@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随阀片轴转动，芯片隔壳读取，无机械贯穿。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，覆盖发动机舱环境。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>温度补偿</h3><p>集成温度传感器与补偿算法，减小灵敏度温漂。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>汽车类版本</h3><p>手册按应用区分，汽车类对应 KTH5701 / KTH5702 的 AQ1 版本。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁随阀片轴转动，芯片隔壳读取，无机械贯穿。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>宽温范围</h3><p>发动机舱高温段仍落在 -40 ~ 125 ℃ 量程内。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>千赫兹刷新</h3><p>工作频率 1000 Hz，闭环控制拿到的反馈延迟小。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>汽车类版本</h3><p>手册按应用区分，汽车类对应 KTH5701 / KTH5702 的 AQ1 版本。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

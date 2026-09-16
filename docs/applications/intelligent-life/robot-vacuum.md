@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴分量</h3><p>三轴磁场可同时反映装没装上与抬升到什么位置。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔壳检测</h3><p>磁铁与芯片之间可隔一层外壳，底盘无需开孔。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>按需开轴</h3><p>可只开一轴或多轴组合，按精度需求压低功耗。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>工作温度 -40 ~ 125 ℃，覆盖机体内的温升。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴分量</h3><p>三轴磁场可同时反映装没装上与抬升到什么位置。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>隔壳检测</h3><p>磁铁与芯片之间可隔一层外壳，底盘无需开孔。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>按需开轴</h3><p>可只开一轴或多轴组合，按精度需求压低功耗。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>低功耗档位</h3><p>平均 25.2 μA @ 5 Hz，多处检测点累加仍可控。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

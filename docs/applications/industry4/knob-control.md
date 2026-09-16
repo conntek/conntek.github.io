@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>磁铁与芯片分居面板两侧，面板可做成全封闭。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，连续角度与多档划分都能覆盖。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，适应控制柜内外环境。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字输出</h3><p>I2C / SPI 数字输出，比模拟量更耐长线干扰。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>隔空角度检测</h3><p>面板无开孔，整面可按防护等级要求做封闭。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>360° 范围</h3><p>检测范围 360°，连续角度与多档位置都能覆盖。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽温范围</h3><p>柜内温升加户外低温，-40 ~ 125 ℃ 两端都够。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>数字输出</h3><p>I2C / SPI 数字读数，长线上比模拟量更耐干扰。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

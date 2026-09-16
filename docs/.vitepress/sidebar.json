@@ -58,7 +58,7 @@
           "text": "开关芯片",
           "items": [
             {
-              "text": "微功耗系列 · 1D 霍尔开关",
+              "text": "KTH13/16/17 系列 · 微功耗 1D 霍尔开关",
               "link": "/products/switch/kth16"
             },
             {
@@ -317,7 +317,22 @@
         },
         {
           "text": "KTH71 系列 自校准霍尔磁编码器",
-          "link": "/products/encoder/kth71"
+          "link": "/products/encoder/kth71",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH7101-SOP8",
+              "link": "/products/encoder/kth71/kth7101-sop8"
+            },
+            {
+              "text": "KTH7111-QN16",
+              "link": "/products/encoder/kth71/kth7111-qn16"
+            },
+            {
+              "text": "KTH7112-QN16",
+              "link": "/products/encoder/kth71/kth7112-qn16"
+            }
+          ]
         },
         {
           "text": "KTO95 系列 游标绝对值光学编码器",
@@ -334,7 +349,7 @@
           "link": "/products/switch/"
         },
         {
-          "text": "微功耗系列 1D 霍尔开关",
+          "text": "KTH13/16/17 系列 1D 霍尔开关",
           "link": "/products/switch/kth16",
           "collapsed": true,
           "items": [
@@ -742,7 +757,18 @@
         },
         {
           "text": "KTH460 系列 3D 霍尔开关",
-          "link": "/products/switch/kth460"
+          "link": "/products/switch/kth460",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH4603AA-STx",
+              "link": "/products/switch/kth460/kth4603aa-stx"
+            },
+            {
+              "text": "KTH4603AB-STx",
+              "link": "/products/switch/kth460/kth4603ab-stx"
+            }
+          ]
         },
         {
           "text": "KTH462 系列 2D 霍尔开关",

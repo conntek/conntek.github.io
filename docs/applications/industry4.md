@@ -33,11 +33,11 @@ pageClass: "c-page"
 
 ## 推荐芯片一览
 
-<div class="c-table c-table--links"><table><thead><tr><th>推荐芯片</th><th>对应产品</th><th>应用场景</th></tr></thead><tbody><tr><td class="c-mono">KTH57xx</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列 三轴线性霍尔传感器</a></td><td>电表、旋钮操控、闸机</td></tr><tr><td class="c-mono">KTH16xx</td><td><a href="/msite/products/switch/kth16">微功耗系列 1D 霍尔开关</a></td><td>断路器</td></tr><tr><td class="c-mono">KTM13xx</td><td><a href="/msite/products/switch/ktm13">KTM13 系列 TMR 磁阻开关</a></td><td>燃气表、机械电表</td></tr></tbody></table></div>
+<div class="c-table c-table--links"><table><thead><tr><th>推荐芯片</th><th>对应产品</th><th>应用场景</th></tr></thead><tbody><tr><td class="c-mono">KTH57xx</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列 三轴线性霍尔传感器</a></td><td>电表、旋钮操控、闸机</td></tr><tr><td class="c-mono">KTH16xx</td><td><a href="/msite/products/switch/kth16">KTH13/16/17 系列 微功耗 1D 霍尔开关</a></td><td>断路器</td></tr><tr><td class="c-mono">KTM13xx</td><td><a href="/msite/products/switch/ktm13">KTM13 系列 TMR 磁阻开关</a></td><td>燃气表、机械电表</td></tr></tbody></table></div>
 
 ## 需求与芯片对照
 
-<div class="c-table c-table--links"><table><thead><tr><th>需求</th><th>推荐系列</th><th>依据</th></tr></thead><tbody><tr><td>计量翻转与防拆</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>160 nA @ 3 V、-40 ~ 125 ℃，适合电池供电表计翻转计数。</td></tr><tr><td>合分闸位置检测</td><td>KTH16 系列</td><td>KTH1702 为 -40 ~ 125 ℃、开漏输出，可选 ±135 Gs 高阈值档。</td></tr><tr><td>旋钮与闸机角度</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>三轴测量、16 bit、1000 Hz，检测范围 360°，在轴离轴均可。</td></tr><tr><td>高速角度采样</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>持续感应、唤醒睡眠、单次测量三种模式可在线配置。</td></tr><tr><td>低阈值弱磁检测</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>BOP 提供 ±45 / ±30 / ±18 / ±9 / ±7 Gs 多档，弱磁档可用。</td></tr></tbody></table></div>
+<div class="c-table c-table--links"><table><thead><tr><th>需求</th><th>推荐系列</th><th>依据</th></tr></thead><tbody><tr><td>计量翻转与防拆</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>160 nA @ 3 V、-40 ~ 125 ℃，适合电池供电表计翻转计数。</td></tr><tr><td>合分闸位置检测</td><td><a href="/msite/products/switch/kth16">KTH13/16/17 系列</a></td><td>KTH1702 为 -40 ~ 125 ℃、开漏输出，可选 ±135 Gs 高阈值档。</td></tr><tr><td>旋钮与闸机角度</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>三轴测量、16 bit、1000 Hz，检测范围 360°，在轴离轴均可。</td></tr><tr><td>采样模式与功耗权衡</td><td><a href="/msite/products/3d-hall/kth57">KTH57 系列</a></td><td>持续感应、唤醒睡眠、单次测量三种模式可在线配置，工作频率 1000 Hz。</td></tr><tr><td>低阈值弱磁检测</td><td><a href="/msite/products/switch/ktm13">KTM13 系列</a></td><td>BOP 提供 ±45 / ±30 / ±18 / ±9 / ±7 Gs 多档，弱磁档可用。</td></tr></tbody></table></div>
 
 ## 设计自检
 

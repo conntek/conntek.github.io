@@ -15,7 +15,7 @@ pageClass: "c-page c-page--product"
 
 <p class="c-lead">内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°</p>
 
-<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.1°（在轴校准后）</b><span>精度</span></div><div class="c-spec"><b>120,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3.3 V / 5 V</b><span>电压</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>16 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.1°</b><span>精度 · 在轴校准后</span></div><div class="c-spec"><b>120,000 rpm</b><span>转速</span></div><div class="c-spec"><b>3.3 V / 5 V</b><span>电压</span></div></div>
 
 <div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>3</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
 

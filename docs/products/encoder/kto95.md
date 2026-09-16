@@ -31,7 +31,7 @@ KTO9512 基于 3 码道游标原理，适用于直径 26 mm 光栅码盘，码�
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>绝对位置编码器</span><span>交流伺服反馈</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/kto95.webp" alt="KTO95 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kto95.webp" alt="KTO95 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

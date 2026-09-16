@@ -29,7 +29,7 @@ pageClass: "c-page c-page--product"
 
 旋钮以隔空方式检测角度，具备防水（IP67）、防尘（IP67）、防油（IP67F）、防静电（8 kV）、防高温（125 ℃）与防震动（Fdb）能力，稳定可靠。基于磁感应技术的极简结构设计，开发成本低、开模成本小、产品上市快、生产组装效率高，售后问题少、售后费用低。
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/knob.webp" alt="磁旋钮系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/knob.webp" alt="磁旋钮系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

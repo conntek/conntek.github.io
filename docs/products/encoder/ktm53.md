@@ -31,7 +31,7 @@ KTM5300 采用离轴安装，配合垂直霍尔与数字算法实现高精度离
 
 核心优势是用户侧一键自校准，可补偿磁铁不理想与安装偏差引入的非线性误差，显著改善 INL。工作电压 3 ~ 5.5 V，工作电流 25 mA，磁场检测范围 20 ~ 150 mT，启动时间 1 ~ 260 ms 可调，工作温度 -40 ~ 125 ℃，封装 QFN3*3_16L。
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktm53.webp" alt="KTM53 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm53.webp" alt="KTM53 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

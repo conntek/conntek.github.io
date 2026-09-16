@@ -131,6 +131,7 @@ def main():
     for slug, p in SITE['products'].items():
         if p['image']:
             MANIFEST[f'hero/{slug}'] = save(fit(trim(load(p['image'])), 1200, 900, pad=0.06), f'hero/{slug}.webp')
+            MANIFEST[f'photo/{slug}'] = save(cover(trim(load(p['image'])), 1000, 750), f'photo/{slug}.webp')
     for a in SITE['applications']:
         for n, case in enumerate(a['cases']):
             MANIFEST[f'case/{a["key"]}/{n}'] = save(cover(load(case['image']), 600, 600), f'case/{a["key"]}-{n}.webp')

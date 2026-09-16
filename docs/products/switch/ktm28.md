@@ -31,7 +31,7 @@ KTM2802 支持用于气缸位置检测的两线与三线应用，可用于上拉
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>气缸位置检测</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktm28.webp" alt="KTM28 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm28.webp" alt="KTM28 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -39,9 +39,13 @@ KTM2802 支持用于气缸位置检测的两线与三线应用，可用于上拉
 
 ## 规格参数
 
-<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>
+<div class="c-table c-table--t"><table><thead><tr><th>参数</th><th class="c-mono">KTM2801 / KTM2802</th></tr></thead><tbody><tr><th>系列</th><td>KTM280X</td></tr><tr><th>类型</th><td>全极型</td></tr><tr><th>供电电压</th><td>3 ~ 32 V</td></tr><tr><th>平均功耗</th><td>70 μA</td></tr><tr><th>工作频率</th><td>4 kHz</td></tr><tr><th>BOP（Gs）</th><td>±18</td></tr><tr><th>BRP（Gs）</th><td>±16</td></tr><tr><th>输出接口</th><td>开漏输出</td></tr><tr><th>工作温度</th><td>-40 ~ 105 ℃</td></tr><tr><th>封装</th><td>HFBP2*3-6L</td></tr></tbody></table></div>
 
-<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>工作频率</th><th>BOP（Gs）</th><th>BRP（Gs）</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTM280X</td><td class="c-mono">KTM2801 / KTM2802</td><td>全极型</td><td>3 ~ 32 V</td><td>70 μA</td><td>4 kHz</td><td>±18</td><td>±16</td><td>开漏输出</td><td>-40 ~ 105 ℃</td><td>HFBP2*3-6L</td></tr></tbody></table></div>
+<details class="c-more"><summary>完整参数表（全部 11 列）</summary>
+
+<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>工作频率</th><th>BOP（Gs）</th><th>BRP（Gs）</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTM280X</td><td class='c-mono'>KTM2801 / KTM2802</td><td>全极型</td><td>3 ~ 32 V</td><td>70 μA</td><td>4 kHz</td><td>±18</td><td>±16</td><td>开漏输出</td><td>-40 ~ 105 ℃</td><td>HFBP2*3-6L</td></tr></tbody></table></div>
+
+</details>
 
 <details class="c-more"><summary>原站参数图（文字版）</summary>
 

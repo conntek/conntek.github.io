@@ -31,7 +31,7 @@ pageClass: "c-page c-page--product"
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>伺服电机</span><span>机器人关节</span><span>直线电机</span><span>对角度检测精度要求超高的领域</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktm59.webp" alt="KTM59 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm59.webp" alt="KTM59 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -43,9 +43,13 @@ pageClass: "c-page c-page--product"
 
 <p class="c-table-title">型号选型表</p>
 
-<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>
+<div class="c-table c-table--t"><table><thead><tr><th>参数</th><th class="c-mono">KTM5900</th><th class="c-mono">KTM5910</th></tr></thead><tbody><tr><th>产品名称</th><td colspan="2">24 bit 高速高分辨率 TMR 磁编码器</td></tr><tr><th>校准</th><td colspan="2">自校准、光编对拖</td></tr><tr><th>磁铁摆放方式</th><td>在轴、离轴</td><td>在轴</td></tr><tr><th>检测范围</th><td colspan="2">360°</td></tr><tr><th>供电电压</th><td colspan="2">3 ~ 5.5 V</td></tr><tr><th>噪声（6σ）</th><td colspan="2">0.01</td></tr><tr><th>有效位</th><td colspan="2">16 bit</td></tr><tr><th>非线性误差（单对极）</th><td>在轴 ±0.02° / 离轴 ±0.05°</td><td>±0.02°</td></tr><tr><th>工作电流</th><td colspan="2">40 mA</td></tr><tr><th>转速</th><td colspan="2">180,000 rpm</td></tr><tr><th>输出方式</th><td colspan="2">±ABZ / ±UVW / PWM / SPI</td></tr><tr><th>特色</th><td colspan="2">双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td></tr><tr><th>磁场检测范围</th><td colspan="2">30 ~ 150 mT</td></tr><tr><th>启动时间</th><td colspan="2">23 ms</td></tr><tr><th>工作温度</th><td colspan="2">-40 ~ 125 ℃</td></tr><tr><th>封装</th><td colspan="2">QFN32-5*5</td></tr><tr><th>应用领域</th><td colspan="2">伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
 
-<div class="c-table c-table--wide"><table><thead><tr><th>产品名称</th><th>型号</th><th>校准</th><th>磁铁摆放方式</th><th>检测范围</th><th>供电电压</th><th>噪声（6σ）</th><th>有效位</th><th>非线性误差（单对极）</th><th>工作电流</th><th>转速</th><th>输出方式</th><th>特色</th><th>磁场检测范围</th><th>启动时间</th><th>工作温度</th><th>封装</th><th>应用领域</th></tr></thead><tbody><tr><td rowspan="2" class="c-group">24 bit 高速高分辨率 TMR 磁编码器</td><td class="c-mono">KTM5900</td><td>自校准、光编对拖</td><td>在轴、离轴</td><td>360°</td><td>3 ~ 5.5 V</td><td>0.01</td><td>16 bit</td><td>在轴 ±0.02° / 离轴 ±0.05°</td><td>40 mA</td><td>180,000 rpm</td><td>±ABZ / ±UVW / PWM / SPI</td><td>双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td><td>30 ~ 150 mT</td><td>23 ms</td><td>-40 ~ 125 ℃</td><td>QFN32-5*5</td><td>伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr><tr><td class="c-mono">KTM5910</td><td>自校准、光编对拖</td><td>在轴</td><td>360°</td><td>3 ~ 5.5 V</td><td>0.01</td><td>16 bit</td><td>±0.02°</td><td>40 mA</td><td>180,000 rpm</td><td>±ABZ / ±UVW / PWM / SPI</td><td>双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td><td>30 ~ 150 mT</td><td>23 ms</td><td>-40 ~ 125 ℃</td><td>QFN32-5*5</td><td>伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
+<details class="c-more"><summary>完整参数表（全部 18 列）</summary>
+
+<div class="c-table c-table--wide"><table><thead><tr><th>产品名称</th><th>型号</th><th>校准</th><th>磁铁摆放方式</th><th>检测范围</th><th>供电电压</th><th>噪声（6σ）</th><th>有效位</th><th>非线性误差（单对极）</th><th>工作电流</th><th>转速</th><th>输出方式</th><th>特色</th><th>磁场检测范围</th><th>启动时间</th><th>工作温度</th><th>封装</th><th>应用领域</th></tr></thead><tbody><tr><td>24 bit 高速高分辨率 TMR 磁编码器</td><td class='c-mono'>KTM5900</td><td>自校准、光编对拖</td><td>在轴、离轴</td><td>360°</td><td>3 ~ 5.5 V</td><td>0.01</td><td>16 bit</td><td>在轴 ±0.02° / 离轴 ±0.05°</td><td>40 mA</td><td>180,000 rpm</td><td>±ABZ / ±UVW / PWM / SPI</td><td>双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td><td>30 ~ 150 mT</td><td>23 ms</td><td>-40 ~ 125 ℃</td><td>QFN32-5*5</td><td>伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr><tr><td>24 bit 高速高分辨率 TMR 磁编码器</td><td class='c-mono'>KTM5910</td><td>自校准、光编对拖</td><td>在轴</td><td>360°</td><td>3 ~ 5.5 V</td><td>0.01</td><td>16 bit</td><td>±0.02°</td><td>40 mA</td><td>180,000 rpm</td><td>±ABZ / ±UVW / PWM / SPI</td><td>双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td><td>30 ~ 150 mT</td><td>23 ms</td><td>-40 ~ 125 ℃</td><td>QFN32-5*5</td><td>伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
+
+</details>
 
 <div class="c-figs"><figure class="c-fig"><img src="/msite/images/ext/KTM5900.png" alt="KTM5900 感应方向" loading="lazy"><figcaption>KTM5900 感应方向</figcaption></figure><figure class="c-fig"><img src="/msite/images/ext/KTM5910.png" alt="KTM5910 感应方向" loading="lazy"><figcaption>KTM5910 感应方向</figcaption></figure></div>
 

@@ -31,7 +31,7 @@ KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CM
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>传感器信号放大级</span><span>太阳能光电转换器</span><span>燃气灶温度检测</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

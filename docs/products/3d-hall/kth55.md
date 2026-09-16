@@ -29,7 +29,7 @@ KTH5502 是一款基于垂直霍尔技术的高精度绝对角度传感器芯片
 
 得益于垂直霍尔技术先进的工艺匹配特性、低失调设计与高性能信号链，KTH5502 通过高精度放大电路和 16 位 ADC 将磁场信号转换为数字信号，并结合专用算法处理，实现 XY 平面内的高分辨率绝对角度输出。芯片定位高性价比、最小尺寸磁编码器，采用在轴安装，工作频率 10 kSPS，XYZ 轴典型工作范围 ±100 mT。
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/kth55.webp" alt="KTH55 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth55.webp" alt="KTH55 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

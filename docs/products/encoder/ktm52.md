@@ -31,7 +31,7 @@ KTM5200 采用轴向安装，校准后 INL 精度可达 ±0.015°（典型值）
 
 核心优势是用户侧一键自校准，可补偿磁铁不理想与安装偏差引入的非线性误差，显著改善 INL。工作电压 3 ~ 5.5 V，工作电流 25 mA，磁场检测范围 20 ~ 150 mT，启动时间 1 ~ 260 ms 可调，工作温度 -40 ~ 125 ℃，封装 TSSOP16。
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktm52.webp" alt="KTM52 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm52.webp" alt="KTM52 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

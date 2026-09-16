@@ -31,7 +31,7 @@ KTM5800 也可搭配光编、光栅、磁栅等传感器，一圈或一个绝对
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>伺服电机</span><span>机器人关节</span><span>直线电机</span><span>对角度检测精度要求超高的领域</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/ktm58.webp" alt="KTM58 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm58.webp" alt="KTM58 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

@@ -31,7 +31,7 @@ KTH71 系列支持在轴与离轴安装，输出方式包括 SPI、ABZ（1 ~ 409
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>功率电动工具无刷直流电机</span><span>工业机械臂控制系统</span><span>夹爪</span><span>齿轮箱</span><span>缝纫机</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/kth71.webp" alt="KTH71 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth71.webp" alt="KTH71 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

@@ -242,6 +242,65 @@ def cell_html(v):
     return '<br>'.join(E(x) for x in v.split('\n'))
 
 
+ID_COLS = ('完整型号', '型号', '产品型号', '产品名称')
+
+
+def id_index(cols):
+    for name in ID_COLS:
+        if name in cols:
+            return cols.index(name)
+    return 0
+
+
+def notes_html(t):
+    return ''.join(f'<p class="c-note">{E(n)}</p>\n\n' for n in t.get('notes') or [])
+
+
+def transposed_table(cols, rows, merge):
+    """列多行少：参数竖排、型号横排，正好铺满一屏宽度。"""
+    idc = id_index(cols)
+    heads = [rows[r][idc] for r in range(len(rows))]
+    out = '<div class="c-table c-table--t"><table><thead><tr><th>参数</th>' + ''.join(f'<th class="c-mono">{cell_html(h)}</th>' for h in heads) + '</tr></thead><tbody>'
+    for ci, name in enumerate(cols):
+        if ci == idc:
+            continue
+        vals = [rows[r][ci] for r in range(len(rows))]
+        if all(v == vals[0] for v in vals) and len(vals) > 1:
+            out += f'<tr><th>{E(name)}</th><td colspan="{len(vals)}">{cell_html(vals[0])}</td></tr>'
+        else:
+            out += f'<tr><th>{E(name)}</th>' + ''.join(f'<td>{cell_html(v)}</td>' for v in vals) + '</tr>'
+    return out + '</tbody></table></div>\n\n'
+
+
+def model_cards(cols, rows, merge):
+    """列多行也多：每个型号一张参数卡，纵向阅读，不需要左右滑动。"""
+    idc = id_index(cols)
+    badge_cols = [c for c in merge if c != idc]
+    out = '<div class="c-models">'
+    for row in rows:
+        badges = ''.join(f'<span>{E(cols[c])} {cell_html(row[c])}</span>' for c in badge_cols if str(row[c]).strip() not in ('', '—'))
+        items = ''
+        for ci, name in enumerate(cols):
+            if ci == idc or ci in badge_cols:
+                continue
+            v = str(row[ci]).strip()
+            if v in ('', '—'):
+                continue
+            items += f'<div><dt>{E(name)}</dt><dd>{cell_html(row[ci])}</dd></div>'
+        out += (f'<article class="c-model"><header><h4>{cell_html(row[idc])}</h4>'
+                + (f'<div class="c-tags">{badges}</div>' if badges else '') + f'</header><dl>{items}</dl></article>')
+    return out + '</div>\n\n'
+
+
+def full_table_details(cols, rows, merge):
+    """完整表格（含全部列）折叠收起，需要逐列对照时再展开。"""
+    out = '<details class="c-more"><summary>完整参数表（全部 %d 列）</summary>\n\n<div class="c-table c-table--wide"><table><thead><tr>' % len(cols)
+    out += ''.join(f'<th>{E(c)}</th>' for c in cols) + '</tr></thead><tbody>'
+    for row in rows:
+        out += '<tr>' + ''.join(f'<td{" class=\'c-mono\'" if ci == id_index(cols) else ""}>{cell_html(v)}</td>' for ci, v in enumerate(row)) + '</tr>'
+    return out + '</tbody></table></div>\n\n</details>\n\n'
+
+
 def spec_entry(t):
     """content/specs.json 的一张表：matrix 为型号矩阵，keyvalue 为参数两两成对的四列表。"""
     out = f'<p class="c-table-title">{E(t["title"])}</p>\n\n' if t.get('title') and t['title'] != '规格参数' else ''
@@ -260,10 +319,16 @@ def spec_entry(t):
         cols, rows = t.get('columns') or [], t.get('rows') or []
         g = t.get('group_by')
         merge = sorted(set((t.get('merge_cols') or []) + ([g] if isinstance(g, int) else [])))
-        wide = len(cols) >= 9
-        if wide:
-            out += '<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>\n\n'
-        out += f'<div class="c-table{" c-table--wide" if wide else ""}"><table><thead><tr>' + ''.join(f'<th>{E(c)}</th>' for c in cols) + '</tr></thead><tbody>'
+        # 宽表不再横向滚动：列少直接排；列多行少转置；列多行也多改成逐型号参数卡
+        if len(cols) > 8:
+            if len(rows) <= 6:
+                return out + transposed_table(cols, rows, merge) + full_table_details(cols, rows, merge) + notes_html(t)
+            cards = model_cards(cols, rows, merge)
+            if len(rows) > 12:   # 型号很多时先收起，避免页面过长
+                cards = ('<details class="c-more c-more--cards"><summary>逐型号参数（'
+                         + f'{len(rows)} 个型号）</summary>\n\n' + cards + '</details>\n\n')
+            return out + cards + full_table_details(cols, rows, merge) + notes_html(t)
+        out += '<div class="c-table"><table><thead><tr>' + ''.join(f'<th>{E(c)}</th>' for c in cols) + '</tr></thead><tbody>'
         # 纵向合并：相同值且同一分组内才合并
         spans = [[1] * len(cols) for _ in rows]
         for ci in merge:
@@ -403,7 +468,7 @@ def render_product(slug):
     out += f'</div><div class="c-product-hero__media"><img src="{hero}" alt="{E(c["model"])}"></div></div>\n\n'
 
     out += section('产品概述')
-    photo = IMG.get(f'hero/{slug}')
+    photo = IMG.get(f'photo/{slug}') or IMG.get(f'hero/{slug}')
     body = '\n\n'.join(c['overview'])
     if c['applications']:
         body += '\n\n<div class="c-tags c-tags--lg"><b>典型应用</b>' + ''.join(f'<span>{E(a)}</span>' for a in c['applications']) + '</div>'

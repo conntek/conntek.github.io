@@ -31,7 +31,7 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>汽车</span><span>工业</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/kth25.webp" alt="KTH25 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth25.webp" alt="KTH25 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -43,9 +43,13 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 
 <p class="c-table-title">车规级型号</p>
 
-<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>
+<div class="c-table c-table--t"><table><thead><tr><th>参数</th><th class="c-mono">KTH250XQA</th><th class="c-mono">KTH250XQB</th><th class="c-mono">KTH250XQC</th></tr></thead><tbody><tr><th>系列</th><td colspan="3">KTH25XX</td></tr><tr><th>类型</th><td colspan="3">锁存型</td></tr><tr><th>供电电压</th><td colspan="3">2.7 ~ 36 V</td></tr><tr><th>平均功耗</th><td colspan="3">2.7 mA</td></tr><tr><th>工作频率</th><td colspan="3">30 kHz</td></tr><tr><th>BOP</th><td>15</td><td>30</td><td>60</td></tr><tr><th>BRP</th><td>-15</td><td>-30</td><td>-60</td></tr><tr><th>输出接口</th><td colspan="3">开漏输出</td></tr><tr><th>工作温度</th><td colspan="3">-40 ~ 125 ℃</td></tr><tr><th>封装</th><td colspan="3">SOT-23-3L / TO-92S</td></tr></tbody></table></div>
 
-<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>工作频率</th><th>BOP</th><th>BRP</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td rowspan="3" class="c-group">KTH25XX</td><td class="c-mono">KTH250XQA</td><td rowspan="3" class="c-group">锁存型</td><td rowspan="3" class="c-group">2.7 ~ 36 V</td><td rowspan="3" class="c-group">2.7 mA</td><td rowspan="3" class="c-group">30 kHz</td><td>15</td><td>-15</td><td rowspan="3" class="c-group">开漏输出</td><td rowspan="3" class="c-group">-40 ~ 125 ℃</td><td rowspan="3" class="c-group">SOT-23-3L / TO-92S</td></tr><tr><td class="c-mono">KTH250XQB</td><td>30</td><td>-30</td></tr><tr><td class="c-mono">KTH250XQC</td><td>60</td><td>-60</td></tr></tbody></table></div>
+<details class="c-more"><summary>完整参数表（全部 11 列）</summary>
+
+<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>工作频率</th><th>BOP</th><th>BRP</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH25XX</td><td class='c-mono'>KTH250XQA</td><td>锁存型</td><td>2.7 ~ 36 V</td><td>2.7 mA</td><td>30 kHz</td><td>15</td><td>-15</td><td>开漏输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH25XX</td><td class='c-mono'>KTH250XQB</td><td>锁存型</td><td>2.7 ~ 36 V</td><td>2.7 mA</td><td>30 kHz</td><td>30</td><td>-30</td><td>开漏输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH25XX</td><td class='c-mono'>KTH250XQC</td><td>锁存型</td><td>2.7 ~ 36 V</td><td>2.7 mA</td><td>30 kHz</td><td>60</td><td>-60</td><td>开漏输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr></tbody></table></div>
+
+</details>
 
 <details class="c-more"><summary>原站参数图（文字版）</summary>
 

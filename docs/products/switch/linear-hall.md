@@ -31,7 +31,7 @@ pageClass: "c-page c-page--product"
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>扫地机器人尘盒检测</span><span>游戏手柄</span><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/linear-hall.webp" alt="KTH564 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/linear-hall.webp" alt="KTH564 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -43,9 +43,13 @@ pageClass: "c-page c-page--product"
 
 <p class="c-table-title">型号选型表</p>
 
-<p class="c-scroll-hint">表格较宽，可左右滑动查看全部参数</p>
+<div class="c-table c-table--t"><table><thead><tr><th>参数</th><th class="c-mono">KTH5641A1<br>KTH5641A2<br>KTH5641A3<br>KTH5641A4</th><th class="c-mono">KTH564A1</th><th class="c-mono">KTH5642A1<br>KTH5642A2</th><th class="c-mono">KTH5643A1<br>KTH5643A2<br>KTH5643A3<br>KTH5643A4</th></tr></thead><tbody><tr><th>系列</th><td>KTH5641</td><td>KTH564A1</td><td>KTH5642</td><td>KTH5643</td></tr><tr><th>类型</th><td colspan="4">线性</td></tr><tr><th>供电电压</th><td colspan="4">2.8 ~ 6.0 V</td></tr><tr><th>平均功耗</th><td colspan="4">3.3 mA @ 5 V</td></tr><tr><th>灵敏度</th><td>A1: 1.5 mV<br>A2: 2.0 mV<br>A3: 2.5 mV<br>A4: 3.0 mV</td><td>1.5 mV/Gs<br>2.0 mV/Gs<br>2.5 mV/Gs<br>3.0 mV/Gs</td><td>A1: 5.0 mV<br>A2: 9.0 mV</td><td>A1: 4.0 mV<br>A2: 7.0 mV<br>A3: 10 mV<br>A4: 13 mV</td></tr><tr><th>磁场范围</th><td>A1: ±1600 Gs<br>A2: ±1200 Gs<br>A3: ±960 Gs<br>A4: ±800 Gs</td><td>—</td><td>A1: ±480 Gs<br>A2: ±266 Gs</td><td>A1: ±600 Gs<br>A2: ±343 Gs<br>A3: ±240 Gs<br>A4: ±185 Gs</td></tr><tr><th>输出接口</th><td colspan="4">线性模拟输出</td></tr><tr><th>工作温度</th><td colspan="4">-40 ~ 125 ℃</td></tr><tr><th>封装</th><td>SOT-23-3L / TO-92S</td><td>DFN1616-6L</td><td>SOT-23-3L / TO-92S</td><td>SOT-23-3L / TO-92S</td></tr></tbody></table></div>
 
-<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>灵敏度</th><th>磁场范围</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH5641</td><td class="c-mono">KTH5641A1<br>KTH5641A2<br>KTH5641A3<br>KTH5641A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 1.5 mV<br>A2: 2.0 mV<br>A3: 2.5 mV<br>A4: 3.0 mV</td><td>A1: ±1600 Gs<br>A2: ±1200 Gs<br>A3: ±960 Gs<br>A4: ±800 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH564A1</td><td class="c-mono">KTH564A1</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>1.5 mV/Gs<br>2.0 mV/Gs<br>2.5 mV/Gs<br>3.0 mV/Gs</td><td>—</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>DFN1616-6L</td></tr><tr><td>KTH5642</td><td class="c-mono">KTH5642A1<br>KTH5642A2</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 5.0 mV<br>A2: 9.0 mV</td><td>A1: ±480 Gs<br>A2: ±266 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH5643</td><td class="c-mono">KTH5643A1<br>KTH5643A2<br>KTH5643A3<br>KTH5643A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 4.0 mV<br>A2: 7.0 mV<br>A3: 10 mV<br>A4: 13 mV</td><td>A1: ±600 Gs<br>A2: ±343 Gs<br>A3: ±240 Gs<br>A4: ±185 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr></tbody></table></div>
+<details class="c-more"><summary>完整参数表（全部 10 列）</summary>
+
+<div class="c-table c-table--wide"><table><thead><tr><th>系列</th><th>型号</th><th>类型</th><th>供电电压</th><th>平均功耗</th><th>灵敏度</th><th>磁场范围</th><th>输出接口</th><th>工作温度</th><th>封装</th></tr></thead><tbody><tr><td>KTH5641</td><td class='c-mono'>KTH5641A1<br>KTH5641A2<br>KTH5641A3<br>KTH5641A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 1.5 mV<br>A2: 2.0 mV<br>A3: 2.5 mV<br>A4: 3.0 mV</td><td>A1: ±1600 Gs<br>A2: ±1200 Gs<br>A3: ±960 Gs<br>A4: ±800 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH564A1</td><td class='c-mono'>KTH564A1</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>1.5 mV/Gs<br>2.0 mV/Gs<br>2.5 mV/Gs<br>3.0 mV/Gs</td><td>—</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>DFN1616-6L</td></tr><tr><td>KTH5642</td><td class='c-mono'>KTH5642A1<br>KTH5642A2</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 5.0 mV<br>A2: 9.0 mV</td><td>A1: ±480 Gs<br>A2: ±266 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr><tr><td>KTH5643</td><td class='c-mono'>KTH5643A1<br>KTH5643A2<br>KTH5643A3<br>KTH5643A4</td><td>线性</td><td>2.8 ~ 6.0 V</td><td>3.3 mA @ 5 V</td><td>A1: 4.0 mV<br>A2: 7.0 mV<br>A3: 10 mV<br>A4: 13 mV</td><td>A1: ±600 Gs<br>A2: ±343 Gs<br>A3: ±240 Gs<br>A4: ±185 Gs</td><td>线性模拟输出</td><td>-40 ~ 125 ℃</td><td>SOT-23-3L / TO-92S</td></tr></tbody></table></div>
+
+</details>
 
 <p class="c-note">KTH564A1 原表灵敏度一栏横跨「灵敏度 / 磁场范围」两列，只给出灵敏度，磁场范围未标注。</p>
 

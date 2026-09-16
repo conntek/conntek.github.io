@@ -31,7 +31,7 @@ pageClass: "c-page c-page--product"
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><span>摇杆</span><span>旋钮</span><span>位移测量</span><span>轮椅摇杆</span><span>掌机摇杆</span><span>智能手表</span><span>洗衣机</span><span>咖啡机</span><span>陪伴机器人</span><span>燃气灶旋钮</span><span>扫地机器人</span><span>智能马桶</span><span>电表</span><span>旋钮操控</span><span>闸机</span><span>电子节气门</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/hero/kth57.webp" alt="KTH57 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/kth57.webp" alt="KTH57 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 

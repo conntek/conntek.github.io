@@ -25,11 +25,13 @@ pageClass: "c-page c-page--product"
 
 <div class="c-split c-split--overview"><div class="c-split__text">
 
-昆泰芯 KTM5900 是一款 24 bit 绝对角度 TMR 磁性编码器，可构成高速高精度的非接触磁性编码器模块。芯片以最高 2M 采样速率的 16 bit SAR ADC 读取传感器输出的差分模拟正弦、余弦信号，由高速数字电路完成角度计算并输出位置信息。
+昆泰芯 <a class="c-xref" href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a> 是一款 24 bit 绝对角度 TMR 磁性编码器，可构成高速高精度的非接触磁性编码器模块。芯片以最高 2M 采样速率的 16 bit SAR ADC 读取传感器输出的差分模拟正弦、余弦信号，由高速数字电路完成角度计算并输出位置信息。
 
 系列支持自校准与光编对拖校准，单对极非线性误差在轴 ±0.02°、离轴 ±0.05°，输出方式包括 ±ABZ、±UVW、PWM 与 SPI。工作电流 40 mA，磁场检测范围 30 ~ 150 mT，启动时间 23 ms，工作温度 -40 ~ 125 ℃，封装 QFN32-5*5。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>伺服电机</span><span>机器人关节</span><span>直线电机</span><span>对角度检测精度要求超高的领域</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/industry4/servo-motor">伺服电机</a><a href="/msite/applications/industry4/robot-joint">机器人关节</a><a href="/msite/applications/industry4/linear-motor">直线电机</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>高精度角度检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm59.webp" alt="KTM59 系列 产品图" loading="lazy"></div></div>
 
@@ -39,17 +41,27 @@ pageClass: "c-page c-page--product"
 
 ## 规格参数
 
-<p class="c-sec-lead">KTM5900 支持在轴与离轴安装（离轴 ±0.05°），KTM5910 为在轴版本（±0.02°），其余规格一致。</p>
+<p class="c-sec-lead"><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a> 支持在轴与离轴安装（离轴 ±0.05°），<a class="c-xref" href="/msite/products/encoder/ktm59/ktm5910">KTM5910</a> 为在轴版本（±0.02°），其余规格一致。</p>
+
+<details class="c-fold"><summary><b>型号对比</b><span class="c-fold__n">2 个型号</span><span class="c-fold__ids">KTM5900、KTM5910</span></summary>
 
 <div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a></th><th scope="col" class="c-mono"><a href="/msite/products/encoder/ktm59/ktm5910">KTM5910</a></th></tr></thead><tbody><tr><th scope="row">产品名称</th><td colspan="2">24 bit 高速高分辨率 TMR 磁编码器</td></tr><tr><th scope="row">校准</th><td colspan="2">自校准、光编对拖</td></tr><tr><th scope="row">磁铁摆放方式</th><td>在轴、离轴</td><td>在轴</td></tr><tr><th scope="row">检测范围</th><td colspan="2">360°</td></tr><tr><th scope="row">供电电压</th><td colspan="2">3 ~ 5.5 V</td></tr><tr><th scope="row">噪声（1σ）</th><td colspan="2">0.01</td></tr><tr><th scope="row">有效位</th><td colspan="2">16 bit</td></tr><tr><th scope="row">非线性误差（单对极）</th><td>在轴 ±0.02° / 离轴 ±0.05°</td><td>±0.02°</td></tr><tr><th scope="row">工作电流</th><td colspan="2">40 mA</td></tr><tr><th scope="row">转速</th><td colspan="2">180,000 rpm</td></tr><tr><th scope="row">输出接口</th><td colspan="2">±ABZ / ±UVW / PWM / SPI</td></tr><tr><th scope="row">特色</th><td colspan="2">双 16 bit 2M SAR ADC<br>24 bit 角度分辨率</td></tr><tr><th scope="row">工作磁场</th><td colspan="2">30 ~ 150 mT</td></tr><tr><th scope="row">启动时间</th><td colspan="2">23 ms</td></tr><tr><th scope="row">工作温度</th><td colspan="2">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="2">QFN32-5*5</td></tr><tr><th scope="row">应用领域</th><td colspan="2">伺服电机<br>机器人关节<br>直线电机以及需要角度检测精度超高领域</td></tr></tbody></table></div>
 
-<div class="c-figs"><figure class="c-fig"><img src="/msite/images/ext/KTM5900.png" alt="KTM5900 感应方向" loading="lazy"><figcaption>KTM5900 感应方向</figcaption></figure><figure class="c-fig"><img src="/msite/images/ext/KTM5910.png" alt="KTM5910 感应方向" loading="lazy"><figcaption>KTM5910 感应方向</figcaption></figure></div>
+</details>
+
+<div class="c-figs"><figure class="c-fig"><img src="/msite/images/ext/KTM5900.png" alt="KTM5900 感应方向" loading="lazy"><figcaption><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a> 感应方向</figcaption></figure><figure class="c-fig"><img src="/msite/images/ext/KTM5910.png" alt="KTM5910 感应方向" loading="lazy"><figcaption><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5910">KTM5910</a> 感应方向</figcaption></figure></div>
 
 ## 技术文档
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTM5900</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank"><em>PDF</em>KTM5900 24bit绝对角度磁性编码器.pdf</a></td><td><a class="c-file" href="/msite/files/KTM5900%20Datasheet%20EN.pdf" target="_blank"><em>PDF</em>KTM5900 Datasheet EN.pdf</a></td></tr><tr><td class="c-mono">KTM5910</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank"><em>PDF</em>KTM5910 24bit绝对角度磁性编码器.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono"><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank"><em>PDF</em>KTM5900 24bit绝对角度磁性编码器.pdf</a></td><td><a class="c-file" href="/msite/files/KTM5900%20Datasheet%20EN.pdf" target="_blank"><em>PDF</em>KTM5900 Datasheet EN.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5910">KTM5910</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf" target="_blank"><em>PDF</em>KTM5910 24bit绝对角度磁性编码器.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+
+## 应用案例
+
+<p class="c-sec-lead">以下场景推荐使用 KTM59 系列。</p>
+
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/robot-joint"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-robot-joint.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">工业4.0</span><h3>机器人关节</h3></div></a></div>
 
 ## 同类产品
 

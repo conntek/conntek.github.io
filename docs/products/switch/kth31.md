@@ -27,7 +27,7 @@ pageClass: "c-page c-page--product"
 
 KTH31 系列是一款可按比例响应磁通量密度的线性霍尔效应传感器，内部电路包含霍尔传感器、线性放大器与推挽输出级，输出高速、低噪声，在 -40 ~ 125 ℃ 的宽温度范围内保持线性性能，可用于消费类、工业类各种磁场检测。
 
-无磁场时输出 VDD/2 静态电压，可同时检测 N 极与 S 极磁场。系列提供 KTH3101、KTH3102、KTH3103、KTH3105、KTH3110、KTH3113 六个灵敏度型号，@ 3.3 V 时灵敏度 1.00 ~ 8.90 mV/Gs，对应磁场范围 ±1400 ~ ±150 Gs；功耗 4.5 mA @ 3.3 V、5.4 mA @ 5.0 V。
+无磁场时输出 VDD/2 静态电压，可同时检测 N 极与 S 极磁场。系列提供 <a class="c-xref" href="/msite/products/switch/kth31/kth3101">KTH3101</a>、<a class="c-xref" href="/msite/products/switch/kth31/kth3102">KTH3102</a>、<a class="c-xref" href="/msite/products/switch/kth31/kth3103">KTH3103</a>、<a class="c-xref" href="/msite/products/switch/kth31/kth3105">KTH3105</a>、<a class="c-xref" href="/msite/products/switch/kth31/kth3110">KTH3110</a>、<a class="c-xref" href="/msite/products/switch/kth31/kth3113">KTH3113</a> 六个灵敏度型号，@ 3.3 V 时灵敏度 1.00 ~ 8.90 mV/Gs，对应磁场范围 ±1400 ~ ±150 Gs；功耗 4.5 mA @ 3.3 V、5.4 mA @ 5.0 V。
 
 <div class="c-tags c-tags--lg"><b>测量类型</b><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
 
@@ -39,15 +39,19 @@ KTH31 系列是一款可按比例响应磁通量密度的线性霍尔效应传�
 
 ## 规格参数
 
-<p class="c-sec-lead">@ 3.3 V 时，KTH3101 灵敏度 1.00 mV/Gs、磁场范围 ±1400 Gs，KTH3113 灵敏度 8.90 mV/Gs、磁场范围 ±150 Gs，其余型号介于两者之间，按被测磁场范围选型。</p>
+<p class="c-sec-lead">@ 3.3 V 时，<a class="c-xref" href="/msite/products/switch/kth31/kth3101">KTH3101</a> 灵敏度 1.00 mV/Gs、磁场范围 ±1400 Gs，<a class="c-xref" href="/msite/products/switch/kth31/kth3113">KTH3113</a> 灵敏度 8.90 mV/Gs、磁场范围 ±150 Gs，其余型号介于两者之间，按被测磁场范围选型。</p>
 
-<p class="c-table-sub">（1/2）</p>
+<details class="c-fold"><summary><b>（1/2）</b><span class="c-fold__n">5 个型号</span><span class="c-fold__ids">KTH3101、KTH3102、KTH3103、KTH3105、KTH3110</span></summary>
 
-<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3101">KTH3101</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3102">KTH3102</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3103">KTH3103</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3105">KTH3105</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3110">KTH3110</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td colspan="5">线性</td></tr><tr><th scope="row">产品名称</th><td colspan="5">高速高带宽线性霍尔</td></tr><tr><th scope="row">系列</th><td colspan="5">KTH31XX</td></tr><tr><th scope="row">供电电压</th><td colspan="5">3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td colspan="5">4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>1.00 mV/Gs (@ 3.3 V)<br>1.5 mV/Gs (@ 5 V)</td><td>1.65 mV/Gs (@ 3.3 V)<br>2.5 mV/Gs (@ 5 V)</td><td>2.25 mV/Gs (@ 3.3 V)<br>3.4 mV/Gs (@ 5 V)</td><td>3.30 mV/Gs (@ 3.3 V)<br>5.0 mV/Gs (@ 5 V)</td><td>6.60 mV/Gs (@ 3.3 V)<br>10 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±1400 Gs<br>±1500 Gs</td><td>±840 Gs<br>±900 Gs</td><td>±620 Gs<br>±660 Gs</td><td>±420 Gs<br>±450 Gs</td><td>±210 Gs<br>±225 Gs</td></tr><tr><th scope="row">输出接口</th><td colspan="5">模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td colspan="5">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="5">SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
+<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3101">KTH3101</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3102">KTH3102</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3103">KTH3103</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3105">KTH3105</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3110">KTH3110</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td colspan="5">线性</td></tr><tr><th scope="row">产品名称</th><td colspan="5">高速高带宽线性霍尔</td></tr><tr><th scope="row">供电电压</th><td colspan="5">3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td colspan="5">4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>1.00 mV/Gs (@ 3.3 V)<br>1.5 mV/Gs (@ 5 V)</td><td>1.65 mV/Gs (@ 3.3 V)<br>2.5 mV/Gs (@ 5 V)</td><td>2.25 mV/Gs (@ 3.3 V)<br>3.4 mV/Gs (@ 5 V)</td><td>3.30 mV/Gs (@ 3.3 V)<br>5.0 mV/Gs (@ 5 V)</td><td>6.60 mV/Gs (@ 3.3 V)<br>10 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±1400 Gs<br>±1500 Gs</td><td>±840 Gs<br>±900 Gs</td><td>±620 Gs<br>±660 Gs</td><td>±420 Gs<br>±450 Gs</td><td>±210 Gs<br>±225 Gs</td></tr><tr><th scope="row">输出接口</th><td colspan="5">模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td colspan="5">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="5">SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
 
-<p class="c-table-sub">（2/2）</p>
+</details>
 
-<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3113">KTH3113</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td>线性</td></tr><tr><th scope="row">产品名称</th><td>高速高带宽线性霍尔</td></tr><tr><th scope="row">系列</th><td>KTH31XX</td></tr><tr><th scope="row">供电电压</th><td>3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td>4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>8.90 mV/Gs (@ 3.3 V)<br>13.5 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±150 Gs<br>±165 Gs</td></tr><tr><th scope="row">输出接口</th><td>模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td>SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
+<details class="c-fold"><summary><b>（2/2）</b><span class="c-fold__n">1 个型号</span><span class="c-fold__ids">KTH3113</span></summary>
+
+<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth31/kth3113">KTH3113</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td>线性</td></tr><tr><th scope="row">产品名称</th><td>高速高带宽线性霍尔</td></tr><tr><th scope="row">供电电压</th><td>3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td>4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>8.90 mV/Gs (@ 3.3 V)<br>13.5 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±150 Gs<br>±165 Gs</td></tr><tr><th scope="row">输出接口</th><td>模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td>SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
+
+</details>
 
 ## 技术文档
 

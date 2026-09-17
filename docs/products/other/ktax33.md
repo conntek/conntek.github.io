@@ -29,7 +29,9 @@ KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CM
 
 主要参数：增益带宽积 350 kHz，失调电压温漂 0.02 μV/℃，电压噪声 1.1 μVpp（0.1 ~ 10 Hz），压摆率 0.16 V/μs，输入偏置电流 ±100 pA，输入失调电流 ±120 pA，静态功耗 30 μA，CMRR 120 dB，PSRR 1 μV/V，开环增益 120 dB，工作温度 -40 ~ 125 ℃。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>传感器信号放大级</span><a href="/msite/applications/intelligent-life/solar-converter">太阳能光电转换器</a><a href="/msite/applications/intelligent-life/gas-stove-temperature">燃气灶-温度检测</a></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/intelligent-life/solar-converter">太阳能光电转换器</a><a href="/msite/applications/intelligent-life/gas-stove-temperature">燃气灶-温度检测</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>传感器信号放大</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
 

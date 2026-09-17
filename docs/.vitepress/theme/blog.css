@@ -1,0 +1,70 @@
+/* 博客：列表沿用站内卡片体系，这里只管文章页正文的统一排版 */
+.c-post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: -4px 0 18px !important;
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+  font-variant-numeric: tabular-nums;
+}
+.c-page--post .vp-doc .c-lead { margin-bottom: 22px; }
+
+.c-takeaways {
+  margin: 0 0 28px;
+  padding: 16px 20px 14px;
+  border: 1px solid var(--c-border, var(--vp-c-divider));
+  border-radius: 10px;
+  background: var(--c-surface, var(--vp-c-bg-soft));
+}
+.c-takeaways b {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--vp-c-brand-1);
+}
+.vp-doc .c-takeaways ul { margin: 0; padding-left: 1.1em; }
+.vp-doc .c-takeaways li { margin: 4px 0; font-size: 14.5px; line-height: 1.7; }
+
+/* 正文宽度收窄到适合阅读的行长 */
+.c-page--post .vp-doc > div { max-width: 760px; }
+
+.c-page--post .vp-doc h2 {
+  margin-top: 44px;
+  padding-top: 0;
+  border-top: none;
+  font-size: 22px;
+}
+.c-page--post .vp-doc h3 { margin-top: 28px; font-size: 17px; }
+.c-page--post .vp-doc p,
+.c-page--post .vp-doc li { font-size: 15.5px; line-height: 1.9; }
+
+.vp-doc figure.c-blog-fig {
+  margin: 26px 0;
+  text-align: center;
+}
+.vp-doc figure.c-blog-fig img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 520px;
+  height: auto;
+  border-radius: 8px;
+  background: var(--c-surface, var(--vp-c-bg-soft));
+}
+.vp-doc figure.c-blog-fig figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--vp-c-text-3);
+}
+.vp-doc figure.c-blog-fig--hero img { max-height: 440px; }
+
+.vp-doc .c-post-source {
+  margin: 36px 0 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--c-hairline, var(--vp-c-divider));
+  font-size: 13px;
+  color: var(--vp-c-text-3);
+}
+.vp-doc .c-post-source a { margin-left: 6px; }

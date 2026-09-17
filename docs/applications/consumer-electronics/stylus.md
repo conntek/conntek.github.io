@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，常年待机监测不明显影响续航。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>平行磁场敏感</h3><p>TMR 阻桥随平行穿过的磁场变化，适合磁铁侧贴的笔杆结构。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>小回差</h3><p>回差可小于 3 高斯，贴合距离的小变化也能得到确定的翻转。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>小型封装</h3><p>提供 SOT-23-3L 与 DFN2*2-3L（KTM1304）封装。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，常年待机监测不明显影响续航。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>平行磁场敏感</h3><p>TMR 阻桥随平行穿过的磁场变化，适合磁铁侧贴的笔杆结构。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>小回差</h3><p>回差可小于 3 高斯，贴合距离的小变化也能得到确定的翻转。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>小型封装</h3><p>提供 SOT-23-3L 与 DFN2*2-3L（<a class="c-xref" href="/msite/products/switch/ktm13/ktm1304sb">KTM1304</a>）封装。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

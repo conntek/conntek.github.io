@@ -138,26 +138,22 @@
       ]
     },
     {
-      "text": "服务与洞见",
-      "activeMatch": "^/(services|tech-talks)",
+      "text": "服务与 Wiki",
+      "activeMatch": "^/(services|basics)",
       "items": [
         {
           "text": "磁仿真&技术服务",
           "link": "/services"
         },
         {
-          "text": "技术洞见",
-          "link": "/tech-talks"
-        },
-        {
-          "text": "技术基础",
-          "link": "/basics"
+          "text": "技术 Wiki",
+          "link": "/basics/"
         }
       ]
     },
     {
       "text": "关于昆泰",
-      "activeMatch": "^/(about|contact)",
+      "activeMatch": "^/(about|contact|blog)",
       "items": [
         {
           "text": "公司简介",
@@ -174,6 +170,10 @@
         {
           "text": "加入我们",
           "link": "/about/#加入我们"
+        },
+        {
+          "text": "博客",
+          "link": "/blog/"
         },
         {
           "text": "联系我们",
@@ -882,19 +882,441 @@
     },
     {
       "text": "消费类电子",
-      "link": "/applications/consumer-electronics"
+      "link": "/applications/consumer-electronics",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "触控笔",
+          "link": "/applications/consumer-electronics/stylus"
+        },
+        {
+          "text": "电子棋盘",
+          "link": "/applications/consumer-electronics/e-chessboard"
+        },
+        {
+          "text": "轮椅摇杆",
+          "link": "/applications/consumer-electronics/wheelchair-joystick"
+        },
+        {
+          "text": "洗衣机",
+          "link": "/applications/consumer-electronics/washing-machine"
+        },
+        {
+          "text": "游戏手柄",
+          "link": "/applications/consumer-electronics/game-controller"
+        },
+        {
+          "text": "掌机摇杆",
+          "link": "/applications/consumer-electronics/handheld-joystick"
+        },
+        {
+          "text": "智能手表",
+          "link": "/applications/consumer-electronics/smart-watch"
+        },
+        {
+          "text": "无人机旋翼",
+          "link": "/applications/consumer-electronics/drone-rotor"
+        },
+        {
+          "text": "笔记本与平板合盖检测",
+          "link": "/applications/consumer-electronics/laptop-lid"
+        }
+      ]
     },
     {
       "text": "智能生活",
-      "link": "/applications/intelligent-life"
+      "link": "/applications/intelligent-life",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "咖啡机",
+          "link": "/applications/intelligent-life/coffee-machine"
+        },
+        {
+          "text": "陪伴机器人",
+          "link": "/applications/intelligent-life/companion-robot"
+        },
+        {
+          "text": "燃气灶-旋钮",
+          "link": "/applications/intelligent-life/gas-stove-knob"
+        },
+        {
+          "text": "扫地机器人-真空吸尘器",
+          "link": "/applications/intelligent-life/robot-vacuum"
+        },
+        {
+          "text": "扫地机-水位监测",
+          "link": "/applications/intelligent-life/robot-vacuum-water-level"
+        },
+        {
+          "text": "太阳能光电转换器",
+          "link": "/applications/intelligent-life/solar-converter"
+        },
+        {
+          "text": "智能马桶-枢轴检测",
+          "link": "/applications/intelligent-life/smart-toilet-pivot"
+        },
+        {
+          "text": "燃气灶-温度检测",
+          "link": "/applications/intelligent-life/gas-stove-temperature"
+        },
+        {
+          "text": "扫地机器人-尘盒检测",
+          "link": "/applications/intelligent-life/robot-vacuum-dustbin"
+        },
+        {
+          "text": "智能马桶-旋钮",
+          "link": "/applications/intelligent-life/smart-toilet-knob"
+        },
+        {
+          "text": "智能马桶-水位监测",
+          "link": "/applications/intelligent-life/smart-toilet-water-level"
+        }
+      ]
     },
     {
       "text": "工业4.0",
-      "link": "/applications/industry4"
+      "link": "/applications/industry4",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "电表",
+          "link": "/applications/industry4/electricity-meter"
+        },
+        {
+          "text": "断路器",
+          "link": "/applications/industry4/circuit-breaker"
+        },
+        {
+          "text": "燃气表",
+          "link": "/applications/industry4/gas-meter"
+        },
+        {
+          "text": "旋钮操控",
+          "link": "/applications/industry4/knob-control"
+        },
+        {
+          "text": "闸机",
+          "link": "/applications/industry4/turnstile"
+        },
+        {
+          "text": "机械电表",
+          "link": "/applications/industry4/mechanical-meter"
+        },
+        {
+          "text": "伺服电机",
+          "link": "/applications/industry4/servo-motor"
+        },
+        {
+          "text": "直线电机",
+          "link": "/applications/industry4/linear-motor"
+        },
+        {
+          "text": "机器人关节",
+          "link": "/applications/industry4/robot-joint"
+        },
+        {
+          "text": "夹爪",
+          "link": "/applications/industry4/gripper"
+        },
+        {
+          "text": "齿轮箱",
+          "link": "/applications/industry4/gearbox"
+        },
+        {
+          "text": "缝纫机",
+          "link": "/applications/industry4/sewing-machine"
+        },
+        {
+          "text": "无刷直流电机",
+          "link": "/applications/industry4/bldc-motor"
+        },
+        {
+          "text": "步进闭环",
+          "link": "/applications/industry4/closed-loop-stepper"
+        },
+        {
+          "text": "空心杯电机",
+          "link": "/applications/industry4/coreless-motor"
+        },
+        {
+          "text": "电梯",
+          "link": "/applications/industry4/elevator"
+        },
+        {
+          "text": "屏蔽门",
+          "link": "/applications/industry4/platform-screen-door"
+        },
+        {
+          "text": "AGV 搬运机器人",
+          "link": "/applications/industry4/agv"
+        },
+        {
+          "text": "水表",
+          "link": "/applications/industry4/water-meter"
+        },
+        {
+          "text": "热量表",
+          "link": "/applications/industry4/heat-meter"
+        },
+        {
+          "text": "气缸位置检测",
+          "link": "/applications/industry4/cylinder-position"
+        }
+      ]
     },
     {
       "text": "智能交通",
-      "link": "/applications/intelligent-transportation"
+      "link": "/applications/intelligent-transportation",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "电子节气门",
+          "link": "/applications/intelligent-transportation/e-throttle"
+        },
+        {
+          "text": "汽车角度控制",
+          "link": "/applications/intelligent-transportation/automotive-angle"
+        }
+      ]
+    }
+  ],
+  "basics": [
+    {
+      "text": "技术 Wiki首页",
+      "link": "/basics/"
+    },
+    {
+      "text": "角度测量与安装",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "在轴 / In-axis",
+          "link": "/basics/in-axis"
+        },
+        {
+          "text": "离轴 / Off-axis",
+          "link": "/basics/off-axis"
+        },
+        {
+          "text": "偏心与安装公差",
+          "link": "/basics/eccentricity"
+        },
+        {
+          "text": "气隙 / Air gap",
+          "link": "/basics/air-gap"
+        },
+        {
+          "text": "磁体 / Magnet",
+          "link": "/basics/magnet"
+        },
+        {
+          "text": "对极数 / Pole pairs",
+          "link": "/basics/pole-pairs"
+        },
+        {
+          "text": "杂散场 / Stray field",
+          "link": "/basics/stray-field"
+        }
+      ]
+    },
+    {
+      "text": "精度、噪声与动态",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "分辨率 / Resolution",
+          "link": "/basics/resolution"
+        },
+        {
+          "text": "INL / 积分非线性",
+          "link": "/basics/inl"
+        },
+        {
+          "text": "角度噪声 / Angle noise",
+          "link": "/basics/noise"
+        },
+        {
+          "text": "延时与动态误差 / Latency",
+          "link": "/basics/latency"
+        },
+        {
+          "text": "自校准 / Self-calibration",
+          "link": "/basics/self-calibration"
+        },
+        {
+          "text": "游标 / Vernier（Nonius）",
+          "link": "/basics/vernier"
+        }
+      ]
+    },
+    {
+      "text": "输出接口",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "绝对值输出 / 增量输出",
+          "link": "/basics/absolute-incremental"
+        },
+        {
+          "text": "ABZ 增量输出",
+          "link": "/basics/abz"
+        },
+        {
+          "text": "UVW 换向输出",
+          "link": "/basics/uvw"
+        },
+        {
+          "text": "SPI / SSI 串行绝对值接口",
+          "link": "/basics/spi-ssi"
+        },
+        {
+          "text": "CRC 帧校验",
+          "link": "/basics/crc"
+        },
+        {
+          "text": "I2C 总线",
+          "link": "/basics/i2c"
+        },
+        {
+          "text": "PWM 角度输出",
+          "link": "/basics/pwm"
+        }
+      ]
+    },
+    {
+      "text": "磁敏原理",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "霍尔效应 / Hall effect",
+          "link": "/basics/hall-effect"
+        },
+        {
+          "text": "斩波与旋转电流 / Chopper",
+          "link": "/basics/chopper"
+        },
+        {
+          "text": "垂直霍尔 / Vertical Hall",
+          "link": "/basics/vertical-hall"
+        },
+        {
+          "text": "三轴霍尔 / 3D Hall",
+          "link": "/basics/3d-hall"
+        },
+        {
+          "text": "AMR / 各向异性磁阻",
+          "link": "/basics/amr"
+        },
+        {
+          "text": "TMR / 隧道磁电阻",
+          "link": "/basics/tmr"
+        }
+      ]
+    },
+    {
+      "text": "开关与线性器件",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "单极型 / 全极型",
+          "link": "/basics/unipolar-omnipolar"
+        },
+        {
+          "text": "锁存型 / Latch",
+          "link": "/basics/latching"
+        },
+        {
+          "text": "BOP / BRP 与回差",
+          "link": "/basics/bop-brp"
+        },
+        {
+          "text": "线性霍尔 / 比例式输出",
+          "link": "/basics/linear-hall"
+        }
+      ]
+    }
+  ],
+  "blog": [
+    {
+      "text": "博客首页",
+      "link": "/blog/"
+    },
+    {
+      "text": "2024 年",
+      "collapsed": false,
+      "items": [
+        {
+          "text": "昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升",
+          "link": "/blog/kth78-multipole-calibration"
+        }
+      ]
+    },
+    {
+      "text": "2023 年",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "昆泰芯 KTH78 编码器在大扭矩电机中的应用",
+          "link": "/blog/kth78-high-torque-motor"
+        },
+        {
+          "text": "昆泰芯 KTH7812 在电摩应用中的优势",
+          "link": "/blog/kth7812-e-motorcycle"
+        },
+        {
+          "text": "KTH7811 简化电钻（BLDC）设计",
+          "link": "/blog/kth7811-bldc-drill"
+        },
+        {
+          "text": "解密 KTH78 黑科技：为什么它精度高还能延迟低",
+          "link": "/blog/kth78-accuracy-and-low-latency"
+        },
+        {
+          "text": "如何评价磁编的准确性？以昆泰芯 KTH78 为例",
+          "link": "/blog/how-to-evaluate-magnetic-encoder-accuracy"
+        },
+        {
+          "text": "KTH1601 与无线蓝牙耳机：让音乐与科技无缝连接",
+          "link": "/blog/kth1601-wireless-earbuds"
+        },
+        {
+          "text": "科技赋能生活：KTH1601 让垃圾桶「懂」你的需求",
+          "link": "/blog/kth1601-smart-trash-can"
+        },
+        {
+          "text": "智能门磁开关 KTH1601：守护家园的静默守卫",
+          "link": "/blog/kth1601-door-sensor"
+        },
+        {
+          "text": "数据的安全守护者：CRC 校验在 KTH78 系列中的应用",
+          "link": "/blog/crc-in-kth78"
+        },
+        {
+          "text": "如何借助霍尔效应传感器打造车规级智能「开-关」监测系统",
+          "link": "/blog/hall-sensor-automotive-switch"
+        },
+        {
+          "text": "离轴安装：昆泰芯 KTH5701/3D 霍尔芯片，让你的创意自由驰骋！",
+          "link": "/blog/kth5701-off-axis"
+        },
+        {
+          "text": "什么是 ABZ？KTH7816 做的很不错！",
+          "link": "/blog/what-is-abz"
+        },
+        {
+          "text": "昆泰芯 KTH78 系列在空心杯领域的创新应用",
+          "link": "/blog/kth78-coreless-motor"
+        },
+        {
+          "text": "神奇的霍尔效应",
+          "link": "/blog/hall-effect-explained"
+        },
+        {
+          "text": "KTH78 系列高精度绝对角度霍尔编码器实现机翼伺服系统",
+          "link": "/blog/kth78-launch-wing-servo"
+        }
+      ]
     }
   ]
 }

@@ -8,7 +8,7 @@
 
 所有页面共用同一骨架：面包屑 → 标题 → 导语 → 关键数字 → 若干二级章节 → 底部行动区。
 """
-import json, os, re, html, urllib.parse
+import io, json, os, re, html, urllib.parse
 from collections import OrderedDict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -30,6 +30,28 @@ IMG = load('cache/img_manifest.json', {})
 CATS = S['categories']
 PRODUCTS = S['products']
 APPS = S['applications']
+CASES = load('content/cases.json', {})
+
+
+def _append_extra_cases():
+    """源站没有、由知识库整理新增的案例（cases.json 里 extra:true）接进应用板块。
+
+    产品页上的应用标签要能链到案例页，而源站只有 25 个案例；其余应用只能在这里补。
+    追加在各板块原有案例之后，所以原案例的配图序号（case/<板块>/<序号>）不受影响。
+    """
+    by_key = {a['key']: a for a in APPS}
+    for area, entries in CASES.items():
+        a = by_key.get(area)
+        if area.startswith('_') or not a:
+            continue
+        have = {c['title'] for c in a['cases']}
+        for slug, d in entries.items():
+            if slug.startswith('_') or not d.get('extra') or d['title'] in have:
+                continue
+            a['cases'].append({'title': d['title'], 'chip': d['chip'], 'route': d.get('chip_route', ''), 'extra': True})
+
+
+_append_extra_cases()
 CAT_BY_KEY = {c['key']: c for c in CATS}
 ITEM_BY_SLUG = {i['slug']: (c, i) for c in CATS for i in c['items']}
 ORDER = [i['slug'] for c in CATS for i in c['items']] + [s for s in PRODUCTS if s not in ITEM_BY_SLUG]
@@ -263,11 +285,40 @@ def transposed_table(cols, rows, merge, skip=(), link=False, prod=None):
         vals = [r[ci] if ci < len(r) else '—' for r in rows]
         if all(is_empty(v) for v in vals):
             continue
+        if name == 'AEC-Q100' and all(v == '未标注' for v in vals):   # 工业/消费组整行都未标注，不显示
+            continue
         if all(v == vals[0] for v in vals) and len(vals) > 1:
             body += f'<tr><th scope="row">{E(name)}</th><td colspan="{len(vals)}">{cell_html(vals[0])}</td></tr>'
         else:
             body += f'<tr><th scope="row">{E(name)}</th>' + ''.join(f'<td>{cell_html(v)}</td>' for v in vals) + '</tr>'
     return out + body + '</tbody></table></div>\n\n' if body else ''
+
+
+def normalize_series_col(m):
+    """规格表里叫「系列」的那一列，装的其实是基础料号（KTH7801、KTH1604……），还把车规认证塞进括号。
+
+    按真实含义拆开：列名改为「料号」；括号里的「符合 Q100」挪到新增的「AEC-Q100」列，
+    有标注的写「符合」，没标注的写「未标注」（官网没说不符合，只是没标）。原地修改，返回 m。
+    """
+    if not m or '系列' not in m['cols']:
+        return m
+    ci = m['cols'].index('系列')
+    vals = [str(r[ci]) if ci < len(r) else '' for r in m['rows']]
+    if not any(re.match(r'^\s*KT[A-Za-z]', v) for v in vals):
+        return m
+    m['cols'][ci] = '料号'
+    has_q = any(re.search(r'Q100', v) for v in vals)
+    if has_q:
+        m['cols'].append('AEC-Q100')
+    for r, v in zip(m['rows'], vals):
+        q = re.search(r'[（(]\s*符合\s*(?:AEC-)?Q100\s*[)）]', v)
+        if ci < len(r):
+            r[ci] = re.sub(r'\s*[（(]\s*符合\s*(?:AEC-)?Q100\s*[)）]', '', v).strip()
+        if has_q:
+            while len(r) < len(m['cols']) - 1:
+                r.append('—')
+            r.append('符合' if q else '未标注')
+    return m
 
 
 def compare_tables(cols, rows, merge, group_by=None, link=False, prod=None):
@@ -277,14 +328,22 @@ def compare_tables(cols, rows, merge, group_by=None, link=False, prod=None):
         g = str(r[group_by]).strip() if isinstance(group_by, int) and group_by < len(r) else ''
         groups.setdefault(g, []).append(r)
     skip = [group_by] if isinstance(group_by, int) else []
+    if '料号' in cols:          # 表头已是完整订货号，基础料号那一行不再重复
+        skip.append(cols.index('料号'))
     out = ''
+    idc = id_index(cols)
     for g, grows in groups.items():
         chunks = [grows[i:i + MAX_COMPARE] for i in range(0, len(grows), MAX_COMPARE)]
         for n, chunk in enumerate(chunks, 1):
             label = g + (f'（{n}/{len(chunks)}）' if len(chunks) > 1 else '')
-            if label:
-                out += f'<p class="c-table-sub">{E(label)}</p>\n\n'
-            out += transposed_table(cols, chunk, merge, skip, link=link, prod=prod)
+            table = transposed_table(cols, chunk, merge, skip, link=link, prod=prod)
+            if not table:
+                continue
+            # 系列页表格多：每组对比表默认收起，标题行给出分组、型号数与型号清单
+            ids = [str(r[idc]).strip() for r in chunk]
+            head = f'<b>{E(label or "型号对比")}</b><span class="c-fold__n">{len(chunk)} 个型号</span>'
+            head += f'<span class="c-fold__ids">{E("、".join(ids))}</span>'
+            out += f'<details class="c-fold"><summary>{head}</summary>\n\n{table}</details>\n\n'
     return out
 
 
@@ -383,9 +442,14 @@ def as_matrix(t):
 
 def merged_spec(slug, spec_tables, fig_tables):
     """产品页用：把合并后的型号矩阵渲染成分组对比表。"""
-    m = merged_matrix(slug, spec_tables, fig_tables)
+    m = normalize_series_col(merged_matrix(slug, spec_tables, fig_tables))
     if not m:
         return None, []
+    # 源站把别的系列的料号混进了本系列规格表（如 KTH78 表里的 KTH71xx）：它们已在自己的系列页展示，这里去掉
+    idc = id_index(m['cols'])
+    own = [r for r in m['rows'] if (owner_of(split_models(r[idc])[0]) or slug) == slug]
+    if own:
+        m = dict(m, rows=own)
     return compare_tables(m['cols'], m['rows'], [], m['grade'], link=True, prod=slug), m['conflicts']
 
 
@@ -680,7 +744,7 @@ def render_product(slug):
     rel = related_cases(p['route'])
     if rel:
         out += section('应用案例', f'以下场景推荐使用 {c["model"]}。')
-        out += grid([card(case_link(a, cse), IMG.get(f'case/{a["key"]}/{n}'), cse['title'], kicker=a['name'], media_kind='case')
+        out += grid([card(case_link(a, cse), case_img(a['key'], n, cse['title']), cse['title'], kicker=a['name'], media_kind='case')
                      for a, n, cse in rel[:8]], 4)
 
     siblings = [s for s in cat_slugs(cat['key']) if s != slug]
@@ -1132,7 +1196,7 @@ def render_products():
                 if cse['title'] in seen:
                     continue
                 seen.add(cse['title'])
-                cards.append(card(case_link(a, cse), IMG.get(f'case/{a["key"]}/{n}'), cse['title'], kicker=cse['chip'], media_kind='case'))
+                cards.append(card(case_link(a, cse), case_img(a['key'], n, cse['title']), cse['title'], kicker=cse['chip'], media_kind='case'))
             out += grid(cards[:8], 4)
         if cg.get('faq'):
             out += section('常见问题')
@@ -1145,7 +1209,6 @@ def render_products():
 
 
 # ---------- 应用案例详情页 ----------
-CASES = load('content/cases.json', {})
 APP_GUIDES = load('content/app_guides.json', {})
 CAT_GUIDES = load('content/category_guides.json', {})
 GLOSSARY = load('content/glossary.json', {})
@@ -1159,6 +1222,18 @@ def case_entry(area_key, title):
         if d.get('title') == title:
             return slug, d
     return None, None
+
+
+def case_img(area_key, n, title=None):
+    """案例配图：源站案例按序号取；知识库补写的案例没有序号图，按 slug 取 codex 生成的场景图。"""
+    img = IMG.get(f'case/{area_key}/{n}') if n is not None else None
+    if img:
+        return img
+    if title:
+        slug, _ = case_entry(area_key, title)
+        if slug:
+            return IMG.get(f'case/{area_key}/{slug}')
+    return None
 
 
 def case_page_route(area_key, title):
@@ -1238,9 +1313,10 @@ def render_case_pages():
             out += f'<p class="c-lead">{E(d.get("lead", ""))}</p>\n\n'
             out += ('<div class="c-actions">'
                     + (f'<a class="c-btn c-btn--brand" href="{chip_route}">推荐芯片 {E(cse["chip"])}</a>' if chip_route else '')
+                    + ''.join(f'<a class="c-btn" href="{x["route"]}">也可选 {E(x["chip"])}</a>' for x in d.get('also') or [])
                     + '<a class="c-btn" href="/contact">方案咨询</a></div>\n\n')
 
-            img = IMG.get(f'case/{a["key"]}/{idx}')
+            img = case_img(a['key'], idx, cse['title'])
             out += section('场景说明')
             body = '\n\n'.join(d.get('scenario') or [])
             if img:
@@ -1268,14 +1344,20 @@ def render_case_pages():
                 out += section('设计注意点', '通用工程建议，实际设计以产品手册与实测为准。')
                 out += '<ul class="c-checklist">' + ''.join(f'<li>{E(x)}</li>' for x in d['design_notes']) + '</ul>\n\n'
 
-            rel = [r for r in (d.get('related') or []) if r in (CASES.get(a['key']) or {})]
+            # 相关案例可以跨板块：先在本板块找 slug，找不到再去其它板块找
+            def find_rel(rslug):
+                for ra in [a] + [x for x in APPS if x is not a]:
+                    if rslug in (CASES.get(ra['key']) or {}):
+                        return ra, CASES[ra['key']][rslug]
+                return None, None
+            rel = [(rslug,) + find_rel(rslug) for rslug in (d.get('related') or [])]
+            rel = [r for r in rel if r[1]]
             if rel:
                 out += section('相关案例')
                 cards = []
-                for rslug in rel[:4]:
-                    rd = CASES[a['key']][rslug]
-                    ridx = next((i for i, c2 in enumerate(a['cases']) if c2['title'] == rd['title']), None)
-                    cards.append(card(f'/applications/{a["key"]}/{rslug}', IMG.get(f'case/{a["key"]}/{ridx}') if ridx is not None else '',
+                for rslug, ra, rd in rel[:4]:
+                    ridx = next((i for i, c2 in enumerate(ra['cases']) if c2['title'] == rd['title']), None)
+                    cards.append(card(f'/applications/{ra["key"]}/{rslug}', case_img(ra['key'], ridx, rd['title']) or '',
                                       rd['title'], rd.get('lead', ''), kicker=rd.get('chip', ''), media_kind='case', more='查看案例'))
                 out += grid(cards, 4)
             out += cta()
@@ -1320,7 +1402,7 @@ def render_applications():
                 f'<div class="c-feature"><span class="c-feature__no">{i:02d}</span><div><h3>{E(x["title"])}</h3><p>{E(x["desc"])}</p></div></div>'
                 for i, x in enumerate(g['needs'], 1)) + '</div>\n\n'
         out += section('应用案例', ac.get('desc', ''))
-        out += grid([card(case_link(a, cse), IMG.get(f'case/{a["key"]}/{n}'), cse['title'], kicker=cse['chip'],
+        out += grid([card(case_link(a, cse), case_img(a['key'], n, cse['title']), cse['title'], kicker=cse['chip'],
                           media_kind='case', more='查看案例') for n, cse in enumerate(a['cases'])], 4)
         out += section('推荐芯片一览')
         out += '<div class="c-table c-table--links"><table><thead><tr><th>推荐芯片</th><th>对应产品</th><th>应用场景</th></tr></thead><tbody>'
@@ -1378,54 +1460,201 @@ def render_services():
 
 
 # ---------- 技术洞见 ----------
-def render_techtalks():
-    tc = page_copy('techtalks')
-    arts = S['techtalks']
-    years = sorted({a['date'][:4] for a in arts}, reverse=True)
-    out = fm(title=SEC['techtalks'], description=tc.get('lead', ''), aside=False, pageClass='c-page')
-    out += header([HOME, (SEC['techtalks'], None)], SEC['techtalks'],
-                  tc.get('lead', '围绕编码器精度、低延时、多对极校准与霍尔开关应用的技术文章。'),
-                  [dict(value=len(arts), label='篇文章'), dict(value=f'{years[-1]}–{years[0]}', label='发布时间')], kicker=BRAND)
+BLOG_CATS = ['新品发布', '产品解读', '应用方案', '技术科普']
+
+
+def load_posts():
+    """content/blog/*.json（由 scripts/blog_fetch.py 下载、按 content/blog/_format.md 统一排版）。"""
+    d = os.path.join(ROOT, 'content', 'blog')
+    posts = []
+    if not os.path.isdir(d):
+        return posts
+    order = {a['href']: n for n, a in enumerate(S.get('techtalks') or [])}
+    for fn in sorted(os.listdir(d)):
+        if not fn.endswith('.json'):
+            continue
+        p = json.load(io.open(os.path.join(d, fn), encoding='utf-8'))
+        p['_n'] = order.get(p.get('source'))
+        # 标题与正文同一套文字规范：中文与英文/数字之间补半角空格，半角感叹/问号改全角
+        t = re.sub(r'([一-鿿])([A-Za-z0-9])', r'\1 \2', p['title'])
+        t = re.sub(r'([A-Za-z0-9])([一-鿿])', r'\1 \2', t)
+        t = re.sub(r'\s*!\s*$', '！', t).replace('?', '？').replace('“', '「').replace('”', '」')
+        t = re.sub(r'\s*\(([^()]*)\)', r'（\1）', t)
+        # 「新品发布 | 」这类前缀与栏目标签重复，页面上已经单独显示栏目
+        p['title'] = re.sub(r'^(新品发布|产品解读|应用方案|技术科普)\s*[|｜]\s*', '', t)
+        p.setdefault('category', '')
+        p['lead'] = p.get('lead') or p.get('summary', '').rstrip('……').rstrip('…')
+        posts.append(p)
+    posts.sort(key=lambda p: (p.get('date', ''), p['slug']), reverse=True)
+    return posts
+
+
+def blog_card_img(p):
+    return (IMG.get(f'tt/{p["_n"]}') if p.get('_n') is not None else None) or p.get('hero') or p.get('cover')
+
+
+def blog_body_html(md):
+    """正文里独占一行的 ![图注](src) 变成带图注的 figure；视频提示变成统一的提示条。"""
+    def fig(m):
+        cap, src = m.group(1).strip(), m.group(2).strip()
+        cap_html = f'<figcaption>{E(cap)}</figcaption>' if cap else ''
+        return f'\n<figure class="c-blog-fig"><img src="{src}" alt="{E(cap)}" loading="lazy">{cap_html}</figure>\n'
+    md = re.sub(r'^!\[([^\]]*)\]\(([^)\s]+)\)\s*$', fig, md, flags=re.M)
+    # 兜底：没有独占一行的图片也转成 <img>，这样 write() 才会给 src 补上站点 base
+    md = re.sub(r'!\[([^\]]*)\]\((/[^)\s]+)\)', lambda m: f'<img src="{m.group(2)}" alt="{E(m.group(1))}" loading="lazy">', md)
+    return md
+
+
+def reading_minutes(md):
+    text = re.sub(r'!\[[^\]]*\]\([^)]*\)|[#>*`\-|]', '', md)
+    return max(1, round(len(re.sub(r'\s+', '', text)) / 450))
+
+
+def render_blog():
+    posts = load_posts()
+    if not posts:
+        return 0
+    years = sorted({p['date'][:4] for p in posts}, reverse=True)
+    lead = '昆泰芯的产品解读、应用方案与技术科普文章：编码器精度、低延时、多对极校准、霍尔与 TMR 开关应用。'
+    out = fm(title='博客', description=lead, aside=False, pageClass='c-page c-page--blog')
+    out += header([HOME, (SEC['about'], '/about/'), ('博客', None)], '博客', lead,
+                  [dict(value=len(posts), label='篇文章'), dict(value=len({p['category'] for p in posts if p['category']}) or len(BLOG_CATS), label='个栏目'),
+                   dict(value=f'{years[-1]}–{years[0]}', label='发布时间')], kicker=BRAND)
     for y in years:
-        items = [(n, a) for n, a in enumerate(arts) if a['date'][:4] == y]
+        items = [p for p in posts if p['date'][:4] == y]
         out += section(f'{y} 年', f'共 {len(items)} 篇')
-        out += grid([card(a['href'], IMG.get(f'tt/{n}', a['image']), a['title'], a['summary'], kicker=a['date'],
-                          media_kind='photo', more='阅读全文', external=True) for n, a in items], 3)
+        out += grid([card(f'/blog/{p["slug"]}', blog_card_img(p), p['title'], p['lead'],
+                          kicker=' · '.join(x for x in (p['date'], p['category']) if x),
+                          media_kind='photo', more='阅读全文') for p in items], 3)
     out += cta()
-    write('tech-talks.md', out)
+    write('blog/index.md', out)
+
+    for i, p in enumerate(posts):
+        newer = posts[i - 1] if i > 0 else None
+        older = posts[i + 1] if i + 1 < len(posts) else None
+        body = p.get('body') or ''
+        out = fm(title=p['title'], description=p['lead'][:120], outline=[2, 3], pageClass='c-page c-page--post')
+        out += eyebrow(HOME, (SEC['about'], '/about/'), ('博客', '/blog/'), (p['title'], None))
+        if p['category']:
+            out += f'<p class="c-kicker">{E(p["category"])}</p>\n\n'
+        out += f'# {p["title"]}\n\n'
+        meta = [p['date'], p.get('author') or '昆泰芯', f'阅读约 {reading_minutes(body)} 分钟']
+        out += '<p class="c-post-meta">' + '<span>·</span>'.join(f'<span>{E(x)}</span>' for x in meta if x) + '</p>\n\n'
+        out += f'<p class="c-lead">{E(p["lead"])}</p>\n\n'
+        if p.get('takeaways'):
+            out += ('<div class="c-takeaways"><b>本文要点</b><ul>' +
+                    ''.join(f'<li>{E(t)}</li>' for t in p['takeaways']) + '</ul></div>\n\n')
+        if p.get('hero'):
+            out += f'<figure class="c-blog-fig c-blog-fig--hero"><img src="{p["hero"]}" alt="{E(p["title"])}"></figure>\n\n'
+        out += blog_body_html(body) + '\n\n'
+        out += (f'<p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，{E(p["date"])}。'
+                f'<a href="{p["source"]}" target="_blank" rel="noopener">查看原文</a></p>\n\n')
+        nav = []
+        if older:
+            nav.append(card(f'/blog/{older["slug"]}', None, older['title'], kicker='上一篇', more='阅读'))
+        if newer:
+            nav.append(card(f'/blog/{newer["slug"]}', None, newer['title'], kicker='下一篇', more='阅读'))
+        if nav:
+            out += grid(nav, 2)
+        same = [q for q in posts if q is not p and q['category'] and q['category'] == p['category']][:3]
+        if same:
+            out += section('同栏目文章')
+            out += grid([card(f'/blog/{q["slug"]}', blog_card_img(q), q['title'], q['lead'], kicker=q['date'],
+                              media_kind='photo', more='阅读全文') for q in same], 3)
+        out += cta()
+        write(f'blog/{p["slug"]}.md', out)
+    render_blog.sidebar = [{'text': '博客首页', 'link': '/blog/'}] + [
+        {'text': f'{y} 年', 'collapsed': y != years[0],
+         'items': [{'text': q['title'], 'link': f'/blog/{q["slug"]}'} for q in posts if q['date'][:4] == y]}
+        for y in years]
+    return len(posts)
 
 
 # ---------- 技术基础 ----------
 def render_glossary():
+    """技术 Wiki：首页 /basics/ 按主题列词条卡片，每个词条一页 /basics/<key>。
+
+    词条数据在 content/glossary.json：term / short / sections[{title, paras}] / pitfalls[{myth, fact}] /
+    note / related_series / related_terms（旧格式的 body 列表仍兼容）。侧栏写进 render_glossary.sidebar，
+    由 render_nav 落到 sidebar.json 的 basics 键。
+    """
     g = GLOSSARY
+    render_glossary.sidebar = []
     if not g.get('terms'):
         return 0
+    wiki, root = '技术 Wiki', '/basics/'
     terms = g['terms']
-    out = fm(title='技术基础', description='产品页用到的角度测量、精度、接口与磁敏原理术语解释。', aside=False, pageClass='c-page')
-    out += header([HOME, ('技术基础', None)], '技术基础',
-                  '产品页里反复出现的术语，在这里统一解释：怎么装、精度怎么算、接口怎么选、几种磁敏原理有什么区别。',
-                  [dict(value=len(g.get('groups', [])), label='主题'), dict(value=len(terms), label='术语')], kicker=BRAND)
-    for grp in g.get('groups', []):
-        out += section(grp['title'])
-        for key in grp['terms']:
-            d = terms.get(key)
-            if not d:
-                continue
-            out += f'<h3 id="{key}">{E(d["term"])}</h3>\n\n'
-            out += f'<p class="c-term-short">{E(d.get("short", ""))}</p>\n\n'
-            out += '\n\n'.join(d.get('body') or []) + '\n\n'
-            if d.get('note'):
-                out += f'<p class="c-note">{E(d["note"])}</p>\n\n'
-            rel = [x for x in (d.get('related_series') or [])]
-            if rel:
-                links = []
-                for ser in rel:
-                    sl = next((x for x in PRODUCTS if pc(x)['model'] == ser), '')
-                    links.append(f'<a href="{PRODUCTS[sl]["route"]}">{E(ser)}</a>' if sl else E(ser))
-                out += '<p class="c-term-rel"><b>相关系列</b>' + '、'.join(links) + '</p>\n\n'
+    groups = [dict(grp, terms=[k for k in grp['terms'] if k in terms]) for grp in g.get('groups', [])]
+    order = [(grp, k) for grp in groups for k in grp['terms']]
+    group_of = {k: grp for grp, k in order}
+    n_pit = sum(len(terms[k].get('pitfalls') or []) for _, k in order)
+
+    def route(key):
+        return f'{root}{key}'
+
+    def term_card(key, kicker='', more='阅读词条'):
+        d = terms[key]
+        return card(route(key), '', d['term'], d.get('short', ''), kicker=kicker, more=more)
+
+    def series_slug(ser):
+        return next((x for x in PRODUCTS if pc(x)['model'] == ser), '')
+
+    # ---- 首页 ----
+    out = fm(title=wiki, description='磁传感与角度编码器的技术词条：安装、精度、接口、磁敏原理与开关器件，每条讲清是什么、为什么重要、怎么选与常见误区。',
+             aside=False, pageClass='c-page c-page--wiki')
+    out += header([HOME, (wiki, None)], wiki,
+                  '产品页里反复出现的术语，在这里逐条讲透：是什么、为什么重要、怎么装怎么选，以及工程上最常见的误区。',
+                  [dict(value=len(order), label='词条'), dict(value=len(groups), label='主题'), dict(value=n_pit, label='常见误区')],
+                  kicker=BRAND)
+    for grp in groups:
+        out += section(grp['title'], grp.get('lead', ''))
+        out += grid([term_card(k) for k in grp['terms']], 3)
     out += cta('还有拿不准的参数？', '选型、磁路与接口对接上的问题，欢迎直接找我们的技术团队确认。')
-    write('basics.md', out)
-    return len(terms)
+    write('basics/index.md', out)
+
+    # ---- 词条页 ----
+    for i, (grp, key) in enumerate(order):
+        d = terms[key]
+        out = fm(title=f'{d["term"]} · {wiki}', description=d.get('short', ''), aside=False, pageClass='c-page c-page--wiki')
+        out += eyebrow(HOME, (wiki, root), (d['term'], None))
+        out += f'<p class="c-kicker">{E(grp["title"])}</p>\n\n# {d["term"]}\n\n'
+        if d.get('short'):
+            out += f'<p class="c-lead">{E(d["short"])}</p>\n\n'
+        secs = d.get('sections') or ([{'title': '是什么', 'paras': d['body']}] if d.get('body') else [])
+        for s in secs:
+            out += section(s['title'])
+            out += '\n\n'.join(s.get('paras') or []) + '\n\n'
+        if d.get('note'):
+            out += f'::: tip 要点提示\n{d["note"]}\n:::\n\n'
+        if d.get('pitfalls'):
+            out += section('常见误区', '每条标题是常听到的说法，下方是工程上的实际情况。')
+            out += '<div class="c-features c-pitfalls">' + ''.join(
+                f'<div class="c-feature"><span class="c-feature__no">{n:02d}</span><div><h3>{E(p["myth"])}</h3><p>{E(p["fact"])}</p></div></div>'
+                for n, p in enumerate(d['pitfalls'], 1)) + '</div>\n\n'
+        rel = [s for s in (series_slug(x) for x in d.get('related_series') or []) if s]
+        if rel:
+            out += section('相关系列', '正文涉及的原理与指标，在这些产品系列上用得到。')
+            out += grid([card(PRODUCTS[s]['route'], product_visual(s), pc(s)['name'], pc(s)['lead'], kicker=pc(s)['model'],
+                              media_kind='icon' if icon(s) else 'product', more='查看产品') for s in rel], 3)
+        rel_terms = [k for k in d.get('related_terms') or [] if k in terms and k != key]
+        rel_terms += [k for k in grp['terms'] if k != key and k not in rel_terms]
+        if rel_terms:
+            out += section('相关词条')
+            out += grid([term_card(k, kicker=group_of[k]['title']) for k in rel_terms[:6]], 3)
+        pager = []
+        if i > 0:
+            pager.append(term_card(order[i - 1][1], kicker='← 上一条', more=''))
+        if i + 1 < len(order):
+            pager.append(term_card(order[i + 1][1], kicker='下一条 →', more=''))
+        if pager:
+            out += '<div class="c-wiki-pager">\n\n' + grid(pager, 2) + '</div>\n\n'
+        out += cta('还有拿不准的参数？', '选型、磁路与接口对接上的问题，欢迎直接找我们的技术团队确认。')
+        write(f'basics/{key}.md', out)
+
+    render_glossary.sidebar = [{'text': f'{wiki}首页', 'link': root}] + [
+        {'text': grp['title'], 'collapsed': False, 'items': [{'text': terms[k]['term'], 'link': route(k)} for k in grp['terms']]}
+        for grp in groups]
+    return len(order)
 
 
 # ---------- 关于 ----------
@@ -1434,6 +1663,13 @@ def cert_title(q):
     if m:
         return m.group(0)
     return ' / '.join(x for x in ('RoHS', 'REACH') if x in q) or '认证'
+
+
+def value_img(v):
+    """核心价值观卡片顶部的简笔漫画（scripts/motif/make_values.py 生成）；英文名末词即文件名。"""
+    key = v['en'].strip().split()[-1].lower()
+    src = f'/img/values/{key}.webp'
+    return f'<div class="c-value__img"><img src="{src}" alt="" loading="lazy"></div>' if exists(src) else ''
 
 
 def render_about():
@@ -1451,7 +1687,7 @@ def render_about():
     out += '</div>\n\n'
     out += section('核心价值观')
     out += '<div class="c-grid c-grid--3">' + ''.join(
-        f'<div class="c-value"><span>{E(v["en"].upper())}</span><h3>{E(v["name"])}</h3><p>{E(v["desc"])}</p></div>' for v in ab['values']) + '</div>\n\n'
+        f'<div class="c-value">{value_img(v)}<span>{E(v["en"].upper())}</span><h3>{E(v["name"])}</h3><p>{E(v["desc"])}</p></div>' for v in ab['values']) + '</div>\n\n'
     out += section('核心优势')
     out += '\n\n'.join(ac.get('strength') or [ab['advantage']]) + '\n\n'
     out += section('品质认证')
@@ -1585,9 +1821,9 @@ hero:
     ab = COPY.get('pages', {}).get('about', {}).get('profile') or [S['about']['about']]
     out += (f'<div class="c-split"><div class="c-split__media c-split__media--video"><video controls preload="none" poster="{IMG.get("poster/home", v["poster"])}" src="{v["src"]}"></video></div>'
             f'<div class="c-split__text">\n\n{ab[0]}\n\n<div class="c-tags"><span>ISO 26262</span><span>ISO 9001</span><span>RoHS</span><span>REACH</span></div>\n\n</div></div>\n\n')
-    out += hsec('techtalks', SEC['techtalks'], '编码器精度、低延时与多对极校准的技术文章。', '/tech-talks', '全部文章')
-    out += grid([card(a['href'], IMG.get(f'tt/{n}', a['image']), a['title'], a['summary'], kicker=a['date'], media_kind='photo', more='阅读全文', external=True)
-                 for n, a in enumerate(S['techtalks'][:3])], 3)
+    out += hsec('techtalks', '博客', '编码器精度、低延时与多对极校准的技术文章。', '/blog/', '全部文章')
+    out += grid([card(f'/blog/{p["slug"]}', blog_card_img(p), p['title'], p['lead'], kicker=p['date'], media_kind='photo', more='阅读全文')
+                 for p in load_posts()[:3]], 3)
     out += cta()
     out += '\n</div>\n'
     write('index.md', out)
@@ -1622,16 +1858,131 @@ def render_nav():
     nav = [
         {'text': SEC['products'], 'activeMatch': '^/products/', 'items': prod_items},
         {'text': SEC['applications'], 'activeMatch': '^/applications/', 'items': apps},
-        {'text': '服务与洞见', 'activeMatch': '^/(services|tech-talks)', 'items': [
-            {'text': SEC['services'], 'link': '/services'}, {'text': SEC['techtalks'], 'link': '/tech-talks'},
-            {'text': '技术基础', 'link': '/basics'}]},
-        {'text': SEC['about'], 'activeMatch': '^/(about|contact)', 'items': [
+        {'text': '服务与 Wiki', 'activeMatch': '^/(services|basics)', 'items': [
+            {'text': SEC['services'], 'link': '/services'}, {'text': '技术 Wiki', 'link': '/basics/'}]},
+        {'text': SEC['about'], 'activeMatch': '^/(about|contact|blog)', 'items': [
             {'text': '公司简介', 'link': '/about/#公司简介'}, {'text': '核心价值观', 'link': '/about/#核心价值观'},
             {'text': '品质认证', 'link': '/about/#品质认证'}, {'text': '加入我们', 'link': '/about/#加入我们'},
-            {'text': SEC['contact'], 'link': '/contact'}]},
+            {'text': '博客', 'link': '/blog/'}, {'text': SEC['contact'], 'link': '/contact'}]},
     ]
-    json.dump({'nav': nav, 'products': side_products, 'applications': apps},
+    # 侧栏的市场应用要有二级：板块下挂各个案例页（顶栏下拉只放到板块一级）
+    side_apps = [{'text': f"{SEC['applications']}总览", 'link': '/applications/'}]
+    for a in APPS:
+        entry = {'text': a['name'], 'link': f'/applications/{a["key"]}'}
+        kids = [{'text': cse['title'], 'link': r} for cse in a['cases'] for r in [case_page_route(a['key'], cse['title'])] if r]
+        if kids:
+            entry['collapsed'] = True
+            entry['items'] = kids
+        side_apps.append(entry)
+    json.dump({'nav': json.loads(json.dumps(nav).replace('"/basics"', '"/basics/"')), 'products': side_products, 'applications': side_apps, 'basics': getattr(render_glossary, 'sidebar', []), 'blog': getattr(render_blog, 'sidebar', [])},
               open(os.path.join(DOCS, '.vitepress', 'sidebar.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+
+
+def link_targets():
+    """型号 / 系列名 → 页面路由。
+
+    - 完整订货号（KTH7801-X-N-QN16、KTM1301MD）→ 型号页
+    - 系列名（KTH78、KTH78XX、KTAx333、KTH13/16/17 里的每个前缀）→ 系列页
+    - 裸料号（KTH7801、KTM1331）→ 以它开头的第一个型号页；找不到型号页时按前缀归到系列页
+    """
+    models = {}
+    for slug in ORDER:
+        for mid, route, _ in MODEL_INDEX.get(slug) or []:
+            models.setdefault(mid.upper(), route)
+    series = {}
+    for slug in ORDER:
+        route = PRODUCTS[slug]['route']
+        model = re.sub(r'\s*系列\s*$', '', pc(slug)['model']).strip()
+        series.setdefault(model.upper(), route)
+        for pre in series_prefixes(model):
+            series.setdefault(pre, route)
+    return models, series
+
+
+AUTOLINK_TOKEN = re.compile(r'(?<![A-Za-z0-9_/.-])(KT[A-Za-z]{1,3}\d{2,4}[A-Za-z0-9]*(?:-[A-Za-z0-9]+)*)(?![A-Za-z0-9_-])')
+
+
+def resolve_token(tok, models, series):
+    t = tok.upper()
+    if t in models:
+        return models[t]
+    bare = re.sub(r'X{1,2}$', '', t)
+    if t in series:
+        return series[t]
+    if bare != t and bare in series:
+        return series[bare]
+    pref = [k for k in models if k.startswith(t)]      # 按型号表原始顺序取第一个，不按字母序
+    if pref:
+        return models[pref[0]]
+    own = owner_of(t)
+    return PRODUCTS[own]['route'] if own else None
+
+
+def autolink_text(text, self_route, models, series):
+    def sub(m):
+        route = resolve_token(m.group(1), models, series)
+        if not route or route == self_route:
+            return m.group(0)
+        return f'<a class="c-xref" href="{SITE_BASE}{route.lstrip("/")}">{m.group(1)}</a>'
+    return AUTOLINK_TOKEN.sub(sub, text)
+
+
+def autolink_pages():
+    """全站后处理：正文里出现的型号与系列名一律加链接。
+
+    放在所有页面写完之后跑，因为型号页清单（MODEL_INDEX）要等全部系列渲染完才齐。
+    跳过：frontmatter、标题行、已有 <a> 内部、HTML 标签属性、代码；链接不指向本页自己。
+    """
+    models, series = link_targets()
+    n = 0
+    for fn in sorted(WRITTEN):
+        if not fn.endswith('.md'):
+            continue
+        rel = os.path.relpath(fn, os.path.normcase(os.path.abspath(DOCS))).replace(os.sep, '/')
+        self_route = '/' + rel[:-3]
+        if self_route.endswith('/index'):
+            self_route = self_route[:-len('index')]
+        src = io.open(fn, encoding='utf-8').read()
+        body_start = 0
+        if src.startswith('---'):
+            end = src.find('\n---', 3)
+            body_start = end + 4 if end >= 0 else 0
+        head, body = src[:body_start], src[body_start:]
+        out, in_a, in_code, in_heading, in_fence, line_start = [], 0, 0, False, False, True
+        for part in re.split(r'(<[^>]+>)', body):
+            if part.startswith('<') and part.endswith('>'):
+                tag = part.lower()
+                if re.match(r'<a[\s>]', tag):
+                    in_a += 1
+                elif tag.startswith('</a'):
+                    in_a = max(0, in_a - 1)
+                elif re.match(r'<(code|pre|script|style|summary)[\s>]', tag):
+                    in_code += 1
+                elif re.match(r'</(code|pre|script|style|summary)', tag):
+                    in_code = max(0, in_code - 1)
+                out.append(part)
+                continue
+            pieces = []
+            for line in re.split(r'(\n)', part):
+                if line == '\n':
+                    in_heading, line_start = False, True
+                    pieces.append(line)
+                    continue
+                if line_start and line.lstrip().startswith('```'):
+                    in_fence = not in_fence
+                if line_start and line.lstrip().startswith('#'):
+                    in_heading = True
+                if line:
+                    line_start = False
+                if in_a or in_code or in_heading or in_fence:
+                    pieces.append(line)
+                else:
+                    new = autolink_text(line, self_route, models, series)
+                    n += new.count('class="c-xref"')
+                    pieces.append(new)
+            out.append(''.join(pieces))
+        io.open(fn, 'w', encoding='utf-8', newline='\n').write(head + ''.join(out))
+    return n
 
 
 def prune_stale():
@@ -1660,7 +2011,7 @@ def main():
     matrices, foreign = {}, {}
     for slug in ORDER:
         m = merged_matrix(slug, SPECS.get(slug) or [], figures_for(slug, PRODUCTS[slug]['figures'])[0])
-        matrices[slug] = m
+        matrices[slug] = normalize_series_col(m)
         if not m:
             continue
         own_prefix = series_prefix(pc(slug)['model'])
@@ -1684,12 +2035,15 @@ def main():
     render_applications()
     n_cases = render_case_pages()
     render_services()
-    render_techtalks()
+    n_posts = render_blog()
+    print('blog posts', n_posts)
     n_terms = render_glossary()
     render_about()
     render_contact()
     render_home()
     render_nav()
+    n_xref = autolink_pages()
+    print('autolinked', n_xref, 'model/series mentions')
     stale = prune_stale()
     print('rendered', len(PRODUCTS), 'products +', n_models, 'model +', n_cases, 'case pages +', n_terms,
           'terms + index pages; removed', stale, 'stale files')

@@ -4,3 +4,6 @@ docs/.vitepress/dist/
 *.part
 cache/download.log
 .claude/
+cache/blog/
+cache/*-rejected.png
+scripts/__pycache__/

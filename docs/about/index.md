@@ -29,7 +29,7 @@ pageClass: "c-page"
 
 ## 核心价值观
 
-<div class="c-grid c-grid--3"><div class="c-value"><span>UPRIGHT</span><h3>正直</h3><p>坚持真理，刚正不阿</p></div><div class="c-value"><span>BE REALISTIC</span><h3>求实</h3><p>从实际出发、实事求是</p></div><div class="c-value"><span>BE ENTERPRISING</span><h3>进取</h3><p>突破现状，积极向上</p></div><div class="c-value"><span>INNOVATE</span><h3>创新</h3><p>敢为人先，勇于实践</p></div><div class="c-value"><span>TEAMWORK</span><h3>协同</h3><p>齐心协力，同舟共济</p></div><div class="c-value"><span>SHARE</span><h3>分享</h3><p>分享知识，创造价值</p></div></div>
+<div class="c-grid c-grid--3"><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/upright.webp" alt="" loading="lazy"></div><span>UPRIGHT</span><h3>正直</h3><p>坚持真理，刚正不阿</p></div><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/realistic.webp" alt="" loading="lazy"></div><span>BE REALISTIC</span><h3>求实</h3><p>从实际出发、实事求是</p></div><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/enterprising.webp" alt="" loading="lazy"></div><span>BE ENTERPRISING</span><h3>进取</h3><p>突破现状，积极向上</p></div><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/innovate.webp" alt="" loading="lazy"></div><span>INNOVATE</span><h3>创新</h3><p>敢为人先，勇于实践</p></div><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/teamwork.webp" alt="" loading="lazy"></div><span>TEAMWORK</span><h3>协同</h3><p>齐心协力，同舟共济</p></div><div class="c-value"><div class="c-value__img"><img src="/msite/img/values/share.webp" alt="" loading="lazy"></div><span>SHARE</span><h3>分享</h3><p>分享知识，创造价值</p></div></div>
 
 ## 核心优势
 

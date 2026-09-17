@@ -39,9 +39,13 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 
 ## 规格参数
 
-<p class="c-sec-lead">KTH250XQA / QB / QC 分别对应 BOP 15 / 30 / 60、BRP -15 / -30 / -60 三档灵敏度，其余参数一致。</p>
+<p class="c-sec-lead"><a class="c-xref" href="/msite/products/switch/kth25/kth250xqa">KTH250XQA</a> / QB / QC 分别对应 BOP 15 / 30 / 60、BRP -15 / -30 / -60 三档灵敏度，其余参数一致。</p>
 
-<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqa">KTH250XQA</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqb">KTH250XQB</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqc">KTH250XQC</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td colspan="3">锁存型</td></tr><tr><th scope="row">系列</th><td colspan="3">KTH25XX</td></tr><tr><th scope="row">供电电压</th><td colspan="3">2.7 ~ 36 V</td></tr><tr><th scope="row">平均功耗</th><td colspan="3">2.7 mA</td></tr><tr><th scope="row">工作频率</th><td colspan="3">30 kHz</td></tr><tr><th scope="row">BOP</th><td>15</td><td>30</td><td>60</td></tr><tr><th scope="row">BRP</th><td>-15</td><td>-30</td><td>-60</td></tr><tr><th scope="row">输出接口</th><td colspan="3">开漏输出</td></tr><tr><th scope="row">工作温度</th><td colspan="3">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="3">SOT-23-3L / TO-92S</td></tr><tr><th scope="row">工作电压</th><td colspan="3">2.7~36V</td></tr><tr><th scope="row">封装形式</th><td colspan="3">SOT-23-3L<br>TO-92S</td></tr></tbody></table></div>
+<details class="c-fold"><summary><b>型号对比</b><span class="c-fold__n">3 个型号</span><span class="c-fold__ids">KTH250XQA、KTH250XQB、KTH250XQC</span></summary>
+
+<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqa">KTH250XQA</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqb">KTH250XQB</a></th><th scope="col" class="c-mono"><a href="/msite/products/switch/kth25/kth250xqc">KTH250XQC</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td colspan="3">锁存型</td></tr><tr><th scope="row">供电电压</th><td colspan="3">2.7 ~ 36 V</td></tr><tr><th scope="row">平均功耗</th><td colspan="3">2.7 mA</td></tr><tr><th scope="row">工作频率</th><td colspan="3">30 kHz</td></tr><tr><th scope="row">BOP</th><td>15</td><td>30</td><td>60</td></tr><tr><th scope="row">BRP</th><td>-15</td><td>-30</td><td>-60</td></tr><tr><th scope="row">输出接口</th><td colspan="3">开漏输出</td></tr><tr><th scope="row">工作温度</th><td colspan="3">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="3">SOT-23-3L / TO-92S</td></tr><tr><th scope="row">工作电压</th><td colspan="3">2.7~36V</td></tr><tr><th scope="row">封装形式</th><td colspan="3">SOT-23-3L<br>TO-92S</td></tr></tbody></table></div>
+
+</details>
 
 ## 技术文档
 

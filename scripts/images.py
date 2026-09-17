@@ -418,6 +418,36 @@ def key_white(im):
     return Image.fromarray(a.astype(np.uint8), 'RGBA')
 
 
+def case_extras():
+    """codex 生成的新增案例场景图（content/case-src/<板块>/<slug>.png）。
+
+    源站只有 25 个案例配图；知识库补写的案例没有原图，场景图按现有案例图风格生成。
+    清单键为 case/<板块>/<slug>，不占用原案例的数字序号。
+    """
+    src_dir = os.path.join(ROOT, 'content', 'case-src')
+    if not os.path.isdir(src_dir):
+        return 0
+    n = 0
+    for area in sorted(os.listdir(src_dir)):
+        d = os.path.join(src_dir, area)
+        if not os.path.isdir(d):
+            continue
+        for fn in sorted(os.listdir(d)):
+            if not fn.lower().endswith('.png'):
+                continue
+            slug = fn[:-4]
+            raw = Image.open(os.path.join(d, fn)).convert('RGBA')
+            # 部分生成图自带透明底且外圈有半透明白晕：先铺白底再抠，否则白晕会在深色页面上发光
+            flat = Image.alpha_composite(Image.new('RGBA', raw.size, (255, 255, 255, 255)), raw)
+            im = dekey(flat, dark=False)
+            MANIFEST[f'case/{area}/{slug}'] = save(place(alpha_trim(im), 800, 600, pad=0.06),
+                                                   f'case/{area}-{slug}.webp',
+                                                   os.path.join('content', 'case-src', area, fn).replace('\\', '/'),
+                                                   False)
+            n += 1
+    return n
+
+
 def icons():
     """codex 生成的图标（content/icons-src/*.png）→ 去白底、裁边、统一放进 4:3 透明画布。"""
     src_dir = os.path.join(ROOT, 'content', 'icons-src')
@@ -443,6 +473,7 @@ def icons():
 def main():
     logos()
     print('icons', icons())
+    print('case extras', case_extras())
     for c in SITE['categories']:
         im = load(c['cover'])
         MANIFEST['cat/' + c['key']] = save(cover(im, 1000, 500, focus(im)), f'cat/{c["key"]}.webp',

@@ -24,3 +24,130 @@
   display: block;
   overflow-wrap: anywhere;
 }
+
+/* 所属产品系列：系列卡在桌面端两栏时跟随滚动（sticky）。
+   手机上变成单列后 sticky 仍然生效，卡片会一路压在型号方块上，所以单列时取消，
+   并把卡片收成「小图 + 文字」一行，不再占掉一整屏高度。 */
+@media (max-width: 760px) {
+  .vp-doc .c-series-box > a.c-card {
+    position: static;
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    align-items: center;
+  }
+  .vp-doc .c-series-box > a.c-card .c-card__media {
+    height: 100%;
+    min-height: 96px;
+    aspect-ratio: auto;
+  }
+  .vp-doc .c-series-box > a.c-card .c-card__media img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .vp-doc .c-series-box > a.c-card .c-card__body {
+    padding: 12px 14px;
+  }
+  .vp-doc .c-series-box > a.c-card .c-card__body h3 {
+    margin: 2px 0 4px;
+    font-size: 15px;
+  }
+  .vp-doc .c-series-box > a.c-card .c-card__body p {
+    margin: 0 0 4px;
+    font-size: 12.5px;
+  }
+}
+
+/* 没有左侧栏的宽度（<960px）顶部多了一条「目录」吸顶栏，系列卡再吸顶就会和方块叠在一起；
+   这一档一律跟随页面滚动，只在宽屏两栏时才吸顶。 */
+@media (max-width: 959px) {
+  .vp-doc .c-series-box > a.c-card {
+    position: static;
+  }
+}
+
+/* 正文里自动加上的型号 / 系列链接：一页可能几十处，用品牌红会满屏发红。
+   默认跟随正文颜色 + 细虚下划线提示可点，悬停才变成品牌色。 */
+.vp-doc a.c-xref {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+.vp-doc a.c-xref:hover {
+  color: var(--vp-c-brand-1);
+  text-decoration-style: solid;
+  text-decoration-color: var(--vp-c-brand-1);
+}
+
+/* 系列页分组对比表：默认收起，一行标题 = 分组 + 型号数 + 型号清单 */
+.vp-doc details.c-fold {
+  margin: 10px 0;
+  border: 1px solid var(--c-border, var(--vp-c-divider));
+  border-radius: 10px;
+  background: var(--c-surface, var(--vp-c-bg-soft));
+  overflow: hidden;
+}
+.vp-doc details.c-fold > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  padding: 14px 44px 14px 18px;
+  position: relative;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+.vp-doc details.c-fold > summary::-webkit-details-marker { display: none; }
+.vp-doc details.c-fold > summary::after {
+  content: '';
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid var(--vp-c-text-2);
+  border-bottom: 1.5px solid var(--vp-c-text-2);
+  transform: translateY(-70%) rotate(45deg);
+  transition: transform 0.2s;
+}
+.vp-doc details.c-fold[open] > summary::after { transform: translateY(-30%) rotate(-135deg); }
+.vp-doc details.c-fold > summary:hover { background: var(--c-level-2, var(--vp-c-bg-mute)); }
+.vp-doc details.c-fold > summary b { font-size: 15px; color: var(--vp-c-text-1); }
+.c-fold__n { font-size: 13px; color: var(--vp-c-brand-1); font-variant-numeric: tabular-nums; }
+.c-fold__ids {
+  flex-basis: 100%;
+  font-family: var(--c-mono, var(--vp-font-family-mono));
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--vp-c-text-3);
+}
+.vp-doc details.c-fold[open] > summary { border-bottom: 1px solid var(--c-hairline, var(--vp-c-divider)); }
+.vp-doc details.c-fold > .c-table { margin: 0; border: 0; border-radius: 0; }
+
+/* 核心价值观：卡片顶部一张简笔漫画（透明底白线，芯片 / 机器人 / 山河意象） */
+.c-value__img {
+  margin: -6px -6px 14px;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  background:
+    radial-gradient(120% 90% at 50% 40%, color-mix(in srgb, var(--vp-c-text-1) 4%, transparent), transparent 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.vp-doc .c-value__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.9;
+  transition: opacity 0.25s, transform 0.4s;
+}
+.c-value:hover .c-value__img img { opacity: 1; transform: scale(1.02); }
+@media (prefers-reduced-motion: reduce) {
+  .c-value:hover .c-value__img img { transform: none; }
+}

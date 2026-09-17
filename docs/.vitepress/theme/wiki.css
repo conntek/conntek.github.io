@@ -1,0 +1,30 @@
+/* 技术 Wiki（/basics/）专属样式：全部限定在 .c-page--wiki 下，不影响其它页面。
+   引入方式：在 theme/index.ts 里 import './wiki.css'（放在 style.css、layout.css 之后）。 */
+
+/* 词条正文：段落限宽，长段读起来不累 */
+.c-page--wiki .vp-doc > div > p:not([class]),
+.c-page--wiki .vp-doc .custom-block {
+  max-width: 900px;
+}
+
+/* 要点提示：沿用 VitePress tip 容器，标题改成与站内小标签一致的字重 */
+.c-page--wiki .vp-doc .custom-block.tip .custom-block-title {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+/* 常见误区：标题是说法本身，弱化成正文强色，避免与二级标题抢主次 */
+.c-page--wiki .c-pitfalls .c-feature h3 {
+  font-size: 16px;
+}
+
+/* 上一条 / 下一条：下一条右对齐，读出方向感 */
+.c-page--wiki .c-wiki-pager .c-grid > a.c-card:last-child:not(:first-child) .c-card__body {
+  text-align: right;
+}
+@media (max-width: 640px) {
+  .c-page--wiki .c-wiki-pager .c-grid > a.c-card:last-child:not(:first-child) .c-card__body {
+    text-align: left;
+  }
+}

@@ -46,6 +46,8 @@ export default defineConfig({
     sidebar: {
       '/products/': data.products,
       '/applications/': data.applications,
+      '/basics/': data.basics,
+      '/blog/': data.blog,
     },
     search: {
       provider: 'local',

@@ -17,13 +17,13 @@ pageClass: "c-page"
 
 开关芯片回答的是「到位没有」：磁铁靠近到设定阈值（BOP）时输出翻转，离开到释放点（BRP）时复位，整个过程无机械触点、无磨损。选型的核心是三件事——响应哪个方向的磁场、响应哪种磁极、以及在目标工作频率下的平均功耗。
 
-本类目按感磁原理分成两条线：1D 霍尔开关响应垂直穿过芯片表面的磁场（KTH13/16/17 系列、KTH25），TMR 与 AMR 响应平行于芯片表面的磁场（KTM13、KTM28）；KTH462、KTH460 则在片内放多个霍尔盘，分别覆盖二维与三维磁场，不再只看单一方向。此外还收录比例式线性霍尔 KTH31 与线性霍尔 KTH564，它们输出随磁通密度线性变化的模拟电压而非开关量，用于需要读出磁场大小的场合。
+本类目按感磁原理分成两条线：1D 霍尔开关响应垂直穿过芯片表面的磁场（<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列、<a class="c-xref" href="/msite/products/switch/kth25">KTH25</a>），TMR 与 AMR 响应平行于芯片表面的磁场（<a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a>、<a class="c-xref" href="/msite/products/switch/ktm28">KTM28</a>）；<a class="c-xref" href="/msite/products/switch/kth462">KTH462</a>、<a class="c-xref" href="/msite/products/switch/kth460">KTH460</a> 则在片内放多个霍尔盘，分别覆盖二维与三维磁场，不再只看单一方向。此外还收录比例式线性霍尔 <a class="c-xref" href="/msite/products/switch/kth31">KTH31</a> 与线性霍尔 <a class="c-xref" href="/msite/products/switch/linear-hall">KTH564</a>，它们输出随磁通密度线性变化的模拟电压而非开关量，用于需要读出磁场大小的场合。
 
 ## 怎么选
 
 <p class="c-sec-lead">按下面几步缩小范围。</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>先定感磁原理</h3><p>垂直穿过芯片的磁场用霍尔的KTH13/16/17 系列、KTH25；平行磁场用 KTM13（TMR）、KTM28（AMR）。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>再定检测维度</h3><p>单方向用KTH13/16/17 系列、KTM13、KTH25；二维用 KTH462，可直接输出速度与方向；三维全极用 KTH460。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>按磁极选类型</h3><p>全极、单 S 极、单 N 极、锁存四类，KTH13/16/17 系列与 KTM13 各型号分别对应；KTH25 为双极锁存。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>核对电压与功耗</h3><p>电池供电取 KTM13（160 nA @ 3 V）或KTH13/16/17 系列（1 μA）；宽压取 KTH25。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>需要模拟量输出</h3><p>读磁场大小而非开关量时用 KTH31（1.00 ~ 8.90 mV/Gs @ 3.3 V 六档，带宽 30 kHz）或 KTH564（1.5 ~ 13 mV/Gs）。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>先定感磁原理</h3><p>垂直穿过芯片的磁场用霍尔的<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列、<a class="c-xref" href="/msite/products/switch/kth25">KTH25</a>；平行磁场用 <a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a>（TMR）、<a class="c-xref" href="/msite/products/switch/ktm28">KTM28</a>（AMR）。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>再定检测维度</h3><p>单方向用<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列、<a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a>、<a class="c-xref" href="/msite/products/switch/kth25">KTH25</a>；二维用 <a class="c-xref" href="/msite/products/switch/kth462">KTH462</a>，可直接输出速度与方向；三维全极用 <a class="c-xref" href="/msite/products/switch/kth460">KTH460</a>。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>按磁极选类型</h3><p>全极、单 S 极、单 N 极、锁存四类，<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列与 <a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a> 各型号分别对应；<a class="c-xref" href="/msite/products/switch/kth25">KTH25</a> 为双极锁存。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>核对电压与功耗</h3><p>电池供电取 <a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a>（160 nA @ 3 V）或<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列（1 μA）；宽压取 <a class="c-xref" href="/msite/products/switch/kth25">KTH25</a>。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>需要模拟量输出</h3><p>读磁场大小而非开关量时用 <a class="c-xref" href="/msite/products/switch/kth31">KTH31</a>（1.00 ~ 8.90 mV/Gs @ 3.3 V 六档，带宽 30 kHz）或 <a class="c-xref" href="/msite/products/switch/linear-hall">KTH564</a>（1.5 ~ 13 mV/Gs）。</p></div></div></div>
 
 ## 系列对照
 
@@ -39,31 +39,31 @@ pageClass: "c-page"
 
 <p class="c-sec-lead">采用开关芯片的终端产品。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics/e-chessboard"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH1604</span><h3>电子棋盘</h3></div></a><a class="c-card" href="/msite/applications/industry4/circuit-breaker"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16xx</span><h3>断路器</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/stylus"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>触控笔</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/robot-vacuum-water-level"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>扫地机-水位监测</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/smart-toilet-water-level"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-10.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>智能马桶-水位监测</h3></div></a><a class="c-card" href="/msite/applications/industry4/gas-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3></div></a><a class="c-card" href="/msite/applications/industry4/mechanical-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>机械电表</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/game-controller"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH564X</span><h3>游戏手柄</h3></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics/e-chessboard"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH1604</span><h3>电子棋盘</h3></div></a><a class="c-card" href="/msite/applications/industry4/circuit-breaker"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-1.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH16xx</span><h3>断路器</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/stylus"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>触控笔</h3></div></a><a class="c-card" href="/msite/applications/consumer-electronics/laptop-lid"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-laptop-lid.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>笔记本与平板合盖检测</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/robot-vacuum-water-level"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>扫地机-水位监测</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/smart-toilet-water-level"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-10.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>智能马桶-水位监测</h3></div></a><a class="c-card" href="/msite/applications/industry4/gas-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3></div></a><a class="c-card" href="/msite/applications/industry4/mechanical-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>机械电表</h3></div></a></div>
 
 ## 常见问题
 
 ::: details 全极、单极、锁存怎么选
 
-全极对 N、S 极都动作；单 S 极、单 N 极只响应一种极性；锁存型由一个极性置位、必须相反极性才复位，撤磁后保持原状态，因此适合旋转计数，但不能用来判断「有没有磁体」。KTH13/16/17 系列与 KTM13 各型号覆盖这四类。
+全极对 N、S 极都动作；单 S 极、单 N 极只响应一种极性；锁存型由一个极性置位、必须相反极性才复位，撤磁后保持原状态，因此适合旋转计数，但不能用来判断「有没有磁体」。<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列与 <a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a> 各型号覆盖这四类。
 
 :::
 
 ::: details TMR 开关与霍尔的差别
 
-KTM13 回差可小于 3 高斯，平均功耗低至 160 nA @ 3 V，工作频率最高 5000 Hz，且感应的是平行穿过芯片的磁场而非垂直磁场。
+<a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a> 回差可小于 3 高斯，平均功耗低至 160 nA @ 3 V，工作频率最高 5000 Hz，且感应的是平行穿过芯片的磁场而非垂直磁场。
 
 :::
 
 ::: details 工作频率影响什么
 
-频率决定采样间隔与平均功耗：KTH13/16/17 系列覆盖 2.5 Hz ~ 40 kHz，KTM13 提供 50 Hz、1600 Hz、5000 Hz 三档。
+频率决定采样间隔与平均功耗：<a class="c-xref" href="/msite/products/switch/kth16">KTH13</a>/16/17 系列覆盖 2.5 Hz ~ 40 kHz，<a class="c-xref" href="/msite/products/switch/ktm13">KTM13</a> 提供 50 Hz、1600 Hz、5000 Hz 三档。
 
 :::
 
 ::: details 气缸位置检测选哪颗
 
-KTM28 以 SIP 把 AMR 与 ASIC 集成在一颗 IC 内，支持两线与三线应用，开漏输出可上拉 / 下拉负载自适应，输出过流保护 220 mA。
+<a class="c-xref" href="/msite/products/switch/ktm28">KTM28</a> 以 SIP 把 AMR 与 ASIC 集成在一颗 IC 内，支持两线与三线应用，开漏输出可上拉 / 下拉负载自适应，输出过流保护 220 mA。
 
 :::
 

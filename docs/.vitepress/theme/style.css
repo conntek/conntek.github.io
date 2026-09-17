@@ -2376,3 +2376,200 @@
 .vp-doc .c-city figcaption p {
   font-variant-numeric: tabular-nums;
 }
+
+/* =========================================================
+   第六轮：精致度（2026-09-17 截图逐页核对后的问题清单）
+   编号对应汇报里的清单；山河母题另在 mountains.css，删掉那个文件本节照样成立。
+   ========================================================= */
+
+/* P1 卡片内 h3 被全站 `.c-page .vp-doc h3 { margin: 34px 0 6px }` 覆盖：
+   两条规则特异性相同、后写的赢，于是所有内容页里卡片眉标与标题之间空出 34px，
+   服务卡"01"与标题、价值观卡"UPRIGHT"与"正直"之间都是一大块空。这里把卡片内标题
+   的外边距抬到更高特异性，回到设计值。 */
+.c-page .vp-doc :is(.c-card__body, .c-row__body) h3 { margin: 4px 0 0; }
+.c-page .vp-doc .c-step h3 { margin: 6px 0 10px; }
+.c-page .vp-doc :is(.c-value, .c-contact) h3 { margin: 6px 0 8px; }
+.c-page .vp-doc .c-scene h3 { margin: 0; }
+.c-page .vp-doc .c-pillar h3 { margin: 18px 0 0; }
+.c-page .vp-doc .c-feature h3 { margin: 2px 0 4px; }
+.c-page .vp-doc .c-article h3 { margin: 4px 0 6px; }
+
+/* P2 卡片标题强制两行最小高度：标题只有一行时（"电表""3D霍尔芯片"），
+   标题与简介之间凭空多一行空白，简介为空的案例卡更是空出一截。
+   改为不占位，靠"查看详情"贴底（margin-top:auto）保证同排底边对齐。 */
+.vp-doc .c-card__body h3 { min-height: 0; }
+.vp-doc .c-card__body p { min-height: 0; }
+.c-card__body > .c-card__more { margin-top: auto; padding-top: 16px; }
+.vp-doc .c-card__body h3 + .c-card__more { padding-top: 20px; }
+
+/* P3 首页 hero 按钮是 VitePress 默认胶囊（20px 圆角），全站其余按钮第五轮已改 8px */
+.VPHero .VPButton {
+  border-radius: var(--c-radius-sm) !important;   /* 组件 scoped 的 .medium 尺寸类特异性更高 */
+  line-height: 36px;
+  padding: 0 18px;
+  letter-spacing: 0.01em;
+}
+
+/* P4 首页栏目头：导语贴着标题（6px），"全部产品 →"与导语基线不齐 */
+.c-home__head { align-items: baseline; }
+.vp-doc .c-home__head p { margin-top: 10px; font-size: 15px; }
+.vp-doc a.c-link { transition: color 0.15s; }
+.vp-doc a.c-link::after { content: '→'; display: inline-block; margin-left: 5px; transition: transform 0.2s; }
+.vp-doc a.c-link:hover::after { transform: translateX(3px); }
+
+/* P5 侧栏底色块在侧栏内容结束处（约 1800px）戛然而止，下面整页是另一种底色。
+   宽屏下侧栏与页面同底，改用一条贯穿全高的 hairline 分栏；抽屉态（<960）不动。 */
+@media (min-width: 960px) {
+  .VPSidebar { background-color: transparent !important; }
+  .VPNavBar.has-sidebar .VPNavBarTitle,
+  .VPNavBar.has-sidebar .VPNavBarTitle .title {
+    background-color: var(--vp-nav-bg-color) !important;
+  }
+  .VPContent.has-sidebar {
+    background-image: linear-gradient(var(--vp-c-divider), var(--vp-c-divider));
+    background-size: 1px 100%;
+    background-repeat: no-repeat;
+    background-position: calc(var(--vp-sidebar-width) - 1px) 0;
+  }
+}
+@media (min-width: 1440px) {
+  .VPContent.has-sidebar {
+    background-position: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) - 1px) 0;
+  }
+}
+
+/* P6 带侧栏的页面（全部产品页、应用页）VitePress 默认不渲染页脚，
+   备案号与公司名在这两百多页上都看不到。显示出来，并让开侧栏那一列。 */
+.VPFooter.has-sidebar { display: block !important; }   /* 组件内 scoped 样式带属性选择器，特异性更高 */
+@media (min-width: 960px) {
+  .VPFooter.has-sidebar { padding-left: calc(var(--vp-sidebar-width) + 32px); }
+}
+@media (min-width: 1440px) {
+  .VPFooter.has-sidebar { padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) + 32px); }
+}
+
+/* P7 关键数字条后直接接正文段落时（应用板块页）两者贴死，只隔 8px */
+.c-stats + p,
+.c-stats + .c-split { margin-top: 32px !important; }
+
+/* P8 网格里只有一张卡（案例页"推荐芯片"）：半栏宽 + 4:3 大图，下面一片空，
+   像没排完。改成横向卡：左图右文，占满一行但限宽。 */
+.c-grid > a.c-card:only-child {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  max-width: 760px;
+}
+.c-grid > a.c-card:only-child .c-card__media {
+  flex: none;
+  width: 240px;
+  aspect-ratio: auto;
+}
+.c-grid > a.c-card:only-child .c-card__body { padding: 22px 26px; }
+
+/* P9 行动区左侧 3px 红边跟着 12px 圆角弯成一道月牙，边缘发糊。
+   改成面板内一条不碰圆角的直线。 */
+.c-cta { border-left: 1px solid var(--c-border); }
+.c-cta::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  border-radius: 0 2px 2px 0;
+  background: var(--vp-c-brand-3);
+}
+
+/* P10 联系卡眉标是"Recruitment Mailbox"大小写混排，价值观卡是全大写，同一种眉标两种写法 */
+.c-contact span { text-transform: uppercase; }
+
+/* P11 表头里的型号链接：一排 5 个红色实下划线的等宽字，整条表头发红。
+   与正文 c-xref 同一口径：常态中性，悬停才是品牌色。 */
+.vp-doc .c-table thead th a {
+  color: var(--vp-c-text-1);
+  text-decoration: underline dotted;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-underline-offset: 3px;
+}
+.vp-doc .c-table thead th a:hover {
+  color: var(--vp-c-brand-1);
+  text-decoration-style: solid;
+  text-decoration-color: var(--vp-c-brand-1);
+}
+
+/* P12 按钮悬停只换色没有过渡曲线；焦点环对 hero 按钮缺失 */
+.VPHero .VPButton:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
+}
+
+/* ---------- 手机端 ---------- */
+@media (max-width: 560px) {
+  /* M1 主参数条在 ≤480 被写成 gap:8px，而面板靠 1px gap 露出底色画分格线，
+     8px 就成了一条条灰色粗杠 */
+  .c-specs { gap: 1px; }
+
+  /* M2 关键数字条奇数格（3 格排成 2+1）时，右下角空出一块底色 */
+  .c-stats .c-stat:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .c-stat span { letter-spacing: 0.04em; }
+
+  /* M3 型号页"参数详情"是 名|值|名|值 四列，手机上第四列被裁掉看不见，
+     行高还被隐藏内容撑高。窄屏把每行拆成两行两列：名|值 / 名|值。 */
+  .vp-doc .c-kv table,
+  .vp-doc .c-kv tbody { display: block; }
+  .vp-doc .c-kv tr {
+    display: grid;
+    grid-template-columns: minmax(96px, 36%) minmax(0, 1fr);
+  }
+  .vp-doc .c-kv th,
+  .vp-doc .c-kv td {
+    width: auto;
+    white-space: normal;
+    border-bottom: 1px solid var(--c-hairline);
+  }
+  .vp-doc .c-kv th:nth-child(3) { border-left: none; }
+  .vp-doc .c-kv th:empty,
+  .vp-doc .c-kv td:empty { display: none; }
+
+  /* M4 对比表里跨列合并的值（供电电压、校准……）居中在整张宽表中间，
+     手机首屏只看得到前两列，这些行看上去是空的。窄屏左对齐，紧跟首列。 */
+  .vp-doc .c-table--t td[colspan] { text-align: left; }
+
+  /* M5 技术文档表挤在 390px 里，文件名一个字一行、"上位机"竖排。给最小宽度，横向滑动 */
+  .vp-doc .c-docs table { min-width: 620px; }
+
+  /* M6 两列概览表的参数名列被压到三个字宽，"磁场检测范围"断成三行 */
+  .vp-doc .c-table:not(.c-kv):not(.c-docs) tbody :is(th, td):first-child { min-width: 6.5em; }
+
+  /* M7 首页/板块页的图标卡、案例卡单列时每张近 300px 高，首页被拉到 13000px。
+     改成"小图 + 文字"横排，一屏能看到四五张。照片卡（技术洞见）不动。 */
+  .vp-doc .c-grid > a.c-card:has(.c-media--icon, .c-media--case) {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .vp-doc .c-grid > a.c-card:has(.c-media--icon, .c-media--case) .c-card__media {
+    flex: none;
+    width: 104px;
+    aspect-ratio: auto;
+    min-height: 104px;
+  }
+  .vp-doc .c-grid > a.c-card:has(.c-media--icon, .c-media--case) .c-card__body {
+    padding: 12px 14px 12px;
+    min-width: 0;
+  }
+  .vp-doc .c-grid > a.c-card:has(.c-media--icon, .c-media--case) .c-card__more { padding-top: 8px; }
+  .vp-doc .c-grid > a.c-card:has(.c-media--icon, .c-media--case) .c-card__body p { margin-top: 4px; }
+  .vp-doc .c-grid { gap: 12px; }
+
+  /* M8 服务页三个核心能力卡单列各占 290px，只放一个图标一个词。窄屏保持三列紧凑排 */
+  .c-grid--3:has(> .c-pillar) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .c-pillar { padding: 18px 6px 14px; }
+  .c-pillar__icon { width: 44px; height: 44px; box-shadow: 0 0 0 6px var(--c-brand-wash); }
+  .c-pillar__icon img { height: 24px !important; }
+  .c-page .vp-doc .c-pillar h3 { margin-top: 14px; font-size: 14px; }
+
+  /* M9 服务卡、价值卡在窄屏内边距 24px 偏松，与卡片网格 12px 间距不成比例 */
+  .c-step, .c-value, .c-contact { padding: 18px 18px; }
+
+  .VPFooter.has-sidebar { padding-left: 24px; }
+}

@@ -29,7 +29,9 @@ KTM5800 是一款 30 bit 绝对角度、4096 对极编码细分器，可与磁�
 
 KTM5800 也可搭配光编、光栅、磁栅等传感器，一圈或一个绝对机械周期允许最大 12 bit（4096 线）多极对输入，单对极细分角度最高 18 bit，支持 1 ~ 4096 对极一键自校准。工作电压 3 ~ 5.5 V（MTPVDD 引脚必须 5 V 供电），模拟电平输入范围 20 mV ~ 2 V（推荐最大 1 V），工作电流 40 mA，启动时间 23 ms。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><span>伺服电机</span><span>机器人关节</span><span>直线电机</span><span>对角度检测精度要求超高的领域</span></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/industry4/servo-motor">伺服电机</a><a href="/msite/applications/industry4/robot-joint">机器人关节</a><a href="/msite/applications/industry4/linear-motor">直线电机</a></div>
+
+<div class="c-tags c-tags--lg"><b>测量类型</b><span>高精度角度检测</span></div>
 
 </div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm58.webp" alt="KTM58 系列 产品图" loading="lazy"></div></div>
 
@@ -48,6 +50,12 @@ KTM5800 也可搭配光编、光栅、磁栅等传感器，一圈或一个绝对
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
 <div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTM5800</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM5800 产品手册.pdf</a></td><td><a class="c-file" href="/msite/files/KTM5800_EN.pdf" target="_blank"><em>PDF</em>KTM5800_EN.pdf</a></td></tr></tbody></table></div>
+
+## 应用案例
+
+<p class="c-sec-lead">以下场景推荐使用 KTM58 系列。</p>
+
+<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/servo-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-servo-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">工业4.0</span><h3>伺服电机</h3></div></a><a class="c-card" href="/msite/applications/industry4/linear-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-linear-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">工业4.0</span><h3>直线电机</h3></div></a></div>
 
 ## 同类产品
 

@@ -194,7 +194,7 @@ def kill_edge(proc, profile, port):
 
 # ---------------- 截图 ----------------
 def shoot(port, url, png, mobile, theme, full):
-    width, vh, dsf = (390, 844, 2) if mobile else (1440, 900, 1)
+    width, vh, dsf = (390, 844, 2) if mobile else (int(os.environ.get('SHOT_W', 1440)), int(os.environ.get('SHOT_H', 900)), 1)
     target = http_json(port, '/json/new?about:blank', method='PUT')
     c = CDP(target['webSocketDebuggerUrl'])
     try:

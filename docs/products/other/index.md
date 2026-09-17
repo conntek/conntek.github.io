@@ -17,13 +17,13 @@ pageClass: "c-page"
 
 其他芯片收录信号链器件。桥式磁传感器的输出常常只有几十到几百微伏，直接送进 ADC 会被放大器自身的失调和温漂淹没——这一级运放的失调电压与失调温漂，直接决定整条链路的零点稳定性。
 
-KTAx333 系列是自校准 CMOS 运算放大器，失调电压 2 μV（典型值）、10 μV（最大值），失调温漂 0.02 μV/℃，轨到轨输入与输出，静态功耗 30 μA，供电 1.8 ~ 5.5 V，工作温度 -40 ~ 125 ℃。
+<a class="c-xref" href="/msite/products/other/ktax33">KTAx333</a> 系列是自校准 CMOS 运算放大器，失调电压 2 μV（典型值）、10 μV（最大值），失调温漂 0.02 μV/℃，轨到轨输入与输出，静态功耗 30 μA，供电 1.8 ~ 5.5 V，工作温度 -40 ~ 125 ℃。
 
 ## 怎么选
 
 <p class="c-sec-lead">按下面几步缩小范围。</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>先看失调与温漂</h3><p>直流微弱信号放大先看这两项：KTAx333 失调 2 μV（典型值）、10 μV（最大值），温漂 0.02 μV/℃。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>核对带宽与摆率</h3><p>KTAx333 增益带宽积 350 kHz、压摆率 0.16 V/μs，超出此范围的高速信号不适用。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>核对噪声与偏置</h3><p>电压噪声 1.1 μVpp（0.1 ~ 10 Hz），输入偏置电流 ±100 pA，输入失调电流 ±120 pA。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>定通道数与封装</h3><p>单通道选 KTA333-ST5（SOT23-5）；双通道选 KTA2333-MP8 / KTA2333-SP8。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>先看失调与温漂</h3><p>直流微弱信号放大先看这两项：<a class="c-xref" href="/msite/products/other/ktax33">KTAx333</a> 失调 2 μV（典型值）、10 μV（最大值），温漂 0.02 μV/℃。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>核对带宽与摆率</h3><p><a class="c-xref" href="/msite/products/other/ktax33">KTAx333</a> 增益带宽积 350 kHz、压摆率 0.16 V/μs，超出此范围的高速信号不适用。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>核对噪声与偏置</h3><p>电压噪声 1.1 μVpp（0.1 ~ 10 Hz），输入偏置电流 ±100 pA，输入失调电流 ±120 pA。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>定通道数与封装</h3><p>单通道选 KTA333-ST5（SOT23-5）；双通道选 KTA2333-MP8 / KTA2333-SP8。</p></div></div></div>
 
 ## 系列对照
 
@@ -31,7 +31,7 @@ KTAx333 系列是自校准 CMOS 运算放大器，失调电压 2 μV（典型值
 
 ## 产品系列
 
-<p class="c-sec-lead">KTAx333 系列自校准 CMOS 运放，失调电压 2 μV（典型值）、轨到轨输入 / 输出，提供单通道与双通道型号，适合各类传感器信号放大级。</p>
+<p class="c-sec-lead"><a class="c-xref" href="/msite/products/other/ktax33">KTAx333</a> 系列自校准 CMOS 运放，失调电压 2 μV（典型值）、轨到轨输入 / 输出，提供单通道与双通道型号，适合各类传感器信号放大级。</p>
 
 <div class="c-rows"><a class="c-row" href="/msite/products/other/ktax33"><div class="c-row__media c-media--icon"><img src="/msite/img/icons-web/ktax33.webp" alt="" loading="lazy"></div><div class="c-row__body"><span class="c-card__kicker">KTAx333 系列</span><h3>零温漂高精度运放</h3><p>自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p><div class="c-minispecs"><span><b>2 μV（典型值）</b>失调电压</span><span><b>1.8 ~ 5.5 V</b>电压</span><span><b>30 μA</b>功耗</span><span><b>轨到轨输入 / 输出</b>接口</span></div><span class="c-card__more">查看详情</span></div></a></div>
 
@@ -45,7 +45,7 @@ KTAx333 系列是自校准 CMOS 运算放大器，失调电压 2 μV（典型值
 
 ::: details 为什么适合驱动 ADC
 
-KTAx333 不存在传统互补输入级带来的交越问题，驱动 ADC 时不会降低微分线性；CMRR 120 dB，开环增益 120 dB，PSRR 1 μV/V。
+<a class="c-xref" href="/msite/products/other/ktax33">KTAx333</a> 不存在传统互补输入级带来的交越问题，驱动 ADC 时不会降低微分线性；CMRR 120 dB，开环增益 120 dB，PSRR 1 μV/V。
 
 :::
 

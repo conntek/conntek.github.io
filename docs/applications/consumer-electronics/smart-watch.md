@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴矢量</h3><p>由多轴分量解出磁场方向，可分辨转动方向而不只是计数。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>唤醒睡眠模式</h3><p>支持唤醒睡眠与单次测量模式，不转动时压低平均功耗。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低功耗档位</h3><p>平均 25.2 μA @ 5 Hz，适合可穿戴的长待机需求。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>手表类型号</h3><p>系列中 KTH5762 / KTH5763 为手表类应用型号。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>三轴矢量</h3><p>由多轴分量解出磁场方向，可分辨转动方向而不只是计数。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>唤醒睡眠模式</h3><p>支持唤醒睡眠与单次测量模式，不转动时压低平均功耗。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低功耗档位</h3><p>平均 25.2 μA @ 5 Hz，适合可穿戴的长待机需求。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>手表类型号</h3><p>系列中 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5762</a> / <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5763</a> 为手表类应用型号。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/3d-hall/kth57"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth57.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57 系列</span><h3>三轴线性霍尔传感器</h3><p>测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗</p><span class="c-card__more">查看产品</span></div></a></div>
 

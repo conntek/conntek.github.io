@@ -168,6 +168,114 @@
   "keyed": true
  },
  {
+  "out": "case/consumer-electronics-drone-rotor.webp",
+  "src": "content/case-src/consumer-electronics/drone-rotor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/consumer-electronics-laptop-lid.webp",
+  "src": "content/case-src/consumer-electronics/laptop-lid.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-agv.webp",
+  "src": "content/case-src/industry4/agv.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-bldc-motor.webp",
+  "src": "content/case-src/industry4/bldc-motor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-closed-loop-stepper.webp",
+  "src": "content/case-src/industry4/closed-loop-stepper.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-coreless-motor.webp",
+  "src": "content/case-src/industry4/coreless-motor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-cylinder-position.webp",
+  "src": "content/case-src/industry4/cylinder-position.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-elevator.webp",
+  "src": "content/case-src/industry4/elevator.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-gearbox.webp",
+  "src": "content/case-src/industry4/gearbox.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-gripper.webp",
+  "src": "content/case-src/industry4/gripper.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-heat-meter.webp",
+  "src": "content/case-src/industry4/heat-meter.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-linear-motor.webp",
+  "src": "content/case-src/industry4/linear-motor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-platform-screen-door.webp",
+  "src": "content/case-src/industry4/platform-screen-door.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-robot-joint.webp",
+  "src": "content/case-src/industry4/robot-joint.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-servo-motor.webp",
+  "src": "content/case-src/industry4/servo-motor.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-sewing-machine.webp",
+  "src": "content/case-src/industry4/sewing-machine.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/industry4-water-meter.webp",
+  "src": "content/case-src/industry4/water-meter.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
+  "out": "case/intelligent-transportation-automotive-angle.webp",
+  "src": "content/case-src/intelligent-transportation/automotive-angle.png",
+  "cropped": false,
+  "keyed": false
+ },
+ {
   "out": "cat/3d-hall.webp",
   "src": "/images/1627297417418.png",
   "cropped": true,

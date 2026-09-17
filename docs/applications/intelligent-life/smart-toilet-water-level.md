@@ -35,7 +35,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗 160 nA @ 3 V，上下限两点都能常年守候。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，液面晃动时不容易来回翻。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>锁存型可选</h3><p>锁存型 KTM1331 翻转后保持状态，适合上下限逻辑。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>储热水箱附近偏热，125 ℃ 上限仍留有裕量。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>纳安级功耗</h3><p>平均功耗 160 nA @ 3 V，上下限两点都能常年守候。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>小回差</h3><p>回差可小于 3 高斯，液面晃动时不容易来回翻。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>锁存型可选</h3><p>锁存型 <a class="c-xref" href="/msite/products/switch/ktm13/ktm1331ta">KTM1331</a> 翻转后保持状态，适合上下限逻辑。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温工作</h3><p>储热水箱附近偏热，125 ℃ 上限仍留有裕量。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

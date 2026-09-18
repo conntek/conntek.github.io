@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>智感设计・芯启未来｜昆泰芯武建峰博士清华开讲，为工业设计注入看不见的传感力量</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>智感设计・芯启未来｜昆泰芯武建峰博士清华开讲，为工业设计注入看不见的传感力量</span></nav>
 
 <p class="c-kicker">公司动态</p>
 

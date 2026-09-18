@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>智感未来，芯耀鹏城——昆泰芯 2026 深圳国际传感器展圆满落幕，亮点纷呈，载誉而归</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>智感未来，芯耀鹏城——昆泰芯 2026 深圳国际传感器展圆满落幕，亮点纷呈，载誉而归</span></nav>
 
 <p class="c-kicker">公司动态</p>
 

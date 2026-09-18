@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>昆泰芯重磅新品｜<a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>昆泰芯重磅新品｜<a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！</span></nav>
 
 <p class="c-kicker">新品发布</p>
 

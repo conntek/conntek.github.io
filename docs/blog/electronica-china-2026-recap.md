@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>芯耀慕尼黑，感知启新程｜昆泰芯 2026 上海慕尼黑电子展圆满收官，10 月工博会再赴智能传感之约</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>芯耀慕尼黑，感知启新程｜昆泰芯 2026 上海慕尼黑电子展圆满收官，10 月工博会再赴智能传感之约</span></nav>
 
 <p class="c-kicker">公司动态</p>
 

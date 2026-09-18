@@ -138,22 +138,23 @@
       ]
     },
     {
-      "text": "服务与 Wiki",
-      "activeMatch": "^/(services|basics)",
-      "items": [
-        {
-          "text": "磁仿真&技术服务",
-          "link": "/services"
-        },
-        {
-          "text": "技术 Wiki",
-          "link": "/basics/"
-        }
-      ]
+      "text": "技术服务",
+      "link": "/services",
+      "activeMatch": "^/services"
+    },
+    {
+      "text": "技术 Wiki",
+      "link": "/basics/",
+      "activeMatch": "^/basics/"
+    },
+    {
+      "text": "博客",
+      "link": "/blog/",
+      "activeMatch": "^/blog/"
     },
     {
       "text": "关于昆泰",
-      "activeMatch": "^/(about|contact|blog)",
+      "activeMatch": "^/(about|contact)",
       "items": [
         {
           "text": "公司简介",
@@ -170,10 +171,6 @@
         {
           "text": "加入我们",
           "link": "/about/#加入我们"
-        },
-        {
-          "text": "博客",
-          "link": "/blog/"
         },
         {
           "text": "联系我们",

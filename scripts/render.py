@@ -1519,7 +1519,7 @@ def render_blog():
     years = sorted({p['date'][:4] for p in posts}, reverse=True)
     lead = '昆泰芯的产品解读、应用方案与技术科普文章：编码器精度、低延时、多对极校准、霍尔与 TMR 开关应用。'
     out = fm(title='博客', description=lead, aside=False, pageClass='c-page c-page--blog')
-    out += header([HOME, (SEC['about'], '/about/'), ('博客', None)], '博客', lead,
+    out += header([HOME, ('博客', None)], '博客', lead,
                   [dict(value=len(posts), label='篇文章'), dict(value=len({p['category'] for p in posts if p['category']}) or len(BLOG_CATS), label='个栏目'),
                    dict(value=f'{years[-1]}–{years[0]}', label='发布时间')], kicker=BRAND)
     for y in years:
@@ -1536,7 +1536,7 @@ def render_blog():
         older = posts[i + 1] if i + 1 < len(posts) else None
         body = p.get('body') or ''
         out = fm(title=p['title'], description=p['lead'][:120], outline=[2, 3], pageClass='c-page c-page--post')
-        out += eyebrow(HOME, (SEC['about'], '/about/'), ('博客', '/blog/'), (p['title'], None))
+        out += eyebrow(HOME, ('博客', '/blog/'), (p['title'], None))
         if p['category']:
             out += f'<p class="c-kicker">{E(p["category"])}</p>\n\n'
         out += f'# {p["title"]}\n\n'
@@ -1860,12 +1860,14 @@ def render_nav():
     nav = [
         {'text': SEC['products'], 'activeMatch': '^/products/', 'items': prod_items},
         {'text': SEC['applications'], 'activeMatch': '^/applications/', 'items': apps},
-        {'text': '服务与 Wiki', 'activeMatch': '^/(services|basics)', 'items': [
-            {'text': SEC['services'], 'link': '/services'}, {'text': '技术 Wiki', 'link': '/basics/'}]},
-        {'text': SEC['about'], 'activeMatch': '^/(about|contact|blog)', 'items': [
+        # 技术服务、技术 Wiki、博客都是顶级入口，不放进下拉（王超 2026-09-18）
+        {'text': '技术服务', 'link': '/services', 'activeMatch': '^/services'},
+        {'text': '技术 Wiki', 'link': '/basics/', 'activeMatch': '^/basics/'},
+        {'text': '博客', 'link': '/blog/', 'activeMatch': '^/blog/'},
+        {'text': SEC['about'], 'activeMatch': '^/(about|contact)', 'items': [
             {'text': '公司简介', 'link': '/about/#公司简介'}, {'text': '核心价值观', 'link': '/about/#核心价值观'},
             {'text': '品质认证', 'link': '/about/#品质认证'}, {'text': '加入我们', 'link': '/about/#加入我们'},
-            {'text': '博客', 'link': '/blog/'}, {'text': SEC['contact'], 'link': '/contact'}]},
+            {'text': SEC['contact'], 'link': '/contact'}]},
     ]
     # 侧栏的市场应用要有二级：板块下挂各个案例页（顶栏下拉只放到板块一级）
     side_apps = [{'text': f"{SEC['applications']}总览", 'link': '/applications/'}]

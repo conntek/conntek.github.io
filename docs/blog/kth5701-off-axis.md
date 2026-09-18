@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>离轴安装：昆泰芯 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a>/3D 霍尔芯片，让你的创意自由驰骋！</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>离轴安装：昆泰芯 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a>/3D 霍尔芯片，让你的创意自由驰骋！</span></nav>
 
 <p class="c-kicker">产品解读</p>
 

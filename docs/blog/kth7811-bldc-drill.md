@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span><a class="c-xref" href="/msite/products/encoder/kth78">KTH7811</a> 简化电钻（BLDC）设计</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span><a class="c-xref" href="/msite/products/encoder/kth78">KTH7811</a> 简化电钻（BLDC）设计</span></nav>
 
 <p class="c-kicker">应用方案</p>
 

@@ -5,7 +5,7 @@ aside: false
 pageClass: "c-page c-page--blog"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><span>博客</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><span>博客</span></nav>
 
 <p class="c-kicker">昆泰芯微电子</p>
 

@@ -68,3 +68,16 @@
   color: var(--vp-c-text-3);
 }
 .vp-doc .c-post-source a { margin-left: 6px; }
+
+/* 博客卡片：公众号封面是 2.35:1 横幅、标题多在左侧，按接近 4:3 居中裁剪会把标题切掉。
+   所有指向博客的卡片（博客首页、首页「博客」区、同栏目文章）统一用 2.35:1 图框。 */
+.vp-doc a.c-card[href*="/blog/"] .c-card__media {
+  aspect-ratio: 2.35 / 1 !important;
+  height: auto !important;
+}
+.vp-doc a.c-card[href*="/blog/"] .c-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

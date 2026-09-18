@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</span></nav>
 
 <p class="c-kicker">行业观察</p>
 

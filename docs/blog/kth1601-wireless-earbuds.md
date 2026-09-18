@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span><a class="c-xref" href="/msite/products/switch/kth16">KTH1601</a> 与无线蓝牙耳机：让音乐与科技无缝连接</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span><a class="c-xref" href="/msite/products/switch/kth16">KTH1601</a> 与无线蓝牙耳机：让音乐与科技无缝连接</span></nav>
 
 <p class="c-kicker">应用方案</p>
 

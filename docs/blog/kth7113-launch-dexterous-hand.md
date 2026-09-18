@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>2×2 塞进指尖！昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth71">KTH7113</a> 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>2×2 塞进指尖！昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth71">KTH7113</a> 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题</span></nav>
 
 <p class="c-kicker">新品发布</p>
 

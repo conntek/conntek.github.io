@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>如何评价磁编的准确性？以昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 为例</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>如何评价磁编的准确性？以昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 为例</span></nav>
 
 <p class="c-kicker">技术科普</p>
 

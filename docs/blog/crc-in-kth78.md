@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>数据的安全守护者：CRC 校验在 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列中的应用</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>数据的安全守护者：CRC 校验在 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列中的应用</span></nav>
 
 <p class="c-kicker">技术科普</p>
 

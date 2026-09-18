@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景</span></nav>
 
 <p class="c-kicker">产品解读</p>
 

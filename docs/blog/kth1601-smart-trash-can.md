@@ -5,7 +5,7 @@ outline: [2, 3]
 pageClass: "c-page c-page--post"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/about/">关于昆泰</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>科技赋能生活：<a class="c-xref" href="/msite/products/switch/kth16">KTH1601</a> 让垃圾桶「懂」你的需求</span></nav>
+<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>科技赋能生活：<a class="c-xref" href="/msite/products/switch/kth16">KTH1601</a> 让垃圾桶「懂」你的需求</span></nav>
 
 <p class="c-kicker">应用方案</p>
 

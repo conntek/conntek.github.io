@@ -38,6 +38,30 @@ SLUGS = [
 ]
 
 
+# 源站「技术文章」列表之外、王超另给的公众号文章（2026-09-18）：(slug, 原文链接)
+EXTRA = [
+    ('kto9348-launch-ciif-2026', 'https://mp.weixin.qq.com/s/N6ezUwoT0D_4lsOcgNrAeg'),
+    ('microduck-sensor-teardown', 'https://mp.weixin.qq.com/s/L3z812seoZr7qN7-_261bA'),
+    ('wrc-2026-observations', 'https://mp.weixin.qq.com/s/KaVKipwl7OFOcz926m1zbg'),
+    ('kth7113-launch-dexterous-hand', 'https://mp.weixin.qq.com/s/riHabO7WWRj1_vTSF9OLBA'),
+    ('3d-hall-knob-joystick-valve-encoder', 'https://mp.weixin.qq.com/s/fo3AxdP0dOwxVMYysE-JpQ'),
+    ('electronica-china-2026-recap', 'https://mp.weixin.qq.com/s/LesGO8ZEh8LazjeX1zl8XQ'),
+    ('physical-ai-sensing-foundation', 'https://mp.weixin.qq.com/s/VeDXCT61tYP_KSKDDTCCOw'),
+    ('electronica-china-2026-day1', 'https://mp.weixin.qq.com/s?__biz=MzI5NzAxMTAyMg==&mid=2247489859&idx=1&sn=d6e9f8579967929ea1176eff66fb97dd'),
+    ('ktm52-53-amr-launch', 'https://mp.weixin.qq.com/s?__biz=MzI5NzAxMTAyMg==&mid=2247489773&idx=1&sn=de5a1a71ddabeadad7f988dc76724f81&chksm=ed4233d3d5d13b4e10c32bf27fd1d8da48714c535d619e9892deaa9aa66c863d7d73e3e226b2&scene=0&xtrack=1&subscene=90'),
+    ('tsinghua-industrial-design-talk', 'https://mp.weixin.qq.com/s?__biz=MzI5NzAxMTAyMg==&mid=2247489757&idx=1&sn=b1ca5f2892d8b597399ad3b67d8b7d32&chksm=ede826b1509ba26eaf101de1e8023f222b0ca7cabc7f72fd9664ebfb9dd0c1cfe43be6d464e6&scene=0&xtrack=1&subscene=90'),
+    ('sensor-expo-shenzhen-2026-recap', 'https://mp.weixin.qq.com/s?__biz=MzI5NzAxMTAyMg==&mid=2247489718&idx=1&sn=95fec1af3c2dc5d3826c5267e73fc36b&chksm=ed97d29b3d17c9df92d434517d0a03593c3564223183553d9508087b345c5dcb1c393946e1c5&scene=0&xtrack=1&subscene=90'),
+    ('sensor-expo-shenzhen-2026-forums', 'https://mp.weixin.qq.com/s/l4AcqziSF-fN0HAmrzRSaA'),
+    ('ktm13-dishwasher-level', 'https://mp.weixin.qq.com/s/WhXOaZhHKw0PzLDQSq-_cg'),
+    ('kth57-smart-irrigation-valve', 'https://mp.weixin.qq.com/s/IaBAP2516J3KxElgTpdI1A'),
+    ('ktm59-gaming-peripherals', 'https://mp.weixin.qq.com/s/CHzybg4FGmyDrfM8v6CjFw'),
+    ('kth1701-ab-roller', 'https://mp.weixin.qq.com/s/7prET3DnByCYZDsnWQf7Nw'),
+    ('kth5701-injection-pump', 'https://mp.weixin.qq.com/s/RRaXBIyZF5v2bnanxxyqMQ'),
+    ('first-european-patent', 'https://mp.weixin.qq.com/s/O4MFLkIpxcaXHixSDXEFfw'),
+    ('sps-nuremberg-2025', 'https://mp.weixin.qq.com/s/tBKbqM37kcsbIwx7hbRUNQ'),
+]
+
+
 def get(url, binary=False, referer=None):
     req = urllib.request.Request(url, headers={'User-Agent': UA, **({'Referer': referer} if referer else {})})
     for i in range(3):
@@ -124,8 +148,17 @@ def main():
     os.makedirs(os.path.join(ROOT, 'content', 'blog'), exist_ok=True)
     arts = SITE['techtalks']
     assert len(arts) == len(SLUGS), (len(arts), len(SLUGS))
+    items = list(zip(arts, SLUGS)) + [({'href': url}, slug) for slug, url in EXTRA]
+    only = [a for a in sys.argv[1:] if not a.startswith('--')]
+    if only:
+        items = [(a, s) for a, s in items if s in only]
     ok = 0
-    for a, slug in zip(arts, SLUGS):
+    for a, slug in items:
+        target = os.path.join(ROOT, 'content', 'blog', slug + '.json')
+        if os.path.exists(target) and 'body_raw' in json.load(io.open(target, encoding='utf-8')) and not REFETCH:
+            # 已排版过的文章不再覆盖（上一轮就是被残留进程这样冲掉的）
+            print('skip (已排版)', slug)
+            continue
         cache = os.path.join(ROOT, 'cache', 'blog', slug + '.html')
         if REFETCH or not os.path.exists(cache):
             html = get(a['href'])
@@ -137,14 +170,24 @@ def main():
         except Exception as e:
             print('FAIL', slug, e)
             continue
+        cover = a.get('image', '')
+        if not cover:
+            # 源站列表之外的文章没有封面，取公众号分享图 og:image
+            m = re.search(r'property="og:image" content="([^"]+)"', html)
+            if m:
+                try:
+                    fn, _ = save_image(m.group(1), os.path.join(ROOT, 'docs', 'public', 'blog', slug), 'cover')
+                    cover = f'/blog/{slug}/{fn}'
+                except Exception as e:
+                    print('  封面下载失败', slug, e)
         rec = {
             'slug': slug,
-            'title': d['title'] or a['title'],
-            'date': d['date'] or a['date'],
+            'title': d['title'] or a.get('title', ''),
+            'date': d['date'] or a.get('date', ''),
             'author': d['author'],
             'source': a['href'],
             'summary': a.get('summary', ''),
-            'cover': a.get('image', ''),
+            'cover': cover,
             'images': d['images'],
             'videos': d['videos'],
             'body': d['body'],

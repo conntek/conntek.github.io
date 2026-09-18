@@ -1,4 +1,4 @@
-"""按 content/blog/_format.md 统一检查 16 篇博客 JSON。字数一律按 Python len() 计，含空格。
+"""按 content/blog/_format.md 统一检查全部博客 JSON。字数一律按 Python len() 计，含空格。
 
 用法：python scripts/blog_lint.py        只报告
 退出码：有问题为 1
@@ -6,7 +6,7 @@
 import glob, io, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CATS = {'新品发布', '产品解读', '应用方案', '技术科普'}
+CATS = {'新品发布', '产品解读', '应用方案', '技术科普', '公司动态', '行业观察'}
 BOILER = ['END', '往期推荐', '扫码', '关注我们', '点击上图', '阅读原文', '昆泰芯微电子科技有限公司是一家', 'sales@', '0755-']
 EMOJI = re.compile('[\U0001F300-\U0001FAFF☀-➿⭐⬆↔-⇿■-◿]')
 
@@ -27,7 +27,7 @@ for fn in sorted(glob.glob(os.path.join(ROOT, 'content', 'blog', '*.json'))):
         bad(slug, '还没排版（缺 body_raw）')
         continue
     if d.get('category') not in CATS:
-        bad(slug, f'category 不在四类里：{d.get("category")}')
+        bad(slug, f'category 不在六类里：{d.get("category")}')
     lead = d.get('lead', '')
     if not 60 <= len(lead) <= 100:
         bad(slug, f'lead {len(lead)} 字（要求 60~100）')
@@ -41,8 +41,9 @@ for fn in sorted(glob.glob(os.path.join(ROOT, 'content', 'blog', '*.json'))):
         bad(slug, '缺 removed 列表')
     h2 = re.findall(r'^## (.+)$', body, flags=re.M)
     h3 = re.findall(r'^### (.+)$', body, flags=re.M)
-    if not 2 <= len(h2) <= 5:
-        bad(slug, f'## 小节 {len(h2)} 个（要求 2~5）')
+    short = len(d.get('body_raw', '')) < 1500
+    if not (0 if short else 2) <= len(h2) <= (3 if short else 5):
+        bad(slug, f'## 小节 {len(h2)} 个（要求 {"0~3" if short else "2~5"}）')
     for h in h2:
         if not 4 <= len(h) <= 14:
             bad(slug, f'## 标题 {len(h)} 字：{h}')

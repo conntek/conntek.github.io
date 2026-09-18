@@ -1460,7 +1460,7 @@ def render_services():
 
 
 # ---------- 技术洞见 ----------
-BLOG_CATS = ['新品发布', '产品解读', '应用方案', '技术科普']
+BLOG_CATS = ['新品发布', '产品解读', '应用方案', '技术科普', '公司动态', '行业观察']
 
 
 def load_posts():
@@ -1480,8 +1480,9 @@ def load_posts():
         t = re.sub(r'([A-Za-z0-9])([一-鿿])', r'\1 \2', t)
         t = re.sub(r'\s*!\s*$', '！', t).replace('?', '？').replace('“', '「').replace('”', '」')
         t = re.sub(r'\s*\(([^()]*)\)', r'（\1）', t)
+        t = re.sub(r'"([^"]+)"', r'「\1」', t)
         # 「新品发布 | 」这类前缀与栏目标签重复，页面上已经单独显示栏目
-        p['title'] = re.sub(r'^(新品发布|产品解读|应用方案|技术科普)\s*[|｜]\s*', '', t)
+        p['title'] = re.sub(r'^(新品发布|产品解读|应用方案|技术科普|公司动态|行业观察|重磅新品)\s*[|｜]\s*', '', t)
         p.setdefault('category', '')
         p['lead'] = p.get('lead') or p.get('summary', '').rstrip('……').rstrip('…')
         posts.append(p)
@@ -1490,7 +1491,8 @@ def load_posts():
 
 
 def blog_card_img(p):
-    return (IMG.get(f'tt/{p["_n"]}') if p.get('_n') is not None else None) or p.get('hero') or p.get('cover')
+    # 源站列表里的文章用派生的列表图；列表之外的文章用公众号封面（cover.*），没有才退到正文题图
+    return (IMG.get(f'tt/{p["_n"]}') if p.get('_n') is not None else None) or p.get('cover') or p.get('hero')
 
 
 def blog_body_html(md):

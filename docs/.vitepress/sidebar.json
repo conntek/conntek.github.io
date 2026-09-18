@@ -1243,8 +1243,96 @@
       "link": "/blog/"
     },
     {
-      "text": "2024 年",
+      "text": "2026 年",
       "collapsed": false,
+      "items": [
+        {
+          "text": "昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布",
+          "link": "/blog/kto9348-launch-ciif-2026"
+        },
+        {
+          "text": "一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？",
+          "link": "/blog/microduck-sensor-teardown"
+        },
+        {
+          "text": "从「炫技」到「干活」 2026 世界机器人大会观察",
+          "link": "/blog/wrc-2026-observations"
+        },
+        {
+          "text": "一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景",
+          "link": "/blog/3d-hall-knob-joystick-valve-encoder"
+        },
+        {
+          "text": "2×2 塞进指尖！昆泰芯 KTH7113 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题",
+          "link": "/blog/kth7113-launch-dexterous-hand"
+        },
+        {
+          "text": "感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案",
+          "link": "/blog/physical-ai-sensing-foundation"
+        },
+        {
+          "text": "芯耀慕尼黑，感知启新程｜昆泰芯 2026 上海慕尼黑电子展圆满收官，10 月工博会再赴智能传感之约",
+          "link": "/blog/electronica-china-2026-recap"
+        },
+        {
+          "text": "硬核技术・芯耀上海｜慕尼黑电子展首日昆泰芯人气爆棚",
+          "link": "/blog/electronica-china-2026-day1"
+        },
+        {
+          "text": "昆泰芯重磅新品｜KTM52/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！",
+          "link": "/blog/ktm52-53-amr-launch"
+        },
+        {
+          "text": "智感设计・芯启未来｜昆泰芯武建峰博士清华开讲，为工业设计注入看不见的传感力量",
+          "link": "/blog/tsinghua-industrial-design-talk"
+        },
+        {
+          "text": "智感未来，芯耀鹏城——昆泰芯 2026 深圳国际传感器展圆满落幕，亮点纷呈，载誉而归",
+          "link": "/blog/sensor-expo-shenzhen-2026-recap"
+        },
+        {
+          "text": "昆泰芯闪耀深圳传感器展，武博士双论坛解码行业前沿",
+          "link": "/blog/sensor-expo-shenzhen-2026-forums"
+        },
+        {
+          "text": "昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测",
+          "link": "/blog/ktm13-dishwasher-level"
+        },
+        {
+          "text": "昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代",
+          "link": "/blog/kth57-smart-irrigation-valve"
+        },
+        {
+          "text": "昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用",
+          "link": "/blog/ktm59-gaming-peripherals"
+        },
+        {
+          "text": "昆泰芯霍尔开关 KTH1701 在健腹轮中的应用",
+          "link": "/blog/kth1701-ab-roller"
+        }
+      ]
+    },
+    {
+      "text": "2025 年",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "昆泰芯 KTH5701 在工业注射泵中的应用场景与解决方案",
+          "link": "/blog/kth5701-injection-pump"
+        },
+        {
+          "text": "昆泰芯第一件欧洲专利：《磁性编码器的自校准方法、电机及校准角度检测值的方法》公告授权",
+          "link": "/blog/first-european-patent"
+        },
+        {
+          "text": "昆泰芯闪耀 2025 年德国纽伦堡 SPS 展会，强势彰显中国智造在欧洲工业市场的技术创新力",
+          "link": "/blog/sps-nuremberg-2025"
+        }
+      ]
+    },
+    {
+      "text": "2024 年",
+      "collapsed": true,
       "items": [
         {
           "text": "昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升",

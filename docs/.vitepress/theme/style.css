@@ -2441,11 +2441,10 @@
 /* P6 带侧栏的页面（全部产品页、应用页）VitePress 默认不渲染页脚，
    备案号与公司名在这两百多页上都看不到。显示出来，并让开侧栏那一列。 */
 .VPFooter.has-sidebar { display: block !important; }   /* 组件内 scoped 样式带属性选择器，特异性更高 */
+/* 页脚全宽、全站统一（王超 2026-09-21：「底部 footer 最好是全局的」），不再让开侧栏那一列；
+   侧栏是绝对定位，正文区用 --c-sidebar-h（theme/index.ts 量出的侧栏高度）撑到至少与侧栏等高，页脚才不会压住侧栏末尾。 */
 @media (min-width: 960px) {
-  .VPFooter.has-sidebar { padding-left: calc(var(--vp-sidebar-width) + 32px); }
-}
-@media (min-width: 1440px) {
-  .VPFooter.has-sidebar { padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width) + 32px); }
+  .VPContent.has-sidebar { min-height: var(--c-sidebar-h, 0px); }
 }
 
 /* P7 关键数字条后直接接正文段落时（应用板块页）两者贴死，只隔 8px */
@@ -2571,5 +2570,4 @@
   /* M9 服务卡、价值卡在窄屏内边距 24px 偏松，与卡片网格 12px 间距不成比例 */
   .c-step, .c-value, .c-contact { padding: 18px 18px; }
 
-  .VPFooter.has-sidebar { padding-left: 24px; }
 }

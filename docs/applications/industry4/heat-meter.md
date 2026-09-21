@@ -3,9 +3,10 @@ title: "热量表 · 工业4.0应用"
 description: "为机械式热量表的流量部分计数，与供回水温差一起积算用热量。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"热量表：工业4.0应用方案\", \"description\": \"为机械式热量表的流量部分计数，与供回水温差一起积算用热量。\", \"about\": \"热量表\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/heat-meter\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/industry4">工业4.0</a><i>/</i><span>热量表</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>热量表</span></nav>
 
 <p class="c-kicker">工业4.0</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">为机械式热量表的流量部分计数，与供回水温差一起积算用热量。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/switch/ktm13">推荐芯片 KTM13xx</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/switch/ktm13">推荐芯片 KTM13xx</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 流量部分串在供暖管道上，热水温度高，分体式积算仪可与管段分开安装，但表体整个采暖季都处在温热环境里；用于制冷计量时表面又会凝露。整表靠一次锂电池工作多个采暖季，读数多经 M-Bus 或无线方式集中抄读。流量计数一旦漏计，积算出的热量直接偏低，所以计数要在高温和电池电压下降时都保持可靠。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/industry4-heat-meter.webp" alt="热量表" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/industry4-heat-meter.webp" alt="热量表" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -37,7 +38,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>宽温上限</h3><p>工作温度 -40 ~ 125 ℃，热水管段带来的温升在范围内。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>宽供电范围</h3><p>1.8 ~ 5.5 V 供电，电池电压下降后仍在工作范围内。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>小回差</h3><p>回差可小于 3 高斯，叶轮慢转时翻转点仍确定。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>纳安级功耗</h3><p>平均功耗低至 160 nA @ 3 V，计数环节占用电量很小。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/water-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-water-meter.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>水表</h3><p>对表内指针或耦合磁铁计数，把机械水表的走字转成可远传的脉冲。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/gas-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3><p>对计量机构上的磁铁计数，把气体流量转成脉冲。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/electricity-meter"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电表</h3><p>监测表内异常外部磁场，识别用强磁干扰计量的行为。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/industry4/water-meter"><div class="c-card__media c-media--case"><img src="/img/case/industry4-water-meter.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>水表</h3><p>对表内指针或耦合磁铁计数，把机械水表的走字转成可远传的脉冲。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/gas-meter"><div class="c-card__media c-media--case"><img src="/img/case/industry4-2.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>燃气表</h3><p>对计量机构上的磁铁计数，把气体流量转成脉冲。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/electricity-meter"><div class="c-card__media c-media--case"><img src="/img/case/industry4-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电表</h3><p>监测表内异常外部磁场，识别用强磁干扰计量的行为。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

@@ -3,9 +3,10 @@ title: "KTM53 系列 离轴 AMR 角度编码器"
 description: "AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）"
 aside: false
 pageClass: "c-page c-page--product"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM53 系列 离轴 AMR 角度编码器\", \"description\": \"AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm53.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/ktm53\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><a href="/msite/products/encoder/">编码器芯片</a><i>/</i><span>KTM53 系列</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTM53 系列</span></nav>
 
 <div class="c-product-hero"><div class="c-product-hero__text">
 
@@ -17,9 +18,9 @@ pageClass: "c-page c-page--product"
 
 <div class="c-specs"><div class="c-spec"><b>21 bit</b><span>分辨率</span></div><div class="c-spec"><b>±0.03°</b><span>精度 · 离轴校准后典型值</span></div><div class="c-spec"><b>60000 rpm</b><span>转速</span></div><div class="c-spec"><b>3 ~ 5.5 V</b><span>电压</span></div></div>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
 
-</div><div class="c-product-hero__media"><img src="/msite/img/icons-web/ktm53.webp" alt="KTM53 系列"></div></div>
+</div><div class="c-product-hero__media"><img src="/img/icons-web/ktm53.webp" alt="KTM53 系列"></div></div>
 
 ## 产品概述
 
@@ -31,7 +32,7 @@ KTM5300 采用离轴安装，配合垂直霍尔与数字算法实现高精度离
 
 核心优势是用户侧一键自校准，可补偿磁铁不理想与安装偏差引入的非线性误差，显著改善 INL。工作电压 3 ~ 5.5 V，工作电流 25 mA，磁场检测范围 20 ~ 150 mT，启动时间 1 ~ 260 ms 可调，工作温度 -40 ~ 125 ℃，封装 QFN3*3_16L。
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktm53.webp" alt="KTM53 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/ktm53.webp" alt="KTM53 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -45,12 +46,12 @@ KTM5300 采用离轴安装，配合垂直霍尔与数字算法实现高精度离
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTM5300</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTM5300%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM5300 产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTM5300</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM5300%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM5300 产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
 
 ## 同类产品
 
 <p class="c-sec-lead">编码器芯片产品线的其他系列。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/encoder/ktm52"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm52.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM52 系列</span><h3>21 位高精度 AMR 角度编码器</h3><p>21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/encoder/ktm58"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm58.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58 系列</span><h3>30 bit 绝对角度细分器</h3><p>最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/encoder/ktm59"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm59.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM59 系列</span><h3>高速 TMR 磁编码器</h3><p>双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/msite/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看详情</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/products/encoder/ktm52"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm52.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM52 系列</span><h3>21 位高精度 AMR 角度编码器</h3><p>21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/encoder/ktm58"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm58.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58 系列</span><h3>30 bit 绝对角度细分器</h3><p>最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/encoder/ktm59"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm59.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM59 系列</span><h3>高速 TMR 磁编码器</h3><p>双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看详情</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

@@ -3,9 +3,10 @@ title: "KTAx333 系列 零温漂高精度运放"
 description: "自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出"
 aside: false
 pageClass: "c-page c-page--product"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTAx333 系列 零温漂高精度运放\", \"description\": \"自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出\", \"category\": \"其他芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktax33.webp\", \"url\": \"https://conntek.grosso.link/products/other/ktax33\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/products/">产品中心</a><i>/</i><a href="/msite/products/other/">其他芯片</a><i>/</i><span>KTAx333 系列</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/other/">其他芯片</a><i>/</i><span>KTAx333 系列</span></nav>
 
 <div class="c-product-hero"><div class="c-product-hero__text">
 
@@ -17,9 +18,9 @@ pageClass: "c-page c-page--product"
 
 <div class="c-specs"><div class="c-spec"><b>2 μV</b><span>失调电压 · 典型值</span></div><div class="c-spec"><b>1.8 ~ 5.5 V</b><span>电压</span></div><div class="c-spec"><b>30 μA</b><span>功耗</span></div><div class="c-spec"><b>轨到轨输入 / 输出</b><span>接口</span></div></div>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/msite/contact">申请样品 / 咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
 
-</div><div class="c-product-hero__media"><img src="/msite/img/icons-web/ktax33.webp" alt="KTAx333 系列"></div></div>
+</div><div class="c-product-hero__media"><img src="/img/icons-web/ktax33.webp" alt="KTAx333 系列"></div></div>
 
 ## 产品概述
 
@@ -29,11 +30,11 @@ KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CM
 
 主要参数：增益带宽积 350 kHz，失调电压温漂 0.02 μV/℃，电压噪声 1.1 μVpp（0.1 ~ 10 Hz），压摆率 0.16 V/μs，输入偏置电流 ±100 pA，输入失调电流 ±120 pA，静态功耗 30 μA，CMRR 120 dB，PSRR 1 μV/V，开环增益 120 dB，工作温度 -40 ~ 125 ℃。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/msite/applications/intelligent-life/solar-converter">太阳能光电转换器</a><a href="/msite/applications/intelligent-life/gas-stove-temperature">燃气灶-温度检测</a></div>
+<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/applications/intelligent-life/solar-converter">太阳能光电转换器</a><a href="/applications/intelligent-life/gas-stove-temperature">燃气灶-温度检测</a></div>
 
 <div class="c-tags c-tags--lg"><b>测量类型</b><span>传感器信号放大</span></div>
 
-</div><div class="c-split__media c-split__media--frame"><img src="/msite/img/photo/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
 
 ## 核心特点
 
@@ -53,18 +54,18 @@ KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CM
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTAx333</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/msite/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTAx333产品手册.pdf</a></td><td><a class="c-file" href="/msite/files/KTAx333-datasheet.pdf" target="_blank"><em>PDF</em>KTAx333-datasheet.pdf</a></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTAx333</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTAx333产品手册.pdf</a></td><td><a class="c-file" href="/files/KTAx333-datasheet.pdf" target="_blank"><em>PDF</em>KTAx333-datasheet.pdf</a></td></tr></tbody></table></div>
 
 ## 应用案例
 
 <p class="c-sec-lead">以下场景推荐使用 KTAx333 系列。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-life/solar-converter"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>太阳能光电转换器</h3></div></a><a class="c-card" href="/msite/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>燃气灶-温度检测</h3></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-life/solar-converter"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>太阳能光电转换器</h3></div></a><a class="c-card" href="/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>燃气灶-温度检测</h3></div></a></div>
 
 ## 其他产品线
 
 <p class="c-sec-lead">浏览昆泰芯的其他产品线。</p>
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/products/3d-hall/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-3d-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2 个系列</span><h3>3D霍尔芯片</h3><p>感知 X、Y、Z 三轴磁场，用于角度与位移检测</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/encoder/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-encoder.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">7 个系列</span><h3>编码器芯片</h3><p>霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/switch/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-switch.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">8 个系列</span><h3>开关芯片</h3><p>霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/msite/products/knob/"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/products/3d-hall/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-3d-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2 个系列</span><h3>3D霍尔芯片</h3><p>感知 X、Y、Z 三轴磁场，用于角度与位移检测</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/encoder/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-encoder.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">7 个系列</span><h3>编码器芯片</h3><p>霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/switch/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-switch.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">8 个系列</span><h3>开关芯片</h3><p>霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/knob/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

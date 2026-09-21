@@ -3,9 +3,11 @@ title: "从「炫技」到「干活」 2026 世界机器人大会观察"
 description: "2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。"
 outline: [2, 3]
 pageClass: "c-page c-page--post"
+date: "2026-08-31"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"从「炫技」到「干活」 2026 世界机器人大会观察\", \"description\": \"2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。\", \"datePublished\": \"2026-08-31\", \"dateModified\": \"2026-08-31\", \"articleSection\": \"行业观察\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.grosso.link/blog/wrc-2026-observations/cover.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"mainEntityOfPage\": \"https://conntek.grosso.link/blog/wrc-2026-observations\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/KaVKipwl7OFOcz926m1zbg\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>从「炫技」到「干活」 2026 世界机器人大会观察</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>从「炫技」到「干活」 2026 世界机器人大会观察</span></nav>
 
 <p class="c-kicker">行业观察</p>
 
@@ -15,9 +17,9 @@ pageClass: "c-page c-page--post"
 
 <p class="c-lead">2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>本届大会最大的变化是落地，具身智能正转向大规模落地</li><li>机器人落地绕不开动得准、扛得住、记得住三个问题</li><li>昆泰芯以 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a>/78/71、<a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53/59 覆盖关节与姿态感知</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>本届大会最大的变化是落地，具身智能正转向大规模落地</li><li>机器人落地绕不开动得准、扛得住、记得住三个问题</li><li>昆泰芯以 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a>/78/71、<a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53/59 覆盖关节与姿态感知</li></ul></div>
 
-<figure class="c-blog-fig c-blog-fig--hero"><img src="/msite/blog/wrc-2026-observations/2.webp" alt="从「炫技」到「干活」 2026 世界机器人大会观察"></figure>
+<figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/wrc-2026-observations/2.webp" alt="从「炫技」到「干活」 2026 世界机器人大会观察"></figure>
 
 8 月 19 日至 23 日，2026 世界机器人大会在北京亦庄落幕。373 家国内外知名企业、3000 件创新产品、311 款首发新品、48 家央企首次组团参展……当「人机共生，产需共融」的主题在超过 6 万平方米的展馆里落地，人们惊讶地发现：机器人不再只是舞台上翻跟头、跳街舞的「表演者」，而是正在产线旁、仓库里、餐桌边真刀真枪地干活。
 
@@ -27,7 +29,7 @@ pageClass: "c-page c-page--post"
 
 本届大会由中国电子学会和世界机器人合作组织主办，以「人机共生，产需共融」为主题，设置 7 场主论坛，吸引 1000 余位国内外嘉宾参会，30 家国际支持机构参与，国际朋友圈持续扩容。
 
-<figure class="c-blog-fig"><img src="/msite/blog/wrc-2026-observations/2.webp" alt="2026 世界机器人大会核心数据一览" loading="lazy"><figcaption>2026 世界机器人大会核心数据一览</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/wrc-2026-observations/2.webp" alt="2026 世界机器人大会核心数据一览" loading="lazy"><figcaption>2026 世界机器人大会核心数据一览</figcaption></figure>
 
 博览会设智创馆、智合馆、智造馆、智趣馆四大展馆，集中展现机器人整机、核心零部件、产业链协同创新和多场景应用成果。同期举办的世界机器人大赛总决赛阵容空前——来自超过 20 个国家、6000 余支队伍的万余名赛手同场竞技，脑控机器人、共融机器人挑战赛等前沿赛项轮番上演。
 
@@ -69,15 +71,15 @@ pageClass: "c-page c-page--post"
 
 ## 昆泰芯机器人感知方案
 
-深耕传感器信号链及物联网芯片的昆泰芯微电子（CONNTEK），正是这条「寻珠」之路上的先行者。针对机器人关节、伺服电机对高速、高精度、高可靠位置感知的严苛要求，昆泰芯以 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a>、<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a>、<a class="c-xref" href="/msite/products/encoder/kth71">KTH71</a>、<a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53、<a class="c-xref" href="/msite/products/encoder/ktm59">KTM59</a> 系列等磁编码器芯片，构建起从「关节反馈」到「姿态感知」的完整方案矩阵。
+深耕传感器信号链及物联网芯片的昆泰芯微电子（CONNTEK），正是这条「寻珠」之路上的先行者。针对机器人关节、伺服电机对高速、高精度、高可靠位置感知的严苛要求，昆泰芯以 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a>、<a class="c-xref" href="/products/encoder/kth78">KTH78</a>、<a class="c-xref" href="/products/encoder/kth71">KTH71</a>、<a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53、<a class="c-xref" href="/products/encoder/ktm59">KTM59</a> 系列等磁编码器芯片，构建起从「关节反馈」到「姿态感知」的完整方案矩阵。
 
 ### 姿态与交互感知：KTH57 系列
 
-机器人不仅要「关节准」，还要「姿态灵」。<a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a> 系列集成 X、Y、Z 三轴霍尔感应单元，配合专用解码芯片实现 ±1° 以内角度检测，支持 I²C/SPI 接口，最小 3×3 mm 封装、-40 ~ 125 ℃ 宽温工作，并配套径向充磁磁钢系列——适用于关节角度监测、示教器与遥操作手柄的姿态/旋钮感知等场景。
+机器人不仅要「关节准」，还要「姿态灵」。<a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列集成 X、Y、Z 三轴霍尔感应单元，配合专用解码芯片实现 ±1° 以内角度检测，支持 I²C/SPI 接口，最小 3×3 mm 封装、-40 ~ 125 ℃ 宽温工作，并配套径向充磁磁钢系列——适用于关节角度监测、示教器与遥操作手柄的姿态/旋钮感知等场景。
 
 ### 通用编码：KTH78 系列
 
-<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列是 16 位分辨率、1 μs 低延时的霍尔绝对角度编码器芯片，面向伺服系统与工业电机的高性价比之选：
+<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列是 16 位分辨率、1 μs 低延时的霍尔绝对角度编码器芯片，面向伺服系统与工业电机的高性价比之选：
 
 - 单圈 65536 分度，INL < ±0.35°，输出噪声低至 0.015°，温漂仅 0.002°/℃；
 - 硬件级实时采样，每 1 μs 更新一次角度数据，最高支持 120,000 rpm；
@@ -105,23 +107,23 @@ KTM52/53 是昆泰芯重磅推出的高速高精度 AMR 磁编码器芯片，以
 - ABZ（1 ~ 65,536 脉冲/圈）/ UVW（1 ~ 64 对极）/ PWM（12 bit）/ SPI（21 bit）四模并行输出；
 - 内置 EEPROM，参数全程用户可编程，工作温度 -40 ~ 125 ℃。
 
-<figure class="c-blog-fig"><img src="/msite/blog/wrc-2026-observations/3.webp" alt="KTM52/53 AMR 磁编码器芯片" loading="lazy"><figcaption><a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 AMR 磁编码器芯片</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/wrc-2026-observations/3.webp" alt="KTM52/53 AMR 磁编码器芯片" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53 AMR 磁编码器芯片</figcaption></figure>
 
 ### TMR 编码：KTM59 系列
 
-<a class="c-xref" href="/msite/products/encoder/ktm59">KTM59</a> 系列是 24 bit 绝对角度 TMR 磁性编码器芯片，内置最高 2M 采样率的 16 bit SAR ADC，可高速读取传感器上的差分正弦/余弦信号，通过片上数字电路完成角度计算并输出位置信息——为追求极致精度的关节模组提供 TMR 高精度方案。
+<a class="c-xref" href="/products/encoder/ktm59">KTM59</a> 系列是 24 bit 绝对角度 TMR 磁性编码器芯片，内置最高 2M 采样率的 16 bit SAR ADC，可高速读取传感器上的差分正弦/余弦信号，通过片上数字电路完成角度计算并输出位置信息——为追求极致精度的关节模组提供 TMR 高精度方案。
 
 ### 机器人感知方案一览
 
 | 应用环节 | 推荐方案 | 核心价值 |
 | --- | --- | --- |
-| 姿态监测/交互感知 | <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a> 系列 | 3D 角度 ±1°、I²C/SPI、低功耗 |
-| 伺服/工业通用编码 | <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列 | 16 bit、1 μs 低延时、磁场报警 |
-| 关节电机高速反馈 | <a class="c-xref" href="/msite/products/encoder/kth71">KTH71</a> 系列 | 16 bit、120,000 rpm、ANLC 自校准、车规 |
-| 高精度在轴/离轴编码 | <a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a> / <a class="c-xref" href="/msite/products/encoder/ktm53">KTM53</a> | 21 bit、±0.015°/±0.03°、60,000 rpm |
-| 极致精度 TMR 编码 | <a class="c-xref" href="/msite/products/encoder/ktm59">KTM59</a> 系列 | 24 bit、2M 采样 |
+| 姿态监测/交互感知 | <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列 | 3D 角度 ±1°、I²C/SPI、低功耗 |
+| 伺服/工业通用编码 | <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列 | 16 bit、1 μs 低延时、磁场报警 |
+| 关节电机高速反馈 | <a class="c-xref" href="/products/encoder/kth71">KTH71</a> 系列 | 16 bit、120,000 rpm、ANLC 自校准、车规 |
+| 高精度在轴/离轴编码 | <a class="c-xref" href="/products/encoder/ktm52">KTM52</a> / <a class="c-xref" href="/products/encoder/ktm53">KTM53</a> | 21 bit、±0.015°/±0.03°、60,000 rpm |
+| 极致精度 TMR 编码 | <a class="c-xref" href="/products/encoder/ktm59">KTM59</a> 系列 | 24 bit、2M 采样 |
 
-<figure class="c-blog-fig"><img src="/msite/blog/wrc-2026-observations/4.webp" alt="昆泰芯五大系列机器人感知方案" loading="lazy"><figcaption>昆泰芯五大系列机器人感知方案</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/wrc-2026-observations/4.webp" alt="昆泰芯五大系列机器人感知方案" loading="lazy"><figcaption>昆泰芯五大系列机器人感知方案</figcaption></figure>
 
 从「关节」到「姿态」，从「高速」到「高精度」，昆泰芯用一颗颗国产传感芯片，为机器人补上「感知」这一课。
 
@@ -129,14 +131,14 @@ KTM52/53 是昆泰芯重磅推出的高速高精度 AMR 磁编码器芯片，以
 
 2026 世界机器人大会释放的最强信号，不是某个炫酷的机器人，而是一个朴素的结论：机器人产业已经走过了「讲概念」的阶段，正在比拼量产交付能力与场景适配能力。而这场比拼的底层，是核心零部件的精度、可靠性与成本——每一环都决定机器人能否真正「下得去、干得久」。
 
-作为国产传感器芯片的深耕者，昆泰芯微电子将持续以 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a>/KTH71 霍尔磁编码器芯片、<a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 AMR 编码器芯片与 <a class="c-xref" href="/msite/products/encoder/ktm59">KTM59</a> TMR 编码器芯片等高性能芯片，为机器人关节、伺服电机与姿态感知场景提供「转得快、测得准、靠得住」的感知底座。
+作为国产传感器芯片的深耕者，昆泰芯微电子将持续以 <a class="c-xref" href="/products/encoder/kth78">KTH78</a>/KTH71 霍尔磁编码器芯片、<a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53 AMR 编码器芯片与 <a class="c-xref" href="/products/encoder/ktm59">KTM59</a> TMR 编码器芯片等高性能芯片，为机器人关节、伺服电机与姿态感知场景提供「转得快、测得准、靠得住」的感知底座。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2026-08-31。<a href="https://mp.weixin.qq.com/s/KaVKipwl7OFOcz926m1zbg" target="_blank" rel="noopener">查看原文</a></p>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/blog/3d-hall-knob-joystick-valve-encoder"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/msite/blog/microduck-sensor-teardown"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><span class="c-card__more">阅读</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/blog/3d-hall-knob-joystick-valve-encoder"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/blog/microduck-sensor-teardown"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><span class="c-card__more">阅读</span></div></a></div>
 
 ## 同栏目文章
 
-<div class="c-grid c-grid--3"><a class="c-card" href="/msite/blog/microduck-sensor-teardown"><div class="c-card__media c-media--photo"><img src="/msite/blog/microduck-sensor-teardown/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-09-04</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><p>Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/physical-ai-sensing-foundation"><div class="c-card__media c-media--photo"><img src="/msite/blog/physical-ai-sensing-foundation/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-07-24</span><h3>感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案</h3><p>本文以 2026 世界人工智能大会为背景，梳理具身智能落地在关节感知、终端功耗、严苛环境与供应链上的痛点，介绍昆泰芯磁传感芯片的技术优势及其可解决的行业问题。</p><span class="c-card__more">阅读全文</span></div></a></div>
+<div class="c-grid c-grid--3"><a class="c-card" href="/blog/microduck-sensor-teardown"><div class="c-card__media c-media--photo"><img src="/blog/microduck-sensor-teardown/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-09-04</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><p>Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/physical-ai-sensing-foundation"><div class="c-card__media c-media--photo"><img src="/blog/physical-ai-sensing-foundation/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-07-24</span><h3>感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案</h3><p>本文以 2026 世界人工智能大会为背景，梳理具身智能落地在关节感知、终端功耗、严苛环境与供应链上的痛点，介绍昆泰芯磁传感芯片的技术优势及其可解决的行业问题。</p><span class="c-card__more">阅读全文</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

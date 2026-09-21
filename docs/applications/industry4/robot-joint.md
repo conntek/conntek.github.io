@@ -3,9 +3,10 @@ title: "机器人关节 · 工业4.0应用"
 description: "测量关节电机端与减速器输出端的角度，支撑机械臂关节的精确定位。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"机器人关节：工业4.0应用方案\", \"description\": \"测量关节电机端与减速器输出端的角度，支撑机械臂关节的精确定位。\", \"about\": \"机器人关节\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/robot-joint\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/industry4">工业4.0</a><i>/</i><span>机器人关节</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>机器人关节</span></nav>
 
 <p class="c-kicker">工业4.0</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">测量关节电机端与减速器输出端的角度，支撑机械臂关节的精确定位。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/encoder/ktm59">推荐芯片 KTM59xx</a><a class="c-btn" href="/msite/products/encoder/ktm58">也可选 KTM58xx</a><a class="c-btn" href="/msite/products/encoder/kth71">也可选 KTH71xx</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/encoder/ktm59">推荐芯片 KTM59xx</a><a class="c-btn" href="/products/encoder/ktm58">也可选 KTM58xx</a><a class="c-btn" href="/products/encoder/kth71">也可选 KTH71xx</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 两端编码器的诉求不同：电机端转速高，要带宽和低延时；输出端转速低、单次转角小，更看重角度噪声低、读数稳定。编码器与电机绕组、制动器线圈挨得很近，差分结构能抵消方向恒定、空间均匀的外磁场，但靠得太近的线圈会产生梯度很大的杂散场，离轴布置下对气隙和偏心也更敏感。机械臂长时间运行时关节温度升高，轴承游隙与装配偏心会让磁铁相对芯片产生微小位移。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/industry4-robot-joint.webp" alt="机器人关节" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/industry4-robot-joint.webp" alt="机器人关节" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -35,9 +36,9 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>支持离轴</h3><p><a class="c-xref" href="/msite/products/encoder/ktm59/ktm5900">KTM5900</a> 支持在轴与离轴，离轴非线性误差 ±0.05°。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>24 位细分</h3><p>单对极细分角度最高 24 bit，双 16 bit 2M SAR ADC。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽工作磁场</h3><p>工作磁场 30 ~ 150 mT，磁铁与气隙选择有余地。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>双重校准</h3><p>支持自校准与光编对拖校准，最大 36M SPI 读角度。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>支持离轴</h3><p><a class="c-xref" href="/products/encoder/ktm59/ktm5900">KTM5900</a> 支持在轴与离轴，离轴非线性误差 ±0.05°。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>24 位细分</h3><p>单对极细分角度最高 24 bit，双 16 bit 2M SAR ADC。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>宽工作磁场</h3><p>工作磁场 30 ~ 150 mT，磁铁与气隙选择有余地。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>双重校准</h3><p>支持自校准与光编对拖校准，最大 36M SPI 读角度。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/encoder/ktm59"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktm59.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM59 系列</span><h3>高速 TMR 磁编码器</h3><p>双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/encoder/ktm59"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm59.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM59 系列</span><h3>高速 TMR 磁编码器</h3><p>双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/servo-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-servo-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>伺服电机</h3><p>测量伺服电机转子的绝对角度，供电流环换相与位置环闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/gripper"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-gripper.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH71xx</span><h3>夹爪</h3><p>测量电动夹爪驱动电机或手指关节的转角，用于开合位置反馈与夹持动作控制。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/gearbox"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-gearbox.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH71xx</span><h3>齿轮箱</h3><p>测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/industry4/servo-motor"><div class="c-card__media c-media--case"><img src="/img/case/industry4-servo-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>伺服电机</h3><p>测量伺服电机转子的绝对角度，供电流环换相与位置环闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/gripper"><div class="c-card__media c-media--case"><img src="/img/case/industry4-gripper.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH71xx</span><h3>夹爪</h3><p>测量电动夹爪驱动电机或手指关节的转角，用于开合位置反馈与夹持动作控制。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/gearbox"><div class="c-card__media c-media--case"><img src="/img/case/industry4-gearbox.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH71xx</span><h3>齿轮箱</h3><p>测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

@@ -3,9 +3,10 @@ title: "扫地机器人-尘盒检测 · 智能生活应用"
 description: "用模拟量判断尘盒是否装入以及装到什么程度。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"扫地机器人-尘盒检测：智能生活应用方案\", \"description\": \"用模拟量判断尘盒是否装入以及装到什么程度。\", \"about\": \"扫地机器人-尘盒检测\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-life/robot-vacuum-dustbin\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/intelligent-life">智能生活</a><i>/</i><span>扫地机器人-尘盒检测</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-life">智能生活</a><i>/</i><span>扫地机器人-尘盒检测</span></nav>
 
 <p class="c-kicker">智能生活</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">用模拟量判断尘盒是否装入以及装到什么程度。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/switch/linear-hall">推荐芯片 KTH564X</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/switch/linear-hall">推荐芯片 KTH564X</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 与单纯的到位开关相比，输出模拟量的好处是能看到磁铁距离的连续变化：不仅知道装没装，还能分辨是完全卡到位还是只推进了一半，从而在软件里设定更合适的判定门限。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/intelligent-life-8.webp" alt="扫地机器人-尘盒检测" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/intelligent-life-8.webp" alt="扫地机器人-尘盒检测" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -37,7 +38,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>按比例输出</h3><p>输出与磁通密度成比例，能看出磁铁推进了多少。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>空仓有基准</h3><p>无磁场时输出 1/2 VCC，尘盒取走时读数有定点。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>四档灵敏度</h3><p>四档灵敏度覆盖 ±1600 ~ ±185 Gs，按行程选档。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温范围</h3><p>机体内风机发热，125 ℃ 上限对底盘环境有富余。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/linear-hall"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/linear-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH564 系列</span><h3>线性霍尔芯片</h3><p>零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/switch/linear-hall"><div class="c-card__media c-media--icon"><img src="/img/icons-web/linear-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH564 系列</span><h3>线性霍尔芯片</h3><p>零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-life/robot-vacuum"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>扫地机器人-真空吸尘器</h3><p>检测拖布、滚刷等可换模块的安装位置与抬升行程。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/intelligent-life/robot-vacuum-water-level"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>扫地机-水位监测</h3><p>用带磁浮子判断清水箱与污水箱的水位是否到达阈值。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-life/robot-vacuum"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-3.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>扫地机器人-真空吸尘器</h3><p>检测拖布、滚刷等可换模块的安装位置与抬升行程。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/intelligent-life/robot-vacuum-water-level"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-4.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>扫地机-水位监测</h3><p>用带磁浮子判断清水箱与污水箱的水位是否到达阈值。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

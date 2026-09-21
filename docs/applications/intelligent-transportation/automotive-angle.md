@@ -3,9 +3,10 @@ title: "汽车角度控制 · 智能交通应用"
 description: "检测车上踏板、阀门与执行器电机的转角，为车身与动力控制提供绝对角度。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"汽车角度控制：智能交通应用方案\", \"description\": \"检测车上踏板、阀门与执行器电机的转角，为车身与动力控制提供绝对角度。\", \"about\": \"汽车角度控制\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-transportation/automotive-angle\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/intelligent-transportation">智能交通</a><i>/</i><span>汽车角度控制</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-transportation">智能交通</a><i>/</i><span>汽车角度控制</span></nav>
 
 <p class="c-kicker">智能交通</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">检测车上踏板、阀门与执行器电机的转角，为车身与动力控制提供绝对角度。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/encoder/kth78">推荐芯片 KTH78xx</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/encoder/kth78">推荐芯片 KTH78xx</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 这些位置的工况差别很大。发动机舱与底盘附近的执行器长期承受高温、振动和冷热循环，座舱内的操纵件温度温和，但要求上电即知当前位置；泵类和执行器电机旁边有大电流线束与线圈，杂散磁场会叠加到测量磁场上。涉及行驶安全的信号还要求能发现自身故障，磁铁松脱、退磁或气隙被顶开时，传感器不能继续输出一个看似正常的角度。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/intelligent-transportation-automotive-angle.webp" alt="汽车角度控制" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/intelligent-transportation-automotive-angle.webp" alt="汽车角度控制" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -35,9 +36,9 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>车规档型号</h3><p>车规档为 <a class="c-xref" href="/msite/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> / <a class="c-xref" href="/msite/products/encoder/kth78/kth7803-x-n-qn16">KTH7803</a>，其中 <a class="c-xref" href="/msite/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 标注符合 AEC-Q100，工作温度 -40 ~ 125 ℃。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>上电绝对角度</h3><p>启动时间 1 ms，上电即输出 360° 范围内的绝对角度。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>磁场诊断报警</h3><p>磁场过低、过高的报警阈值可由用户设置，磁路异常时主动报出。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>CRC 校验</h3><p>-C 型号的 SPI 输出带 CRC 校验，传输中出错的数据可被识别。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>车规档型号</h3><p>车规档为 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> / <a class="c-xref" href="/products/encoder/kth78/kth7803-x-n-qn16">KTH7803</a>，其中 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 标注符合 AEC-Q100，工作温度 -40 ~ 125 ℃。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>上电绝对角度</h3><p>启动时间 1 ms，上电即输出 360° 范围内的绝对角度。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>磁场诊断报警</h3><p>磁场过低、过高的报警阈值可由用户设置，磁路异常时主动报出。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>CRC 校验</h3><p>-C 型号的 SPI 输出带 CRC 校验，传输中出错的数据可被识别。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-transportation/e-throttle"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-transportation-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电子节气门</h3><p>检测节气门阀片的开度角度，供发动机控制单元闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/bldc-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-bldc-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78xx</span><h3>无刷直流电机</h3><p>读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-transportation/e-throttle"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-transportation-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电子节气门</h3><p>检测节气门阀片的开度角度，供发动机控制单元闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/bldc-motor"><div class="c-card__media c-media--case"><img src="/img/case/industry4-bldc-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78xx</span><h3>无刷直流电机</h3><p>读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

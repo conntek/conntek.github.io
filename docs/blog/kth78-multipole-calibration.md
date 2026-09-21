@@ -3,9 +3,11 @@ title: "昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的�
 description: "精准的角度和位置检测是自动化和精密工程领域的决定性因素。本文介绍 KTH78 系列编码器芯片如何在多极对磁铁应用中进行高效校准，以及校准对提升系统精度的作用。"
 outline: [2, 3]
 pageClass: "c-page c-page--post"
+date: "2024-01-18"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升\", \"description\": \"精准的角度和位置检测是自动化和精密工程领域的决定性因素。本文介绍 KTH78 系列编码器芯片如何在多极对磁铁应用中进行高效校准，以及校准对提升系统精度的作用。\", \"datePublished\": \"2024-01-18\", \"dateModified\": \"2024-01-18\", \"articleSection\": \"应用方案\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.grosso.link/img/tt/0.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"mainEntityOfPage\": \"https://conntek.grosso.link/blog/kth78-multipole-calibration\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/N59RRLjGzsKt40dq8EHsIw\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片：在多极对磁铁应用中的校准与精度提升</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片：在多极对磁铁应用中的校准与精度提升</span></nav>
 
 <p class="c-kicker">应用方案</p>
 
@@ -13,44 +15,44 @@ pageClass: "c-page c-page--post"
 
 <p class="c-post-meta"><span>2024-01-18</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 2 分钟</span></p>
 
-<p class="c-lead">精准的角度和位置检测是自动化和精密工程领域的决定性因素。本文介绍 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片如何在多极对磁铁应用中进行高效校准，以及校准对提升系统精度的作用。</p>
+<p class="c-lead">精准的角度和位置检测是自动化和精密工程领域的决定性因素。本文介绍 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片如何在多极对磁铁应用中进行高效校准，以及校准对提升系统精度的作用。</p>
 
 <div class="c-takeaways"><b>本文要点</b><ul><li>内圈单对极磁铁定位绝对位置，外圈多对极磁铁做增量位置高精度细分</li><li>校准时电机以 100 rpm 恒速运行，比对光编码器与磁编码器位置并固化补偿参数</li><li>实测校准后误差从 1.21° 降到 0.05°（峰峰值）</li></ul></div>
 
-<figure class="c-blog-fig c-blog-fig--hero"><img src="/msite/blog/kth78-multipole-calibration/3.webp" alt="昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升"></figure>
+<figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth78-multipole-calibration/3.webp" alt="昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升"></figure>
 
 > 本文含视频，请在原文中观看。
 
-精准无误的角度和位置检测，在自动化和精密工程领域无疑是决定性因素。昆泰芯推出的 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片，以领先的技术优势，为这一行业需求提供了极具竞争力的解决方案。本文将详尽阐述 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片如何在多极对磁铁应用中进行高效校准，并揭示其在全面提升系统精度方面的关键作用。
+精准无误的角度和位置检测，在自动化和精密工程领域无疑是决定性因素。昆泰芯推出的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片，以领先的技术优势，为这一行业需求提供了极具竞争力的解决方案。本文将详尽阐述 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片如何在多极对磁铁应用中进行高效校准，并揭示其在全面提升系统精度方面的关键作用。
 
 ## 多极对磁铁应用
 
-在追求极致精度的复杂自动化系统中，单对极磁铁所组成的编码器已无法满足高精度要求。于是，<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片展示了其非凡的应用智慧——与多极对磁铁巧妙结合。通过中心与外圈双编码器配置，内圈单对极磁铁对绝对位置进行定位，外圈多对极磁铁对增量位置进行高精度的细分。
+在追求极致精度的复杂自动化系统中，单对极磁铁所组成的编码器已无法满足高精度要求。于是，<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片展示了其非凡的应用智慧——与多极对磁铁巧妙结合。通过中心与外圈双编码器配置，内圈单对极磁铁对绝对位置进行定位，外圈多对极磁铁对增量位置进行高精度的细分。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kth78-multipole-calibration/1.webp" alt="多对极演示板与 32 对极磁铁" loading="lazy"><figcaption>多对极演示板与 32 对极磁铁</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth78-multipole-calibration/1.webp" alt="多对极演示板与 32 对极磁铁" loading="lazy"><figcaption>多对极演示板与 32 对极磁铁</figcaption></figure>
 
 ## 校准工艺
 
-面对因磁铁安装结构误差、电机制造差异等因素引起的精度挑战，<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片引入了一套先进的校准流程。此流程整合了伺服驱动器、伺服电机、高精度光编码器及专用微控制单元（MCU），在校准阶段，系统能在恒定的 100 rpm 转速下运行电机，实时比对光编码器和磁编码器的位置数据，精准计算二者偏差，并固化关键采样点的误差补偿参数。
+面对因磁铁安装结构误差、电机制造差异等因素引起的精度挑战，<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片引入了一套先进的校准流程。此流程整合了伺服驱动器、伺服电机、高精度光编码器及专用微控制单元（MCU），在校准阶段，系统能在恒定的 100 rpm 转速下运行电机，实时比对光编码器和磁编码器的位置数据，精准计算二者偏差，并固化关键采样点的误差补偿参数。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kth78-multipole-calibration/2.webp" alt="伺服电机校准测试台架" loading="lazy"><figcaption>伺服电机校准测试台架</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth78-multipole-calibration/2.webp" alt="伺服电机校准测试台架" loading="lazy"><figcaption>伺服电机校准测试台架</figcaption></figure>
 
 ## 校准后的精度提升
 
 经由严格的校准过程，系统能够实时调用这些误差数据，对输出结果进行精确修正，进而显著提升整体测量精度。实际案例显示，校准前后的误差值从原来的 1.21° 大幅降低到 0.05°（峰峰值），精度跃升成效显著。这种突破性的精度提升对于高端工业应用场景如精密伺服电机、尖端机器人技术等领域具有不可估量的价值。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kth78-multipole-calibration/3.webp" alt="校准前后误差曲线对比" loading="lazy"><figcaption>校准前后误差曲线对比</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth78-multipole-calibration/3.webp" alt="校准前后误差曲线对比" loading="lazy"><figcaption>校准前后误差曲线对比</figcaption></figure>
 
 ## 全文总结
 
-昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片以其出色的校准技术和与多极对磁铁的创新融合应用，有力证明了其在高精度位置测量领域的绝对领导力。这不仅彰显出昆泰芯在传感器技术研发中的强大实力与创新能力，更是对自动化和精密工程领域的深度赋能与实质性推动。昆泰芯可以贴身服务和支持客户，帮助客户快速导入方案，这也是昆泰芯坚持努力的方向和核心竞争力。我们坚信，随着科技的日新月异，<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器芯片将在更广阔的领域发挥巨大影响力，持续引领行业的进步与发展。
+昆泰芯 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片以其出色的校准技术和与多极对磁铁的创新融合应用，有力证明了其在高精度位置测量领域的绝对领导力。这不仅彰显出昆泰芯在传感器技术研发中的强大实力与创新能力，更是对自动化和精密工程领域的深度赋能与实质性推动。昆泰芯可以贴身服务和支持客户，帮助客户快速导入方案，这也是昆泰芯坚持努力的方向和核心竞争力。我们坚信，随着科技的日新月异，<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器芯片将在更广阔的领域发挥巨大影响力，持续引领行业的进步与发展。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2024-01-18。<a href="https://mp.weixin.qq.com/s/N59RRLjGzsKt40dq8EHsIw" target="_blank" rel="noopener">查看原文</a></p>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/blog/kth78-high-torque-motor"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>昆泰芯 KTH78 编码器在大扭矩电机中的应用</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/msite/blog/sps-nuremberg-2025"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯闪耀 2025 年德国纽伦堡 SPS 展会，强势彰显中国智造在欧洲工业市场的技术创新力</h3><span class="c-card__more">阅读</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/blog/kth78-high-torque-motor"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>昆泰芯 KTH78 编码器在大扭矩电机中的应用</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/blog/sps-nuremberg-2025"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯闪耀 2025 年德国纽伦堡 SPS 展会，强势彰显中国智造在欧洲工业市场的技术创新力</h3><span class="c-card__more">阅读</span></div></a></div>
 
 ## 同栏目文章
 
-<div class="c-grid c-grid--3"><a class="c-card" href="/msite/blog/ktm13-dishwasher-level"><div class="c-card__media c-media--photo"><img src="/msite/blog/ktm13-dishwasher-level/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-03-20</span><h3>昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测</h3><p>洗碗机靠浮子带动磁铁旋转来检测液位，传统霍尔、机械与光电方案在短行程、弱磁场、高湿高温下易误判或寿命短。本文介绍 KTM13 系列 TMR 磁开关的核心优势及其液位检测方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/kth57-smart-irrigation-valve"><div class="c-card__media c-media--photo"><img src="/msite/blog/kth57-smart-irrigation-valve/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-28</span><h3>昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代</h3><p>智能灌溉阀靠角度传感器反馈阀门开度来精准控水。本文介绍智能灌溉阀的应用需求、KTH57 系列三轴霍尔芯片的特性，以及离轴安装、闭环控制的角度检测方案和它在灌溉阀上的优势。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/ktm59-gaming-peripherals"><div class="c-card__media c-media--photo"><img src="/msite/blog/ktm59-gaming-peripherals/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-10</span><h3>昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用</h3><p>游戏方向盘的精度与可靠性决定玩家的沉浸体验，传统电位器存在磨损与灰尘干扰问题。本文介绍 KTM59 系列磁编码芯片、磁编码的技术原理、在方向盘等游戏外设中的应用，以及技术挑战与趋势。</p><span class="c-card__more">阅读全文</span></div></a></div>
+<div class="c-grid c-grid--3"><a class="c-card" href="/blog/ktm13-dishwasher-level"><div class="c-card__media c-media--photo"><img src="/blog/ktm13-dishwasher-level/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-03-20</span><h3>昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测</h3><p>洗碗机靠浮子带动磁铁旋转来检测液位，传统霍尔、机械与光电方案在短行程、弱磁场、高湿高温下易误判或寿命短。本文介绍 KTM13 系列 TMR 磁开关的核心优势及其液位检测方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/kth57-smart-irrigation-valve"><div class="c-card__media c-media--photo"><img src="/blog/kth57-smart-irrigation-valve/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-28</span><h3>昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代</h3><p>智能灌溉阀靠角度传感器反馈阀门开度来精准控水。本文介绍智能灌溉阀的应用需求、KTH57 系列三轴霍尔芯片的特性，以及离轴安装、闭环控制的角度检测方案和它在灌溉阀上的优势。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/ktm59-gaming-peripherals"><div class="c-card__media c-media--photo"><img src="/blog/ktm59-gaming-peripherals/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-10</span><h3>昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用</h3><p>游戏方向盘的精度与可靠性决定玩家的沉浸体验，传统电位器存在磨损与灰尘干扰问题。本文介绍 KTM59 系列磁编码芯片、磁编码的技术原理、在方向盘等游戏外设中的应用，以及技术挑战与趋势。</p><span class="c-card__more">阅读全文</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

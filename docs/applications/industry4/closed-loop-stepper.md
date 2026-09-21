@@ -3,9 +3,10 @@ title: "步进闭环 · 工业4.0应用"
 description: "在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"步进闭环：工业4.0应用方案\", \"description\": \"在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。\", \"about\": \"步进闭环\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/closed-loop-stepper\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/industry4">工业4.0</a><i>/</i><span>步进闭环</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>步进闭环</span></nav>
 
 <p class="c-kicker">工业4.0</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/encoder/kth78">推荐芯片 KTH78xx</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/encoder/kth78">推荐芯片 KTH78xx</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 两相混合式步进电机常用 1.8° 步距角，一圈 200 个整步，细分驱动后每一微步对应的角度更小，编码器分辨率要明显高于步距才能判出偏差。驱动器与电机做成一体后，传感器离绕组和转子永磁体很近，电机自身漏磁、低速运行时的振动和电流纹波都会影响读数；驱动器一般通过 ABZ 增量或 SPI 接口读取位置，编码器最好能直接接入现有接口。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/industry4-closed-loop-stepper.webp" alt="步进闭环" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/industry4-closed-loop-stepper.webp" alt="步进闭环" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -37,7 +38,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>16 bit 分辨率</h3><p>16 bit 绝对角度分辨率，能分辨细分驱动下的微步偏差。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>可编程 ABZ</h3><p>ABZ 增量输出 4 ~ 4096 步/圈可编程（QFN16 封装型号），按驱动器输入设置。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>在轴精度</h3><p>在轴 INL 误差低至 ±0.35°，温漂 0.015°/℃。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>上电即知位置</h3><p>绝对角度启动时间 1 ms，SPI 输出可选带 CRC 校验的 -C 型号。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/encoder/kth78"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth78.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78 系列</span><h3>低延时霍尔绝对角度编码器</h3><p>16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/industry4/servo-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-servo-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>伺服电机</h3><p>测量伺服电机转子的绝对角度，供电流环换相与位置环闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/bldc-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-bldc-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78xx</span><h3>无刷直流电机</h3><p>读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/msite/applications/industry4/linear-motor"><div class="c-card__media c-media--case"><img src="/msite/img/case/industry4-linear-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>直线电机</h3><p>细分直线电机磁栅或光栅读头的正余弦信号，得到动子的高分辨率位置。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/industry4/servo-motor"><div class="c-card__media c-media--case"><img src="/img/case/industry4-servo-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>伺服电机</h3><p>测量伺服电机转子的绝对角度，供电流环换相与位置环闭环使用。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/bldc-motor"><div class="c-card__media c-media--case"><img src="/img/case/industry4-bldc-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78xx</span><h3>无刷直流电机</h3><p>读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。</p><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/industry4/linear-motor"><div class="c-card__media c-media--case"><img src="/img/case/industry4-linear-motor.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM58xx</span><h3>直线电机</h3><p>细分直线电机磁栅或光栅读头的正余弦信号，得到动子的高分辨率位置。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

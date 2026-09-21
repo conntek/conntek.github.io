@@ -3,9 +3,11 @@ title: "昆泰芯 KTH78 编码器在大扭矩电机中的应用"
 description: "本文以筋膜枪为例，探讨无感 FOC 控制电机在低速大扭矩工况下遇到的角度识别、电流控制、谐波损耗和振荡失稳问题，以及用 KTH78 系列霍尔角度编码器配合有感 FOC 控制应对这些挑战的方式。"
 outline: [2, 3]
 pageClass: "c-page c-page--post"
+date: "2023-12-29"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"昆泰芯 KTH78 编码器在大扭矩电机中的应用\", \"description\": \"本文以筋膜枪为例，探讨无感 FOC 控制电机在低速大扭矩工况下遇到的角度识别、电流控制、谐波损耗和振荡失稳问题，以及用 KTH78 系列霍尔角度编码器配合有感 FOC 控制应对这些挑战的方式。\", \"datePublished\": \"2023-12-29\", \"dateModified\": \"2023-12-29\", \"articleSection\": \"应用方案\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.grosso.link/img/tt/1.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"mainEntityOfPage\": \"https://conntek.grosso.link/blog/kth78-high-torque-motor\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/H6NSyKLNsdWkOwrssMLnqw\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 编码器在大扭矩电机中的应用</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 编码器在大扭矩电机中的应用</span></nav>
 
 <p class="c-kicker">应用方案</p>
 
@@ -13,15 +15,15 @@ pageClass: "c-page c-page--post"
 
 <p class="c-post-meta"><span>2023-12-29</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 4 分钟</span></p>
 
-<p class="c-lead">本文以筋膜枪为例，探讨无感 FOC 控制电机在低速大扭矩工况下遇到的角度识别、电流控制、谐波损耗和振荡失稳问题，以及用 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器配合有感 FOC 控制应对这些挑战的方式。</p>
+<p class="c-lead">本文以筋膜枪为例，探讨无感 FOC 控制电机在低速大扭矩工况下遇到的角度识别、电流控制、谐波损耗和振荡失稳问题，以及用 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器配合有感 FOC 控制应对这些挑战的方式。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>低速或零速时反电动势微弱，无感 FOC 难以提取转子位置和速度</li><li>外部编码器 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列配合有感 FOC 控制，可应对低速大扭矩的挑战</li><li><a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列精度可达 0.1°，响应时间小于 10 μs</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>低速或零速时反电动势微弱，无感 FOC 难以提取转子位置和速度</li><li>外部编码器 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列配合有感 FOC 控制，可应对低速大扭矩的挑战</li><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列精度可达 0.1°，响应时间小于 10 μs</li></ul></div>
 
-<figure class="c-blog-fig c-blog-fig--hero"><img src="/msite/blog/kth78-high-torque-motor/3.webp" alt="昆泰芯 KTH78 编码器在大扭矩电机中的应用"></figure>
+<figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth78-high-torque-motor/3.webp" alt="昆泰芯 KTH78 编码器在大扭矩电机中的应用"></figure>
 
 随着科技的不断进步和生活方式的改变，我们对健康和舒适的需求也与日俱增。这种需求在日常生活中表现得淋漓尽致，同时也体现在我们对各种设备和工具的要求上。今天，我们将介绍一种备受欢迎的健康工具——筋膜枪，并深入了解其背后的技术。在这个过程中，我们将探讨无感 FOC 控制电机、低速大扭矩设备以及它们的局限性。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kth78-high-torque-motor/3.webp" alt="筋膜枪使用场景" loading="lazy"><figcaption>筋膜枪使用场景</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth78-high-torque-motor/3.webp" alt="筋膜枪使用场景" loading="lazy"><figcaption>筋膜枪使用场景</figcaption></figure>
 
 ## 无感 FOC 控制电机
 
@@ -55,11 +57,11 @@ pageClass: "c-page c-page--post"
 
 ## KTH78 霍尔角度编码器
 
-虽然无感 FOC 技术提供了精确的电机控制并有助于提高效率，但在低速大扭矩的情况下存在一些挑战。然而，通过使用外部编码器如昆泰芯微电子的 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器配合有感 FOC 控制方式，我们能够有效地解决这些挑战。
+虽然无感 FOC 技术提供了精确的电机控制并有助于提高效率，但在低速大扭矩的情况下存在一些挑战。然而，通过使用外部编码器如昆泰芯微电子的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器配合有感 FOC 控制方式，我们能够有效地解决这些挑战。
 
-<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器通过提供精确的角度测量，极大地改善了电机控制器对电机位置和速度的估算能力。这对于低速大扭矩的筋膜枪尤其关键。这些编码器的高精度测量，可以达到 0.1° 的精准度，意味着电机能够在任何转速下都实现精确的力度和速度调节，提供连续而稳定的按摩体验。
+<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列霍尔角度编码器通过提供精确的角度测量，极大地改善了电机控制器对电机位置和速度的估算能力。这对于低速大扭矩的筋膜枪尤其关键。这些编码器的高精度测量，可以达到 0.1° 的精准度，意味着电机能够在任何转速下都实现精确的力度和速度调节，提供连续而稳定的按摩体验。
 
-例如，如果一款筋膜枪采用了 <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器，那么在低速运行时，它能够保持接近最大扭矩的输出，这对于深层肌肉的放松至关重要。在具体应用中，这意味着即使在较低的转速（比如 1000 rpm）下，筋膜枪也能提供强劲的按摩力度，而不会出现力度下降或不稳定的情况。此外，<a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列编码器的快速响应时间（小于 10 μs）保证了电机控制的即时性和平滑性。在实际使用中，这能够带来更加精准和舒适的按摩体验。
+例如，如果一款筋膜枪采用了 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器，那么在低速运行时，它能够保持接近最大扭矩的输出，这对于深层肌肉的放松至关重要。在具体应用中，这意味着即使在较低的转速（比如 1000 rpm）下，筋膜枪也能提供强劲的按摩力度，而不会出现力度下降或不稳定的情况。此外，<a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列编码器的快速响应时间（小于 10 μs）保证了电机控制的即时性和平滑性。在实际使用中，这能够带来更加精准和舒适的按摩体验。
 
 不仅如此，这些编码器还能够在极端温度下稳定工作（-40 ~ 125 ℃），这意味着无论在何种环境条件下，筋膜枪都能保持最佳性能，不受温度波动的影响。对于用户而言，这提供了一种可靠且持久的使用体验。
 
@@ -67,10 +69,10 @@ pageClass: "c-page c-page--post"
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2023-12-29。<a href="https://mp.weixin.qq.com/s/H6NSyKLNsdWkOwrssMLnqw" target="_blank" rel="noopener">查看原文</a></p>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/blog/kth7812-e-motorcycle"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>昆泰芯 KTH7812 在电摩应用中的优势</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/msite/blog/kth78-multipole-calibration"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升</h3><span class="c-card__more">阅读</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/blog/kth7812-e-motorcycle"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>昆泰芯 KTH7812 在电摩应用中的优势</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/blog/kth78-multipole-calibration"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升</h3><span class="c-card__more">阅读</span></div></a></div>
 
 ## 同栏目文章
 
-<div class="c-grid c-grid--3"><a class="c-card" href="/msite/blog/ktm13-dishwasher-level"><div class="c-card__media c-media--photo"><img src="/msite/blog/ktm13-dishwasher-level/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-03-20</span><h3>昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测</h3><p>洗碗机靠浮子带动磁铁旋转来检测液位，传统霍尔、机械与光电方案在短行程、弱磁场、高湿高温下易误判或寿命短。本文介绍 KTM13 系列 TMR 磁开关的核心优势及其液位检测方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/kth57-smart-irrigation-valve"><div class="c-card__media c-media--photo"><img src="/msite/blog/kth57-smart-irrigation-valve/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-28</span><h3>昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代</h3><p>智能灌溉阀靠角度传感器反馈阀门开度来精准控水。本文介绍智能灌溉阀的应用需求、KTH57 系列三轴霍尔芯片的特性，以及离轴安装、闭环控制的角度检测方案和它在灌溉阀上的优势。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/ktm59-gaming-peripherals"><div class="c-card__media c-media--photo"><img src="/msite/blog/ktm59-gaming-peripherals/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-10</span><h3>昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用</h3><p>游戏方向盘的精度与可靠性决定玩家的沉浸体验，传统电位器存在磨损与灰尘干扰问题。本文介绍 KTM59 系列磁编码芯片、磁编码的技术原理、在方向盘等游戏外设中的应用，以及技术挑战与趋势。</p><span class="c-card__more">阅读全文</span></div></a></div>
+<div class="c-grid c-grid--3"><a class="c-card" href="/blog/ktm13-dishwasher-level"><div class="c-card__media c-media--photo"><img src="/blog/ktm13-dishwasher-level/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-03-20</span><h3>昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测</h3><p>洗碗机靠浮子带动磁铁旋转来检测液位，传统霍尔、机械与光电方案在短行程、弱磁场、高湿高温下易误判或寿命短。本文介绍 KTM13 系列 TMR 磁开关的核心优势及其液位检测方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/kth57-smart-irrigation-valve"><div class="c-card__media c-media--photo"><img src="/blog/kth57-smart-irrigation-valve/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-28</span><h3>昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代</h3><p>智能灌溉阀靠角度传感器反馈阀门开度来精准控水。本文介绍智能灌溉阀的应用需求、KTH57 系列三轴霍尔芯片的特性，以及离轴安装、闭环控制的角度检测方案和它在灌溉阀上的优势。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/ktm59-gaming-peripherals"><div class="c-card__media c-media--photo"><img src="/blog/ktm59-gaming-peripherals/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-02-10</span><h3>昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用</h3><p>游戏方向盘的精度与可靠性决定玩家的沉浸体验，传统电位器存在磨损与灰尘干扰问题。本文介绍 KTM59 系列磁编码芯片、磁编码的技术原理、在方向盘等游戏外设中的应用，以及技术挑战与趋势。</p><span class="c-card__more">阅读全文</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

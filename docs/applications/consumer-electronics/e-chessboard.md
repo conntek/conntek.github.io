@@ -3,9 +3,10 @@ title: "电子棋盘 · 消费类电子应用"
 description: "逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"电子棋盘：消费类电子应用方案\", \"description\": \"逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。\", \"about\": \"电子棋盘\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/consumer-electronics/e-chessboard\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/consumer-electronics">消费类电子</a><i>/</i><span>电子棋盘</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/consumer-electronics">消费类电子</a><i>/</i><span>电子棋盘</span></nav>
 
 <p class="c-kicker">消费类电子</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/switch/kth16">推荐芯片 KTH1604</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/switch/kth16">推荐芯片 KTH1604</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 棋盘是全封闭面板，传感器不能露出，只能隔着一层面板感应，属于典型的隔空检测。一块十九路棋盘可能要上百个检测点，单点的功耗、成本与占板面积会被格子数直接放大，因此单点指标比精度更关键。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/consumer-electronics-1.webp" alt="电子棋盘" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/consumer-electronics-1.webp" alt="电子棋盘" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -35,9 +36,9 @@ pageClass: "c-page c-page--case"
 
 <p class="c-sec-lead">CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>微功耗</h3><p><a class="c-xref" href="/msite/products/switch/kth16/kth1604th">KTH1604</a> 平均功耗 1.6 μA @ 1.8 V（5 Hz 版本），适合大规模阵列。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>1 毫米级封装</h3><p>DFN/FBP 1*1-4L 封装，密排格子时占板面积小。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低压工作</h3><p>供电 1.6 ~ 5.5 V，可直接跟随电池电压工作。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>BOP 提供 46 / 33 / 22 Gs 三档，按面板厚度选灵敏度。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>微功耗</h3><p><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a> 平均功耗 1.6 μA @ 1.8 V（5 Hz 版本），适合大规模阵列。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>1 毫米级封装</h3><p>DFN/FBP 1*1-4L 封装，密排格子时占板面积小。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低压工作</h3><p>供电 1.6 ~ 5.5 V，可直接跟随电池电压工作。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>多档阈值</h3><p>BOP 提供 46 / 33 / 22 Gs 三档，按面板厚度选灵敏度。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/consumer-electronics/stylus"><div class="c-card__media c-media--case"><img src="/msite/img/case/consumer-electronics-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>触控笔</h3><p>检测笔身与屏幕侧边、笔帽或收纳仓的磁吸贴合状态，用于唤醒与休眠。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/consumer-electronics/stylus"><div class="c-card__media c-media--case"><img src="/img/case/consumer-electronics-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13xx</span><h3>触控笔</h3><p>检测笔身与屏幕侧边、笔帽或收纳仓的磁吸贴合状态，用于唤醒与休眠。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

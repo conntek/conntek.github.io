@@ -1,0 +1,151 @@
+# 昆泰芯微电子（CONNTEK）
+
+> 昆泰芯微电子是一家专注于磁传感器芯片的公司，产品覆盖 3D 霍尔、磁编码器、霍尔/TMR/AMR 开关、线性霍尔与运放等，面向工业自动化、机器人、汽车、消费电子与智能家居。本站为公司官网，包含全部产品系列与型号参数、应用案例、技术 Wiki 与技术博客。
+
+- 官网：https://conntek.grosso.link/
+- 销售：sales@conntek.com.cn　技术支持：support@conntek.com.cn
+
+## 产品系列
+
+- [KTH57 系列 三轴线性霍尔传感器](https://conntek.grosso.link/products/3d-hall/kth57)：测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗
+- [KTH55 系列 垂直霍尔绝对角度传感器](https://conntek.grosso.link/products/3d-hall/kth55)：垂直霍尔配合 16 位 ADC，0 ~ 360° 绝对角度输出，符合 AEC-Q100
+- [KTM52 系列 21 位高精度 AMR 角度编码器](https://conntek.grosso.link/products/encoder/ktm52)：21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm
+- [KTM53 系列 离轴 AMR 角度编码器](https://conntek.grosso.link/products/encoder/ktm53)：AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）
+- [KTM58 系列 30 bit 绝对角度细分器](https://conntek.grosso.link/products/encoder/ktm58)：最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅
+- [KTM59 系列 高速 TMR 磁编码器](https://conntek.grosso.link/products/encoder/ktm59)：双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm（2 个型号页）
+- [KTH78 系列 低延时霍尔绝对角度编码器](https://conntek.grosso.link/products/encoder/kth78)：16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用（17 个型号页）
+- [KTH71 系列 自校准霍尔磁编码器](https://conntek.grosso.link/products/encoder/kth71)：内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°（3 个型号页）
+- [KTO95 系列 游标绝对值光学编码器](https://conntek.grosso.link/products/encoder/kto95)：集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率
+- [KTH13/16/17 系列 微功耗 1D 霍尔开关](https://conntek.grosso.link/products/switch/kth16)：CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型（23 个型号页）
+- [KTH25 系列 车规级高压霍尔开关](https://conntek.grosso.link/products/switch/kth25)：斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V（3 个型号页）
+- [KTM13 系列 TMR 磁阻开关](https://conntek.grosso.link/products/switch/ktm13)：TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯（59 个型号页）
+- [KTM28 系列 AMR 高压气缸开关](https://conntek.grosso.link/products/switch/ktm28)：SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场（2 个型号页）
+- [KTH31 系列 比例式线性霍尔传感器](https://conntek.grosso.link/products/switch/kth31)：按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选（6 个型号页）
+- [KTH460 系列 微功耗 3D 霍尔开关](https://conntek.grosso.link/products/switch/kth460)：X、Y、Z 三维全极检测，SPIN 与数字滤波技术保证稳定的工作点与开关频率（2 个型号页）
+- [KTH462 系列 超灵敏 2D 霍尔开关](https://conntek.grosso.link/products/switch/kth462)：检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号（4 个型号页）
+- [KTH564 系列 线性霍尔芯片](https://conntek.grosso.link/products/switch/linear-hall)：零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围（11 个型号页）
+- [KTAx333 系列 零温漂高精度运放](https://conntek.grosso.link/products/other/ktax33)：自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出
+- [磁旋钮系列 隔空角度检测磁旋钮](https://conntek.grosso.link/products/knob/knob)：磁-电分离设计，隔空角度检测，防水防尘 IP67，模块化即插即用
+
+## 应用案例
+
+- [触控笔](https://conntek.grosso.link/applications/consumer-electronics/stylus)（消费类电子，推荐 KTM13xx）：检测笔身与屏幕侧边、笔帽或收纳仓的磁吸贴合状态，用于唤醒与休眠。
+- [电子棋盘](https://conntek.grosso.link/applications/consumer-electronics/e-chessboard)（消费类电子，推荐 KTH1604）：逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。
+- [轮椅摇杆](https://conntek.grosso.link/applications/consumer-electronics/wheelchair-joystick)（消费类电子，推荐 KTH57xx）：把摇杆的两轴倾角转成连续的速度与方向指令。
+- [洗衣机](https://conntek.grosso.link/applications/consumer-electronics/washing-machine)（消费类电子，推荐 KTH57xx）：检测程序旋钮的旋转角度与门盖的开合位置。
+- [游戏手柄](https://conntek.grosso.link/applications/consumer-electronics/game-controller)（消费类电子，推荐 KTH564X）：把扳机键与摇杆的行程转成连续模拟量输出。
+- [掌机摇杆](https://conntek.grosso.link/applications/consumer-electronics/handheld-joystick)（消费类电子，推荐 KTH57xx）：在很薄的机身里测出摇杆两轴摆角，避免电位器漂移。
+- [智能手表](https://conntek.grosso.link/applications/consumer-electronics/smart-watch)（消费类电子，推荐 KTH57xx）：检测旋转表冠的转动角度与方向，用于翻页与调节。
+- [无人机旋翼](https://conntek.grosso.link/applications/consumer-electronics/drone-rotor)（消费类电子，推荐 KTH78xx）：检测无人机动力电机的转子角度，为电调的磁场定向控制提供位置反馈。
+- [笔记本与平板合盖检测](https://conntek.grosso.link/applications/consumer-electronics/laptop-lid)（消费类电子，推荐 KTM13xx）：检测屏幕与机身的开合状态，触发笔记本与平板的休眠、唤醒和平板模式切换。
+- [咖啡机](https://conntek.grosso.link/applications/intelligent-life/coffee-machine)（智能生活，推荐 KTH57xx）：检测操作旋钮的转动角度与水箱、粉仓的安装到位状态。
+- [陪伴机器人](https://conntek.grosso.link/applications/intelligent-life/companion-robot)（智能生活，推荐 KTH57xx）：检测头部、关节的转动角度与操作旋钮的位置。
+- [燃气灶-旋钮](https://conntek.grosso.link/applications/intelligent-life/gas-stove-knob)（智能生活，推荐 KTH57xx）：检测火力旋钮的转动角度，面板不开孔即可读出档位。
+- [扫地机器人-真空吸尘器](https://conntek.grosso.link/applications/intelligent-life/robot-vacuum)（智能生活，推荐 KTH57xx）：检测拖布、滚刷等可换模块的安装位置与抬升行程。
+- [扫地机-水位监测](https://conntek.grosso.link/applications/intelligent-life/robot-vacuum-water-level)（智能生活，推荐 KTM13xx）：用带磁浮子判断清水箱与污水箱的水位是否到达阈值。
+- [太阳能光电转换器](https://conntek.grosso.link/applications/intelligent-life/solar-converter)（智能生活，推荐 KTAx333）：放大光电器件输出的微弱信号，供后级 ADC 采样。
+- [智能马桶-枢轴检测](https://conntek.grosso.link/applications/intelligent-life/smart-toilet-pivot)（智能生活，推荐 KTH57xx）：检测盖板与坐圈在枢轴处的开合角度，用于落座与翻盖判断。
+- [燃气灶-温度检测](https://conntek.grosso.link/applications/intelligent-life/gas-stove-temperature)（智能生活，推荐 KTAx333）：放大热电偶等温度传感元件输出的微弱电压信号。
+- [扫地机器人-尘盒检测](https://conntek.grosso.link/applications/intelligent-life/robot-vacuum-dustbin)（智能生活，推荐 KTH564X）：用模拟量判断尘盒是否装入以及装到什么程度。
+- [智能马桶-旋钮](https://conntek.grosso.link/applications/intelligent-life/smart-toilet-knob)（智能生活，推荐 KTH57xx）：检测侧面板旋钮的角度，用于水温、水压与冲洗位置调节。
+- [智能马桶-水位监测](https://conntek.grosso.link/applications/intelligent-life/smart-toilet-water-level)（智能生活，推荐 KTM13xx）：用带磁浮子判断水箱液位是否到达上下限阈值。
+- [电表](https://conntek.grosso.link/applications/industry4/electricity-meter)（工业4.0，推荐 KTH57xx）：监测表内异常外部磁场，识别用强磁干扰计量的行为。
+- [断路器](https://conntek.grosso.link/applications/industry4/circuit-breaker)（工业4.0，推荐 KTH16xx）：检测手柄或触头机构的分合闸位置，输出状态信号。
+- [燃气表](https://conntek.grosso.link/applications/industry4/gas-meter)（工业4.0，推荐 KTM13xx）：对计量机构上的磁铁计数，把气体流量转成脉冲。
+- [旋钮操控](https://conntek.grosso.link/applications/industry4/knob-control)（工业4.0，推荐 KTH57xx）：工业设备面板旋钮的角度检测，面板可做成全封闭。
+- [闸机](https://conntek.grosso.link/applications/industry4/turnstile)（工业4.0，推荐 KTH57xx）：检测摆翼或门翼的开合角度，用于限位与防夹判断。
+- [机械电表](https://conntek.grosso.link/applications/industry4/mechanical-meter)（工业4.0，推荐 KTM13xx）：对机械字轮上的磁铁计数，把机械读数转成电子脉冲。
+- [伺服电机](https://conntek.grosso.link/applications/industry4/servo-motor)（工业4.0，推荐 KTM58xx）：测量伺服电机转子的绝对角度，供电流环换相与位置环闭环使用。
+- [直线电机](https://conntek.grosso.link/applications/industry4/linear-motor)（工业4.0，推荐 KTM58xx）：细分直线电机磁栅或光栅读头的正余弦信号，得到动子的高分辨率位置。
+- [机器人关节](https://conntek.grosso.link/applications/industry4/robot-joint)（工业4.0，推荐 KTM59xx）：测量关节电机端与减速器输出端的角度，支撑机械臂关节的精确定位。
+- [夹爪](https://conntek.grosso.link/applications/industry4/gripper)（工业4.0，推荐 KTH71xx）：测量电动夹爪驱动电机或手指关节的转角，用于开合位置反馈与夹持动作控制。
+- [齿轮箱](https://conntek.grosso.link/applications/industry4/gearbox)（工业4.0，推荐 KTH71xx）：测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。
+- [缝纫机](https://conntek.grosso.link/applications/industry4/sewing-machine)（工业4.0，推荐 KTH71xx）：测量工业缝纫机直驱主轴转角，用于电机换相、测速和停针位置控制。
+- [无刷直流电机](https://conntek.grosso.link/applications/industry4/bldc-motor)（工业4.0，推荐 KTH78xx）：读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。
+- [步进闭环](https://conntek.grosso.link/applications/industry4/closed-loop-stepper)（工业4.0，推荐 KTH78xx）：在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。
+- [空心杯电机](https://conntek.grosso.link/applications/industry4/coreless-motor)（工业4.0，推荐 KTH78xx）：在空心杯电机尾端读取转子绝对角度，为小体积、高转速的精密运动控制提供位置反馈。
+- [电梯](https://conntek.grosso.link/applications/industry4/elevator)（工业4.0，推荐 KTH78xx）：测量曳引机与门机电机的转子角度，为低速平层和开关门的速度闭环提供反馈。
+- [屏蔽门](https://conntek.grosso.link/applications/industry4/platform-screen-door)（工业4.0，推荐 KTH78xx）：测量站台门门机电机角度并换算门扇位置，用于平滑减速和精确停位。
+- [AGV 搬运机器人](https://conntek.grosso.link/applications/industry4/agv)（工业4.0，推荐 KTH78xx）：测量舵轮转向角与驱动电机转子角度，实现上电即知轮向和电机换相。
+- [水表](https://conntek.grosso.link/applications/industry4/water-meter)（工业4.0，推荐 KTM13xx）：对表内指针或耦合磁铁计数，把机械水表的走字转成可远传的脉冲。
+- [热量表](https://conntek.grosso.link/applications/industry4/heat-meter)（工业4.0，推荐 KTM13xx）：为机械式热量表的流量部分计数，与供回水温差一起积算用热量。
+- [气缸位置检测](https://conntek.grosso.link/applications/industry4/cylinder-position)（工业4.0，推荐 KTM280X）：卡在气缸外壁安装槽里，感应活塞磁环，输出活塞是否到位的开关信号。
+- [电子节气门](https://conntek.grosso.link/applications/intelligent-transportation/e-throttle)（智能交通，推荐 KTH57xx）：检测节气门阀片的开度角度，供发动机控制单元闭环使用。
+- [汽车角度控制](https://conntek.grosso.link/applications/intelligent-transportation/automotive-angle)（智能交通，推荐 KTH78xx）：检测车上踏板、阀门与执行器电机的转角，为车身与动力控制提供绝对角度。
+
+## 技术 Wiki
+
+- [在轴 / In-axis](https://conntek.grosso.link/basics/in-axis)：磁铁装在轴端，芯片感应中心与转轴同心
+- [离轴 / Off-axis](https://conntek.grosso.link/basics/off-axis)：芯片不在转轴中心，从磁铁或磁环侧面读取磁场
+- [偏心与安装公差](https://conntek.grosso.link/basics/eccentricity)：转动中心、磁铁中心与芯片感应中心不重合，是最常见的系统误差来源
+- [气隙 / Air gap](https://conntek.grosso.link/basics/air-gap)：磁铁工作面到芯片感应面之间的距离
+- [磁体 / Magnet](https://conntek.grosso.link/basics/magnet)：提供被测磁场的永磁体，看材料、充磁方式与几何公差三类参数
+- [对极数 / Pole pairs](https://conntek.grosso.link/basics/pole-pairs)：磁环沿圆周的 N-S 磁极对数，一对极为一个信号周期
+- [杂散场 / Stray field](https://conntek.grosso.link/basics/stray-field)：靶磁铁以外叠加到芯片上的磁场，会改变合成磁场方向
+- [分辨率 / Resolution](https://conntek.grosso.link/basics/resolution)：输出能区分的最小角度步距，与准确度是两回事
+- [INL / 积分非线性](https://conntek.grosso.link/basics/inl)：输出角度对真实角度的最大偏差，即角度准确度
+- [角度噪声 / Angle noise](https://conntek.grosso.link/basics/noise)：静止时角度读数的随机起伏，通常以 1σ（均方根）表示
+- [延时与动态误差 / Latency](https://conntek.grosso.link/basics/latency)：磁场变化到角度输出之间的时间，转速越高，它造成的角度滞后越大
+- [自校准 / Self-calibration](https://conntek.grosso.link/basics/self-calibration)：器件在实装状态下测量并补偿角度非线性误差
+- [游标 / Vernier（Nonius）](https://conntek.grosso.link/basics/vernier)：用两条周期数不同的码道拼出高分辨率的单圈绝对位置
+- [绝对值输出 / 增量输出](https://conntek.grosso.link/basics/absolute-incremental)：绝对值上电即知当前角度，增量只给出位移量
+- [ABZ 增量输出](https://conntek.grosso.link/basics/abz)：A、B 两路正交方波，加每圈一个 Z 索引脉冲
+- [UVW 换向输出](https://conntek.grosso.link/basics/uvw)：三路互差 120° 电角度的方波，供电机换向定扇区
+- [SPI / SSI 串行绝对值接口](https://conntek.grosso.link/basics/spi-ssi)：主控按时钟读走绝对角度的两种同步串行方式
+- [CRC 帧校验](https://conntek.grosso.link/basics/crc)：附在数据帧末尾的校验位，用来发现传输中出错的帧
+- [I2C 总线](https://conntek.grosso.link/basics/i2c)：两线制（时钟 + 数据）的多器件总线，适合低速读写传感器数据与配置
+- [PWM 角度输出](https://conntek.grosso.link/basics/pwm)：用固定频率方波的占空比表示绝对角度
+- [霍尔效应 / Hall effect](https://conntek.grosso.link/basics/hall-effect)：载流薄片在垂直磁场下产生横向电压
+- [斩波与旋转电流 / Chopper](https://conntek.grosso.link/basics/chopper)：周期性切换激励或信号极性，把失调与低频漂移从信号里分离出去
+- [垂直霍尔 / Vertical Hall](https://conntek.grosso.link/basics/vertical-hall)：敏感方向落在芯片平面内的霍尔结构
+- [三轴霍尔 / 3D Hall](https://conntek.grosso.link/basics/3d-hall)：一颗芯片同时测 X、Y、Z 三个方向的磁场分量
+- [AMR / 各向异性磁阻](https://conntek.grosso.link/basics/amr)：电阻随磁化方向与电流夹角变化，工作在饱和区
+- [TMR / 隧道磁电阻](https://conntek.grosso.link/basics/tmr)：隧道结电阻随自由层与钉扎层的磁化夹角变化
+- [单极型 / 全极型](https://conntek.grosso.link/basics/unipolar-omnipolar)：按触发磁极区分：单极只认一个极，全极两极都认
+- [锁存型 / Latch](https://conntek.grosso.link/basics/latching)：一个极性置位、相反极性复位，撤磁后保持原状态
+- [BOP / BRP 与回差](https://conntek.grosso.link/basics/bop-brp)：动作阈值与释放阈值，两者之差称为回差
+- [线性霍尔 / 比例式输出](https://conntek.grosso.link/basics/linear-hall)：输出电压随磁通密度线性变化，灵敏度档位同时决定量程
+
+## 技术博客
+
+- [昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布](https://conntek.grosso.link/blog/kto9348-launch-ciif-2026)（2026-09-18，新品发布）：KTO9348HI 是 KTO 系列的相位阵游标光编芯片：一次扫描 5 条码道，经三通道 Nonius 插值实现最高 25 bit 单圈绝对位置分辨率，将于 2026 中国国际工业博览会正式发布。
+- [一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？](https://conntek.grosso.link/blog/microduck-sensor-teardown)（2026-09-04，行业观察）：Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。
+- [从「炫技」到「干活」 2026 世界机器人大会观察](https://conntek.grosso.link/blog/wrc-2026-observations)（2026-08-31，行业观察）：2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。
+- [一芯感知三维磁场赋能旋钮 · 摇杆 · 阀门 · 编码器全场景](https://conntek.grosso.link/blog/3d-hall-knob-joystick-valve-encoder)（2026-08-21，产品解读）：KTH5701 是一款数字输出的 3D 霍尔传感器，以非接触方式替代机械电位器与接触式开关。本文介绍它的六大核心优势、关键参数、在旋钮、摇杆、阀门等场景的应用，以及配套磁钢选型。
+- [2×2 塞进指尖！昆泰芯 KTH7113 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题](https://conntek.grosso.link/blog/kth7113-launch-dexterous-hand)（2026-08-14，新品发布）：昆泰芯发布超小封装 16 位磁编芯片 KTH7113：2×2 mm 封装可嵌入灵巧手指节，支持三线/四线 SPI 多芯片并联，以 16 位绝对角度与 1 μs 延时应对灵巧手关节感知难题。
+- [感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案](https://conntek.grosso.link/blog/physical-ai-sensing-foundation)（2026-07-24，行业观察）：本文以 2026 世界人工智能大会为背景，梳理具身智能落地在关节感知、终端功耗、严苛环境与供应链上的痛点，介绍昆泰芯磁传感芯片的技术优势及其可解决的行业问题。
+- [芯耀慕尼黑，感知启新程｜昆泰芯 2026 上海慕尼黑电子展圆满收官，10 月工博会再赴智能传感之约](https://conntek.grosso.link/blog/electronica-china-2026-recap)（2026-07-07，公司动态）：2026 上海慕尼黑电子展落幕，昆泰芯携 KTH57、KTH71、KTM52/53、KTO95 四大系列芯片参展并现场演示，展台交流聚焦功耗、精度与量产交付；10 月将参加第 26 届中国工博会。
+- [硬核技术・芯耀上海｜慕尼黑电子展首日昆泰芯人气爆棚](https://conntek.grosso.link/blog/electronica-china-2026-day1)（2026-07-01，公司动态）：7 月 1 日 2026 上海慕尼黑电子展开幕，昆泰芯展出 KTH57 3D 磁传感、KTH71 自校准霍尔磁编、KTM52/53 AMR 磁编与 KTO95 游标光编四大系列芯片，首日展位人气火爆。
+- [昆泰芯重磅新品｜KTM52/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！](https://conntek.grosso.link/blog/ktm52-53-amr-launch)（2026-05-18，新品发布）：昆泰芯同步推出 KTM52（在轴）与 KTM53（离轴）两大系列 AMR 角度编码器，共用 21 位内核，自校准后在轴 INL ±0.015°、离轴 ±0.03°，适配电机、机器人关节与 EPS。
+- [智感设计・芯启未来｜昆泰芯武建峰博士清华开讲，为工业设计注入看不见的传感力量](https://conntek.grosso.link/blog/tsinghua-industrial-design-talk)（2026-04-28，公司动态）：昆泰芯 CEO 武建峰博士在清华大学美术学院为工业设计系学子讲授《看不见的传感器芯片》公开课，从 HMI 本质、磁感应芯片与机器人触觉讲到交互设计，并宣布为学子提供毕业设计支持。
+- [智感未来，芯耀鹏城——昆泰芯 2026 深圳国际传感器展圆满落幕，亮点纷呈，载誉而归](https://conntek.grosso.link/blog/sensor-expo-shenzhen-2026-recap)（2026-04-17，公司动态）：昆泰芯参展 2026 深圳国际传感器展，首发 KTM52/53 系列 AMR 磁编芯片，展示 KTH57、KTH71、KTM59 等 Demo，CEO 出席两场论坛，并获「最佳参展企业」荣誉。
+- [昆泰芯闪耀深圳传感器展，武博士双论坛解码行业前沿](https://conntek.grosso.link/blog/sensor-expo-shenzhen-2026-forums)（2026-04-14，公司动态）：深圳传感器展首日，昆泰芯在 7C210 展台展出 KTH57、KTH71、KTM52、KTH460 等系列 Demo，CEO 武建峰博士连续出席两场论坛，分享编码器芯片技术与技术路线比较。
+- [昆泰芯 KTM13 系列 TMR 磁开关芯片赋能洗碗机精准液位检测](https://conntek.grosso.link/blog/ktm13-dishwasher-level)（2026-03-20，应用方案）：洗碗机靠浮子带动磁铁旋转来检测液位，传统霍尔、机械与光电方案在短行程、弱磁场、高湿高温下易误判或寿命短。本文介绍 KTM13 系列 TMR 磁开关的核心优势及其液位检测方案。
+- [昆泰芯 KTH57 系列芯片：赋能智能灌溉阀，开启精准节水新时代](https://conntek.grosso.link/blog/kth57-smart-irrigation-valve)（2026-02-28，应用方案）：智能灌溉阀靠角度传感器反馈阀门开度来精准控水。本文介绍智能灌溉阀的应用需求、KTH57 系列三轴霍尔芯片的特性，以及离轴安装、闭环控制的角度检测方案和它在灌溉阀上的优势。
+- [昆泰芯 KTM59 系列磁传感器芯片在游戏外设中的应用](https://conntek.grosso.link/blog/ktm59-gaming-peripherals)（2026-02-10，应用方案）：游戏方向盘的精度与可靠性决定玩家的沉浸体验，传统电位器存在磨损与灰尘干扰问题。本文介绍 KTM59 系列磁编码芯片、磁编码的技术原理、在方向盘等游戏外设中的应用，以及技术挑战与趋势。
+- [昆泰芯霍尔开关 KTH1701 在健腹轮中的应用](https://conntek.grosso.link/blog/kth1701-ab-roller)（2026-01-30，应用方案）：智能健腹轮需要对圈数、运动方向、速率节奏进行精准监测，并要求传感器低功耗长期运行。本文以昆泰芯霍尔开关 KTH1701 为例，解析磁传感器在健腹轮中的应用需求、技术优势与解决方案。
+- [昆泰芯 KTH5701 在工业注射泵中的应用场景与解决方案](https://conntek.grosso.link/blog/kth5701-injection-pump)（2025-12-19，应用方案）：工业注射泵的核心诉求是微量、稳定、可重复、智能化的液体输送。本文介绍昆泰芯 KTH57 系列 3D 霍尔传感器芯片的技术优势，以及它在油井增产、调味品注入、定量注脂三类场景中的解决方案。
+- [昆泰芯第一件欧洲专利：《磁性编码器的自校准方法、电机及校准角度检测值的方法》公告授权](https://conntek.grosso.link/blog/first-european-patent)（2025-12-08，公司动态）：昆泰芯发明专利《磁性编码器的自校准方法、电机及校准角度检测值的方法》获欧洲专利局授权。该专利通过内置自校准算法修正磁铁安装和环境变化引入的误差，是昆泰芯的第一件欧洲专利。
+- [昆泰芯闪耀 2025 年德国纽伦堡 SPS 展会，强势彰显中国智造在欧洲工业市场的技术创新力](https://conntek.grosso.link/blog/sps-nuremberg-2025)（2025-12-02，公司动态）：2025 年 SPS 展会在德国纽伦堡落幕。昆泰芯在 4 号馆 174 展位展示 KTH71、KTM58、KTM59 系列芯片协同方案，现场演示自校准精度，并设立技术问答角，面向欧洲推进生态共建。
+- [昆泰芯 KTH78 系列编码器芯片：在多极对磁铁应用中的校准与精度提升](https://conntek.grosso.link/blog/kth78-multipole-calibration)（2024-01-18，应用方案）：精准的角度和位置检测是自动化和精密工程领域的决定性因素。本文介绍 KTH78 系列编码器芯片如何在多极对磁铁应用中进行高效校准，以及校准对提升系统精度的作用。
+- [昆泰芯 KTH78 编码器在大扭矩电机中的应用](https://conntek.grosso.link/blog/kth78-high-torque-motor)（2023-12-29，应用方案）：本文以筋膜枪为例，探讨无感 FOC 控制电机在低速大扭矩工况下遇到的角度识别、电流控制、谐波损耗和振荡失稳问题，以及用 KTH78 系列霍尔角度编码器配合有感 FOC 控制应对这些挑战的方式。
+- [昆泰芯 KTH7812 在电摩应用中的优势](https://conntek.grosso.link/blog/kth7812-e-motorcycle)（2023-12-04，应用方案）：在电摩的电机系统中，编码器通过精确监测电机转子的位置，优化扭矩输出、提高效率，并提升整体性能和行驶稳定性。本文从扭矩输出、效率和安全性等方面介绍 KTH7812 在电摩应用中的优势。
+- [KTH7811 简化电钻（BLDC）设计](https://conntek.grosso.link/blog/kth7811-bldc-drill)（2023-11-10，应用方案）：传统电钻多用三个霍尔开关检测和控制无刷直流电机的转动，但多个霍尔开关使设计复杂，并带来对准、机械摩擦、开关损耗等维护难题。本文介绍 KTH7811 霍尔编码器如何替代三个霍尔开关，简化电钻设计。
+- [解密 KTH78 黑科技：为什么它精度高还能延迟低](https://conntek.grosso.link/blog/kth78-accuracy-and-low-latency)（2023-11-10，产品解读）：KTH78 系列磁性编码器芯片在各种外界影响下保持性能稳定，快速的响应时间几乎消除了延迟。本文介绍传感器刚性与延迟的含义、KTH78 内嵌的动态自适应滤波器（动感技术 DDDT）及其精度表现。
+- [如何评价磁编的准确性？以昆泰芯 KTH78 为例](https://conntek.grosso.link/blog/how-to-evaluate-magnetic-encoder-accuracy)（2023-10-31，技术科普）：很多工程师在测量物理量时容易混淆精度和可重复性。本文以打靶为例解释两者的区别，说明传感器噪声特性越好、可重复性越好，并以 KTH78 系列为例介绍其约 0.086° 的重复输出差异与多对极磁铁技术。
+- [KTH1601 与无线蓝牙耳机：让音乐与科技无缝连接](https://conntek.grosso.link/blog/kth1601-wireless-earbuds)（2023-10-25，应用方案）：无线蓝牙耳机的开盖连接和入仓检测，依靠充电盒与耳机内嵌的小磁铁配合霍尔开关实现。本文介绍 KTH1601 霍尔开关传感器的工作原理、在耳机中的检测应用，以及磁仿真技术支持。
+- [科技赋能生活：KTH1601 让垃圾桶「懂」你的需求](https://conntek.grosso.link/blog/kth1601-smart-trash-can)（2023-10-25，应用方案）：高性能、低功耗霍尔开关传感器 KTH1601 是智能垃圾桶自动感应、自动开关的关键。本文介绍霍尔开关的 BOP/BRP 工作原理、它在开盖角度控制和压缩密封装置中的作用，以及其低功耗与宽电压特性。
+- [智能门磁开关 KTH1601：守护家园的静默守卫](https://conntek.grosso.link/blog/kth1601-door-sensor)（2023-10-25，应用方案）：智能门磁开关可实时监测门窗的开闭状态，关键器件是霍尔开关传感器 KTH1601。本文介绍 KTH1601 如何感知门窗开合带来的磁场变化并通知安全系统，以及它在灵敏度、功耗和磁仿真支持方面的特点。
+- [数据的安全守护者：CRC 校验在 KTH78 系列中的应用](https://conntek.grosso.link/blog/crc-in-kth78)（2023-10-13，技术科普）：KTH78 系列的 SPI 输出由 12 bit 位置数据和 4 bit CRC 校验码组成。本文用写信的比喻解释 CRC 校验码，再以 KTH7816 为例演示 CRC-4/ITU 的计算过程。
+- [如何借助霍尔效应传感器打造车规级智能「开-关」监测系统](https://conntek.grosso.link/blog/hall-sensor-automotive-switch)（2023-10-10，应用方案）：汽车座椅、天窗、电动尾门等电机需要可靠地监测「开-关」状态，而机械开关容易磨损、受温湿度影响。本文介绍霍尔效应原理、车规级霍尔开关 KTH2502 的特性，以及它在电机和汽车部件中的应用。
+- [离轴安装：昆泰芯 KTH5701/3D 霍尔芯片，让你的创意自由驰骋！](https://conntek.grosso.link/blog/kth5701-off-axis)（2023-09-15，产品解读）：磁编码器芯片一般沿转轴轴线安装，采用 GMR 或 2D Hall 技术的芯片要求磁铁与芯片平行。本文以 KTH5701 三轴霍尔芯片为例，介绍磁编码器的安装方式，以及它的功能、特点与典型应用。
+- [什么是 ABZ？KTH7816 做的很不错！](https://conntek.grosso.link/blog/what-is-abz)（2023-09-08，技术科普）：ABZ 接口是增量式编码器常见的输出格式。本文以 KTH7816 为例，介绍 A、B、Z 三个通道的定义，用时钟秒针类比解释方向判断与零点参考，并介绍 KTH7816 的 ABZ 输出特性与应用场景。
+- [昆泰芯 KTH78 系列在空心杯领域的创新应用](https://conntek.grosso.link/blog/kth78-coreless-motor)（2023-09-01，应用方案）：空心杯电机取消铁芯转子结构，具有轻量化、高效率、高转速和小体积等特点。本文介绍 KTH78 系列磁编码器芯片在空心杯电机中的应用，包括多对极磁铁、KTH7815 关键参数，以及拧紧、医疗和灵巧手案例。
+- [神奇的霍尔效应](https://conntek.grosso.link/blog/hall-effect-explained)（2023-08-25，技术科普）：霍尔效应源于洛伦兹力使载流子偏转并积累电荷，从而产生霍尔电压。本文介绍其物理原理，霍尔开关、线性霍尔、2D/3D 霍尔与高速霍尔编码器四类传感器及昆泰芯相关产品，并讨论霍尔传感器面临的技术挑战。
+- [KTH78 系列高精度绝对角度霍尔编码器实现机翼伺服系统](https://conntek.grosso.link/blog/kth78-launch-wing-servo)（2023-08-16，新品发布）：传统光电编码器易受灰尘和水汽影响。本文介绍 KTH78 系列高精度绝对角度霍尔传感器在无人机机翼伺服系统中的应用，涵盖超高速低延时、离轴安装、稳定性与抗干扰、多种输出模式，并给出按需求选型的建议。
+
+## 公司
+
+- [关于昆泰](https://conntek.grosso.link/about/)
+- [联系我们](https://conntek.grosso.link/contact)
+- [磁仿真与技术服务](https://conntek.grosso.link/services)

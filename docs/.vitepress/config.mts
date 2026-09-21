@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 import data from './sidebar.json'
 
-// GitHub Pages 地址为 https://conntek.github.io/msite/；改部署路径时同时设置 SITE_BASE 重新跑 scripts/render.py
-const base = process.env.SITE_BASE ?? '/msite/'
+// 正式地址为 https://conntek.grosso.link/（GitHub Pages 自定义域名，站点在根路径）；改部署路径时同时设置 SITE_BASE 重新跑 scripts/render.py
+const base = process.env.SITE_BASE ?? '/'
 
-const site = 'https://conntek.github.io'
+const site = 'https://conntek.grosso.link'
+// 标题后缀：正式上线时改为空串（render.py 里 SITE_TAG 同步改）
+const siteTag = process.env.SITE_TAG ?? ' (dev site)'
 
 export default defineConfig({
   base,
@@ -15,9 +17,18 @@ export default defineConfig({
     const title = pageData.frontmatter.title || pageData.title || '昆泰芯微电子'
     const desc = pageData.frontmatter.description || pageData.description || ''
     pageData.frontmatter.head ??= []
+    const fm = pageData.frontmatter
+    // render.py 写进 frontmatter 的结构化数据（Product / BlogPosting / TechArticle / DefinedTerm），供搜索引擎与 AI 爬虫理解页面
+    if (typeof fm.ld === 'string' && fm.ld) {
+      pageData.frontmatter.head.push(['script', { type: 'application/ld+json' }, fm.ld])
+    }
+    if (fm.date) {
+      pageData.frontmatter.head.push(['meta', { property: 'article:published_time', content: String(fm.date).slice(0, 10) }])
+    }
     pageData.frontmatter.head.push(
       ['link', { rel: 'canonical', href: url }],
-      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:type', content: fm.date ? 'article' : 'website' }],
+      ['meta', { property: 'og:locale', content: 'zh_CN' }],
       ['meta', { property: 'og:site_name', content: '昆泰芯微电子 CONNTEK' }],
       ['meta', { property: 'og:title', content: title }],
       ['meta', { property: 'og:description', content: desc }],
@@ -27,7 +38,7 @@ export default defineConfig({
     )
   },
   title: '昆泰芯微电子',
-  titleTemplate: ':title · 昆泰芯 CONNTEK',
+  titleTemplate: ':title · 昆泰芯 CONNTEK' + siteTag,
   description: '昆泰芯微电子 · 智能感知世界 传递美好生活',
   cleanUrls: true,
   lastUpdated: false,
@@ -36,6 +47,24 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: `${base}img/logo-nav-light.png` }],
     ['meta', { name: 'theme-color', content: '#c30d23' }],
+    ['meta', { name: 'keywords', content: '昆泰芯,CONNTEK,磁编码器芯片,霍尔传感器,3D霍尔,TMR磁开关,AMR编码器,绝对角度编码器,磁传感器芯片,KTH78,KTM59,KTH57' }],
+    ['link', { rel: 'alternate', type: 'text/plain', title: 'llms.txt', href: `${base}llms.txt` }],
+    // 全站：公司与站点的结构化数据
+    ['script', { type: 'application/ld+json' }, JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Organization', '@id': site + '/#org', name: '昆泰芯微电子', alternateName: ['CONNTEK', '昆泰芯'],
+          url: site + '/', logo: site + base + 'img/logo-nav-light.png',
+          email: 'sales@conntek.com.cn', telephone: '+86-755-86186696',
+          contactPoint: [
+            { '@type': 'ContactPoint', contactType: 'sales', email: 'sales@conntek.com.cn', telephone: '+86-755-86186696', areaServed: 'Worldwide', availableLanguage: ['zh', 'en'] },
+            { '@type': 'ContactPoint', contactType: 'technical support', email: 'support@conntek.com.cn', telephone: '+86-755-86006609' },
+          ],
+        },
+        { '@type': 'WebSite', '@id': site + '/#website', url: site + '/', name: '昆泰芯微电子 CONNTEK', inLanguage: 'zh-CN', publisher: { '@id': site + '/#org' } },
+      ],
+    })],
   ],
   // 图片/视频/PDF 都在 public/ 下，按根路径直接引用，不走 Vite 的资源 import
   vue: { template: { transformAssetUrls: false } },

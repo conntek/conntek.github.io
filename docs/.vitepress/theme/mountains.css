@@ -158,18 +158,6 @@
   height: 1px;
   background: var(--vp-c-divider);
 }
-@media (min-width: 960px) {
-  .VPFooter.has-sidebar::before,
-  .VPFooter.has-sidebar::after {
-    left: var(--vp-sidebar-width);
-  }
-}
-@media (min-width: 1440px) {
-  .VPFooter.has-sidebar::before,
-  .VPFooter.has-sidebar::after {
-    left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
-  }
-}
 /* 手机：图按 56px 高缩小，只露中段（水线落在屏幕正中偏左一点，台地在右） */
 @media (max-width: 767px) {
   .VPFooter { padding-top: 72px !important; }
@@ -180,10 +168,6 @@
     mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
   }
   .VPFooter::after { top: 56px; }
-}
-@media (max-width: 560px) {
-  .VPFooter.has-sidebar::before,
-  .VPFooter.has-sidebar::after { left: 0; }
 }
 
 /* ---------- 6b. 晶圆线描：产品中心总览/产品线总览页头、型号页页头右上角 ---------- */

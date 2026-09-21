@@ -5,7 +5,7 @@ aside: false
 pageClass: "c-page"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><span>磁仿真&amp;技术服务</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><span>磁仿真&amp;技术服务</span></nav>
 
 <p class="c-kicker">昆泰芯微电子</p>
 
@@ -23,7 +23,7 @@ pageClass: "c-page"
 
 服务贯穿项目全周期：前期做可行性分析与最优传感器选型，设计阶段做与结构正相关的磁路设计，量产阶段做磁路良率优化。
 
-<div class="c-grid c-grid--3"><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/dianlusheji.png" alt="电路设计"></span><h3>电路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/cilusheji2.png" alt="磁路设计"></span><h3>磁路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/msite/images/jiegousheji.png" alt="结构设计"></span><h3>结构设计</h3></div></div>
+<div class="c-grid c-grid--3"><div class="c-pillar"><span class="c-pillar__icon"><img src="/images/dianlusheji.png" alt="电路设计"></span><h3>电路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/images/cilusheji2.png" alt="磁路设计"></span><h3>磁路设计</h3></div><div class="c-pillar"><span class="c-pillar__icon"><img src="/images/jiegousheji.png" alt="结构设计"></span><h3>结构设计</h3></div></div>
 
 ## 解决思路
 
@@ -39,6 +39,6 @@ pageClass: "c-page"
 
 ## 仿真案例
 
-<div class="c-grid c-grid--3"><figure class="c-fig c-fig--card c-fig--fill"><img src="/msite/img/svc/0.webp" alt="仿真案例 1" loading="lazy"></figure><figure class="c-fig c-fig--card c-fig--fill"><img src="/msite/img/svc/1.webp" alt="仿真案例 2" loading="lazy"></figure><figure class="c-fig c-fig--card c-fig--fill"><img src="/msite/img/svc/2.webp" alt="仿真案例 3" loading="lazy"></figure></div>
+<div class="c-grid c-grid--3"><figure class="c-fig c-fig--card c-fig--fill"><img src="/img/svc/0.webp" alt="仿真案例 1" loading="lazy"></figure><figure class="c-fig c-fig--card c-fig--fill"><img src="/img/svc/1.webp" alt="仿真案例 2" loading="lazy"></figure><figure class="c-fig c-fig--card c-fig--fill"><img src="/img/svc/2.webp" alt="仿真案例 3" loading="lazy"></figure></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">让磁路设计少走弯路</h2><p>把结构图与需求发给我们，技术团队可协助完成可行性分析、选型与磁路仿真。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">让磁路设计少走弯路</h2><p>把结构图与需求发给我们，技术团队可协助完成可行性分析、选型与磁路仿真。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

@@ -3,9 +3,10 @@ title: "太阳能光电转换器 · 智能生活应用"
 description: "放大光电器件输出的微弱信号，供后级 ADC 采样。"
 aside: false
 pageClass: "c-page c-page--case"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"太阳能光电转换器：智能生活应用方案\", \"description\": \"放大光电器件输出的微弱信号，供后级 ADC 采样。\", \"about\": \"太阳能光电转换器\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-life/solar-converter\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/applications/">市场应用</a><i>/</i><a href="/msite/applications/intelligent-life">智能生活</a><i>/</i><span>太阳能光电转换器</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-life">智能生活</a><i>/</i><span>太阳能光电转换器</span></nav>
 
 <p class="c-kicker">智能生活</p>
 
@@ -13,7 +14,7 @@ pageClass: "c-page c-page--case"
 
 <p class="c-lead">放大光电器件输出的微弱信号，供后级 ADC 采样。</p>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="/msite/products/other/ktax33">推荐芯片 KTAx333</a><a class="c-btn" href="/msite/contact">方案咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="/products/other/ktax33">推荐芯片 KTAx333</a><a class="c-btn" href="/contact">方案咨询</a></div>
 
 ## 场景说明
 
@@ -23,7 +24,7 @@ pageClass: "c-page c-page--case"
 
 户外应用还要面对全天候温差：清晨与正午的器件温度可能相差几十摄氏度，如果放大器的失调随温度漂移，读出的曲线就会带上一条与光照无关的漂移成分。
 
-</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/msite/img/case/intelligent-life-5.webp" alt="太阳能光电转换器" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame c-split__media--case"><img src="/img/case/intelligent-life-5.webp" alt="太阳能光电转换器" loading="lazy"></div></div>
 
 ## 检测需求
 
@@ -37,7 +38,7 @@ pageClass: "c-page c-page--case"
 
 <div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>2 μV 失调</h3><p>自校准技术使失调电压典型值 2 μV、最大值 10 μV。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>零温漂</h3><p>失调电压温漂 0.02 μV/℃，全温区的基线更稳。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低噪声</h3><p>电压噪声 1.1 μVpp（0.1 ~ 10 Hz），适合缓变信号。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>驱动 ADC</h3><p>驱动 ADC 时不降低微分线性，可直接作前级。</p></div></div></div>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/products/other/ktax33"><div class="c-card__media c-media--icon"><img src="/msite/img/icons-web/ktax33.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTAx333 系列</span><h3>零温漂高精度运放</h3><p>自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p><span class="c-card__more">查看产品</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/products/other/ktax33"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktax33.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTAx333 系列</span><h3>零温漂高精度运放</h3><p>自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p><span class="c-card__more">查看产品</span></div></a></div>
 
 ## 设计注意点
 
@@ -47,6 +48,6 @@ pageClass: "c-page c-page--case"
 
 ## 相关案例
 
-<div class="c-grid c-grid--4"><a class="c-card" href="/msite/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/msite/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTAx333</span><h3>燃气灶-温度检测</h3><p>放大热电偶等温度传感元件输出的微弱电压信号。</p><span class="c-card__more">查看案例</span></div></a></div>
+<div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTAx333</span><h3>燃气灶-温度检测</h3><p>放大热电偶等温度传感元件输出的微弱电压信号。</p><span class="c-card__more">查看案例</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

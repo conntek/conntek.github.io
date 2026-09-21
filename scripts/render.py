@@ -14,7 +14,16 @@ from collections import OrderedDict
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, 'docs')
 PUB = os.path.join(DOCS, 'public')
-SITE_BASE = os.environ.get('SITE_BASE', '/msite/')
+SITE_BASE = os.environ.get('SITE_BASE', '/')
+SITE_URL = os.environ.get('SITE_URL', 'https://conntek.grosso.link').rstrip('/')   # 结构化数据、llms.txt 用的绝对地址
+SITE_TAG = os.environ.get('SITE_TAG', ' (dev site)')   # 标题后缀：正式上线时设为空串（config.mts 里同名常量同步改）
+
+
+def abs_url(path):
+    return SITE_URL + SITE_BASE.rstrip('/') + '/' + str(path or '').lstrip('/') if path else ''
+
+
+ORG_LD = {'@type': 'Organization', 'name': '昆泰芯微电子', 'alternateName': 'CONNTEK', 'url': SITE_URL + '/'}
 
 
 def load(rel, default):
@@ -80,6 +89,10 @@ def write(rel, content):
 def fm(**kw):
     out = ['---']
     for k, v in kw.items():
+        if isinstance(v, (dict, list)) and k == 'ld':
+            v = json.dumps(v, ensure_ascii=False)
+            out.append(f'{k}: {json.dumps(v, ensure_ascii=False)}')   # 以 JSON 字符串存，config 里原样放进 <script>
+            continue
         out.append(f'{k}: {json.dumps(v, ensure_ascii=False) if isinstance(v, str) else (str(v).lower() if isinstance(v, bool) else v)}')
     return '\n'.join(out) + '\n---\n\n'
 
@@ -671,7 +684,10 @@ def render_product(slug):
     p = PRODUCTS[slug]
     c = pc(slug)
     cat = CAT_BY_KEY[p['category']]
-    out = fm(title=f'{c["model"]} {c["name"]}', description=c['lead'], aside=False, pageClass='c-page c-page--product')
+    out = fm(title=f'{c["model"]} {c["name"]}', description=c['lead'], aside=False, pageClass='c-page c-page--product',
+             ld={'@context': 'https://schema.org', '@type': 'Product', 'name': f'{c["model"]} {c["name"]}',
+                 'description': c['lead'], 'category': cat['name'], 'brand': {'@type': 'Brand', 'name': 'CONNTEK 昆泰芯'},
+                 'manufacturer': ORG_LD, 'image': abs_url(product_visual(slug)), 'url': abs_url(p['route'])})
     out += eyebrow(HOME, (SEC['products'], '/products/'), (cat['name'], f'/products/{cat["key"]}/'), (c['model'], None))
     out += '<div class="c-product-hero"><div class="c-product-hero__text">\n\n'
     out += f'<p class="c-kicker">{E(c["model"])}</p>\n\n# {c["name"]}\n\n<p class="c-lead">{E(c["lead"])}</p>\n\n'
@@ -1048,7 +1064,12 @@ def render_model_pages(slug, matrix):
         route = model_route(slug, mid)
         lead_txt = summary_of[mid]
         out = fm(title=f'{mid} · {c["model"]}{c["name"]}', description=lead_txt,
-                 aside=False, pageClass='c-page c-page--model')
+                 aside=False, pageClass='c-page c-page--model',
+                 ld={'@context': 'https://schema.org', '@type': 'Product', 'name': mid, 'sku': mid, 'mpn': mid,
+                     'description': lead_txt, 'category': f'{c["model"]} {c["name"]}',
+                     'brand': {'@type': 'Brand', 'name': 'CONNTEK 昆泰芯'}, 'manufacturer': ORG_LD,
+                     'isVariantOf': {'@type': 'ProductGroup', 'name': f'{c["model"]} {c["name"]}', 'url': abs_url(p['route'])},
+                     'url': abs_url(route)})
         out += eyebrow(HOME, (SEC['products'], '/products/'), (cat['name'], f'/products/{cat["key"]}/'),
                        (c['model'], p['route']), (mid, None))
         out += f'<p class="c-kicker">{E(c["model"])} {E(c["name"])}</p>\n\n# {mid}\n\n'
@@ -1307,7 +1328,10 @@ def render_case_pages():
             chip_slug = chip_route.rsplit('/', 1)[-1] if chip_route else ''
             cp = pc(chip_slug) if chip_slug in PRODUCTS else None
             out = fm(title=f'{d["title"]} · {a["name"]}应用', description=d.get('lead', ''), aside=False,
-                     pageClass='c-page c-page--case')
+                     pageClass='c-page c-page--case',
+                     ld={'@context': 'https://schema.org', '@type': 'TechArticle', 'headline': f'{d["title"]}：{a["name"]}应用方案',
+                         'description': d.get('lead', ''), 'about': d['title'], 'author': ORG_LD, 'publisher': ORG_LD,
+                         'url': abs_url(route)})
             out += eyebrow(HOME, (SEC['applications'], '/applications/'), (a['name'], f'/applications/{a["key"]}'), (d['title'], None))
             out += f'<p class="c-kicker">{E(a["name"])}</p>\n\n# {d["title"]}\n\n'
             out += f'<p class="c-lead">{E(d.get("lead", ""))}</p>\n\n'
@@ -1535,7 +1559,13 @@ def render_blog():
         newer = posts[i - 1] if i > 0 else None
         older = posts[i + 1] if i + 1 < len(posts) else None
         body = p.get('body') or ''
-        out = fm(title=p['title'], description=p['lead'][:120], outline=[2, 3], pageClass='c-page c-page--post')
+        out = fm(title=p['title'], description=p['lead'][:120], outline=[2, 3], pageClass='c-page c-page--post',
+                 date=p['date'],
+                 ld={'@context': 'https://schema.org', '@type': 'BlogPosting', 'headline': p['title'][:110],
+                     'description': p['lead'], 'datePublished': p['date'], 'dateModified': p['date'],
+                     'articleSection': p.get('category') or '博客', 'inLanguage': 'zh-CN',
+                     'image': abs_url(blog_card_img(p)), 'author': ORG_LD, 'publisher': ORG_LD,
+                     'mainEntityOfPage': abs_url(f'/blog/{p["slug"]}'), 'isBasedOn': p['source']})
         out += eyebrow(HOME, ('博客', '/blog/'), (p['title'], None))
         if p['category']:
             out += f'<p class="c-kicker">{E(p["category"])}</p>\n\n'
@@ -1617,7 +1647,10 @@ def render_glossary():
     # ---- 词条页 ----
     for i, (grp, key) in enumerate(order):
         d = terms[key]
-        out = fm(title=f'{d["term"]} · {wiki}', description=d.get('short', ''), aside=False, pageClass='c-page c-page--wiki')
+        out = fm(title=f'{d["term"]} · {wiki}', description=d.get('short', ''), aside=False, pageClass='c-page c-page--wiki',
+                 ld={'@context': 'https://schema.org', '@type': 'DefinedTerm', 'name': d['term'], 'description': d.get('short', ''),
+                     'inDefinedTermSet': {'@type': 'DefinedTermSet', 'name': '昆泰芯技术 Wiki', 'url': abs_url('/basics/')},
+                     'url': abs_url(f'/basics/{key}')})
         out += eyebrow(HOME, (wiki, root), (d['term'], None))
         out += f'<p class="c-kicker">{E(grp["title"])}</p>\n\n# {d["term"]}\n\n'
         if d.get('short'):
@@ -1775,7 +1808,7 @@ def render_home():
     out = f'''---
 layout: home
 title: 昆泰芯微电子
-titleTemplate: CONNTEK
+titleTemplate: CONNTEK{SITE_TAG}
 hero:
   name: {json.dumps(hc.get('title', BRAND), ensure_ascii=False)}
   text: {json.dumps(hc.get('slogan', '智能感知世界 传递美好生活'), ensure_ascii=False)}
@@ -1989,6 +2022,41 @@ def autolink_pages():
     return n
 
 
+def render_llms():
+    """docs/public/llms.txt：给大模型爬虫的站点摘要（llmstxt.org 约定）。只收站上已公开的内容。"""
+    L = ['# 昆泰芯微电子（CONNTEK）', '',
+         '> 昆泰芯微电子是一家专注于磁传感器芯片的公司，产品覆盖 3D 霍尔、磁编码器、霍尔/TMR/AMR 开关、线性霍尔与运放等，'
+         '面向工业自动化、机器人、汽车、消费电子与智能家居。本站为公司官网，包含全部产品系列与型号参数、应用案例、技术 Wiki 与技术博客。', '',
+         f'- 官网：{abs_url("/")}', '- 销售：sales@conntek.com.cn　技术支持：support@conntek.com.cn', '']
+    L += ['## 产品系列', '']
+    for c in CATS:
+        for sl in [i['slug'] for i in c['items']] + [x for x, pp in PRODUCTS.items() if pp['category'] == c['key'] and x not in ITEM_BY_SLUG]:
+            if sl not in PRODUCTS:
+                continue
+            cc = pc(sl)
+            n = len(MODEL_INDEX.get(sl) or [])
+            L.append(f'- [{cc["model"]} {cc["name"]}]({abs_url(PRODUCTS[sl]["route"])})：{cc["lead"]}' + (f'（{n} 个型号页）' if n else ''))
+    L += ['', '## 应用案例', '']
+    for a in APPS:
+        for cse in a['cases']:
+            slug, d = case_entry(a['key'], cse['title'])
+            if d:
+                L.append(f'- [{d["title"]}]({abs_url(f"/applications/{a["key"]}/{slug}")})（{a["name"]}，推荐 {cse["chip"]}）：{d.get("lead", "")}')
+    g = GLOSSARY.get('terms') or {}
+    if g:
+        L += ['', '## 技术 Wiki', '']
+        for key, d in g.items():
+            L.append(f'- [{d["term"]}]({abs_url(f"/basics/{key}")})：{d.get("short", "")}')
+    posts = load_posts()
+    if posts:
+        L += ['', '## 技术博客', '']
+        for q in posts:
+            L.append(f'- [{q["title"]}]({abs_url(f"/blog/{q["slug"]}")})（{q["date"]}，{q.get("category") or "博客"}）：{q["lead"]}')
+    L += ['', '## 公司', '', f'- [关于昆泰]({abs_url("/about/")})', f'- [联系我们]({abs_url("/contact")})', f'- [磁仿真与技术服务]({abs_url("/services")})', '']
+    open(os.path.join(DOCS, 'public', 'llms.txt'), 'w', encoding='utf-8', newline='\n').write('\n'.join(L))
+    return len(L)
+
+
 def prune_stale():
     """删掉上一轮生成、这一轮不再存在的页面（例如型号拆分后留下的旧文件）。"""
     n = 0
@@ -2047,6 +2115,7 @@ def main():
     render_home()
     render_nav()
     n_xref = autolink_pages()
+    print('llms.txt lines', render_llms())
     print('autolinked', n_xref, 'model/series mentions')
     stale = prune_stale()
     print('rendered', len(PRODUCTS), 'products +', n_models, 'model +', n_cases, 'case pages +', n_terms,

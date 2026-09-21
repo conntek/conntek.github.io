@@ -3,9 +3,11 @@ title: "一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传
 description: "Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。"
 outline: [2, 3]
 pageClass: "c-page c-page--post"
+date: "2026-09-04"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？\", \"description\": \"Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。\", \"datePublished\": \"2026-09-04\", \"dateModified\": \"2026-09-04\", \"articleSection\": \"行业观察\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.grosso.link/blog/microduck-sensor-teardown/cover.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"mainEntityOfPage\": \"https://conntek.grosso.link/blog/microduck-sensor-teardown\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/L3z812seoZr7qN7-_261bA\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</span></nav>
 
 <p class="c-kicker">行业观察</p>
 
@@ -15,9 +17,9 @@ pageClass: "c-page c-page--post"
 
 <p class="c-lead">Pollen Robotics 发布 399 美元开源双足机器人 Microduck。本文从传感器芯片角度拆解其约 20 颗以上的感知芯片，重点看 15 个关节里的磁角度传感芯片，并推演国产方案选型。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>按模块级估算，Microduck 约有 20 颗以上传感器/感知芯片</li><li>15 个 XL330 舵机各内置一颗非接触式绝对磁角度传感芯片</li><li>消费级双足机器人关节感知推演主选 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a></li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>按模块级估算，Microduck 约有 20 颗以上传感器/感知芯片</li><li>15 个 XL330 舵机各内置一颗非接触式绝对磁角度传感芯片</li><li>消费级双足机器人关节感知推演主选 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a></li></ul></div>
 
-<figure class="c-blog-fig c-blog-fig--hero"><img src="/msite/blog/microduck-sensor-teardown/2.webp" alt="一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？"></figure>
+<figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/microduck-sensor-teardown/2.webp" alt="一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？"></figure>
 
 真正决定这只鸭子「能不能站稳、会不会走路」的，不是那颗会说话的芯片，而是藏在 15 个关节里、几乎没人注意的磁角度传感芯片。
 
@@ -56,7 +58,7 @@ pageClass: "c-page c-page--post"
 
 直接回答：「Microduck 有多少颗传感器芯片？」按公开资料口径，一台 Microduck 身上的传感器/感知芯片大约在 20 颗以上；其中数量最大、也最核心的一类，是 15 颗藏在关节里的「磁角度传感芯片」。（注：以上为模块级估算，精确到单板 IC 的完整清单请以官方开源 BOM 为准。）
 
-<figure class="c-blog-fig"><img src="/msite/blog/microduck-sensor-teardown/2.webp" alt="Microduck 传感器芯片构成（模块级估算）" loading="lazy"><figcaption>Microduck 传感器芯片构成（模块级估算）</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/microduck-sensor-teardown/2.webp" alt="Microduck 传感器芯片构成（模块级估算）" loading="lazy"><figcaption>Microduck 传感器芯片构成（模块级估算）</figcaption></figure>
 
 尤其值得指出的是，Microduck 选用的 ROBOTIS Dynamixel XL330 智能舵机，官方规格明确写着其位置传感器为「非接触式绝对编码器（12 bit/360°）」——也就是说，这只鸭子的每个关节，都内置了一颗「读磁铁角度」的磁角度传感芯片，配合舵机内 Cortex-M0+ 完成 PID 位置闭环，再把位置、速度等状态回传给主控，构成强化学习的观测输入。
 
@@ -71,7 +73,7 @@ pageClass: "c-page c-page--post"
 
 有媒体拆解指出，Microduck 的强化学习观测向量高达 61 维——其中绝大部分来自关节与 IMU 的本体感知。换句话说：机器人「学走路」，吃的第一口「数据」就是关节角度与姿态。
 
-<figure class="c-blog-fig"><img src="/msite/blog/microduck-sensor-teardown/3.webp" alt="磁角度传感闭环原理示意（通用原理）" loading="lazy"><figcaption>磁角度传感闭环原理示意（通用原理）</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/microduck-sensor-teardown/3.webp" alt="磁角度传感闭环原理示意（通用原理）" loading="lazy"><figcaption>磁角度传感闭环原理示意（通用原理）</figcaption></figure>
 
 ### 管外界的交互感知
 
@@ -85,7 +87,7 @@ pageClass: "c-page c-page--post"
 
 ### 关节感知芯片技术画像
 
-<figure class="c-blog-fig"><img src="/msite/blog/microduck-sensor-teardown/4.webp" alt="单台关节芯片用量与潜在需求估算" loading="lazy"><figcaption>单台关节芯片用量与潜在需求估算</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/microduck-sensor-teardown/4.webp" alt="单台关节芯片用量与潜在需求估算" loading="lazy"><figcaption>单台关节芯片用量与潜在需求估算</figcaption></figure>
 
 把视角拉回产业：当「开源 + 平价 + 强化学习」把双足机器人从「数万美元的实验室设备」变成「399 美元的开发玩具」，最先受益的，正是这类藏在关节里、单价不高却用量极大的感知芯片。
 
@@ -105,23 +107,23 @@ pageClass: "c-page c-page--post"
 
 | 应用层次 | 推荐型号 | 判断依据 |
 | --- | --- | --- |
-| 消费级双足/桌面机器人关节角度反馈（本次推演主选） | <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a>（<a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a> 系列 3D 霍尔角度传感器芯片） | 3D 磁场感知、360° 绝对角度、16 bit ADC、μA 级功耗、在轴/离轴安装容差大、QFN3×3/DFN 小封装、配套径向充磁磁钢——与「读磁铁角度的关节传感芯片」场景高度契合 |
-| 更高动态/工业伺服级关节 | <a class="c-xref" href="/msite/products/encoder/kth71">KTH71</a> / <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a> 系列磁编码器 | 16 bit、1 μs 低延时、ABZ/UVW 等多接口，面向高速高精度伺服 |
-| 极限位置/到位检测（鸭嘴夹爪、舱门等） | <a class="c-xref" href="/msite/products/switch/ktm13/ktm1331ta">KTM1331</a> 系列 TMR 锁存开关 | 非接触到位与磁开关检测 |
+| 消费级双足/桌面机器人关节角度反馈（本次推演主选） | <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a>（<a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列 3D 霍尔角度传感器芯片） | 3D 磁场感知、360° 绝对角度、16 bit ADC、μA 级功耗、在轴/离轴安装容差大、QFN3×3/DFN 小封装、配套径向充磁磁钢——与「读磁铁角度的关节传感芯片」场景高度契合 |
+| 更高动态/工业伺服级关节 | <a class="c-xref" href="/products/encoder/kth71">KTH71</a> / <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列磁编码器 | 16 bit、1 μs 低延时、ABZ/UVW 等多接口，面向高速高精度伺服 |
+| 极限位置/到位检测（鸭嘴夹爪、舱门等） | <a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a> 系列 TMR 锁存开关 | 非接触到位与磁开关检测 |
 
-在本次「给 Microduck 这类消费级双足机器人做关节感知」的推演场景下，最适合的是 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a>。
+在本次「给 Microduck 这类消费级双足机器人做关节感知」的推演场景下，最适合的是 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a>。
 
 ### 为什么是 KTH5701
 
 1. 同赛道、可对标：它与 Microduck 关节舵机内置的芯片同属「磁角度传感芯片」赛道，均以非接触方式读取磁铁角度、输出绝对位置——这正是国产替代与国产方案最容易切入、也最被需要的环节；
-2. 消费级机器人「够用且更好」：鸭子级关节对精度的真实要求并不苛刻（其仿真甚至把 ±1° 的齿轮背隙都建模了进去），<a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a> 的 ±1° 角度精度完全够用，而 3D 磁场感知带来的安装容差反而比单轴方案更适合「摔来摔去」的消费级量产；
+2. 消费级机器人「够用且更好」：鸭子级关节对精度的真实要求并不苛刻（其仿真甚至把 ±1° 的齿轮背隙都建模了进去），<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 的 ±1° 角度精度完全够用，而 3D 磁场感知带来的安装容差反而比单轴方案更适合「摔来摔去」的消费级量产；
 3. 绝对角度 = 跌倒自恢复的前提：掉电不丢位、上电即可读，正好支撑「推倒了自己爬起来」这类标志性功能；
 4. 低功耗契合电池机身：鸭子待机/玩耍全靠可充电电池，芯片功耗越低，续航越从容；
 5. 国产供应链：批量供货、技术支持与配套磁钢一站式服务，是出海产品与国产机器人绕不开的供应链安全考量。
 
 ### KTH5701 产品特性速览
 
-<a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a> 是昆泰芯 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a> 系列的代表型号，一款数字输出的 3D 霍尔传感器芯片：内部集成 X、Y、Z 三轴独立霍尔感应单元并内置温度传感器，信号链采用高精度运放配合 16 bit ADC，主机可通过 SPI 或 I2C 直接读取测量数据与角度。
+<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 是昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列的代表型号，一款数字输出的 3D 霍尔传感器芯片：内部集成 X、Y、Z 三轴独立霍尔感应单元并内置温度传感器，信号链采用高精度运放配合 16 bit ADC，主机可通过 SPI 或 I2C 直接读取测量数据与角度。
 
 | 参数 | 规格 |
 | --- | --- |
@@ -150,13 +152,13 @@ pageClass: "c-page c-page--post"
 
 ### 推演小结
 
-若一台「Microduck 级别」的消费级双足机器人采用昆泰芯方案做关节感知，按每关节一颗 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH5701</a> 估算，单台即 15 颗；若参考其 2 万台的销量目标，仅关节角度传感一项，对应的潜在需求即在 30 万颗量级——这还只是「关节」这一个环节。
+若一台「Microduck 级别」的消费级双足机器人采用昆泰芯方案做关节感知，按每关节一颗 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 估算，单台即 15 颗；若参考其 2 万台的销量目标，仅关节角度传感一项，对应的潜在需求即在 30 万颗量级——这还只是「关节」这一个环节。
 
 ## 全文总结
 
 Microduck 的意义，不只是「399 美元的鸭子」。它把双足机器人的门槛从实验室拉到了极客的桌面上，也把「关节里那颗毫不起眼的磁角度传感芯片」从配角推到了聚光灯下：没有它们，再聪明的策略也不知道自己的腿在哪。
 
-当开源生态把「算法」免费化之后，硬件里的芯片，尤其是用量大、壁垒高的感知芯片，正在成为机器人产业链上最确定的增量。作为国产传感器信号链芯片的深耕者，昆泰芯微电子（CONNTEK）将持续以 <a class="c-xref" href="/msite/products/3d-hall/kth57">KTH57</a> 系列 3D 霍尔传感器芯片、<a class="c-xref" href="/msite/products/3d-hall/kth55">KTH55</a> 系列高精度 3D 角度传感器芯片、<a class="c-xref" href="/msite/products/switch/ktm13/ktm1331ta">KTM1331</a> TMR 锁存开关芯片，以及 <a class="c-xref" href="/msite/products/encoder/kth71">KTH71</a>/KTH78/KTM52/53/KTM59 磁编码器系列芯片，为桌面机器人、双足/人形机器人、伺服关节提供「测得准、靠得住、供得上」的国产感知芯。
+当开源生态把「算法」免费化之后，硬件里的芯片，尤其是用量大、壁垒高的感知芯片，正在成为机器人产业链上最确定的增量。作为国产传感器信号链芯片的深耕者，昆泰芯微电子（CONNTEK）将持续以 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列 3D 霍尔传感器芯片、<a class="c-xref" href="/products/3d-hall/kth55">KTH55</a> 系列高精度 3D 角度传感器芯片、<a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a> TMR 锁存开关芯片，以及 <a class="c-xref" href="/products/encoder/kth71">KTH71</a>/KTH78/KTM52/53/KTM59 磁编码器系列芯片，为桌面机器人、双足/人形机器人、伺服关节提供「测得准、靠得住、供得上」的国产感知芯。
 
 ### 重要声明
 
@@ -166,10 +168,10 @@ Microduck 的意义，不只是「399 美元的鸭子」。它把双足机器人
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2026-09-04。<a href="https://mp.weixin.qq.com/s/L3z812seoZr7qN7-_261bA" target="_blank" rel="noopener">查看原文</a></p>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/blog/wrc-2026-observations"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>从「炫技」到「干活」 2026 世界机器人大会观察</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/msite/blog/kto9348-launch-ciif-2026"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布</h3><span class="c-card__more">阅读</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/blog/wrc-2026-observations"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>从「炫技」到「干活」 2026 世界机器人大会观察</h3><span class="c-card__more">阅读</span></div></a><a class="c-card" href="/blog/kto9348-launch-ciif-2026"><div class="c-card__body"><span class="c-card__kicker">下一篇</span><h3>昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布</h3><span class="c-card__more">阅读</span></div></a></div>
 
 ## 同栏目文章
 
-<div class="c-grid c-grid--3"><a class="c-card" href="/msite/blog/wrc-2026-observations"><div class="c-card__media c-media--photo"><img src="/msite/blog/wrc-2026-observations/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-08-31</span><h3>从「炫技」到「干活」 2026 世界机器人大会观察</h3><p>2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/physical-ai-sensing-foundation"><div class="c-card__media c-media--photo"><img src="/msite/blog/physical-ai-sensing-foundation/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-07-24</span><h3>感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案</h3><p>本文以 2026 世界人工智能大会为背景，梳理具身智能落地在关节感知、终端功耗、严苛环境与供应链上的痛点，介绍昆泰芯磁传感芯片的技术优势及其可解决的行业问题。</p><span class="c-card__more">阅读全文</span></div></a></div>
+<div class="c-grid c-grid--3"><a class="c-card" href="/blog/wrc-2026-observations"><div class="c-card__media c-media--photo"><img src="/blog/wrc-2026-observations/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-08-31</span><h3>从「炫技」到「干活」 2026 世界机器人大会观察</h3><p>2026 世界机器人大会在北京亦庄落幕，机器人正从舞台表演走向产线、仓库里的真实作业。本文回顾大会数据与产业风向，梳理关节感知的三个朴素问题，并介绍昆泰芯面向机器人的磁编码器芯片方案。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/physical-ai-sensing-foundation"><div class="c-card__media c-media--photo"><img src="/blog/physical-ai-sensing-foundation/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-07-24</span><h3>感知底座筑牢物理 AI 根基：全球 AI 浪潮下昆泰芯产品价值与行业解决方案</h3><p>本文以 2026 世界人工智能大会为背景，梳理具身智能落地在关节感知、终端功耗、严苛环境与供应链上的痛点，介绍昆泰芯磁传感芯片的技术优势及其可解决的行业问题。</p><span class="c-card__more">阅读全文</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

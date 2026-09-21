@@ -3,9 +3,11 @@ title: "昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正
 description: "KTO9348HI 是 KTO 系列的相位阵游标光编芯片：一次扫描 5 条码道，经三通道 Nonius 插值实现最高 25 bit 单圈绝对位置分辨率，将于 2026 中国国际工业博览会正式发布。"
 outline: [2, 3]
 pageClass: "c-page c-page--post"
+date: "2026-09-18"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布\", \"description\": \"KTO9348HI 是 KTO 系列的相位阵游标光编芯片：一次扫描 5 条码道，经三通道 Nonius 插值实现最高 25 bit 单圈绝对位置分辨率，将于 2026 中国国际工业博览会正式发布。\", \"datePublished\": \"2026-09-18\", \"dateModified\": \"2026-09-18\", \"articleSection\": \"新品发布\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.grosso.link/blog/kto9348-launch-ciif-2026/cover.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"mainEntityOfPage\": \"https://conntek.grosso.link/blog/kto9348-launch-ciif-2026\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/N6ezUwoT0D_4lsOcgNrAeg\"}"
 ---
 
-<nav class="c-crumbs"><a href="/msite/">首页</a><i>/</i><a href="/msite/blog/">博客</a><i>/</i><span>昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布</span></nav>
 
 <p class="c-kicker">新品发布</p>
 
@@ -15,9 +17,9 @@ pageClass: "c-page c-page--post"
 
 <p class="c-lead">KTO9348HI 是 KTO 系列的相位阵游标光编芯片：一次扫描 5 条码道，经三通道 Nonius 插值实现最高 25 bit 单圈绝对位置分辨率，将于 2026 中国国际工业博览会正式发布。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>相位阵列求和输出，放宽对准容差并保持信号保真度</li><li>M/N/S 三条模拟码道周期错开，游标差拍得到 25 bit 单圈绝对位置</li><li>与 <a class="c-xref" href="/msite/products/encoder/ktm58">KTM5801</a> 信号调理芯片组合，构成完整信号链</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>相位阵列求和输出，放宽对准容差并保持信号保真度</li><li>M/N/S 三条模拟码道周期错开，游标差拍得到 25 bit 单圈绝对位置</li><li>与 <a class="c-xref" href="/products/encoder/ktm58">KTM5801</a> 信号调理芯片组合，构成完整信号链</li></ul></div>
 
-<figure class="c-blog-fig c-blog-fig--hero"><img src="/msite/blog/kto9348-launch-ciif-2026/2.webp" alt="昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布"></figure>
+<figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kto9348-launch-ciif-2026/2.webp" alt="昆泰芯 KTO9348 光编芯片将在 2026 中国国际工业博览会正式发布"></figure>
 
 在高端伺服与绝对位置编码器领域，精度每往上走一步，难度都是成倍的。
 
@@ -33,7 +35,7 @@ pageClass: "c-page c-page--post"
 
 精密转台、机床主轴、测角设备对单圈分辨力的要求，正在向 20 bit 以上区间推进。25 bit 意味着把一圈分成 33,554,432 份——这个量级上，光电方案在信号保真度上的优势被充分放大，也是高端绝对式编码器长期选择光学路线的原因。
 
-值得一提的是，这并不意味着「光」要取代「磁」。昆泰芯此前已用 <a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 AMR（21 bit）、<a class="c-xref" href="/msite/products/encoder/ktm59">KTM59</a> TMR（24 bit）覆盖了磁编码器芯片的高精度区间；KTO9348HI 的加入，让昆泰芯形成「磁 + 光」双技术路线——客户按精度要求、安装空间与现场环境，自由选型。
+值得一提的是，这并不意味着「光」要取代「磁」。昆泰芯此前已用 <a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53 AMR（21 bit）、<a class="c-xref" href="/products/encoder/ktm59">KTM59</a> TMR（24 bit）覆盖了磁编码器芯片的高精度区间；KTO9348HI 的加入，让昆泰芯形成「磁 + 光」双技术路线——客户按精度要求、安装空间与现场环境，自由选型。
 
 ### 相位阵列化解对准难题
 
@@ -54,7 +56,7 @@ KTO9348HI 单片集成 3 通道相位阵列，可同时扫描 5 条轨道：
 
 三条模拟码道的周期数被刻意错开——M 码道 2×1024 CPR、N 码道 2×1023 CPR、S 码道 2×992 CPR——利用 Nonius（游标）差拍原理，把三种不同刻线的相位信息组合成一把「绝对标尺」，从而实现 25 bit 单圈绝对分辨。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kto9348-launch-ciif-2026/2.webp" alt="KTO9348HI 感光区域与五轨扫描结构示意" loading="lazy"><figcaption>KTO9348HI 感光区域与五轨扫描结构示意</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kto9348-launch-ciif-2026/2.webp" alt="KTO9348HI 感光区域与五轨扫描结构示意" loading="lazy"><figcaption>KTO9348HI 感光区域与五轨扫描结构示意</figcaption></figure>
 
 配套码盘的规格同样清晰：适配直径 33 mm（33.2 mm）的光栅码盘，2048 刻线游标；光半径 14.5 mm，码盘有效半径区间 13.06 ~ 15.94 mm；每主信号周期内允许的最大轨间信号相位偏差仅 ±4.9°（电角度）——这个「宽松」的数字，正是相位阵列带来的装配红利。
 
@@ -107,9 +109,9 @@ KTO9348HI 单片集成 3 通道相位阵列，可同时扫描 5 条轨道：
 
 - 32-pin optoQFN 封装，本体尺寸仅 5.00 mm × 5.00 mm、高度约 0.90 mm，引脚间距 0.50 mm，便于小型化设计；
 - 支持评估板与码盘采样；
-- 典型应用电路中，KTO9348HI 与 <a class="c-xref" href="/msite/products/encoder/ktm58">KTM5801</a> 信号调理芯片（双 16 bit SAR ADC、CORDIC 与校准引擎、SPI 输出）组合，构成从光信号采集到角度解算的完整信号链，可直接对接 MCU 或伺服驱动器。
+- 典型应用电路中，KTO9348HI 与 <a class="c-xref" href="/products/encoder/ktm58">KTM5801</a> 信号调理芯片（双 16 bit SAR ADC、CORDIC 与校准引擎、SPI 输出）组合，构成从光信号采集到角度解算的完整信号链，可直接对接 MCU 或伺服驱动器。
 
-<figure class="c-blog-fig"><img src="/msite/blog/kto9348-launch-ciif-2026/3.webp" alt="KTO9348HI 与 KTM5801 信号链" loading="lazy"><figcaption>KTO9348HI 与 <a class="c-xref" href="/msite/products/encoder/ktm58">KTM5801</a> 信号链</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kto9348-launch-ciif-2026/3.webp" alt="KTO9348HI 与 KTM5801 信号链" loading="lazy"><figcaption>KTO9348HI 与 <a class="c-xref" href="/products/encoder/ktm58">KTM5801</a> 信号链</figcaption></figure>
 
 ## 关键参数与典型应用
 
@@ -160,10 +162,10 @@ KTO9348HI 将于 2026 中国国际工业博览会正式发布。
 
 昆泰芯微电子将携 KTO9348HI 相位阵游标编码器芯片及全系列传感芯片亮相：
 
-- <a class="c-xref" href="/msite/products/encoder/kto95">KTO95</a>/93 系列：基于光编码器芯片 KTO9348HI 的光编模组 DEMO
-- <a class="c-xref" href="/msite/products/encoder/kth78">KTH78</a>/71 系列：基于 <a class="c-xref" href="/msite/products/encoder/kth71/kth7111-qn16">KTH7111</a> 的关节模组 DEMO
-- <a class="c-xref" href="/msite/products/encoder/ktm52">KTM52</a>/53 系列：基于 <a class="c-xref" href="/msite/products/encoder/ktm52">KTM5220</a> 的伺服电机 DEMO
-- <a class="c-xref" href="/msite/products/encoder/ktm58">KTM58</a>/59 系列：基于 58/59 系列的一键自校准 DEMO
+- <a class="c-xref" href="/products/encoder/kto95">KTO95</a>/93 系列：基于光编码器芯片 KTO9348HI 的光编模组 DEMO
+- <a class="c-xref" href="/products/encoder/kth78">KTH78</a>/71 系列：基于 <a class="c-xref" href="/products/encoder/kth71/kth7111-qn16">KTH7111</a> 的关节模组 DEMO
+- <a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53 系列：基于 <a class="c-xref" href="/products/encoder/ktm52">KTM5220</a> 的伺服电机 DEMO
+- <a class="c-xref" href="/products/encoder/ktm58">KTM58</a>/59 系列：基于 58/59 系列的一键自校准 DEMO
 - KTH63 系列：基于 KTH63 系列组合开关，工业摇杆的展示
 
 - 时间：2026 年 10 月 12 日 ~ 16 日
@@ -172,10 +174,10 @@ KTO9348HI 将于 2026 中国国际工业博览会正式发布。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2026-09-18。<a href="https://mp.weixin.qq.com/s/N6ezUwoT0D_4lsOcgNrAeg" target="_blank" rel="noopener">查看原文</a></p>
 
-<div class="c-grid c-grid--2"><a class="c-card" href="/msite/blog/microduck-sensor-teardown"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><span class="c-card__more">阅读</span></div></a></div>
+<div class="c-grid c-grid--2"><a class="c-card" href="/blog/microduck-sensor-teardown"><div class="c-card__body"><span class="c-card__kicker">上一篇</span><h3>一只 399 美元的「机器鸭」Microduck， 身上藏着多少颗传感器芯片？</h3><span class="c-card__more">阅读</span></div></a></div>
 
 ## 同栏目文章
 
-<div class="c-grid c-grid--3"><a class="c-card" href="/msite/blog/kth7113-launch-dexterous-hand"><div class="c-card__media c-media--photo"><img src="/msite/blog/kth7113-launch-dexterous-hand/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-08-14</span><h3>2×2 塞进指尖！昆泰芯 KTH7113 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题</h3><p>昆泰芯发布超小封装 16 位磁编芯片 KTH7113：2×2 mm 封装可嵌入灵巧手指节，支持三线/四线 SPI 多芯片并联，以 16 位绝对角度与 1 μs 延时应对灵巧手关节感知难题。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/ktm52-53-amr-launch"><div class="c-card__media c-media--photo"><img src="/msite/blog/ktm52-53-amr-launch/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-05-18</span><h3>昆泰芯重磅新品｜KTM52/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！</h3><p>昆泰芯同步推出 KTM52（在轴）与 KTM53（离轴）两大系列 AMR 角度编码器，共用 21 位内核，自校准后在轴 INL ±0.015°、离轴 ±0.03°，适配电机、机器人关节与 EPS。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/msite/blog/kth78-launch-wing-servo"><div class="c-card__media c-media--photo"><img src="/msite/img/tt/15.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2023-08-16</span><h3>KTH78 系列高精度绝对角度霍尔编码器实现机翼伺服系统</h3><p>传统光电编码器易受灰尘和水汽影响。本文介绍 KTH78 系列高精度绝对角度霍尔传感器在无人机机翼伺服系统中的应用，涵盖超高速低延时、离轴安装、稳定性与抗干扰、多种输出模式，并给出按需求选型的建议。</p><span class="c-card__more">阅读全文</span></div></a></div>
+<div class="c-grid c-grid--3"><a class="c-card" href="/blog/kth7113-launch-dexterous-hand"><div class="c-card__media c-media--photo"><img src="/blog/kth7113-launch-dexterous-hand/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-08-14</span><h3>2×2 塞进指尖！昆泰芯 KTH7113 超小封装 16 位磁编芯片新品发布，破解灵巧手「多关节并联」终极难题</h3><p>昆泰芯发布超小封装 16 位磁编芯片 KTH7113：2×2 mm 封装可嵌入灵巧手指节，支持三线/四线 SPI 多芯片并联，以 16 位绝对角度与 1 μs 延时应对灵巧手关节感知难题。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/ktm52-53-amr-launch"><div class="c-card__media c-media--photo"><img src="/blog/ktm52-53-amr-launch/cover.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2026-05-18</span><h3>昆泰芯重磅新品｜KTM52/53 系列高速高精度 AMR 磁编芯片，精度不妥协，安装不将就！</h3><p>昆泰芯同步推出 KTM52（在轴）与 KTM53（离轴）两大系列 AMR 角度编码器，共用 21 位内核，自校准后在轴 INL ±0.015°、离轴 ±0.03°，适配电机、机器人关节与 EPS。</p><span class="c-card__more">阅读全文</span></div></a><a class="c-card" href="/blog/kth78-launch-wing-servo"><div class="c-card__media c-media--photo"><img src="/img/tt/15.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2023-08-16</span><h3>KTH78 系列高精度绝对角度霍尔编码器实现机翼伺服系统</h3><p>传统光电编码器易受灰尘和水汽影响。本文介绍 KTH78 系列高精度绝对角度霍尔传感器在无人机机翼伺服系统中的应用，涵盖超高速低延时、离轴安装、稳定性与抗干扰、多种输出模式，并给出按需求选型的建议。</p><span class="c-card__more">阅读全文</span></div></a></div>
 
-<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/msite/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+<div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

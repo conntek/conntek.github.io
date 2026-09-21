@@ -47,6 +47,8 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: `${base}img/logo-nav-light.png` }],
     ['meta', { name: 'theme-color', content: '#c30d23' }],
+    // Google Search Console 网址前缀 https://conntek.github.io/ 的所有权验证（与 public/google354e7d89b86db777.html 二选一即可，两个都留）
+    ['meta', { name: 'google-site-verification', content: 'lDieCfUA_J9D-j9E_WxXkPUdIf_PL10Z9RHEKfFZ0kY' }],
     ['meta', { name: 'keywords', content: '昆泰芯,CONNTEK,磁编码器芯片,霍尔传感器,3D霍尔,TMR磁开关,AMR编码器,绝对角度编码器,磁传感器芯片,KTH78,KTM59,KTH57' }],
     ['link', { rel: 'alternate', type: 'text/plain', title: 'llms.txt', href: `${base}llms.txt` }],
     // 全站：公司与站点的结构化数据

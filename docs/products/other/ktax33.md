@@ -3,7 +3,7 @@ title: "KTAx333 系列 零温漂高精度运放"
 description: "自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTAx333 系列 零温漂高精度运放\", \"description\": \"自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出\", \"category\": \"其他芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktax33.webp\", \"url\": \"https://conntek.grosso.link/products/other/ktax33\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTAx333 系列 零温漂高精度运放\", \"description\": \"自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出\", \"category\": \"其他芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktax33.webp\", \"url\": \"https://conntek.github.io/products/other/ktax33\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/other/">其他芯片</a><i>/</i><span>KTAx333 系列</span></nav>

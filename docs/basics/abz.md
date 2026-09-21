@@ -3,7 +3,7 @@ title: "ABZ 增量输出 · 技术 Wiki"
 description: "A、B 两路正交方波，加每圈一个 Z 索引脉冲"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"ABZ 增量输出\", \"description\": \"A、B 两路正交方波，加每圈一个 Z 索引脉冲\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/abz\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"ABZ 增量输出\", \"description\": \"A、B 两路正交方波，加每圈一个 Z 索引脉冲\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/abz\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>ABZ 增量输出</span></nav>

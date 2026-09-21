@@ -3,7 +3,7 @@ title: "齿轮箱 · 工业4.0应用"
 description: "测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"齿轮箱：工业4.0应用方案\", \"description\": \"测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。\", \"about\": \"齿轮箱\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/gearbox\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"齿轮箱：工业4.0应用方案\", \"description\": \"测量减速齿轮箱输入轴或输出轴的转角，用于位置闭环与传动状态监测。\", \"about\": \"齿轮箱\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/industry4/gearbox\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>齿轮箱</span></nav>

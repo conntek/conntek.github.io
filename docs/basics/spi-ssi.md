@@ -3,7 +3,7 @@ title: "SPI / SSI 串行绝对值接口 · 技术 Wiki"
 description: "主控按时钟读走绝对角度的两种同步串行方式"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"SPI / SSI 串行绝对值接口\", \"description\": \"主控按时钟读走绝对角度的两种同步串行方式\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/spi-ssi\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"SPI / SSI 串行绝对值接口\", \"description\": \"主控按时钟读走绝对角度的两种同步串行方式\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/spi-ssi\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>SPI / SSI 串行绝对值接口</span></nav>

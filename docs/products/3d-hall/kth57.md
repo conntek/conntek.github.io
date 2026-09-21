@@ -3,7 +3,7 @@ title: "KTH57 系列 三轴线性霍尔传感器"
 description: "测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH57 系列 三轴线性霍尔传感器\", \"description\": \"测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗\", \"category\": \"3D霍尔芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/kth57.webp\", \"url\": \"https://conntek.grosso.link/products/3d-hall/kth57\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH57 系列 三轴线性霍尔传感器\", \"description\": \"测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗\", \"category\": \"3D霍尔芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/kth57.webp\", \"url\": \"https://conntek.github.io/products/3d-hall/kth57\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/3d-hall/">3D霍尔芯片</a><i>/</i><span>KTH57 系列</span></nav>

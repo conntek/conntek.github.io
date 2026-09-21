@@ -3,7 +3,7 @@ title: "KTM28 系列 AMR 高压气缸开关"
 description: "SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM28 系列 AMR 高压气缸开关\", \"description\": \"SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm28.webp\", \"url\": \"https://conntek.grosso.link/products/switch/ktm28\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM28 系列 AMR 高压气缸开关\", \"description\": \"SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktm28.webp\", \"url\": \"https://conntek.github.io/products/switch/ktm28\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTM28 系列</span></nav>

@@ -3,7 +3,7 @@ title: "自校准 / Self-calibration · 技术 Wiki"
 description: "器件在实装状态下测量并补偿角度非线性误差"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"自校准 / Self-calibration\", \"description\": \"器件在实装状态下测量并补偿角度非线性误差\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/self-calibration\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"自校准 / Self-calibration\", \"description\": \"器件在实装状态下测量并补偿角度非线性误差\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/self-calibration\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>自校准 / Self-calibration</span></nav>

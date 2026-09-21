@@ -3,7 +3,7 @@ title: "KTO95 系列 游标绝对值光学编码器"
 description: "集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTO95 系列 游标绝对值光学编码器\", \"description\": \"集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/kto95.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/kto95\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTO95 系列 游标绝对值光学编码器\", \"description\": \"集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/kto95.webp\", \"url\": \"https://conntek.github.io/products/encoder/kto95\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTO95 系列</span></nav>

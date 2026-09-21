@@ -3,7 +3,7 @@ title: "电子棋盘 · 消费类电子应用"
 description: "逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"电子棋盘：消费类电子应用方案\", \"description\": \"逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。\", \"about\": \"电子棋盘\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/consumer-electronics/e-chessboard\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"电子棋盘：消费类电子应用方案\", \"description\": \"逐格检测棋子有无，把棋盘上的落子位置变成可读的数字信号。\", \"about\": \"电子棋盘\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/consumer-electronics/e-chessboard\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/consumer-electronics">消费类电子</a><i>/</i><span>电子棋盘</span></nav>

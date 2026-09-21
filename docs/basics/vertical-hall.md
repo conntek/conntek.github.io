@@ -3,7 +3,7 @@ title: "垂直霍尔 / Vertical Hall · 技术 Wiki"
 description: "敏感方向落在芯片平面内的霍尔结构"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"垂直霍尔 / Vertical Hall\", \"description\": \"敏感方向落在芯片平面内的霍尔结构\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/vertical-hall\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"垂直霍尔 / Vertical Hall\", \"description\": \"敏感方向落在芯片平面内的霍尔结构\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/vertical-hall\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>垂直霍尔 / Vertical Hall</span></nav>

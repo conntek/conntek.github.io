@@ -3,7 +3,7 @@ title: "洗衣机 · 消费类电子应用"
 description: "检测程序旋钮的旋转角度与门盖的开合位置。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"洗衣机：消费类电子应用方案\", \"description\": \"检测程序旋钮的旋转角度与门盖的开合位置。\", \"about\": \"洗衣机\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/consumer-electronics/washing-machine\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"洗衣机：消费类电子应用方案\", \"description\": \"检测程序旋钮的旋转角度与门盖的开合位置。\", \"about\": \"洗衣机\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/consumer-electronics/washing-machine\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/consumer-electronics">消费类电子</a><i>/</i><span>洗衣机</span></nav>

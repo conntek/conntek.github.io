@@ -3,7 +3,7 @@ title: "轮椅摇杆 · 消费类电子应用"
 description: "把摇杆的两轴倾角转成连续的速度与方向指令。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"轮椅摇杆：消费类电子应用方案\", \"description\": \"把摇杆的两轴倾角转成连续的速度与方向指令。\", \"about\": \"轮椅摇杆\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/consumer-electronics/wheelchair-joystick\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"轮椅摇杆：消费类电子应用方案\", \"description\": \"把摇杆的两轴倾角转成连续的速度与方向指令。\", \"about\": \"轮椅摇杆\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/consumer-electronics/wheelchair-joystick\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/consumer-electronics">消费类电子</a><i>/</i><span>轮椅摇杆</span></nav>

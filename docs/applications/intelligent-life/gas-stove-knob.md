@@ -3,7 +3,7 @@ title: "燃气灶-旋钮 · 智能生活应用"
 description: "检测火力旋钮的转动角度，面板不开孔即可读出档位。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"燃气灶-旋钮：智能生活应用方案\", \"description\": \"检测火力旋钮的转动角度，面板不开孔即可读出档位。\", \"about\": \"燃气灶-旋钮\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-life/gas-stove-knob\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"燃气灶-旋钮：智能生活应用方案\", \"description\": \"检测火力旋钮的转动角度，面板不开孔即可读出档位。\", \"about\": \"燃气灶-旋钮\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/intelligent-life/gas-stove-knob\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-life">智能生活</a><i>/</i><span>燃气灶-旋钮</span></nav>

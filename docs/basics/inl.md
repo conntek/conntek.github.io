@@ -3,7 +3,7 @@ title: "INL / 积分非线性 · 技术 Wiki"
 description: "输出角度对真实角度的最大偏差，即角度准确度"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"INL / 积分非线性\", \"description\": \"输出角度对真实角度的最大偏差，即角度准确度\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/inl\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"INL / 积分非线性\", \"description\": \"输出角度对真实角度的最大偏差，即角度准确度\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/inl\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>INL / 积分非线性</span></nav>

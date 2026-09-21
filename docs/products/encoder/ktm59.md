@@ -3,7 +3,7 @@ title: "KTM59 系列 高速 TMR 磁编码器"
 description: "双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM59 系列 高速 TMR 磁编码器\", \"description\": \"双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm59.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/ktm59\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM59 系列 高速 TMR 磁编码器\", \"description\": \"双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktm59.webp\", \"url\": \"https://conntek.github.io/products/encoder/ktm59\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTM59 系列</span></nav>

@@ -3,7 +3,7 @@ title: "KTM58 系列 30 bit 绝对角度细分器"
 description: "最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM58 系列 30 bit 绝对角度细分器\", \"description\": \"最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm58.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/ktm58\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM58 系列 30 bit 绝对角度细分器\", \"description\": \"最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktm58.webp\", \"url\": \"https://conntek.github.io/products/encoder/ktm58\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTM58 系列</span></nav>

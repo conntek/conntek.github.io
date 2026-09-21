@@ -3,7 +3,7 @@ title: "延时与动态误差 / Latency · 技术 Wiki"
 description: "磁场变化到角度输出之间的时间，转速越高，它造成的角度滞后越大"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"延时与动态误差 / Latency\", \"description\": \"磁场变化到角度输出之间的时间，转速越高，它造成的角度滞后越大\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/latency\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"延时与动态误差 / Latency\", \"description\": \"磁场变化到角度输出之间的时间，转速越高，它造成的角度滞后越大\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/latency\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>延时与动态误差 / Latency</span></nav>

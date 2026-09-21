@@ -3,7 +3,7 @@ title: "角度噪声 / Angle noise · 技术 Wiki"
 description: "静止时角度读数的随机起伏，通常以 1σ（均方根）表示"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"角度噪声 / Angle noise\", \"description\": \"静止时角度读数的随机起伏，通常以 1σ（均方根）表示\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/noise\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"角度噪声 / Angle noise\", \"description\": \"静止时角度读数的随机起伏，通常以 1σ（均方根）表示\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/noise\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>角度噪声 / Angle noise</span></nav>

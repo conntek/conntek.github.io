@@ -1,5 +1,5 @@
 # 昆泰芯微电子 CONNTEK 官网：欢迎所有搜索引擎与 AI 爬虫收录
-# AI 可读的站点摘要：https://conntek.grosso.link/llms.txt
+# AI 可读的站点摘要：https://conntek.github.io/llms.txt
 
 User-agent: *
 Allow: /
@@ -60,4 +60,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://conntek.grosso.link/sitemap.xml
+Sitemap: https://conntek.github.io/sitemap.xml

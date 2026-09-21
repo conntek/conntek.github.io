@@ -1,10 +1,10 @@
 import { defineConfig } from 'vitepress'
 import data from './sidebar.json'
 
-// 正式地址为 https://conntek.grosso.link/（GitHub Pages 自定义域名，站点在根路径）；改部署路径时同时设置 SITE_BASE 重新跑 scripts/render.py
+// 正式地址为 https://conntek.github.io/（仓库 conntek/conntek.github.io，组织主页站点，发布在根路径）；改部署路径时同时设置 SITE_BASE 重新跑 scripts/render.py
 const base = process.env.SITE_BASE ?? '/'
 
-const site = 'https://conntek.grosso.link'
+const site = 'https://conntek.github.io'
 // 标题后缀：正式上线时改为空串（render.py 里 SITE_TAG 同步改）
 const siteTag = process.env.SITE_TAG ?? ' (dev site)'
 

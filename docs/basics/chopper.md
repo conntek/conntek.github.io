@@ -3,7 +3,7 @@ title: "斩波与旋转电流 / Chopper · 技术 Wiki"
 description: "周期性切换激励或信号极性，把失调与低频漂移从信号里分离出去"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"斩波与旋转电流 / Chopper\", \"description\": \"周期性切换激励或信号极性，把失调与低频漂移从信号里分离出去\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/chopper\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"斩波与旋转电流 / Chopper\", \"description\": \"周期性切换激励或信号极性，把失调与低频漂移从信号里分离出去\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/chopper\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>斩波与旋转电流 / Chopper</span></nav>

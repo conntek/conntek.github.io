@@ -3,7 +3,7 @@ title: "KTM13 系列 TMR 磁阻开关"
 description: "TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM13 系列 TMR 磁阻开关\", \"description\": \"TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm13.webp\", \"url\": \"https://conntek.grosso.link/products/switch/ktm13\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM13 系列 TMR 磁阻开关\", \"description\": \"TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktm13.webp\", \"url\": \"https://conntek.github.io/products/switch/ktm13\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTM13 系列</span></nav>

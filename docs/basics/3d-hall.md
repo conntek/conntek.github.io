@@ -3,7 +3,7 @@ title: "三轴霍尔 / 3D Hall · 技术 Wiki"
 description: "一颗芯片同时测 X、Y、Z 三个方向的磁场分量"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"三轴霍尔 / 3D Hall\", \"description\": \"一颗芯片同时测 X、Y、Z 三个方向的磁场分量\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/3d-hall\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"三轴霍尔 / 3D Hall\", \"description\": \"一颗芯片同时测 X、Y、Z 三个方向的磁场分量\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/3d-hall\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>三轴霍尔 / 3D Hall</span></nav>

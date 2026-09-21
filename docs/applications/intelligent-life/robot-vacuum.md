@@ -3,7 +3,7 @@ title: "扫地机器人-真空吸尘器 · 智能生活应用"
 description: "检测拖布、滚刷等可换模块的安装位置与抬升行程。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"扫地机器人-真空吸尘器：智能生活应用方案\", \"description\": \"检测拖布、滚刷等可换模块的安装位置与抬升行程。\", \"about\": \"扫地机器人-真空吸尘器\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-life/robot-vacuum\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"扫地机器人-真空吸尘器：智能生活应用方案\", \"description\": \"检测拖布、滚刷等可换模块的安装位置与抬升行程。\", \"about\": \"扫地机器人-真空吸尘器\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/intelligent-life/robot-vacuum\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-life">智能生活</a><i>/</i><span>扫地机器人-真空吸尘器</span></nav>

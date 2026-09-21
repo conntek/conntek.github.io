@@ -3,7 +3,7 @@ title: "AMR / 各向异性磁阻 · 技术 Wiki"
 description: "电阻随磁化方向与电流夹角变化，工作在饱和区"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"AMR / 各向异性磁阻\", \"description\": \"电阻随磁化方向与电流夹角变化，工作在饱和区\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/amr\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"AMR / 各向异性磁阻\", \"description\": \"电阻随磁化方向与电流夹角变化，工作在饱和区\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/amr\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>AMR / 各向异性磁阻</span></nav>

@@ -3,7 +3,7 @@ title: "无刷直流电机 · 工业4.0应用"
 description: "读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"无刷直流电机：工业4.0应用方案\", \"description\": \"读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。\", \"about\": \"无刷直流电机\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/bldc-motor\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"无刷直流电机：工业4.0应用方案\", \"description\": \"读取无刷电机转子的绝对角度，用于换相与磁场定向控制，覆盖电动工具等大电流工况。\", \"about\": \"无刷直流电机\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/industry4/bldc-motor\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>无刷直流电机</span></nav>

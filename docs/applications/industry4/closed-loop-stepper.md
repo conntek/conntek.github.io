@@ -3,7 +3,7 @@ title: "步进闭环 · 工业4.0应用"
 description: "在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"步进闭环：工业4.0应用方案\", \"description\": \"在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。\", \"about\": \"步进闭环\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/closed-loop-stepper\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"步进闭环：工业4.0应用方案\", \"description\": \"在步进电机尾端读取转子绝对角度，实时发现失步并闭环修正，兼顾定位与发热。\", \"about\": \"步进闭环\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/industry4/closed-loop-stepper\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>步进闭环</span></nav>

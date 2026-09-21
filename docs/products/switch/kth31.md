@@ -3,7 +3,7 @@ title: "KTH31 系列 比例式线性霍尔传感器"
 description: "按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH31 系列 比例式线性霍尔传感器\", \"description\": \"按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/kth31.webp\", \"url\": \"https://conntek.grosso.link/products/switch/kth31\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH31 系列 比例式线性霍尔传感器\", \"description\": \"按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/kth31.webp\", \"url\": \"https://conntek.github.io/products/switch/kth31\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTH31 系列</span></nav>

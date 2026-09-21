@@ -3,7 +3,7 @@ title: "电子节气门 · 智能交通应用"
 description: "检测节气门阀片的开度角度，供发动机控制单元闭环使用。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"电子节气门：智能交通应用方案\", \"description\": \"检测节气门阀片的开度角度，供发动机控制单元闭环使用。\", \"about\": \"电子节气门\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/intelligent-transportation/e-throttle\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"电子节气门：智能交通应用方案\", \"description\": \"检测节气门阀片的开度角度，供发动机控制单元闭环使用。\", \"about\": \"电子节气门\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/intelligent-transportation/e-throttle\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/intelligent-transportation">智能交通</a><i>/</i><span>电子节气门</span></nav>

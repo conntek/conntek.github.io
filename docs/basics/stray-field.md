@@ -3,7 +3,7 @@ title: "杂散场 / Stray field · 技术 Wiki"
 description: "靶磁铁以外叠加到芯片上的磁场，会改变合成磁场方向"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"杂散场 / Stray field\", \"description\": \"靶磁铁以外叠加到芯片上的磁场，会改变合成磁场方向\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/stray-field\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"杂散场 / Stray field\", \"description\": \"靶磁铁以外叠加到芯片上的磁场，会改变合成磁场方向\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/stray-field\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>杂散场 / Stray field</span></nav>

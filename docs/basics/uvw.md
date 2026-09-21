@@ -3,7 +3,7 @@ title: "UVW 换向输出 · 技术 Wiki"
 description: "三路互差 120° 电角度的方波，供电机换向定扇区"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"UVW 换向输出\", \"description\": \"三路互差 120° 电角度的方波，供电机换向定扇区\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/uvw\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"UVW 换向输出\", \"description\": \"三路互差 120° 电角度的方波，供电机换向定扇区\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/uvw\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>UVW 换向输出</span></nav>

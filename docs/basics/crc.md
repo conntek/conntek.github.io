@@ -3,7 +3,7 @@ title: "CRC 帧校验 · 技术 Wiki"
 description: "附在数据帧末尾的校验位，用来发现传输中出错的帧"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"CRC 帧校验\", \"description\": \"附在数据帧末尾的校验位，用来发现传输中出错的帧\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/crc\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"CRC 帧校验\", \"description\": \"附在数据帧末尾的校验位，用来发现传输中出错的帧\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/crc\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>CRC 帧校验</span></nav>

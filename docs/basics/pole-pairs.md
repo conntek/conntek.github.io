@@ -3,7 +3,7 @@ title: "对极数 / Pole pairs · 技术 Wiki"
 description: "磁环沿圆周的 N-S 磁极对数，一对极为一个信号周期"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"对极数 / Pole pairs\", \"description\": \"磁环沿圆周的 N-S 磁极对数，一对极为一个信号周期\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/pole-pairs\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"对极数 / Pole pairs\", \"description\": \"磁环沿圆周的 N-S 磁极对数，一对极为一个信号周期\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/pole-pairs\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>对极数 / Pole pairs</span></nav>

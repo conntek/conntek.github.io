@@ -3,7 +3,7 @@ title: "磁旋钮系列 隔空角度检测磁旋钮"
 description: "磁-电分离设计，隔空角度检测，防水防尘 IP67，模块化即插即用"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"磁旋钮系列 隔空角度检测磁旋钮\", \"description\": \"磁-电分离设计，隔空角度检测，防水防尘 IP67，模块化即插即用\", \"category\": \"旋钮系列\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/knob.webp\", \"url\": \"https://conntek.grosso.link/products/knob/knob\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"磁旋钮系列 隔空角度检测磁旋钮\", \"description\": \"磁-电分离设计，隔空角度检测，防水防尘 IP67，模块化即插即用\", \"category\": \"旋钮系列\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/knob.webp\", \"url\": \"https://conntek.github.io/products/knob/knob\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/knob/">旋钮系列</a><i>/</i><span>磁旋钮系列</span></nav>

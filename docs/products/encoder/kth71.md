@@ -3,7 +3,7 @@ title: "KTH71 系列 自校准霍尔磁编码器"
 description: "内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH71 系列 自校准霍尔磁编码器\", \"description\": \"内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/kth71.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/kth71\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH71 系列 自校准霍尔磁编码器\", \"description\": \"内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/kth71.webp\", \"url\": \"https://conntek.github.io/products/encoder/kth71\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTH71 系列</span></nav>

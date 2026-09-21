@@ -3,7 +3,7 @@ title: "KTH564 系列 线性霍尔芯片"
 description: "零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH564 系列 线性霍尔芯片\", \"description\": \"零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/linear-hall.webp\", \"url\": \"https://conntek.grosso.link/products/switch/linear-hall\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH564 系列 线性霍尔芯片\", \"description\": \"零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/linear-hall.webp\", \"url\": \"https://conntek.github.io/products/switch/linear-hall\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTH564 系列</span></nav>

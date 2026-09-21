@@ -3,7 +3,7 @@ title: "单极型 / 全极型 · 技术 Wiki"
 description: "按触发磁极区分：单极只认一个极，全极两极都认"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"单极型 / 全极型\", \"description\": \"按触发磁极区分：单极只认一个极，全极两极都认\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/unipolar-omnipolar\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"单极型 / 全极型\", \"description\": \"按触发磁极区分：单极只认一个极，全极两极都认\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/unipolar-omnipolar\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>单极型 / 全极型</span></nav>

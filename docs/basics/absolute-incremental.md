@@ -3,7 +3,7 @@ title: "绝对值输出 / 增量输出 · 技术 Wiki"
 description: "绝对值上电即知当前角度，增量只给出位移量"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"绝对值输出 / 增量输出\", \"description\": \"绝对值上电即知当前角度，增量只给出位移量\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/absolute-incremental\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"绝对值输出 / 增量输出\", \"description\": \"绝对值上电即知当前角度，增量只给出位移量\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/absolute-incremental\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>绝对值输出 / 增量输出</span></nav>

@@ -3,7 +3,7 @@ title: "在轴 / In-axis · 技术 Wiki"
 description: "磁铁装在轴端，芯片感应中心与转轴同心"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"在轴 / In-axis\", \"description\": \"磁铁装在轴端，芯片感应中心与转轴同心\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/in-axis\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"在轴 / In-axis\", \"description\": \"磁铁装在轴端，芯片感应中心与转轴同心\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/in-axis\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>在轴 / In-axis</span></nav>

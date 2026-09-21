@@ -3,7 +3,7 @@ title: "游标 / Vernier（Nonius） · 技术 Wiki"
 description: "用两条周期数不同的码道拼出高分辨率的单圈绝对位置"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"游标 / Vernier（Nonius）\", \"description\": \"用两条周期数不同的码道拼出高分辨率的单圈绝对位置\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/vernier\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"游标 / Vernier（Nonius）\", \"description\": \"用两条周期数不同的码道拼出高分辨率的单圈绝对位置\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/vernier\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>游标 / Vernier（Nonius）</span></nav>

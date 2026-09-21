@@ -3,7 +3,7 @@ title: "I2C 总线 · 技术 Wiki"
 description: "两线制（时钟 + 数据）的多器件总线，适合低速读写传感器数据与配置"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"I2C 总线\", \"description\": \"两线制（时钟 + 数据）的多器件总线，适合低速读写传感器数据与配置\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/i2c\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"I2C 总线\", \"description\": \"两线制（时钟 + 数据）的多器件总线，适合低速读写传感器数据与配置\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/i2c\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>I2C 总线</span></nav>

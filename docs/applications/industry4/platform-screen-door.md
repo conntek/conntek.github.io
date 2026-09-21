@@ -3,7 +3,7 @@ title: "屏蔽门 · 工业4.0应用"
 description: "测量站台门门机电机角度并换算门扇位置，用于平滑减速和精确停位。"
 aside: false
 pageClass: "c-page c-page--case"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"屏蔽门：工业4.0应用方案\", \"description\": \"测量站台门门机电机角度并换算门扇位置，用于平滑减速和精确停位。\", \"about\": \"屏蔽门\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"url\": \"https://conntek.grosso.link/applications/industry4/platform-screen-door\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headline\": \"屏蔽门：工业4.0应用方案\", \"description\": \"测量站台门门机电机角度并换算门扇位置，用于平滑减速和精确停位。\", \"about\": \"屏蔽门\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/applications/industry4/platform-screen-door\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/applications/">市场应用</a><i>/</i><a href="/applications/industry4">工业4.0</a><i>/</i><span>屏蔽门</span></nav>

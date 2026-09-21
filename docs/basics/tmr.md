@@ -3,7 +3,7 @@ title: "TMR / 隧道磁电阻 · 技术 Wiki"
 description: "隧道结电阻随自由层与钉扎层的磁化夹角变化"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"TMR / 隧道磁电阻\", \"description\": \"隧道结电阻随自由层与钉扎层的磁化夹角变化\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/tmr\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"TMR / 隧道磁电阻\", \"description\": \"隧道结电阻随自由层与钉扎层的磁化夹角变化\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/tmr\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>TMR / 隧道磁电阻</span></nav>

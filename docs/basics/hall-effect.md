@@ -3,7 +3,7 @@ title: "霍尔效应 / Hall effect · 技术 Wiki"
 description: "载流薄片在垂直磁场下产生横向电压"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"霍尔效应 / Hall effect\", \"description\": \"载流薄片在垂直磁场下产生横向电压\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/hall-effect\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"霍尔效应 / Hall effect\", \"description\": \"载流薄片在垂直磁场下产生横向电压\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/hall-effect\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>霍尔效应 / Hall effect</span></nav>

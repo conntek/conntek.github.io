@@ -3,7 +3,7 @@ title: "KTM53 系列 离轴 AMR 角度编码器"
 description: "AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）"
 aside: false
 pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM53 系列 离轴 AMR 角度编码器\", \"description\": \"AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.grosso.link/\"}, \"image\": \"https://conntek.grosso.link/img/icons-web/ktm53.webp\", \"url\": \"https://conntek.grosso.link/products/encoder/ktm53\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTM53 系列 离轴 AMR 角度编码器\", \"description\": \"AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）\", \"category\": \"编码器芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktm53.webp\", \"url\": \"https://conntek.github.io/products/encoder/ktm53\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/encoder/">编码器芯片</a><i>/</i><span>KTM53 系列</span></nav>

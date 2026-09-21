@@ -3,7 +3,7 @@ title: "线性霍尔 / 比例式输出 · 技术 Wiki"
 description: "输出电压随磁通密度线性变化，灵敏度档位同时决定量程"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"线性霍尔 / 比例式输出\", \"description\": \"输出电压随磁通密度线性变化，灵敏度档位同时决定量程\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/linear-hall\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"线性霍尔 / 比例式输出\", \"description\": \"输出电压随磁通密度线性变化，灵敏度档位同时决定量程\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/linear-hall\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>线性霍尔 / 比例式输出</span></nav>

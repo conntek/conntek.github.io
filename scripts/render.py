@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.join(ROOT, 'docs')
 PUB = os.path.join(DOCS, 'public')
 SITE_BASE = os.environ.get('SITE_BASE', '/')
-SITE_URL = os.environ.get('SITE_URL', 'https://conntek.grosso.link').rstrip('/')   # 结构化数据、llms.txt 用的绝对地址
+SITE_URL = os.environ.get('SITE_URL', 'https://conntek.github.io').rstrip('/')   # 结构化数据、llms.txt 用的绝对地址
 SITE_TAG = os.environ.get('SITE_TAG', ' (dev site)')   # 标题后缀：正式上线时设为空串（config.mts 里同名常量同步改）
 
 

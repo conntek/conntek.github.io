@@ -3,7 +3,7 @@ title: "BOP / BRP 与回差 · 技术 Wiki"
 description: "动作阈值与释放阈值，两者之差称为回差"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"BOP / BRP 与回差\", \"description\": \"动作阈值与释放阈值，两者之差称为回差\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/bop-brp\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"BOP / BRP 与回差\", \"description\": \"动作阈值与释放阈值，两者之差称为回差\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/bop-brp\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>BOP / BRP 与回差</span></nav>

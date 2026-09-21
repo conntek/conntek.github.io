@@ -3,7 +3,7 @@ title: "磁体 / Magnet · 技术 Wiki"
 description: "提供被测磁场的永磁体，看材料、充磁方式与几何公差三类参数"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"磁体 / Magnet\", \"description\": \"提供被测磁场的永磁体，看材料、充磁方式与几何公差三类参数\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/magnet\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"磁体 / Magnet\", \"description\": \"提供被测磁场的永磁体，看材料、充磁方式与几何公差三类参数\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/magnet\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>磁体 / Magnet</span></nav>

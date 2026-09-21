@@ -3,7 +3,7 @@ title: "离轴 / Off-axis · 技术 Wiki"
 description: "芯片不在转轴中心，从磁铁或磁环侧面读取磁场"
 aside: false
 pageClass: "c-page c-page--wiki"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"离轴 / Off-axis\", \"description\": \"芯片不在转轴中心，从磁铁或磁环侧面读取磁场\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.grosso.link/basics/\"}, \"url\": \"https://conntek.grosso.link/basics/off-axis\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"DefinedTerm\", \"name\": \"离轴 / Off-axis\", \"description\": \"芯片不在转轴中心，从磁铁或磁环侧面读取磁场\", \"inDefinedTermSet\": {\"@type\": \"DefinedTermSet\", \"name\": \"昆泰芯技术 Wiki\", \"url\": \"https://conntek.github.io/basics/\"}, \"url\": \"https://conntek.github.io/basics/off-axis\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/basics/">技术 Wiki</a><i>/</i><span>离轴 / Off-axis</span></nav>

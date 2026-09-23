@@ -43,3 +43,13 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # 发布成功后把本次改动的页面主动推给 IndexNow（Bing / Yandex / Naver 等，百度不支持）
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - run: python scripts/indexnow.py --changed

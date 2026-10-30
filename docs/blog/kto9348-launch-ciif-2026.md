@@ -163,7 +163,7 @@ KTO9348HI 将于 2026 中国国际工业博览会正式发布。
 昆泰芯微电子将携 KTO9348HI 相位阵游标编码器芯片及全系列传感芯片亮相：
 
 - <a class="c-xref" href="/products/encoder/kto95">KTO95</a>/93 系列：基于光编码器芯片 KTO9348HI 的光编模组 DEMO
-- <a class="c-xref" href="/products/encoder/kth78">KTH78</a>/71 系列：基于 <a class="c-xref" href="/products/encoder/kth71/kth7111-qn16">KTH7111</a> 的关节模组 DEMO
+- <a class="c-xref" href="/products/encoder/kth78">KTH78</a>/71 系列：基于 <a class="c-xref" href="/products/encoder/kth71/kth7111">KTH7111</a> 的关节模组 DEMO
 - <a class="c-xref" href="/products/encoder/ktm52">KTM52</a>/53 系列：基于 <a class="c-xref" href="/products/encoder/ktm52">KTM5220</a> 的伺服电机 DEMO
 - <a class="c-xref" href="/products/encoder/ktm58">KTM58</a>/59 系列：基于 58/59 系列的一键自校准 DEMO
 - KTH63 系列：基于 KTH63 系列组合开关，工业摇杆的展示

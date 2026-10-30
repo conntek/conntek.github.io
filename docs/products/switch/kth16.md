@@ -26,9 +26,9 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 <div class="c-split c-split--overview"><div class="c-split__text">
 
-微功耗系列霍尔开关采用 CMOS 工艺，芯片内集成霍尔感应元件，工作电压 1.7 ~ 5.5 V，功耗低至 1 μA，并具备优良的温度补偿，性能与一致性良好。工作温度视型号而定：<a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>、<a class="c-xref" href="/products/switch/kth16/kth1631fu">KTH1631</a>、<a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>、<a class="c-xref" href="/products/switch/kth16/kth1711th">KTH1711</a>、<a class="c-xref" href="/products/switch/kth16/kth1721th">KTH1721</a>、<a class="c-xref" href="/products/switch/kth16/kth1722cc">KTH1722</a> 为 -40 ~ 85 ℃，<a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>、<a class="c-xref" href="/products/switch/kth16/kth1731pu">KTH1731</a>、KTH1362 为 -40 ~ 125 ℃。
+微功耗系列霍尔开关采用 CMOS 工艺，芯片内集成霍尔感应元件，工作电压 1.7 ~ 5.5 V，功耗低至 1 μA，并具备优良的温度补偿，性能与一致性良好。工作温度视型号而定：<a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>、<a class="c-xref" href="/products/switch/kth16/kth1631">KTH1631</a>、<a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>、<a class="c-xref" href="/products/switch/kth16/kth1711">KTH1711</a>、<a class="c-xref" href="/products/switch/kth16/kth1721">KTH1721</a>、<a class="c-xref" href="/products/switch/kth16/kth1722">KTH1722</a> 为 -40 ~ 85 ℃，<a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>、<a class="c-xref" href="/products/switch/kth16/kth1731pu">KTH1731</a>、<a class="c-xref" href="/products/switch/kth16/kth1362">KTH1362</a> 为 -40 ~ 125 ℃。
 
-系列包含 136、15、16、17 系列，类型覆盖双脚输出单极型（<a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>）、锁存型（<a class="c-xref" href="/products/switch/kth16/kth1631fu">KTH1631</a>、<a class="c-xref" href="/products/switch/kth16/kth1731pu">KTH1731</a>）、全极型（<a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>、<a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>、KTH1362）、单 S 极（<a class="c-xref" href="/products/switch/kth16/kth1711th">KTH1711</a>）与单 N 极（<a class="c-xref" href="/products/switch/kth16/kth1721th">KTH1721</a>、<a class="c-xref" href="/products/switch/kth16/kth1722cc">KTH1722</a>）；工作频率从 2.5 Hz 到 40 kHz，输出为 CMOS 或开漏，封装包括 SOT-23-3L、TO-92S、DFN/FBP 1*1-4L 与 HFBP1010。
+系列包含 136、15、16、17 系列，类型覆盖双脚输出单极型（<a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>）、锁存型（<a class="c-xref" href="/products/switch/kth16/kth1631">KTH1631</a>、<a class="c-xref" href="/products/switch/kth16/kth1731pu">KTH1731</a>）、全极型（<a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>、<a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>、<a class="c-xref" href="/products/switch/kth16/kth1362">KTH1362</a>）、单 S 极（<a class="c-xref" href="/products/switch/kth16/kth1711">KTH1711</a>）与单 N 极（<a class="c-xref" href="/products/switch/kth16/kth1721">KTH1721</a>、<a class="c-xref" href="/products/switch/kth16/kth1722">KTH1722</a>）；工作频率从 2.5 Hz 到 40 kHz，输出为 CMOS 或开漏，封装包括 SOT-23-3L、TO-92S、DFN/FBP 1*1-4L 与 HFBP1010。
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><a href="/applications/consumer-electronics/e-chessboard">电子棋盘</a><a href="/applications/industry4/circuit-breaker">断路器</a></div>
 
@@ -86,28 +86,28 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 <details class="c-more"><summary>以下 16 项参数存在两种标注，选型前请以产品手册为准</summary>
 
-<ul><li><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>「平均功耗」：3.3 μA @ 1.8 V 或 3.3μA@1.8V
-1.6μA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>「工作频率」：20 Hz 或 20Hz
-5Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>「BOP」：46/-46 或 46/-46
+<ul><li><a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>「平均功耗」：3.3 μA @ 1.8 V 或 3.3μA@1.8V
+1.6μA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>「工作频率」：20 Hz 或 20Hz
+5Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>「BOP」：46/-46 或 46/-46
 33/-33
-22/-22</li><li><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a>「BRP」：34/-34 或 34/-34
+22/-22</li><li><a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a>「BRP」：34/-34 或 34/-34
 23/-23
-16/-16</li><li><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>「平均功耗」：10.4 μA @ 1.8 V 或 10.4uA@1.8V
+16/-16</li><li><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>「平均功耗」：10.4 μA @ 1.8 V 或 10.4uA@1.8V
 2.4uA@1.8V
-0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>「工作频率」：500 Hz 或 500Hz
+0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>「工作频率」：500 Hz 或 500Hz
 100Hz
-25Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>「BOP」：48/-48 或 48/-48
+25Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>「BOP」：48/-48 或 48/-48
 36/-36
-26/-26</li><li><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>「BRP」：28/-28 或 28/-28
+26/-26</li><li><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>「BRP」：28/-28 或 28/-28
 20/-20
-14/-14</li><li><a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>「平均功耗」：0.9 μA @ 1.8 V 或 0.9uA@1.8V
-2.25mA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>「工作频率」：25 Hz 或 25Hz
-40KHz</li><li><a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>「BOP」：36/-36 或 36/-36
-135/-135</li><li><a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a>「BRP」：20/-20 或 20/-20
-95/-95</li><li><a class="c-xref" href="/products/switch/kth16/kth1711th">KTH1711</a>「平均功耗」：2.4 μA @ 1.8 V 或 2.4uA@1.8V
-0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1711th">KTH1711</a>「工作频率」：100 Hz 或 100Hz
-25Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1721th">KTH1721</a>「平均功耗」：2.4 μA @ 1.8 V 或 2.4uA@1.8V
-0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1721th">KTH1721</a>「工作频率」：100 Hz 或 100Hz
+14/-14</li><li><a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>「平均功耗」：0.9 μA @ 1.8 V 或 0.9uA@1.8V
+2.25mA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>「工作频率」：25 Hz 或 25Hz
+40KHz</li><li><a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>「BOP」：36/-36 或 36/-36
+135/-135</li><li><a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a>「BRP」：20/-20 或 20/-20
+95/-95</li><li><a class="c-xref" href="/products/switch/kth16/kth1711">KTH1711</a>「平均功耗」：2.4 μA @ 1.8 V 或 2.4uA@1.8V
+0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1711">KTH1711</a>「工作频率」：100 Hz 或 100Hz
+25Hz</li><li><a class="c-xref" href="/products/switch/kth16/kth1721">KTH1721</a>「平均功耗」：2.4 μA @ 1.8 V 或 2.4uA@1.8V
+0.9uA@1.8V</li><li><a class="c-xref" href="/products/switch/kth16/kth1721">KTH1721</a>「工作频率」：100 Hz 或 100Hz
 25Hz</li></ul>
 
 </details>
@@ -118,7 +118,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1604th">KTH1604</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1604%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1604 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH1604%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH1604 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1631fu">KTH1631</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1631%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1631 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH1631%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH1631 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1701%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1701 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1702ae">KTH1702</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1702%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1702 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1711th">KTH1711</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1711%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1711 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1721th">KTH1721</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1721%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1721 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1722cc">KTH1722</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1722%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1722 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono">KTH1362</td><td><span class="c-badge">产品手册</span></td><td><span class="c-muted" title="官网暂不可下载">KTH1362 Series产品手册.pdf（暂不可下载）</span></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>适用</th><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td rowspan="8" class="c-docs__scene">通用</td><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1604">KTH1604</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1604%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1604 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH1604%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH1604 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1631">KTH1631</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1631%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1631 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH1631%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH1631 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1701%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1701 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1702">KTH1702</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1702%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1702 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1711">KTH1711</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1711%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1711 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1721">KTH1721</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1721%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1721 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1722">KTH1722</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH1722%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH1722 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/kth16/kth1362">KTH1362</a></td><td><span class="c-badge">产品手册</span></td><td><span class="c-muted" title="官网暂不可下载"><a class="c-xref" href="/products/switch/kth16/kth1362">KTH1362</a> Series产品手册.pdf（暂不可下载）</span></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
 
 ## 应用案例
 
@@ -133,11 +133,3 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 <div class="c-grid c-grid--4"><a class="c-card" href="/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm28"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/kth31"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><span class="c-card__more">查看详情</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
-
-<!-- audited-model-catalog -->
-
-## 按具体型号查资料
-
-[完整型号目录：21个去重入口](/products/catalog)
-
-<div class="catalog-quicklinks"><a href="/products/switch/kth16/kth1601">KTH1601</a></div>

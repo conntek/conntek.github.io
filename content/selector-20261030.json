@@ -1,0 +1,3631 @@
+{
+  "checked": "2026-10-30",
+  "source": "https://chat.connteck.com/selector/",
+  "total": 67,
+  "unique_models": 67,
+  "pdf_policy": "external links only; absent URL stays missing",
+  "method": "web reader full parametric table lines109-175; all 67 rows, not featured 21; no UA changes",
+  "browser_limit": "Computer Use stopped because current browser URL could not be determined sufficiently confidently; no further UI actions. KTH2562L PDF newly unread this pass.",
+  "coverage": {
+    "blog_exact": 36,
+    "original_blog_exact": 24,
+    "conntek_catalog_exact": 21,
+    "not_in_featured21": 46,
+    "pdf_url_located": 32,
+    "conntek_family_mentioned": 41
+  },
+  "entries": [
+    {
+      "model": "KTAx333",
+      "source_line": 109,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 6,
+      "directory_values": {
+        "name": "KTAx333 Series - Zero-Drift Micro-Power CMOS Operational Amplifier",
+        "subcategory": "zero-drift-opamp",
+        "interface": "ANALOG",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "17 uA",
+        "package": "SOT-23-5",
+        "pins": "5"
+      },
+      "source_page": "https://chat.connteck.com/products/signal-chain/",
+      "source_page_is_family": true,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktax333\\_index.md",
+          "slug": "ktax333",
+          "title": "KTAx333系列",
+          "route": "/models/ktax333/",
+          "datasheet_url": "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/catalog/ktax333-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/other/ktax33",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktax33"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "categories"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "applications"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1361",
+      "source_line": 110,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1361 Series - X-Axis Omni-Polar Hall Switch Sensor",
+        "subcategory": "1d-x-axis-switch",
+        "interface": "—",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "5.1 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1362",
+      "source_line": 111,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1362 Series - X-Axis Omni-Polar Hall Switch (NMOS Open-Drain)",
+        "subcategory": "1d-x-axis-switch",
+        "interface": "—",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "5.1 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1601",
+      "source_line": 112,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 48,
+      "directory_values": {
+        "name": "KTH1601 Series - Low-Power Omni-Polar Hall Switch Sensor",
+        "subcategory": "omni-polar-switch",
+        "interface": "开漏 / 推挽",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "3.3 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTH1601/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth1601\\_index.md",
+          "slug": "kth1601",
+          "title": "KTH1601",
+          "route": "/models/kth1601/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf",
+          "image": "/images/catalog/kth1601-browser-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/kth16/kth1601",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1601S",
+      "source_line": 113,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1601SL-FP4 - Omni-Polar Hall Switch in HFBP1010-4L",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "1.6 uA",
+        "package": "HFBP1010-4L",
+        "pins": "4"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1604",
+      "source_line": 114,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1604 Series - Dual-Output Unipolar Hall Switch",
+        "subcategory": "dual-output-unipolar-switch",
+        "interface": "—",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "3.3 uA",
+        "package": "HFBP1010-4L",
+        "pins": "4"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth16\\_index.md",
+          "slug": "kth16",
+          "title": "KTH16系列",
+          "route": "/models/kth16/",
+          "datasheet_url": null,
+          "image": null
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth1604\\_index.md",
+          "slug": "kth1604",
+          "title": "KTH1604",
+          "route": "/models/kth1604/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1604%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth16\\_index.md",
+          "slug": "kth16",
+          "title": "KTH16系列",
+          "route": "/models/kth16/",
+          "datasheet_url": null,
+          "image": null
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth1604\\_index.md",
+          "slug": "kth1604",
+          "title": "KTH1604",
+          "route": "/models/kth1604/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1604%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1604%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth1604\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "applications"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1604S",
+      "source_line": 115,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1604SM-FP4 - Dual-Output Hall Switch in HFBP1010-4L",
+        "subcategory": "dual-output-unipolar-switch",
+        "interface": "—",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "1.6 uA",
+        "package": "HFBP1010-4L",
+        "pins": "4"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1611",
+      "source_line": 116,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1611 Series - South-Pole (Unipolar) Hall Switch",
+        "subcategory": "unipolar-south-switch",
+        "interface": "—",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "3.3 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1621",
+      "source_line": 117,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1621 Series - North-Pole (Unipolar) Hall Switch",
+        "subcategory": "unipolar-north-switch",
+        "interface": "—",
+        "supply_V": "1.6 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "3.3 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1631",
+      "source_line": 118,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1631 Series - High-Sensitivity Latch-Type Hall Switch",
+        "subcategory": "latch-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "2.25 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth16\\_index.md",
+          "slug": "kth16",
+          "title": "KTH16系列",
+          "route": "/models/kth16/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth16\\_index.md",
+          "slug": "kth16",
+          "title": "KTH16系列",
+          "route": "/models/kth16/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1642",
+      "source_line": 119,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1642 Series - Omni-Polar Hall Switch (Reed Switch Replacement)",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "10 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH1701",
+      "source_line": 120,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 60,
+      "directory_values": {
+        "name": "KTH1701 Series - Industrial Omni-Polar Hall Switch (-40~125°C)",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.3 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTH1701/",
+      "source_page_is_family": false,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth17\\_index.md",
+          "slug": "kth17",
+          "title": "KTH17系列",
+          "route": "/models/kth17/",
+          "datasheet_url": null,
+          "image": null
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth1701\\_index.md",
+          "slug": "kth1701",
+          "title": "KTH1701",
+          "route": "/models/kth1701/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1701%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth1701-product.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth17\\_index.md",
+          "slug": "kth17",
+          "title": "KTH17系列",
+          "route": "/models/kth17/",
+          "datasheet_url": null,
+          "image": null
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth1701\\_index.md",
+          "slug": "kth1701",
+          "title": "KTH1701",
+          "route": "/models/kth1701/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1701%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth1701-product.png"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH1701%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth1701\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1702",
+      "source_line": 121,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1702 Series - Industrial Omni-Polar Hall Switch (Open-Drain, AEC-Q100)",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "0.9 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth17\\_index.md",
+          "slug": "kth17",
+          "title": "KTH17系列",
+          "route": "/models/kth17/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth17\\_index.md",
+          "slug": "kth17",
+          "title": "KTH17系列",
+          "route": "/models/kth17/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1711",
+      "source_line": 122,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1711 Series - Industrial South-Pole Hall Switch (-40~125°C)",
+        "subcategory": "unipolar-south-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.4 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1721",
+      "source_line": 123,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1721 Series - Industrial North-Pole Hall Switch (-40~125°C)",
+        "subcategory": "unipolar-north-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.4 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1722",
+      "source_line": 124,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1722 Series - Continuous North-Pole Hall Switch (Open-Drain, -40~125°C)",
+        "subcategory": "unipolar-north-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.25 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth16"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH1731P",
+      "source_line": 125,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH1731PU-FP4 - Latch-Type Hall Switch in HFBP1010-4C",
+        "subcategory": "latch-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.25 mA",
+        "package": "HFBP1010-4C",
+        "pins": "4"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH2502",
+      "source_line": 126,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 50,
+      "directory_values": {
+        "name": "KTH2502 Series - Automotive High-Voltage Digital-Latch Hall Switch",
+        "subcategory": "automotive-latch-hall-switch",
+        "interface": "开漏 30MA",
+        "supply_V": "2.7 ~ 32",
+        "temperature_C": "-40 ~ 150",
+        "current_typ": "2.7 mA",
+        "package": "SOT23",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTH2502/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth25\\_index.md",
+          "slug": "kth25",
+          "title": "KTH25系列",
+          "route": "/models/kth25/",
+          "datasheet_url": null,
+          "image": null
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth2502\\_index.md",
+          "slug": "kth2502",
+          "title": "KTH2502",
+          "route": "/models/kth2502/",
+          "datasheet_url": "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/catalog/kth2502-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth25\\_index.md",
+          "slug": "kth25",
+          "title": "KTH25系列",
+          "route": "/models/kth25/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/kth25/kth2502",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH2502/KTH2502_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH2562L",
+      "source_line": 127,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH2562L Series - Automotive 60V High-Voltage Latch Hall Switch",
+        "subcategory": "automotive-latch-hall-switch",
+        "interface": "—",
+        "supply_V": "3.8 ~ 60",
+        "temperature_C": "-40 ~ 150",
+        "current_typ": "3.5 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth2562l\\_index.md",
+          "slug": "kth2562l",
+          "title": "KTH2562L",
+          "route": "/models/kth2562l/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH2562L/KTH2562L_Datasheet_CN.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH2562L/KTH2562L_Datasheet_CN.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth2562l\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "blog exact model page missing",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [],
+      "staged_existing_page": "selector-full-staged/content/models/kth2562l/_index.md",
+      "manual_reverification": "Public PDF failed via web; normal browser policy stopped; existing 19-page draft retained unchanged, not newly verified."
+    },
+    {
+      "model": "KTH2582",
+      "source_line": 128,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH2582 Series - High-Sensitivity Industrial Latch Hall Switch",
+        "subcategory": "industrial-latch-hall-switch",
+        "interface": "—",
+        "supply_V": "2.7 ~ 32",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.5 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH2612",
+      "source_line": 129,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH2612 Series - Industrial 60V Unipolar Hall Switch",
+        "subcategory": "industrial-unipolar-hall-switch",
+        "interface": "—",
+        "supply_V": "3.8 ~ 60",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "3.5 mA",
+        "package": "SOT23",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH2631",
+      "source_line": 130,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH2631 Series - Industrial 60V Bipolar Latch Hall Switch with Built-in Pull-Up",
+        "subcategory": "industrial-latch-hall-switch",
+        "interface": "—",
+        "supply_V": "3.8 ~ 60",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "3.5 mA",
+        "package": "SOT23",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH2632",
+      "source_line": 131,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH2632 Series - Industrial 60V Bipolar Latch Hall Switch",
+        "subcategory": "industrial-latch-hall-switch",
+        "interface": "—",
+        "supply_V": "3.8 ~ 60",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "3.5 mA",
+        "package": "SOT23",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH31xx",
+      "source_line": 132,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 57,
+      "directory_values": {
+        "name": "KTH31XX Series - Ratiometric Linear Hall-Effect Sensor",
+        "subcategory": "ratiometric-analog",
+        "interface": "ANALOG 模拟",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "4.5 mA",
+        "package": "SOT-23",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/linear/KTH31XX/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth31\\_index.md",
+          "slug": "kth31",
+          "title": "KTH31系列",
+          "route": "/models/kth31/",
+          "datasheet_url": "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/catalog/kth31-package.png"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/kth31",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth31"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH4603",
+      "source_line": 133,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 61,
+      "directory_values": {
+        "name": "KTH4603 Series - Ultra-Low Power 3D Omnipolar Hall Switch",
+        "subcategory": "3d-omnipolar-hall-switch",
+        "interface": "—",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.7 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTH4603/",
+      "source_page_is_family": false,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth4603\\_index.md",
+          "slug": "kth4603",
+          "title": "KTH4603系列",
+          "route": "/models/kth4603/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth4603\\_index.md",
+          "slug": "kth4603",
+          "title": "KTH4603系列",
+          "route": "/models/kth4603/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH4603X",
+      "source_line": 134,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH4603 Series - 3D Omnipolar Hall Switch (CN Manual V2.0)",
+        "subcategory": "3d-omnipolar-hall-switch",
+        "interface": "—",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "2.7 mA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees.",
+        "Source contains family/version ambiguity; retain row separately until manual identity verification."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH462N",
+      "source_line": 135,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH462N Series - 2D Latched Hall Effect Switch",
+        "subcategory": "2d-latched-hall-switch",
+        "interface": "双路数字",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "32.3 uA",
+        "package": "SOT-23-6L",
+        "pins": "6"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth462\\_index.md",
+          "slug": "kth462",
+          "title": "KTH462系列",
+          "route": "/models/kth462/",
+          "datasheet_url": "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/catalog/kth462n-package.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/kth462",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH468N",
+      "source_line": 136,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTH468N Series - 2D Latched Hall Effect Switch",
+        "subcategory": "2d-latched-hall-switch",
+        "interface": "NMOS 开漏",
+        "supply_V": "2.5 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "32.3 uA",
+        "package": "SOT-23-5L",
+        "pins": "5"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth468n\\_index.md",
+          "slug": "kth468n",
+          "title": "KTH468N",
+          "route": "/models/kth468n/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/kth468n",
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "public PDF URL not yet located; do not guess"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees.",
+        "Source contains family/version ambiguity; retain row separately until manual identity verification."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH5502",
+      "source_line": 137,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 23,
+      "directory_values": {
+        "name": "KTH5502 - 3D Hall Magnetic Angle Sensor",
+        "subcategory": "angle-sensor",
+        "interface": "I2C / SPI / ABZ / PWM / ANALOG",
+        "supply_V": "1.7 ~ 3.6",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "—",
+        "package": "SOP-8L",
+        "pins": "8"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5502/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5502\\_index.md",
+          "slug": "kth5502",
+          "title": "KTH5502",
+          "route": "/models/kth5502/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3.pdf",
+          "image": "/images/catalog/kth5502-original.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth5502\\_index.md",
+          "slug": "kth5502",
+          "title": "KTH5502",
+          "route": "/models/kth5502/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth55/kth5502",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3_off-axis.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_EN_V1.3.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth5502\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth55"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH5701",
+      "source_line": 138,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 25,
+      "directory_values": {
+        "name": "KTH5701 - Full-function 3D Position Sensor",
+        "subcategory": "通用",
+        "interface": "SPI / IIC",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5701/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5701\\_index.md",
+          "slug": "kth5701",
+          "title": "KTH5701",
+          "route": "/models/kth5701/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_CN_V2.0.pdf",
+          "image": "/images/wiki/kth5701-product.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth5701\\_index.md",
+          "slug": "kth5701",
+          "title": "KTH5701",
+          "route": "/models/kth5701/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf",
+          "image": "/images/wiki/kth5701-product.png"
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5701",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_CN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_CN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_EN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_EN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth5701\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH5702",
+      "source_line": 139,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 27,
+      "directory_values": {
+        "name": "KTH5702 - 2D Rotation Angle Sensor",
+        "subcategory": "角度",
+        "interface": "SPI / IIC",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5702/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5702\\_index.md",
+          "slug": "kth5702",
+          "title": "KTH5702",
+          "route": "/models/kth5702/",
+          "datasheet_url": "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf",
+          "image": "/images/catalog/kth5702-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5702",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5702/KTH5702AQ1_DS_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH5721",
+      "source_line": 140,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 29,
+      "directory_values": {
+        "name": "KTH5721 - Cost-effective 3D Position Sensor",
+        "subcategory": "通用",
+        "interface": "SPI / IIC",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 105",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5721/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5721\\_index.md",
+          "slug": "kth5721",
+          "title": "KTH5721",
+          "route": "/models/kth5721/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf",
+          "image": "/images/catalog/kth5721-browser-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5721",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH5761",
+      "source_line": 141,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 31,
+      "directory_values": {
+        "name": "KTH5761 - Low-Power 3D Linear Hall Sensor",
+        "subcategory": "smartwatch",
+        "interface": "I2C",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "4.89 mA",
+        "package": "DFN2x2.5-8L",
+        "pins": "8"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5761/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5761\\_index.md",
+          "slug": "kth5761",
+          "title": "KTH5761",
+          "route": "/models/kth5761/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf",
+          "image": "/images/catalog/kth5761-browser-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5761",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH5762",
+      "source_line": 142,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 67,
+      "directory_values": {
+        "name": "KTH5762 - Low-Power High-Precision 3D Hall Angle Sensor",
+        "subcategory": "smartwatch",
+        "interface": "—",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "4.89 mA",
+        "package": "DFN2x2.5-8L",
+        "pins": "8"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH5763",
+      "source_line": 143,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 67,
+      "directory_values": {
+        "name": "KTH5763 - Low-Power 3D Hall Angle Sensor (8-bit)",
+        "subcategory": "smartwatch",
+        "interface": "—",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "4.89 mA",
+        "package": "DFN2x2.5-8L",
+        "pins": "8"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH5771",
+      "source_line": 144,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 33,
+      "directory_values": {
+        "name": "KTH5771 - General Purpose 3D Hall Sensor",
+        "subcategory": "摇杆",
+        "interface": "双路 ANALOG / UART",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5771/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5771\\_index.md",
+          "slug": "kth5771",
+          "title": "KTH5771",
+          "route": "/models/kth5771/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf",
+          "image": "/images/catalog/joystick-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5771",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTH5772",
+      "source_line": 145,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 35,
+      "directory_values": {
+        "name": "KTH5772 - Gaming Joystick 3D Hall Sensor",
+        "subcategory": "摇杆",
+        "interface": "I2C / UART",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5772/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5772\\_index.md",
+          "slug": "kth5772",
+          "title": "KTH5772",
+          "route": "/models/kth5772/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf",
+          "image": "/images/catalog/joystick-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5772",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH5774",
+      "source_line": 146,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 37,
+      "directory_values": {
+        "name": "KTH5774 - Enhanced 3D Hall Sensor",
+        "subcategory": "摇杆",
+        "interface": "I2C / UART + ANALOG",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5774/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5774\\_index.md",
+          "slug": "kth5774",
+          "title": "KTH5774",
+          "route": "/models/kth5774/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf",
+          "image": "/images/catalog/joystick-original.jpg"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5774",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH5791",
+      "source_line": 147,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 39,
+      "directory_values": {
+        "name": "KTH5791 - Mouse Encoder 3D Hall Sensor",
+        "subcategory": "编码器",
+        "interface": "AB / UART",
+        "supply_V": "2.8 ~ 5.5",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "—",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/3d-hall/KTH5791/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth5791\\_index.md",
+          "slug": "kth5791",
+          "title": "KTH5791",
+          "route": "/models/kth5791/",
+          "datasheet_url": "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+          "image": "/images/catalog/kth5791-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/3d-hall/kth57/kth5791",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_CN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_AN001_PowerTradeoff_CN_V1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_AN002_UART_Example_CN_V1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_FAQ_CN_V1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_Schematic_V1.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_EN_V2.0.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH7101",
+      "source_line": 148,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7101 - 16-bit High-Speed Hall Magnetic Encoder with Auto Non-Linear Calibration",
+        "subcategory": "angle-encoder",
+        "interface": "SPI / ABZ / UVW / PWM",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "16 mA",
+        "package": "SOP-8",
+        "pins": "8"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7101\\_index.md",
+          "slug": "kth7101",
+          "title": "KTH7101",
+          "route": "/models/kth7101/",
+          "datasheet_url": "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/catalog/kth7101-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7101\\_index.md",
+          "slug": "kth7101",
+          "title": "KTH7101",
+          "route": "/models/kth7101/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/encoder/kth71/kth7101",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7101\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7111",
+      "source_line": 149,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7111 - 16-bit Off-axis Hall Magnetic Encoder with Multi-mode Output",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "16 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7111\\_index.md",
+          "slug": "kth7111",
+          "title": "KTH7111",
+          "route": "/models/kth7111/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7111%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7111-diagram.webp"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7111\\_index.md",
+          "slug": "kth7111",
+          "title": "KTH7111",
+          "route": "/models/kth7111/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7111%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7111-diagram.webp"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7111%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7111\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7112",
+      "source_line": 150,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7112 - 16-bit On-axis High-Precision Hall Magnetic Encoder with Multi-mode Output",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "16 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7112\\_index.md",
+          "slug": "kth7112",
+          "title": "KTH7112",
+          "route": "/models/kth7112/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7112%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7112-datasheet-figure.jpg"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7112\\_index.md",
+          "slug": "kth7112",
+          "title": "KTH7112",
+          "route": "/models/kth7112/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7112%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7112-datasheet-figure.jpg"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7112%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7112\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7801",
+      "source_line": 151,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 42,
+      "directory_values": {
+        "name": "KTH7801 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Automotive)",
+        "subcategory": "angle-encoder",
+        "interface": "SPI / SSI / ABZ / UVW / PWM",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 150",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/KTH7801/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7801\\_index.md",
+          "slug": "kth7801",
+          "title": "KTH7801",
+          "route": "/models/kth7801/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTH7801/KTH7801_Datasheet_CN.pdf",
+          "image": "/images/catalog/kth7801-original-figure.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7801\\_index.md",
+          "slug": "kth7801",
+          "title": "KTH7801",
+          "route": "/models/kth7801/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/encoder/kth78/kth7801",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTH7801/KTH7801_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7801\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "specs.json",
+          "family_key": "_changes"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "applications"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7812",
+      "source_line": 152,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 72,
+      "directory_values": {
+        "name": "KTH7812 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Industrial, SPI/ABZ/UVW)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/KTH7812/",
+      "source_page_is_family": false,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7812\\_index.md",
+          "slug": "kth7812",
+          "title": "KTH7812",
+          "route": "/models/kth7812/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7812-datasheet-figure.jpg"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7812\\_index.md",
+          "slug": "kth7812",
+          "title": "KTH7812",
+          "route": "/models/kth7812/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7812-datasheet-figure.jpg"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7813",
+      "source_line": 153,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7813 - 16-bit Low-Noise Hall Magnetic Angle Encoder (Industrial, SPI/ABZ/UVW)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7813\\_index.md",
+          "slug": "kth7813",
+          "title": "KTH7813",
+          "route": "/models/kth7813/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7813%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7813\\_index.md",
+          "slug": "kth7813",
+          "title": "KTH7813",
+          "route": "/models/kth7813/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7813%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7813%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7813\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7814",
+      "source_line": 154,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7814 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Industrial, SPI/ABZ/~ABZ)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7814\\_index.md",
+          "slug": "kth7814",
+          "title": "KTH7814",
+          "route": "/models/kth7814/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7814%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7814\\_index.md",
+          "slug": "kth7814",
+          "title": "KTH7814",
+          "route": "/models/kth7814/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7814%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7814%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7814\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        }
+      ]
+    },
+    {
+      "model": "KTH7815",
+      "source_line": 155,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7815 - 16-bit Fast-Response Hall Magnetic Angle Encoder (Industrial, SPI/ABZ/~ABZ)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7815\\_index.md",
+          "slug": "kth7815",
+          "title": "KTH7815",
+          "route": "/models/kth7815/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7815%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7815-datasheet-figure.jpg"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7815\\_index.md",
+          "slug": "kth7815",
+          "title": "KTH7815",
+          "route": "/models/kth7815/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7815%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7815-datasheet-figure.jpg"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7815%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7815\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTH7816",
+      "source_line": 156,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7816 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Industrial, SPI/SSI/PWM/ABZ)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7816\\_index.md",
+          "slug": "kth7816",
+          "title": "KTH7816",
+          "route": "/models/kth7816/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7816%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7816\\_index.md",
+          "slug": "kth7816",
+          "title": "KTH7816",
+          "route": "/models/kth7816/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7816%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7816%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7816\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH7823",
+      "source_line": 157,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7823 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Consumer, SPI/SSI/PWM/ABZ)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 105",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7823\\_index.md",
+          "slug": "kth7823",
+          "title": "KTH7823",
+          "route": "/models/kth7823/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7823%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7823-datasheet-figure.jpg"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth78\\_index.md",
+          "slug": "kth78",
+          "title": "KTH78系列",
+          "route": "/models/kth78/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth78-diagram.webp"
+        },
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\kth7823\\_index.md",
+          "slug": "kth7823",
+          "title": "KTH7823",
+          "route": "/models/kth7823/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7823%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/kth7823-datasheet-figure.jpg"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7812%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth78\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7823%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\kth7823\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTH7824",
+      "source_line": 158,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTH7824 - 16-bit Low-Latency Hall Magnetic Angle Encoder (Consumer, SPI/SSI/PWM/ABZ)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "11.6 mA",
+        "package": "QFN3x3-16L",
+        "pins": "16"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "kth78"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1301",
+      "source_line": 159,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 54,
+      "directory_values": {
+        "name": "KTM1301 Series - Omni-Polar TMR Magnetic Switch",
+        "subcategory": "omni-polar-switch",
+        "interface": "开漏",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTM1301/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm1301\\_index.md",
+          "slug": "ktm1301",
+          "title": "KTM1301",
+          "route": "/models/ktm1301/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf",
+          "image": "/images/catalog/ktm1301-browser-original.jpg"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm1301\\_index.md",
+          "slug": "ktm1301",
+          "title": "KTM1301",
+          "route": "/models/ktm1301/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/ktm13/ktm1301",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm1301\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1302",
+      "source_line": 160,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1302 Series - Omni-Polar TMR Magnetic Switch",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1302L",
+      "source_line": 161,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1302L Series - Fixed ±14Gs Omni-Polar TMR Magnetic Switch",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "1.9 uA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM1302R",
+      "source_line": 162,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1302R Series - Omni-Polar TMR Magnetic Switch (Inverted Polarity)",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM1304",
+      "source_line": 163,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1304 Series - Omni-Polar TMR Magnetic Switch (DFN2x2)",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "DFN2x2-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1305",
+      "source_line": 164,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1305 Series - Ultra-Low-Power Omni-Polar TMR Switch with Output Latch Control",
+        "subcategory": "omni-polar-switch",
+        "interface": "—",
+        "supply_V": "1.2 ~ 3.6",
+        "temperature_C": "-40 ~ 85",
+        "current_typ": "48 nA",
+        "package": "LGA-4",
+        "pins": "4"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm1305\\_index.md",
+          "slug": "ktm1305",
+          "title": "KTM1305",
+          "route": "/models/ktm1305/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm1305\\_index.md",
+          "slug": "ktm1305",
+          "title": "KTM1305",
+          "route": "/models/ktm1305/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM1311",
+      "source_line": 165,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 73,
+      "directory_values": {
+        "name": "KTM1311 Series - Unipolar S-Pole TMR Magnetic Switch",
+        "subcategory": "unipolar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/KTM1311/",
+      "source_page_is_family": false,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1312",
+      "source_line": 166,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1312 Series - Unipolar S-Pole TMR Switch (Open-Drain Output)",
+        "subcategory": "unipolar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM1321",
+      "source_line": 167,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1321 Series - Unipolar N-Pole TMR Magnetic Switch",
+        "subcategory": "unipolar-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1331",
+      "source_line": 168,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1331 Series - Latch-Type TMR Magnetic Switch",
+        "subcategory": "latch-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm13"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTM1331R",
+      "source_line": 169,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 4,
+      "directory_values": {
+        "name": "KTM1331R Series - Latch-Type TMR Magnetic Switch (Inverted Polarity)",
+        "subcategory": "latch-switch",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "160 nA",
+        "package": "SOT-23-3L",
+        "pins": "3"
+      },
+      "source_page": "https://chat.connteck.com/products/switches/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM2802N",
+      "source_line": 170,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 5,
+      "directory_values": {
+        "name": "KTM2802N (KTM2802NPN) - AMR Cylinder Position Detection Sensor (NPN Open-Drain)",
+        "subcategory": "npn-open-drain",
+        "interface": "两线 / 三线",
+        "supply_V": "3.3 ~ 32",
+        "temperature_C": "-40 ~ 105",
+        "current_typ": "70 uA",
+        "package": "HFBP2*3-6L",
+        "pins": "7"
+      },
+      "source_page": "https://chat.connteck.com/products/industrial/",
+      "source_page_is_family": true,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm2802n\\_index.md",
+          "slug": "ktm2802n",
+          "title": "KTM2802N",
+          "route": "/models/ktm2802n/",
+          "datasheet_url": null,
+          "image": null
+        }
+      ],
+      "original_blog_matches": [],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/switch/ktm28/ktm2802n",
+      "pdf_links": [
+        {
+          "url": "https://conntek.github.io/files/KTM2802%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM2802P",
+      "source_line": 171,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 5,
+      "directory_values": {
+        "name": "KTM2802P (KTM2802PNP) - AMR Cylinder Position Detection Sensor (PNP Open-Drain)",
+        "subcategory": "pnp-open-drain",
+        "interface": "—",
+        "supply_V": "3.3 ~ 32",
+        "temperature_C": "-40 ~ 105",
+        "current_typ": "70 uA",
+        "package": "HFBP2*3-6L",
+        "pins": "7"
+      },
+      "source_page": "https://chat.connteck.com/products/industrial/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    },
+    {
+      "model": "KTM5800",
+      "source_line": 172,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 44,
+      "directory_values": {
+        "name": "KTM5800 - 30-bit Absolute Angle XMR Interpolator with 4096 Pole Pairs Support",
+        "subcategory": "angle-interpolator",
+        "interface": "SPI / ABZ / UVW",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "32 mA",
+        "package": "QFN32-5x5",
+        "pins": "32"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/KTM5800/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm5800\\_index.md",
+          "slug": "ktm5800",
+          "title": "KTM5800",
+          "route": "/models/ktm5800/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTM5800/KTM5800_Datasheet_CN.pdf",
+          "image": "/images/wiki/ktm5800-diagram.webp"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm5800\\_index.md",
+          "slug": "ktm5800",
+          "title": "KTM5800",
+          "route": "/models/ktm5800/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "image": "/images/wiki/ktm5800-diagram.webp"
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/encoder/ktm58/ktm5800",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTM5800/KTM5800_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm5800\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm58"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTM5900",
+      "source_line": 173,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 46,
+      "directory_values": {
+        "name": "KTM5900 - 24-bit Absolute Angle TMR Magnetic Encoder",
+        "subcategory": "angle-encoder",
+        "interface": "SPI",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "32 mA",
+        "package": "HFBP5x5-32L",
+        "pins": "32"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/KTM5900/",
+      "source_page_is_family": false,
+      "featured_21": true,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm5900\\_index.md",
+          "slug": "ktm5900",
+          "title": "KTM5900",
+          "route": "/models/ktm5900/",
+          "datasheet_url": "https://chat.connteck.com/downloads/KTM5900/KTM5900_Datasheet_CN.pdf",
+          "image": "/images/wiki/ktm5900-diagram.webp"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm5900\\_index.md",
+          "slug": "ktm5900",
+          "title": "KTM5900",
+          "route": "/models/ktm5900/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+          "image": "/images/wiki/ktm5900-diagram.webp"
+        }
+      ],
+      "conntek_catalog_match": true,
+      "conntek_route": "/products/encoder/ktm59/ktm5900",
+      "pdf_links": [
+        {
+          "url": "https://chat.connteck.com/downloads/KTM5900/KTM5900_Datasheet_CN.pdf",
+          "origin": "previous official product-page inventory",
+          "verification": "prior task evidence; current GET not repeated"
+        },
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+          "origin": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm5900\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm59"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "_notes"
+        }
+      ]
+    },
+    {
+      "model": "KTM5910",
+      "source_line": 174,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 2,
+      "directory_values": {
+        "name": "KTM5910 - 24-bit Absolute Angle TMR Magnetic Encoder (On-axis)",
+        "subcategory": "angle-encoder",
+        "interface": "—",
+        "supply_V": "3 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "32 mA",
+        "package": "QFN32-5x5",
+        "pins": "32"
+      },
+      "source_page": "https://chat.connteck.com/products/angle/",
+      "source_page_is_family": true,
+      "featured_21": false,
+      "blog_matches": [
+        {
+          "path": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm5910\\_index.md",
+          "slug": "ktm5910",
+          "title": "KTM5910",
+          "route": "/models/ktm5910/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+          "image": "/images/wiki/ktm5910-official.png"
+        }
+      ],
+      "original_blog_matches": [
+        {
+          "path": "D:\\VerySync\\VerySync_works\\如是有为博客\\content\\models\\ktm5910\\_index.md",
+          "slug": "ktm5910",
+          "title": "KTM5910",
+          "route": "/models/ktm5910/",
+          "datasheet_url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+          "image": "/images/wiki/ktm5910-official.png"
+        }
+      ],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [
+        {
+          "url": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5910%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+          "origin": "C:\\Users\\wangc\\Documents\\Codex\\2026-10-30\\referenced-chatgpt-conversation-this-is-an\\work\\blog\\content\\models\\ktm5910\\_index.md",
+          "verification": "existing public-facing source link; current GET not verified"
+        }
+      ],
+      "pdf_missing": false,
+      "gaps": [
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": [
+        {
+          "file": "specs.json",
+          "family_key": "ktm59"
+        },
+        {
+          "file": "copy.json",
+          "family_key": "products"
+        }
+      ]
+    },
+    {
+      "model": "KTP112",
+      "source_line": 175,
+      "selector_url": "https://chat.connteck.com/selector/",
+      "source_link_id": 74,
+      "directory_values": {
+        "name": "KTP112 Series - High-Performance Low-Power Digital Temperature Sensor",
+        "subcategory": "digital-temperature-sensor",
+        "interface": "—",
+        "supply_V": "1.8 ~ 5.5",
+        "temperature_C": "-40 ~ 125",
+        "current_typ": "13.5 uA",
+        "package": "DFN2x2-6L",
+        "pins": "6"
+      },
+      "source_page": "https://chat.connteck.com/products/signal-chain/KTP112/",
+      "source_page_is_family": false,
+      "featured_21": false,
+      "blog_matches": [],
+      "original_blog_matches": [],
+      "conntek_catalog_match": false,
+      "conntek_route": null,
+      "pdf_links": [],
+      "pdf_missing": true,
+      "gaps": [
+        "blog exact model page missing",
+        "public PDF URL not yet located; do not guess",
+        "conntek exact catalog entry missing"
+      ],
+      "limits": [
+        "Directory values are source claims only, not independently verified datasheet guarantees."
+      ],
+      "conntek_family_mentions": []
+    }
+  ]
+}

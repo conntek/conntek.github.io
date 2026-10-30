@@ -15,9 +15,9 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2023-10-10</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 6 分钟</span></p>
 
-<p class="c-lead">汽车座椅、天窗、电动尾门等电机需要可靠地监测「开-关」状态，而机械开关容易磨损、受温湿度影响。本文介绍霍尔效应原理、车规级霍尔开关 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的特性，以及它在电机和汽车部件中的应用。</p>
+<p class="c-lead">汽车座椅、天窗、电动尾门等电机需要可靠地监测「开-关」状态，而机械开关容易磨损、受温湿度影响。本文介绍霍尔效应原理、车规级霍尔开关 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的特性，以及它在电机和汽车部件中的应用。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>霍尔效应传感器不受磨损、温度或湿度影响，比机械开关更可靠</li><li><a class="c-xref" href="/products/switch/kth25">KTH2502</a> 工作电压 2.7 ~ 32 V，工作温度 -40 ~ 150 ℃</li><li><a class="c-xref" href="/products/switch/kth25">KTH2502</a> 上电时间 35 μs，适用于 BLDC 电机三霍尔开关方案</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>霍尔效应传感器不受磨损、温度或湿度影响，比机械开关更可靠</li><li><a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 工作电压 2.7 ~ 32 V，工作温度 -40 ~ 150 ℃</li><li><a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 上电时间 35 μs，适用于 BLDC 电机三霍尔开关方案</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/hall-sensor-automotive-switch/9.webp" alt="如何借助霍尔效应传感器打造车规级智能「开-关」监测系统"></figure>
 
@@ -45,19 +45,19 @@ VH = B·I·RH
 
 ## KTH2502 霍尔开关
 
-对于更为复杂和高要求的应用，特别是在车辆和高性能工业设备中，一个高性能、可靠的霍尔效应传感器是非常必要的。这就是我们产品 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 能够发挥作用的地方。
+对于更为复杂和高要求的应用，特别是在车辆和高性能工业设备中，一个高性能、可靠的霍尔效应传感器是非常必要的。这就是我们产品 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 能够发挥作用的地方。
 
-<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 是一个高电磁兼容性和多灵敏度选项的霍尔效应传感器，非常适用于高性能的应用场合。它具有高度的电磁兼容性，工作温度范围为 -40 ~ 150 ℃，能在各种环境条件下保持稳定性。
+<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 是一个高电磁兼容性和多灵敏度选项的霍尔效应传感器，非常适用于高性能的应用场合。它具有高度的电磁兼容性，工作温度范围为 -40 ~ 150 ℃，能在各种环境条件下保持稳定性。
 
-更值得一提的是，如下图所示，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 采用先进的斩波技术（内置零漂移放大器），集成了温度补偿电路，具有小于 10 μV 的失调电压和极低的失调漂移特性，在工作温度范围内有着卓越灵敏度和温度稳定性。其开漏输出级具有高达 30 mA 的灌电流驱动能力，具有抛负载能力和输出短路过流保护功能。2.7 ~ 32 V 的宽工作电压范围，采用 SOT-23-3L 和 TO-92S 封装，反接保护电压高达 -32 V，广泛适用于众多的汽车及工业领域。
+更值得一提的是，如下图所示，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 采用先进的斩波技术（内置零漂移放大器），集成了温度补偿电路，具有小于 10 μV 的失调电压和极低的失调漂移特性，在工作温度范围内有着卓越灵敏度和温度稳定性。其开漏输出级具有高达 30 mA 的灌电流驱动能力，具有抛负载能力和输出短路过流保护功能。2.7 ~ 32 V 的宽工作电压范围，采用 SOT-23-3L 和 TO-92S 封装，反接保护电压高达 -32 V，广泛适用于众多的汽车及工业领域。
 
-<figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/3.webp" alt="KTH2502 功能框图" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth25">KTH2502</a> 功能框图</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/3.webp" alt="KTH2502 功能框图" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 功能框图</figcaption></figure>
 
 一般在设计使用霍尔效应传感器的系统时，有几个关键因素需要重视：
 
 ### 触发阈值
 
-<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 提供多个灵敏度选项，可以根据具体应用选择最合适的触发阈值。
+<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 提供多个灵敏度选项，可以根据具体应用选择最合适的触发阈值。
 
 ### 尺寸和位置
 
@@ -67,7 +67,7 @@ VH = B·I·RH
 
 电源电压和接口类型需要与系统兼容，以实现稳定的性能。
 
-霍尔效应传感器因其高度的可靠性和准确性，在现代「开-关」状态监测系统中越来越受到青睐。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 作为一款高性能的霍尔效应传感器，无疑是这一应用场景中的理想选择。通过其高电磁兼容性和多重保护机制，以及灵活的灵敏度选项，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 能够在各种复杂环境和应用中提供稳定、准确的性能。
+霍尔效应传感器因其高度的可靠性和准确性，在现代「开-关」状态监测系统中越来越受到青睐。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 作为一款高性能的霍尔效应传感器，无疑是这一应用场景中的理想选择。通过其高电磁兼容性和多重保护机制，以及灵活的灵敏度选项，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 能够在各种复杂环境和应用中提供稳定、准确的性能。
 
 ## 电机三霍尔开关方案
 
@@ -75,9 +75,9 @@ VH = B·I·RH
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/8.webp" alt="电机三霍尔开关位置与输出信号" loading="lazy"><figcaption>电机三霍尔开关位置与输出信号</figcaption></figure>
 
-这里，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的一些关键特性，如多灵敏度选项（BOP/BRP）、高温稳定性和快速上电时间（35 μs），使其成为电机三霍尔开关应用的优选。首先，其多灵敏度选项允许设计者根据电机的具体需求进行灵敏度设置，以便更准确地捕捉到电机转子的微小变化。其次，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的卓越的温度稳定性确保了在各种工作条件下都能提供可靠的性能。最后，该传感器的快速上电时间和宽电压工作范围允许更灵活的系统设计，并可减少系统响应时间。
+这里，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的一些关键特性，如多灵敏度选项（BOP/BRP）、高温稳定性和快速上电时间（35 μs），使其成为电机三霍尔开关应用的优选。首先，其多灵敏度选项允许设计者根据电机的具体需求进行灵敏度设置，以便更准确地捕捉到电机转子的微小变化。其次，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的卓越的温度稳定性确保了在各种工作条件下都能提供可靠的性能。最后，该传感器的快速上电时间和宽电压工作范围允许更灵活的系统设计，并可减少系统响应时间。
 
-在使用三霍尔开关配置的电机应用中，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 可以帮助提高整体系统的效率和可靠性。这不仅可以减少能耗，还有助于延长电机和相关电子设备的使用寿命。由于 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 具有车规级别的高负载突降能力和高级保护功能，包括反向电源保护和高 ESD 等级，它也非常适用于在复杂和多变的汽车环境中运行。这样，不仅可以确保电机控制系统的稳定运行，还可以提供额外的安全保障。
+在使用三霍尔开关配置的电机应用中，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 可以帮助提高整体系统的效率和可靠性。这不仅可以减少能耗，还有助于延长电机和相关电子设备的使用寿命。由于 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 具有车规级别的高负载突降能力和高级保护功能，包括反向电源保护和高 ESD 等级，它也非常适用于在复杂和多变的汽车环境中运行。这样，不仅可以确保电机控制系统的稳定运行，还可以提供额外的安全保障。
 
 ## KTH2502 实际应用案例
 
@@ -85,41 +85,41 @@ VH = B·I·RH
 
 ### 汽车转速检测和显示
 
-在汽车仪表板上，转速表是一个关键元素，用于显示车辆发动机的转速。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 由于其高温稳定性和多灵敏度选项，非常适用于这一应用。该传感器可以被安置在与发动机飞轮或曲轴接近的位置，以便准确地检测其旋转速度。由于 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的快速上电时间（35 μs）和宽工作电压范围（2.7 ~ 32 V），它可以即时反应和持久工作，且无需外部稳压器。器件的高电磁兼容性和 ESD 等级也使其能够在复杂的车用环境中稳定运行。
+在汽车仪表板上，转速表是一个关键元素，用于显示车辆发动机的转速。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 由于其高温稳定性和多灵敏度选项，非常适用于这一应用。该传感器可以被安置在与发动机飞轮或曲轴接近的位置，以便准确地检测其旋转速度。由于 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的快速上电时间（35 μs）和宽工作电压范围（2.7 ~ 32 V），它可以即时反应和持久工作，且无需外部稳压器。器件的高电磁兼容性和 ESD 等级也使其能够在复杂的车用环境中稳定运行。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/11.webp" alt="汽车仪表盘上的转速表" loading="lazy"><figcaption>汽车仪表盘上的转速表</figcaption></figure>
 
 ### 车窗玻璃上下控制的电机
 
-车窗玻璃的上下控制需要一个既快速又可靠的传感器来检测玻璃位置和电机状态。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的小封装尺寸和快速响应时间使其成为这一应用的理想选择。此外，其反向电源保护和高 ESD 等级确保了在突发情况下也能可靠工作。
+车窗玻璃的上下控制需要一个既快速又可靠的传感器来检测玻璃位置和电机状态。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的小封装尺寸和快速响应时间使其成为这一应用的理想选择。此外，其反向电源保护和高 ESD 等级确保了在突发情况下也能可靠工作。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/13.webp" alt="车窗升降器与驱动电机" loading="lazy"><figcaption>车窗升降器与驱动电机</figcaption></figure>
 
 ### 车顶玻璃窗的运动电机
 
-车顶窗电机是高级汽车常见的配件，需要精确的控制以确保平滑和安全的操作。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的多灵敏度选项和温度稳定性使其能够准确检测车顶窗的位置和状态。这不仅提供了更好的用户体验，还增加了系统的安全性。
+车顶窗电机是高级汽车常见的配件，需要精确的控制以确保平滑和安全的操作。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的多灵敏度选项和温度稳定性使其能够准确检测车顶窗的位置和状态。这不仅提供了更好的用户体验，还增加了系统的安全性。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/15.webp" alt="汽车车顶玻璃天窗" loading="lazy"><figcaption>汽车车顶玻璃天窗</figcaption></figure>
 
 ### 电动座椅调节器
 
-现代豪华汽车中的电动座椅调节器不仅需要精确，还需要快速和可靠。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的多灵敏度选项和高温稳定性使其非常适合用于这种应用。它可以被用来感测座椅位置的微小变化，并及时传输数据给控制系统。其小封装尺寸也适用于座椅结构的紧凑空间。
+现代豪华汽车中的电动座椅调节器不仅需要精确，还需要快速和可靠。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的多灵敏度选项和高温稳定性使其非常适合用于这种应用。它可以被用来感测座椅位置的微小变化，并及时传输数据给控制系统。其小封装尺寸也适用于座椅结构的紧凑空间。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/17.webp" alt="汽车电动座椅" loading="lazy"><figcaption>汽车电动座椅</figcaption></figure>
 
 ### 车载空调系统
 
-<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 可以用于车载空调系统中，用于检测和控制风扇速度或者空调压缩机的状态。其数字双极锁存特性使得该传感器可以很好地区分「开」与「关」状态，同时高达 36 V 的负载突降支持和开漏输出能够与车载电子系统灵活对接。
+<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 可以用于车载空调系统中，用于检测和控制风扇速度或者空调压缩机的状态。其数字双极锁存特性使得该传感器可以很好地区分「开」与「关」状态，同时高达 36 V 的负载突降支持和开漏输出能够与车载电子系统灵活对接。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/19.webp" alt="车载空调出风口" loading="lazy"><figcaption>车载空调出风口</figcaption></figure>
 
 ### 车辆防盗系统
 
-<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 可以用于汽车的防盗系统，特别是在需要非接触式监测或密钥识别的应用中。其卓越的温度稳定性和高灵敏度选项使其能够在各种环境条件下可靠地工作。例如，传感器可以被安置在车钥匙插孔附近，用于检测是否插入了正确的钥匙。
+<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 可以用于汽车的防盗系统，特别是在需要非接触式监测或密钥识别的应用中。其卓越的温度稳定性和高灵敏度选项使其能够在各种环境条件下可靠地工作。例如，传感器可以被安置在车钥匙插孔附近，用于检测是否插入了正确的钥匙。
 
 <figure class="c-blog-fig"><img src="/blog/hall-sensor-automotive-switch/21.webp" alt="插入车门锁孔的钥匙" loading="lazy"><figcaption>插入车门锁孔的钥匙</figcaption></figure>
 
-在所有这些应用中，<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 的高温稳定性、多灵敏度选项、小封装尺寸和保护功能都使其成为一种非常可靠和高性能的选择。同时，该传感器的广泛工作电压范围和快速上电时间也确保了其在多种车规级别应用中的通用性和效率。
+在所有这些应用中，<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 的高温稳定性、多灵敏度选项、小封装尺寸和保护功能都使其成为一种非常可靠和高性能的选择。同时，该传感器的广泛工作电压范围和快速上电时间也确保了其在多种车规级别应用中的通用性和效率。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2023-10-10。<a href="https://mp.weixin.qq.com/s/zL5YasWYBP7GkNPRjnr5bw" target="_blank" rel="noopener">查看原文</a></p>
 

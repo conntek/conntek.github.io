@@ -46,7 +46,7 @@ KTM5300 采用离轴安装，配合垂直霍尔与数字算法实现高精度离
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTM5300</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM5300%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM5300 产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>适用</th><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td rowspan="1" class="c-docs__scene">通用</td><td class="c-mono">KTM5300</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM5300%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM5300 产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
 
 ## 同类产品
 

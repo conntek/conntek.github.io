@@ -44,7 +44,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headli
 
 <p class="c-sec-lead">通用工程建议，实际设计以产品手册与实测为准。</p>
 
-<ul class="c-checklist"><li>相线、母线电容和功率管的大电流回路远离芯片，去线与回线平行靠近；杂散磁场在堵转和满载时最强，要在这两个工况下复测角度读数。</li><li>按最高转速和电机极对数折算一次延时对应的电角滞后，高速段的验收要在目标转速下做，不能只在低速台架上看精度。</li><li>角度读取时刻与相电流采样对齐到 PWM 周期的同一位置，两者错开会表现为额外的换相滞后，靠调整软件时序即可消除。</li><li>UVW 对极数设成与电机极对数一致；UVW 输出选 <a class="c-xref" href="/products/encoder/kth78/kth7812-x-n-qn16">KTH7812</a> / <a class="c-xref" href="/products/encoder/kth78/kth7813-x-n-qn16">KTH7813</a> 等 QFN16 封装型号，SOP-8 封装型号只有 PWM / SPI 输出。</li></ul>
+<ul class="c-checklist"><li>相线、母线电容和功率管的大电流回路远离芯片，去线与回线平行靠近；杂散磁场在堵转和满载时最强，要在这两个工况下复测角度读数。</li><li>按最高转速和电机极对数折算一次延时对应的电角滞后，高速段的验收要在目标转速下做，不能只在低速台架上看精度。</li><li>角度读取时刻与相电流采样对齐到 PWM 周期的同一位置，两者错开会表现为额外的换相滞后，靠调整软件时序即可消除。</li><li>UVW 对极数设成与电机极对数一致；UVW 输出选 <a class="c-xref" href="/products/encoder/kth78/kth7812">KTH7812</a> / <a class="c-xref" href="/products/encoder/kth78/kth7813">KTH7813</a> 等 QFN16 封装型号，SOP-8 封装型号只有 PWM / SPI 输出。</li></ul>
 
 ## 相关案例
 

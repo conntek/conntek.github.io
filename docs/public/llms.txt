@@ -7,24 +7,27 @@
 
 ## 产品系列
 
-- [KTH57 系列 三轴线性霍尔传感器](https://conntek.github.io/products/3d-hall/kth57)：测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗
-- [KTH55 系列 垂直霍尔绝对角度传感器](https://conntek.github.io/products/3d-hall/kth55)：垂直霍尔配合 16 位 ADC，0 ~ 360° 绝对角度输出，符合 AEC-Q100
+- [KTH57 系列 三轴线性霍尔传感器](https://conntek.github.io/products/3d-hall/kth57)：测量 X、Y、Z 三轴磁场，I2C / SPI 可选，工作模式在线配置，兼顾性能与功耗（10 个型号页）
+- [KTH55 系列 垂直霍尔绝对角度传感器](https://conntek.github.io/products/3d-hall/kth55)：垂直霍尔配合 16 位 ADC，0 ~ 360° 绝对角度输出，符合 AEC-Q100（1 个型号页）
 - [KTM52 系列 21 位高精度 AMR 角度编码器](https://conntek.github.io/products/encoder/ktm52)：21 位分辨率，一键自校准后 INL ±0.015°（典型值），最高 60000 rpm
 - [KTM53 系列 离轴 AMR 角度编码器](https://conntek.github.io/products/encoder/ktm53)：AMR 配合垂直霍尔与数字算法实现离轴测量，校准后 INL ±0.03°（典型值）
-- [KTM58 系列 30 bit 绝对角度细分器](https://conntek.github.io/products/encoder/ktm58)：最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅
+- [KTM58 系列 30 bit 绝对角度细分器](https://conntek.github.io/products/encoder/ktm58)：最大 4096 对极输入，30 bit 绝对角度细分，适配磁电阻与光编、光栅、磁栅（1 个型号页）
 - [KTM59 系列 高速 TMR 磁编码器](https://conntek.github.io/products/encoder/ktm59)：双 16 bit 2M SAR ADC，单对极细分 24 bit，最高 180,000 rpm（2 个型号页）
-- [KTH78 系列 低延时霍尔绝对角度编码器](https://conntek.github.io/products/encoder/kth78)：16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用（17 个型号页）
-- [KTH71 系列 自校准霍尔磁编码器](https://conntek.github.io/products/encoder/kth71)：内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°（3 个型号页）
+- [KTH78 系列 低延时霍尔绝对角度编码器](https://conntek.github.io/products/encoder/kth78)：16 位分辨率，系统延时 1 μs 并做延时补偿，全系支持在轴与离轴应用（25 个型号页）
+- [KTH71 系列 自校准霍尔磁编码器](https://conntek.github.io/products/encoder/kth71)：内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°（6 个型号页）
 - [KTO95 系列 游标绝对值光学编码器](https://conntek.github.io/products/encoder/kto95)：集成高清相位阵列光电传感器，三通道 Nonius 插值实现最高 24 位单圈分辨率
-- [KTH13/16/17 系列 微功耗 1D 霍尔开关](https://conntek.github.io/products/switch/kth16)：CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型（23 个型号页）
-- [KTH25 系列 车规级高压霍尔开关](https://conntek.github.io/products/switch/kth25)：斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V（3 个型号页）
-- [KTM13 系列 TMR 磁阻开关](https://conntek.github.io/products/switch/ktm13)：TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯（59 个型号页）
-- [KTM28 系列 AMR 高压气缸开关](https://conntek.github.io/products/switch/ktm28)：SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场（2 个型号页）
-- [KTH31 系列 比例式线性霍尔传感器](https://conntek.github.io/products/switch/kth31)：按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选（6 个型号页）
-- [KTH460 系列 微功耗 3D 霍尔开关](https://conntek.github.io/products/switch/kth460)：X、Y、Z 三维全极检测，SPIN 与数字滤波技术保证稳定的工作点与开关频率（2 个型号页）
-- [KTH462 系列 超灵敏 2D 霍尔开关](https://conntek.github.io/products/switch/kth462)：检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号（4 个型号页）
+- [KTH13/16/17 系列 微功耗 1D 霍尔开关](https://conntek.github.io/products/switch/kth16)：CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型（39 个型号页）
+- [KTH25 系列 车规级高压霍尔开关](https://conntek.github.io/products/switch/kth25)：斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V（6 个型号页）
+- [KTM13 系列 TMR 磁阻开关](https://conntek.github.io/products/switch/ktm13)：TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯（70 个型号页）
+- [KTM28 系列 AMR 高压气缸开关](https://conntek.github.io/products/switch/ktm28)：SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场（4 个型号页）
+- [KTH31 系列 比例式线性霍尔传感器](https://conntek.github.io/products/switch/kth31)：按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选（7 个型号页）
+- [KTH460 系列 微功耗 3D 霍尔开关](https://conntek.github.io/products/switch/kth460)：X、Y、Z 三维全极检测，SPIN 与数字滤波技术保证稳定的工作点与开关频率（3 个型号页）
+- [KTH462 系列 超灵敏 2D 霍尔开关](https://conntek.github.io/products/switch/kth462)：检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号（5 个型号页）
 - [KTH564 系列 线性霍尔芯片](https://conntek.github.io/products/switch/linear-hall)：零磁场输出 1/2 VCC，输出随磁通密度线性变化，多档灵敏度匹配不同检测范围（11 个型号页）
-- [KTAx333 系列 零温漂高精度运放](https://conntek.github.io/products/other/ktax33)：自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出
+- [KTH26 系列 高压霍尔开关](https://conntek.github.io/products/switch/kth26)：宽电压磁场状态检测，提供单极与双极锁存型号。（3 个型号页）
+- [KTH468N 霍尔磁开关](https://conntek.github.io/products/switch/kth468n)：磁场状态检测，采用 SOT-23-5L 封装。（1 个型号页）
+- [KTAx333 系列 零温漂高精度运放](https://conntek.github.io/products/other/ktax33)：自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出（1 个型号页）
+- [KTP112 数字温度传感器](https://conntek.github.io/products/other/ktp112)：低功耗数字温度检测，1.8～5.5 V 供电，DFN2×2-6L 封装。（1 个型号页）
 - [磁旋钮系列 隔空角度检测磁旋钮](https://conntek.github.io/products/knob/knob)：磁-电分离设计，隔空角度检测，防水防尘 IP67，模块化即插即用
 
 ## 应用案例
@@ -150,25 +153,70 @@
 - [联系我们](https://conntek.github.io/contact)
 - [磁仿真与技术服务](https://conntek.github.io/services)
 
-## 具体型号与资料（2026-10-30）
-- [KTH5502](https://conntek.github.io/products/3d-hall/kth55/kth5502): KTH5502 将三轴霍尔感知与角度计算集成在单芯片中，提供数字、增量、PWM 与模拟等输出路径，选型时需先确定实际使用的接口和安装方式。
-- [KTH5701](https://conntek.github.io/products/3d-hall/kth57/kth5701): KTH5701 是面向位置检测的三轴数字霍尔传感器；它提供磁场信息，摇杆、旋钮和位移输出仍取决于磁体几何、测量配置与标定。
-- [KTH5702](https://conntek.github.io/products/3d-hall/kth57/kth5702): KTH5702 的已核对AQ1手册将其定义为X/Y两轴Hall旋转位置传感器，集成CORDIC输出XY平面绝对角度；测量模式和转换配置决定响应与功耗。
-- [KTH5721](https://conntek.github.io/products/3d-hall/kth57/kth5721): KTH5721 的公开手册首页提供XYZ磁场、温度及XY/XZ/YZ平面CORDIC角度输出，内部采用16位ADC；AQ2工业级与AQ3消费级需要按后缀分别选型。
-- [KTH5761](https://conntek.github.io/products/3d-hall/kth57/kth5761): KTH5761AQ3 是带温度输出的三轴数字Hall传感器，V2.0手册首页提供I²C、周期循环和单次测量路径，可用于摇杆、线性位置与非接触磁场感知。
-- [KTH5771](https://conntek.github.io/products/3d-hall/kth57/kth5771): KTH5771 是面向摇杆与操纵输入的三轴Hall传感器，公开v1.0手册首页提供双路模拟输出，并通过中点、外圈校准和磁场分量比值处理完成机构输入映射。
-- [KTH5772](https://conntek.github.io/products/3d-hall/kth57/kth5772): KTH5772 是摇杆输入用三轴Hall传感器，公开v1.0手册介绍内部16位ADC、UART及I²C数字接口和可配置回报率；实际手感由机构、配置与标定共同决定。
-- [KTH5774](https://conntek.github.io/products/3d-hall/kth57/kth5774): KTH5774 面向摇杆和操纵杆，公开v1.3手册首页列出UART/I²C数字接口、双路模拟输出以及中点和外圈多点校准，适合评估不同主控的输入路径。
-- [KTH5791](https://conntek.github.io/products/3d-hall/kth57/kth5791): KTH5791AQ3QNS 是鼠标滚轮专用3D Hall芯片，公开旧说明书提供正交AB输出、I²C通信，以及标准24格到可编程128格的滚轮配置。
-- [KTH7101](https://conntek.github.io/products/encoder/kth71/kth7101): KTH7101 是带自动非线性校准的磁角度编码器，适合在明确磁路和接口配置后评估绝对角度与增量反馈；SOP8 引脚资源限制需要单独核对。
-- [KTH7801](https://conntek.github.io/products/encoder/kth78/kth7801): KTH7801 是 Hall 绝对角度编码器，来源列出数字、增量与 PWM 等接口，可用于电机位置和旋转机构反馈；具体接口组合与车规等级需要按订货资料核对。
-- [KTM5800](https://conntek.github.io/products/encoder/ktm58/ktm5800): KTM5800 是面向 AMR/TMR 正余弦信号的角度细分器，适合多极磁环或磁栅的读数链；其作用是处理外部传感信号，不能直接等同于完整绝对编码器。
-- [KTM5900](https://conntek.github.io/products/encoder/ktm59/ktm5900): KTM5900 集成 TMR 感知和高速角度处理，单对极位置可用较高码宽输出；选型应同时核对噪声、校准误差、输出频率和磁感中心。
-- [KTH1601](https://conntek.github.io/products/switch/kth16/kth1601): KTH1601 是全极性微功耗霍尔开关，公开手册首页明确采用CMOS推挽输出；采样频率、磁门限和封装应按完整型号一起选择。
-- [KTH2502](https://conntek.github.io/products/switch/kth25/kth2502): KTH2502 是双极锁存Hall开关系列，具有宽电源和开漏输出；QA/QB/QC门限、封装磁方向和上电状态决定其在旋转或位置事件检测中的用法。
-- [KTH462N](https://conntek.github.io/products/switch/kth462): KTH462N 是二维锁存霍尔开关系列，KTH4621 输出两个轴的独立状态，KTH4622 输出速度与方向；A/B/C 版本对应 XY/XZ/YZ 敏感平面。
-- [KTH468N](https://conntek.github.io/products/switch/kth468n): KTH468N 是来源矩阵中的三维全极性微功耗霍尔开关，适合在确认各轴判决关系和阈值配置后评估多方向磁体接近检测。
-- [KTM1301](https://conntek.github.io/products/switch/ktm13/ktm1301): KTM1301 是全极性TMR微功耗磁开关，采用CMOS推挽输出；50Hz、1.6kHz与连续工作档分别对应不同功耗，适合按事件速度选择状态检测方案。
-- [KTM2802N](https://conntek.github.io/products/switch/ktm28/ktm2802n): KTM2802N 是面向气缸磁性端位检测的 AMR 开关型号，二线/三线接法和输出类型应按本型号电路确定，不能仅凭系列名称替换簧片开关。
-- [KTH31xx](https://conntek.github.io/products/switch/kth31): KTH31XX 是比例式线性霍尔系列，输出电压随磁场变化，可用于磁场测量或机构位移的前端感知；灵敏度档和机械映射需要分开选。
-- [KTAx333](https://conntek.github.io/products/other/ktax33): KTAx333 是精密运算放大器系列入口，来源详情对应 KTA333 单通道型号；用于传感器调理时，需把失调、带宽、共模范围与负载放在同一电路中评估。
+## 产品型号
+- [KTAx333](https://conntek.github.io/products/other/ktax33): KTAx333系列采用自校准CMOS运放结构，为温度、桥式传感器和微小信号调理提供低失调与微功耗放大路径。
+- [KTH1361](https://conntek.github.io/products/switch/kth16/kth1361): KTH1361 为X轴全极霍尔开关，供电范围 2.5 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1362](https://conntek.github.io/products/switch/kth16/kth1362): KTH1362 为X轴全极霍尔开关，供电范围 2.5 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1601](https://conntek.github.io/products/switch/kth16/kth1601): KTH1601是一款全极性微功耗Hall开关，采用CMOS推挽输出，面向电池设备的磁体接近、翻盖和门窗状态检测。
+- [KTH1601S](https://conntek.github.io/products/switch/kth16/kth1601s): KTH1601S 为全极磁开关，供电范围 1.6 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 HFBP1010-4L 封装。
+- [KTH1604](https://conntek.github.io/products/switch/kth16/kth1604): KTH1604 为双输出单极霍尔开关，供电范围 1.6 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 HFBP1010-4L 封装。
+- [KTH1604S](https://conntek.github.io/products/switch/kth16/kth1604s): KTH1604S 为双输出单极霍尔开关，供电范围 1.6 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 HFBP1010-4L 封装。
+- [KTH1611](https://conntek.github.io/products/switch/kth16/kth1611): KTH1611 为南极单极霍尔开关，供电范围 1.6 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 SOT-23-3L 封装。
+- [KTH1621](https://conntek.github.io/products/switch/kth16/kth1621): KTH1621 为北极单极霍尔开关，供电范围 1.6 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 SOT-23-3L 封装。
+- [KTH1631](https://conntek.github.io/products/switch/kth16/kth1631): KTH1631 为双极锁存磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 SOT-23-3L 封装。
+- [KTH1642](https://conntek.github.io/products/switch/kth16/kth1642): KTH1642 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 SOT-23-3L 封装。
+- [KTH1701](https://conntek.github.io/products/switch/kth16/kth1701): KTH1701 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1702](https://conntek.github.io/products/switch/kth16/kth1702): KTH1702 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1711](https://conntek.github.io/products/switch/kth16/kth1711): KTH1711 为南极单极霍尔开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1721](https://conntek.github.io/products/switch/kth16/kth1721): KTH1721 为北极单极霍尔开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1722](https://conntek.github.io/products/switch/kth16/kth1722): KTH1722 为北极单极霍尔开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH1731P](https://conntek.github.io/products/switch/kth16/kth1731p): KTH1731P 为双极锁存磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 HFBP1010-4C 封装。
+- [KTH2502](https://conntek.github.io/products/switch/kth25/kth2502): KTH2502是宽电源双极锁存Hall开关系列，集成斩波感知、温度补偿与开漏输出，适用于交替磁极形成的位置和转速事件检测。
+- [KTH2562L](https://conntek.github.io/products/switch/kth25/kth2562l): KTH2562L 是宽电压数字双极锁存霍尔开关，3.8～60 V 供电，NMOS 开漏输出。提供 A/C 两档磁阈值与 ST3、SS3、TO3 三种封装，适用于转动、换向和位置状态检测。
+- [KTH2582](https://conntek.github.io/products/switch/kth25/kth2582): KTH2582 为高压双极锁存霍尔开关，供电范围 2.7 ~ 32 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH2612](https://conntek.github.io/products/switch/kth26/kth2612): KTH2612 为高压单极霍尔开关，供电范围 3.8 ~ 60 V，工作温度 -40 ~ 125 °C，采用 SOT23 封装。
+- [KTH2631](https://conntek.github.io/products/switch/kth26/kth2631): KTH2631 为高压双极锁存霍尔开关，供电范围 3.8 ~ 60 V，工作温度 -40 ~ 125 °C，采用 SOT23 封装。
+- [KTH2632](https://conntek.github.io/products/switch/kth26/kth2632): KTH2632 为高压双极锁存霍尔开关，供电范围 3.8 ~ 60 V，工作温度 -40 ~ 125 °C，采用 SOT23 封装。
+- [KTH31xx](https://conntek.github.io/products/switch/kth31): KTH31XX系列为比例式模拟输出Hall传感器，感知垂直于封装顶部的磁场，并以电源中点为静态输出基准，适合磁场及机构位置前端。
+- [KTH4603](https://conntek.github.io/products/switch/kth460/kth4603): KTH4603 为三维全极霍尔开关，供电范围 2.5 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTH462N](https://conntek.github.io/products/switch/kth462): KTH462N系列集成两路正交Hall锁存检测，提供独立轴状态或速度/方向输出，面向旋转和二维磁状态输入。
+- [KTH468N](https://conntek.github.io/products/switch/kth468n): KTH468N 为霍尔磁开关，采用 SOT-23-5L 封装。供电范围 2.5～5.5 V，工作温度 −40～125 °C。
+- [KTH5502](https://conntek.github.io/products/3d-hall/kth55/kth5502): KTH5502采用垂直Hall感知与片上角度处理，将磁体旋转转换为数字角度、增量脉冲或模拟/PWM信号，为旋转输入和电机位置检测提供多种接入选择。
+- [KTH5701](https://conntek.github.io/products/3d-hall/kth57/kth5701): KTH5701是一款三轴数字Hall位置传感器，采集X、Y、Z方向磁场，为旋钮、摇杆、换挡机构和位移检测提供磁场与角度处理基础。
+- [KTH5702](https://conntek.github.io/products/3d-hall/kth57/kth5702): KTH5702通过匹配的X/Y两轴Hall元件及片上CORDIC处理，输出XY平面绝对角度，适合旋钮、旋转输入和二维角度检测。
+- [KTH5721](https://conntek.github.io/products/3d-hall/kth57/kth5721): KTH5721集成XYZ磁场测量、温度输出与平面CORDIC角度处理，可用于家电机构、旋钮和位置感知，在同一器件上获得磁场与角度两类信息。
+- [KTH5761](https://conntek.github.io/products/3d-hall/kth57/kth5761): KTH5761AQ3是一款带温度输出的三轴数字Hall传感器，以小封装和灵活测量模式服务摇杆、线性位置及非接触磁场检测。
+- [KTH5762](https://conntek.github.io/products/3d-hall/kth57/kth5762): KTH5762 为三维角度传感器，供电范围 2.8 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 DFN2x2.5-8L 封装。
+- [KTH5763](https://conntek.github.io/products/3d-hall/kth57/kth5763): KTH5763 为三维角度传感器，供电范围 2.8 ~ 5.5 V，工作温度 -40 ~ 85 °C，采用 DFN2x2.5-8L 封装。
+- [KTH5771](https://conntek.github.io/products/3d-hall/kth57/kth5771): KTH5771针对摇杆及操纵输入设计，将三轴Hall感知、内部16位转换与双路模拟输出集成在单芯片内，便于连接使用ADC采样的主控。
+- [KTH5772](https://conntek.github.io/products/3d-hall/kth57/kth5772): KTH5772面向游戏手柄与操纵杆的数字输入设计，集成三轴Hall与16位ADC，通过UART或I²C向主控提供运动数据。
+- [KTH5774](https://conntek.github.io/products/3d-hall/kth57/kth5774): KTH5774为摇杆和操纵杆提供数字与模拟两类接入路径，集成XYZ Hall感知、内部16位ADC以及UART、I²C和双路模拟输出功能。
+- [KTH5791](https://conntek.github.io/products/3d-hall/kth57/kth5791): KTH5791AQ3QNS面向鼠标磁滚轮，将三轴Hall感知与标准正交AB输出结合，支持在轴及离轴安装路径。
+- [KTH7101](https://conntek.github.io/products/encoder/kth71/kth7101): KTH7101将磁角度感知、角度计算与ANLC自动非线性校准集成在SOP8中，为紧凑旋转机构提供绝对位置与增量反馈路径。
+- [KTH7111](https://conntek.github.io/products/encoder/kth71/kth7111): KTH7111 为离轴磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7112](https://conntek.github.io/products/encoder/kth71/kth7112): KTH7112 为在轴磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7801](https://conntek.github.io/products/encoder/kth78/kth7801): KTH7801面向旋转位置和电机控制，集成Hall角度测量及数字、增量和PWM相关输出路径，便于匹配不同控制器的反馈接口。
+- [KTH7812](https://conntek.github.io/products/encoder/kth78/kth7812): KTH7812 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7813](https://conntek.github.io/products/encoder/kth78/kth7813): KTH7813 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7814](https://conntek.github.io/products/encoder/kth78/kth7814): KTH7814 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7815](https://conntek.github.io/products/encoder/kth78/kth7815): KTH7815 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7816](https://conntek.github.io/products/encoder/kth78/kth7816): KTH7816 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTH7823](https://conntek.github.io/products/encoder/kth78/kth7823): KTH7823 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 105 °C，采用 QFN3x3-16L 封装。
+- [KTH7824](https://conntek.github.io/products/encoder/kth78/kth7824): KTH7824 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN3x3-16L 封装。
+- [KTM1301](https://conntek.github.io/products/switch/ktm13/ktm1301): KTM1301是一款全极性TMR磁开关，采用CMOS推挽输出，为翻盖、门磁及旋转计数等磁事件提供低功耗数字状态。
+- [KTM1302](https://conntek.github.io/products/switch/ktm13/ktm1302): KTM1302 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1302L](https://conntek.github.io/products/switch/ktm13/ktm1302l): KTM1302L 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1302R](https://conntek.github.io/products/switch/ktm13/ktm1302r): KTM1302R 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1304](https://conntek.github.io/products/switch/ktm13/ktm1304): KTM1304 为全极磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 DFN2x2-3L 封装。
+- [KTM1305](https://conntek.github.io/products/switch/ktm13/ktm1305): KTM1305 为全极磁开关，供电范围 1.2 ~ 3.6 V，工作温度 -40 ~ 85 °C，采用 LGA-4 封装。
+- [KTM1311](https://conntek.github.io/products/switch/ktm13/ktm1311): KTM1311 为单极 TMR 磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1312](https://conntek.github.io/products/switch/ktm13/ktm1312): KTM1312 为单极 TMR 磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1321](https://conntek.github.io/products/switch/ktm13/ktm1321): KTM1321 为单极 TMR 磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1331](https://conntek.github.io/products/switch/ktm13/ktm1331): KTM1331 为双极锁存磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM1331R](https://conntek.github.io/products/switch/ktm13/ktm1331r): KTM1331R 为双极锁存磁开关，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 SOT-23-3L 封装。
+- [KTM2802N](https://conntek.github.io/products/switch/ktm28/ktm2802n): KTM2802N是工业AMR气缸磁检测目录中的成员，用于感知活塞磁环经过形成的到位事件。
+- [KTM2802P](https://conntek.github.io/products/switch/ktm28/ktm2802p): KTM2802P 为PNP输出 AMR 气缸位置传感器，供电范围 3.3 ~ 32 V，工作温度 -40 ~ 105 °C，采用 HFBP2*3-6L 封装。
+- [KTM5800](https://conntek.github.io/products/encoder/ktm58/ktm5800): KTM5800为外部AMR/TMR正余弦模拟信号提供角度细分和数字输出处理，适用于多极磁环、磁栅及相关编码器信号链。
+- [KTM5900](https://conntek.github.io/products/encoder/ktm59/ktm5900): KTM5900集成TMR磁敏元件、双16位SAR ADC及角度处理，面向伺服、工业编码器与旋转位置反馈提供高码宽数字角度。
+- [KTM5910](https://conntek.github.io/products/encoder/ktm59/ktm5910): KTM5910 为磁角度编码器，供电范围 3 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 QFN32-5x5 封装。
+- [KTP112](https://conntek.github.io/products/other/ktp112): KTP112 为数字温度传感器，供电范围 1.8 ~ 5.5 V，工作温度 -40 ~ 125 °C，采用 DFN2x2-6L 封装。

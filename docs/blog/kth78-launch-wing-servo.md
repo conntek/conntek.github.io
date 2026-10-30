@@ -17,7 +17,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-lead">传统光电编码器易受灰尘和水汽影响。本文介绍 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列高精度绝对角度霍尔传感器在无人机机翼伺服系统中的应用，涵盖超高速低延时、离轴安装、稳定性与抗干扰、多种输出模式，并给出按需求选型的建议。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列可应对 120000 rpm 转速，角度噪声仅 0.007°</li><li>支持轴向、侧轴和多对极安装，工作磁场 30 ~ 150 mT</li><li>高可靠性选 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a>/7802，兼顾成本选 <a class="c-xref" href="/products/encoder/kth78">KTH7821</a>/7822</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列可应对 120000 rpm 转速，角度噪声仅 0.007°</li><li>支持轴向、侧轴和多对极安装，工作磁场 30 ~ 150 mT</li><li>高可靠性选 <a class="c-xref" href="/products/encoder/kth78/kth7801">KTH7801</a>/7802，兼顾成本选 <a class="c-xref" href="/products/encoder/kth78">KTH7821</a>/7822</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth78-launch-wing-servo/1.webp" alt="KTH78 系列高精度绝对角度霍尔编码器实现机翼伺服系统"></figure>
 
@@ -57,7 +57,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/kth78-launch-wing-servo/10.webp" alt="KTH78 系列各型号特点与应用场景" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列各型号特点与应用场景</figcaption></figure>
 
-若无人机对角度测量要求较高的可靠性，建议选择 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 或 <a class="c-xref" href="/products/encoder/kth78">KTH7802</a> 型号。对于普通无人机机翼伺服系统，<a class="c-xref" href="/products/encoder/kth78">KTH7811</a> 和 <a class="c-xref" href="/products/encoder/kth78/kth7813-x-n-qn16">KTH7813</a> 型号也能提供较好的性能。同时，考虑到成本和性能平衡，<a class="c-xref" href="/products/encoder/kth78">KTH7821</a> 和 <a class="c-xref" href="/products/encoder/kth78">KTH7822</a> 型号是经济实惠的选择。根据不同的无人机应用场景，制造商可以灵活选用 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列传感器，从而实现高精度的角度测量和位置控制，提升无人机的飞行性能和稳定性。
+若无人机对角度测量要求较高的可靠性，建议选择 <a class="c-xref" href="/products/encoder/kth78/kth7801">KTH7801</a> 或 <a class="c-xref" href="/products/encoder/kth78">KTH7802</a> 型号。对于普通无人机机翼伺服系统，<a class="c-xref" href="/products/encoder/kth78">KTH7811</a> 和 <a class="c-xref" href="/products/encoder/kth78/kth7813">KTH7813</a> 型号也能提供较好的性能。同时，考虑到成本和性能平衡，<a class="c-xref" href="/products/encoder/kth78">KTH7821</a> 和 <a class="c-xref" href="/products/encoder/kth78">KTH7822</a> 型号是经济实惠的选择。根据不同的无人机应用场景，制造商可以灵活选用 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列传感器，从而实现高精度的角度测量和位置控制，提升无人机的飞行性能和稳定性。
 
 ## 全文总结
 

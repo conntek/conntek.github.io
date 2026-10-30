@@ -73,7 +73,7 @@ WAIC2026 明确，人形机器人将迎来量产元年，全年整机产量有�
 
 当前 AI 手机、智能座舱、智能家居智能体普遍存在交互卡顿、待机耗电快、操控模组易磨损问题。昆泰芯非接触式磁传感旋钮、姿态检测芯片无物理摩擦，使用寿命提升数十倍；纳安级超低功耗保障设备 7 × 24 小时 AI 待机唤醒；多维磁场检测实现隔空操控、隐藏式交互设计，重塑人与 AI 硬件的交互逻辑，匹配大会提出的「智能伙伴主动服务」发展方向。
 
-<figure class="c-blog-fig"><img src="/blog/physical-ai-sensing-foundation/4.webp" alt="KTM1305 与 KTH46XX 演示方案简介" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/ktm13">KTM1305</a> 与 KTH46XX 演示方案简介</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/physical-ai-sensing-foundation/4.webp" alt="KTM1305 与 KTH46XX 演示方案简介" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/ktm13/ktm1305">KTM1305</a> 与 KTH46XX 演示方案简介</figcaption></figure>
 
 ### 工业 AI 产线稳定性问题
 

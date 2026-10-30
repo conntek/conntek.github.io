@@ -36,7 +36,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headli
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>锁存型可选</h3><p><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a> 锁存型阈值正负对称，最低 ±5 高斯，适合旋转磁铁计数。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>三档频率</h3><p>50 Hz、1600 Hz、5000 Hz 三档，按指针最高转速选档。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>纳安级功耗</h3><p>50 Hz 档平均功耗 160 nA @ 3 V，电量留给远传通信。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>低温可用</h3><p>工作温度 -40 ~ 125 ℃，表井冬季低温下照常翻转。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>锁存型可选</h3><p><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a> 锁存型阈值正负对称，最低 ±5 高斯，适合旋转磁铁计数。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>三档频率</h3><p>50 Hz、1600 Hz、5000 Hz 三档，按指针最高转速选档。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>纳安级功耗</h3><p>50 Hz 档平均功耗 160 nA @ 3 V，电量留给远传通信。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>低温可用</h3><p>工作温度 -40 ~ 125 ℃，表井冬季低温下照常翻转。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

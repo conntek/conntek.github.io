@@ -72,11 +72,3 @@ pageClass: "c-page"
 <div class="c-grid c-grid--4"><a class="c-card" href="/products/encoder/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-encoder.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">7 个系列</span><h3>编码器芯片</h3><p>霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/switch/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-switch.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">8 个系列</span><h3>开关芯片</h3><p>霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/other/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-other.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>其他芯片</h3><p>面向传感器信号放大的零温漂高精度运放</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/knob/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
-
-<!-- audited-model-catalog -->
-
-## 按具体型号查资料
-
-[完整型号目录：21个去重入口](/products/catalog)
-
-<div class="catalog-quicklinks"><a href="/products/3d-hall/kth55/kth5502">KTH5502</a><a href="/products/3d-hall/kth57/kth5701">KTH5701</a><a href="/products/3d-hall/kth57/kth5702">KTH5702</a><a href="/products/3d-hall/kth57/kth5721">KTH5721</a><a href="/products/3d-hall/kth57/kth5761">KTH5761</a><a href="/products/3d-hall/kth57/kth5771">KTH5771</a><a href="/products/3d-hall/kth57/kth5772">KTH5772</a><a href="/products/3d-hall/kth57/kth5774">KTH5774</a><a href="/products/3d-hall/kth57/kth5791">KTH5791</a></div>

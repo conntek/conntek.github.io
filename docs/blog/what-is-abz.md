@@ -7,7 +7,7 @@ date: "2023-09-08"
 ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"什么是 ABZ？KTH7816 做的很不错！\", \"description\": \"ABZ 接口是增量式编码器常见的输出格式。本文以 KTH7816 为例，介绍 A、B、Z 三个通道的定义，用时钟秒针类比解释方向判断与零点参考，并介绍 KTH7816 的 ABZ 输出特性与应用场景。\", \"datePublished\": \"2023-09-08\", \"dateModified\": \"2023-09-08\", \"articleSection\": \"技术科普\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.github.io/img/tt/12.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"mainEntityOfPage\": \"https://conntek.github.io/blog/what-is-abz\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/k3txrAS7LG1YgwCXCLtQWw\"}"
 ---
 
-<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>什么是 ABZ？<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 做的很不错！</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>什么是 ABZ？<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 做的很不错！</span></nav>
 
 <p class="c-kicker">技术科普</p>
 
@@ -15,15 +15,15 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2023-09-08</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 3 分钟</span></p>
 
-<p class="c-lead">ABZ 接口是增量式编码器常见的输出格式。本文以 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 为例，介绍 A、B、Z 三个通道的定义，用时钟秒针类比解释方向判断与零点参考，并介绍 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的 ABZ 输出特性与应用场景。</p>
+<p class="c-lead">ABZ 接口是增量式编码器常见的输出格式。本文以 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 为例，介绍 A、B、Z 三个通道的定义，用时钟秒针类比解释方向判断与零点参考，并介绍 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的 ABZ 输出特性与应用场景。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>A、B 通道输出正交脉冲，由变化顺序判断旋转方向</li><li>Z 通道每转输出一个脉冲，作为新周期的参考点</li><li><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的 ABZ 输出默认最高频率 8 MHz，并加入磁滞抗噪</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>A、B 通道输出正交脉冲，由变化顺序判断旋转方向</li><li>Z 通道每转输出一个脉冲，作为新周期的参考点</li><li><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的 ABZ 输出默认最高频率 8 MHz，并加入磁滞抗噪</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/what-is-abz/11.webp" alt="什么是 ABZ？KTH7816 做的很不错！"></figure>
 
-在工业自动化和电子控制领域中，传感器和编码器的接口标准至关重要。ABZ 接口是编码器输出的一种常见格式，经常被应用在多种工业设备中。在这篇文章中，我们将以 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 编码器为实例详细介绍 ABZ 接口的定义，并使用时钟为例来形象解释其工作原理。
+在工业自动化和电子控制领域中，传感器和编码器的接口标准至关重要。ABZ 接口是编码器输出的一种常见格式，经常被应用在多种工业设备中。在这篇文章中，我们将以 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 编码器为实例详细介绍 ABZ 接口的定义，并使用时钟为例来形象解释其工作原理。
 
-<figure class="c-blog-fig"><img src="/blog/what-is-abz/1.webp" alt="KTH7816 说明书封面" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 说明书封面</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/what-is-abz/1.webp" alt="KTH7816 说明书封面" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 说明书封面</figcaption></figure>
 
 ## ABZ 接口简介
 
@@ -54,24 +54,24 @@ ABZ 信号提供了编码器旋转方向和位置的完整信息。正如一个�
 
 ## KTH7816 ABZ 接口
 
-<figure class="c-blog-fig"><img src="/blog/what-is-abz/14.webp" alt="KTH7816 说明书中 ABZ 输出引脚说明" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 说明书中 ABZ 输出引脚说明</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/what-is-abz/14.webp" alt="KTH7816 说明书中 ABZ 输出引脚说明" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 说明书中 ABZ 输出引脚说明</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 是一款高性能的编码器，它具有 ABZ 输出。这意味着 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 不仅能够提供位置信息，还能够提供旋转的方向和零点参考。此外，<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的 ABZ 输出默认最高频率达到了业界最高水准的 8 MHz。客户可以根据需求选择一圈内有 4096 个 A 信号和 4096 个 B 信号，或者选择 4 ~ 4096 之间的任意整数。此外，为了确保高精度，<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 在设计中加入了磁滞来避免由于微小噪声引起的扰动。
+<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 是一款高性能的编码器，它具有 ABZ 输出。这意味着 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 不仅能够提供位置信息，还能够提供旋转的方向和零点参考。此外，<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的 ABZ 输出默认最高频率达到了业界最高水准的 8 MHz。客户可以根据需求选择一圈内有 4096 个 A 信号和 4096 个 B 信号，或者选择 4 ~ 4096 之间的任意整数。此外，为了确保高精度，<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 在设计中加入了磁滞来避免由于微小噪声引起的扰动。
 
-<figure class="c-blog-fig"><img src="/blog/what-is-abz/15.webp" alt="KTH7816 装在磁铁下方读出磁场角度" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 装在磁铁下方读出磁场角度</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/what-is-abz/15.webp" alt="KTH7816 装在磁铁下方读出磁场角度" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 装在磁铁下方读出磁场角度</figcaption></figure>
 
 ## KTH7816 的应用场景
 
-凭借精确和可靠的 ABZ 输出，<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 可以为各种应用赋能：
+凭借精确和可靠的 ABZ 输出，<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 可以为各种应用赋能：
 
 - 自动化制造线：通过 ABZ 输出，机器臂可以精确移动到指定位置，确保高效和准确的组装。
-- 电梯控制系统：<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 可以确保电梯准确停在所选楼层，提供更好的乘客体验。
-- 数控机床：高精度的切割和雕刻得益于 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的精确位置反馈。
+- 电梯控制系统：<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 可以确保电梯准确停在所选楼层，提供更好的乘客体验。
+- 数控机床：高精度的切割和雕刻得益于 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的精确位置反馈。
 - 自动售货机：确保机械臂能够准确抓取所选产品，增加用户满意度。
 - 自动化仓库：提高货物的选择和存储效率，减少错误，增加生产率。
 - 风力涡轮机：优化叶片的位置，确保最大的能源输出。
 
-ABZ 输出不仅提供了旋转的位置信息，还提供了方向和参考点。这些功能为许多应用提供了必要的反馈，确保了机器和设备的高效、安全和精确运行。而 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a>，凭借其高性能的 ABZ 输出，确保了多种应用场景的优越表现。
+ABZ 输出不仅提供了旋转的位置信息，还提供了方向和参考点。这些功能为许多应用提供了必要的反馈，确保了机器和设备的高效、安全和精确运行。而 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a>，凭借其高性能的 ABZ 输出，确保了多种应用场景的优越表现。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2023-09-08。<a href="https://mp.weixin.qq.com/s/k3txrAS7LG1YgwCXCLtQWw" target="_blank" rel="noopener">查看原文</a></p>
 

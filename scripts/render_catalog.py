@@ -1,72 +1,139 @@
-"""Render the audited public product catalog without copying PDF assets.
-
-The content file contains preserved blog engineering notes, model-specific
-edits, original image provenance, and external document URLs. This is called
-after the legacy renderer so subsequent regeneration preserves the updates.
-"""
-import json,re,html
+"""Supplement source inventory using the site's single native model renderer."""
+import copy, html, json, re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-def render_catalog(api):
- data=json.loads((ROOT/'content/catalog-20261030.json').read_text(encoding='utf-8'))
- site_copy=json.loads((ROOT/'content/catalog-site-copy-20261030.json').read_text(encoding='utf-8'))
- entries=data['entries']; routes={e['slug']:e['dev_route'] for e in entries}
- E=html.escape
- def rewrite(body):
-  body=re.sub(r'\]\(/models/([^/)]+)/?\)',lambda m:']('+routes.get(m[1],'https://sensor.fans/models/'+m[1]+'/')+')',body)
-  body=body.replace('](/wiki/?vendor=昆泰芯)','](/products/catalog)')
-  body=re.sub(r'\]\((/wiki/[^)]+)\)',r'](https://sensor.fans\1)',body)
-  return body
- def card(e):
-  picture=e.get('image'); im=f'<div class="catalog-card-image"><img src="{picture["path"]}" alt="{E(e["model"])} 原厂技术图" loading="lazy"></div>' if picture else '<div class="catalog-card-placeholder"><span>IC</span><small>型号资料</small></div>'
-  return f'<a class="catalog-model-card" href="{e["dev_route"]}">{im}<div><small>{E(" / ".join(e["categories"]))}</small><h3>{E(e["model"])}</h3><p>{E(e["description"])}</p><span>参数 · 应用 · 资料 →</span></div></a>'
- groups={}
- for e in entries:
-  groups.setdefault(e['categories'][0],[]).append(e)
-  members=[]
-  family=api.PRODUCTS[e['family']]['route']
-  for p in (ROOT/'docs'/family.lstrip('/')).glob('*.md'):
-   route='/'+p.relative_to(ROOT/'docs').with_suffix('').as_posix()
-   if p.stem in routes and route!=routes[p.stem]:continue
-   if route!=e['dev_route']:members.append((p.stem.upper(),route))
-  peers=[x for x in entries if x['family']==e['family'] and x is not e and x.get('family_confirmed',True)] if e.get('family_confirmed',True) else []
-  from render_exact_product import render_exact_product
-  api.write(e['dev_route'].lstrip('/')+'.md',render_exact_product(api,e,site_copy[e['model']],members,peers))
- overview=api.fm(title='具体型号与技术资料',description='按测量对象、输出和应用查找21个去重型号，核对条件、差异、原厂图片与PDF原始链接。',aside=False,pageClass='c-page catalog-index')
- overview+='\n<p class="c-kicker">产品选型 · MODEL CATALOG</p>\n\n# 具体型号与技术资料\n\n<p class="c-lead">先明确测什么，再比较输出与参数条件。每个型号连接工程说明、可确认的原厂技术图和数据手册原链接；系列与具体订货后缀分开阅读。</p>\n\n'
- overview+='<div class="c-stats"><div class="c-stat"><b>21</b><span>去重型号与系列入口</span></div><div class="c-stat"><b>6</b><span>测量与信号链类别</span></div><div class="c-stat"><b>PDF ↗</b><span>直接打开原始资料</span></div></div>\n\n'
- overview+='<p class="c-note">网页目录与详情存在的参数冲突已在型号页说明。未找到准确产品图或可用手册的项目保留缺口，不套用相邻型号资料。</p>\n\n'
- for name,items in groups.items():overview+='## '+name+'\n\n<div class="catalog-model-grid">'+''.join(card(e) for e in items)+'</div>\n\n'
- preview=data.get('supplementary',{}).get('KTP112',{})
- if preview:overview+='## 目录预告\n\n**KTP112**：'+preview['description']+' 尚无独立详情、可核验手册或产品图，不计入上述21个型号。\n\n'
- api.write('products/catalog.md',overview)
- # Add entry points to the current product landing, category and series pages.
- targets={'products/index.md':entries}
- for e in entries:
-  p=api.PRODUCTS[e['family']]
-  targets.setdefault('products/'+p['category']+'/index.md',[]).append(e)
-  if p['route']!=e['dev_route'] and e.get('family_confirmed',True):targets.setdefault(p['route'].lstrip('/')+'.md',[]).append(e)
- marker='<!-- audited-model-catalog -->'
- for rel,items in targets.items():
-  path=ROOT/'docs'/rel
-  if not path.exists():continue
-  text=path.read_text(encoding='utf-8').split(marker)[0].rstrip()
-  unique=list({e['model']:e for e in items}.values())
-  text+='\n\n'+marker+'\n\n## 按具体型号查资料\n\n[完整型号目录：21个去重入口](/products/catalog)\n\n<div class="catalog-quicklinks">'+''.join(f'<a href="{e["dev_route"]}">{E(e["model"])}</a>' for e in unique)+'</div>\n'
-  api.write(rel,text)
- path=ROOT/'docs/.vitepress/sidebar.json';nav=json.loads(path.read_text(encoding='utf-8'))
- group={'text':'具体型号与资料','collapsed':True,'items':[{'text':'全部具体型号','link':'/products/catalog'}]+[{'text':e['model'],'link':e['dev_route']} for e in entries]}
- nav['products']=[g for g in nav['products'] if g.get('text')!='具体型号与资料'];nav['products'].insert(1,group)
- product_nav=next(n for n in nav['nav'] if n.get('activeMatch')=='^/products/')
- product_nav['items']=[g for g in product_nav['items'] if g.get('link')!='/products/catalog'];product_nav['items'].insert(1,{'text':'具体型号与技术资料','link':'/products/catalog'})
- path.write_text(json.dumps(nav,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- # Keep the existing plain text machine index useful for the new exact models.
- llms=ROOT/'docs/public/llms.txt'
- if llms.exists():
-  text=llms.read_text(encoding='utf-8').split('\n## 具体型号与资料（2026-10-30）')[0]
-  text+='\n## 具体型号与资料（2026-10-30）\n'+''.join(f'- [{e["model"]}]({api.abs_url(e["dev_route"])}): {e["description"]}\n' for e in entries)
-  llms.write_text(text,encoding='utf-8')
- print('audited catalog:',len(entries),'unique models; PDFs remain external links')
+
+def read(rel): return json.loads((ROOT/rel).read_text(encoding='utf-8'))
+def first_table(body):
+    m=re.search(r'(?m)^\|[^\n]*\n(?:\|[^\n]*\n)+',body)
+    fields={}
+    if m:
+        for line in m[0].splitlines()[2:]:
+            cells=re.split(r'(?<!\\)\|',line.strip())[1:-1]
+            if len(cells)==2:
+                k,v=[re.sub(r'[*`]', '',x.strip().replace('\\|','|')) for x in cells]
+                if k not in ('产品名称','型号'): fields[k]=v
+    return fields
+
+def render_catalog(api, matrices=None, foreign=None):
+    entries=read('content/catalog-20261030.json')['entries']
+    inventory=read('content/selector-20261030.json')['entries']
+    product_copy=read('content/catalog-site-copy-20261030.json')
+    exact={e['model']:e for e in entries}
+    key_specs=read('content/catalog-key-specs-20261030.json')
+    def new_family(slug,category,model,name,lead,icon):
+        p=copy.deepcopy(api.PRODUCTS['ktax33'])
+        p.update(slug=slug,category=category,kind=model,title=name,route=f'/products/{category}/{"kth468n" if slug=="kth468" else slug}',
+                 intro=[lead],highlights=[],specs=[],figures=[],docs=[],videos=[],extra=[])
+        api.PRODUCTS[slug]=p
+        api.COPY['products'][slug]=dict(model=model,name=name,lead=lead,overview=[lead],chips=[],highlights=[],applications=[],selection_note='')
+        if icon: api.IMG['hero/'+slug]=icon
+        api.render_product(slug)
+    new_family('kth26','switch','KTH26 系列','高压霍尔开关','宽电压磁场状态检测，提供单极与双极锁存型号。',api.icon('kth25'))
+    new_family('kth468','switch','KTH468N','霍尔磁开关','磁场状态检测，采用 SOT-23-5L 封装。',api.icon('cat-switch'))
+    new_family('ktp112','other','KTP112','数字温度传感器','低功耗数字温度检测，1.8～5.5 V 供电，DFN2×2-6L 封装。',api.icon('cat-other'))
+
+    def family(m):
+        if m in ('KTAx333','KTH31xx'):return {'KTAx333':'ktax33','KTH31xx':'kth31'}[m]
+        if m=='KTH468N':return 'kth468'
+        if m.startswith('KTH26'):return 'kth26'
+        if m=='KTP112':return 'ktp112'
+        if m in exact:return exact[m]['family']
+        for pre,sl in [('KTH13','kth16'),('KTH16','kth16'),('KTH17','kth16'),('KTH25','kth25'),('KTH46','kth460'),('KTH55','kth55'),('KTH57','kth57'),('KTH71','kth71'),('KTH78','kth78'),('KTM13','ktm13'),('KTM28','ktm28'),('KTM58','ktm58'),('KTM59','ktm59')]:
+            if m.startswith(pre):return sl
+        raise ValueError(m)
+
+    kinds={'1d-x-axis-switch':'X轴全极霍尔开关','omni-polar-switch':'全极磁开关','dual-output-unipolar-switch':'双输出单极霍尔开关','unipolar-south-switch':'南极单极霍尔开关','unipolar-north-switch':'北极单极霍尔开关','latch-switch':'双极锁存磁开关','automotive-latch-hall-switch':'高压双极锁存霍尔开关','industrial-latch-hall-switch':'高压双极锁存霍尔开关','industrial-unipolar-hall-switch':'高压单极霍尔开关','3d-omnipolar-hall-switch':'三维全极霍尔开关','2d-latched-hall-switch':'锁存霍尔开关','angle-sensor':'磁角度传感器','angle-encoder':'磁角度编码器','angle-interpolator':'正余弦角度细分器','unipolar-switch':'单极 TMR 磁开关','npn-open-drain':'NPN输出 AMR 气缸位置传感器','pnp-open-drain':'PNP输出 AMR 气缸位置传感器','digital-temperature-sensor':'数字温度传感器'}
+    names={'KTH5762':'三维角度传感器','KTH5763':'三维角度传感器','KTH7111':'离轴磁角度编码器','KTH7112':'在轴磁角度编码器','KTH468N':'霍尔磁开关'}
+    groups={}; models=[]
+    for e in inventory:
+        m=e['model']
+        if m=='KTH4603X':continue
+        sl=family(m);p=api.PRODUCTS[sl];d=e['directory_values']
+        route=e.get('conntek_route') or p['route']+'/'+api.model_slug(m)
+        # New single-product families use the same model layout at their public entry.
+        if sl in ('kth468','ktp112'):route=p['route'] if sl=='ktp112' else '/products/switch/kth468n'
+        api.MODEL_ROUTE_OVERRIDES[m]=route
+        fields={'供电电压':d['supply_V']+' V','工作温度':d['temperature_C']+' °C','封装':d['package']}
+        if '\ufffd' not in d['current_typ']:fields['典型工作电流']=d['current_typ']
+        if '\ufffd' not in d['interface']:fields['输出接口']=d['interface']
+        # Pins in this directory conflict with the named six-lead package.
+        if m not in ('KTM2802N','KTM2802P'):fields['引脚数']=d['pins']
+        if m in exact:
+            rich=first_table(exact[m]['body'])
+            aliases={'供电':'供电电压','供电范围':'供电电压','输出':'输出接口','输出选项':'输出接口','温度范围':'工作温度','平均电流':'典型工作电流'}
+            rich={aliases.get(k,k):v for k,v in rich.items()}
+            fields.update(rich)
+            lead=product_copy[m]['overview'][0]
+        else:
+            label=names.get(m) or kinds.get(d['subcategory']) or api.pc(sl)['name']
+            fields={'器件类型':label,**fields}
+            lead=f'{m} 为{label}，供电范围 {d["supply_V"]} V，工作温度 {d["temperature_C"]} °C，采用 {d["package"]} 封装。'
+        if m=='KTH468N':
+            fields={'供电电压':d['supply_V']+' V','工作温度':d['temperature_C']+' °C','封装':d['package'],'感应维度':'选型表标注2D，产品目录标注3D；按具体订货手册确认'}
+            lead='KTH468N 为霍尔磁开关，采用 SOT-23-5L 封装。供电范围 2.5～5.5 V，工作温度 −40～125 °C。'
+        if m=='KTH2562L':
+            fields=first_table((ROOT/'../blog/content/models/kth2562l/_index.md').read_text(encoding='utf-8'))
+            fields.update({'供电电压':'3.8～60 V（推荐工作范围）','输出接口':'NMOS 开漏','工作温度':'−40～150 °C'})
+            lead='KTH2562L 是宽电压数字双极锁存霍尔开关，3.8～60 V 供电，NMOS 开漏输出。提供 A/C 两档磁阈值与 ST3、SS3、TO3 三种封装，适用于转动、换向和位置状态检测。'
+        # External source PDFs stay links; existing downloads are retained as well.
+        docs=[copy.deepcopy(x) for x in p['docs'] if api.doc_matches(x['series'],m)]
+        urls=list(dict.fromkeys((exact.get(m,{}).get('pdfs') or [])+[x['url'] for x in e['pdf_links']]))
+        if m=='KTH4603':urls+= [x['url'] for x in next(x for x in inventory if x['model']=='KTH4603X')['pdf_links']]
+        for url in dict.fromkeys(urls):
+            en=bool(re.search(r'(?:[_/-]EN[_/.]|datasheet\.pdf$)',url,re.I))
+            docs.append(dict(scene='产品手册',series=m,type='应用资料' if re.search('off-axis|AN00|Schematic|FAQ',url,re.I) else '数据手册',cn='' if en else url,en=url if en else ''))
+        chips=api.model_chips(fields)
+        for key in ('典型工作电流','输出形式','器件类型','引脚数','感应维度'):
+            if len(chips)<4 and key in fields and key not in [x['label'] for x in chips]:chips.append(dict(label=key,value=fields[key]))
+        if m in key_specs:chips=[dict(label=k,value=v) for k,v in key_specs[m]]
+        override=dict(lead=lead,docs=docs,chips=chips[:4],official=exact.get(m,{}).get('meta',{}).get('official_url') or e.get('source_page') or e['selector_url'])
+        groups.setdefault(sl,[]).append((m,fields,override))
+        models.append(dict(model=m,route=route,family=sl,lead=lead,fields=fields,pdfs=urls))
+
+    # Enrich native matrices with source-specific base parts, keeping every native SKU.
+    matrices=matrices or {};foreign=foreign or {}
+    for sl,additions in groups.items():
+        original=copy.deepcopy(matrices.get(sl) or foreign.get(sl) or {'cols':['型号'],'rows':[],'grade':None,'conflicts':[]})
+        cols=list(original['cols']);gi=original['grade']
+        for m,fields,o in additions:
+            for k in fields:
+                if k not in cols:cols.append(k)
+        rows=[r+['']*(len(cols)-len(r)) for r in original['rows']]
+        overrides={}
+        for m,fields,o in additions:
+            rows=[r for r in rows if r[0]!=m]
+            rows.append([m]+[fields.get(k,'') for k in cols[1:]])
+            overrides[m]=o
+        matrix=dict(cols=cols,rows=rows,grade=gi,conflicts=original.get('conflicts',[]),overrides=overrides)
+        api.MODEL_INDEX[sl]=[]
+        api.render_model_pages(sl,matrix)
+        api.MODEL_INDEX[sl]=list(dict.fromkeys(api.MODEL_INDEX[sl]))
+
+    # Native product cards share precisely the same proportions and visual treatment.
+    out=api.fm(title='产品型号',description='昆泰芯传感器、编码器与信号调理产品。',aside=False,pageClass='c-page')
+    out+=api.header([api.HOME,(api.SEC['products'],'/products/'),('产品型号',None)],'产品型号','磁场、角度、位置与温度检测产品。',kicker=api.BRAND)
+    for cat in api.CATS:
+        items=[x for x in models if api.PRODUCTS[x['family']]['category']==cat['key']]
+        if not items:continue
+        out+=api.section(cat['name'])
+        cards=[]
+        for x in items:
+            m=x['model'];sl=x['family']
+            media='/img/icons-web/'+m.lower()+'.webp'
+            if not (ROOT/'docs/public'/media.lstrip('/')).exists():media=api.product_visual(sl)
+            cards.append(api.card(x['route'],media,m,x['lead'],kicker=api.pc(sl)['model'],media_kind='icon',more='查看详情 →'))
+        out+=api.grid(cards,4)
+    out+=api.cta();api.write('products/catalog.md',out)
+    # Native regeneration supplies the only category/series/model navigation.
+    api.render_nav()
+    api.render_llms()
+    llms=ROOT/'docs/public/llms.txt'
+    text=llms.read_text(encoding='utf-8')+'\n## 产品型号\n'+''.join(f'- [{x["model"]}]({api.abs_url(x["route"])}): {x["lead"]}\n' for x in models)
+    llms.write_text(text,encoding='utf-8')
+    (ROOT/'content/catalog-routes-20261030.json').write_text(json.dumps(models,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print('Native model template:',len(models),'product entries; KTH4603X is a document version of KTH4603')
+
 if __name__=='__main__':
- import render as api
- render_catalog(api)
+    import render as api
+    api.main()

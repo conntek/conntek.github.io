@@ -28,7 +28,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行穿过的磁场强度与角度变化，配合磁铁即可实现非接触式位置检测。相比霍尔传感器精度更高（回差可小于 3 高斯），对磁场平行感应，并可通过不同方向的 TMR 桥阻配合实现 360° 两维感应，主要用于不同感应角度以及低功耗、高频感应的场合。
 
-系列类型覆盖全极型（<a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a>、<a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>、<a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a>）、单 S 极（<a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a>）、单 N 极（<a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a>）与锁存型（<a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a>），电源电压 1.8 ~ 5.5 V，平均功耗 160 nA @ 3 V 至 1.9 μA @ 3.0 V，工作频率 50 Hz / 1600 Hz / 5000 Hz，工作温度 -40 ~ 125 ℃。
+系列类型覆盖全极型（<a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a>、<a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>、<a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a>）、单 S 极（<a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a>）、单 N 极（<a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a>）与锁存型（<a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a>），电源电压 1.8 ~ 5.5 V，平均功耗 160 nA @ 3 V 至 1.9 μA @ 3.0 V，工作频率 50 Hz / 1600 Hz / 5000 Hz，工作温度 -40 ~ 125 ℃。
 
 <div class="c-tags c-tags--lg"><b>典型应用</b><a href="/applications/consumer-electronics/laptop-lid">笔记本与平板合盖检测</a><a href="/applications/industry4/water-meter">水表</a><a href="/applications/industry4/gas-meter">燃气表</a><a href="/applications/industry4/heat-meter">热量表</a><a href="/applications/consumer-electronics/stylus">触控笔</a><a href="/applications/intelligent-life/robot-vacuum-water-level">扫地机-水位监测</a><a href="/applications/intelligent-life/smart-toilet-water-level">智能马桶-水位监测</a><a href="/applications/industry4/mechanical-meter">机械电表</a></div>
 
@@ -42,7 +42,7 @@ KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行
 
 ## 规格参数
 
-<p class="c-sec-lead">先按磁极响应选类型（全极、单 S 极、单 N 极或锁存型），再在 50 Hz、1600 Hz、5000 Hz 中按工作频率与平均功耗选型号，按 BOP / BRP 选阈值档位；开漏输出为 <a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>，DFN2*2-3L 封装为 <a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a>。</p>
+<p class="c-sec-lead">先按磁极响应选类型（全极、单 S 极、单 N 极或锁存型），再在 50 Hz、1600 Hz、5000 Hz 中按工作频率与平均功耗选型号，按 BOP / BRP 选阈值档位；开漏输出为 <a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>，DFN2*2-3L 封装为 <a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a>。</p>
 
 <details class="c-fold"><summary><b>全极型（1/6）</b><span class="c-fold__n">5 个型号</span><span class="c-fold__ids">KTM1301TA、KTM1301MA、KTM1301SA、KTM1301TB、KTM1301MB</span></summary>
 
@@ -124,59 +124,59 @@ KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行
 
 <details class="c-more"><summary>以下 22 项参数存在两种标注，选型前请以产品手册为准</summary>
 
-<ul><li><a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
+<ul><li><a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
 600 nA @ 3 V
-160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a>「工作频率」：5000 Hz 或 5000 Hz
+160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a>「工作频率」：5000 Hz 或 5000 Hz
 1600 Hz
-50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a>「BOP」：±45 或 ±45
+50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a>「BOP」：±45 或 ±45
 ±30
 ±18
 ±9
-±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a>「BRP」：±36 或 ±36
+±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a>「BRP」：±36 或 ±36
 ±21
 ±12
 ±6
-±4</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
-160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a>「工作频率」：5000 Hz 或 5000 Hz
-50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a>「BOP」：45 或 45
+±4</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
+160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a>「工作频率」：5000 Hz 或 5000 Hz
+50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a>「BOP」：45 或 45
 30
 18
-9</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a>「BRP」：36 或 36
+9</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a>「BRP」：36 或 36
 21
 12
-6</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
-160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a>「工作频率」：5000 Hz 或 5000 Hz
-50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a>「BOP」：-45 或 -45
+6</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
+160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a>「工作频率」：5000 Hz 或 5000 Hz
+50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a>「BOP」：-45 或 -45
 -30
 -18
--9</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a>「BRP」：-36 或 -36
+-9</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a>「BRP」：-36 或 -36
 -21
 -12
--6</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
+-6</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
 600 nA @ 3 V
-160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a>「工作频率」：5000 Hz 或 5000 Hz
+160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a>「工作频率」：5000 Hz 或 5000 Hz
 1600 Hz
-50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a>「BOP」：45 或 45
+50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a>「BOP」：45 或 45
 30
 17
 9
-5</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a>「BRP」：-45 或 -45
+5</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a>「BRP」：-45 或 -45
 -30
 -17
 -9
--5</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
-160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>「工作频率」：5000 Hz 或 5000 Hz
-50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>「BOP」：±45 或 ±45
+-5</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>「平均功耗」：1.9 μA @ 3.0 V 或 1.9 μA @ 3.0 V
+160 nA @ 3 V</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>「工作频率」：5000 Hz 或 5000 Hz
+50 Hz</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>「BOP」：±45 或 ±45
 ±30
 ±18
 ±9
-±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a>「BRP」：±36 或 ±36
+±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a>「BRP」：±36 或 ±36
 ±21
 ±12
 ±6
-±4</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a>「BOP」：±30 或 ±30
+±4</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a>「BOP」：±30 或 ±30
 ±9
-±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a>「BRP」：±21 或 ±21
+±7</li><li><a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a>「BRP」：±21 或 ±21
 ±6
 ±4</li></ul>
 
@@ -188,7 +188,7 @@ KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1301ta">KTM1301</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1301 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1301%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1301 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1311ta">KTM1311</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1311%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1311 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1311%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1311 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1321ta">KTM1321</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1321%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1321 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1321%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1321 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1331ta">KTM1331</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1331%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1331 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1331%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1331 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono">KTM1331R</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1331R%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1331R Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1302ta">KTM1302</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono">KTM1302LTC</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302LTC%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302LTC产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono">KTM1302R</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302R%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302R Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a></td><td><span class="c-badge">产品手册</span></td><td><span class="c-muted">—</span></td><td><a class="c-file" href="/files/KTM1304%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1304 Series Datasheet.pdf</a></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>适用</th><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td rowspan="9" class="c-docs__scene">通用</td><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1301">KTM1301</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1301 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1301%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1301 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1311">KTM1311</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1311%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1311 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1311%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1311 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1321">KTM1321</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1321%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1321 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1321%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1321 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1331">KTM1331</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1331%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1331 Series产品手册.pdf</a></td><td><a class="c-file" href="/files/KTM1331%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1331 Series Datasheet.pdf</a></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1331r">KTM1331R</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1331R%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1331R Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1302">KTM1302</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302 Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono">KTM1302LTC</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302LTC%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302LTC产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1302r">KTM1302R</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTM1302R%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTM1302R Series产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr><tr><td class="c-mono"><a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a></td><td><span class="c-badge">产品手册</span></td><td><span class="c-muted">—</span></td><td><a class="c-file" href="/files/KTM1304%20Series%20Datasheet.pdf" target="_blank"><em>PDF</em>KTM1304 Series Datasheet.pdf</a></td></tr></tbody></table></div>
 
 ## 应用案例
 
@@ -203,11 +203,3 @@ KTM13 系列将 TMR 阻桥与 ASIC 集成在单芯片中，阻桥阻抗随平行
 <div class="c-grid c-grid--4"><a class="c-card" href="/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm28"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/kth31"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><span class="c-card__more">查看详情</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
-
-<!-- audited-model-catalog -->
-
-## 按具体型号查资料
-
-[完整型号目录：21个去重入口](/products/catalog)
-
-<div class="catalog-quicklinks"><a href="/products/switch/ktm13/ktm1301">KTM1301</a></div>

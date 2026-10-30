@@ -29,11 +29,11 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 现场展出 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列（在轴旋钮 / 线性位移 / 离轴旋钮 / 摇杆）、<a class="c-xref" href="/products/encoder/kth71">KTH71</a> 一键自校准 Demo 与 <a class="c-xref" href="/products/encoder/ktm52">KTM52</a> 一键自校准 Demo，及 <a class="c-xref" href="/products/switch/kth460">KTH460</a> 系列 3D 开关 Demo 与旋钮合集 Demo。高精度、智能化、场景化解决方案，吸引众多专业观众驻足咨询，技术工程师团队一对一深度讲解，现场互动火热！
 
-<figure class="c-blog-fig"><img src="/blog/sensor-expo-shenzhen-2026-forums/2.webp" alt="KTH4603 3D 霍尔开关 Demo 讲解" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth460/kth4603aa-stx">KTH4603</a> 3D 霍尔开关 Demo 讲解</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/sensor-expo-shenzhen-2026-forums/2.webp" alt="KTH4603 3D 霍尔开关 Demo 讲解" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth460/kth4603">KTH4603</a> 3D 霍尔开关 Demo 讲解</figcaption></figure>
 
 <figure class="c-blog-fig"><img src="/blog/sensor-expo-shenzhen-2026-forums/3.webp" alt="旋钮合集 Demo 现场演示" loading="lazy"><figcaption>旋钮合集 Demo 现场演示</figcaption></figure>
 
-<figure class="c-blog-fig"><img src="/blog/sensor-expo-shenzhen-2026-forums/4.webp" alt="KTH5701 评估套件与观众交流" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 评估套件与观众交流</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/sensor-expo-shenzhen-2026-forums/4.webp" alt="KTH5701 评估套件与观众交流" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 评估套件与观众交流</figcaption></figure>
 
 ## 武建峰博士双论坛演讲
 

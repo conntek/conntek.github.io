@@ -48,7 +48,7 @@ KTO9512 基于 3 码道游标原理，适用于直径 26 mm 光栅码盘，码�
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTO9512</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTO9512-D26-QN32%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTO9512-D26-QN32产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>适用</th><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td rowspan="1" class="c-docs__scene">通用</td><td class="c-mono">KTO9512</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTO9512-D26-QN32%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTO9512-D26-QN32产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
 
 ## 同类产品
 

@@ -605,6 +605,12 @@ def figures_for(slug, paths):
 def file_cell(name):
     if not name:
         return '<span class="c-muted">—</span>'
+    if str(name).startswith(('https://', 'http://')):
+        label = urllib.parse.unquote(urllib.parse.urlsplit(name).path.rsplit('/', 1)[-1])
+        if not label.lower().endswith(('.pdf', '.zip', '.exe')):
+            label = urllib.parse.parse_qs(urllib.parse.urlsplit(name).query).get('name', [label])[0]
+        ext = label.rsplit('.', 1)[-1].upper() if '.' in label else 'PDF'
+        return f'<a class="c-file" href="{E(name)}" target="_blank" rel="noopener"><em>{E(ext)}</em>{E(label)}</a>'
     if not exists('/files/' + name):
         return f'<span class="c-muted" title="官网暂不可下载">{E(name)}（暂不可下载）</span>'
     ext = name.rsplit('.', 1)[-1].upper()
@@ -614,7 +620,7 @@ def file_cell(name):
 def docs_table(docs):
     if not docs:
         return ''
-    show_scene = any(d['scene'] != '通用' for d in docs)
+    show_scene = True
     out = '<div class="c-table c-docs"><table><thead><tr>' + ('<th>适用</th>' if show_scene else '') + \
           '<th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody>'
     scenes = OrderedDict()
@@ -883,7 +889,12 @@ def model_slug(mid):
     return re.sub(r'[^a-z0-9]+', '-', str(mid).lower()).strip('-')
 
 
+MODEL_ROUTE_OVERRIDES = {}
+
+
 def model_route(prod_slug, mid):
+    if mid in MODEL_ROUTE_OVERRIDES:
+        return MODEL_ROUTE_OVERRIDES[mid]
     return f"{PRODUCTS[prod_slug]['route']}/{model_slug(mid)}"
 
 
@@ -1022,7 +1033,7 @@ def render_model_pages(slug, matrix):
     for row in rows:
         for one in split_models(row[0]):
             other_owner = owner_of(one)
-            if own_prefix and other_owner and other_owner != slug and owner_of(one) != slug:
+            if one not in matrix.get('overrides', {}) and own_prefix and other_owner and other_owner != slug and owner_of(one) != slug:
                 continue      # 该型号属于别的系列页，这里不重复出页面
             expanded.append((one, row))
     if not expanded:
@@ -1060,9 +1071,10 @@ def render_model_pages(slug, matrix):
     for mid, row in expanded:
         grade = grade_of[mid]
         fields = fields_of[mid]
-        docs = [d for d in p['docs'] if doc_matches(d['series'], mid)]
+        override = matrix.get('overrides', {}).get(mid, {})
+        docs = override.get('docs', [d for d in p['docs'] if doc_matches(d['series'], mid)])
         route = model_route(slug, mid)
-        lead_txt = summary_of[mid]
+        lead_txt = override.get('lead', summary_of[mid])
         out = fm(title=f'{mid} · {c["model"]}{c["name"]}', description=lead_txt,
                  aside=False, pageClass='c-page c-page--model',
                  ld={'@context': 'https://schema.org', '@type': 'Product', 'name': mid, 'sku': mid, 'mpn': mid,
@@ -1074,7 +1086,7 @@ def render_model_pages(slug, matrix):
                        (c['model'], p['route']), (mid, None))
         out += f'<p class="c-kicker">{E(c["model"])} {E(c["name"])}</p>\n\n# {mid}\n\n'
         out += f'<p class="c-lead">{E(lead_txt)}</p>\n\n'
-        out += chips_block(model_chips(fields))
+        out += chips_block(override.get('chips') or model_chips(fields))
         out += '<div class="c-actions">'
         out += (f'<a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>{sum(1 for d in docs for k in ("cn", "en") if d[k])}</small></a>'
                 if docs else '<a class="c-btn c-btn--brand" href="/contact">索取产品资料</a>')
@@ -1101,9 +1113,11 @@ def render_model_pages(slug, matrix):
             same = [r for r in peers if r[0] != row[0]][:MAX_COMPARE - 1]
             out += section('同系列对比', f'与{grade + "级" if grade else c["model"]}其他型号的差异。')
             out += transposed_table(cols, [row] + same, [], [gi] if gi is not None else [])
-        if docs:
+        if docs or override.get('official'):
             out += section('技术文档', '产品手册与相关资料，点击文件名直接下载。')
             out += docs_table(docs)
+            if override.get('official'):
+                out += f'<p><a href="{E(override["official"])}" target="_blank" rel="noopener">官方产品资料 ↗</a></p>\n\n'
         out += section('所属产品系列', f'{c["model"]}共 {len(expanded)} 个型号，点方块直接跳转。')
         out += '<div class="c-series-box">'
         out += card(p['route'], product_visual(slug), c['name'], c['lead'], kicker=c['model'],
@@ -2114,12 +2128,13 @@ def main():
     render_contact()
     render_home()
     render_nav()
-    n_xref = autolink_pages()
+    n_xref = 0
     print('llms.txt lines', render_llms())
     # Preserve the audited exact-model content and its external-only PDFs.
     import sys
     from render_catalog import render_catalog
-    render_catalog(sys.modules[__name__])
+    render_catalog(sys.modules[__name__], matrices, foreign)
+    n_xref = autolink_pages()
     print('autolinked', n_xref, 'model/series mentions')
     stale = prune_stale()
     print('rendered', len(PRODUCTS), 'products +', n_models, 'model +', n_cases, 'case pages +', n_terms,

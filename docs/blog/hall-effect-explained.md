@@ -39,17 +39,17 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 霍尔开关传感器以其简单有效的原理，在众多领域中扮演着重要角色。当电流通过导体时，垂直方向的磁场会引起电子的偏转，从而在导体两侧产生电压差。这个现象被用来检测磁场的存在，实现开关功能。由于霍尔开关传感器输出为简单的 1 位数字信号，芯片结构相对简单，因此在成本效益方面具有优势。
 
-<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/3.webp" alt="KTH1701 典型应用电路" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a> 典型应用电路</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/3.webp" alt="KTH1701 典型应用电路" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a> 典型应用电路</figcaption></figure>
 
-昆泰芯推出的 <a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a>，是低功耗霍尔开关传感器的代表。该传感器特别为紧凑空间和电池敏感系统而设计。其超低功耗是显著优势，它可在多种磁场强度下工作，实现全极磁响应。
+昆泰芯推出的 <a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a>，是低功耗霍尔开关传感器的代表。该传感器特别为紧凑空间和电池敏感系统而设计。其超低功耗是显著优势，它可在多种磁场强度下工作，实现全极磁响应。
 
-<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/4.webp" alt="KTH1701 典型应用：笔记本翻盖检测" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a> 典型应用：笔记本翻盖检测</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/4.webp" alt="KTH1701 典型应用：笔记本翻盖检测" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a> 典型应用：笔记本翻盖检测</figcaption></figure>
 
-<a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a> 封装选择灵活，适应不同的应用场景。此传感器的典型应用包括笔记本电脑、平板电脑开关检测、TWS 耳机、手机、电子锁、阀门位置检测、水表、气表和流量计等领域。
+<a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a> 封装选择灵活，适应不同的应用场景。此传感器的典型应用包括笔记本电脑、平板电脑开关检测、TWS 耳机、手机、电子锁、阀门位置检测、水表、气表和流量计等领域。
 
-在车规标准方面，昆泰芯还推出了 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 车规霍尔开关产品。<a class="c-xref" href="/products/switch/kth25">KTH2502</a> 集成了先进的斩波技术，内置零漂移放大器，并具有温度补偿电路，以实现卓越的灵敏度和温度稳定性。
+在车规标准方面，昆泰芯还推出了 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 车规霍尔开关产品。<a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 集成了先进的斩波技术，内置零漂移放大器，并具有温度补偿电路，以实现卓越的灵敏度和温度稳定性。
 
-<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/5.webp" alt="KTH2502 内部框图" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth25">KTH2502</a> 内部框图</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/5.webp" alt="KTH2502 内部框图" loading="lazy"><figcaption><a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 内部框图</figcaption></figure>
 
 该传感器在工业领域中广泛适用，具有高灌电流驱动能力和输出短路过流保护功能。其多种灵敏度选项使其能够适应不同的磁场环境，从而在电动工具、流量计、车上雨刷、汽车天窗座椅车窗玻璃控制等场景中发挥着重要作用。
 
@@ -73,41 +73,41 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/9.webp" alt="3D 霍尔传感器三轴检测示意" loading="lazy"><figcaption>3D 霍尔传感器三轴检测示意</figcaption></figure>
 
-2D/3D 霍尔传感器是一类具备测量多个方向上磁场分量能力的传感器。相较于单一方向的霍尔传感器，2D/3D 霍尔传感器能够提供更加丰富和全面的磁场信息，使其在复杂应用场景中发挥关键作用。昆泰芯的产品线中涵盖了代表性的 2D/3D 霍尔传感器，其中包括了 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a>。
+2D/3D 霍尔传感器是一类具备测量多个方向上磁场分量能力的传感器。相较于单一方向的霍尔传感器，2D/3D 霍尔传感器能够提供更加丰富和全面的磁场信息，使其在复杂应用场景中发挥关键作用。昆泰芯的产品线中涵盖了代表性的 2D/3D 霍尔传感器，其中包括了 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a>。
 
-<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/10.webp" alt="KTH5701 用于游戏手杆，旋转与按压一体" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 用于游戏手杆，旋转与按压一体</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/10.webp" alt="KTH5701 用于游戏手杆，旋转与按压一体" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 用于游戏手杆，旋转与按压一体</figcaption></figure>
 
-以 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 为例，它是一款 3D（XY、XZ、YZ 平面）霍尔角度传感器，内置了高度匹配的霍尔元件。传感器还集成了多级低功耗、高精度零漂运放，以及高精度 16 bit ADC。通过内置的 CORDIC 算法模块，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 能够提供 16 位的绝对角度数据输出。它支持绝对位置检测，角度输出范围高达 360°，能够检测 XY 平面 ±130 mT，XZ/YZ 平面 ±80 mT 的磁感应强度。此外，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 支持标准的 I2C 通信接口和系统中断唤醒功能。在 2.8 ~ 5.5 V 的工作电压范围内工作，其 IO 供电电压还可以低至 1.8 V。<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 适用于广泛的工作温度范围，从 -40 ~ +125 ℃。
+以 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 为例，它是一款 3D（XY、XZ、YZ 平面）霍尔角度传感器，内置了高度匹配的霍尔元件。传感器还集成了多级低功耗、高精度零漂运放，以及高精度 16 bit ADC。通过内置的 CORDIC 算法模块，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 能够提供 16 位的绝对角度数据输出。它支持绝对位置检测，角度输出范围高达 360°，能够检测 XY 平面 ±130 mT，XZ/YZ 平面 ±80 mT 的磁感应强度。此外，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 支持标准的 I2C 通信接口和系统中断唤醒功能。在 2.8 ~ 5.5 V 的工作电压范围内工作，其 IO 供电电压还可以低至 1.8 V。<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 适用于广泛的工作温度范围，从 -40 ~ +125 ℃。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/11.webp" alt="旋钮结构分解示意" loading="lazy"><figcaption>旋钮结构分解示意</figcaption></figure>
 
-典型应用领域方面，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 在工业自动化、智能手表、仪器仪表等领域发挥重要作用。它能够为这些应用提供高精度和可靠的角度测量功能，实现更准确的数据采集和控制。与其他方案对比时，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 因其高度匹配的霍尔元件、先进的技术和灵活的应用性能，成为多种应用场景的理想选择。
+典型应用领域方面，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 在工业自动化、智能手表、仪器仪表等领域发挥重要作用。它能够为这些应用提供高精度和可靠的角度测量功能，实现更准确的数据采集和控制。与其他方案对比时，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 因其高度匹配的霍尔元件、先进的技术和灵活的应用性能，成为多种应用场景的理想选择。
 
 ### 高速霍尔编码器传感器
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/12.webp" alt="磁性编码器角度检测原理示意" loading="lazy"><figcaption>磁性编码器角度检测原理示意</figcaption></figure>
 
-高速霍尔编码器传感器是一类用于测量转动角度的高性能传感器，其通过检测磁场的变化来确定旋转物体的位置。昆泰芯微电子的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列是专为这一应用而设计的 2D 霍尔编码器，具备更高的采样率、更快的反应速度和更多的编码输出。<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 作为 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列的代表，在工业自动化和机器人控制领域具有广泛应用，以实现高精度的角度测量。其性能优势主要体现在高采样率、高精度和低延迟性能方面。
+高速霍尔编码器传感器是一类用于测量转动角度的高性能传感器，其通过检测磁场的变化来确定旋转物体的位置。昆泰芯微电子的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列是专为这一应用而设计的 2D 霍尔编码器，具备更高的采样率、更快的反应速度和更多的编码输出。<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 作为 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列的代表，在工业自动化和机器人控制领域具有广泛应用，以实现高精度的角度测量。其性能优势主要体现在高采样率、高精度和低延迟性能方面。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/13.webp" alt="工业自动化和机器人控制" loading="lazy"><figcaption>工业自动化和机器人控制</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 传感器是一款高精度绝对角度霍尔传感器芯片，其最高可达 16 位分辨率的绝对角度输出，小于 ±0.35° 的高精度 INL 误差，适用于在轴和离轴场合下的无接触式磁场角度测量。转速范围在 0 ~ 120,000 rpm 之间，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 都能以快速且准确的方式输出角度信息，适用于需要高精度角度测量和转速控制的多种应用领域。
+<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 传感器是一款高精度绝对角度霍尔传感器芯片，其最高可达 16 位分辨率的绝对角度输出，小于 ±0.35° 的高精度 INL 误差，适用于在轴和离轴场合下的无接触式磁场角度测量。转速范围在 0 ~ 120,000 rpm 之间，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 都能以快速且准确的方式输出角度信息，适用于需要高精度角度测量和转速控制的多种应用领域。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/14.webp" alt="离轴与在轴安装方式" loading="lazy"><figcaption>离轴与在轴安装方式</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 在角度输出模式上具有高度的灵活性，不仅支持最大 4096 步 ABZ 正交脉冲输出，提供高分辨率和精准的位置信息，还支持四线制 SPI 输出角度，便于与其他设备进行通信和数据交换。
+<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 在角度输出模式上具有高度的灵活性，不仅支持最大 4096 步 ABZ 正交脉冲输出，提供高分辨率和精准的位置信息，还支持四线制 SPI 输出角度，便于与其他设备进行通信和数据交换。
 
-此外，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 还内置了磁场强度检测功能，用户可以通过编程设置过高和过低磁场强度的阈值，实时监测磁场强度并进行相应处理。该特性为用户选择合适的磁铁和安装距离提供了便利。
+此外，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 还内置了磁场强度检测功能，用户可以通过编程设置过高和过低磁场强度的阈值，实时监测磁场强度并进行相应处理。该特性为用户选择合适的磁铁和安装距离提供了便利。
 
-<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/15.webp" alt="KTH7815 开放给用户的 MTP 寄存器" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 开放给用户的 MTP 寄存器</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/hall-effect-explained/15.webp" alt="KTH7815 开放给用户的 MTP 寄存器" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 开放给用户的 MTP 寄存器</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 还集成了多次可编程存储器（MTP），用于存储重要配置参数，如参考零角位置、ABZ 编码器设置和磁场检测阈值等信息。这使得用户能够在不同应用场景下进行灵活配置和调整，从而实现最佳的性能表现。
+<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 还集成了多次可编程存储器（MTP），用于存储重要配置参数，如参考零角位置、ABZ 编码器设置和磁场检测阈值等信息。这使得用户能够在不同应用场景下进行灵活配置和调整，从而实现最佳的性能表现。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/16.webp" alt="KTH78 系列应用于电动自行车和电动滑板" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列应用于电动自行车和电动滑板</figcaption></figure>
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/17.webp" alt="KTH78 系列众多高端应用" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列众多高端应用</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 在绝对角度位置传感、无刷直流电机、离轴角度测量、闭环步进电机等领域中拥有广泛的应用前景。其高精度、高速、高分辨率的特性，以及多种灵活的输出模式，使其成为现代工业控制和自动化领域中的理想选择。
+<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 在绝对角度位置传感、无刷直流电机、离轴角度测量、闭环步进电机等领域中拥有广泛的应用前景。其高精度、高速、高分辨率的特性，以及多种灵活的输出模式，使其成为现代工业控制和自动化领域中的理想选择。
 
 ## 技术的限制与挑战
 
@@ -119,7 +119,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/18.webp" alt="电源电流随电压和温度变化曲线" loading="lazy"><figcaption>电源电流随电压和温度变化曲线</figcaption></figure>
 
-以 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 为例，作为车规霍尔开关产品，它在温度敏感性方面也具备出色的表现。车辆环境下温度变化较大，而 <a class="c-xref" href="/products/switch/kth25">KTH2502</a> 是依照车规标准设计，能够在各种温度条件下稳定工作，确保车辆系统的可靠性和安全性。这也再次彰显了昆泰芯在温度敏感性方面的关注和努力。
+以 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 为例，作为车规霍尔开关产品，它在温度敏感性方面也具备出色的表现。车辆环境下温度变化较大，而 <a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a> 是依照车规标准设计，能够在各种温度条件下稳定工作，确保车辆系统的可靠性和安全性。这也再次彰显了昆泰芯在温度敏感性方面的关注和努力。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/19.webp" alt="车规级应用位置示意" loading="lazy"><figcaption>车规级应用位置示意</figcaption></figure>
 
@@ -129,7 +129,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/20.webp" alt="各种磁场易干扰的环境" loading="lazy"><figcaption>各种磁场易干扰的环境</figcaption></figure>
 
-在实际应用中，霍尔传感器可能受到其他电器设备、电机、变压器等产生的磁场的干扰，这可能会导致测量结果偏离真实值。这些干扰磁场可能随着时间、电器设备的工作状态或其他环境因素而变化，如果没有采取措施消除或减少这种干扰，可能会导致应用系统的不稳定或失效。对于这个问题，昆泰芯在设计霍尔传感器时进行了深入的研究。例如，其 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 型号就设计了特殊的屏蔽机制，使传感器能够在高磁场干扰环境下仍然提供准确的测量。此外，有些型号还内置了磁场强度检测功能，允许用户实时监测磁场强度并作出相应的调整，从而避免由于磁场干扰导致的误测。
+在实际应用中，霍尔传感器可能受到其他电器设备、电机、变压器等产生的磁场的干扰，这可能会导致测量结果偏离真实值。这些干扰磁场可能随着时间、电器设备的工作状态或其他环境因素而变化，如果没有采取措施消除或减少这种干扰，可能会导致应用系统的不稳定或失效。对于这个问题，昆泰芯在设计霍尔传感器时进行了深入的研究。例如，其 <a class="c-xref" href="/products/encoder/kth78/kth7801">KTH7801</a> 型号就设计了特殊的屏蔽机制，使传感器能够在高磁场干扰环境下仍然提供准确的测量。此外，有些型号还内置了磁场强度检测功能，允许用户实时监测磁场强度并作出相应的调整，从而避免由于磁场干扰导致的误测。
 
 ### 位置和方向依赖性
 
@@ -137,11 +137,11 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/21.webp" alt="新型手术机器人" loading="lazy"><figcaption>新型手术机器人</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7812-x-n-qn16">KTH7812</a> 是昆泰芯的一款典型产品，专为解决手术机器人的位置和方向依赖性问题而设计。手术机器人机械手术刀需要在多个方向上实现无极运动，以实现精确的手术操作。传统的单一方向传感器可能无法满足手术机器人的精度要求。然而，<a class="c-xref" href="/products/encoder/kth78/kth7812-x-n-qn16">KTH7812</a> 作为高精度绝对角度霍尔传感器，能够在多个方向上精确测量磁场角度，解决了位置和方向依赖性的问题。这使得手术机器人能够更精确地感知手术部位，从而实现更精确和安全的手术操作。
+<a class="c-xref" href="/products/encoder/kth78/kth7812">KTH7812</a> 是昆泰芯的一款典型产品，专为解决手术机器人的位置和方向依赖性问题而设计。手术机器人机械手术刀需要在多个方向上实现无极运动，以实现精确的手术操作。传统的单一方向传感器可能无法满足手术机器人的精度要求。然而，<a class="c-xref" href="/products/encoder/kth78/kth7812">KTH7812</a> 作为高精度绝对角度霍尔传感器，能够在多个方向上精确测量磁场角度，解决了位置和方向依赖性的问题。这使得手术机器人能够更精确地感知手术部位，从而实现更精确和安全的手术操作。
 
 ### 功耗和尺寸
 
-移动设备、智能穿戴和便携式设备的普及，功耗和尺寸成为设备制造商需要解决的两个关键技术指标。对于依赖电池供电的设备而言，延长电池寿命是一项重要挑战，因为高功耗会迅速耗尽电池电量。设备制造商为了满足用户需求，寻求低功耗的解决方案和组件。在现代设备中，霍尔传感器被广泛应用于位置检测、速度测量和磁场感应等功能，但传统的霍尔传感器在功耗和尺寸方面无法满足现代设备的要求。昆泰芯通过其创新产品 <a class="c-xref" href="/products/encoder/kth78/kth7812-x-n-qn16">KTH7812</a>，应用最新技术解决了这一问题。<a class="c-xref" href="/products/encoder/kth78/kth7812-x-n-qn16">KTH7812</a> 不仅采用先进技术降低功耗，延长电池寿命，还经过精心设计，大大减小了尺寸，使其更适合现代微型设备。<a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a> 霍尔开关传感器是昆泰芯微电子的另一款代表性产品。它以其低功耗和简单的 1 位数字输出而脱颖而出，特别适用于需要可靠开关功能的应用，如笔记本电脑、耳机翻盖、手机、电子锁等。<a class="c-xref" href="/products/switch/kth16/kth1701fh">KTH1701</a> 的性价比优势以及超低功耗特性，使其在多种场景中能够发挥出色的作用。
+移动设备、智能穿戴和便携式设备的普及，功耗和尺寸成为设备制造商需要解决的两个关键技术指标。对于依赖电池供电的设备而言，延长电池寿命是一项重要挑战，因为高功耗会迅速耗尽电池电量。设备制造商为了满足用户需求，寻求低功耗的解决方案和组件。在现代设备中，霍尔传感器被广泛应用于位置检测、速度测量和磁场感应等功能，但传统的霍尔传感器在功耗和尺寸方面无法满足现代设备的要求。昆泰芯通过其创新产品 <a class="c-xref" href="/products/encoder/kth78/kth7812">KTH7812</a>，应用最新技术解决了这一问题。<a class="c-xref" href="/products/encoder/kth78/kth7812">KTH7812</a> 不仅采用先进技术降低功耗，延长电池寿命，还经过精心设计，大大减小了尺寸，使其更适合现代微型设备。<a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a> 霍尔开关传感器是昆泰芯微电子的另一款代表性产品。它以其低功耗和简单的 1 位数字输出而脱颖而出，特别适用于需要可靠开关功能的应用，如笔记本电脑、耳机翻盖、手机、电子锁等。<a class="c-xref" href="/products/switch/kth16/kth1701">KTH1701</a> 的性价比优势以及超低功耗特性，使其在多种场景中能够发挥出色的作用。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/22.webp" alt="KTH78 系列超小封装可装入空心杯电机" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列超小封装可装入空心杯电机</figcaption></figure>
 
@@ -151,7 +151,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 在现代电子设备和系统中，传感器的数据输出和通信方式是其核心功能之一。选择数据输出和通信方式取决于特定的应用场景，例如高速数据处理和远程通信。数据精度、传输速度和兼容性都是需要特别注意的因素。数据精度决定了设备的性能，传输速度会影响系统的响应时间，而兼容性则需要考虑到与其他设备的协同工作。
 
-针对这些考虑，昆泰芯很早就进行了深入的研究和开发。<a class="c-xref" href="/products/encoder/kth78/kth7823-x-n-qn16">KTH7823</a> 型号就是他们的代表作之一。这款霍尔传感器支持 ABZ、SPI 和 SSI 等多种输出模式，为用户提供了极大的灵活性。用户可以根据具体的应用需求选择最合适的输出和通信方式。
+针对这些考虑，昆泰芯很早就进行了深入的研究和开发。<a class="c-xref" href="/products/encoder/kth78/kth7823">KTH7823</a> 型号就是他们的代表作之一。这款霍尔传感器支持 ABZ、SPI 和 SSI 等多种输出模式，为用户提供了极大的灵活性。用户可以根据具体的应用需求选择最合适的输出和通信方式。
 
 <figure class="c-blog-fig"><img src="/blog/hall-effect-explained/23.webp" alt="霍尔编码器芯片内部框图" loading="lazy"><figcaption>霍尔编码器芯片内部框图</figcaption></figure>
 

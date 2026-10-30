@@ -15,9 +15,9 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2023-10-13</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 3 分钟</span></p>
 
-<p class="c-lead"><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列的 SPI 输出由 12 bit 位置数据和 4 bit CRC 校验码组成。本文用写信的比喻解释 CRC 校验码，再以 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 为例演示 CRC-4/ITU 的计算过程。</p>
+<p class="c-lead"><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列的 SPI 输出由 12 bit 位置数据和 4 bit CRC 校验码组成。本文用写信的比喻解释 CRC 校验码，再以 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 为例演示 CRC-4/ITU 的计算过程。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li>CRC 校验码按一定规则由全部内容算出，用来检查数据是否完整无误</li><li><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的生成多项式为 X⁴ + X + 1，二进制表示为 10011</li><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列采用 CRC-4/ITU 标准，带输入反转和输出反转</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li>CRC 校验码按一定规则由全部内容算出，用来检查数据是否完整无误</li><li><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的生成多项式为 X⁴ + X + 1，二进制表示为 10011</li><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列采用 CRC-4/ITU 标准，带输入反转和输出反转</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/crc-in-kth78/10.webp" alt="数据的安全守护者：CRC 校验在 KTH78 系列中的应用"></figure>
 
@@ -29,13 +29,13 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 这里，信件的内容代表数据，而你写在每一页底部的标记就是 CRC 校验码。在信号传输领域更加复杂，并不是数字数，而是将所有内容按照一定规则算出来一个编码。
 
-<figure class="c-blog-fig"><img src="/blog/crc-in-kth78/2.webp" alt="KTH7816 SPI 输出帧格式" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> SPI 输出帧格式</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/crc-in-kth78/2.webp" alt="KTH7816 SPI 输出帧格式" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> SPI 输出帧格式</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 说明书对 SPI 输出 CRC 校验的规定是：MISO 上的输出帧先是 12 bit 位置数据（MSB 在前），然后是 4 bit CRC 校验字；CRC 标准为 CRC-4/ITU，多项式为 X⁴ + X + 1，初始值为 00，结果异或值为 00，输入反转为 true，输出反转为 true。例如位置数据为 0FF 时，CRC 校验值为 2，接收到的数据为 0FF2。
+<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 说明书对 SPI 输出 CRC 校验的规定是：MISO 上的输出帧先是 12 bit 位置数据（MSB 在前），然后是 4 bit CRC 校验字；CRC 标准为 CRC-4/ITU，多项式为 X⁴ + X + 1，初始值为 00，结果异或值为 00，输入反转为 true，输出反转为 true。例如位置数据为 0FF 时，CRC 校验值为 2，接收到的数据为 0FF2。
 
 ## CRC 计算过程演示
 
-以下演示 <a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的 CRC 计算过程。
+以下演示 <a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的 CRC 计算过程。
 
 ### 输入数据
 
@@ -53,7 +53,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 CRC 是基于多项式运算的，所以我们需要一个多项式来进行计算。这个多项式在这里被称为「生成多项式」。
 
-<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 的生成多项式是：X⁴ + X + 1。
+<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 的生成多项式是：X⁴ + X + 1。
 
 这个多项式的意思是：1X⁴ + 0X³ + 0X² + 1X + 1
 
@@ -78,7 +78,7 @@ CRC 是基于多项式运算的，所以我们需要一个多项式来进行计�
 
 ### 最后输出
 
-<a class="c-xref" href="/products/encoder/kth78/kth7816-x-n-qn16">KTH7816</a> 最后会将 12 bit 原始数据与 4 bit CRC 结果连成一个 16 bit 数据，发送给用户：
+<a class="c-xref" href="/products/encoder/kth78/kth7816">KTH7816</a> 最后会将 12 bit 原始数据与 4 bit CRC 结果连成一个 16 bit 数据，发送给用户：
 
 0011 1110 1011 0111
 

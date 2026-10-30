@@ -36,7 +36,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headli
 
 <p class="c-sec-lead">TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>平行磁场感应</h3><p>对平行磁场敏感，配合不同方向桥阻可做 360° 两维感应。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>低阈值档位</h3><p>全极型 BOP 最低 ±7 高斯，小磁铁隔着外壳也能触发。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>薄型封装</h3><p><a class="c-xref" href="/products/switch/ktm13/ktm1304sb">KTM1304</a> 提供 DFN2*2-3L 封装，适合薄型主板贴装。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>低压常开供电</h3><p>1.8 ~ 5.5 V 供电，平均功耗低至 160 nA @ 3 V。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>平行磁场感应</h3><p>对平行磁场敏感，配合不同方向桥阻可做 360° 两维感应。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>低阈值档位</h3><p>全极型 BOP 最低 ±7 高斯，小磁铁隔着外壳也能触发。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>薄型封装</h3><p><a class="c-xref" href="/products/switch/ktm13/ktm1304">KTM1304</a> 提供 DFN2*2-3L 封装，适合薄型主板贴装。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>低压常开供电</h3><p>1.8 ~ 5.5 V 供电，平均功耗低至 160 nA @ 3 V。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看产品</span></div></a></div>
 

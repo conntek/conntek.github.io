@@ -5,7 +5,6 @@ import './layout.css'
 import './mountains.css'
 import './wiki.css'
 import './blog.css'
-import './catalog.css'
 
 // 侧栏在宽屏下是绝对定位（跟随页面滚动），不参与排版；页脚又是全宽的。
 // 量出侧栏实际高度写进 --c-sidebar-h，让正文区至少与侧栏等高，页脚就永远排在两者下面、不压住侧栏末尾。

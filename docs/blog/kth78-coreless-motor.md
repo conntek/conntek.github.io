@@ -15,9 +15,9 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2023-09-01</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 4 分钟</span></p>
 
-<p class="c-lead">空心杯电机取消铁芯转子结构，具有轻量化、高效率、高转速和小体积等特点。本文介绍 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列磁编码器芯片在空心杯电机中的应用，包括多对极磁铁、<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 关键参数，以及拧紧、医疗和灵巧手案例。</p>
+<p class="c-lead">空心杯电机取消铁芯转子结构，具有轻量化、高效率、高转速和小体积等特点。本文介绍 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列磁编码器芯片在空心杯电机中的应用，包括多对极磁铁、<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 关键参数，以及拧紧、医疗和灵巧手案例。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列角度分辨率 0.015°，可集成于 Φ &lt; 13 mm 的电机</li><li>使用 16/32 对极磁铁，可实现更精确的角度测量</li><li><a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 分辨率 16 位，刷新速率 1 MHz，响应延时 3 μs</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列角度分辨率 0.015°，可集成于 Φ &lt; 13 mm 的电机</li><li>使用 16/32 对极磁铁，可实现更精确的角度测量</li><li><a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 分辨率 16 位，刷新速率 1 MHz，响应延时 3 μs</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth78-coreless-motor/7.webp" alt="昆泰芯 KTH78 系列在空心杯领域的创新应用"></figure>
 
@@ -45,21 +45,21 @@ KTH78 系列传感器提供了多种输出接口选项（ABZ/UVW/SPI/PWM），�
 
 ## KTH78 系列选型
 
-在昆泰芯微电子的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列中，我们推出了多款高性能霍尔传感器，以满足不同应用的需求。然而，当涉及到空心杯电机应用时，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 凭借其独特的特点和优势，成为了绝佳的选择。
+在昆泰芯微电子的 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列中，我们推出了多款高性能霍尔传感器，以满足不同应用的需求。然而，当涉及到空心杯电机应用时，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 凭借其独特的特点和优势，成为了绝佳的选择。
 
 <figure class="c-blog-fig"><img src="/blog/kth78-coreless-motor/9.webp" alt="KTH78XX 全系列选型表" loading="lazy"><figcaption><a class="c-xref" href="/products/encoder/kth78">KTH78XX</a> 全系列选型表</figcaption></figure>
 
-<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 在 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列中脱颖而出，因为它具备与空心杯电机应用紧密相关的关键参数。
+<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 在 <a class="c-xref" href="/products/encoder/kth78">KTH78</a> 系列中脱颖而出，因为它具备与空心杯电机应用紧密相关的关键参数。
 
 首先，它支持 3.3 V 和 5 V 的供电电压，且功耗仅为 11.6 毫安，这意味着它能够在电池供电的情况下实现长时间的持续工作。
 
-在空心杯电机应用中，精确的角度测量至关重要。<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 提供高达 16 位的分辨率，可实现精准的角度测量，这意味着它可以捕捉到微小的角度变化，使得空心杯电机能够在高精度下实现准确的控制。
+在空心杯电机应用中，精确的角度测量至关重要。<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 提供高达 16 位的分辨率，可实现精准的角度测量，这意味着它可以捕捉到微小的角度变化，使得空心杯电机能够在高精度下实现准确的控制。
 
-此外，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 具有快速的响应能力，其角度刷新速率高达 1 MHz。这使得它能够在空心杯电机高速旋转的情况下，提供实时、稳定的角度测量数据。在极限加减速阶段，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 的响应延时仅为 3 μs，保证了在动态环境中的可靠性。
+此外，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 具有快速的响应能力，其角度刷新速率高达 1 MHz。这使得它能够在空心杯电机高速旋转的情况下，提供实时、稳定的角度测量数据。在极限加减速阶段，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 的响应延时仅为 3 μs，保证了在动态环境中的可靠性。
 
-对于空心杯电机应用来说，磁场检测和工作温度范围同样重要。<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 在 15 ~ 150 毫特斯拉的范围内提供磁场检测功能，适应了不同电机工作环境的需求。其工作温度范围从 -40 ~ 125 ℃，保证了在各种环境条件下的稳定运行。
+对于空心杯电机应用来说，磁场检测和工作温度范围同样重要。<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 在 15 ~ 150 毫特斯拉的范围内提供磁场检测功能，适应了不同电机工作环境的需求。其工作温度范围从 -40 ~ 125 ℃，保证了在各种环境条件下的稳定运行。
 
-因此，对于寻求在空心杯电机应用中获得卓越性能的用户，<a class="c-xref" href="/products/encoder/kth78/kth7815-x-n-qn16">KTH7815</a> 无疑是最适合的选择。通过昆泰芯微电子的创新技术，我们为空心杯电机等应用提供了高性能、可靠性和适应性强的解决方案。
+因此，对于寻求在空心杯电机应用中获得卓越性能的用户，<a class="c-xref" href="/products/encoder/kth78/kth7815">KTH7815</a> 无疑是最适合的选择。通过昆泰芯微电子的创新技术，我们为空心杯电机等应用提供了高性能、可靠性和适应性强的解决方案。
 
 ## 典型应用案例
 

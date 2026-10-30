@@ -7,7 +7,7 @@ date: "2023-09-15"
 ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"离轴安装：昆泰芯 KTH5701/3D 霍尔芯片，让你的创意自由驰骋！\", \"description\": \"磁编码器芯片一般沿转轴轴线安装，采用 GMR 或 2D Hall 技术的芯片要求磁铁与芯片平行。本文以 KTH5701 三轴霍尔芯片为例，介绍磁编码器的安装方式，以及它的功能、特点与典型应用。\", \"datePublished\": \"2023-09-15\", \"dateModified\": \"2023-09-15\", \"articleSection\": \"产品解读\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.github.io/img/tt/11.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"mainEntityOfPage\": \"https://conntek.github.io/blog/kth5701-off-axis\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/7d-49D_M0AQSW8eDaDzZtA\"}"
 ---
 
-<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>离轴安装：昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a>/3D 霍尔芯片，让你的创意自由驰骋！</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>离轴安装：昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a>/3D 霍尔芯片，让你的创意自由驰骋！</span></nav>
 
 <p class="c-kicker">产品解读</p>
 
@@ -15,13 +15,13 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2023-09-15</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 4 分钟</span></p>
 
-<p class="c-lead">磁编码器芯片一般沿转轴轴线安装，采用 GMR 或 2D Hall 技术的芯片要求磁铁与芯片平行。本文以 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 三轴霍尔芯片为例，介绍磁编码器的安装方式，以及它的功能、特点与典型应用。</p>
+<p class="c-lead">磁编码器芯片一般沿转轴轴线安装，采用 GMR 或 2D Hall 技术的芯片要求磁铁与芯片平行。本文以 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 三轴霍尔芯片为例，介绍磁编码器的安装方式，以及它的功能、特点与典型应用。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 可按 XY、XZ、YZ 轴信号选择平面安装或垂直安装</li><li>内置 16 位 ADC、温度传感器和 CORDIC，支持 SPI 或 I2C</li><li>可用于旋钮、摇杆和线性位置检测，符合 AEC-Q100 标准</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 可按 XY、XZ、YZ 轴信号选择平面安装或垂直安装</li><li>内置 16 位 ADC、温度传感器和 CORDIC，支持 SPI 或 I2C</li><li>可用于旋钮、摇杆和线性位置检测，符合 AEC-Q100 标准</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth5701-off-axis/4.webp" alt="离轴安装：昆泰芯 KTH5701/3D 霍尔芯片，让你的创意自由驰骋！"></figure>
 
-磁编码器芯片常用于测量机器人、电机等设备的旋转运动。那么该如何正确安装这种芯片呢？今天，我们将以 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 三轴霍尔芯片为例介绍磁编码器芯片的安装方式。
+磁编码器芯片常用于测量机器人、电机等设备的旋转运动。那么该如何正确安装这种芯片呢？今天，我们将以 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 三轴霍尔芯片为例介绍磁编码器芯片的安装方式。
 
 <figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/2.webp" alt="智能手表表冠中的磁编码器安装示意" loading="lazy"><figcaption>智能手表表冠中的磁编码器安装示意</figcaption></figure>
 
@@ -39,9 +39,9 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 ### 更灵活的解决方案 KTH5701
 
-<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 是一款先进的磁编码器芯片，它采用了独家研发的三轴霍尔技术，提供了更灵活的安装方式。这款芯片不仅可以测量 X 轴、Y 轴和 Z 轴三维信号，还可以根据需要选择不同的安装方式。
+<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 是一款先进的磁编码器芯片，它采用了独家研发的三轴霍尔技术，提供了更灵活的安装方式。这款芯片不仅可以测量 X 轴、Y 轴和 Z 轴三维信号，还可以根据需要选择不同的安装方式。
 
-<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/4.webp" alt="KTH5701 三轴磁场检测示意" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 三轴磁场检测示意</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/4.webp" alt="KTH5701 三轴磁场检测示意" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 三轴磁场检测示意</figcaption></figure>
 
 - 如果使用 XY 轴信号，可以像上图一样平面安装。
 - 如果使用 XZ 轴信号，也可以使 Y 轴垂直安装。
@@ -49,7 +49,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/5.webp" alt="芯片与磁铁的多种相对安装位置" loading="lazy"><figcaption>芯片与磁铁的多种相对安装位置</figcaption></figure>
 
-<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 芯片能够精确测量磁场的强度，并输出特殊的电压信号。这使得它非常适合中高速编码器应用，是一种理想的选择。
+<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 芯片能够精确测量磁场的强度，并输出特殊的电压信号。这使得它非常适合中高速编码器应用，是一种理想的选择。
 
 ## 磁编码器芯片背景知识
 
@@ -57,13 +57,13 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 ## KTH5701 3D 霍尔
 
-<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/6.webp" alt="KTH5701 功能框图" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 功能框图</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/6.webp" alt="KTH5701 功能框图" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 功能框图</figcaption></figure>
 
-<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 是一款数字输出的 3D 霍尔芯片，内部集成了 X 轴、Y 轴和 Z 轴三个独立的霍尔传感器。它通过高精度的运放和 16 位 ADC 将模拟信号转换成数字输出。外部主机可以使用 SPI 或 I2C 通信接口来读取测量数据。此外，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 还内置了一个温度传感器，用于进行磁场的温度补偿。
+<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 是一款数字输出的 3D 霍尔芯片，内部集成了 X 轴、Y 轴和 Z 轴三个独立的霍尔传感器。它通过高精度的运放和 16 位 ADC 将模拟信号转换成数字输出。外部主机可以使用 SPI 或 I2C 通信接口来读取测量数据。此外，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 还内置了一个温度传感器，用于进行磁场的温度补偿。
 
-<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 支持多种工作模式，包括持续感应模式、唤醒睡眠模式和单次测量模式，适用于不同的应用场景。它还具有 BUTT_OUT 管脚，用于检测磁铁与芯片之间的按键功能，并且可以配置为 Trigger 模式，以触发单次测量。
+<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 支持多种工作模式，包括持续感应模式、唤醒睡眠模式和单次测量模式，适用于不同的应用场景。它还具有 BUTT_OUT 管脚，用于检测磁铁与芯片之间的按键功能，并且可以配置为 Trigger 模式，以触发单次测量。
 
-此外，<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 集成了 CORDIC 算法，支持平面的角度输出，包括 XY 平面、XZ 平面和 YZ 平面。它还提供了幅值修调寄存器，极大方便了在轴和离轴两种常见的旋钮应用场景中的使用。同时，它支持所选平面对应的磁场阈值检测，使同一芯片能够同时进行旋钮和按键两种场景的检测。
+此外，<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 集成了 CORDIC 算法，支持平面的角度输出，包括 XY 平面、XZ 平面和 YZ 平面。它还提供了幅值修调寄存器，极大方便了在轴和离轴两种常见的旋钮应用场景中的使用。同时，它支持所选平面对应的磁场阈值检测，使同一芯片能够同时进行旋钮和按键两种场景的检测。
 
 ### 产品特点
 
@@ -88,7 +88,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 - 非接触磁场测量：可用于测量磁场强度，适用于各种磁场检测场景。
 - 低功耗磁编：能够以低功耗工作，延长电池寿命，适用于低功耗设备。
 
-<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/7.webp" alt="KTH5701 应用于仿生机器人手指" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 应用于仿生机器人手指</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/7.webp" alt="KTH5701 应用于仿生机器人手指" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 应用于仿生机器人手指</figcaption></figure>
 
 <figure class="c-blog-fig"><img src="/blog/kth5701-off-axis/8.webp" alt="游戏机、无人机、云台三维无极操纵杆" loading="lazy"><figcaption>游戏机、无人机、云台三维无极操纵杆</figcaption></figure>
 

@@ -9,10 +9,6 @@
           "link": "/products/"
         },
         {
-          "text": "具体型号与技术资料",
-          "link": "/products/catalog"
-        },
-        {
           "text": "3D霍尔芯片",
           "items": [
             {
@@ -92,6 +88,14 @@
             {
               "text": "KTH564 系列 · 线性霍尔芯片",
               "link": "/products/switch/linear-hall"
+            },
+            {
+              "text": "KTH26 系列 · 高压霍尔开关",
+              "link": "/products/switch/kth26"
+            },
+            {
+              "text": "KTH468N · 霍尔磁开关",
+              "link": "/products/switch/kth468n"
             }
           ]
         },
@@ -101,6 +105,10 @@
             {
               "text": "KTAx333 系列 · 零温漂高精度运放",
               "link": "/products/other/ktax33"
+            },
+            {
+              "text": "KTP112 · 数字温度传感器",
+              "link": "/products/other/ktp112"
             }
           ]
         },
@@ -189,100 +197,6 @@
       "link": "/products/"
     },
     {
-      "text": "具体型号与资料",
-      "collapsed": true,
-      "items": [
-        {
-          "text": "全部具体型号",
-          "link": "/products/catalog"
-        },
-        {
-          "text": "KTH5502",
-          "link": "/products/3d-hall/kth55/kth5502"
-        },
-        {
-          "text": "KTH5701",
-          "link": "/products/3d-hall/kth57/kth5701"
-        },
-        {
-          "text": "KTH5702",
-          "link": "/products/3d-hall/kth57/kth5702"
-        },
-        {
-          "text": "KTH5721",
-          "link": "/products/3d-hall/kth57/kth5721"
-        },
-        {
-          "text": "KTH5761",
-          "link": "/products/3d-hall/kth57/kth5761"
-        },
-        {
-          "text": "KTH5771",
-          "link": "/products/3d-hall/kth57/kth5771"
-        },
-        {
-          "text": "KTH5772",
-          "link": "/products/3d-hall/kth57/kth5772"
-        },
-        {
-          "text": "KTH5774",
-          "link": "/products/3d-hall/kth57/kth5774"
-        },
-        {
-          "text": "KTH5791",
-          "link": "/products/3d-hall/kth57/kth5791"
-        },
-        {
-          "text": "KTH7101",
-          "link": "/products/encoder/kth71/kth7101"
-        },
-        {
-          "text": "KTH7801",
-          "link": "/products/encoder/kth78/kth7801"
-        },
-        {
-          "text": "KTM5800",
-          "link": "/products/encoder/ktm58/ktm5800"
-        },
-        {
-          "text": "KTM5900",
-          "link": "/products/encoder/ktm59/ktm5900"
-        },
-        {
-          "text": "KTH1601",
-          "link": "/products/switch/kth16/kth1601"
-        },
-        {
-          "text": "KTH2502",
-          "link": "/products/switch/kth25/kth2502"
-        },
-        {
-          "text": "KTH462N",
-          "link": "/products/switch/kth462"
-        },
-        {
-          "text": "KTH468N",
-          "link": "/products/switch/kth468n"
-        },
-        {
-          "text": "KTM1301",
-          "link": "/products/switch/ktm13/ktm1301"
-        },
-        {
-          "text": "KTM2802N",
-          "link": "/products/switch/ktm28/ktm2802n"
-        },
-        {
-          "text": "KTH31xx",
-          "link": "/products/switch/kth31"
-        },
-        {
-          "text": "KTAx333",
-          "link": "/products/other/ktax33"
-        }
-      ]
-    },
-    {
       "text": "3D霍尔芯片",
       "collapsed": false,
       "items": [
@@ -292,11 +206,61 @@
         },
         {
           "text": "KTH57 系列 三轴线性霍尔传感器",
-          "link": "/products/3d-hall/kth57"
+          "link": "/products/3d-hall/kth57",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH5701",
+              "link": "/products/3d-hall/kth57/kth5701"
+            },
+            {
+              "text": "KTH5702",
+              "link": "/products/3d-hall/kth57/kth5702"
+            },
+            {
+              "text": "KTH5721",
+              "link": "/products/3d-hall/kth57/kth5721"
+            },
+            {
+              "text": "KTH5761",
+              "link": "/products/3d-hall/kth57/kth5761"
+            },
+            {
+              "text": "KTH5762",
+              "link": "/products/3d-hall/kth57/kth5762"
+            },
+            {
+              "text": "KTH5763",
+              "link": "/products/3d-hall/kth57/kth5763"
+            },
+            {
+              "text": "KTH5771",
+              "link": "/products/3d-hall/kth57/kth5771"
+            },
+            {
+              "text": "KTH5772",
+              "link": "/products/3d-hall/kth57/kth5772"
+            },
+            {
+              "text": "KTH5774",
+              "link": "/products/3d-hall/kth57/kth5774"
+            },
+            {
+              "text": "KTH5791",
+              "link": "/products/3d-hall/kth57/kth5791"
+            }
+          ]
         },
         {
           "text": "KTH55 系列 垂直霍尔绝对角度传感器",
-          "link": "/products/3d-hall/kth55"
+          "link": "/products/3d-hall/kth55",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH5502",
+              "link": "/products/3d-hall/kth55/kth5502"
+            }
+          ]
         }
       ]
     },
@@ -318,7 +282,14 @@
         },
         {
           "text": "KTM58 系列 绝对角度细分器",
-          "link": "/products/encoder/ktm58"
+          "link": "/products/encoder/ktm58",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTM5800",
+              "link": "/products/encoder/ktm58/ktm5800"
+            }
+          ]
         },
         {
           "text": "KTM59 系列 TMR 磁编码器",
@@ -407,6 +378,38 @@
             {
               "text": "KTH7824-X-N-QN16",
               "link": "/products/encoder/kth78/kth7824-x-n-qn16"
+            },
+            {
+              "text": "KTH7801",
+              "link": "/products/encoder/kth78/kth7801"
+            },
+            {
+              "text": "KTH7812",
+              "link": "/products/encoder/kth78/kth7812"
+            },
+            {
+              "text": "KTH7813",
+              "link": "/products/encoder/kth78/kth7813"
+            },
+            {
+              "text": "KTH7814",
+              "link": "/products/encoder/kth78/kth7814"
+            },
+            {
+              "text": "KTH7815",
+              "link": "/products/encoder/kth78/kth7815"
+            },
+            {
+              "text": "KTH7816",
+              "link": "/products/encoder/kth78/kth7816"
+            },
+            {
+              "text": "KTH7823",
+              "link": "/products/encoder/kth78/kth7823"
+            },
+            {
+              "text": "KTH7824",
+              "link": "/products/encoder/kth78/kth7824"
             }
           ]
         },
@@ -426,6 +429,18 @@
             {
               "text": "KTH7112-QN16",
               "link": "/products/encoder/kth71/kth7112-qn16"
+            },
+            {
+              "text": "KTH7101",
+              "link": "/products/encoder/kth71/kth7101"
+            },
+            {
+              "text": "KTH7111",
+              "link": "/products/encoder/kth71/kth7111"
+            },
+            {
+              "text": "KTH7112",
+              "link": "/products/encoder/kth71/kth7112"
             }
           ]
         },
@@ -539,6 +554,70 @@
             {
               "text": "KTH1731PU",
               "link": "/products/switch/kth16/kth1731pu"
+            },
+            {
+              "text": "KTH1361",
+              "link": "/products/switch/kth16/kth1361"
+            },
+            {
+              "text": "KTH1362",
+              "link": "/products/switch/kth16/kth1362"
+            },
+            {
+              "text": "KTH1601",
+              "link": "/products/switch/kth16/kth1601"
+            },
+            {
+              "text": "KTH1601S",
+              "link": "/products/switch/kth16/kth1601s"
+            },
+            {
+              "text": "KTH1604",
+              "link": "/products/switch/kth16/kth1604"
+            },
+            {
+              "text": "KTH1604S",
+              "link": "/products/switch/kth16/kth1604s"
+            },
+            {
+              "text": "KTH1611",
+              "link": "/products/switch/kth16/kth1611"
+            },
+            {
+              "text": "KTH1621",
+              "link": "/products/switch/kth16/kth1621"
+            },
+            {
+              "text": "KTH1631",
+              "link": "/products/switch/kth16/kth1631"
+            },
+            {
+              "text": "KTH1642",
+              "link": "/products/switch/kth16/kth1642"
+            },
+            {
+              "text": "KTH1701",
+              "link": "/products/switch/kth16/kth1701"
+            },
+            {
+              "text": "KTH1702",
+              "link": "/products/switch/kth16/kth1702"
+            },
+            {
+              "text": "KTH1711",
+              "link": "/products/switch/kth16/kth1711"
+            },
+            {
+              "text": "KTH1721",
+              "link": "/products/switch/kth16/kth1721"
+            },
+            {
+              "text": "KTH1722",
+              "link": "/products/switch/kth16/kth1722"
+            },
+            {
+              "text": "KTH1731P",
+              "link": "/products/switch/kth16/kth1731p"
             }
           ]
         },
@@ -558,6 +637,18 @@
             {
               "text": "KTH250XQC",
               "link": "/products/switch/kth25/kth250xqc"
+            },
+            {
+              "text": "KTH2502",
+              "link": "/products/switch/kth25/kth2502"
+            },
+            {
+              "text": "KTH2562L",
+              "link": "/products/switch/kth25/kth2562l"
+            },
+            {
+              "text": "KTH2582",
+              "link": "/products/switch/kth25/kth2582"
             }
           ]
         },
@@ -801,6 +892,50 @@
             {
               "text": "KTM1304SE",
               "link": "/products/switch/ktm13/ktm1304se"
+            },
+            {
+              "text": "KTM1301",
+              "link": "/products/switch/ktm13/ktm1301"
+            },
+            {
+              "text": "KTM1302",
+              "link": "/products/switch/ktm13/ktm1302"
+            },
+            {
+              "text": "KTM1302L",
+              "link": "/products/switch/ktm13/ktm1302l"
+            },
+            {
+              "text": "KTM1302R",
+              "link": "/products/switch/ktm13/ktm1302r"
+            },
+            {
+              "text": "KTM1304",
+              "link": "/products/switch/ktm13/ktm1304"
+            },
+            {
+              "text": "KTM1305",
+              "link": "/products/switch/ktm13/ktm1305"
+            },
+            {
+              "text": "KTM1311",
+              "link": "/products/switch/ktm13/ktm1311"
+            },
+            {
+              "text": "KTM1312",
+              "link": "/products/switch/ktm13/ktm1312"
+            },
+            {
+              "text": "KTM1321",
+              "link": "/products/switch/ktm13/ktm1321"
+            },
+            {
+              "text": "KTM1331",
+              "link": "/products/switch/ktm13/ktm1331"
+            },
+            {
+              "text": "KTM1331R",
+              "link": "/products/switch/ktm13/ktm1331r"
             }
           ]
         },
@@ -816,6 +951,14 @@
             {
               "text": "KTM2802",
               "link": "/products/switch/ktm28/ktm2802"
+            },
+            {
+              "text": "KTM2802N",
+              "link": "/products/switch/ktm28/ktm2802n"
+            },
+            {
+              "text": "KTM2802P",
+              "link": "/products/switch/ktm28/ktm2802p"
             }
           ]
         },
@@ -847,6 +990,10 @@
             {
               "text": "KTH3113",
               "link": "/products/switch/kth31/kth3113"
+            },
+            {
+              "text": "KTH31xx",
+              "link": "/products/switch/kth31"
             }
           ]
         },
@@ -862,6 +1009,10 @@
             {
               "text": "KTH4603AB-STx",
               "link": "/products/switch/kth460/kth4603ab-stx"
+            },
+            {
+              "text": "KTH4603",
+              "link": "/products/switch/kth460/kth4603"
             }
           ]
         },
@@ -885,6 +1036,10 @@
             {
               "text": "KTH4622X AM-ST6",
               "link": "/products/switch/kth462/kth4622x-am-st6"
+            },
+            {
+              "text": "KTH462N",
+              "link": "/products/switch/kth462"
             }
           ]
         },
@@ -938,6 +1093,36 @@
               "link": "/products/switch/linear-hall/kth5643a4"
             }
           ]
+        },
+        {
+          "text": "KTH26 系列 高压霍尔开关",
+          "link": "/products/switch/kth26",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH2612",
+              "link": "/products/switch/kth26/kth2612"
+            },
+            {
+              "text": "KTH2631",
+              "link": "/products/switch/kth26/kth2631"
+            },
+            {
+              "text": "KTH2632",
+              "link": "/products/switch/kth26/kth2632"
+            }
+          ]
+        },
+        {
+          "text": "KTH468N 霍尔磁开关",
+          "link": "/products/switch/kth468n",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTH468N",
+              "link": "/products/switch/kth468n"
+            }
+          ]
         }
       ]
     },
@@ -951,7 +1136,25 @@
         },
         {
           "text": "KTAx333 系列 零温漂运放",
-          "link": "/products/other/ktax33"
+          "link": "/products/other/ktax33",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTAx333",
+              "link": "/products/other/ktax33"
+            }
+          ]
+        },
+        {
+          "text": "KTP112 数字温度传感器",
+          "link": "/products/other/ktp112",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "KTP112",
+              "link": "/products/other/ktp112"
+            }
+          ]
         }
       ]
     },

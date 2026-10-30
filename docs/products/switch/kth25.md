@@ -52,7 +52,7 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 
 <p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTH2502</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH2502 产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH2502%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH2502 Datasheet.pdf</a></td></tr></tbody></table></div>
+<div class="c-table c-docs"><table><thead><tr><th>适用</th><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td rowspan="1" class="c-docs__scene">通用</td><td class="c-mono"><a class="c-xref" href="/products/switch/kth25/kth2502">KTH2502</a></td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH2502 产品手册.pdf</a></td><td><a class="c-file" href="/files/KTH2502%20Datasheet.pdf" target="_blank"><em>PDF</em>KTH2502 Datasheet.pdf</a></td></tr></tbody></table></div>
 
 ## 同类产品
 
@@ -61,11 +61,3 @@ KTH25 系列采用先进的斩波技术（内置零漂移放大器）并集成�
 <div class="c-grid c-grid--4"><a class="c-card" href="/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm28"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/kth31"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth31.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH31 系列</span><h3>比例式线性霍尔传感器</h3><p>按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p><span class="c-card__more">查看详情</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
-
-<!-- audited-model-catalog -->
-
-## 按具体型号查资料
-
-[完整型号目录：21个去重入口](/products/catalog)
-
-<div class="catalog-quicklinks"><a href="/products/switch/kth25/kth2502">KTH2502</a></div>

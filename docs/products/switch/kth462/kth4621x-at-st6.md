@@ -1,9 +1,9 @@
 ---
 title: "KTH4621X AT-ST6 · KTH462 系列超灵敏 2D 霍尔开关"
-description: "KTH462 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压、NMOS 开漏输出。"
+description: "KTH462 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，NMOS 开漏输出、1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压。"
 aside: false
 pageClass: "c-page c-page--model"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH4621X AT-ST6\", \"sku\": \"KTH4621X AT-ST6\", \"mpn\": \"KTH4621X AT-ST6\", \"description\": \"KTH462 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压、NMOS 开漏输出。\", \"category\": \"KTH462 系列 超灵敏 2D 霍尔开关\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"isVariantOf\": {\"@type\": \"ProductGroup\", \"name\": \"KTH462 系列 超灵敏 2D 霍尔开关\", \"url\": \"https://conntek.github.io/products/switch/kth462\"}, \"url\": \"https://conntek.github.io/products/switch/kth462/kth4621x-at-st6\"}"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH4621X AT-ST6\", \"sku\": \"KTH4621X AT-ST6\", \"mpn\": \"KTH4621X AT-ST6\", \"description\": \"KTH462 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，NMOS 开漏输出、1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压。\", \"category\": \"KTH462 系列 超灵敏 2D 霍尔开关\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"isVariantOf\": {\"@type\": \"ProductGroup\", \"name\": \"KTH462 系列 超灵敏 2D 霍尔开关\", \"url\": \"https://conntek.github.io/products/switch/kth462\"}, \"url\": \"https://conntek.github.io/products/switch/kth462/kth4621x-at-st6\"}"
 ---
 
 <nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><a href="/products/switch/kth462">KTH462 系列</a><i>/</i><span>KTH4621X AT-ST6</span></nav>
@@ -12,7 +12,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 # KTH4621X AT-ST6
 
-<p class="c-lead"><a class="c-xref" href="/products/switch/kth462">KTH462</a> 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压、NMOS 开漏输出。</p>
+<p class="c-lead"><a class="c-xref" href="/products/switch/kth462">KTH462</a> 系列超灵敏 2D 霍尔开关中的双路输出锁存型型号，NMOS 开漏输出、1.7 kHz 工作频率、1.9 mA @ 2.5 V 平均功耗；2.5 ~ 5.5 V 供电电压。</p>
 
 <div class="c-specs"><div class="c-spec"><b>2.5 ~ 5.5 V</b><span>供电电压</span></div><div class="c-spec"><b>1.9 mA @ 2.5 V</b><span>平均功耗</span></div><div class="c-spec"><b>1.7 kHz</b><span>工作频率</span></div><div class="c-spec"><b>NMOS 开漏输出</b><span>输出接口</span></div></div>
 
@@ -32,8 +32,8 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 
 ## 所属产品系列
 
-<p class="c-sec-lead"><a class="c-xref" href="/products/switch/kth462">KTH462</a> 系列共 4 个型号，点方块直接跳转。</p>
+<p class="c-sec-lead"><a class="c-xref" href="/products/switch/kth462">KTH462</a> 系列共 5 个型号，点方块直接跳转。</p>
 
-<div class="c-series-box"><a class="c-card" href="/products/switch/kth462"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth462.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH462 系列</span><h3>超灵敏 2D 霍尔开关</h3><p>检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号</p><span class="c-card__more">查看系列</span></div></a><div class="c-tiles"><a class="c-tile c-tile--cur" href="/products/switch/kth462/kth4621x-at-st6"><b>KTH4621X AT-ST6</b><span class="c-tile__grade">双路输出锁存型</span><span>1.7 kHz</span><span>1.9 mA @ 2.5 V</span></a><a class="c-tile" href="/products/switch/kth462/kth4621x-am-st6"><b>KTH4621X AM-ST6</b><span class="c-tile__grade">双路输出锁存型</span><span>30 Hz</span><span>33 μA @ 2.5 V</span></a><a class="c-tile" href="/products/switch/kth462/kth4622x-at-st6"><b>KTH4622X AT-ST6</b><span class="c-tile__grade">速度和方向双路输出</span><span>1.7 kHz</span><span>1.9 mA @ 2.5 V</span></a><a class="c-tile" href="/products/switch/kth462/kth4622x-am-st6"><b>KTH4622X AM-ST6</b><span class="c-tile__grade">速度和方向双路输出</span><span>30 Hz</span><span>33 μA @ 2.5 V</span></a></div></div>
+<div class="c-series-box"><a class="c-card" href="/products/switch/kth462"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth462.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH462 系列</span><h3>超灵敏 2D 霍尔开关</h3><p>检测二维磁场，两路独立数字输出，可直接给出速度与方向或每轴独立锁存信号</p><span class="c-card__more">查看系列</span></div></a><div class="c-tiles"><a class="c-tile c-tile--cur" href="/products/switch/kth462/kth4621x-at-st6"><b>KTH4621X AT-ST6</b><span class="c-tile__grade">双路输出锁存型</span><span>NMOS 开漏输出</span><span>1.7 kHz</span></a><a class="c-tile" href="/products/switch/kth462/kth4621x-am-st6"><b>KTH4621X AM-ST6</b><span class="c-tile__grade">双路输出锁存型</span><span>NMOS 开漏输出</span><span>30 Hz</span></a><a class="c-tile" href="/products/switch/kth462/kth4622x-at-st6"><b>KTH4622X AT-ST6</b><span class="c-tile__grade">速度和方向双路输出</span><span>NMOS 开漏输出</span><span>1.7 kHz</span></a><a class="c-tile" href="/products/switch/kth462/kth4622x-am-st6"><b>KTH4622X AM-ST6</b><span class="c-tile__grade">速度和方向双路输出</span><span>NMOS 开漏输出</span><span>30 Hz</span></a><a class="c-tile" href="/products/switch/kth462"><b>KTH462N</b><span>双路数字</span></a></div></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

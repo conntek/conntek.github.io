@@ -15,7 +15,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-post-meta"><span>2026-08-21</span><span>·</span><span>昆泰芯微电子</span><span>·</span><span>阅读约 4 分钟</span></p>
 
-<p class="c-lead"><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 是一款数字输出的 3D 霍尔传感器，以非接触方式替代机械电位器与接触式开关。本文介绍它的六大核心优势、关键参数、在旋钮、摇杆、阀门等场景的应用，以及配套磁钢选型。</p>
+<p class="c-lead"><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 是一款数字输出的 3D 霍尔传感器，以非接触方式替代机械电位器与接触式开关。本文介绍它的六大核心优势、关键参数、在旋钮、摇杆、阀门等场景的应用，以及配套磁钢选型。</p>
 
 <div class="c-takeaways"><b>本文要点</b><ul><li>集成 X、Y、Z 三轴霍尔与 CORDIC，直接输出三个平面的角度</li><li>空闲状态电流 1.4 μA，适合电池与太阳能供电设备</li><li>同一颗芯片可同时检测旋钮与按键，支持在轴与离轴安装</li></ul></div>
 
@@ -23,18 +23,18 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 在智能交互与精密控制的浪潮中，传统机械电位器与接触式开关正面临前所未有的挑战。游戏手柄令人抓狂的「摇杆漂移」、无人机遥控器在复杂工况下的信号跳变、户外农业灌溉阀门因粉尘潮湿环境导致的寿命骤降……机械磨损带来的精度衰减与高昂运维成本，已成为制约产品体验升级的瓶颈。
 
-昆泰芯（CONNTEK）<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 系列 3D 霍尔传感器，以非接触式的底层架构创新，为消费电子、工业控制、智慧农业等领域提供了一套极具竞争力的国产化替代方案。
+昆泰芯（CONNTEK）<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 系列 3D 霍尔传感器，以非接触式的底层架构创新，为消费电子、工业控制、智慧农业等领域提供了一套极具竞争力的国产化替代方案。
 
-<figure class="c-blog-fig"><img src="/blog/3d-hall-knob-joystick-valve-encoder/1.webp" alt="KTH5701 芯片与磁铁示意渲染图" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 芯片与磁铁示意渲染图</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/3d-hall-knob-joystick-valve-encoder/1.webp" alt="KTH5701 芯片与磁铁示意渲染图" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 芯片与磁铁示意渲染图</figcaption></figure>
 
 ## 产品概览
 
-<a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 是一款数字输出的 3D 霍尔传感器，内部集成 X、Y、Z 三轴独立霍尔感应单元，并内置温度传感器用于磁场温度补偿。信号链采用高精度运放配合 16 bit ADC 将模拟信号转换为数字输出，主机可通过 SPI 或 I2C 灵活读取测量数据。
+<a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 是一款数字输出的 3D 霍尔传感器，内部集成 X、Y、Z 三轴独立霍尔感应单元，并内置温度传感器用于磁场温度补偿。信号链采用高精度运放配合 16 bit ADC 将模拟信号转换为数字输出，主机可通过 SPI 或 I2C 灵活读取测量数据。
 
 | 器件型号 | 封装 | 封装尺寸（标称值，mm） |
 | --- | --- | --- |
-| <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> | QFN3x3-16L | 3.00 × 3.00 |
-| <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> | DFN2x2.5-8L | 2.00 × 2.50 |
+| <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> | QFN3x3-16L | 3.00 × 3.00 |
+| <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> | DFN2x2.5-8L | 2.00 × 2.50 |
 
 ## 六大核心优势
 
@@ -105,13 +105,13 @@ AQ2 工业级：-40 ~ 105 ℃；AQ3 消费级：-40 ~ 85 ℃；ESD（HBM）达 �
 
 ## 典型应用场景
 
-<figure class="c-blog-fig"><img src="/blog/3d-hall-knob-joystick-valve-encoder/2.webp" alt="KTH5701 典型应用场景一览" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 典型应用场景一览</figcaption></figure>
+<figure class="c-blog-fig"><img src="/blog/3d-hall-knob-joystick-valve-encoder/2.webp" alt="KTH5701 典型应用场景一览" loading="lazy"><figcaption><a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 典型应用场景一览</figcaption></figure>
 
 游戏手柄、无人机遥控器、汽车多媒体旋钮——彻底告别摇杆漂移与电位器磨损；智能灌溉阀门——全密封防水防尘、无接触损耗、掉电位置不丢失。
 
 ## 配套磁钢选型
 
-昆泰芯同步提供配套径向 2 极充磁圆柱磁钢系列（N48H，NiCuNi 镀层，Ø4.0 ~ Ø10.0 mm），磁场特性与 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> / <a class="c-xref" href="/products/3d-hall/kth57">KTH5774</a> 等 3D 霍尔角度传感器深度匹配，帮助客户快速完成磁路设计与验证，缩短开发周期。
+昆泰芯同步提供配套径向 2 极充磁圆柱磁钢系列（N48H，NiCuNi 镀层，Ø4.0 ~ Ø10.0 mm），磁场特性与 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> / <a class="c-xref" href="/products/3d-hall/kth57/kth5774">KTH5774</a> 等 3D 霍尔角度传感器深度匹配，帮助客户快速完成磁路设计与验证，缩短开发周期。
 
 <p class="c-post-source">本文首发于微信公众号「昆泰芯微电子」，2026-08-21。<a href="https://mp.weixin.qq.com/s/fo3AxdP0dOwxVMYysE-JpQ" target="_blank" rel="noopener">查看原文</a></p>
 

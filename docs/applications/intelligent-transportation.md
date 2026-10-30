@@ -27,7 +27,7 @@ pageClass: "c-page"
 
 ## 应用案例
 
-<p class="c-sec-lead">电子节气门案例采用 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列三轴霍尔传感器；车规级 <a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 符合 AEC-Q100，规格表所列应用领域包括水泵、油泵、智能车灯、转向传感器、涡轮增压、雨刮与门把手等。</p>
+<p class="c-sec-lead">电子节气门案例采用 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列三轴霍尔传感器；车规级 <a class="c-xref" href="/products/encoder/kth78/kth7801">KTH7801</a> 符合 AEC-Q100，规格表所列应用领域包括水泵、油泵、智能车灯、转向传感器、涡轮增压、雨刮与门把手等。</p>
 
 <div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-transportation/e-throttle"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-transportation-0.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH57xx</span><h3>电子节气门</h3><span class="c-card__more">查看案例</span></div></a><a class="c-card" href="/applications/intelligent-transportation/automotive-angle"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-transportation-automotive-angle.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH78xx</span><h3>汽车角度控制</h3><span class="c-card__more">查看案例</span></div></a></div>
 
@@ -37,7 +37,7 @@ pageClass: "c-page"
 
 ## 需求与芯片对照
 
-<div class="c-table c-table--links"><table><thead><tr><th>需求</th><th>推荐系列</th><th>依据</th></tr></thead><tbody><tr><td>踏板节气门开度</td><td><a href="/products/3d-hall/kth57">KTH57 系列</a></td><td>检测范围 360°、16 bit，-40 ~ 125 ℃，I2C / SPI 输出。</td></tr><tr><td>车规绝对角度</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td><a class="c-xref" href="/products/encoder/kth78/kth7801-x-n-qn16">KTH7801</a> 符合 AEC-Q100，-40 ~ 150 ℃，120,000 rpm。</td></tr><tr><td>高速换相角度</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>刷新 1 MHz、每 1 μs 更新并做延时补偿，噪声低至 0.007°。</td></tr><tr><td>故障诊断能力</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>磁场过低过高报警阈值可设，SPI 可选 CRC 校验。</td></tr><tr><td>接口替换兼容</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>SPI / SSI / PWM，ABZ 4 ~ 4096 步/圈、UVW 1 ~ 8 对极。</td></tr><tr><td>离轴磁路布置</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>全系支持在轴或离轴，离轴精度约 ±1°，可配磁仿真服务。</td></tr></tbody></table></div>
+<div class="c-table c-table--links"><table><thead><tr><th>需求</th><th>推荐系列</th><th>依据</th></tr></thead><tbody><tr><td>踏板节气门开度</td><td><a href="/products/3d-hall/kth57">KTH57 系列</a></td><td>检测范围 360°、16 bit，-40 ~ 125 ℃，I2C / SPI 输出。</td></tr><tr><td>车规绝对角度</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td><a class="c-xref" href="/products/encoder/kth78/kth7801">KTH7801</a> 符合 AEC-Q100，-40 ~ 150 ℃，120,000 rpm。</td></tr><tr><td>高速换相角度</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>刷新 1 MHz、每 1 μs 更新并做延时补偿，噪声低至 0.007°。</td></tr><tr><td>故障诊断能力</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>磁场过低过高报警阈值可设，SPI 可选 CRC 校验。</td></tr><tr><td>接口替换兼容</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>SPI / SSI / PWM，ABZ 4 ~ 4096 步/圈、UVW 1 ~ 8 对极。</td></tr><tr><td>离轴磁路布置</td><td><a href="/products/encoder/kth78">KTH78 系列</a></td><td>全系支持在轴或离轴，离轴精度约 ±1°，可配磁仿真服务。</td></tr></tbody></table></div>
 
 ## 设计自检
 

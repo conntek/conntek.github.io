@@ -7,7 +7,7 @@ date: "2025-12-19"
 ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headline\": \"昆泰芯 KTH5701 在工业注射泵中的应用场景与解决方案\", \"description\": \"工业注射泵的核心诉求是微量、稳定、可重复、智能化的液体输送。本文介绍昆泰芯 KTH57 系列 3D 霍尔传感器芯片的技术优势，以及它在油井增产、调味品注入、定量注脂三类场景中的解决方案。\", \"datePublished\": \"2025-12-19\", \"dateModified\": \"2025-12-19\", \"articleSection\": \"应用方案\", \"inLanguage\": \"zh-CN\", \"image\": \"https://conntek.github.io/blog/kth5701-injection-pump/cover.webp\", \"author\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"publisher\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"mainEntityOfPage\": \"https://conntek.github.io/blog/kth5701-injection-pump\", \"isBasedOn\": \"https://mp.weixin.qq.com/s/RRaXBIyZF5v2bnanxxyqMQ\"}"
 ---
 
-<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 在工业注射泵中的应用场景与解决方案</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/blog/">博客</a><i>/</i><span>昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 在工业注射泵中的应用场景与解决方案</span></nav>
 
 <p class="c-kicker">应用方案</p>
 
@@ -17,7 +17,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 <p class="c-lead">工业注射泵的核心诉求是微量、稳定、可重复、智能化的液体输送。本文介绍昆泰芯 <a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列 3D 霍尔传感器芯片的技术优势，以及它在油井增产、调味品注入、定量注脂三类场景中的解决方案。</p>
 
-<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列输出 X、Y、Z 三轴磁场，ADC 精度 16 bit</li><li>油井增产中 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 替代光学编码器，注入精度提升至 ±0.03%</li><li>电动注脂泵检测推杆位移并结合压力趋势，自动终止注射</li></ul></div>
+<div class="c-takeaways"><b>本文要点</b><ul><li><a class="c-xref" href="/products/3d-hall/kth57">KTH57</a> 系列输出 X、Y、Z 三轴磁场，ADC 精度 16 bit</li><li>油井增产中 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 替代光学编码器，注入精度提升至 ±0.03%</li><li>电动注脂泵检测推杆位移并结合压力趋势，自动终止注射</li></ul></div>
 
 <figure class="c-blog-fig c-blog-fig--hero"><img src="/blog/kth5701-injection-pump/2.webp" alt="昆泰芯 KTH5701 在工业注射泵中的应用场景与解决方案"></figure>
 
@@ -49,7 +49,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"BlogPosting\", \"headli
 
 痛点需求：压裂液/酸化剂注入需极高重复性（≤ 0.05% 误差），且现场环境高温高压、强振动。
 
-昆泰芯解决方案：采用 <a class="c-xref" href="/products/3d-hall/kth57">KTH5701</a> 超低功耗 3D 霍尔传感器芯片，替代传统光学编码器，以在轴的方式安装于步进电机轴端，实现非接触式角度测量，避免粉尘、油污导致的信号漂移。搭配算法程序，实时校正丝杠推进偏差，确保每次注射体积一致性。
+昆泰芯解决方案：采用 <a class="c-xref" href="/products/3d-hall/kth57/kth5701">KTH5701</a> 超低功耗 3D 霍尔传感器芯片，替代传统光学编码器，以在轴的方式安装于步进电机轴端，实现非接触式角度测量，避免粉尘、油污导致的信号漂移。搭配算法程序，实时校正丝杠推进偏差，确保每次注射体积一致性。
 
 价值成果：提升注入精度至 ±0.03%，延长设备维护周期 50% 以上。
 

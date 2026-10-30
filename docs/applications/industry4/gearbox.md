@@ -36,7 +36,7 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"TechArticle\", \"headli
 
 <p class="c-sec-lead">内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°</p>
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>校准后高精度</h3><p>内置 ANLC 自校准，<a class="c-xref" href="/products/encoder/kth71/kth7112-qn16">KTH7112</a> 在轴精度 ±0.07°。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>高转速</h3><p>支持最高 120,000 rpm，输入侧高速轴也能跟随。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低延时</h3><p>角度刷新频率 1 MHz，内部做延时补偿，匀速下系统延时接近零。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，适应齿轮箱运行温升。</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>校准后高精度</h3><p>内置 ANLC 自校准，<a class="c-xref" href="/products/encoder/kth71/kth7112">KTH7112</a> 在轴精度 ±0.07°。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>高转速</h3><p>支持最高 120,000 rpm，输入侧高速轴也能跟随。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低延时</h3><p>角度刷新频率 1 MHz，内部做延时补偿，匀速下系统延时接近零。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>宽温范围</h3><p>工作温度 -40 ~ 125 ℃，适应齿轮箱运行温升。</p></div></div></div>
 
 <div class="c-grid c-grid--2"><a class="c-card" href="/products/encoder/kth71"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth71.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH71 系列</span><h3>自校准霍尔磁编码器</h3><p>内置自动非线性校准（ANLC），无需复杂外部干预，在轴 INL 优于 ±0.1°</p><span class="c-card__more">查看产品</span></div></a></div>
 

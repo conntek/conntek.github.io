@@ -1,69 +1,57 @@
 ---
-title: "KTH31 系列 比例式线性霍尔传感器"
-description: "按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选"
+title: "KTH31xx · 比例式线性霍尔传感器"
+description: "KTH31XX系列为比例式模拟输出Hall传感器，感知垂直于封装顶部的磁场，并以电源中点为静态输出基准，适合磁场及机构位置前端。"
 aside: false
-pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH31 系列 比例式线性霍尔传感器\", \"description\": \"按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选\", \"category\": \"开关芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/kth31.webp\", \"url\": \"https://conntek.github.io/products/switch/kth31\"}"
+pageClass: "c-page c-page--product catalog-product"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTH31xx\", \"mpn\": \"KTH31xx\", \"description\": \"KTH31XX系列为比例式模拟输出Hall传感器，感知垂直于封装顶部的磁场，并以电源中点为静态输出基准，适合磁场及机构位置前端。\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/products/switch/kth31\"}"
 ---
 
-<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTH31 系列</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/switch/">开关芯片</a><i>/</i><span>KTH31xx</span></nav>
 
 <div class="c-product-hero"><div class="c-product-hero__text">
 
-<p class="c-kicker">KTH31 系列</p>
+<p class="c-kicker">KTH31xx</p>
 
 # 比例式线性霍尔传感器
 
-<p class="c-lead">按比例响应磁通密度，30 kHz 高速带宽、轨到轨模拟输出，多灵敏度可选</p>
+<p class="c-lead">KTH31XX系列为比例式模拟输出Hall传感器，感知垂直于封装顶部的磁场，并以电源中点为静态输出基准，适合磁场及机构位置前端。</p>
 
-<div class="c-specs"><div class="c-spec"><b>3.0 ~ 5.5 V</b><span>电压</span></div><div class="c-spec"><b>4.5 mA @ 3.3 V</b><span>功耗</span></div><div class="c-spec"><b>1.00 ~ 8.90 mV/Gs</b><span>灵敏度 · @ 3.3 V</span></div><div class="c-spec"><b>-40 ~ 125 ℃</b><span>温度</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>比例模拟</b><span>输出</span></div><div class="c-spec"><b>6档</b><span>灵敏度选择</span></div><div class="c-spec"><b>3–5.5 V</b><span>供电</span></div><div class="c-spec"><b>30 kHz</b><span>典型带宽</span></div></div>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>1</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">产品手册<small>1</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
 
-</div><div class="c-product-hero__media"><img src="/img/icons-web/kth31.webp" alt="KTH31 系列"></div></div>
+</div><div class="c-product-hero__media"><img src="/img/icons-web/kth31.webp" alt="KTH31xx 产品示意"></div></div>
 
 ## 产品概述
 
 <div class="c-split c-split--overview"><div class="c-split__text">
 
-KTH31 系列是一款可按比例响应磁通量密度的线性霍尔效应传感器，内部电路包含霍尔传感器、线性放大器与推挽输出级，输出高速、低噪声，在 -40 ~ 125 ℃ 的宽温度范围内保持线性性能，可用于消费类、工业类各种磁场检测。
+KTH31XX系列为比例式模拟输出Hall传感器，感知垂直于封装顶部的磁场，并以电源中点为静态输出基准，适合磁场及机构位置前端。
 
-无磁场时输出 VDD/2 静态电压，可同时检测 N 极与 S 极磁场。系列提供 <a class="c-xref" href="/products/switch/kth31/kth3101">KTH3101</a>、<a class="c-xref" href="/products/switch/kth31/kth3102">KTH3102</a>、<a class="c-xref" href="/products/switch/kth31/kth3103">KTH3103</a>、<a class="c-xref" href="/products/switch/kth31/kth3105">KTH3105</a>、<a class="c-xref" href="/products/switch/kth31/kth3110">KTH3110</a>、<a class="c-xref" href="/products/switch/kth31/kth3113">KTH3113</a> 六个灵敏度型号，@ 3.3 V 时灵敏度 1.00 ~ 8.90 mV/Gs，对应磁场范围 ±1400 ~ ±150 Gs；功耗 4.5 mA @ 3.3 V、5.4 mA @ 5.0 V。
+六档灵敏度成员与多种三脚封装便于根据磁体场强、主控ADC量程及安装方式选择方案，也可结合外部磁路用于电流检测。
 
-<div class="c-tags c-tags--lg"><b>测量类型</b><span>消费类磁场检测</span><span>工业类磁场检测</span></div>
-
-</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/kth31.webp" alt="KTH31 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/kth31.webp" alt="KTH31 系列 系列应用示意" loading="lazy"></div></div>
 
 ## 核心特点
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>比例式线性</h3><p>输出按比例响应磁通量密度</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>轨到轨输出</h3><p>轨到轨模拟电压输出</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>低噪声</h3><p>输出电压噪声低</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>高速带宽</h3><p>30 kHz 带宽</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>双极性检测</h3><p>VDD/2 静态输出，可检测 N 极与 S 极磁场</p></div></div><div class="c-feature"><span class="c-feature__no">06</span><div><h3>多灵敏度可选</h3><p>1.00 ~ 8.90 mV/Gs（@ 3.3 V）六档</p></div></div><div class="c-feature"><span class="c-feature__no">07</span><div><h3>宽电压低功耗</h3><p>3.0 ~ 5.5 V，4.5 mA @ 3.3 V</p></div></div><div class="c-feature"><span class="c-feature__no">08</span><div><h3>封装与环保</h3><p>SOT-23、TO-92S、DFN1616，符合 RoHS 标准</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>比例式模拟输出</h3><p>无磁场时输出接近VDD/2，随南北磁场方向和强度变化。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>六档灵敏度</h3><p>3101、3102、3103、3105、3110、3113提供不同灵敏度，按供电条件读取。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>30kHz典型带宽</h3><p>面向动态磁场采集，外部RC可进一步协调噪声与响应。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>3.0～5.5V工作</h3><p>典型电流随供电变化，可与相应ADC参考方案匹配。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>三种封装路径</h3><p>SOT23、DFN1616与TO-92S适配不同PCB和通孔结构。</p></div></div></div>
 
 ## 规格参数
 
-<p class="c-sec-lead">@ 3.3 V 时，<a class="c-xref" href="/products/switch/kth31/kth3101">KTH3101</a> 灵敏度 1.00 mV/Gs、磁场范围 ±1400 Gs，<a class="c-xref" href="/products/switch/kth31/kth3113">KTH3113</a> 灵敏度 8.90 mV/Gs、磁场范围 ±150 Gs，其余型号介于两者之间，按被测磁场范围选型。</p>
+<p class="c-sec-lead">灵敏度随供电条件读取，SOT23与DFN/TO-92S的OUT和GND脚序分别核对。</p>
 
-<details class="c-fold"><summary><b>（1/2）</b><span class="c-fold__n">5 个型号</span><span class="c-fold__ids">KTH3101、KTH3102、KTH3103、KTH3105、KTH3110</span></summary>
+<div class="c-table c-kv"><table><tbody><tr><th>工作供电</th><td>3.0～5.5 V；典型3.3 V；工作状态；电参数表总条件TA=−40～125°C，除特别说明外（手册第6页）</td></tr><tr><th>工作温度</th><td>−40～125 °C；系列推荐工作范围；不能用结温或贮存温度替代（手册第1、5页）</td></tr><tr><th>供电电流（3.3V）</th><td>典型4.5 mA，最大5.5 mA；VDD=3.3 V，B=0 Gs，TA=25°C（手册第6页）</td></tr><tr><th>供电电流（5V）</th><td>典型5.4 mA，最大6.5 mA；VDD=5.0 V，B=0 Gs，TA=25°C（手册第6页）</td></tr><tr><th>带宽</th><td>典型30 kHz；电参数表总条件TA=−40～125°C，VDD=3.0～5.5 V；不与外置RC后的带宽混用（手册第6页）</td></tr><tr><th>上电时间</th><td>典型20 μs，最大40 μs；TA=25°C；其余依电参数表默认条件（手册第6页）</td></tr><tr><th>最大负载电容</th><td>10 nF；电参数表最大列；外置RC应用电路另按手册第11页（手册第6页）</td></tr><tr><th>静态电压（3.3V）</th><td>最小1.630 V，典型1.650 V，最大1.670 V；VDD=3.3 V，B=0，TA=25°C（手册第7页）</td></tr><tr><th>静态电压（5V）</th><td>最小2.475 V，典型2.500 V，最大2.525 V；VDD=5.0 V，B=0，TA=25°C（手册第7页）</td></tr><tr><th>输出电压线性范围</th><td>0.25 V～VDD−0.25 V；TA=−40～125°C，VDD=3.0～5.5 V，除特别说明外（手册第7页）</td></tr><tr><th>灵敏度线性误差</th><td>−1.5%～+1.5%；磁参数表最小/最大列；TA=−40～125°C，VDD=3.0～5.5 V，除特别说明外（手册第7页）</td></tr><tr><th>KTH3101 灵敏度（3.3V）</th><td>最小0.93、典型1.00、最大1.07 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3101 灵敏度（5V）</th><td>最小1.40、典型1.50、最大1.61 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3101 磁场检测范围</th><td>典型±1400 Gs（3.3 V）；典型±1500 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3101 输出噪声</th><td>典型2.4 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>KTH3102 灵敏度（3.3V）</th><td>最小1.53、典型1.65、最大1.76 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3102 灵敏度（5V）</th><td>最小2.33、典型2.50、最大2.67 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3102 磁场检测范围</th><td>典型±840 Gs（3.3 V）；典型±900 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3102 输出噪声</th><td>典型3 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>KTH3103 灵敏度（3.3V）</th><td>最小2.10、典型2.25、最大2.41 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3103 灵敏度（5V）</th><td>最小3.16、典型3.40、最大3.68 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3103 磁场检测范围</th><td>典型±620 Gs（3.3 V）；典型±660 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3103 输出噪声</th><td>典型3.5 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>KTH3105 灵敏度（3.3V）</th><td>最小3.07、典型3.30、最大3.53 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3105 灵敏度（5V）</th><td>最小4.65、典型5.00、最大5.35 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3105 磁场检测范围</th><td>典型±420 Gs（3.3 V）；典型±450 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3105 输出噪声</th><td>典型4.8 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>KTH3110 灵敏度（3.3V）</th><td>最小6.14、典型6.60、最大7.06 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3110 灵敏度（5V）</th><td>最小9.30、典型10.00、最大10.70 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3110 磁场检测范围</th><td>典型±210 Gs（3.3 V）；典型±225 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3110 输出噪声</th><td>典型7.2 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>KTH3113 灵敏度（3.3V）</th><td>最小8.28、典型8.90、最大9.52 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3113 灵敏度（5V）</th><td>最小12.56、典型13.50、最大14.45 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页）</td></tr><tr><th>KTH3113 磁场检测范围</th><td>典型±150 Gs（3.3 V）；典型±165 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页）</td></tr><tr><th>KTH3113 输出噪声</th><td>典型8.6 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页）</td></tr><tr><th>封装引脚</th><td>SOT23：VDD=1、OUT=2、GND=3；DFN1616/TO-92S：VDD=1、GND=2、OUT=3；按手册封装与俯视图，不能按三脚器件习惯统一接线（手册第2、3页）</td></tr></tbody></table></div>
 
-<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3101">KTH3101</a></th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3102">KTH3102</a></th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3103">KTH3103</a></th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3105">KTH3105</a></th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3110">KTH3110</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td colspan="5">线性</td></tr><tr><th scope="row">产品名称</th><td colspan="5">高速高带宽线性霍尔</td></tr><tr><th scope="row">供电电压</th><td colspan="5">3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td colspan="5">4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>1.00 mV/Gs (@ 3.3 V)<br>1.5 mV/Gs (@ 5 V)</td><td>1.65 mV/Gs (@ 3.3 V)<br>2.5 mV/Gs (@ 5 V)</td><td>2.25 mV/Gs (@ 3.3 V)<br>3.4 mV/Gs (@ 5 V)</td><td>3.30 mV/Gs (@ 3.3 V)<br>5.0 mV/Gs (@ 5 V)</td><td>6.60 mV/Gs (@ 3.3 V)<br>10 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±1400 Gs<br>±1500 Gs</td><td>±840 Gs<br>±900 Gs</td><td>±620 Gs<br>±660 Gs</td><td>±420 Gs<br>±450 Gs</td><td>±210 Gs<br>±225 Gs</td></tr><tr><th scope="row">输出接口</th><td colspan="5">模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td colspan="5">-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td colspan="5">SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
+## 典型应用
 
-</details>
-
-<details class="c-fold"><summary><b>（2/2）</b><span class="c-fold__n">1 个型号</span><span class="c-fold__ids">KTH3113</span></summary>
-
-<div class="c-table c-table--t" tabindex="0" role="region" aria-label="参数对比表"><table><thead><tr><th>参数</th><th scope="col" class="c-mono"><a href="/products/switch/kth31/kth3113">KTH3113</a></th></tr></thead><tbody><tr><th scope="row">类型</th><td>线性</td></tr><tr><th scope="row">产品名称</th><td>高速高带宽线性霍尔</td></tr><tr><th scope="row">供电电压</th><td>3.0 ~ 5.5 V</td></tr><tr><th scope="row">平均功耗</th><td>4.5 mA @ 3.3 V<br>5.4 mA @ 5.0 V</td></tr><tr><th scope="row">灵敏度</th><td>8.90 mV/Gs (@ 3.3 V)<br>13.5 mV/Gs (@ 5 V)</td></tr><tr><th scope="row">磁场范围</th><td>±150 Gs<br>±165 Gs</td></tr><tr><th scope="row">输出接口</th><td>模拟电压输出</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td></tr><tr><th scope="row">封装</th><td>SOT-23 / TO-92S / DFN1616</td></tr></tbody></table></div>
-
-</details>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>磁场强度测量</h3><p>模拟电压便于ADC采集敏感轴上的场强变化。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>机构位移输入</h3><p>通过磁体与运动轨迹建立电压到位置的映射。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>电流检测前端</h3><p>结合导体或磁芯磁路，获得随电流变化的磁场信号。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>振动与接近感知</h3><p>动态模拟输出可用于相应磁体运动信号的采集。</p></div></div></div>
 
 ## 技术文档
 
-<p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>文档</th><th>资料入口</th></tr></thead><tbody><tr><td class="c-mono">KTH31xx</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank" rel="noopener"><em>PDF</em>KTH31 Series 产品手册.pdf</a></td></tr></tbody></table></div>
 
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTH31xx</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTH31 Series 产品手册.pdf</a></td><td><span class="c-muted">—</span></td></tr></tbody></table></div>
+## 型号选择
 
-## 同类产品
-
-<p class="c-sec-lead">开关芯片产品线的其他系列。</p>
-
-<div class="c-grid c-grid--4"><a class="c-card" href="/products/switch/kth16"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth16.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH13/16/17 系列</span><h3>微功耗 1D 霍尔开关</h3><p>CMOS 工艺集成霍尔元件，1 μA 超低功耗，温度补偿优良，覆盖全极、单极与锁存型</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/kth25"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth25.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH25 系列</span><h3>车规级高压霍尔开关</h3><p>斩波技术（内置零漂移放大器），失调电压小于 10 μV，宽压工作，反接保护电压高达 -32 V</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm13"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm13.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM13 系列</span><h3>TMR 磁阻开关</h3><p>TMR 阻桥与 ASIC 单芯片集成，平行磁场感应，回差可小于 3 高斯</p><span class="c-card__more">查看详情</span></div></a><a class="c-card" href="/products/switch/ktm28"><div class="c-card__media c-media--icon"><img src="/img/icons-web/ktm28.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTM28 系列</span><h3>AMR 高压气缸开关</h3><p>SIP 集成 AMR 与 ASIC，支持两线 / 三线气缸位置检测，任意极性感应水平磁场</p><span class="c-card__more">查看详情</span></div></a></div>
+<div class="catalog-quicklinks"><a href="/products/switch/kth31/kth3101">KTH3101</a><a href="/products/switch/kth31/kth3102">KTH3102</a><a href="/products/switch/kth31/kth3103">KTH3103</a><a href="/products/switch/kth31/kth3105">KTH3105</a><a href="/products/switch/kth31/kth3110">KTH3110</a><a href="/products/switch/kth31/kth3113">KTH3113</a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

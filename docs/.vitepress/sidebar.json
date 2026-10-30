@@ -9,6 +9,10 @@
           "link": "/products/"
         },
         {
+          "text": "具体型号与技术资料",
+          "link": "/products/catalog"
+        },
+        {
           "text": "3D霍尔芯片",
           "items": [
             {
@@ -183,6 +187,100 @@
     {
       "text": "产品中心总览",
       "link": "/products/"
+    },
+    {
+      "text": "具体型号与资料",
+      "collapsed": true,
+      "items": [
+        {
+          "text": "全部具体型号",
+          "link": "/products/catalog"
+        },
+        {
+          "text": "KTH5502",
+          "link": "/products/3d-hall/kth55/kth5502"
+        },
+        {
+          "text": "KTH5701",
+          "link": "/products/3d-hall/kth57/kth5701"
+        },
+        {
+          "text": "KTH5702",
+          "link": "/products/3d-hall/kth57/kth5702"
+        },
+        {
+          "text": "KTH5721",
+          "link": "/products/3d-hall/kth57/kth5721"
+        },
+        {
+          "text": "KTH5761",
+          "link": "/products/3d-hall/kth57/kth5761"
+        },
+        {
+          "text": "KTH5771",
+          "link": "/products/3d-hall/kth57/kth5771"
+        },
+        {
+          "text": "KTH5772",
+          "link": "/products/3d-hall/kth57/kth5772"
+        },
+        {
+          "text": "KTH5774",
+          "link": "/products/3d-hall/kth57/kth5774"
+        },
+        {
+          "text": "KTH5791",
+          "link": "/products/3d-hall/kth57/kth5791"
+        },
+        {
+          "text": "KTH7101",
+          "link": "/products/encoder/kth71/kth7101"
+        },
+        {
+          "text": "KTH7801",
+          "link": "/products/encoder/kth78/kth7801"
+        },
+        {
+          "text": "KTM5800",
+          "link": "/products/encoder/ktm58/ktm5800"
+        },
+        {
+          "text": "KTM5900",
+          "link": "/products/encoder/ktm59/ktm5900"
+        },
+        {
+          "text": "KTH1601",
+          "link": "/products/switch/kth16/kth1601"
+        },
+        {
+          "text": "KTH2502",
+          "link": "/products/switch/kth25/kth2502"
+        },
+        {
+          "text": "KTH462N",
+          "link": "/products/switch/kth462"
+        },
+        {
+          "text": "KTH468N",
+          "link": "/products/switch/kth468n"
+        },
+        {
+          "text": "KTM1301",
+          "link": "/products/switch/ktm13/ktm1301"
+        },
+        {
+          "text": "KTM2802N",
+          "link": "/products/switch/ktm28/ktm2802n"
+        },
+        {
+          "text": "KTH31xx",
+          "link": "/products/switch/kth31"
+        },
+        {
+          "text": "KTAx333",
+          "link": "/products/other/ktax33"
+        }
+      ]
     },
     {
       "text": "3D霍尔芯片",

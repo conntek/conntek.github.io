@@ -75,3 +75,11 @@ ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"
 <div class="c-grid c-grid--4"><a class="c-card" href="/products/3d-hall/kth55"><div class="c-card__media c-media--icon"><img src="/img/icons-web/kth55.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">KTH55 系列</span><h3>垂直霍尔绝对角度传感器</h3><p>垂直霍尔配合 16 位 ADC，0 ~ 360° 绝对角度输出，符合 AEC-Q100</p><span class="c-card__more">查看详情</span></div></a></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>
+
+<!-- audited-model-catalog -->
+
+## 按具体型号查资料
+
+[完整型号目录：21个去重入口](/products/catalog)
+
+<div class="catalog-quicklinks"><a href="/products/3d-hall/kth57/kth5701">KTH5701</a><a href="/products/3d-hall/kth57/kth5702">KTH5702</a><a href="/products/3d-hall/kth57/kth5721">KTH5721</a><a href="/products/3d-hall/kth57/kth5761">KTH5761</a><a href="/products/3d-hall/kth57/kth5771">KTH5771</a><a href="/products/3d-hall/kth57/kth5772">KTH5772</a><a href="/products/3d-hall/kth57/kth5774">KTH5774</a><a href="/products/3d-hall/kth57/kth5791">KTH5791</a></div>

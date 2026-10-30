@@ -1,71 +1,53 @@
 ---
-title: "KTAx333 系列 零温漂高精度运放"
-description: "自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出"
+title: "KTAx333 · 零温漂高精度运放·2μV 失调"
+description: "KTAx333系列采用自校准CMOS运放结构，为温度、桥式传感器和微小信号调理提供低失调与微功耗放大路径。"
 aside: false
-pageClass: "c-page c-page--product"
-ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTAx333 系列 零温漂高精度运放\", \"description\": \"自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出\", \"category\": \"其他芯片\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"image\": \"https://conntek.github.io/img/icons-web/ktax33.webp\", \"url\": \"https://conntek.github.io/products/other/ktax33\"}"
+pageClass: "c-page c-page--product catalog-product"
+ld: "{\"@context\": \"https://schema.org\", \"@type\": \"Product\", \"name\": \"KTAx333\", \"mpn\": \"KTAx333\", \"description\": \"KTAx333系列采用自校准CMOS运放结构，为温度、桥式传感器和微小信号调理提供低失调与微功耗放大路径。\", \"brand\": {\"@type\": \"Brand\", \"name\": \"CONNTEK 昆泰芯\"}, \"manufacturer\": {\"@type\": \"Organization\", \"name\": \"昆泰芯微电子\", \"alternateName\": \"CONNTEK\", \"url\": \"https://conntek.github.io/\"}, \"url\": \"https://conntek.github.io/products/other/ktax33\"}"
 ---
 
-<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/other/">其他芯片</a><i>/</i><span>KTAx333 系列</span></nav>
+<nav class="c-crumbs"><a href="/">首页</a><i>/</i><a href="/products/">产品中心</a><i>/</i><a href="/products/other/">其他芯片</a><i>/</i><span>KTAx333</span></nav>
 
 <div class="c-product-hero"><div class="c-product-hero__text">
 
-<p class="c-kicker">KTAx333 系列</p>
+<p class="c-kicker">KTAx333</p>
 
-# 零温漂高精度运放
+# 零漂移微功耗运算放大器
 
-<p class="c-lead">自校准 CMOS 运放，失调电压 2 μV（典型值），轨到轨输入 / 输出</p>
+<p class="c-lead">KTAx333系列采用自校准CMOS运放结构，为温度、桥式传感器和微小信号调理提供低失调与微功耗放大路径。</p>
 
-<div class="c-specs"><div class="c-spec"><b>2 μV</b><span>失调电压 · 典型值</span></div><div class="c-spec"><b>1.8 ~ 5.5 V</b><span>电压</span></div><div class="c-spec"><b>30 μA</b><span>功耗</span></div><div class="c-spec"><b>轨到轨输入 / 输出</b><span>接口</span></div></div>
+<div class="c-specs"><div class="c-spec"><b>单／双通道</b><span>通道</span></div><div class="c-spec"><b>1.8–5.5 V</b><span>供电</span></div><div class="c-spec"><b>2 μV</b><span>典型失调</span></div><div class="c-spec"><b>轨到轨</b><span>输入输出</span></div></div>
 
-<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">下载技术文档<small>2</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
+<div class="c-actions"><a class="c-btn c-btn--brand" href="#技术文档">产品手册<small>1</small></a><a class="c-btn" href="/contact">申请样品 / 咨询</a></div>
 
-</div><div class="c-product-hero__media"><img src="/img/icons-web/ktax33.webp" alt="KTAx333 系列"></div></div>
+</div><div class="c-product-hero__media"><img src="/img/icons-web/ktax33.webp" alt="KTAx333 产品示意"></div></div>
 
 ## 产品概述
 
 <div class="c-split c-split--overview"><div class="c-split__text">
 
-KTAx333 是一款低失调、微功耗、可实现轨到轨输入 / 输出的 CMOS 运算放大器，采用自校准技术获得极低的失调电压（2 μV 典型值，10 μV 最大值）。系列 CMRR 性能出色，且不存在传统互补输入级带来的交越问题；在驱动模数转换器（ADC）时性能优异，不会降低微分线性，非常适合作为各类传感器信号的放大级。
+KTAx333系列采用自校准CMOS运放结构，为温度、桥式传感器和微小信号调理提供低失调与微功耗放大路径。
 
-主要参数：增益带宽积 350 kHz，失调电压温漂 0.02 μV/℃，电压噪声 1.1 μVpp（0.1 ~ 10 Hz），压摆率 0.16 V/μs，输入偏置电流 ±100 pA，输入失调电流 ±120 pA，静态功耗 30 μA，CMRR 120 dB，PSRR 1 μV/V，开环增益 120 dB，工作温度 -40 ~ 125 ℃。
+KTA333为单通道，KTA2333为双通道，支持轨到轨输入/输出及低压工作，可围绕传感器阻抗、闭环增益和ADC负载选择配置。
 
-<div class="c-tags c-tags--lg"><b>典型应用</b><a href="/applications/intelligent-life/solar-converter">太阳能光电转换器</a><a href="/applications/intelligent-life/gas-stove-temperature">燃气灶-温度检测</a></div>
-
-<div class="c-tags c-tags--lg"><b>测量类型</b><span>传感器信号放大</span></div>
-
-</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/ktax33.webp" alt="KTAx333 系列 产品图" loading="lazy"></div></div>
+</div><div class="c-split__media c-split__media--frame"><img src="/img/photo/ktax33.webp" alt="KTAx333 系列 系列应用示意" loading="lazy"></div></div>
 
 ## 核心特点
 
-<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>极低失调</h3><p>失调电压 2 μV（典型值），10 μV（最大值）</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>零温漂</h3><p>失调电压温漂 0.02 μV/℃</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>轨到轨</h3><p>轨到轨输入与输出</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>出色 CMRR</h3><p>CMRR 120 dB，无传统互补输入级的交越问题</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>低噪声</h3><p>电压噪声 1.1 μVpp（0.1 ~ 10 Hz）</p></div></div><div class="c-feature"><span class="c-feature__no">06</span><div><h3>微功耗</h3><p>静态功耗 30 μA，供电 1.8 ~ 5.5 V</p></div></div><div class="c-feature"><span class="c-feature__no">07</span><div><h3>驱动 ADC</h3><p>驱动 ADC 时性能优异，不降低微分线性</p></div></div><div class="c-feature"><span class="c-feature__no">08</span><div><h3>单双通道</h3><p>SOT23-5 单通道，MSOP-8 / SOP-8 双通道</p></div></div></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>低输入失调</h3><p>5V条件下失调典型2μV、最大10μV，便于微小信号误差预算。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>低温度漂移</h3><p>手册列输入失调漂移典型0.02μV/°C、最大0.05μV/°C。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>微功耗单/双通道</h3><p>单通道与双通道分别提供对应静态电流和封装选择。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>轨到轨输入输出</h3><p>支持接近电源轨的信号范围，输出摆幅按负载条件使用。</p></div></div><div class="c-feature"><span class="c-feature__no">05</span><div><h3>350kHz带宽路径</h3><p>手册列CL=100pF时增益带宽350kHz，按闭环增益规划响应。</p></div></div><div class="c-feature"><span class="c-feature__no">06</span><div><h3>低压供电</h3><p>支持1.8～5.5V单电源或对应双电源范围。</p></div></div></div>
 
 ## 规格参数
 
-<p class="c-sec-lead">单通道选 KTA333-ST5（SOT23-5），双通道选 KTA2333-MP8 / KTA2333-SP8（MSOP-8 / SOP-8）。</p>
+<p class="c-sec-lead">KTA333与KTA2333的通道、封装和引脚分别选择，输出摆幅与稳定性按负载条件确认。</p>
 
-<div class="c-table c-kv"><table><tbody><tr><th scope="row">系列</th><td>KTAx333</td><th scope="row">型号</th><td>KTA2333-MP8<br>KTA2333-SP8<br>KTA333-ST5</td></tr><tr><th scope="row">通道</th><td>单或双</td><th scope="row">供电电压（VCC）</th><td>1.8 ~ 5.5 V</td></tr><tr><th scope="row">输入失调电压（VOS）</th><td>2 μV (TYP)<br>10 μV (MAX)</td><th scope="row">增益带宽积（GBW）</th><td>350 kHz</td></tr><tr><th scope="row">失调电压温漂（dVos/dT）</th><td>0.02 μV/℃</td><th scope="row">电压噪声（f = 0.1 ~ 10 Hz）</th><td>1.1 μVPP</td></tr><tr><th scope="row">压摆率（SR）</th><td>0.16 V/μs</td><th scope="row">输入偏置电流（IB）</th><td>±100 pA</td></tr><tr><th scope="row">输入失调电流（IOS）</th><td>±120 pA</td><th scope="row">静态功耗（IQ）</th><td>30 μA</td></tr><tr><th scope="row">共模抑制比（CMRR）</th><td>120 dB</td><th scope="row">电源电压抑制比（PSRR）</th><td>1 μV/V</td></tr><tr><th scope="row">开环增益（AOL）</th><td>120 dB</td><th scope="row">轨到轨 I/O（Rail-to-Rail I/O）</th><td>IN, OUT</td></tr><tr><th scope="row">工作温度</th><td>-40 ~ 125 ℃</td><th scope="row">封装</th><td>MSOP-8（双通道）<br>SOP-8（双通道）<br>SOT23-5（单通道）</td></tr></tbody></table></div>
+<div class="c-table c-kv"><table><tbody><tr><th>供电</th><td>单电源1.8～5.5 V；双电源±0.9～±2.75 V；推荐工作条件与应用指南；不能把6.5V绝对最大值作为工作电源（手册第4、8页）</td></tr><tr><th>工作温度</th><td>−40～125 °C；额定温度范围（手册第4、5页）</td></tr><tr><th>输入失调电压</th><td>典型2 μV，最大10 μV；VS=5 V，TA=25°C、VCM=VS/2、VOUT=VS/2，除特别说明外（手册第1、5页）</td></tr><tr><th>输入失调漂移</th><td>典型0.02 μV/°C，最大0.05 μV/°C；TA=−40～125°C；电参数表（手册第1、5页）</td></tr><tr><th>输入共模范围</th><td>(V−)−0.1 V～(V+)+0.1 V；电参数表第5页；不能把该工作范围当作允许输入保护电流的范围（手册第5、8页）</td></tr><tr><th>距电源轨的输出余量</th><td>表列30 mV、70 mV；应用指南描述小于100 mV；RL=10 kΩ；文字提取未保留该行列坐标，故不擅自指定30/70的典型/最大属性（手册第5、8页）</td></tr><tr><th>静态电流</th><td>单通道表列17 μA；双通道表列30 μA；IO=0 A，TA=−40～125°C；单/双通道分别计，不将30μA当每通道（手册第1、5页）</td></tr><tr><th>增益带宽积</th><td>表列350 kHz；CL=100 pF；TA=25°C、VCM=VS/2、VOUT=VS/2，除特别说明外（手册第5页）</td></tr><tr><th>压摆率</th><td>表列0.16 V/μs；G=1；电参数表默认条件（手册第5页）</td></tr><tr><th>低频输入噪声</th><td>表列1.1 μV峰峰值；频带0.1～10 Hz；不能改成RMS噪声（手册第1、5页）</td></tr><tr><th>启动至额定失调精度</th><td>约200 μs；应用指南；电参数表开通时间条件VS=+5 V（手册第5、8页）</td></tr><tr><th>失调校正周期</th><td>10 μs；手册第8页斩波自校准机制，不代表输出建立时间（手册第8页）</td></tr><tr><th>单通道/双通道</th><td>KTA333：单通道；KTA2333：双通道；按完整订货型号区分（手册第1、3、12页）</td></tr><tr><th>单通道封装</th><td>KTA333-ST5=SOT23-5；SF5=SOT353-5；SC5=SC70-5；SP8=SOP-8；Rev1.0订货表中SF5/SC5/SP8带星号，注明当时仅少量样品；不能据旧表判断当前供货（手册第12页）</td></tr><tr><th>双通道封装</th><td>KTA2333-MP8=MSOP-8；DZ8=DFN2020-8；SP8=SOP-8；Rev1.0订货表DZ8带星号；当前生命周期另核对（手册第12页）</td></tr><tr><th>电源旁路建议</th><td>0.1 μF，靠近供电脚；应用指南建议；不同电路仍需确认负载和稳定性（手册第8页）</td></tr></tbody></table></div>
 
-<p class="c-table-title">KTAx333 零温漂高精度运放参数</p>
+## 典型应用
 
-<div class="c-table"><table><thead><tr><th>参数</th><th>数值</th></tr></thead><tbody><tr><td>系列</td><td>KTAx333</td></tr><tr><td>产品型号</td><td>KTA2333-MP8<br>KTA2333-SP8<br>KTA333-ST5</td></tr><tr><td>通道</td><td>单或双</td></tr><tr><td>供电电压 (VCC)</td><td>1.8V-5.5V</td></tr><tr><td>输入失调电压 (VOS)</td><td>2μV(TYP)<br>10μV(MAX)</td></tr><tr><td>增益带宽积 (GBW)</td><td>350KHz</td></tr><tr><td>失调电压温漂 (dVos/dT)</td><td>0.02μV/℃</td></tr><tr><td>电压噪声 (f = 0.1Hz ~ 10Hz)</td><td>1.1μVPP</td></tr><tr><td>压摆率 (SR)</td><td>0.16V/μs</td></tr><tr><td>输入偏置电流 (IB)</td><td>±100pA</td></tr><tr><td>输入失调电流 (IOS)</td><td>±120pA</td></tr><tr><td>静态功耗 (IQ)</td><td>30μA</td></tr><tr><td>共模抑制比 (CMRR)</td><td>120dB</td></tr><tr><td>电源电压抑制比 (PSRR)</td><td>1μV/V</td></tr><tr><td>开环增益 (AOL)</td><td>120dB</td></tr><tr><td>轨到轨I/O (Rail-toRail I/O)</td><td>IN,OUT</td></tr><tr><td>温度范围</td><td>-40℃~+125℃</td></tr><tr><td>封装</td><td>MSOP-8（双通道）<br>SOP-8（双通道）<br>SOT23-5（单通道）</td></tr></tbody></table></div>
+<div class="c-features"><div class="c-feature"><span class="c-feature__no">01</span><div><h3>桥式传感器读出</h3><p>低失调与高输入阻抗可用于小差分信号前端。</p></div></div><div class="c-feature"><span class="c-feature__no">02</span><div><h3>温度测量</h3><p>可配合热敏或其他温度信号构建放大与ADC输入链。</p></div></div><div class="c-feature"><span class="c-feature__no">03</span><div><h3>电子秤与仪表</h3><p>单/双通道结构便于安排低频精密信号调理。</p></div></div><div class="c-feature"><span class="c-feature__no">04</span><div><h3>电流监测</h3><p>配合采样电阻及合适共模范围，构建高侧或低侧监控电路。</p></div></div></div>
 
 ## 技术文档
 
-<p class="c-sec-lead">产品手册、评估套件说明与上位机软件，点击文件名直接下载。</p>
-
-<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>类型</th><th>中文版</th><th>英文版</th></tr></thead><tbody><tr><td class="c-mono">KTAx333</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank"><em>PDF</em>KTAx333产品手册.pdf</a></td><td><a class="c-file" href="/files/KTAx333-datasheet.pdf" target="_blank"><em>PDF</em>KTAx333-datasheet.pdf</a></td></tr></tbody></table></div>
-
-## 应用案例
-
-<p class="c-sec-lead">以下场景推荐使用 KTAx333 系列。</p>
-
-<div class="c-grid c-grid--4"><a class="c-card" href="/applications/intelligent-life/solar-converter"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-5.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>太阳能光电转换器</h3></div></a><a class="c-card" href="/applications/intelligent-life/gas-stove-temperature"><div class="c-card__media c-media--case"><img src="/img/case/intelligent-life-7.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">智能生活</span><h3>燃气灶-温度检测</h3></div></a></div>
-
-## 其他产品线
-
-<p class="c-sec-lead">浏览昆泰芯的其他产品线。</p>
-
-<div class="c-grid c-grid--4"><a class="c-card" href="/products/3d-hall/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-3d-hall.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">2 个系列</span><h3>3D霍尔芯片</h3><p>感知 X、Y、Z 三轴磁场，用于角度与位移检测</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/encoder/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-encoder.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">7 个系列</span><h3>编码器芯片</h3><p>霍尔、AMR、TMR 与光学路线的高速高精度编码器芯片</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/switch/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-switch.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">8 个系列</span><h3>开关芯片</h3><p>霍尔、TMR、AMR 开关与线性霍尔，从微功耗到车规高压</p><span class="c-card__more">浏览产品线</span></div></a><a class="c-card" href="/products/knob/"><div class="c-card__media c-media--icon"><img src="/img/icons-web/cat-knob.webp" alt="" loading="lazy"></div><div class="c-card__body"><span class="c-card__kicker">1 个系列</span><h3>旋钮系列</h3><p>磁-电分离的磁旋钮，隔空检测角度，防水防尘 IP67</p><span class="c-card__more">浏览产品线</span></div></a></div>
+<div class="c-table c-docs"><table><thead><tr><th>型号</th><th>文档</th><th>资料入口</th></tr></thead><tbody><tr><td class="c-mono">KTAx333</td><td><span class="c-badge">产品手册</span></td><td><a class="c-file" href="https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank" rel="noopener"><em>PDF</em>KTAx333产品手册.pdf</a></td></tr></tbody></table></div>
 
 <div class="c-cta"><div><h2 class="c-cta__title">需要选型建议、样品或技术支持？</h2><p>昆泰芯提供芯片选型、磁场仿真与方案设计支持，欢迎与我们的销售和技术团队联系。</p></div><div class="c-cta__actions"><a class="c-btn c-btn--brand" href="/contact">联系我们</a><a class="c-btn" href="mailto:sales@conntek.com.cn">sales@conntek.com.cn</a><a class="c-btn" href="mailto:support@conntek.com.cn">support@conntek.com.cn</a></div></div>

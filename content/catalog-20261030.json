@@ -1,0 +1,1631 @@
+{
+  "updated": "2026-10-30",
+  "source": "https://chat.connteck.com/products/",
+  "source_rows": 22,
+  "unique_models": 21,
+  "pdf_policy": "external links only; no new PDF files",
+  "entries": [
+    {
+      "model": "KTH5502",
+      "slug": "kth5502",
+      "categories": [
+        "3D 霍尔 3D Hall",
+        "编码器 Encoder"
+      ],
+      "directory_values": {
+        "说明": "垂直霍尔 16-bit 绝对角度·全输出接口",
+        "分辨率": "16-bit",
+        "接口": "I2C / SPI / ABZ / PWM / Analog",
+        "采样率 / 转速": "5000 RPM",
+        "温度": "-40 ~ 125°C",
+        "车规": "—",
+        "封装": "SOP-8L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5502/",
+      "family": "kth55",
+      "description": "KTH5502 将三轴霍尔感知与角度计算集成在单芯片中，提供数字、增量、PWM 与模拟等输出路径，选型时需先确定实际使用的接口和安装方式。",
+      "sections": [
+        {
+          "title": "绝对角度与增量计数怎样配合",
+          "body": "数字角度用于读取当前磁场方向，ABZ 则把运动转换为边沿序列。主控选择绝对读取还是增量跟踪，会改变启动、零点和丢脉冲处理方式；两种输出来自同一磁路，不能据此认定为独立冗余。"
+        },
+        {
+          "title": "先定接口，再核对订货型号",
+          "body": "源页列出多类输出和多种封装，不能理解为每个订货型号都把所有信号同时引出。应按所选 SKU 的引脚、输出模式和供电条件画图，尤其避免把模拟接口、PWM 位宽和数字角度位宽混成一项性能。"
+        },
+        {
+          "title": "在轴与离轴分别验收",
+          "body": "在轴旋转、偏心旋转和离轴读头的场分量轨迹不同。来源提供普通与离轴专版文档，应按目标几何选择资料，再检查气隙、偏心、倾斜对整圈误差的影响。不能用一次静态读数代替整圈准确度验证。"
+        }
+      ],
+      "conflicts": [],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3.pdf",
+        "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3_off-axis.pdf",
+        "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_EN_V1.3.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth55/kth5502",
+      "blog_route": "/models/kth5502/",
+      "image": {
+        "path": "/images/catalog/kth5502-original.png",
+        "caption": "KTH5502 原厂产品与封装示意",
+        "source": "https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 感应/量程 | XYZ霍尔检测；XYZ典型工作范围±100mT，官网目录 |\n| 角度编码 | 16位，360°在轴角度 |\n| 角度INL | 目录±1°，具体条件按手册 |\n| 供电 | 1.7～3.6V |\n| 平均电流 | 目录5mA，持续感应模式 |\n| 采样能力 | 目录10kSPS |\n| 最高转速 | 目录5000rpm |\n| 输出选项 | I²C/SPI、ABZ、PWM、模拟，按引脚配置 |\n| 温度/封装 | −40～125°C；SOP-8L、DFN 2×2mm-8L |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 它同时涉及场强与角度\n\nKTH5502集成XYZ磁检测及角度相关处理，低压供电和小封装适合紧凑旋钮或位置节点。场强范围与角度精度分别描述前端输入条件和角度输出误差，16位数字编码不是±1°误差的另一种写法。\n\n## 先确定实际输出模式\n\nI²C、SPI、ABZ、PWM和模拟输出属于可配置选项，不能按五种接口同时可用绘制电路。需要先确认封装引脚和模式，再确定主控使用总线读取、边沿计数还是ADC采集。\n\n## 磁路与速度条件\n\n官网表格按在轴360°列出应用。磁体方向和位置应使敏感点获得有效方向变化，同时避免某一分量越界。10kSPS是采样速率，5000rpm是目录转速条件，不能直接相互推导系统延时。\n\n## 参数如何用于选型\n\n与更高带宽编码器比较时，保留供电、滤波、输出模式和磁体条件。样机应分别检查静止噪声、整圈误差、快速反转以及输出行程映射；数字位数增加不能代替这些测试。\n\n## 官方资料\n\n- [KTH5502 官方资料](https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html)\n\n- [KTH5502 官方产品手册（PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n## 选型补充\n\n### 绝对角度与增量计数怎样配合\n\n数字角度用于读取当前磁场方向，ABZ 则把运动转换为边沿序列。主控选择绝对读取还是增量跟踪，会改变启动、零点和丢脉冲处理方式；两种输出来自同一磁路，不能据此认定为独立冗余。\n\n### 先定接口，再核对订货型号\n\n源页列出多类输出和多种封装，不能理解为每个订货型号都把所有信号同时引出。应按所选 SKU 的引脚、输出模式和供电条件画图，尤其避免把模拟接口、PWM 位宽和数字角度位宽混成一项性能。\n\n### 在轴与离轴分别验收\n\n在轴旋转、偏心旋转和离轴读头的场分量轨迹不同。来源提供普通与离轴专版文档，应按目标几何选择资料，再检查气隙、偏心、倾斜对整圈误差的影响。不能用一次静态读数代替整圈准确度验证。\n\n\n## 公开资料与型号核对\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5502_DS_CN_V1.3.pdf](https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3.pdf)\n- [KTH5502_DS_CN_V1.3_off-axis.pdf](https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3_off-axis.pdf)\n- [KTH5502_DS_EN_V1.3.pdf](https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_EN_V1.3.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5502/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5502",
+        "description": "KTH5502 将三轴霍尔感知与角度计算集成在单芯片中，提供数字、增量、PWM 与模拟等输出路径，选型时需先确定实际使用的接口和安装方式。",
+        "wiki": true,
+        "wiki_type": "model",
+        "wiki_rank": 201,
+        "seed_count": 0,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "wiki_category": "数字角度",
+        "catalog_vendor": "昆泰芯",
+        "catalog_type": "数字角度",
+        "catalog_form": "芯片",
+        "search_aliases": [
+          "KTH5502"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5502/KTH5502_DS_CN_V1.3.pdf",
+        "datasheet_label": "数据手册原链接",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5502/",
+        "product_image": "/images/catalog/kth5502-original.png",
+        "product_image_caption": "KTH5502 原厂产品与封装示意",
+        "product_image_source": "https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/kth5502/index.html"
+      }
+    },
+    {
+      "model": "KTH5701",
+      "slug": "kth5701",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "3D 磁角度传感器·57 系列",
+        "分辨率": "16-bit",
+        "接口": "SPI / IIC",
+        "采样率 / 转速": "10 KSPS",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5701/",
+      "family": "kth57",
+      "description": "KTH5701 是面向位置检测的三轴数字霍尔传感器；它提供磁场信息，摇杆、旋钮和位移输出仍取决于磁体几何、测量配置与标定。",
+      "sections": [
+        {
+          "title": "从三轴磁场得到机构位置",
+          "body": "XYZ 是芯片坐标下的磁场分量。由两个分量计算旋转角度，与由磁场幅值估计位移，是两种不同映射；设计时应先明确敏感平面、方向和量程，再把输出与机构基准对应起来。"
+        },
+        {
+          "title": "AQ 等级和测量模式分开选",
+          "body": "AQ1 与 AQ2/AQ3 各有资料入口，温度、封装和电气条件应按完整订货型号核对。连续测量、单次触发和低频唤醒也对应不同功耗，不能把最低休眠电流与最高刷新率写成同一个工作点。"
+        },
+        {
+          "title": "记录整段磁场轨迹",
+          "body": "用于换挡器或摇杆时，除了中心零偏，还要检查全部位置的场分量、饱和裕量和运动单调性。温度、装配偏移和外部磁场分别施加扰动，才能判断原标定在机构容差内是否仍有效。"
+        }
+      ],
+      "conflicts": [
+        "博客既有原厂资料与 Design Center 在量程、测量速率及功耗口径上不同，应保留各自版本与条件，不能择优拼接。",
+        "来源竞品表把三轴加速度计列为磁传感器功能替代，不能直接采用该替换结论。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_CN_V2.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_CN_V2.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_EN_V2.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_EN_V2.0.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5701",
+      "blog_route": "/models/kth5701/",
+      "image": {
+        "path": "/images/wiki/kth5701-product.png",
+        "caption": "KTH5701 原厂手册产品／安装图（PDF 第 1 页）",
+        "source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 器件类型 | 三轴数字线性霍尔，XYZ场强采集 |\n| 数字转换 | 16位ADC；不能写成16位机械位置精度 |\n| 供电 | 2.8～5.5V |\n| 通信 | I²C、SPI |\n| 场强范围 | 系列目录XY典型±130mT；Z典型±80mT |\n| 工作频率 | 系列目录1000Hz；按测量模式确认 |\n| 低功耗口径 | 系列目录待机1.4µA；5Hz约25.2µA、25Hz约113.7µA |\n| 模式 | 连续、唤醒睡眠、单次测量 |\n| 角度处理 | CORDIC输出选项，平面和版本按对应手册 |\n| 温度/封装 | 系列目录−40～125°C；QFN 3×3mm-16L；DFN 2×2.5mm-8L适用等级另核对 |\n| 等级区别 | AQ1与AQ2/AQ3分别使用对应原厂手册 |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf)。\n\n## 从三轴磁场到机械位置\n\nKTH5701首先提供磁场信息。用于摇杆、旋钮或直线位移时，磁体和运动轨迹决定XYZ如何变化，再由所选平面或主控算法转换为目标位置。场强ADC位数不能直接当作毫米或角度准确度。\n\n## 功耗随测量模式变化\n\n连续采样、单次触发和低频唤醒不是同一个工作点。目录同时给待机电流与不同采样频率下的平均电流，电池寿命核算应按真实采样计划和总线活动计算，不能把最低电流配最高刷新率。\n\n## 版本与接口的检查\n\nAQ1、AQ2/AQ3的温度和封装可选范围需分别核对。读取XYZ与读取CORDIC角度也有不同数据含义；主控应保存所用轴、方向、符号和量程设置，避免把芯片坐标误当成机构坐标。\n\n## 验证重点\n\n静止记录三轴零偏和噪声，运动时记录全行程矢量轨迹。对磁体偏移、倾斜、温度和外部磁场分别做扰动，检查映射是否仍单调；只在一个姿态标定，不能证明整个摇杆工作域有效。\n\n## 两轴角度与场强位移的区别\n\n由两个场分量求角度时，要处理轴间零点、增益及芯片坐标与机构坐标的关系；由磁场估计距离，则需要另一条场强随位移的标定曲线。两类输出不能共用一个未经验证的比例换算。选择测量轴数量和采样模式时，还应核对一次转换过程能否满足目标动作的时间要求。\n\n## 官方资料\n\n- [KTH5701 原厂资料入口](https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/57xilie/index.html)\n- [KTH5701 数据手册（官方 PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf)\n\n## 选型补充\n\n### 从三轴磁场得到机构位置\n\nXYZ 是芯片坐标下的磁场分量。由两个分量计算旋转角度，与由磁场幅值估计位移，是两种不同映射；设计时应先明确敏感平面、方向和量程，再把输出与机构基准对应起来。\n\n### AQ 等级和测量模式分开选\n\nAQ1 与 AQ2/AQ3 各有资料入口，温度、封装和电气条件应按完整订货型号核对。连续测量、单次触发和低频唤醒也对应不同功耗，不能把最低休眠电流与最高刷新率写成同一个工作点。\n\n### 记录整段磁场轨迹\n\n用于换挡器或摇杆时，除了中心零偏，还要检查全部位置的场分量、饱和裕量和运动单调性。温度、装配偏移和外部磁场分别施加扰动，才能判断原标定在机构容差内是否仍有效。\n\n\n## 公开资料与型号核对\n\n博客既有原厂资料与 Design Center 在量程、测量速率及功耗口径上不同，应保留各自版本与条件，不能择优拼接。\n\n来源竞品表把三轴加速度计列为磁传感器功能替代，不能直接采用该替换结论。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5701AQ1_DS_CN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_CN_V2.0.pdf)\n- [KTH5701AQ2AQ3_DS_CN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_CN_V2.0.pdf)\n- [KTH5701AQ1_DS_EN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_EN_V2.0.pdf)\n- [KTH5701AQ2AQ3_DS_EN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5701/KTH5701AQ2AQ3_DS_EN_V2.0.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5701/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5701",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_type": "线性磁场",
+        "catalog_form": "芯片",
+        "wiki_rank": 22,
+        "seed_count": 9,
+        "lastmod": "2026-10-30",
+        "description": "KTH5701 是面向位置检测的三轴数字霍尔传感器；它提供磁场信息，摇杆、旋钮和位移输出仍取决于磁体几何、测量配置与标定。",
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticAngleDetectionChip/57xilie/index.html",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5701/KTH5701AQ1_DS_CN_V2.0.pdf",
+        "datasheet_label": "数据手册原链接",
+        "wiki_category": "三轴磁场测量",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "product_image": "/images/wiki/kth5701-product.png",
+        "product_image_caption": "KTH5701 原厂手册产品／安装图（PDF 第 1 页）",
+        "product_image_source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTH5701AQ2AQ3_DS_CN.pdf",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5701/",
+        "search_aliases": [
+          "KTH5701"
+        ]
+      }
+    },
+    {
+      "model": "KTH5702",
+      "slug": "kth5702",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "角度测量 3D 霍尔传感器",
+        "分辨率": "16-bit",
+        "接口": "SPI / IIC",
+        "采样率 / 转速": "5 KSPS",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5702/",
+      "family": "kth57",
+      "description": "KTH5702 的已核对AQ1手册将其定义为X/Y两轴Hall旋转位置传感器，集成CORDIC输出XY平面绝对角度；测量模式和转换配置决定响应与功耗。",
+      "sections": [
+        {
+          "title": "两轴角度先对应机构旋转平面",
+          "body": "AQ1手册明确使用X、Y磁场分量求XY平面角度，不是三轴XYZ位置输出。机构应使目标旋转在此平面产生可用场矢量，并检查全圈幅值、偏心和倾斜的影响。数字角度位宽不能代替整圈准确度。"
+        },
+        {
+          "title": "转换噪声与响应需要成组选择",
+          "body": "手册给出不同magnOsr与digCtrl下的角度RMS噪声，同时列出可编程单轴转换时间。一次角度测量默认包含两轴转换和结束时间，不能用最快单轴时间宣称整个角度输出刷新率；应根据动作速度选择配置并验证动态滞后。"
+        },
+        {
+          "title": "持续模式依INT判断何时读取",
+          "body": "持续感应模式中，INT低表示正在测量，INT高才允许回读；若未及时读取，下一次测量开始时INT会再次拉低。唤醒睡眠模式的阈值事件则保持中断直至主机读回，主控需区分两种行为。修改配置前按手册先进入空闲模式。"
+        },
+        {
+          "title": "AQ1引脚与订货后缀对应",
+          "body": "本次核对的订货型号为KTH5702AQ1QNS、QFN3×3-16L。SPI使用Mode 3，A0/A1在SPI模式需接地；不用TRIG时也接地。VDD_IO可低于主电源，接口上拉和主控电平应按IO电源检查。"
+        }
+      ],
+      "conflicts": [
+        "参数采用已核读的旧公开KTH5702AQ1手册，限AQ1QNS后缀；网页三轴、TSSOP14、150°C和30KSPS与该手册冲突，不采用。",
+        "该手册明确2D X/Y、QFN16、−40～125°C、SPI最高5MHz和I²C400kHz，不能把KTH5701参数或其他等级直接迁移。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf",
+        "https://chat.connteck.com/downloads/KTH5702/KTH5702AQ1_DS_CN.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5702",
+      "blog_route": "/models/kth5702/",
+      "image": {
+        "path": "/images/catalog/kth5702-original-figure.png",
+        "caption": "KTH5702 AQ1产品概述与功能框图（原手册第1页）",
+        "source": "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf#page=1"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 感知轴与角度输出 | 2D：X/Y轴；16位ADC；16位XY平面绝对角度；原厂AQ1手册第1、5页；不是网页介绍的XYZ三轴输出（手册第1、5页） |\n| 工作供电 | 2.8～5.5 V；典型3.3 V；推荐工作条件；第6节总说明为25°C测量，温度额定另列（手册第4页） |\n| IO供电 | 1.8 V～VDD；数字IO电源，不把1.8V作为芯片主电源下限（手册第4页） |\n| 工作温度/封装 | −40～125 °C；QFN3×3-16L；第26页KTH5702AQ1QNS订货表（手册第4、26页） |\n| 测量峰值电流 | 典型4.89 mA；VDD=3.3 V；25°C；不是全周期平均电流（手册第4页） |\n| 待机与空闲电流 | 持续模式待机典型61.7 µA；唤醒睡眠待机典型2.4 µA；空闲典型1.4 µA；VDD=3.3 V；25°C；不同状态不能相互替代（手册第4页） |\n| 水平磁场线性范围 | −130～+130 mT；Gain=20；25°C；第1页建议平面磁场大于20mT（手册第1、4页） |\n| 角度输出RMS噪声 | 典型0.98°/0.28°/0.128°；B=20 mT、25°C；分别magnOsr=0/1/3且digCtrl=0；不是绝对角度精度（手册第4页） |\n| 角度输出RMS噪声（高过采样） | 典型0.065°；B=20 mT、25°C、magnOsr=3、digCtrl=3；须连同转换时间权衡（手册第5页） |\n| 启动时间 | 典型4 ms；25°C；手册时间参数表（手册第5页） |\n| 单轴转换时间 | 可编程165～33349 µs；25°C；不能把最快单轴时间当作整次XY角度输出周期（手册第5页） |\n| 整次测量时间 | 持续/唤醒模式：m×TCONVM+108 µs；单次模式另加220 µs；25°C、measTime=0，手册默认m=2；108µs测量结束、220µs空闲激活均为典型表列（手册第5页） |\n| SPI | Mode 3：CPOL=1、CPHA=1；最大5 MHz；25°C、VDD=3.3 V；不是源页其他型号的10MHz（手册第15页） |\n| I²C | 标准模式最大100 kHz；快速模式最大400 kHz；25°C、VDD=3.3 V（手册第16页） |\n| 数据就绪 | INT高时可回读；INT低表示正在测量；持续感应模式；应搭配INT读取，不以固定总线轮询假设数据有效（手册第8、17页） |\n\n## 两轴角度先对应机构旋转平面\n\nAQ1手册明确使用X、Y磁场分量求XY平面角度，不是三轴XYZ位置输出。机构应使目标旋转在此平面产生可用场矢量，并检查全圈幅值、偏心和倾斜的影响。数字角度位宽不能代替整圈准确度。\n\n## 转换噪声与响应需要成组选择\n\n手册给出不同magnOsr与digCtrl下的角度RMS噪声，同时列出可编程单轴转换时间。一次角度测量默认包含两轴转换和结束时间，不能用最快单轴时间宣称整个角度输出刷新率；应根据动作速度选择配置并验证动态滞后。\n\n## 持续模式依INT判断何时读取\n\n持续感应模式中，INT低表示正在测量，INT高才允许回读；若未及时读取，下一次测量开始时INT会再次拉低。唤醒睡眠模式的阈值事件则保持中断直至主机读回，主控需区分两种行为。修改配置前按手册先进入空闲模式。\n\n## AQ1引脚与订货后缀对应\n\n本次核对的订货型号为KTH5702AQ1QNS、QFN3×3-16L。SPI使用Mode 3，A0/A1在SPI模式需接地；不用TRIG时也接地。VDD_IO可低于主电源，接口上拉和主控电平应按IO电源检查。\n\n\n## 公开资料与型号核对\n\n参数采用已核读的旧公开KTH5702AQ1手册，限AQ1QNS后缀；网页三轴、TSSOP14、150°C和30KSPS与该手册冲突，不采用。\n\n该手册明确2D X/Y、QFN16、−40～125°C、SPI最高5MHz和I²C400kHz，不能把KTH5701参数或其他等级直接迁移。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5702AQ1_DS_CN.pdf](https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf)\n- [KTH5702AQ1_DS_CN.pdf](https://chat.connteck.com/downloads/KTH5702/KTH5702AQ1_DS_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5702/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5702",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5702 的已核对AQ1手册将其定义为X/Y两轴Hall旋转位置传感器，集成CORDIC输出XY平面绝对角度；测量模式和转换配置决定响应与功耗。",
+        "wiki_rank": 302,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5702/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5702/",
+        "search_aliases": [
+          "KTH5702"
+        ],
+        "datasheet_url": "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth5702-original-figure.png",
+        "product_image_caption": "KTH5702 AQ1产品概述与功能框图（原手册第1页）",
+        "product_image_source": "https://conntek.github.io/files/KTH5702AQ1_DS_CN.pdf#page=1"
+      }
+    },
+    {
+      "model": "KTH5721",
+      "slug": "kth5721",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "3D 位置/电机控制·高性价比",
+        "分辨率": "12-bit",
+        "接口": "SPI / IIC",
+        "采样率 / 转速": "5 KSPS",
+        "温度": "-40 ~ 105°C",
+        "车规": "AEC-Q100",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5721/",
+      "family": "kth57",
+      "description": "KTH5721 的公开手册首页提供XYZ磁场、温度及XY/XZ/YZ平面CORDIC角度输出，内部采用16位ADC；AQ2工业级与AQ3消费级需要按后缀分别选型。",
+      "sections": [
+        {
+          "title": "同一磁场数据可以服务不同测量平面",
+          "body": "原PDF首页列出XYZ磁场以及XY、XZ、YZ平面CORDIC角度输出，XY典型量程±130mT、Z典型±80mT。设计时先确定机构运动平面和对应磁场轨迹，不能把磁场量程直接换成位移或角度准确度。"
+        },
+        {
+          "title": "ADC位数与角度精度分别理解",
+          "body": "手册首页明确内部16bitADC；这不是矩阵中“12bit”口径可直接覆盖的参数，也不是16位机械精度保证。实际误差还取决于磁体几何、信号范围和校准，应在全行程对照位置参考验证。"
+        },
+        {
+          "title": "等级与封装必须连同订货后缀",
+          "body": "首页分别列AQ2工业级−40～105°C与AQ3消费级−40～85°C，并提供QFN3×3-16L或DFN2×2.5-8L路径。选择时应匹配完整订货后缀，不能把更宽温区、不同封装与另一等级的条件混在一个料号上。"
+        },
+        {
+          "title": "测量模式确定后再核总线与响应",
+          "body": "首页列SPI或I²C，以及持续感应、唤醒睡眠和单次测量等模式。当前核读仅到第1页，接口速率、采样时间、电流和寄存器细节还需对应表格；不根据矩阵中的5KSPS或AEC标签直接做整机响应或车规承诺。"
+        }
+      ],
+      "conflicts": [
+        "本页采用目视核读的原PDF第1页功能说明；仅确认该页所列AQ2/AQ3和封装路径，未完整核读电参数表或确认所有订货后缀。",
+        "原PDF首页16bitADC、SPI或I²C与XYZ/CORDIC能力优先于矩阵12bit及详情I²C-only等冲突说法；ADC位数不作为机械精度。",
+        "AQ2为−40～105°C、AQ3为−40～85°C；不从矩阵AEC-Q100、SPI/5KSPS标签增加资格、速率或温度保证。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5721",
+      "blog_route": "/models/kth5721/",
+      "image": {
+        "path": "/images/catalog/kth5721-browser-original.jpg",
+        "caption": "KTH5721 原厂典型磁体安装示意，公开手册第1页",
+        "source": "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 检测输出 | XYZ三轴磁场；温度输出；XY/XZ/YZ平面CORDIC角度；公开手册首页功能说明；角度输出与磁场分量分开理解（手册第1页） |\n| ADC | 16 bit；首页明确ADC位数；不能写成16位机械精度（手册第1页） |\n| 磁场量程 | XY典型±130 mT；Z典型±80 mT；首页标注典型量程；使用平面角度输出建议该平面场强大于20 mT（手册第1页） |\n| 主电源与IO | 主电源2.8～5.5 V；IO可低至1.8 V；两类电源不能混为1.8V主电源工作（手册第1页） |\n| 温度等级 | AQ2工业级−40～105°C；AQ3消费级−40～85°C；按完整订货等级区分，不能把一个等级温区覆盖全系列（手册第1页） |\n| 封装与接口 | QFN3×3-16L或DFN2×2.5-8L；SPI或I²C；封装与订货后缀一一对应；接口速率未在首页给出（手册第1页） |\n| 测量模式 | 持续感应、唤醒睡眠、单次测量；按键检测/Trigger；首页功能说明；采样时间、电流及寄存器值仍需核读对应表格（手册第1页） |\n\n## 同一磁场数据可以服务不同测量平面\n\n原PDF首页列出XYZ磁场以及XY、XZ、YZ平面CORDIC角度输出，XY典型量程±130mT、Z典型±80mT。设计时先确定机构运动平面和对应磁场轨迹，不能把磁场量程直接换成位移或角度准确度。\n\n## ADC位数与角度精度分别理解\n\n手册首页明确内部16bitADC；这不是矩阵中“12bit”口径可直接覆盖的参数，也不是16位机械精度保证。实际误差还取决于磁体几何、信号范围和校准，应在全行程对照位置参考验证。\n\n## 等级与封装必须连同订货后缀\n\n首页分别列AQ2工业级−40～105°C与AQ3消费级−40～85°C，并提供QFN3×3-16L或DFN2×2.5-8L路径。选择时应匹配完整订货后缀，不能把更宽温区、不同封装与另一等级的条件混在一个料号上。\n\n## 测量模式确定后再核总线与响应\n\n首页列SPI或I²C，以及持续感应、唤醒睡眠和单次测量等模式。当前核读仅到第1页，接口速率、采样时间、电流和寄存器细节还需对应表格；不根据矩阵中的5KSPS或AEC标签直接做整机响应或车规承诺。\n\n\n## 公开资料与型号核对\n\n本页采用目视核读的原PDF第1页功能说明；仅确认该页所列AQ2/AQ3和封装路径，未完整核读电参数表或确认所有订货后缀。\n\n原PDF首页16bitADC、SPI或I²C与XYZ/CORDIC能力优先于矩阵12bit及详情I²C-only等冲突说法；ADC位数不作为机械精度。\n\nAQ2为−40～105°C、AQ3为−40～85°C；不从矩阵AEC-Q100、SPI/5KSPS标签增加资格、速率或温度保证。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5721_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5721/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5721",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5721 的公开手册首页提供XYZ磁场、温度及XY/XZ/YZ平面CORDIC角度输出，内部采用16位ADC；AQ2工业级与AQ3消费级需要按后缀分别选型。",
+        "wiki_rank": 303,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5721/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5721/",
+        "search_aliases": [
+          "KTH5721"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth5721-browser-original.jpg",
+        "product_image_caption": "KTH5721 原厂典型磁体安装示意，公开手册第1页",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH5721/KTH5721_Datasheet_CN.pdf"
+      }
+    },
+    {
+      "model": "KTH5761",
+      "slug": "kth5761",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "3D 位置传感器·低功耗手表款",
+        "分辨率": "16-bit",
+        "接口": "I2C",
+        "采样率 / 转速": "可编程",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "DFN2x2.5-8L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5761/",
+      "family": "kth57",
+      "description": "KTH5761AQ3 是带温度输出的三轴数字Hall传感器，V2.0手册首页提供I²C、周期循环和单次测量路径，可用于摇杆、线性位置与非接触磁场感知。",
+      "sections": [
+        {
+          "title": "场强与温度先对应目标机构",
+          "body": "AQ3 V2.0首页给出XYZ磁场和温度输出，XY典型量程±65mT、Z典型±40mT。它测的是磁场，摇杆和位移仍需要机构对应的轨迹或标定曲线；量程也不能直接换算成角度或毫米行程。"
+        },
+        {
+          "title": "周期循环与单次测量各自安排",
+          "body": "周期循环适合按节拍更新，单次测量可由主控在需要时发起。选择前应先确定动作响应与功耗预算，再核对相应转换、传输和唤醒条件；本次只读到手册首页，未把空闲电流或网页转换时间写成完整电气保证。"
+        },
+        {
+          "title": "I²C和IO电源分开核对",
+          "body": "首页正文确认标准I²C。主电源2.8～5.5V与最低1.8V的IO电源属于不同条件，低压主控的上拉电源和断电行为应按对应手册核对。框图中的MISO、CS标签不能独自证明该型号提供SPI协议。"
+        },
+        {
+          "title": "小封装服务多种感知机构",
+          "body": "AQ3首页对应DFN2×2.5-8L和−40～85°C，不只面向手表。用于摇杆、直线机构或磁接近感知时，应分别检查磁体方向、全行程单调性和装配偏移，避免把同一磁场映射直接复制到不同机构。"
+        }
+      ],
+      "conflicts": [
+        "本页优先采用目视核对的KTH5761AQ3 V2.0原PDF首页，限AQ3后缀；尚未完整核读电参数表。",
+        "正文只确认标准I²C，不从框图MISO/CS标签增加SPI能力；网页其他电流、转换时间或性能条件不作为本次已核读参数。",
+        "应用包括摇杆、线性位置与非接触磁场感知，不把产品限制为手表专用；ADC16位不等于机械位置精度。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5761",
+      "blog_route": "/models/kth5761/",
+      "image": {
+        "path": "/images/catalog/kth5761-browser-original.jpg",
+        "caption": "KTH5761 原厂功能框图，AQ3公开手册第1页；接口按正文I²C说明",
+        "source": "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 感知与转换 | XYZ三轴磁场、温度输出；内部16 bit ADC；AQ3 V2.0首页说明；ADC位数不是机械位置准确度（手册第1页） |\n| 典型磁场量程 | XY典型±65 mT；Z典型±40 mT；首页标注典型量程；不扩大为所有配置和温度下的保证（手册第1页） |\n| 接口 | 标准I²C；首页正文说明；不根据框图MISO/CS标签推断支持SPI（手册第1页） |\n| 模式 | 周期循环测量、单次测量；首页功能说明；具体周期、电流和转换时间尚未完整核读（手册第1页） |\n| 供电 | 主电源2.8～5.5 V；IO供电可低至1.8 V；两类电源区分；不能写为1.8V主电源工作（手册第1页） |\n| 温度与封装 | −40～85°C；DFN2×2.5-8L；限AQ3 V2.0首页对应等级和封装，不外推其他等级（手册第1页） |\n| 应用定位 | 摇杆、线性位置、非接触磁场感知；首页应用路径，实际位置映射由磁体与机构决定；不局限于手表（手册第1页） |\n\n## 场强与温度先对应目标机构\n\nAQ3 V2.0首页给出XYZ磁场和温度输出，XY典型量程±65mT、Z典型±40mT。它测的是磁场，摇杆和位移仍需要机构对应的轨迹或标定曲线；量程也不能直接换算成角度或毫米行程。\n\n## 周期循环与单次测量各自安排\n\n周期循环适合按节拍更新，单次测量可由主控在需要时发起。选择前应先确定动作响应与功耗预算，再核对相应转换、传输和唤醒条件；本次只读到手册首页，未把空闲电流或网页转换时间写成完整电气保证。\n\n## I²C和IO电源分开核对\n\n首页正文确认标准I²C。主电源2.8～5.5V与最低1.8V的IO电源属于不同条件，低压主控的上拉电源和断电行为应按对应手册核对。框图中的MISO、CS标签不能独自证明该型号提供SPI协议。\n\n## 小封装服务多种感知机构\n\nAQ3首页对应DFN2×2.5-8L和−40～85°C，不只面向手表。用于摇杆、直线机构或磁接近感知时，应分别检查磁体方向、全行程单调性和装配偏移，避免把同一磁场映射直接复制到不同机构。\n\n\n## 公开资料与型号核对\n\n本页优先采用目视核对的KTH5761AQ3 V2.0原PDF首页，限AQ3后缀；尚未完整核读电参数表。\n\n正文只确认标准I²C，不从框图MISO/CS标签增加SPI能力；网页其他电流、转换时间或性能条件不作为本次已核读参数。\n\n应用包括摇杆、线性位置与非接触磁场感知，不把产品限制为手表专用；ADC16位不等于机械位置精度。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5761AQ3_DS_CN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5761/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5761",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5761AQ3 是带温度输出的三轴数字Hall传感器，V2.0手册首页提供I²C、周期循环和单次测量路径，可用于摇杆、线性位置与非接触磁场感知。",
+        "wiki_rank": 304,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5761/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5761/",
+        "search_aliases": [
+          "KTH5761"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth5761-browser-original.jpg",
+        "product_image_caption": "KTH5761 原厂功能框图，AQ3公开手册第1页；接口按正文I²C说明",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH5761/KTH5761AQ3_DS_CN_V2.0.pdf"
+      }
+    },
+    {
+      "model": "KTH5771",
+      "slug": "kth5771",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "摇杆专用模拟输出 3D Hall",
+        "分辨率": "Analog",
+        "接口": "双路 Analog / UART",
+        "采样率 / 转速": "1 kHz",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5771/",
+      "family": "kth57",
+      "description": "KTH5771 是面向摇杆与操纵输入的三轴Hall传感器，公开v1.0手册首页提供双路模拟输出，并通过中点、外圈校准和磁场分量比值处理完成机构输入映射。",
+      "sections": [
+        {
+          "title": "双路模拟输出先匹配主控ADC",
+          "body": "v1.0手册首页确认双路模拟输出。接入原电位器输入电路时，应进一步核对输出摆幅、负载、ADC参考电压与采样保持要求；本次没有完整核读电参数表，不把网页的差分四路或UART介绍当成已确认接口。"
+        },
+        {
+          "title": "中点与外圈需要分别校准",
+          "body": "手册首页列出中点、外圈校准，并介绍基于Bz/Bx和Bz/By的ATAN处理。机构回中、磁体高度和倾斜会改变这些比值，装配后应记录中心、轴向端点和斜向轨迹，避免把芯片出厂处理当作整机免校准。"
+        },
+        {
+          "title": "休眠电流与快速模式分开预算",
+          "body": "首页的2.4µA休眠说明和超过1kHz快速回报率属于不同模式。电池设计应把唤醒、测量、模拟输出负载及主控采样计入同一周期，再验证响应和平均电流，不能把最低功耗配最高刷新率。"
+        }
+      ],
+      "conflicts": [
+        "本页优先采用目视核读的原PDF v1.0首页功能说明；只确认XYZ、内部16bitADC和双路模拟输出。",
+        "网页UART、差分输出具体通道和摆幅未由本次PDF读页证实，不增加保证；价格低20%不采用。",
+        "休眠2.4µA与快速回报超过1kHz是不同模式；未完整核读电参数表、阈值或封装。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5771",
+      "blog_route": "/models/kth5771/",
+      "image": {
+        "path": "/images/catalog/joystick-original.jpg",
+        "caption": "KTH5771 原厂摇杆应用示意，公开说明书第1页",
+        "source": "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 感知与转换 | XYZ三轴Hall；内部16 bit ADC；首页功能说明；ADC内部位数不等于16位机械位置精度（手册第1页） |\n| 输出 | 双路模拟输出；首页功能说明；未据此增加UART、差分四路或具体摆幅规格（手册第1页） |\n| 主电源 | 2.8～5.5 V；首页工作范围；尚未核读完整电参数表（手册第1页） |\n| 工作温度 | −40～85°C；首页功能说明；不增加车规或高温等级（手册第1页） |\n| 休眠功耗 | 2.4 µA；首页休眠模式说明；不是快速回报模式电流，也不是整机待机电流（手册第1页） |\n| 快速回报 | 超过1 kHz；首页快速模式回报率说明；不作为完整链路延时或全条件最小速率保证（手册第1页） |\n| 标定与角度计算 | 中点、外圈校准；基于Bz/Bx和Bz/By的ATAN处理；首页功能说明；机构装配标定仍需执行（手册第1页） |\n\n## 双路模拟输出先匹配主控ADC\n\nv1.0手册首页确认双路模拟输出。接入原电位器输入电路时，应进一步核对输出摆幅、负载、ADC参考电压与采样保持要求；本次没有完整核读电参数表，不把网页的差分四路或UART介绍当成已确认接口。\n\n## 中点与外圈需要分别校准\n\n手册首页列出中点、外圈校准，并介绍基于Bz/Bx和Bz/By的ATAN处理。机构回中、磁体高度和倾斜会改变这些比值，装配后应记录中心、轴向端点和斜向轨迹，避免把芯片出厂处理当作整机免校准。\n\n## 休眠电流与快速模式分开预算\n\n首页的2.4µA休眠说明和超过1kHz快速回报率属于不同模式。电池设计应把唤醒、测量、模拟输出负载及主控采样计入同一周期，再验证响应和平均电流，不能把最低功耗配最高刷新率。\n\n\n## 公开资料与型号核对\n\n本页优先采用目视核读的原PDF v1.0首页功能说明；只确认XYZ、内部16bitADC和双路模拟输出。\n\n网页UART、差分输出具体通道和摆幅未由本次PDF读页证实，不增加保证；价格低20%不采用。\n\n休眠2.4µA与快速回报超过1kHz是不同模式；未完整核读电参数表、阈值或封装。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5771_Datasheet_v1.0.pdf](https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5771/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5771",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5771 是面向摇杆与操纵输入的三轴Hall传感器，公开v1.0手册首页提供双路模拟输出，并通过中点、外圈校准和磁场分量比值处理完成机构输入映射。",
+        "wiki_rank": 305,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5771/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5771/",
+        "search_aliases": [
+          "KTH5771"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/joystick-original.jpg",
+        "product_image_caption": "KTH5771 原厂摇杆应用示意，公开说明书第1页",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH5771/KTH5771_Datasheet_v1.0.pdf"
+      }
+    },
+    {
+      "model": "KTH5772",
+      "slug": "kth5772",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "游戏摇杆专用 3D Hall·真圆轨迹",
+        "分辨率": "12-bit",
+        "接口": "I2C / UART",
+        "采样率 / 转速": "1 kHz",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5772/",
+      "family": "kth57",
+      "description": "KTH5772 是摇杆输入用三轴Hall传感器，公开v1.0手册介绍内部16位ADC、UART及I²C数字接口和可配置回报率；实际手感由机构、配置与标定共同决定。",
+      "sections": [
+        {
+          "title": "数据量不是机械位置精度",
+          "body": "v1.0手册概述写内部16bitADC及有效数据量超过4096，二者分别描述内部转换和输出数据口径，不能据此写成16位机械精度或绝对12位准确度。机构中心稳定性、噪声和全行程线性应以实际输出与运动参考比较。"
+        },
+        {
+          "title": "数字通信与回报周期一起安排",
+          "body": "目视读页确认UART波特率可编程、I²C快速模式400kHz，回报率可配置且最高超过1kHz。主控应按实际帧长、更新节拍和总线占用安排读取，不能从总线时钟或回报率独自推断完整输入延时。"
+        },
+        {
+          "title": "休眠与动作响应是两个工作点",
+          "body": "手册首页的2.4µA属于休眠说明；快速动作时还要计算测量、通信和主控处理功耗。应以目标手柄的扫描节拍验证唤醒后的首个有效数据以及快速往返、斜向满推和回中，避免扩大死区掩盖装配或映射误差。"
+        }
+      ],
+      "conflicts": [
+        "参数优先采用原PDF v1.0第1—2页可见说明：内部16bitADC、UART可编程、I²C400kHz；网页框图12bit及I²C1MHz不作为本页依据。",
+        "有效数据量超过4096不改写为绝对12位精度，内部ADC位数也不等于机械位置准确度。",
+        "尚未核读完整电参数表，不采用网页无需整机校准、千万元寿命或任意方案直接升级的保证。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5772",
+      "blog_route": "/models/kth5772/",
+      "image": {
+        "path": "/images/catalog/joystick-original.jpg",
+        "caption": "KTH5772 原厂摇杆应用示意，公开说明书第2页，与KTH5771说明书共用同图",
+        "source": "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 感知与转换 | XYZ三轴Hall；内部16 bit ADC；第1—2页概述；不能把有效数据量或ADC位数写成机械准确度（手册第1、2页） |\n| 数字接口 | UART可编程波特率；I²C快速模式400 kHz；第1—2页功能说明；UART具体波特率范围未在本次读页中核实（手册第2页） |\n| 主电源 | 2.8～5.5 V；第2页主要特性工作范围；尚未核读完整电参数表（手册第2页） |\n| 工作温度 | −40～85°C；第2页主要特性功能说明；不增加车规等级（手册第2页） |\n| 休眠功耗 | 2.4 µA；第2页主要特性休眠模式说明；不与最高回报率写成同一工作点（手册第2页） |\n| 回报率 | 可配置，最高超过1 kHz；第1—2页功能说明；需结合配置、通信与主控采样验收（手册第2页） |\n| 数据口径 | 概述称有效数据量超过4096；概述说明，不转换为绝对12位精度、有效位数或噪声保证（手册第1、2页） |\n\n## 数据量不是机械位置精度\n\nv1.0手册概述写内部16bitADC及有效数据量超过4096，二者分别描述内部转换和输出数据口径，不能据此写成16位机械精度或绝对12位准确度。机构中心稳定性、噪声和全行程线性应以实际输出与运动参考比较。\n\n## 数字通信与回报周期一起安排\n\n目视读页确认UART波特率可编程、I²C快速模式400kHz，回报率可配置且最高超过1kHz。主控应按实际帧长、更新节拍和总线占用安排读取，不能从总线时钟或回报率独自推断完整输入延时。\n\n## 休眠与动作响应是两个工作点\n\n手册首页的2.4µA属于休眠说明；快速动作时还要计算测量、通信和主控处理功耗。应以目标手柄的扫描节拍验证唤醒后的首个有效数据以及快速往返、斜向满推和回中，避免扩大死区掩盖装配或映射误差。\n\n\n## 公开资料与型号核对\n\n参数优先采用原PDF v1.0第1—2页可见说明：内部16bitADC、UART可编程、I²C400kHz；网页框图12bit及I²C1MHz不作为本页依据。\n\n有效数据量超过4096不改写为绝对12位精度，内部ADC位数也不等于机械位置准确度。\n\n尚未核读完整电参数表，不采用网页无需整机校准、千万元寿命或任意方案直接升级的保证。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5772_Datasheet_v1.0.pdf](https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5772/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5772",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5772 是摇杆输入用三轴Hall传感器，公开v1.0手册介绍内部16位ADC、UART及I²C数字接口和可配置回报率；实际手感由机构、配置与标定共同决定。",
+        "wiki_rank": 306,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5772/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5772/",
+        "search_aliases": [
+          "KTH5772"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/joystick-original.jpg",
+        "product_image_caption": "KTH5772 原厂摇杆应用示意，公开说明书第2页，与KTH5771说明书共用同图",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH5772/KTH5772_Datasheet_v1.0.pdf"
+      }
+    },
+    {
+      "model": "KTH5774",
+      "slug": "kth5774",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "增强版 3D 摇杆·极坐标输出",
+        "分辨率": "12-bit",
+        "接口": "I2C / UART + Analog",
+        "采样率 / 转速": "1 kHz",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5774/",
+      "family": "kth57",
+      "description": "KTH5774 面向摇杆和操纵杆，公开v1.3手册首页列出UART/I²C数字接口、双路模拟输出以及中点和外圈多点校准，适合评估不同主控的输入路径。",
+      "sections": [
+        {
+          "title": "数字与模拟路径各有接入条件",
+          "body": "v1.3手册首页列UART可编程波特率、I²C快速400kHz和双路模拟输出。数字帧、模拟摆幅、引脚复用和能否同时启用仍应按完整手册核对；不能把这组功能直接写成无需改动旧电位器电路。"
+        },
+        {
+          "title": "多点校准对应实际摇杆机构",
+          "body": "首页列出中点与外圈多点校准。装配后应分别检查回中偏移、各方向满量程和斜向轨迹，并保存磁体与机构对应的配置；同一芯片用于不同控制板，也需要统一中心、方向、端点和死区定义。"
+        },
+        {
+          "title": "坐标控制方式与寄存器输出分开",
+          "body": "手册首页将直角坐标和极坐标作为应用控制方式介绍。应用可以在主控中完成坐标变换，不能仅凭该介绍认定芯片寄存器直接输出极坐标；具体字段、比例和更新方式需要回到通信协议确认。"
+        }
+      ],
+      "conflicts": [
+        "参数优先采用原PDF v1.3首页：XYZ、内部16bitADC、I²C400kHz、UART与双路模拟；网页12bit框图和1MHz I²C不采用。",
+        "首页没有确认四路差分、全部输出同时工作或芯片寄存器直接输出极坐标，不增加这些能力。",
+        "尚未核读完整电参数表、阈值、车规或封装；电位器直替和主控无需改动不作为兼容保证。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5774",
+      "blog_route": "/models/kth5774/",
+      "image": {
+        "path": "/images/catalog/joystick-original.jpg",
+        "caption": "KTH5774 原厂摇杆应用示意，公开说明书第1页，与KTH5771说明书共用同图",
+        "source": "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 感知与转换 | XYZ三轴Hall；内部16 bit ADC；首页功能说明；非16位机械精度保证（手册第1页） |\n| 应用与输出 | 摇杆/操纵杆；数字UART与I²C；双路模拟输出；首页功能说明；不扩展为四路差分输出或已确认全部输出可同时开启（手册第1页） |\n| 数字接口 | UART波特率可编程；I²C快速模式400 kHz；首页功能说明；具体寄存器、引脚复用和时序尚未完整核读（手册第1页） |\n| 主电源 | 2.8～5.5 V；首页工作范围；尚未核读完整电参数表（手册第1页） |\n| 工作温度 | −40～85°C；首页功能说明；不增加车规等级（手册第1页） |\n| 校准 | 中点、外圈多点校准；首页功能说明；需按实际磁体与机构执行（手册第1页） |\n| 坐标控制 | 直角坐标控制与极坐标控制为应用控制方式；不据首页应用描述断言芯片寄存器直接提供极坐标数据（手册第1页） |\n\n## 数字与模拟路径各有接入条件\n\nv1.3手册首页列UART可编程波特率、I²C快速400kHz和双路模拟输出。数字帧、模拟摆幅、引脚复用和能否同时启用仍应按完整手册核对；不能把这组功能直接写成无需改动旧电位器电路。\n\n## 多点校准对应实际摇杆机构\n\n首页列出中点与外圈多点校准。装配后应分别检查回中偏移、各方向满量程和斜向轨迹，并保存磁体与机构对应的配置；同一芯片用于不同控制板，也需要统一中心、方向、端点和死区定义。\n\n## 坐标控制方式与寄存器输出分开\n\n手册首页将直角坐标和极坐标作为应用控制方式介绍。应用可以在主控中完成坐标变换，不能仅凭该介绍认定芯片寄存器直接输出极坐标；具体字段、比例和更新方式需要回到通信协议确认。\n\n\n## 公开资料与型号核对\n\n参数优先采用原PDF v1.3首页：XYZ、内部16bitADC、I²C400kHz、UART与双路模拟；网页12bit框图和1MHz I²C不采用。\n\n首页没有确认四路差分、全部输出同时工作或芯片寄存器直接输出极坐标，不增加这些能力。\n\n尚未核读完整电参数表、阈值、车规或封装；电位器直替和主控无需改动不作为兼容保证。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5774_Datasheet_v1.3.pdf](https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5774/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5774",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5774 面向摇杆和操纵杆，公开v1.3手册首页列出UART/I²C数字接口、双路模拟输出以及中点和外圈多点校准，适合评估不同主控的输入路径。",
+        "wiki_rank": 307,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5774/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5774/",
+        "search_aliases": [
+          "KTH5774"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/joystick-original.jpg",
+        "product_image_caption": "KTH5774 原厂摇杆应用示意，公开说明书第1页，与KTH5771说明书共用同图",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH5774/KTH5774_Datasheet_v1.3.pdf"
+      }
+    },
+    {
+      "model": "KTH5791",
+      "slug": "kth5791",
+      "categories": [
+        "3D 霍尔 3D Hall"
+      ],
+      "directory_values": {
+        "说明": "鼠标滚轮专用·AB 正交输出",
+        "分辨率": "16~1024 CPR",
+        "接口": "AB / UART",
+        "采样率 / 转速": "可配",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/3d-hall/KTH5791/",
+      "family": "kth57",
+      "description": "KTH5791AQ3QNS 是鼠标滚轮专用3D Hall芯片，公开旧说明书提供正交AB输出、I²C通信，以及标准24格到可编程128格的滚轮配置。",
+      "sections": [
+        {
+          "title": "滚轮格数与AB计数分开核对",
+          "body": "2024年5月公开说明书列标准24格，可编程至128格。主控的每周期计数、边沿计数和四倍频计数另有定义，不能把“格”直接换成CPR。应一圈慢转比对机械齿位、AB周期及累计计数，再验证快速滚动和反向运动。"
+        },
+        {
+          "title": "AB承担滚动输入，I²C配置另核",
+          "body": "该说明书支持正交AB和I²C400kHz，没有UART或Z相引脚依据。A/B输出应在主控端按相序判断方向，尤其测试停在临界边沿、轻微往返和快速反转，避免滤波把有效边沿吞掉。"
+        },
+        {
+          "title": "三路电源不能混写为1.8V工作",
+          "body": "AVDD主模拟电源为2.8～5.5V，DVDD和VDDIO才可从1.8V起工作且不高于AVDD。低压主控接入时需分别安排电源、上拉和复位；公开旧说明书还要求NRST外部拉高，并区分应接地和应浮空的测试脚。"
+        },
+        {
+          "title": "自适应感应仍需机构验收",
+          "body": "芯片为在轴和离轴鼠标磁滚轮提供感知路径，磁体、轴承和齿位机构仍决定装配裕量与手感。应在目标机构上验证整圈稳定性、不同速度的计数和回转行为，不从非接触原理直接推出整机寿命。"
+        }
+      ],
+      "conflicts": [
+        "参数限2024-05公开旧说明书KTH5791AQ3QNS；第1页Rev1.0、后页页眉Rev0，保留版本差异，不声称最新规格。",
+        "网页16～1024CPR、UART/Z、1.8V主电源和0.8mA等说法未获该手册支持；本页采用原手册24～128格、AB/I²C及分电源条件。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_CN_V2.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_AN001_PowerTradeoff_CN_V1.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_AN002_UART_Example_CN_V1.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_FAQ_CN_V1.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_Schematic_V1.0.pdf",
+        "https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_EN_V2.0.pdf"
+      ],
+      "dev_route": "/products/3d-hall/kth57/kth5791",
+      "blog_route": "/models/kth5791/",
+      "image": {
+        "path": "/images/catalog/kth5791-original-figure.png",
+        "caption": "KTH5791 AQ3QNS滚轮应用与功能框图，2024-05旧公开稿（原手册第1页）",
+        "source": "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf#page=1"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 输出 | 正交AB；支持I²C通信；该说明书未列UART或Z相引脚（手册第1、2页） |\n| 滚轮格数 | 标准24格，可编程至128格；手册“格”原始口径；不改写为1024CPR，不与主控四倍频计数混同（手册第1页） |\n| 模拟电源AVDD | 2.8～5.5 V；典型3.3 V；推荐工作条件（手册第3页） |\n| 数字电源DVDD | 1.8 V～AVDD；独立数字电源；不代表主模拟电源可用1.8V（手册第3页） |\n| IO电源VDDIO | 1.8 V～AVDD；数字IO电源；上拉与接收器电平按此核对（手册第3页） |\n| 工作温度 | −40～85 °C；AQ3QNS消费级订货条目（手册第3、6页） |\n| I²C | 快速模式400 kHz；第1页主要特性；不借用其他器件1MHz能力（手册第1页） |\n| 封装 | QFN3×3-16L；裸露焊盘TAP为AVSS；16个引脚加热焊盘；第2页引脚表17行不表示17信号脚（手册第2、6页） |\n| 复位与测试脚 | NRST外部拉高；TEST1/TEST2接地；TEST3浮空；MS睡眠未启用可浮空；只按该旧说明书；TEN测试使能定义未给用户固定接法，不自行补造（手册第2页） |\n\n## 滚轮格数与AB计数分开核对\n\n2024年5月公开说明书列标准24格，可编程至128格。主控的每周期计数、边沿计数和四倍频计数另有定义，不能把“格”直接换成CPR。应一圈慢转比对机械齿位、AB周期及累计计数，再验证快速滚动和反向运动。\n\n## AB承担滚动输入，I²C配置另核\n\n该说明书支持正交AB和I²C400kHz，没有UART或Z相引脚依据。A/B输出应在主控端按相序判断方向，尤其测试停在临界边沿、轻微往返和快速反转，避免滤波把有效边沿吞掉。\n\n## 三路电源不能混写为1.8V工作\n\nAVDD主模拟电源为2.8～5.5V，DVDD和VDDIO才可从1.8V起工作且不高于AVDD。低压主控接入时需分别安排电源、上拉和复位；公开旧说明书还要求NRST外部拉高，并区分应接地和应浮空的测试脚。\n\n## 自适应感应仍需机构验收\n\n芯片为在轴和离轴鼠标磁滚轮提供感知路径，磁体、轴承和齿位机构仍决定装配裕量与手感。应在目标机构上验证整圈稳定性、不同速度的计数和回转行为，不从非接触原理直接推出整机寿命。\n\n\n## 公开资料与型号核对\n\n参数限2024-05公开旧说明书KTH5791AQ3QNS；第1页Rev1.0、后页页眉Rev0，保留版本差异，不声称最新规格。\n\n网页16～1024CPR、UART/Z、1.8V主电源和0.8mA等说法未获该手册支持；本页采用原手册24～128格、AB/I²C及分电源条件。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH5791AQ3QNS 产品说明书.pdf](https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf)\n- [KTH5791_DS_CN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_CN_V2.0.pdf)\n- [KTH5791_AN001_PowerTradeoff_CN_V1.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_AN001_PowerTradeoff_CN_V1.0.pdf)\n- [KTH5791_AN002_UART_Example_CN_V1.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_AN002_UART_Example_CN_V1.0.pdf)\n- [KTH5791_FAQ_CN_V1.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_FAQ_CN_V1.0.pdf)\n- [KTH5791_Schematic_V1.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_Schematic_V1.0.pdf)\n- [KTH5791_DS_EN_V2.0.pdf](https://chat.connteck.com/downloads/KTH5791/KTH5791_DS_EN_V2.0.pdf)\n\n[来源产品页](https://chat.connteck.com/products/3d-hall/KTH5791/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH5791",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH5791AQ3QNS 是鼠标滚轮专用3D Hall芯片，公开旧说明书提供正交AB输出、I²C通信，以及标准24格到可编程128格的滚轮配置。",
+        "wiki_rank": 308,
+        "catalog_type": "线性磁场",
+        "wiki_category": "线性磁场",
+        "official_url": "https://chat.connteck.com/products/3d-hall/KTH5791/",
+        "catalog_source": "https://chat.connteck.com/products/3d-hall/KTH5791/",
+        "search_aliases": [
+          "KTH5791"
+        ],
+        "datasheet_url": "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth5791-original-figure.png",
+        "product_image_caption": "KTH5791 AQ3QNS滚轮应用与功能框图，2024-05旧公开稿（原手册第1页）",
+        "product_image_source": "https://conntek.github.io/files/KTH5791AQ3QNS%20%E4%BA%A7%E5%93%81%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf#page=1"
+      }
+    },
+    {
+      "model": "KTH7101",
+      "slug": "kth7101",
+      "categories": [
+        "编码器 Encoder"
+      ],
+      "directory_values": {
+        "说明": "16位 ANLC 自校准编码器",
+        "分辨率": "16-bit",
+        "接口": "SPI / ABZ / UVW / PWM",
+        "采样率 / 转速": "±0.1° 绝对精度",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "SOP-8"
+      },
+      "source": "https://chat.connteck.com/products/",
+      "family": "kth71",
+      "description": "KTH7101 是带自动非线性校准的磁角度编码器，适合在明确磁路和接口配置后评估绝对角度与增量反馈；SOP8 引脚资源限制需要单独核对。",
+      "sections": [
+        {
+          "title": "八脚封装决定接口取舍",
+          "body": "同系列的输出功能不能全部迁移到八脚型号。原博客已经按原厂手册整理三线 SPI、SSI 与 ABZ，设计时应以实际引脚复用表为准，避免照搬其他封装的 PWM 或换向接线。"
+        },
+        {
+          "title": "ANLC 与置零解决不同问题",
+          "body": "置零建立机构参考，非线性校准用于补偿随角度变化的误差。应先按手册完成规定运动和保存流程，再独立测整圈残差；校准完成标志不能替代准确度验收。"
+        },
+        {
+          "title": "绝对与增量在上电时对齐",
+          "body": "绝对角度可读取当前姿态，AB 计数则依赖主控何时开始累积。控制器同时使用两者时，需要统一方向和零点，并明确启动等待、数据有效和重新上电后的加载行为。"
+        }
+      ],
+      "conflicts": [
+        "来源矩阵列SPI/ABZ/UVW/PWM，与博客按原厂手册整理的三线SPI/SSI/ABZ有差别；保留手册引脚证据，不补造UVW/PWM能力。",
+        "来源没有独立详情页或该型号PDF直链，不能把系列入口误标成数据手册。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      ],
+      "dev_route": "/products/encoder/kth71/kth7101",
+      "blog_route": "/models/kth7101/",
+      "image": {
+        "path": "/images/catalog/kth7101-original-figure.png",
+        "caption": "KTH7101 SOP-8引脚与磁感中心（原手册第7页）",
+        "source": "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=7"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 角度编码 | 16位，360°；理想码距约0.005493°，计算值不是精度 |\n| 安装 | 在轴及离轴，ANLC自动非线性校准 |\n| 工作供电 | 关键表3.0～5.0V，典型3.3V；特性介绍3.3～5V |\n| 磁场条件 | 30～150mT，典型60mT；关键指标表 |\n| 典型电流 | 16mA（3.3V），关键指标表 |\n| 典型启动 | 20ms；实际启动配置需核对 |\n| 表列非线性误差 | ±0.1°；不同安装与校准状态分别验收 |\n| 数据更新 | 1µs，不能直接当成任意运动下完整链路延时 |\n| 噪声 | 0.015°（1σ），关键指标表 |\n| 最高转速 | 120000rpm，按手册工作条件 |\n| 温度 | −40～125°C |\n| 主要输出 | 三线SPI、SSI与ABZ；SOP8具体引脚/模式按手册 |\n| 配置保存 | MTP，校准计算完成与保存完成需分开检查 |\n| 封装 | SOP-8，手册引脚表为8脚 |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 小封装的接口取舍\n\nKTH7101把霍尔检测、角度计算与ANLC集成在SOP8中。八脚封装的接口由实际引脚和复用配置约束，不能把KTH7111/7112的PWM、UVW等全部功能简单移到本型号上。\n\n## 绝对角度和ABZ怎样使用\n\n16位绝对角度用于上电位置读取，ABZ提供边沿计数。增量计数器需要独立配置线数、方向和Z相。三线SPI使用双向数据线，主控必须按手册处理发送与接收换向，不能沿用任意四线SPI接法。\n\n## ANLC与安装误差\n\n校准要按该型号规定的磁路和运动条件进行。置零只改变角度起点，ANLC针对非线性补偿，二者不能互相替代。校准后应独立测整圈残差，而不是以完成标志替代准确度判定。\n\n## 启动与非易失保存\n\n典型20ms反映给定配置下的启动，控制器还需等待有效数据。参数修改后要核对MTP保存、重新上电加载和输出一致性。回读寄存器暂时改变，只证明当前运行配置改变，不证明断电后仍保存。\n\n## 官方资料\n\n- [KTH7101 原厂资料入口](https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/magneticencoder/index.html)\n- [KTH7101 数据手册（官方 PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n## 选型补充\n\n### 八脚封装决定接口取舍\n\n同系列的输出功能不能全部迁移到八脚型号。原博客已经按原厂手册整理三线 SPI、SSI 与 ABZ，设计时应以实际引脚复用表为准，避免照搬其他封装的 PWM 或换向接线。\n\n### ANLC 与置零解决不同问题\n\n置零建立机构参考，非线性校准用于补偿随角度变化的误差。应先按手册完成规定运动和保存流程，再独立测整圈残差；校准完成标志不能替代准确度验收。\n\n### 绝对与增量在上电时对齐\n\n绝对角度可读取当前姿态，AB 计数则依赖主控何时开始累积。控制器同时使用两者时，需要统一方向和零点，并明确启动等待、数据有效和重新上电后的加载行为。\n\n\n## 公开资料与型号核对\n\n来源矩阵列SPI/ABZ/UVW/PWM，与博客按原厂手册整理的三线SPI/SSI/ABZ有差别；保留手册引脚证据，不补造UVW/PWM能力。\n\n来源没有独立详情页或该型号PDF直链，不能把系列入口误标成数据手册。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH7101 产品手册.pdf](https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n[来源产品页](https://chat.connteck.com/products/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH7101",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_type": "数字角度",
+        "catalog_form": "芯片",
+        "wiki_rank": 40,
+        "seed_count": 5,
+        "lastmod": "2026-10-30",
+        "description": "KTH7101 是带自动非线性校准的磁角度编码器，适合在明确磁路和接口配置后评估绝对角度与增量反馈；SOP8 引脚资源限制需要单独核对。",
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/magneticencoder/index.html",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "datasheet_url": "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "datasheet_label": "数据手册原链接",
+        "wiki_category": "磁角度测量",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "catalog_source": "https://chat.connteck.com/products/",
+        "search_aliases": [
+          "KTH7101"
+        ],
+        "product_image": "/images/catalog/kth7101-original-figure.png",
+        "product_image_caption": "KTH7101 SOP-8引脚与磁感中心（原手册第7页）",
+        "product_image_source": "https://conntek.github.io/files/KTH7101%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=7"
+      }
+    },
+    {
+      "model": "KTH7801",
+      "slug": "kth7801",
+      "categories": [
+        "编码器 Encoder"
+      ],
+      "directory_values": {
+        "说明": "16位 Hall 绝对角度编码器",
+        "分辨率": "16-bit",
+        "接口": "SPI / SSI / ABZ / UVW / PWM",
+        "采样率 / 转速": "低延迟",
+        "温度": "-40 ~ 150°C",
+        "车规": "AEC-Q100",
+        "封装": "QFN3x3-16L"
+      },
+      "source": "https://chat.connteck.com/products/angle/KTH7801/",
+      "family": "kth78",
+      "description": "KTH7801 是 Hall 绝对角度编码器，来源列出数字、增量与 PWM 等接口，可用于电机位置和旋转机构反馈；具体接口组合与车规等级需要按订货资料核对。",
+      "sections": [
+        {
+          "title": "电机反馈先区分机械角和电角",
+          "body": "传感器输出机械角，换向所需电角还取决于电机极对数、安装方向和电角零点。设置完角度方向与零点后，应在目标转速下比较位置与控制采样的时间关系，避免静态正确而高速换向偏移。"
+        },
+        {
+          "title": "多接口需要逐项核对引脚",
+          "body": "SPI/SSI 读取、ABZ 计数和 PWM 采样使用不同主控资源。应根据完整封装的复用关系选择可用组合，同时检查未用输入的处理要求，不从“多接口”描述推断任意信号都能同时启用。"
+        },
+        {
+          "title": "车规与功能安全资料各自核验",
+          "body": "AEC-Q100 是器件可靠性资格口径，故障诊断则需要具体状态位和测试条件。汽车系统仍需核对完整订货型号、资格文件及失效响应，不能把网站的功能安全措辞直接写成整机安全等级保证。"
+        }
+      ],
+      "conflicts": [
+        "来源首屏和介绍列UVW，所示16脚表未出现UVW；另列SOP8但未给对应完整引脚表，输出组合待手册确认。",
+        "源页AEC-Q100 Grade 0与−40～150°C的并列口径需核对实际资格文件，不将网站标签作为等级证明。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH7801/KTH7801_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/encoder/kth78/kth7801",
+      "blog_route": "/models/kth7801/",
+      "image": {
+        "path": "/images/catalog/kth7801-original-figure.png",
+        "caption": "KTH7801 SOP-8引脚与磁感中心（原手册第7页）",
+        "source": "https://conntek.github.io/files/KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=7"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 编码 | N：16位；C：12位角度+4位CRC，按后缀 |\n| 输出配置 | 官网QN16：SSI/PWM/SPI/ABZ；SOP8：PWM/SPI |\n| 工作供电 | 手册3.3V模式3.0～3.6V；5V模式4.5～5.5V，分别使用 |\n| 磁场条件 | 关键表30～150mT，典型60mT |\n| 典型工作电流 | 11.6mA（3.3V）；5V表另核对 |\n| 启动时间 | 典型1ms，关键表 |\n| 数据更新/表列延时 | 1µs；匀速补偿与加减速响应不能混用 |\n| INL | 手册关键表±0.35°，按安装和校准条件 |\n| 温度漂移 | 手册关键表0.002°/°C，保留原测试口径 |\n| 最高转速 | 手册关键表120000rpm，不能与任意滤波设置拼接 |\n| 噪声 | 手册及官网对应行0.015°（1σ） |\n| 工作温度 | 官网新表−40～150°C；官网另一表−40～125°C，须按完整订货号确认 |\n| 封装 | QFN-16L或SOP-8，接口受引脚约束 |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 车规成员如何选版本\n\nKTH7801的完整料号包含电源兼容项、角度/CRC格式及封装。需要16位纯角度还是带CRC的数据帧，应从控制器需求出发选择，不能在软件里把CRC低位当作角度继续运算。\n\n## 高温能力的资料冲突\n\n官网新选型表将7801列为−40～150°C，另一张旧表列到125°C。页面保留两种口径，不把其中较高上限自动当成所有7801订货号的保证。量产前应取得适用手册与等级确认。\n\n## 安装与校准\n\n在轴与离轴都需要规定磁场条件。线性幅值调整修正信号链的一部分，不能将任意磁体偏心或磁化不均自动消除。比较整圈误差时应保持相同磁体、气隙、滤波和校准状态。\n\n## 控制接口验收\n\nQN16与SOP8的输出组合不同，替换时先核对引脚。绝对值读数用于位置初始化，ABZ用于增量计数；最高转速还受接收端边沿频率和滤波配置限制，不能单凭120000rpm标注决定可用系统速度。\n\n## 官方资料\n\n- [KTH7801 官方资料](https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrMagneticCodedAngleSensor/index.html)\n\n- [KTH7801 官方产品手册（PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n## 选型补充\n\n### 电机反馈先区分机械角和电角\n\n传感器输出机械角，换向所需电角还取决于电机极对数、安装方向和电角零点。设置完角度方向与零点后，应在目标转速下比较位置与控制采样的时间关系，避免静态正确而高速换向偏移。\n\n### 多接口需要逐项核对引脚\n\nSPI/SSI 读取、ABZ 计数和 PWM 采样使用不同主控资源。应根据完整封装的复用关系选择可用组合，同时检查未用输入的处理要求，不从“多接口”描述推断任意信号都能同时启用。\n\n### 车规与功能安全资料各自核验\n\nAEC-Q100 是器件可靠性资格口径，故障诊断则需要具体状态位和测试条件。汽车系统仍需核对完整订货型号、资格文件及失效响应，不能把网站的功能安全措辞直接写成整机安全等级保证。\n\n\n## 公开资料与型号核对\n\n来源首屏和介绍列UVW，所示16脚表未出现UVW；另列SOP8但未给对应完整引脚表，输出组合待手册确认。\n\n源页AEC-Q100 Grade 0与−40～150°C的并列口径需核对实际资格文件，不将网站标签作为等级证明。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH7801_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTH7801/KTH7801_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/angle/KTH7801/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH7801",
+        "description": "KTH7801 是 Hall 绝对角度编码器，来源列出数字、增量与 PWM 等接口，可用于电机位置和旋转机构反馈；具体接口组合与车规等级需要按订货资料核对。",
+        "wiki": true,
+        "wiki_type": "model",
+        "wiki_rank": 209,
+        "seed_count": 0,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "wiki_category": "数字角度",
+        "catalog_vendor": "昆泰芯",
+        "catalog_type": "数字角度",
+        "catalog_form": "芯片",
+        "search_aliases": [
+          "KTH7801"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrMagneticCodedAngleSensor/index.html",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "series_parent": "kth78",
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH7801/KTH7801_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "catalog_source": "https://chat.connteck.com/products/angle/KTH7801/",
+        "product_image": "/images/catalog/kth7801-original-figure.png",
+        "product_image_caption": "KTH7801 SOP-8引脚与磁感中心（原手册第7页）",
+        "product_image_source": "https://conntek.github.io/files/KTH7801%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=7"
+      }
+    },
+    {
+      "model": "KTM5800",
+      "slug": "ktm5800",
+      "categories": [
+        "编码器 Encoder"
+      ],
+      "directory_values": {
+        "说明": "30位绝对角度细分器·4096 对极",
+        "分辨率": "30-bit",
+        "接口": "SPI / ABZ / UVW",
+        "采样率 / 转速": "AMR / TMR 输入",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "QFN32-5x5"
+      },
+      "source": "https://chat.connteck.com/products/angle/KTM5800/",
+      "family": "ktm58",
+      "description": "KTM5800 是面向 AMR/TMR 正余弦信号的角度细分器，适合多极磁环或磁栅的读数链；其作用是处理外部传感信号，不能直接等同于完整绝对编码器。",
+      "sections": [
+        {
+          "title": "先把传感桥信号接正确",
+          "body": "外部磁敏桥的共模、差分幅度、偏置和相位误差会直接影响后端细分。画图时应同时核对桥供电、输入允许范围和模拟地回路，先观察原始正余弦轨迹，再评估校准后的角度输出。"
+        },
+        {
+          "title": "多极细分与全圈绝对位置不同",
+          "body": "一个磁周期内的细分角度不能独自识别当前处于第几个磁极。全行程绝对位置还需要极号、参考轨或其他粗位置机制，系统应说明上电如何建立位置，不能用输出码宽代替位置唯一性证明。"
+        },
+        {
+          "title": "校准后仍要覆盖安装容差",
+          "body": "偏心、磁环谐波和传感器间距可能造成随机械位置变化的误差。自动校准完成后，应在完整工作行程上独立比较参考位置，并验证复装、温度变化及断电加载后的输出一致性。"
+        }
+      ],
+      "conflicts": [
+        "源页把外部AMR/TMR输入细分器配为通用三轴Hall内部框图，该框图不采用。",
+        "来源30位输出、细分精度及4096对极为不同口径，不能将码宽折算成整机精度或单芯片全圈唯一位置。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTM5800/KTM5800_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/encoder/ktm58/ktm5800",
+      "blog_route": "/models/ktm5800/",
+      "image": {
+        "path": "/images/wiki/ktm5800-diagram.webp",
+        "caption": "图片来源：KTM5800 官方数据手册，第 5 个 PDF 页面，功能框图局部。",
+        "source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 器件类型 | 外部正余弦角度细分器，不集成磁体/光学读头 |\n| 细分/周期 | 单电周期最高18位；最多4096对极输入；30位表达不等于30位精度 |\n| 采样 | 双16位SAR ADC，最高2MSPS |\n| 输入幅度 | 介绍20mV～2V；差分、共模及增益按输入章节 |\n| 供电 | DVDD/AVDD 3.0～5.5V；MTP烧写4.5～5.5V、典型5V |\n| 典型电流/启动 | 32mA；23ms，正常参数表 |\n| SPI | 最高36Mbps，支持角度及寄存器操作 |\n| ABZ | 1～65536线；表列输出频率最高20MHz |\n| UVW/PWM | 1～256对极；PWM典型973Hz |\n| 校准/INL | 线性、非线性和误差表补偿；单对极校准后≤±0.025° |\n| 噪声/延时 | 表列0.01°（6σ）；0.5µs典型延时，外接AMR条件，不含所有滤波/整机环节 |\n| 温度/封装 | −40～125°C；QFN32，5×5mm |\n| 存储 | MTP至少1000次擦写，按烧写电气条件 |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 敏感元件和细分器的分工\n\nKTM5800接收外部AMR、TMR、光学或磁栅读头产生的正余弦信号。输入放大、ADC、校准和角度处理在芯片内，磁场或光学位置到模拟信号的转换仍取决于外部读头。手册外接AMR时的磁场条件不能当成本芯片通用输入范围。\n\n## 18位、12位周期数与30位\n\n每个电周期的细分与机械周期计数是不同层次。4096周期对应12位周期表达，再与18位细分组合可形成30位位置字；这只是编码结构，实际整圈准确度还受读头、周期误差和同步基准影响。\n\n## 模拟输入先于数字参数\n\n先核对差分幅度、共模、增益和最大频率，再谈输出分辨率。输入削波或信号失衡会产生错误相位，即使SPI与CRC都正常。双ADC采样与后续数字滤波也需在相同配置下验证延时和噪声。\n\n## 校准与保存\n\n线性校准处理偏置、幅值和正交度，非线性表补偿处理相应残差，置零只定义起点。保存时MTP引脚有独立电压要求，完成后须冷启动回读。0.5µs表列延时不能直接代表含滤波、接口和控制器的反馈总延迟。\n\n## 多周期输入的上电位置与输出驱动\n\n重复正余弦只提供周期内相位。旋转过程中累计周期数可以跟踪运动，但若上电时不知道所处周期，不能仅凭当前两路信号恢复整圈绝对位置；应按实际方案明确周期识别、参考同步和圈数保持。选择串行或增量输出时，还需分别确认接收端位数、刷新与启动基准。芯片逻辑引脚或互补输出不能直接等同于整条工业长线接口，隔离器、线缆共模与接收器带宽也要纳入设计。\n\n与集成TMR前端的[KTM5900](/models/ktm5900/)相比，KTM5800允许另选磁阻或光学读头，但同时要求系统设计者负责输入幅度、共模、输出阻抗及机械刻度配套。\n\n## 官方资料\n\n- [官方产品介绍](https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/absoluteangledivider/index.html)\n- [下载KTM5800 数据手册（官方 PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n- 资料版本：官网公开下载件，核对日期 2026-10-15\n\n## 选型补充\n\n### 先把传感桥信号接正确\n\n外部磁敏桥的共模、差分幅度、偏置和相位误差会直接影响后端细分。画图时应同时核对桥供电、输入允许范围和模拟地回路，先观察原始正余弦轨迹，再评估校准后的角度输出。\n\n### 多极细分与全圈绝对位置不同\n\n一个磁周期内的细分角度不能独自识别当前处于第几个磁极。全行程绝对位置还需要极号、参考轨或其他粗位置机制，系统应说明上电如何建立位置，不能用输出码宽代替位置唯一性证明。\n\n### 校准后仍要覆盖安装容差\n\n偏心、磁环谐波和传感器间距可能造成随机械位置变化的误差。自动校准完成后，应在完整工作行程上独立比较参考位置，并验证复装、温度变化及断电加载后的输出一致性。\n\n\n## 公开资料与型号核对\n\n源页把外部AMR/TMR输入细分器配为通用三轴Hall内部框图，该框图不采用。\n\n来源30位输出、细分精度及4096对极为不同口径，不能将码宽折算成整机精度或单芯片全圈唯一位置。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTM5800_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTM5800/KTM5800_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/angle/KTM5800/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTM5800",
+        "description": "KTM5800 是面向 AMR/TMR 正余弦信号的角度细分器，适合多极磁环或磁栅的读数链；其作用是处理外部传感信号，不能直接等同于完整绝对编码器。",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_type": "信号处理",
+        "catalog_form": "芯片",
+        "wiki_rank": 11,
+        "seed_count": 15,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/absoluteangledivider/index.html",
+        "datasheet_url": "https://chat.connteck.com/downloads/KTM5800/KTM5800_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "product_image": "/images/wiki/ktm5800-diagram.webp",
+        "product_image_caption": "图片来源：KTM5800 官方数据手册，第 5 个 PDF 页面，功能框图局部。",
+        "product_image_source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5800%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "wiki_category": "数字角度",
+        "catalog_source": "https://chat.connteck.com/products/angle/KTM5800/",
+        "search_aliases": [
+          "KTM5800"
+        ]
+      }
+    },
+    {
+      "model": "KTM5900",
+      "slug": "ktm5900",
+      "categories": [
+        "编码器 Encoder"
+      ],
+      "directory_values": {
+        "说明": "24位 TMR 磁性编码器",
+        "分辨率": "24-bit",
+        "接口": "SPI",
+        "采样率 / 转速": "2 MSPS",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "HFBP5x5-32L"
+      },
+      "source": "https://chat.connteck.com/products/angle/KTM5900/",
+      "family": "ktm59",
+      "description": "KTM5900 集成 TMR 感知和高速角度处理，单对极位置可用较高码宽输出；选型应同时核对噪声、校准误差、输出频率和磁感中心。",
+      "sections": [
+        {
+          "title": "高码宽不能替代准确度条件",
+          "body": "输出码距是数字量化单位，噪声和非线性误差仍取决于磁体、安装、温度及校准状态。比较不同器件时，应先统一典型/最大值、在轴/离轴以及噪声统计口径，避免只按位数排名。"
+        },
+        {
+          "title": "线数与转速需要共同核算",
+          "body": "ABZ 线数越高，单位时间内的脉冲越密。应把目标转速换算为输出边沿频率，再与芯片、接收器、布线和主控计数上限比较；最大线数与最大转速并不天然可以同时使用。"
+        },
+        {
+          "title": "校准和保存分别验证",
+          "body": "线性校准、非线性补偿、置零和 MTP 保存是不同步骤。保存后应重新上电检查参数与输出，同时按手册磁感中心定位磁体，避免用封装几何中心替代真实敏感点。"
+        }
+      ],
+      "conflicts": [
+        "Design Center只列SPI，博客原厂手册资料还列ABZ/UVW/PWM，不能以矩阵简表否定完整资料。",
+        "源页通用Hall框图不对应TMR/SAR信号链；原博客还保留电流、磁场、封装和INL的多来源差异。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTM5900/KTM5900_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/encoder/ktm59/ktm5900",
+      "blog_route": "/models/ktm5900/",
+      "image": {
+        "path": "/images/wiki/ktm5900-diagram.webp",
+        "caption": "图片来源：KTM5900 官方数据手册，第 5 个 PDF 页面，功能框图局部。",
+        "source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf"
+      },
+      "body": "## 核心参数\n\n| 参数 | 数值、配置与条件 |\n| --- | --- |\n| 感应/编码 | 集成TMR；单对极最高24位，码宽不等于有效精度 |\n| ADC | 双16位SAR ADC，最高2MSPS |\n| 供电 | AVDD/DVDD 3.0～5.5V；典型3.3～5V |\n| MTP烧写 | VDDMTP 4.5～5.5V，典型5V |\n| SPI | 最高36Mbps，角度读取带8位CRC，按对应帧结构 |\n| ABZ | 1～65536线，可编程；电气表输出频率最高20MHz |\n| UVW/PWM | 1～256对极；PWM典型973Hz |\n| 工作电流 | 下载PDF典型32mA；官网目录40mA，来源口径不同 |\n| 启动/延时 | 典型23ms/0.5µs，正常表；不代表含滤波/通信的总时延 |\n| 噪声 | 电气表0.01°（6σ），不能与1σ数字直接比较 |\n| 最高转速 | 180000rpm，需同时满足输出频率和所选配置 |\n| 温度 | −40～125°C |\n| 封装差异 | 下载PDF为HFBP 5×5mm-32L；官网目录QFN32-5×5，封装图与焊盘按订货资料确认 |\n| MTP耐久 | 至少1000次，按手册烧写条件 |\n| 安装 | 官网在轴/离轴；按各磁体与校准条件 |\n| 磁场口径 | 下载PDF典型30mT、最大80mT；官网目录30～150mT，未统一 |\n| 校准INL | 下载PDF特点页写单对极校准后≤±0.025°，电气表将±0.025°置于典型列；官网在轴±0.02°/离轴±0.05°，不合成全温最大保证 |\n| 校准方法 | 自动线性、自动非线性与256点误差表，按手册流程 |\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf)。\n\n## 24位输出的工程含义\n\n24位全圈理想码距约0.00002146°，这是编码换算；噪声、电气非线性及安装误差仍按各自条件读取。手册6σ噪声与其他器件的RMS或1σ不能直接并排排名，统计口径必须先统一。\n\n## 在轴、离轴和磁场范围\n\nKTM5900支持对应在轴与离轴应用，但官网和下载PDF在场强上限、电流及校准INL上存在差异。本页同时保留两份数值，不从每份资料挑最好项目拼成一个工作点。磁环读头半径和气隙需按具体方案确定。\n\n## 输出频率与转速\n\n最高180000rpm等于3000圈/秒。若选65536线ABZ，则A/B基础频率约196.6MHz，已经超过电气表20MHz；这是按数值计算的约束，说明最大线数与最大转速不能同时使用。还需计入主控计数与线缆能力。\n\n## 校准、报警与保存\n\n自动线性校准、非线性补偿与256点表作用不同，置零也不是精度校准。MTP写入有专用供电要求，成功后应重新上电复核。输入幅值异常、欠压和CRC错误分别处理，不能用某一种报警覆盖整个反馈链。\n\n## 磁感中心和控制器启动基准\n\n[公开手册第8—9个PDF页面](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf#page=8)特别指出封装中心与传感器敏感中心并不重合。磁体对准和PCB机械定位应以标注的敏感中心为准，不能默认对准封装几何中心。\n\n绝对角度可用于上电位置读取，AB累计值则取决于接收器何时初始化及如何建立参考。系统同时使用两路时，需要统一零点、方向和启动时刻。它们共享磁体和角度链，不能因此构成独立冗余；配置和校准记录还应保留磁体、机械基准、手册版本与输出设置，以便复装后判断是否需要重新校准。\n\n## 官方资料\n\n- [官方产品介绍](https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrTMPMagnrticEncoderChip/index.html)\n- [下载KTM5900 数据手册（官方 PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf)\n- 资料版本：官网公开下载件，核对日期 2026-10-15\n\n## 选型补充\n\n### 高码宽不能替代准确度条件\n\n输出码距是数字量化单位，噪声和非线性误差仍取决于磁体、安装、温度及校准状态。比较不同器件时，应先统一典型/最大值、在轴/离轴以及噪声统计口径，避免只按位数排名。\n\n### 线数与转速需要共同核算\n\nABZ 线数越高，单位时间内的脉冲越密。应把目标转速换算为输出边沿频率，再与芯片、接收器、布线和主控计数上限比较；最大线数与最大转速并不天然可以同时使用。\n\n### 校准和保存分别验证\n\n线性校准、非线性补偿、置零和 MTP 保存是不同步骤。保存后应重新上电检查参数与输出，同时按手册磁感中心定位磁体，避免用封装几何中心替代真实敏感点。\n\n\n## 公开资料与型号核对\n\nDesign Center只列SPI，博客原厂手册资料还列ABZ/UVW/PWM，不能以矩阵简表否定完整资料。\n\n源页通用Hall框图不对应TMR/SAR信号链；原博客还保留电流、磁场、封装和INL的多来源差异。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTM5900_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTM5900/KTM5900_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/angle/KTM5900/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTM5900",
+        "description": "KTM5900 集成 TMR 感知和高速角度处理，单对极位置可用较高码宽输出；选型应同时核对噪声、校准误差、输出频率和磁感中心。",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_type": "数字角度",
+        "catalog_form": "芯片",
+        "wiki_rank": 2,
+        "seed_count": 34,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/magneticCurrentLinearSensingChip/hshrTMPMagnrticEncoderChip/index.html",
+        "datasheet_url": "https://chat.connteck.com/downloads/KTM5900/KTM5900_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "product_image": "/images/wiki/ktm5900-diagram.webp",
+        "product_image_caption": "图片来源：KTM5900 官方数据手册，第 5 个 PDF 页面，功能框图局部。",
+        "product_image_source": "https://www.conntek.com.cn/api/resource/freeDownload?name=KTM5900%2024bit%E7%BB%9D%E5%AF%B9%E8%A7%92%E5%BA%A6%E7%A3%81%E6%80%A7%E7%BC%96%E7%A0%81%E5%99%A8.pdf",
+        "wiki_category": "数字角度",
+        "catalog_source": "https://chat.connteck.com/products/angle/KTM5900/",
+        "search_aliases": [
+          "KTM5900"
+        ]
+      }
+    },
+    {
+      "model": "KTH1601",
+      "slug": "kth1601",
+      "categories": [
+        "开关 Switch"
+      ],
+      "directory_values": {
+        "说明": "1D 微功耗霍尔开关·1μA",
+        "分辨率": "—",
+        "接口": "开漏 / 推挽",
+        "采样率 / 转速": "—",
+        "温度": "-40 ~ 85°C",
+        "车规": "—",
+        "封装": "SOT-23-3L"
+      },
+      "source": "https://chat.connteck.com/products/switches/KTH1601/",
+      "family": "kth16",
+      "description": "KTH1601 是全极性微功耗霍尔开关，公开手册首页明确采用CMOS推挽输出；采样频率、磁门限和封装应按完整型号一起选择。",
+      "sections": [
+        {
+          "title": "先判断动作逻辑再选磁体",
+          "body": "单极、全极和锁存的释放行为不同。设计门磁或翻盖检测时，应记录磁体靠近与离开的全路径，以及两种极性下的输出，避免把一次“有磁翻转”误当成完整逻辑确认。"
+        },
+        {
+          "title": "低功耗以可检测事件为代价核算",
+          "body": "周期采样器件可能在磁体快速通过时错过短事件。电池预算与响应时间应一起检查，依据实际开合速度、磁场有效区长度和工作模式选择采样档，而非只采用最低电流。"
+        },
+        {
+          "title": "输出类型影响上拉与待机电流",
+          "body": "本型号公开手册首页明确CMOS推挽。接收端电平、负载与供电仍需核对，不能按开漏器件直接添加上拉并假定支持任意外部电压。不同封装的引脚应分别对照，不以外形相近认定可直接替换。"
+        }
+      ],
+      "conflicts": [
+        "公开PDF第1页明确CMOS推挽、1.6～5.5V；网页开漏/推挽混列及1.7V下限不能直接套用。本页参数来自可见首页，尚未逐项核读完整电磁参数表。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/switch/kth16/kth1601",
+      "blog_route": "/models/kth1601/",
+      "image": {
+        "path": "/images/catalog/kth1601-browser-original.jpg",
+        "caption": "KTH1601 原厂SOT-23-3L封装图，公开手册第1页",
+        "source": "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 器件与输出 | 全极性霍尔开关；CMOS推挽输出；首页明确CMOS推挽，不沿用网页开漏输出介绍（手册第1页） |\n| 主电源 | 1.6～5.5 V；推荐供电范围，按完整订货版本确认（手册第1页） |\n| 典型功耗工作点 | 5 Hz版本1.6 µA；20 Hz版本3.3 µA；VDD=1.8 V；两个采样版本，不与最高响应同时使用（手册第1页） |\n| 动作门限档 | 22 Gs、33 Gs、46 Gs可选；首页BOP可选档，最低/典型/最大窗口及BRP仍需对应手册表格确认（手册第1页） |\n| 温度与封装 | −40～85°C；SOT-23-3L、SOT-553、TO-92S；按完整订货型号选择封装与引脚，不推定相互兼容（手册第1页） |\n| ESD | HBM 8 kV；首页器件声明，不是整机ESD测试结果（手册第1页） |\n\n## 先判断动作逻辑再选磁体\n\n单极、全极和锁存的释放行为不同。设计门磁或翻盖检测时，应记录磁体靠近与离开的全路径，以及两种极性下的输出，避免把一次“有磁翻转”误当成完整逻辑确认。\n\n## 低功耗以可检测事件为代价核算\n\n周期采样器件可能在磁体快速通过时错过短事件。电池预算与响应时间应一起检查，依据实际开合速度、磁场有效区长度和工作模式选择采样档，而非只采用最低电流。\n\n## 输出类型影响上拉与待机电流\n\n本型号公开手册首页明确CMOS推挽。接收端电平、负载与供电仍需核对，不能按开漏器件直接添加上拉并假定支持任意外部电压。不同封装的引脚应分别对照，不以外形相近认定可直接替换。\n\n\n## 公开资料与型号核对\n\n公开PDF第1页明确CMOS推挽、1.6～5.5V；网页开漏/推挽混列及1.7V下限不能直接套用。本页参数来自可见首页，尚未逐项核读完整电磁参数表。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH1601_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/switches/KTH1601/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH1601",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH1601 是全极性微功耗霍尔开关，公开手册首页明确采用CMOS推挽输出；采样频率、磁门限和封装应按完整型号一起选择。",
+        "wiki_rank": 313,
+        "catalog_type": "磁开关",
+        "wiki_category": "磁开关",
+        "official_url": "https://chat.connteck.com/products/switches/KTH1601/",
+        "catalog_source": "https://chat.connteck.com/products/switches/KTH1601/",
+        "search_aliases": [
+          "KTH1601"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth1601-browser-original.jpg",
+        "product_image_caption": "KTH1601 原厂SOT-23-3L封装图，公开手册第1页",
+        "product_image_source": "https://chat.connteck.com/downloads/KTH1601/KTH1601_Datasheet_CN.pdf"
+      }
+    },
+    {
+      "model": "KTH2502",
+      "slug": "kth2502",
+      "categories": [
+        "开关 Switch"
+      ],
+      "directory_values": {
+        "说明": "车规高压霍尔开关·30mA",
+        "分辨率": "—",
+        "接口": "开漏 30mA",
+        "采样率 / 转速": "2.7 ~ 32 V",
+        "温度": "-40 ~ 150°C",
+        "车规": "AEC-Q100",
+        "封装": "SOT23"
+      },
+      "source": "https://chat.connteck.com/products/switches/KTH2502/",
+      "family": "kth25",
+      "description": "KTH2502 是双极锁存Hall开关系列，具有宽电源和开漏输出；QA/QB/QC门限、封装磁方向和上电状态决定其在旋转或位置事件检测中的用法。",
+      "sections": [
+        {
+          "title": "锁存器不能只用移走磁体测试",
+          "body": "该系列由相反极性的磁场门限完成切换，磁体移远后可能保留原状态。旋转磁环适合产生正负交替磁场；若用于翻盖或单次接近检测，必须先确认机构能完成整个切换路径，不能把普通开关的有磁/无磁逻辑直接套入。"
+        },
+        {
+          "title": "门限符号与封装方向一起读取",
+          "body": "QA/QB/QC是不同灵敏度档。原厂磁参数表保留BOP与BRP的符号，而SOT-23-3L与SOT23/TO-92S的磁方向说明不同；选择磁体前应先固定封装和观察面，再测动作/释放裕量。换封装还会改变OUT与GND脚序。"
+        },
+        {
+          "title": "开漏负载要满足热与边沿条件",
+          "body": "手册将输出灌电流限制与功耗、热条件一起规定。上拉电阻决定低电平负载及上升边沿，附加输出电容又影响带宽；接控制器输入、LED或感性负载时分别检查，不能只凭30mA数字认定所有负载可直驱。"
+        },
+        {
+          "title": "上电与电源保护各自验证",
+          "body": "上电有效前OUT处于高阻状态，主控应等到规定时间后再解释磁状态。手册区分2.7～32V工作电源、36V负载突降保护和反接保护；这些条件不能合成36V长期工作保证，也不能由器件保护推出整车瞬态测试已经通过。"
+        }
+      ],
+      "conflicts": [
+        "参数采用既有公开原厂KTH2502系列手册，Q等级为−40～150°C；不采用网页AEC-Q100 Grade 0、HBM8kV及5/8mA等冲突数字。",
+        "原厂手册确认双极锁存，而非任意有磁/无磁状态开关；封装磁方向需按原图确认。",
+        "原厂手册应用例不构成任意继电器直驱、无需外围保护或系统合规保证。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "https://chat.connteck.com/downloads/KTH2502/KTH2502_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/switch/kth25/kth2502",
+      "blog_route": "/models/kth2502/",
+      "image": {
+        "path": "/images/catalog/kth2502-original-figure.png",
+        "caption": "KTH2502 产品特点、锁存与应用电路（原手册第1页）",
+        "source": "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=1"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 检测逻辑 | 数字双极锁存型Hall开关，开漏NMOS输出；需要跨越相反极性门限切换，移走磁体不能默认释放（手册第1、4、6、8、16页） |\n| 推荐工作电源 | 2.7～32 V；在规定自由空气工作温度范围内，除特别说明外；36V为保护/绝对最大口径（手册第10、17页） |\n| 输出电压/灌电流 | OUT：0～32 V；灌电流0～30 mA；推荐条件，必须同时遵守功耗和热限制（手册第10页） |\n| 工作温度 | −40～150 °C；Q等级；不改写为AEC-Q100 Grade 0（手册第3、10页） |\n| 工作电流 | 25°C典型2.7 mA；150°C典型2.7 mA、最大4.5 mA；VCC=2.7～32 V（手册第11页） |\n| 上电时间 | 典型35 µs，最大50 µs；A/B/C版本；输出有效前按手册处理高阻状态（手册第11、14、15页） |\n| 导通电阻 | 25°C典型11 Ω；150°C典型15 Ω、最大20 Ω；VCC=3.3 V、IO=10 mA（手册第11页） |\n| 磁场变化带宽 | 最小20 kHz，典型30 kHz；手册第12页定义为能转换为输出的最快变化磁场；非主控链路频率（手册第12页） |\n| QA磁门限 | BOP最小/典型/最大=-25/-15/-5 Gs；BRP=5/15/25 Gs；典型磁滞30 Gs；TA=−40～150°C；保留表中符号，极性必须结合第6—8页封装磁方向图（手册第6、7、8、12页） |\n| QB磁门限 | BOP最小/典型/最大=-45/-30/-15 Gs；BRP=15/30/45 Gs；典型磁滞60 Gs；TA=−40～150°C；保留表中符号，极性必须结合第6—8页封装磁方向图（手册第6、7、8、12页） |\n| QC磁门限 | BOP最小/典型/最大=-90/-60/-30 Gs；BRP=30/60/90 Gs；典型磁滞120 Gs；TA=−40～150°C；保留表中符号，极性必须结合第6—8页封装磁方向图（手册第6、7、8、12页） |\n| ESD | HBM ±4000 V；CDM ±500 V；ESD额定表，不等于系统级ESD能力（手册第10页） |\n| 封装引脚 | SOT23/SOT-23-3L：VCC1、OUT2、GND3；TO-92S：VCC1、GND2、OUT3；俯视图；换封装时OUT/GND不能沿用（手册第4、5页） |\n| 输出边沿 | 上升典型160 ns；下降典型80 ns；10%～90%/90%～10%，R1=1kΩ、CO=50pF、VCC=3.3V（手册第11页） |\n\n## 锁存器不能只用移走磁体测试\n\n该系列由相反极性的磁场门限完成切换，磁体移远后可能保留原状态。旋转磁环适合产生正负交替磁场；若用于翻盖或单次接近检测，必须先确认机构能完成整个切换路径，不能把普通开关的有磁/无磁逻辑直接套入。\n\n## 门限符号与封装方向一起读取\n\nQA/QB/QC是不同灵敏度档。原厂磁参数表保留BOP与BRP的符号，而SOT-23-3L与SOT23/TO-92S的磁方向说明不同；选择磁体前应先固定封装和观察面，再测动作/释放裕量。换封装还会改变OUT与GND脚序。\n\n## 开漏负载要满足热与边沿条件\n\n手册将输出灌电流限制与功耗、热条件一起规定。上拉电阻决定低电平负载及上升边沿，附加输出电容又影响带宽；接控制器输入、LED或感性负载时分别检查，不能只凭30mA数字认定所有负载可直驱。\n\n## 上电与电源保护各自验证\n\n上电有效前OUT处于高阻状态，主控应等到规定时间后再解释磁状态。手册区分2.7～32V工作电源、36V负载突降保护和反接保护；这些条件不能合成36V长期工作保证，也不能由器件保护推出整车瞬态测试已经通过。\n\n\n## 公开资料与型号核对\n\n参数采用既有公开原厂KTH2502系列手册，Q等级为−40～150°C；不采用网页AEC-Q100 Grade 0、HBM8kV及5/8mA等冲突数字。\n\n原厂手册确认双极锁存，而非任意有磁/无磁状态开关；封装磁方向需按原图确认。\n\n原厂手册应用例不构成任意继电器直驱、无需外围保护或系统合规保证。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH2502 产品手册.pdf](https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n- [KTH2502_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTH2502/KTH2502_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/switches/KTH2502/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH2502",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH2502 是双极锁存Hall开关系列，具有宽电源和开漏输出；QA/QB/QC门限、封装磁方向和上电状态决定其在旋转或位置事件检测中的用法。",
+        "wiki_rank": 314,
+        "catalog_type": "磁开关",
+        "wiki_category": "磁开关",
+        "official_url": "https://chat.connteck.com/products/switches/KTH2502/",
+        "catalog_source": "https://chat.connteck.com/products/switches/KTH2502/",
+        "search_aliases": [
+          "KTH2502"
+        ],
+        "datasheet_url": "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/kth2502-original-figure.png",
+        "product_image_caption": "KTH2502 产品特点、锁存与应用电路（原手册第1页）",
+        "product_image_source": "https://conntek.github.io/files/KTH2502%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=1"
+      }
+    },
+    {
+      "model": "KTH462N",
+      "slug": "kth462",
+      "categories": [
+        "开关 Switch"
+      ],
+      "directory_values": {
+        "说明": "2D 霍尔开关·锁存 / 方向输出",
+        "分辨率": "—",
+        "接口": "双路数字",
+        "采样率 / 转速": "多频可选",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "SOT-23-6L"
+      },
+      "source": "https://chat.connteck.com/products/",
+      "family": "kth462",
+      "description": "KTH462N 是二维锁存霍尔开关系列，KTH4621 输出两个轴的独立状态，KTH4622 输出速度与方向；A/B/C 版本对应 XY/XZ/YZ 敏感平面。",
+      "sections": [
+        {
+          "title": "4621 与 4622 的输出语义不同",
+          "body": "公开手册第1—3页明确：KTH4621 提供两个敏感轴的独立锁存状态，KTH4622 则经过内部处理输出速度与方向。A/B/C 分别对应 XY、XZ、YZ 平面；OUT1/OUT2 在不同成员中含义不同，主控和接线必须按完整型号选择。"
+        },
+        {
+          "title": "锁存逻辑需要相反磁极切换",
+          "body": "若采用锁存版本，磁体移远后输出可能继续保持。设计转子或往复运动检测时，应画出敏感轴上的正负磁场轨迹，验证完整往返过程中是否都越过所需门限。"
+        },
+        {
+          "title": "采样频率与磁极数共同限制速度",
+          "body": "每圈的磁极数量决定电气事件密度。应按目标最高转速核算事件间隔，再检查所选采样档和主控输入滤波，尤其观察高速反转或短暂停留时是否产生错误方向。"
+        },
+        {
+          "title": "上电状态不能当作已经识别方向",
+          "body": "公开手册第7页说明，KTH4622 在有磁环境上电时，速度与方向输出的初始状态与所处磁场有关，不能预设为有效运动方向。应在主控启动流程中区分初始电平和真实运动事件，再验证正反转后的方向输出。"
+        }
+      ],
+      "conflicts": [
+        "来源矩阵未提供独立详情或PDF直链；本次补充既有公开KTH462N系列手册文字，明确4621/4622及A/B/C关系。",
+        "手册首页列HBM 4kV，绝对最大额定表另列±6kV，可靠性条件仍需按正式版本确认，不择优合并。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      ],
+      "dev_route": "/products/switch/kth462",
+      "blog_route": "/models/kth462/",
+      "image": {
+        "path": "/images/catalog/kth462n-package.jpg",
+        "caption": "KTH462N 系列 SOT-23-6L，原手册第1页",
+        "source": "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 供电 | 2.5～5.5 V；典型3.3 V；工作状态；电参数表TA=25°C，VDD=3.3 V，除特别说明外（手册第8页） |\n| 工作温度 | −40～125 °C；参考工作条件（手册第8页） |\n| XAM 平均电流/采样频率 | 典型32.3 µA；典型30 Hz；电流条件TA=25°C、VDD=2.5 V；30 Hz属于XAM工作模式（手册第8页） |\n| XAM 唤醒时间 | 典型945 µs；XAM系列工作状态，TA=25°C、VDD=3.3 V，除特别说明外（手册第8页） |\n| XAT 平均电流/采样频率 | 典型1.9 mA；典型1.7 kHz；电流条件TA=25°C、VDD=2.5 V；XAT为连续工作版本（手册第1、8、12页） |\n| 输出低电平 | 典型0.01 V，最大0.05 V；IOUT=1 mA；XAM/XAT表；TA=25°C、VDD=3.3 V，除特别说明外（手册第8页） |\n| 动作场 BOP | 典型25 Gs，最大40 Gs；最小列未给值；OUT1/OUT2；TA=25°C、VDD=3.3 V；南极方向按图14-1，不把符号脱离敏感方向（手册第9页） |\n| 释放场 BRP | 最小−40 Gs，典型−25 Gs；最大列未给值；OUT1/OUT2；TA=25°C、VDD=3.3 V；磁体方向按图14-1（手册第9页） |\n| 磁滞 BHY | 典型50 Gs；BHY=\\|BOP−BRP\\|；OUT1/OUT2；同磁参数表条件（手册第9页） |\n| 成员和检测平面 | 4621：双轴独立锁存输出；4622：速度/方向输出；A=XY、B=XZ、C=YZ；型号信息和引脚表；封装SOT-23-6L（手册第2、3页） |\n| 引脚 | 1 VDD；2 TEST接地；3 NC接地；4 OUT1；5 GND；6 OUT2；KTH462NXXX-ST6；注意名称NC但本手册仍要求接地（手册第3页） |\n| 电源去耦 | 1 µF，靠近VDD；手册应用电路建议，不是电气极限（手册第1页） |\n\n\n参数依据：[原厂产品与型号选型表](https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/highsensitive2Dhallswitch/index.html)。\n\n## 两种双输出含义不同\n\nKTH4621提供两个轴的锁存状态，主控可据状态序列判断运动。KTH4622则把速度与方向作为两路功能输出。原理图上都是两根信号线，不表示协议、采样或软件解释相同。\n\n## 采样档与最高运动频率\n\nAT和AM版本在频率与电流之间折衷，不能把33µA与1.7kHz列成同一工作点。运动磁极数会将机械转速转换为电气变化频率，应先确定磁体结构再核算采样裕量。\n\n## 锁存状态与磁体极性\n\n锁存器需要相反磁极完成状态切换，磁体远离不一定代表释放。X/Y敏感轴、封装方向和磁场轨迹共同决定两个输出的先后关系，方向判断应在正反转下分别确认。\n\n## 验证方法\n\n开漏端使用适当上拉后，同时采集两路波形。检查低速往返、高速通过、上电时磁体处于临界位置和短暂停留的行为；不要只用万用表看到一次高低变化，就判断速度方向链路完成。\n\n## 官方资料\n\n- [KTH462系列 官方资料](https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/highsensitive2Dhallswitch/index.html)\n\n## 选型补充\n\n### 4621 与 4622 的输出语义不同\n\n公开手册第1—3页明确：KTH4621 提供两个敏感轴的独立锁存状态，KTH4622 则经过内部处理输出速度与方向。A/B/C 分别对应 XY、XZ、YZ 平面；OUT1/OUT2 在不同成员中含义不同，主控和接线必须按完整型号选择。\n\n### 锁存逻辑需要相反磁极切换\n\n若采用锁存版本，磁体移远后输出可能继续保持。设计转子或往复运动检测时，应画出敏感轴上的正负磁场轨迹，验证完整往返过程中是否都越过所需门限。\n\n### 采样频率与磁极数共同限制速度\n\n每圈的磁极数量决定电气事件密度。应按目标最高转速核算事件间隔，再检查所选采样档和主控输入滤波，尤其观察高速反转或短暂停留时是否产生错误方向。\n\n### 上电状态不能当作已经识别方向\n\n公开手册第7页说明，KTH4622 在有磁环境上电时，速度与方向输出的初始状态与所处磁场有关，不能预设为有效运动方向。应在主控启动流程中区分初始电平和真实运动事件，再验证正反转后的方向输出。\n\n\n## 公开资料与型号核对\n\n来源矩阵未提供独立详情或PDF直链；本次补充既有公开KTH462N系列手册文字，明确4621/4622及A/B/C关系。\n\n手册首页列HBM 4kV，绝对最大额定表另列±6kV，可靠性条件仍需按正式版本确认，不择优合并。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH462N Series 产品手册.pdf](https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n[来源产品页](https://chat.connteck.com/products/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH462系列",
+        "description": "KTH462N 是二维锁存霍尔开关系列，KTH4621 输出两个轴的独立状态，KTH4622 输出速度与方向；A/B/C 版本对应 XY/XZ/YZ 敏感平面。",
+        "wiki": true,
+        "wiki_type": "model",
+        "wiki_rank": 208,
+        "seed_count": 0,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "wiki_category": "磁开关",
+        "catalog_vendor": "昆泰芯",
+        "catalog_type": "磁开关",
+        "catalog_form": "芯片",
+        "search_aliases": [
+          "KTH4621",
+          "KTH4622",
+          "KTH462N"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/highsensitive2Dhallswitch/index.html",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "catalog_source": "https://chat.connteck.com/products/",
+        "datasheet_url": "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "datasheet_label": "数据手册原链接",
+        "product_image": "/images/catalog/kth462n-package.jpg",
+        "product_image_caption": "KTH462N 系列 SOT-23-6L，原手册第1页",
+        "product_image_source": "https://conntek.github.io/files/KTH462N%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      }
+    },
+    {
+      "model": "KTH468N",
+      "slug": "kth468n",
+      "categories": [
+        "开关 Switch"
+      ],
+      "directory_values": {
+        "说明": "3D 全极性霍尔开关·微功耗",
+        "分辨率": "—",
+        "接口": "NMOS 开漏",
+        "采样率 / 转速": "多频可选",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "SOT-23-5L"
+      },
+      "source": "https://chat.connteck.com/products/",
+      "family": "kth462",
+      "description": "KTH468N 是来源矩阵中的三维全极性微功耗霍尔开关，适合在确认各轴判决关系和阈值配置后评估多方向磁体接近检测。",
+      "sections": [
+        {
+          "title": "三维检测不等于输出三维坐标",
+          "body": "三维开关用于判断磁场状态，不能据此获得连续 XYZ 数值或空间位置。机构设计需要明确由哪一个轴、哪些轴组合触发，以及正反极性是否具有相同门限和释放行为。"
+        },
+        {
+          "title": "检查不同接近方向的有效窗口",
+          "body": "磁体从正面、侧面或倾斜方向靠近时，各轴分量不同。应在机构允许姿态内测动作与释放位置，特别检查临界角度是否形成漏检区域；不能只在一种摆放方向上验证。"
+        },
+        {
+          "title": "微功耗模式要覆盖短事件",
+          "body": "状态检测若采用间歇采样，需要确认磁体经过有效区的最短时间。对快速插拔或滑动机构，主控应同时记录输入时序和目标事件，检查是否遗漏，而不是只观察静止时高低电平。"
+        }
+      ],
+      "conflicts": [
+        "来源只有矩阵，无对应详情页、引脚图或PDF直链；具体轴组合逻辑、门限与后缀配置缺少可核对资料。"
+      ],
+      "pdfs": [],
+      "dev_route": "/products/switch/kth468n",
+      "blog_route": "/models/kth468n/",
+      "family_confirmed": false,
+      "image": null,
+      "body": "## 目录信息与参数条件\n\n以下为[来源产品矩阵](https://chat.connteck.com/products/)的目录标注，用于初步检索；尚未用对应手册正文逐项复核，冲突项见下文，不能直接用作设计保证值。\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 器件定位 | 3D 全极性霍尔开关·微功耗 |\n| 目录所列接口 | NMOS 开漏 |\n| 目录所列采样率 / 转速 | 多频可选 |\n| 目录所列温度 | -40 ~ 125°C |\n| 目录所列封装 | SOT-23-5L |\n\n## 三维检测不等于输出三维坐标\n\n三维开关用于判断磁场状态，不能据此获得连续 XYZ 数值或空间位置。机构设计需要明确由哪一个轴、哪些轴组合触发，以及正反极性是否具有相同门限和释放行为。\n\n## 检查不同接近方向的有效窗口\n\n磁体从正面、侧面或倾斜方向靠近时，各轴分量不同。应在机构允许姿态内测动作与释放位置，特别检查临界角度是否形成漏检区域；不能只在一种摆放方向上验证。\n\n## 微功耗模式要覆盖短事件\n\n状态检测若采用间歇采样，需要确认磁体经过有效区的最短时间。对快速插拔或滑动机构，主控应同时记录输入时序和目标事件，检查是否遗漏，而不是只观察静止时高低电平。\n\n\n## 公开资料与型号核对\n\n来源只有矩阵，无对应详情页、引脚图或PDF直链；具体轴组合逻辑、门限与后缀配置缺少可核对资料。\n\n目前未取得可确认属于本型号的产品照片或技术图，保留文字资料；不以相邻型号的封装图代替。\n\n来源未提供可核验的本型号 PDF。请通过[资料入口](https://chat.connteck.com/products/)索取，未生成下载地址。\n\n\n[来源产品页](https://chat.connteck.com/products/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH468N",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTH468N 是来源矩阵中的三维全极性微功耗霍尔开关，适合在确认各轴判决关系和阈值配置后评估多方向磁体接近检测。",
+        "wiki_rank": 316,
+        "catalog_type": "磁开关",
+        "wiki_category": "磁开关",
+        "official_url": "https://chat.connteck.com/products/",
+        "catalog_source": "https://chat.connteck.com/products/",
+        "search_aliases": [
+          "KTH468N"
+        ]
+      }
+    },
+    {
+      "model": "KTM1301",
+      "slug": "ktm1301",
+      "categories": [
+        "开关 Switch"
+      ],
+      "directory_values": {
+        "说明": "TMR 磁传感器·低功耗高频感应",
+        "分辨率": "—",
+        "接口": "开漏",
+        "采样率 / 转速": "< 3G 回差",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "SOT-23-3L"
+      },
+      "source": "https://chat.connteck.com/products/switches/KTM1301/",
+      "family": "ktm13",
+      "description": "KTM1301 是全极性TMR微功耗磁开关，采用CMOS推挽输出；50Hz、1.6kHz与连续工作档分别对应不同功耗，适合按事件速度选择状态检测方案。",
+      "sections": [
+        {
+          "title": "事件检测模式影响电池预算",
+          "body": "低频采样适合缓慢开合，高速经过或计数则要求更短响应窗口。平均电流不能脱离模式、供电和输出负载理解，整机电池寿命还需计入主控、无线和电池自放电。"
+        },
+        {
+          "title": "全极性也要检查动作与释放",
+          "body": "南北极均可触发不表示全部姿态下的动作距离一致。应分别测试两种磁极、接近角度和装配间距，记录动作/释放门限与机构行程的对应关系，防止临界位置重复跳变。"
+        },
+        {
+          "title": "水表气表计数要验证最短磁脉冲",
+          "body": "旋转磁体的有效触发区决定事件持续时间。最高机械速度下应把磁场波形、开关输出和主控计数同步比较，检查遗漏和重复计数；器件频率不能独自证明整机计量正确。"
+        }
+      ],
+      "conflicts": [
+        "PDF第1页与详情概述确认CMOS推挽，来源矩阵写开漏，不能混用。五档BOP/BRP应成对读取，不将网页2Gs回差泛化到所有档位。",
+        "本次目视核对首页功能与工作点，连续版本输出频率、公差及完整时序仍以相应电参数表为准。"
+      ],
+      "pdfs": [
+        "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf"
+      ],
+      "dev_route": "/products/switch/ktm13/ktm1301",
+      "blog_route": "/models/ktm1301/",
+      "image": {
+        "path": "/images/catalog/ktm1301-browser-original.jpg",
+        "caption": "KTM1301 原厂SOT-23-3L封装图，公开手册第1页",
+        "source": "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 原理与逻辑 | TMR全极性磁开关；CMOS推挽输出；首页明确，不采用来源矩阵开漏标注；有磁动作输出低，无磁释放输出高（手册第1页） |\n| 供电范围 | 1.8～5.5 V；工作电压，按完整版本确认IO负载（手册第1页） |\n| 低功耗工作点 | 50 Hz：160 nA；1.6 kHz：600 nA；连续：1.9 µA；均为VDD=3.0 V首页标注；最低电流与最高频率不能合并（手册第1页） |\n| 动作与释放门限档 | BOP/BRP：±45/±36、±30/±21、±18/±12、±9/±6、±7/±4 Gs；首页列五组成对门限，完整公差需核电磁参数表，不将2 Gs当所有档回差（手册第1页） |\n| 温度与封装 | −40～125°C；SOT-23-3L、TO-92S；首页产品声明，各封装脚序另核（手册第1页） |\n| ESD | HBM 8 kV；首页器件声明，不代表整机测试（手册第1页） |\n\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 纳安级版本测的是什么\n\nKTM1301以TMR检测磁场门限，输出磁体是否到位。它不是连续位置编码器，不提供SPI角度。50Hz版本用低平均电流保持周期性检测，适合电池供电的低速状态事件。\n\n## 电流与频率需成对读取\n\n公开手册首页分别标注50Hz、1.6kHz与连续工作的电流，不将最低电流与最高频率合并。旧目录把连续版本写作5000Hz，本次尚未用完整时序表复核。50Hz和1.6kHz换算的周期约20ms和625µs，计算周期也不是最坏响应保证。\n\n## 磁门限决定装配窗口\n\n五档动作和释放门限形成不同磁迟滞。磁体尺寸、极性、轨迹和气隙决定机械触发距离；选择更低场门限时还应核对外部磁场及周围磁性件的影响。\n\n## 怎样接入并验收\n\nCMOS输出的电平和负载需与主控输入匹配，主控睡眠状态还要确认唤醒方式。测试最弱磁体、最大气隙、正负磁极以及全温动作/释放位置；快速掠过事件另测捕获率。\n\n## 官方资料\n\n- [KTM1301 原厂资料入口](https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/magnetoresistiveSwitchSeries/index.html)\n- [KTM1301 数据手册（官方 PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTM1301%20Series%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n## 选型补充\n\n### 事件检测模式影响电池预算\n\n低频采样适合缓慢开合，高速经过或计数则要求更短响应窗口。平均电流不能脱离模式、供电和输出负载理解，整机电池寿命还需计入主控、无线和电池自放电。\n\n### 全极性也要检查动作与释放\n\n南北极均可触发不表示全部姿态下的动作距离一致。应分别测试两种磁极、接近角度和装配间距，记录动作/释放门限与机构行程的对应关系，防止临界位置重复跳变。\n\n### 水表气表计数要验证最短磁脉冲\n\n旋转磁体的有效触发区决定事件持续时间。最高机械速度下应把磁场波形、开关输出和主控计数同步比较，检查遗漏和重复计数；器件频率不能独自证明整机计量正确。\n\n\n## 公开资料与型号核对\n\nPDF第1页与详情概述确认CMOS推挽，来源矩阵写开漏，不能混用。五档BOP/BRP应成对读取，不将网页2Gs回差泛化到所有档位。\n\n本次目视核对首页功能与工作点，连续版本输出频率、公差及完整时序仍以相应电参数表为准。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTM1301_Datasheet_CN.pdf](https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf)\n\n[来源产品页](https://chat.connteck.com/products/switches/KTM1301/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTM1301",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_type": "磁开关",
+        "catalog_form": "芯片",
+        "wiki_rank": 128,
+        "seed_count": 1,
+        "lastmod": "2026-10-30",
+        "description": "KTM1301 是全极性TMR微功耗磁开关，采用CMOS推挽输出；50Hz、1.6kHz与连续工作档分别对应不同功耗，适合按事件速度选择状态检测方案。",
+        "official_url": "https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/magnetoresistiveSwitchSeries/index.html",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "datasheet_url": "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf",
+        "datasheet_label": "数据手册原链接",
+        "wiki_category": "磁开关与状态检测",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "catalog_source": "https://chat.connteck.com/products/switches/KTM1301/",
+        "search_aliases": [
+          "KTM1301"
+        ],
+        "product_image": "/images/catalog/ktm1301-browser-original.jpg",
+        "product_image_caption": "KTM1301 原厂SOT-23-3L封装图，公开手册第1页",
+        "product_image_source": "https://chat.connteck.com/downloads/KTM1301/KTM1301_Datasheet_CN.pdf"
+      }
+    },
+    {
+      "model": "KTM2802N",
+      "slug": "ktm2802n",
+      "categories": [
+        "工业 AMR"
+      ],
+      "directory_values": {
+        "说明": "AMR 高压气缸开关·SIP",
+        "分辨率": "—",
+        "接口": "两线 / 三线",
+        "采样率 / 转速": "—",
+        "温度": "-40 ~ 105°C",
+        "车规": "AEC-Q100",
+        "封装": "HFBP2*3-6L"
+      },
+      "source": "https://chat.connteck.com/products/",
+      "family": "ktm28",
+      "description": "KTM2802N 是面向气缸磁性端位检测的 AMR 开关型号，二线/三线接法和输出类型应按本型号电路确定，不能仅凭系列名称替换簧片开关。",
+      "sections": [
+        {
+          "title": "气缸到位是一个磁事件",
+          "body": "活塞磁环经过传感器时形成动作窗口，输出表示是否达到对应磁状态，不直接给出活塞毫米位置。缸体材料、槽口、磁环和敏感轴都会改变动作区，应在目标气缸上测往返触发点。"
+        },
+        {
+          "title": "二线与三线对负载要求不同",
+          "body": "二线传感器的供电与负载共用回路，需要检查残余电流和导通压降；三线则有独立供电和输出。接 PLC 输入前，应确认 NPN/PNP、负载位置和输入门限，不能只对线色接线。"
+        },
+        {
+          "title": "最快活塞运动决定漏检风险",
+          "body": "气缸速度越高，磁环停留在有效区的时间越短。应同步记录机械动作和输出脉冲，检查高低压、不同负载与温度下的动作稳定性，避免慢速调试正常而高速生产漏检。"
+        }
+      ],
+      "conflicts": [
+        "分类页写SIP，矩阵写HFBP2×3-6L；系列供电另有30V/32V口径差异，不能合并成单一配置。",
+        "来源无独立详情页及本型号PDF直链，不能把KTM2802P或KTM28系列的输出条件直接赋给N型号。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTM2802%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      ],
+      "dev_route": "/products/switch/ktm28/ktm2802n",
+      "blog_route": "/models/ktm2802n/",
+      "image": null,
+      "body": "## 目录信息与参数条件\n\n以下为[来源产品矩阵](https://chat.connteck.com/products/)的目录标注，用于初步检索；尚未用对应手册正文逐项复核，冲突项见下文，不能直接用作设计保证值。\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 器件定位 | AMR 高压气缸开关·SIP |\n| 目录所列接口 | 两线 / 三线 |\n| 目录所列温度 | -40 ~ 105°C |\n| 目录所列封装 | HFBP2*3-6L |\n\n## 气缸到位是一个磁事件\n\n活塞磁环经过传感器时形成动作窗口，输出表示是否达到对应磁状态，不直接给出活塞毫米位置。缸体材料、槽口、磁环和敏感轴都会改变动作区，应在目标气缸上测往返触发点。\n\n## 二线与三线对负载要求不同\n\n二线传感器的供电与负载共用回路，需要检查残余电流和导通压降；三线则有独立供电和输出。接 PLC 输入前，应确认 NPN/PNP、负载位置和输入门限，不能只对线色接线。\n\n## 最快活塞运动决定漏检风险\n\n气缸速度越高，磁环停留在有效区的时间越短。应同步记录机械动作和输出脉冲，检查高低压、不同负载与温度下的动作稳定性，避免慢速调试正常而高速生产漏检。\n\n\n## 公开资料与型号核对\n\n分类页写SIP，矩阵写HFBP2×3-6L；系列供电另有30V/32V口径差异，不能合并成单一配置。\n\n来源无独立详情页及本型号PDF直链，不能把KTM2802P或KTM28系列的输出条件直接赋给N型号。\n\n目前未取得可确认属于本型号的产品照片或技术图，保留文字资料；不以相邻型号的封装图代替。\n\n来源未提供可读取的 KTM2802N 本型号 PDF；旧 KTM2802 系列公开链接返回空文件，暂停下载入口，不将其作为 N 后缀手册。\n\n\n[来源产品页](https://chat.connteck.com/products/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTM2802N",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTM2802N 是面向气缸磁性端位检测的 AMR 开关型号，二线/三线接法和输出类型应按本型号电路确定，不能仅凭系列名称替换簧片开关。",
+        "wiki_rank": 318,
+        "catalog_type": "磁开关",
+        "wiki_category": "磁开关",
+        "official_url": "https://chat.connteck.com/products/",
+        "catalog_source": "https://chat.connteck.com/products/",
+        "search_aliases": [
+          "KTM2802N"
+        ]
+      }
+    },
+    {
+      "model": "KTH31xx",
+      "slug": "kth31",
+      "categories": [
+        "线性 Linear"
+      ],
+      "directory_values": {
+        "说明": "比例式线性霍尔传感器",
+        "分辨率": "—",
+        "接口": "Analog 模拟",
+        "采样率 / 转速": "30 kHz 带宽",
+        "温度": "-40 ~ 125°C",
+        "车规": "—",
+        "封装": "SOT-23"
+      },
+      "source": "https://chat.connteck.com/products/linear/KTH31XX/",
+      "family": "kth31",
+      "description": "KTH31XX 是比例式线性霍尔系列，输出电压随磁场变化，可用于磁场测量或机构位移的前端感知；灵敏度档和机械映射需要分开选。",
+      "sections": [
+        {
+          "title": "输出电压先表达磁场",
+          "body": "器件测得的是敏感轴磁场，位移、电流或开度由外部磁路决定。用于位移时应建立整个行程的场强映射；用于电流时还需导体几何或磁芯结构，不能把线性磁场输出直接当作线性毫米或安培。"
+        },
+        {
+          "title": "灵敏度必须连同电源条件读取",
+          "body": "公开手册第1、5页给出六档成员：KTH3101、3102、3103、3105、3110、3113，同一成员在3.3V与5V时的灵敏度不同。选择时先用最大磁场与对应供电下的灵敏度计算输出摆幅，再检查负载和全温裕量，不能把不同供电条件的档位拼成七档。"
+        },
+        {
+          "title": "比例式 ADC 要共用正确参考",
+          "body": "若输出与电源成比例，采用对应比例参考可减少部分供电变化的影响，但传感器与 ADC 的电源压降、地回路和滤波仍会引入误差。布线与参考点应先明确，再验证电源变化后的读数。"
+        },
+        {
+          "title": "同为三脚封装，输出脚位置也不同",
+          "body": "公开手册第2—3页中，SOT23 的 OUT 为2脚、GND为3脚；DFN1616和TO-92S 则为GND 2脚、OUT 3脚。换封装时必须按俯视图和引脚表重核，不能只按三脚线性霍尔的习惯接线。"
+        }
+      ],
+      "conflicts": [
+        "Design Center称七档灵敏度，现有公开手册列六档成员，并分别给3.3V/5V条件，资料口径不同。",
+        "详情电气表为3.0～5.5V、引脚说明却为4.5～5.5V；公开手册工作范围为3.0～5.5V，应按完整成员与正式版本核对。",
+        "源页将SOT-23称直插且套用三轴ADC框图，两项均未采用；系列名不作为单一可订货型号。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      ],
+      "dev_route": "/products/switch/kth31",
+      "blog_route": "/models/kth31/",
+      "image": {
+        "path": "/images/catalog/kth31-package.png",
+        "caption": "KTH31 系列封装示意，原手册第1页；按完整后缀选择封装",
+        "source": "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 工作供电 | 3.0～5.5 V；典型3.3 V；工作状态；电参数表总条件TA=−40～125°C，除特别说明外（手册第6页） |\n| 工作温度 | −40～125 °C；系列推荐工作范围；不能用结温或贮存温度替代（手册第1、5页） |\n| 供电电流（3.3V） | 典型4.5 mA，最大5.5 mA；VDD=3.3 V，B=0 Gs，TA=25°C（手册第6页） |\n| 供电电流（5V） | 典型5.4 mA，最大6.5 mA；VDD=5.0 V，B=0 Gs，TA=25°C（手册第6页） |\n| 带宽 | 典型30 kHz；电参数表总条件TA=−40～125°C，VDD=3.0～5.5 V；不与外置RC后的带宽混用（手册第6页） |\n| 上电时间 | 典型20 µs，最大40 µs；TA=25°C；其余依电参数表默认条件（手册第6页） |\n| 最大负载电容 | 10 nF；电参数表最大列；外置RC应用电路另按手册第11页（手册第6页） |\n| 静态电压（3.3V） | 最小1.630 V，典型1.650 V，最大1.670 V；VDD=3.3 V，B=0，TA=25°C（手册第7页） |\n| 静态电压（5V） | 最小2.475 V，典型2.500 V，最大2.525 V；VDD=5.0 V，B=0，TA=25°C（手册第7页） |\n| 输出电压线性范围 | 0.25 V～VDD−0.25 V；TA=−40～125°C，VDD=3.0～5.5 V，除特别说明外（手册第7页） |\n| 灵敏度线性误差 | −1.5%～+1.5%；磁参数表最小/最大列；TA=−40～125°C，VDD=3.0～5.5 V，除特别说明外（手册第7页） |\n| KTH3101 灵敏度（3.3V） | 最小0.93、典型1.00、最大1.07 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3101 灵敏度（5V） | 最小1.40、典型1.50、最大1.61 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3101 磁场检测范围 | 典型±1400 Gs（3.3 V）；典型±1500 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3101 输出噪声 | 典型2.4 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| KTH3102 灵敏度（3.3V） | 最小1.53、典型1.65、最大1.76 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3102 灵敏度（5V） | 最小2.33、典型2.50、最大2.67 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3102 磁场检测范围 | 典型±840 Gs（3.3 V）；典型±900 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3102 输出噪声 | 典型3 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| KTH3103 灵敏度（3.3V） | 最小2.10、典型2.25、最大2.41 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3103 灵敏度（5V） | 最小3.16、典型3.40、最大3.68 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3103 磁场检测范围 | 典型±620 Gs（3.3 V）；典型±660 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3103 输出噪声 | 典型3.5 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| KTH3105 灵敏度（3.3V） | 最小3.07、典型3.30、最大3.53 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3105 灵敏度（5V） | 最小4.65、典型5.00、最大5.35 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3105 磁场检测范围 | 典型±420 Gs（3.3 V）；典型±450 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3105 输出噪声 | 典型4.8 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| KTH3110 灵敏度（3.3V） | 最小6.14、典型6.60、最大7.06 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3110 灵敏度（5V） | 最小9.30、典型10.00、最大10.70 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3110 磁场检测范围 | 典型±210 Gs（3.3 V）；典型±225 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3110 输出噪声 | 典型7.2 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| KTH3113 灵敏度（3.3V） | 最小8.28、典型8.90、最大9.52 mV/Gs；VDD=3.3 V，TA=25°C（手册第7页） |\n| KTH3113 灵敏度（5V） | 最小12.56、典型13.50、最大14.45 mV/Gs；VDD=5.0 V，TA=25°C（手册第7页） |\n| KTH3113 磁场检测范围 | 典型±150 Gs（3.3 V）；典型±165 Gs（5.0 V）；磁参数表典型列；不改写成所有温度下的最大保证范围（手册第7、8页） |\n| KTH3113 输出噪声 | 典型8.6 mV RMS；VDD=3.3 V，TA=25°C；未叠加第11页外部RC滤波（手册第6页） |\n| 封装引脚 | SOT23：VDD=1、OUT=2、GND=3；DFN1616/TO-92S：VDD=1、GND=2、OUT=3；按手册封装与俯视图，不能按三脚器件习惯统一接线（手册第2、3页） |\n\n\n参数依据：[原厂数据手册及型号选型表](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)。\n\n## 先按磁路选灵敏度\n\nKTH31测量磁场分量，磁体和机构把位移转换为场强，再由芯片转换为电压。灵敏度越高，相同磁场变化带来的电压越大，同时可用场强范围更小。六个成员并非数字分辨率不同的同一颗芯片。\n\n## 比例输出怎样接ADC\n\n灵敏度随供电变化，评估时要同时记录供电和ADC参考。若两者使用同一稳定基准，可按比例式链路核算；若参考独立，则供电变化会进入电压到磁场的换算。\n\n## 磁场范围不等于机构行程\n\n±1500Gs与±165Gs是不同成员的目录范围，不能直接对应相同毫米数。磁体在整个行程内还应保持单调映射，避开场强饱和或位移曲线折返。\n\n## 标定与验收\n\n保留零场电压、两端电压、ADC原始码及磁体位置。按完整型号核对输出负载、带宽与温度条件，再测试供电、气隙、磁体批次和温度变化；用室温两点拟合得到的行程精度不能替代全温结果。\n\n## 官方资料\n\n- [KTH31系列 官方资料](https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/proportionallinerhalleffectsensor/index.html)\n\n- [KTH31系列官方手册（PDF）](https://www.conntek.com.cn/api/resource/freeDownload?name=KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n## 选型补充\n\n### 输出电压先表达磁场\n\n器件测得的是敏感轴磁场，位移、电流或开度由外部磁路决定。用于位移时应建立整个行程的场强映射；用于电流时还需导体几何或磁芯结构，不能把线性磁场输出直接当作线性毫米或安培。\n\n### 灵敏度必须连同电源条件读取\n\n公开手册第1、5页给出六档成员：KTH3101、3102、3103、3105、3110、3113，同一成员在3.3V与5V时的灵敏度不同。选择时先用最大磁场与对应供电下的灵敏度计算输出摆幅，再检查负载和全温裕量，不能把不同供电条件的档位拼成七档。\n\n### 比例式 ADC 要共用正确参考\n\n若输出与电源成比例，采用对应比例参考可减少部分供电变化的影响，但传感器与 ADC 的电源压降、地回路和滤波仍会引入误差。布线与参考点应先明确，再验证电源变化后的读数。\n\n### 同为三脚封装，输出脚位置也不同\n\n公开手册第2—3页中，SOT23 的 OUT 为2脚、GND为3脚；DFN1616和TO-92S 则为GND 2脚、OUT 3脚。换封装时必须按俯视图和引脚表重核，不能只按三脚线性霍尔的习惯接线。\n\n\n## 公开资料与型号核对\n\nDesign Center称七档灵敏度，现有公开手册列六档成员，并分别给3.3V/5V条件，资料口径不同。\n\n详情电气表为3.0～5.5V、引脚说明却为4.5～5.5V；公开手册工作范围为3.0～5.5V，应按完整成员与正式版本核对。\n\n源页将SOT-23称直插且套用三轴ADC框图，两项均未采用；系列名不作为单一可订货型号。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTH31 Series 产品手册.pdf](https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n[来源产品页](https://chat.connteck.com/products/linear/KTH31XX/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTH31系列",
+        "description": "KTH31XX 是比例式线性霍尔系列，输出电压随磁场变化，可用于磁场测量或机构位移的前端感知；灵敏度档和机械映射需要分开选。",
+        "wiki": true,
+        "wiki_type": "model",
+        "wiki_rank": 206,
+        "seed_count": 0,
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "wiki_category": "线性磁场",
+        "catalog_vendor": "昆泰芯",
+        "catalog_type": "线性磁场",
+        "catalog_form": "芯片",
+        "search_aliases": [
+          "KTH3101",
+          "KTH3102",
+          "KTH3103",
+          "KTH3105",
+          "KTH31XX",
+          "KTH31xx"
+        ],
+        "official_url": "https://www.conntek.com.cn/html/web/product/switchPositionDetectionChip/proportionallinerhalleffectsensor/index.html",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "model_card": true,
+        "datasheet_url": "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "datasheet_label": "数据手册原链接",
+        "catalog_source": "https://chat.connteck.com/products/linear/KTH31XX/",
+        "product_image": "/images/catalog/kth31-package.png",
+        "product_image_caption": "KTH31 系列封装示意，原手册第1页；按完整后缀选择封装",
+        "product_image_source": "https://conntek.github.io/files/KTH31%20Series%20%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      }
+    },
+    {
+      "model": "KTAx333",
+      "slug": "ktax333",
+      "categories": [
+        "信号链 Signal"
+      ],
+      "directory_values": {
+        "说明": "零温漂高精度运放·2μV 失调",
+        "分辨率": "—",
+        "接口": "Analog",
+        "采样率 / 转速": "轨到轨 I/O",
+        "温度": "-40 ~ 125°C",
+        "车规": "AEC-Q100",
+        "封装": "SOT-23-5"
+      },
+      "source": "https://chat.connteck.com/products/signal-chain/KTA333/",
+      "family": "ktax33",
+      "description": "KTAx333 是精密运算放大器系列入口，来源详情对应 KTA333 单通道型号；用于传感器调理时，需把失调、带宽、共模范围与负载放在同一电路中评估。",
+      "sections": [
+        {
+          "title": "低失调帮助小信号，但不是完整误差预算",
+          "body": "传感器前端总误差还包括偏置电流与源阻抗、反馈电阻、参考电压、温漂和 ADC。选择运放时应先计算输入信号与闭环增益，再把各项误差折算到输入端，不只按典型失调排名。"
+        },
+        {
+          "title": "增益带宽与稳定性一起检查",
+          "body": "闭环增益、传感器阻抗和负载电容会影响动态响应。光电二极管跨阻电路还需要针对输入电容和反馈网络检查稳定性，不能从低失调或轨到轨标签直接判断适合任意 TIA。"
+        },
+        {
+          "title": "单通道与双通道封装不能混名",
+          "body": "KTA333 与来源提到的双通道 KTA2333 应分清，封装和引脚按具体型号核对。电阻分流电流采样需要接入被测回路，不应写成天然无侵入式测量。"
+        },
+        {
+          "title": "微功耗和输出摆幅都带负载条件",
+          "body": "Rev1.0公开手册区分单通道KTA333与双通道KTA2333，并给出相应静态电流。其轨到轨输出也有距电源轨的余量，表中摆幅以10kΩ负载为条件；驱动ADC或较重负载时，应重新检查稳定性、建立时间与饱和恢复。"
+        }
+      ],
+      "conflicts": [
+        "矩阵使用系列名KTAx333，详情对应单通道KTA333，分类首屏MSOP8属于双通道封装路径，不能混用。",
+        "Design Center规格书标待上传；本次补充原厂已有Rev1.0公开手册的链接与文字依据，不把待上传按钮伪装成可下载。",
+        "零漂移不等于温漂为零：手册给输入失调漂移0.02µV/°C典型、0.05µV/°C最大，按各自条件读取。"
+      ],
+      "pdfs": [
+        "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf"
+      ],
+      "dev_route": "/products/other/ktax33",
+      "blog_route": "/models/ktax333/",
+      "image": {
+        "path": "/images/catalog/ktax333-original-figure.png",
+        "caption": "KTAx333 系列引脚与标记信息（原手册第2页）",
+        "source": "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=2"
+      },
+      "body": "## 核心参数\n\n| 项目 | 内容与条件 |\n| --- | --- |\n| 供电 | 单电源1.8～5.5 V；双电源±0.9～±2.75 V；推荐工作条件与应用指南；不能把6.5V绝对最大值作为工作电源（手册第4、8页） |\n| 工作温度 | −40～125 °C；额定温度范围（手册第4、5页） |\n| 输入失调电压 | 典型2 µV，最大10 µV；VS=5 V，TA=25°C、VCM=VS/2、VOUT=VS/2，除特别说明外（手册第1、5页） |\n| 输入失调漂移 | 典型0.02 µV/°C，最大0.05 µV/°C；TA=−40～125°C；电参数表（手册第1、5页） |\n| 输入共模范围 | (V−)−0.1 V～(V+)+0.1 V；电参数表第5页；不能把该工作范围当作允许输入保护电流的范围（手册第5、8页） |\n| 距电源轨的输出余量 | 表列30 mV、70 mV；应用指南描述小于100 mV；RL=10 kΩ；文字提取未保留该行列坐标，故不擅自指定30/70的典型/最大属性（手册第5、8页） |\n| 静态电流 | 单通道表列17 µA；双通道表列30 µA；IO=0 A，TA=−40～125°C；单/双通道分别计，不将30µA当每通道（手册第1、5页） |\n| 增益带宽积 | 表列350 kHz；CL=100 pF；TA=25°C、VCM=VS/2、VOUT=VS/2，除特别说明外（手册第5页） |\n| 压摆率 | 表列0.16 V/µs；G=1；电参数表默认条件（手册第5页） |\n| 低频输入噪声 | 表列1.1 µV峰峰值；频带0.1～10 Hz；不能改成RMS噪声（手册第1、5页） |\n| 启动至额定失调精度 | 约200 µs；应用指南；电参数表开通时间条件VS=+5 V（手册第5、8页） |\n| 失调校正周期 | 10 µs；手册第8页斩波自校准机制，不代表输出建立时间（手册第8页） |\n| 单通道/双通道 | KTA333：单通道；KTA2333：双通道；按完整订货型号区分（手册第1、3、12页） |\n| 单通道封装 | KTA333-ST5=SOT23-5；SF5=SOT353-5；SC5=SC70-5；SP8=SOP-8；Rev1.0订货表中SF5/SC5/SP8带星号，注明当时仅少量样品；不能据旧表判断当前供货（手册第12页） |\n| 双通道封装 | KTA2333-MP8=MSOP-8；DZ8=DFN2020-8；SP8=SOP-8；Rev1.0订货表DZ8带星号；当前生命周期另核对（手册第12页） |\n| 电源旁路建议 | 0.1 µF，靠近供电脚；应用指南建议；不同电路仍需确认负载和稳定性（手册第8页） |\n\n## 低失调帮助小信号，但不是完整误差预算\n\n传感器前端总误差还包括偏置电流与源阻抗、反馈电阻、参考电压、温漂和 ADC。选择运放时应先计算输入信号与闭环增益，再把各项误差折算到输入端，不只按典型失调排名。\n\n## 增益带宽与稳定性一起检查\n\n闭环增益、传感器阻抗和负载电容会影响动态响应。光电二极管跨阻电路还需要针对输入电容和反馈网络检查稳定性，不能从低失调或轨到轨标签直接判断适合任意 TIA。\n\n## 单通道与双通道封装不能混名\n\nKTA333 与来源提到的双通道 KTA2333 应分清，封装和引脚按具体型号核对。电阻分流电流采样需要接入被测回路，不应写成天然无侵入式测量。\n\n## 微功耗和输出摆幅都带负载条件\n\nRev1.0公开手册区分单通道KTA333与双通道KTA2333，并给出相应静态电流。其轨到轨输出也有距电源轨的余量，表中摆幅以10kΩ负载为条件；驱动ADC或较重负载时，应重新检查稳定性、建立时间与饱和恢复。\n\n\n## 公开资料与型号核对\n\n矩阵使用系列名KTAx333，详情对应单通道KTA333，分类首屏MSOP8属于双通道封装路径，不能混用。\n\nDesign Center规格书标待上传；本次补充原厂已有Rev1.0公开手册的链接与文字依据，不把待上传按钮伪装成可下载。\n\n零漂移不等于温漂为零：手册给输入失调漂移0.02µV/°C典型、0.05µV/°C最大，按各自条件读取。\n\n按完整型号、等级和版本选择手册。公开链接核对日期：2026-10-30。\n\n- [KTAx333产品手册.pdf](https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf)\n\n[来源产品页](https://chat.connteck.com/products/signal-chain/KTA333/) · [昆泰芯型号目录](/wiki/?vendor=昆泰芯)\n\n",
+      "meta": {
+        "title": "KTAx333",
+        "wiki": true,
+        "wiki_type": "model",
+        "catalog_form": "芯片",
+        "lastmod": "2026-10-30",
+        "related_companies": [
+          "昆泰芯"
+        ],
+        "model_card": true,
+        "description": "KTAx333 是精密运算放大器系列入口，来源详情对应 KTA333 单通道型号；用于传感器调理时，需把失调、带宽、共模范围与负载放在同一电路中评估。",
+        "wiki_rank": 320,
+        "catalog_type": "模拟信号链",
+        "wiki_category": "模拟信号链",
+        "official_url": "https://chat.connteck.com/products/signal-chain/KTA333/",
+        "catalog_source": "https://chat.connteck.com/products/signal-chain/KTA333/",
+        "search_aliases": [
+          "KTAx333"
+        ],
+        "datasheet_url": "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf",
+        "datasheet_label": "数据手册原链接",
+        "document_version": "版本以链接文件名及原件为准；公开链接核对：2026-10-30",
+        "product_image": "/images/catalog/ktax333-original-figure.png",
+        "product_image_caption": "KTAx333 系列引脚与标记信息（原手册第2页）",
+        "product_image_source": "https://conntek.github.io/files/KTAx333%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf#page=2"
+      }
+    }
+  ],
+  "supplementary": {
+    "KTP112": {
+      "description": "KTP112 在来源的信号链分类导语中被列为数字温度传感器，但当前分类未给独立型号资料，需补齐原厂产品页与手册后再进行参数选型。",
+      "sections": [
+        {
+          "title": "先明确它测哪里的温度",
+          "body": "数字温度传感器通常反映芯片所在位置的热状态。若用于磁传感器温度补偿，需要确认热源、布局及热响应的关系，不能把附近温度直接视作磁体或敏感元件的实时温度。"
+        },
+        {
+          "title": "缺少手册时保留资料入口",
+          "body": "本次来源只提供分类级名称，尚不能核对接口、电压、测温范围、精度、封装和订货后缀。本页保留该型号以便检索，不从其他温度传感器推填参数，也不生成不存在的图片或 PDF 下载链接。"
+        }
+      ],
+      "conflicts": [
+        "分类标题写“数字温度传感器”，正文主要介绍KTAX333；无KTP112独立矩阵项、详情页、产品图片或PDF链接。"
+      ]
+    },
+    "status": "分类预告；不计入21个目录型号"
+  }
+}

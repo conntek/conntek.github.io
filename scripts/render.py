@@ -2116,6 +2116,10 @@ def main():
     render_nav()
     n_xref = autolink_pages()
     print('llms.txt lines', render_llms())
+    # Preserve the audited exact-model content and its external-only PDFs.
+    import sys
+    from render_catalog import render_catalog
+    render_catalog(sys.modules[__name__])
     print('autolinked', n_xref, 'model/series mentions')
     stale = prune_stale()
     print('rendered', len(PRODUCTS), 'products +', n_models, 'model +', n_cases, 'case pages +', n_terms,
